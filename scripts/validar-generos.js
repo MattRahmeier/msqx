@@ -18,7 +18,8 @@ for (const g of generos) {
   if (!g.nome) erros.push(`${g.id}: falta "nome"`);
   if (g.resumoPendente) avisos.push(`${g.id}: resumo pendente (${g.resumoPendente})`);
   else if (!g.resumo) erros.push(`${g.id}: falta "resumo" (rode scripts/buscar-resumos.js)`);
-  else if (!g.resumoFonte?.url) erros.push(`${g.id}: resumo sem "resumoFonte"`);
+  else if (!g.resumoFonte?.url && !(g.resumoFonte?.tipo === "parafrase" && g.resumoFonte.nota)) erros.push(`${g.id}: resumo sem "resumoFonte"`);
+  else if (!g.resumoFonte.url) avisos.push(`${g.id}: paráfrase sem link da fonte original`);
   if (g.mestre !== (g.pai === null)) erros.push(`${g.id}: "mestre" deve ser true só quando "pai" é null`);
 }
 
