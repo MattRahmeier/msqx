@@ -7,6 +7,9 @@ Site de curadoria musical ("segundo cérebro" de gêneros). Leia antes de trabal
 - `docs/roadmap.md` — fases e decisões em aberto. Não pule a Fase 0 sem confirmar com o usuário.
 - `docs/referencias.md` — fontes de dados e pendências de acesso (RYM/Cloudflare).
 
+Conteúdo:
+- Resumos e descrições de gêneros/álbuns são sempre texto escrito por pessoas (Wikipédia ou outra fonte com licença livre, citada), nunca redigidos pelo Claude. Não copiar texto de sites com direitos reservados (RYM, AllMusic etc.); usar só como link.
+
 Convenções:
 - Textos da interface em português do Brasil; nomes de gêneros sempre os nomes reais (em inglês quando for o nome usual).
 - Arquivos e IDs em `kebab-case`.

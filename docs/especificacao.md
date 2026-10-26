@@ -16,6 +16,7 @@ Grafo gigante de interconexões entre **gêneros mestres** (originários) e seus
 - Linhas animadas com leve flutuação; reagem/movem-se quando o mouse passa por cima.
 - Clicar num gênero (ex.: "Heavy Metal") expande círculos menores com seus subgêneros diretos; cada subgênero pode ser expandido de novo.
 - Ao clicar num gênero, abre ao lado um **pop-up** (animação simples) com um resumo do gênero, baseado na primeira linha da Wikipédia, RateYourMusic, Discogs, Encyclopaedia Metallum e outros sites especializados.
+  - Os resumos são **sempre conteúdo escrito por pessoas**, nunca texto próprio da IA. Fonte principal: Wikipédia (licença CC BY-SA), com link "Fonte: Wikipédia" no pop-up. Texto de sites especializados com direitos reservados (RYM, AllMusic, Metallum, Musicmap) não é copiado; esses sites entram como link "Saiba mais".
 - Botão **"Mais informações"**: amplia o pop-up (mantendo o cérebro visível) e oferece:
   - uma playlist com músicas importantes do gênero;
   - os melhores/mais famosos álbuns do gênero.

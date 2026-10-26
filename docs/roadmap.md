@@ -4,13 +4,15 @@
 - [x] **Stack:** site estático (HTML/CSS/JS puro, sem build) + **D3** para o grafo da Visão de Cérebro.
 - [x] **Hospedagem:** GitHub Pages, repositório [`MattRahmeier/musique-scout`](https://github.com/MattRahmeier/musique-scout) — **privado por enquanto**; tornar público antes de ativar o Pages (plano gratuito exige).
 - [x] **Streaming:** híbrido — link direto do álbum quando estiver no JSON (`links`); sem ele, o botão abre a busca "Artista Álbum" na plataforma.
-- [x] **Escopo do piloto:** gêneros mestres **Blues, Rock, Metal, Eletrônica e Hip Hop**, com subgêneros e ~5 charts completos.
+- [x] **Escopo do piloto:** gêneros mestres **Blues, Rock, Pop, Metal, Eletrônica e Hip Hop**, com subgêneros e ~5 charts completos.
   - Gêneros mestres também têm linhagem entre si: **Blues → Rock → Metal**. Essas origens aparecem no cérebro como uma **linha-guia de conexão** (ver `modelo-de-dados.md`, campo `origens`).
 - [x] **RateYourMusic:** leitura pelo **Claude in Chrome**, com a sessão do usuário, em ritmo humano e só páginas pontuais. CAPTCHA/verificação do Cloudflare é resolvido pelo usuário, nunca pelo Claude.
 - [x] **Imagens:** capas via API (Cover Art Archive / Discogs), salvas em `assets/img/capas/`; fotos de gênero de fontes livres (Unsplash, Wikimedia Commons) com crédito em `data/creditos.json`.
 
 ## Fase 1 — Dados
-- [x] Árvore de gêneros do piloto em `data/generos/generos.json`: 5 mestres, 92 subgêneros, com resumos, década, origens e similares. Validador em `scripts/validar-generos.js`.
+- [x] Árvore de gêneros do piloto em `data/generos/generos.json`: 6 mestres, 110 subgêneros, com década, origens e similares. Validador em `scripts/validar-generos.js`.
+- [x] Resumos trocados por texto da Wikipédia (`scripts/buscar-resumos.js`): 113 com fonte, 3 pendentes.
+- [ ] Decidir os pendentes: Stoner Metal (a Wikipédia trata como sinônimo de Stoner Rock), Abstract Hip Hop (a Wikipédia francesa trata como sinônimo de Experimental Hip Hop) e Bedroom Pop (sem artigo próprio; a Wikipédia inclui em Lo-fi).
 - [ ] Revisão da árvore pelo usuário (nomes, hierarquia, o que falta ou sobra).
 - [ ] Charts das Essential Charts transcritos para JSON.
 - [ ] Fichas de álbuns: metadados, tags, 2 reviews positivos, links.

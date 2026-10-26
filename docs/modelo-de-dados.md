@@ -21,6 +21,7 @@ Arquivos JSON estáticos em `data/`, lidos pelo site no navegador. Os IDs são `
 }
 ```
 
+- `resumo` — **sempre texto escrito por pessoas, nunca gerado por IA.** Vem das primeiras frases da Wikipédia (português; inglês quando não há artigo em português), copiadas sem alteração por `scripts/buscar-resumos.js`, com `resumoFonte` (`url`, `idioma`, `licenca: "CC BY-SA 4.0"`). Quando o artigo automático é vago ou errado, `resumoArtigo` (ex.: `"pt:Heavy metal tradicional"`) e `resumoFrases` escolhem outro artigo ou mais frases; `resumoArtigo: false` + `resumoPendente` marcam gêneros sem fonte adequada.
 - `decada` — década aproximada de surgimento (ex.: `1980` = anos 1980). Serve para ordenar e contar a história no cérebro.
 - `playlist`, `albunsEssenciais` e `imagem` são opcionais e entram em fases posteriores (álbuns e imagens).
 - Rode `node scripts/validar-generos.js` após editar (acrescente `--wiki` para conferir os links da Wikipédia).
@@ -31,7 +32,7 @@ Três tipos de ligação, cada um com um estilo de linha próprio no cérebro:
 - `origens` — linhagem histórica: de quais gêneros este surgiu. Vale também entre mestres (Blues → Rock → Metal) e desenha uma **linha-guia de conexão** sempre visível. Pode ter mais de uma origem.
 - `similares` — parentesco estético; alimenta o bloco "Gêneros similares" e, opcionalmente, linhas tênues no grafo.
 
-Piloto: mestres `blues`, `rock` (origens incluem `blues`), `metal` (origens incluem `rock`), `eletronica` e `hip-hop`. Origens fora do piloto (ex.: `disco`, `funk`, `soul`, `jazz`, `industrial`) ficam registradas mesmo que o gênero ainda não exista no JSON; o site ignora IDs ausentes e o validador só os lista como aviso.
+Piloto: mestres `blues`, `rock` (origens incluem `blues`), `pop`, `metal` (origens incluem `rock`), `eletronica` e `hip-hop`. Origens fora do piloto (ex.: `disco`, `funk`, `soul`, `jazz`, `industrial`) ficam registradas mesmo que o gênero ainda não exista no JSON; o site ignora IDs ausentes e o validador só os lista como aviso.
 
 A hierarquia (`pai`) e a linhagem (`origens`) são independentes: o Metal é mestre próprio (`pai: null`), mas tem o Rock entre suas origens; o Grindcore está sob o Metal, mas também vem do Hardcore Punk (Rock). Essas linhas cruzadas entre árvores são o que forma o "cérebro".
 

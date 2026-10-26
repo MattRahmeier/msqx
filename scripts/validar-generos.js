@@ -15,7 +15,10 @@ for (const g of generos) {
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(g.id)) erros.push(`${g.id}: id fora de kebab-case`);
   if (porId.has(g.id)) erros.push(`${g.id}: id duplicado`);
   porId.set(g.id, g);
-  for (const campo of ["nome", "resumo"]) if (!g[campo]) erros.push(`${g.id}: falta "${campo}"`);
+  if (!g.nome) erros.push(`${g.id}: falta "nome"`);
+  if (g.resumoPendente) avisos.push(`${g.id}: resumo pendente (${g.resumoPendente})`);
+  else if (!g.resumo) erros.push(`${g.id}: falta "resumo" (rode scripts/buscar-resumos.js)`);
+  else if (!g.resumoFonte?.url) erros.push(`${g.id}: resumo sem "resumoFonte"`);
   if (g.mestre !== (g.pai === null)) erros.push(`${g.id}: "mestre" deve ser true só quando "pai" é null`);
 }
 

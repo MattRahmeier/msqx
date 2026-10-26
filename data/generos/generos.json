@@ -1,302 +1,2784 @@
 [
-  { "id": "blues", "nome": "Blues", "pai": null, "mestre": true, "decada": 1900, "origens": [],
-    "resumo": "Gênero nascido entre afro-americanos do Sul dos EUA no fim do século XIX, a partir de spirituals, work songs e canções de campo, marcado pela estrutura de 12 compassos e pelas blue notes.",
-    "fontes": ["https://en.wikipedia.org/wiki/Blues"], "similares": ["rock", "hip-hop"] },
-
-  { "id": "delta-blues", "nome": "Delta Blues", "pai": "blues", "mestre": false, "decada": 1920, "origens": [],
-    "resumo": "Uma das primeiras formas registradas de blues, vinda do Delta do Mississippi: violão e voz, slide guitar e forte intensidade emocional.",
-    "fontes": ["https://en.wikipedia.org/wiki/Delta_blues"], "similares": ["piedmont-blues", "texas-blues"] },
-  { "id": "piedmont-blues", "nome": "Piedmont Blues", "pai": "blues", "mestre": false, "decada": 1920, "origens": [],
-    "resumo": "Blues da costa leste dos EUA tocado com fingerpicking ragtime, em que o polegar marca o baixo alternado enquanto os dedos fazem a melodia.",
-    "fontes": ["https://en.wikipedia.org/wiki/Piedmont_blues"], "similares": ["delta-blues", "texas-blues"] },
-  { "id": "texas-blues", "nome": "Texas Blues", "pai": "blues", "mestre": false, "decada": 1920, "origens": [],
-    "resumo": "Vertente texana do blues, de swing mais solto e guitarra solista em destaque, que mais tarde ganhou versões elétricas influentes.",
-    "fontes": ["https://en.wikipedia.org/wiki/Texas_blues"], "similares": ["delta-blues", "electric-blues"] },
-  { "id": "boogie-woogie", "nome": "Boogie-Woogie", "pai": "blues", "mestre": false, "decada": 1920, "origens": [],
-    "resumo": "Estilo de blues ao piano baseado em linhas de baixo repetitivas e dançantes na mão esquerda, peça-chave na formação do rock and roll.",
-    "fontes": ["https://en.wikipedia.org/wiki/Boogie-woogie"], "similares": ["jump-blues", "rock-and-roll"] },
-  { "id": "jump-blues", "nome": "Jump Blues", "pai": "blues", "mestre": false, "decada": 1940, "origens": ["boogie-woogie"],
-    "resumo": "Blues acelerado com metais e ritmo de swing, tocado por pequenos conjuntos; ponte direta entre as big bands e o rhythm and blues.",
-    "fontes": ["https://en.wikipedia.org/wiki/Jump_blues"], "similares": ["boogie-woogie", "rock-and-roll"] },
-  { "id": "electric-blues", "nome": "Electric Blues", "pai": "blues", "mestre": false, "decada": 1940, "origens": ["delta-blues", "texas-blues"],
-    "resumo": "Blues tocado com guitarra elétrica e amplificação, que trouxe volume, distorção e o formato de banda com baixo e bateria.",
-    "fontes": ["https://en.wikipedia.org/wiki/Electric_blues"], "similares": ["chicago-blues", "blues-rock"] },
-  { "id": "chicago-blues", "nome": "Chicago Blues", "pai": "electric-blues", "mestre": false, "decada": 1940, "origens": ["delta-blues"],
-    "resumo": "Blues elétrico criado por músicos que migraram do Mississippi para Chicago, com gaita amplificada, guitarra e seção rítmica completa.",
-    "fontes": ["https://en.wikipedia.org/wiki/Chicago_blues"], "similares": ["electric-blues", "british-blues"] },
-  { "id": "british-blues", "nome": "British Blues", "pai": "blues", "mestre": false, "decada": 1960, "origens": ["chicago-blues"],
-    "resumo": "Reinterpretação britânica do blues elétrico americano que revelou guitarristas decisivos e alimentou o blues rock e o hard rock.",
-    "fontes": ["https://en.wikipedia.org/wiki/British_blues"], "similares": ["chicago-blues", "blues-rock"] },
-
-  { "id": "rock", "nome": "Rock", "pai": null, "mestre": true, "decada": 1950, "origens": ["blues", "rhythm-and-blues", "country"],
-    "resumo": "Gênero surgido do rock and roll americano e transformado nos anos 1960 em uma linguagem ampla, centrada em guitarra elétrica, baixo e bateria.",
-    "fontes": ["https://en.wikipedia.org/wiki/Rock_music"], "similares": ["blues", "metal"] },
-
-  { "id": "rock-and-roll", "nome": "Rock and Roll", "pai": "rock", "mestre": false, "decada": 1950, "origens": ["boogie-woogie", "jump-blues", "rhythm-and-blues", "country"],
-    "resumo": "Música dançante dos anos 1950 que fundiu rhythm and blues, boogie-woogie e country, com batida marcada e guitarra em primeiro plano.",
-    "fontes": ["https://en.wikipedia.org/wiki/Rock_and_roll"], "similares": ["rockabilly", "jump-blues"] },
-  { "id": "rockabilly", "nome": "Rockabilly", "pai": "rock-and-roll", "mestre": false, "decada": 1950, "origens": ["country"],
-    "resumo": "Uma das primeiras formas de rock and roll, misturando country e rhythm and blues com contrabaixo estalado e eco na voz.",
-    "fontes": ["https://en.wikipedia.org/wiki/Rockabilly"], "similares": ["rock-and-roll", "surf-rock"] },
-  { "id": "surf-rock", "nome": "Surf Rock", "pai": "rock", "mestre": false, "decada": 1960, "origens": ["rock-and-roll"],
-    "resumo": "Rock instrumental da Califórnia do início dos anos 1960, com guitarras cheias de reverb e tremolo que evocam o mar.",
-    "fontes": ["https://en.wikipedia.org/wiki/Surf_music"], "similares": ["garage-rock", "rockabilly"] },
-  { "id": "garage-rock", "nome": "Garage Rock", "pai": "rock", "mestre": false, "decada": 1960, "origens": ["rock-and-roll", "british-blues"],
-    "resumo": "Rock cru e amador dos anos 1960, gravado com poucos recursos por bandas jovens; considerado um antecessor direto do punk.",
-    "fontes": ["https://en.wikipedia.org/wiki/Garage_rock"], "similares": ["punk-rock", "psychedelic-rock"] },
-  { "id": "psychedelic-rock", "nome": "Psychedelic Rock", "pai": "rock", "mestre": false, "decada": 1960, "origens": ["garage-rock", "folk-rock"],
-    "resumo": "Rock que tenta reproduzir estados alterados de consciência com efeitos de estúdio, distorção, faixas longas e influências orientais.",
-    "fontes": ["https://en.wikipedia.org/wiki/Psychedelic_rock"], "similares": ["progressive-rock", "stoner-rock"] },
-  { "id": "folk-rock", "nome": "Folk Rock", "pai": "rock", "mestre": false, "decada": 1960, "origens": ["folk"],
-    "resumo": "Fusão da música folk com a instrumentação elétrica do rock, com destaque para harmonias vocais e letras de cantautor.",
-    "fontes": ["https://en.wikipedia.org/wiki/Folk_rock"], "similares": ["psychedelic-rock", "indie-rock"] },
-  { "id": "blues-rock", "nome": "Blues Rock", "pai": "rock", "mestre": false, "decada": 1960, "origens": ["electric-blues", "british-blues"],
-    "resumo": "Rock construído sobre progressões e improvisos de blues elétrico, com guitarras mais pesadas e solos longos.",
-    "fontes": ["https://en.wikipedia.org/wiki/Blues_rock"], "similares": ["hard-rock", "british-blues"] },
-  { "id": "hard-rock", "nome": "Hard Rock", "pai": "rock", "mestre": false, "decada": 1960, "origens": ["blues-rock", "garage-rock", "psychedelic-rock"],
-    "resumo": "Rock de volume alto e guitarras distorcidas baseadas em riffs, com vocais potentes; a ponte direta para o heavy metal.",
-    "fontes": ["https://en.wikipedia.org/wiki/Hard_rock"], "similares": ["heavy-metal", "glam-rock"] },
-  { "id": "glam-rock", "nome": "Glam Rock", "pai": "rock", "mestre": false, "decada": 1970, "origens": ["hard-rock", "rock-and-roll"],
-    "resumo": "Rock britânico dos anos 1970 marcado pela teatralidade, figurinos extravagantes e refrões grudentos.",
-    "fontes": ["https://en.wikipedia.org/wiki/Glam_rock"], "similares": ["hard-rock", "punk-rock"] },
-  { "id": "progressive-rock", "nome": "Progressive Rock", "pai": "rock", "mestre": false, "decada": 1960, "origens": ["psychedelic-rock"],
-    "resumo": "Rock ambicioso que incorpora estruturas longas, mudanças de compasso e influências de música clássica e jazz, muitas vezes em álbuns conceituais.",
-    "fontes": ["https://en.wikipedia.org/wiki/Progressive_rock"], "similares": ["krautrock", "progressive-metal"] },
-  { "id": "krautrock", "nome": "Krautrock", "pai": "rock", "mestre": false, "decada": 1960, "origens": ["psychedelic-rock", "progressive-rock"],
-    "resumo": "Rock experimental alemão do fim dos anos 1960 e dos anos 1970, de ritmos repetitivos (motorik), improviso e eletrônica precoce.",
-    "fontes": ["https://en.wikipedia.org/wiki/Krautrock"], "similares": ["post-rock", "ambient"] },
-  { "id": "stoner-rock", "nome": "Stoner Rock", "pai": "hard-rock", "mestre": false, "decada": 1990, "origens": ["psychedelic-rock", "doom-metal"],
-    "resumo": "Rock lento e grave, com guitarras afinadas baixo, fuzz espesso e clima psicodélico, também chamado de desert rock.",
-    "fontes": ["https://en.wikipedia.org/wiki/Stoner_rock"], "similares": ["stoner-metal", "psychedelic-rock"] },
-  { "id": "punk-rock", "nome": "Punk Rock", "pai": "rock", "mestre": false, "decada": 1970, "origens": ["garage-rock", "glam-rock"],
-    "resumo": "Rock rápido, curto e direto dos anos 1970, com ética faça-você-mesmo e postura de confronto ao mainstream.",
-    "fontes": ["https://en.wikipedia.org/wiki/Punk_rock"], "similares": ["hardcore-punk", "garage-rock"] },
-  { "id": "hardcore-punk", "nome": "Hardcore Punk", "pai": "punk-rock", "mestre": false, "decada": 1970, "origens": ["punk-rock"],
-    "resumo": "Punk mais rápido, agressivo e curto, surgido no fim dos anos 1970 nos EUA, com uma cena independente própria.",
-    "fontes": ["https://en.wikipedia.org/wiki/Hardcore_punk"], "similares": ["thrash-metal", "post-hardcore"] },
-  { "id": "post-hardcore", "nome": "Post-Hardcore", "pai": "hardcore-punk", "mestre": false, "decada": 1980, "origens": ["hardcore-punk", "post-punk"],
-    "resumo": "Desdobramento do hardcore que mantém a intensidade, mas experimenta com dinâmica, dissonância e estruturas mais complexas.",
-    "fontes": ["https://en.wikipedia.org/wiki/Post-hardcore"], "similares": ["math-rock", "emo"] },
-  { "id": "emo", "nome": "Emo", "pai": "post-hardcore", "mestre": false, "decada": 1980, "origens": ["post-hardcore"],
-    "resumo": "Nascido no hardcore de Washington D.C. em meados dos anos 1980, troca a raiva pela expressão emocional e confessional.",
-    "fontes": ["https://en.wikipedia.org/wiki/Emo"], "similares": ["post-hardcore", "indie-rock"] },
-  { "id": "post-punk", "nome": "Post-Punk", "pai": "rock", "mestre": false, "decada": 1970, "origens": ["punk-rock", "krautrock"],
-    "resumo": "Movimento que levou a energia do punk para direções experimentais, com baixo em destaque, ritmos angulares e influências de dub e eletrônica.",
-    "fontes": ["https://en.wikipedia.org/wiki/Post-punk"], "similares": ["gothic-rock", "new-wave"] },
-  { "id": "gothic-rock", "nome": "Gothic Rock", "pai": "post-punk", "mestre": false, "decada": 1980, "origens": ["post-punk", "glam-rock"],
-    "resumo": "Vertente sombria do post-punk, de atmosfera melancólica, guitarras com chorus e vocais graves.",
-    "fontes": ["https://en.wikipedia.org/wiki/Gothic_rock"], "similares": ["post-punk", "gothic-metal"] },
-  { "id": "new-wave", "nome": "New Wave", "pai": "rock", "mestre": false, "decada": 1970, "origens": ["punk-rock", "synth-pop"],
-    "resumo": "Rock pop do fim dos anos 1970 e dos anos 1980 que suavizou o punk com sintetizadores, melodias pop e estética moderna.",
-    "fontes": ["https://en.wikipedia.org/wiki/New_wave_music"], "similares": ["synth-pop", "post-punk"] },
-  { "id": "alternative-rock", "nome": "Alternative Rock", "pai": "rock", "mestre": false, "decada": 1980, "origens": ["post-punk", "punk-rock"],
-    "resumo": "Rock nascido no circuito independente e nas rádios universitárias dos anos 1980, que chegou ao mainstream nos anos 1990.",
-    "fontes": ["https://en.wikipedia.org/wiki/Alternative_rock"], "similares": ["indie-rock", "grunge"] },
-  { "id": "indie-rock", "nome": "Indie Rock", "pai": "alternative-rock", "mestre": false, "decada": 1980, "origens": ["post-punk"],
-    "resumo": "Rock ligado a selos independentes e à estética lo-fi, valorizando autonomia criativa sobre o apelo comercial.",
-    "fontes": ["https://en.wikipedia.org/wiki/Indie_rock"], "similares": ["alternative-rock", "britpop"] },
-  { "id": "grunge", "nome": "Grunge", "pai": "alternative-rock", "mestre": false, "decada": 1980, "origens": ["hardcore-punk", "heavy-metal", "noise-rock"],
-    "resumo": "Rock de Seattle que uniu a crueza do punk ao peso do metal, com guitarras sujas e letras de angústia.",
-    "fontes": ["https://en.wikipedia.org/wiki/Grunge"], "similares": ["alternative-metal", "alternative-rock"] },
-  { "id": "britpop", "nome": "Britpop", "pai": "alternative-rock", "mestre": false, "decada": 1990, "origens": ["indie-rock"],
-    "resumo": "Movimento britânico dos anos 1990 de guitarras melódicas e refrões fortes, inspirado no pop rock inglês dos anos 1960.",
-    "fontes": ["https://en.wikipedia.org/wiki/Britpop"], "similares": ["indie-rock", "new-wave"] },
-  { "id": "dream-pop", "nome": "Dream Pop", "pai": "alternative-rock", "mestre": false, "decada": 1980, "origens": ["post-punk", "psychedelic-rock"],
-    "resumo": "Música etérea que privilegia atmosfera e textura, com vocais suaves e guitarras envoltas em reverb.",
-    "fontes": ["https://en.wikipedia.org/wiki/Dream_pop"], "similares": ["shoegaze", "ambient"] },
-  { "id": "shoegaze", "nome": "Shoegaze", "pai": "alternative-rock", "mestre": false, "decada": 1980, "origens": ["dream-pop", "noise-rock", "psychedelic-rock"],
-    "resumo": "Rock britânico do fim dos anos 1980 com paredes de guitarras distorcidas e vocais enterrados na mixagem.",
-    "fontes": ["https://en.wikipedia.org/wiki/Shoegaze"], "similares": ["dream-pop", "blackgaze"] },
-  { "id": "noise-rock", "nome": "Noise Rock", "pai": "alternative-rock", "mestre": false, "decada": 1980, "origens": ["post-punk", "punk-rock"],
-    "resumo": "Rock que abraça microfonia, dissonância e ruído como parte da composição, sem abrir mão da estrutura de banda.",
-    "fontes": ["https://en.wikipedia.org/wiki/Noise_rock"], "similares": ["shoegaze", "post-hardcore"] },
-  { "id": "post-rock", "nome": "Post-Rock", "pai": "alternative-rock", "mestre": false, "decada": 1990, "origens": ["krautrock", "progressive-rock", "ambient"],
-    "resumo": "Usa a instrumentação do rock para criar texturas e crescendos, geralmente instrumental e longe da forma canção.",
-    "fontes": ["https://en.wikipedia.org/wiki/Post-rock"], "similares": ["post-metal", "math-rock"] },
-  { "id": "math-rock", "nome": "Math Rock", "pai": "alternative-rock", "mestre": false, "decada": 1980, "origens": ["progressive-rock", "post-hardcore"],
-    "resumo": "Rock de compassos irregulares, ritmos angulares e guitarras dedilhadas e intrincadas.",
-    "fontes": ["https://en.wikipedia.org/wiki/Math_rock"], "similares": ["post-rock", "post-hardcore"] },
-
-  { "id": "metal", "nome": "Metal", "pai": null, "mestre": true, "decada": 1960, "origens": ["rock", "hard-rock", "blues-rock", "psychedelic-rock"],
-    "resumo": "Gênero derivado do rock no fim dos anos 1960, definido por guitarras muito distorcidas, riffs pesados, bateria enfática e volume alto.",
-    "fontes": ["https://en.wikipedia.org/wiki/Heavy_metal_music"], "similares": ["rock", "eletronica"] },
-
-  { "id": "heavy-metal", "nome": "Heavy Metal", "pai": "metal", "mestre": false, "decada": 1970, "origens": ["hard-rock", "blues-rock"],
-    "resumo": "O metal tradicional dos anos 1970 e início dos 1980: riffs marcantes, duelos de guitarra e vocais agudos e potentes.",
-    "fontes": ["https://en.wikipedia.org/wiki/Heavy_metal_music"], "similares": ["hard-rock", "nwobhm"] },
-  { "id": "nwobhm", "nome": "New Wave of British Heavy Metal", "pai": "heavy-metal", "mestre": false, "decada": 1970, "origens": ["heavy-metal", "punk-rock"],
-    "resumo": "Movimento britânico do fim dos anos 1970 que deu ao metal mais velocidade e a energia independente do punk.",
-    "fontes": ["https://en.wikipedia.org/wiki/New_wave_of_British_heavy_metal"], "similares": ["heavy-metal", "speed-metal"] },
-  { "id": "doom-metal", "nome": "Doom Metal", "pai": "metal", "mestre": false, "decada": 1980, "origens": ["heavy-metal"],
-    "resumo": "Metal lento e pesado, de afinações graves e atmosfera sombria, herdeiro direto dos primeiros discos do Black Sabbath.",
-    "fontes": ["https://en.wikipedia.org/wiki/Doom_metal"], "similares": ["sludge-metal", "stoner-metal"] },
-  { "id": "stoner-metal", "nome": "Stoner Metal", "pai": "doom-metal", "mestre": false, "decada": 1990, "origens": ["stoner-rock", "doom-metal"],
-    "resumo": "Encontro do doom metal com o stoner rock: fuzz pesado, groove arrastado e clima psicodélico.",
-    "fontes": ["https://en.wikipedia.org/wiki/Stoner_rock"], "similares": ["stoner-rock", "sludge-metal"] },
-  { "id": "sludge-metal", "nome": "Sludge Metal", "pai": "doom-metal", "mestre": false, "decada": 1980, "origens": ["doom-metal", "hardcore-punk"],
-    "resumo": "Funde a lentidão do doom com a agressividade do hardcore, em um som denso, sujo e abrasivo.",
-    "fontes": ["https://en.wikipedia.org/wiki/Sludge_metal"], "similares": ["post-metal", "stoner-metal"] },
-  { "id": "drone-metal", "nome": "Drone Metal", "pai": "doom-metal", "mestre": false, "decada": 1990, "origens": ["doom-metal", "ambient"],
-    "resumo": "Metal construído sobre notas longas, distorção sustentada e volume extremo, quase sem ritmo ou melodia.",
-    "fontes": ["https://en.wikipedia.org/wiki/Drone_metal"], "similares": ["dark-ambient", "sludge-metal"] },
-  { "id": "speed-metal", "nome": "Speed Metal", "pai": "metal", "mestre": false, "decada": 1980, "origens": ["nwobhm"],
-    "resumo": "Metal tocado em andamentos muito rápidos e com técnica apurada, etapa entre o heavy metal tradicional e o thrash.",
-    "fontes": ["https://en.wikipedia.org/wiki/Speed_metal"], "similares": ["thrash-metal", "power-metal"] },
-  { "id": "thrash-metal", "nome": "Thrash Metal", "pai": "metal", "mestre": false, "decada": 1980, "origens": ["speed-metal", "nwobhm", "hardcore-punk"],
-    "resumo": "Metal rápido e agressivo dos anos 1980, com riffs palhetados, bateria acelerada e influência do hardcore punk.",
-    "fontes": ["https://en.wikipedia.org/wiki/Thrash_metal"], "similares": ["speed-metal", "death-metal"] },
-  { "id": "power-metal", "nome": "Power Metal", "pai": "metal", "mestre": false, "decada": 1980, "origens": ["heavy-metal", "speed-metal"],
-    "resumo": "Metal melódico e épico, de andamentos rápidos, vocais limpos e agudos e temas de fantasia.",
-    "fontes": ["https://en.wikipedia.org/wiki/Power_metal"], "similares": ["speed-metal", "progressive-metal"] },
-  { "id": "death-metal", "nome": "Death Metal", "pai": "metal", "mestre": false, "decada": 1980, "origens": ["thrash-metal"],
-    "resumo": "Metal extremo com vocais guturais, guitarras graves e muito distorcidas, blast beats e mudanças bruscas de andamento.",
-    "fontes": ["https://en.wikipedia.org/wiki/Death_metal"], "similares": ["grindcore", "black-metal"] },
-  { "id": "melodic-death-metal", "nome": "Melodic Death Metal", "pai": "death-metal", "mestre": false, "decada": 1990, "origens": ["death-metal", "nwobhm"],
-    "resumo": "Death metal que incorpora harmonias de guitarra melódicas, associado à cena sueca de Gotemburgo.",
-    "fontes": ["https://en.wikipedia.org/wiki/Melodic_death_metal"], "similares": ["death-metal", "metalcore"] },
-  { "id": "grindcore", "nome": "Grindcore", "pai": "metal", "mestre": false, "decada": 1980, "origens": ["hardcore-punk", "thrash-metal"],
-    "resumo": "Música extrema de faixas curtíssimas, blast beats e vocais gritados, misturando hardcore punk e metal.",
-    "fontes": ["https://en.wikipedia.org/wiki/Grindcore"], "similares": ["death-metal", "hardcore-punk"] },
-  { "id": "black-metal", "nome": "Black Metal", "pai": "metal", "mestre": false, "decada": 1980, "origens": ["thrash-metal"],
-    "resumo": "Metal extremo de vocais rasgados, guitarras em tremolo e produção crua, que ganhou sua forma clássica na Noruega dos anos 1990.",
-    "fontes": ["https://en.wikipedia.org/wiki/Black_metal"], "similares": ["death-metal", "blackgaze"] },
-  { "id": "blackgaze", "nome": "Blackgaze", "pai": "black-metal", "mestre": false, "decada": 2000, "origens": ["black-metal", "shoegaze", "post-rock"],
-    "resumo": "Funde a intensidade do black metal com as paredes de som do shoegaze e os crescendos do post-rock.",
-    "fontes": ["https://en.wikipedia.org/wiki/Blackgaze"], "similares": ["shoegaze", "post-metal"] },
-  { "id": "post-metal", "nome": "Post-Metal", "pai": "metal", "mestre": false, "decada": 1990, "origens": ["sludge-metal", "post-rock"],
-    "resumo": "Metal de faixas longas e atmosféricas que aplica a lógica de crescendos do post-rock a riffs pesados.",
-    "fontes": ["https://en.wikipedia.org/wiki/Post-metal"], "similares": ["post-rock", "sludge-metal"] },
-  { "id": "progressive-metal", "nome": "Progressive Metal", "pai": "metal", "mestre": false, "decada": 1980, "origens": ["heavy-metal", "progressive-rock"],
-    "resumo": "Metal técnico de composições longas, compassos irregulares e virtuosismo herdado do rock progressivo.",
-    "fontes": ["https://en.wikipedia.org/wiki/Progressive_metal"], "similares": ["progressive-rock", "power-metal"] },
-  { "id": "gothic-metal", "nome": "Gothic Metal", "pai": "metal", "mestre": false, "decada": 1990, "origens": ["doom-metal", "gothic-rock"],
-    "resumo": "Une o peso do doom metal à melancolia do gothic rock, muitas vezes com contraste entre vozes graves e líricas.",
-    "fontes": ["https://en.wikipedia.org/wiki/Gothic_metal"], "similares": ["gothic-rock", "doom-metal"] },
-  { "id": "metalcore", "nome": "Metalcore", "pai": "metal", "mestre": false, "decada": 1990, "origens": ["hardcore-punk", "thrash-metal", "melodic-death-metal"],
-    "resumo": "Fusão de metal extremo e hardcore punk, com breakdowns e alternância entre vocais gritados e limpos.",
-    "fontes": ["https://en.wikipedia.org/wiki/Metalcore"], "similares": ["melodic-death-metal", "post-hardcore"] },
-  { "id": "alternative-metal", "nome": "Alternative Metal", "pai": "metal", "mestre": false, "decada": 1980, "origens": ["alternative-rock", "thrash-metal"],
-    "resumo": "Metal que mistura riffs pesados com a estética e as experimentações do rock alternativo.",
-    "fontes": ["https://en.wikipedia.org/wiki/Alternative_metal"], "similares": ["grunge", "nu-metal"] },
-  { "id": "nu-metal", "nome": "Nu Metal", "pai": "alternative-metal", "mestre": false, "decada": 1990, "origens": ["alternative-metal", "hip-hop", "grunge"],
-    "resumo": "Metal de afinações graves e foco no groove, com elementos de hip hop como rap, samples e scratches.",
-    "fontes": ["https://en.wikipedia.org/wiki/Nu_metal"], "similares": ["alternative-metal", "industrial-metal"] },
-  { "id": "industrial-metal", "nome": "Industrial Metal", "pai": "metal", "mestre": false, "decada": 1980, "origens": ["industrial", "thrash-metal"],
-    "resumo": "Combina riffs de metal com a frieza mecânica da música industrial: sintetizadores, samples e baterias programadas.",
-    "fontes": ["https://en.wikipedia.org/wiki/Industrial_metal"], "similares": ["nu-metal", "techno"] },
-
-  { "id": "eletronica", "nome": "Eletrônica", "pai": null, "mestre": true, "decada": 1950, "origens": ["musique-concrete", "krautrock", "disco"],
-    "resumo": "Música feita principalmente com instrumentos eletrônicos e tecnologia de estúdio, dos primeiros experimentos de laboratório à música de pista.",
-    "fontes": ["https://en.wikipedia.org/wiki/Electronic_music"], "similares": ["hip-hop", "rock"] },
-
-  { "id": "ambient", "nome": "Ambient", "pai": "eletronica", "mestre": false, "decada": 1970, "origens": ["krautrock", "minimalism"],
-    "resumo": "Música que privilegia atmosfera e textura em vez de ritmo e estrutura, pensada para envolver o ambiente.",
-    "fontes": ["https://en.wikipedia.org/wiki/Ambient_music"], "similares": ["dark-ambient", "post-rock"] },
-  { "id": "dark-ambient", "nome": "Dark Ambient", "pai": "ambient", "mestre": false, "decada": 1980, "origens": ["ambient", "industrial"],
-    "resumo": "Ambient de clima sombrio e inquietante, com drones graves, ruídos e sensação de vastidão.",
-    "fontes": ["https://en.wikipedia.org/wiki/Dark_ambient"], "similares": ["ambient", "drone-metal"] },
-  { "id": "synth-pop", "nome": "Synth-Pop", "pai": "eletronica", "mestre": false, "decada": 1970, "origens": ["krautrock", "disco"],
-    "resumo": "Pop construído sobre sintetizadores e caixas de ritmo, que dominou as paradas no início dos anos 1980.",
-    "fontes": ["https://en.wikipedia.org/wiki/Synth-pop"], "similares": ["new-wave", "electro"] },
-  { "id": "electro", "nome": "Electro", "pai": "eletronica", "mestre": false, "decada": 1980, "origens": ["synth-pop", "funk"],
-    "resumo": "Música eletrônica dos anos 1980 com a bateria eletrônica Roland TR-808, voz robótica e groove de funk, raiz comum do techno e do hip hop.",
-    "fontes": ["https://en.wikipedia.org/wiki/Electro_(music)"], "similares": ["techno", "old-school-hip-hop"] },
-  { "id": "house", "nome": "House", "pai": "eletronica", "mestre": false, "decada": 1980, "origens": ["disco", "synth-pop"],
-    "resumo": "Música de pista nascida nos clubes de Chicago, com bumbo marcando os quatro tempos e herança direta da disco.",
-    "fontes": ["https://en.wikipedia.org/wiki/House_music"], "similares": ["techno", "uk-garage"] },
-  { "id": "deep-house", "nome": "Deep House", "pai": "house", "mestre": false, "decada": 1980, "origens": ["house", "jazz", "soul"],
-    "resumo": "House mais lento e sofisticado, com acordes de jazz, vocais soul e clima intimista.",
-    "fontes": ["https://en.wikipedia.org/wiki/Deep_house"], "similares": ["house", "minimal-techno"] },
-  { "id": "acid-house", "nome": "Acid House", "pai": "house", "mestre": false, "decada": 1980, "origens": ["house"],
-    "resumo": "House construído sobre as linhas de baixo borbulhantes do sintetizador Roland TB-303; trilha das raves do fim dos anos 1980.",
-    "fontes": ["https://en.wikipedia.org/wiki/Acid_house"], "similares": ["house", "techno"] },
-  { "id": "techno", "nome": "Techno", "pai": "eletronica", "mestre": false, "decada": 1980, "origens": ["electro", "house", "synth-pop"],
-    "resumo": "Música de pista repetitiva e futurista criada em Detroit em meados dos anos 1980, com batidas mecânicas e sintetizadores.",
-    "fontes": ["https://en.wikipedia.org/wiki/Techno"], "similares": ["house", "minimal-techno"] },
-  { "id": "minimal-techno", "nome": "Minimal Techno", "pai": "techno", "mestre": false, "decada": 1990, "origens": ["techno"],
-    "resumo": "Techno reduzido ao essencial: poucos elementos, repetição e variações sutis ao longo da faixa.",
-    "fontes": ["https://en.wikipedia.org/wiki/Minimal_techno"], "similares": ["techno", "deep-house"] },
-  { "id": "trance", "nome": "Trance", "pai": "eletronica", "mestre": false, "decada": 1990, "origens": ["techno", "house"],
-    "resumo": "Música de pista de melodias hipnóticas, crescendos longos e quebras emotivas, popular na Europa dos anos 1990.",
-    "fontes": ["https://en.wikipedia.org/wiki/Trance_music"], "similares": ["techno", "house"] },
-  { "id": "idm", "nome": "IDM", "pai": "eletronica", "mestre": false, "decada": 1990, "origens": ["techno", "ambient", "acid-house"],
-    "resumo": "Eletrônica experimental dos anos 1990, feita mais para ouvir do que para dançar, com ritmos complexos e texturas detalhadas.",
-    "fontes": ["https://en.wikipedia.org/wiki/Intelligent_dance_music"], "similares": ["ambient", "drum-and-bass"] },
-  { "id": "jungle", "nome": "Jungle", "pai": "eletronica", "mestre": false, "decada": 1990, "origens": ["breakbeat-hardcore", "dub", "reggae"],
-    "resumo": "Eletrônica britânica de breakbeats acelerados e picotados sobre linhas de baixo graves herdadas do dub e do reggae.",
-    "fontes": ["https://en.wikipedia.org/wiki/Jungle_music"], "similares": ["drum-and-bass", "uk-garage"] },
-  { "id": "drum-and-bass", "nome": "Drum and Bass", "pai": "jungle", "mestre": false, "decada": 1990, "origens": ["jungle"],
-    "resumo": "Desdobramento do jungle com breakbeats rápidos, por volta de 170 BPM, e graves pesados, em produção mais limpa.",
-    "fontes": ["https://en.wikipedia.org/wiki/Drum_and_bass"], "similares": ["jungle", "dubstep"] },
-  { "id": "uk-garage", "nome": "UK Garage", "pai": "eletronica", "mestre": false, "decada": 1990, "origens": ["house", "jungle"],
-    "resumo": "Eletrônica britânica de ritmo sincopado e swingado, com vocais de R&B picotados e graves marcantes.",
-    "fontes": ["https://en.wikipedia.org/wiki/UK_garage"], "similares": ["dubstep", "grime"] },
-  { "id": "dubstep", "nome": "Dubstep", "pai": "eletronica", "mestre": false, "decada": 2000, "origens": ["uk-garage", "dub", "drum-and-bass"],
-    "resumo": "Eletrônica do sul de Londres com subgraves profundos, ritmo em meio-tempo e muito espaço, herdeira do dub e do UK garage.",
-    "fontes": ["https://en.wikipedia.org/wiki/Dubstep"], "similares": ["uk-garage", "drum-and-bass"] },
-  { "id": "trip-hop", "nome": "Trip Hop", "pai": "eletronica", "mestre": false, "decada": 1990, "origens": ["hip-hop", "dub"],
-    "resumo": "Eletrônica lenta e cinematográfica de Bristol, com batidas de hip hop, samples e clima melancólico.",
-    "fontes": ["https://en.wikipedia.org/wiki/Trip_hop"], "similares": ["abstract-hip-hop", "ambient"] },
-  { "id": "vaporwave", "nome": "Vaporwave", "pai": "eletronica", "mestre": false, "decada": 2010, "origens": ["plunderphonics", "hypnagogic-pop", "synth-pop"],
-    "resumo": "Microgênero da internet que desacelera e recorta músicas comerciais dos anos 1980 e 1990, com estética nostálgica e irônica.",
-    "fontes": ["https://en.wikipedia.org/wiki/Vaporwave"], "similares": ["ambient", "cloud-rap"] },
-
-  { "id": "hip-hop", "nome": "Hip Hop", "pai": null, "mestre": true, "decada": 1970, "origens": ["funk", "soul", "disco", "dub", "electro"],
-    "resumo": "Gênero nascido nas festas de rua do Bronx nos anos 1970, construído sobre batidas e samples, com rimas faladas (rap) e DJs.",
-    "fontes": ["https://en.wikipedia.org/wiki/Hip-hop"], "similares": ["eletronica", "blues"] },
-
-  { "id": "old-school-hip-hop", "nome": "Old-School Hip Hop", "pai": "hip-hop", "mestre": false, "decada": 1970, "origens": ["funk", "disco"],
-    "resumo": "A primeira fase gravada do hip hop, de rimas festivas e batidas de funk e disco.",
-    "fontes": ["https://en.wikipedia.org/wiki/Old-school_hip-hop"], "similares": ["electro", "boom-bap"] },
-  { "id": "east-coast-hip-hop", "nome": "East Coast Hip Hop", "pai": "hip-hop", "mestre": false, "decada": 1980, "origens": ["old-school-hip-hop"],
-    "resumo": "Hip hop de Nova York e da costa leste, conhecido pelo lirismo denso e pela produção baseada em samples.",
-    "fontes": ["https://en.wikipedia.org/wiki/East_Coast_hip-hop"], "similares": ["boom-bap", "west-coast-hip-hop"] },
-  { "id": "boom-bap", "nome": "Boom Bap", "pai": "east-coast-hip-hop", "mestre": false, "decada": 1980, "origens": ["east-coast-hip-hop"],
-    "resumo": "Estilo de produção com bumbo e caixa secos e marcados sobre samples de jazz e soul, típico de Nova York.",
-    "fontes": ["https://en.wikipedia.org/wiki/Boom_bap"], "similares": ["jazz-rap", "east-coast-hip-hop"] },
-  { "id": "west-coast-hip-hop", "nome": "West Coast Hip Hop", "pai": "hip-hop", "mestre": false, "decada": 1980, "origens": ["old-school-hip-hop", "electro"],
-    "resumo": "Hip hop da Califórnia, que popularizou o gangsta rap e um som mais melódico e arrastado.",
-    "fontes": ["https://en.wikipedia.org/wiki/West_Coast_hip-hop"], "similares": ["g-funk", "east-coast-hip-hop"] },
-  { "id": "gangsta-rap", "nome": "Gangsta Rap", "pai": "hip-hop", "mestre": false, "decada": 1980, "origens": ["west-coast-hip-hop", "east-coast-hip-hop"],
-    "resumo": "Hip hop que retrata de forma crua a violência e a vida nas ruas das periferias urbanas americanas.",
-    "fontes": ["https://en.wikipedia.org/wiki/Gangsta_rap"], "similares": ["g-funk", "drill"] },
-  { "id": "g-funk", "nome": "G-Funk", "pai": "west-coast-hip-hop", "mestre": false, "decada": 1990, "origens": ["gangsta-rap", "funk"],
-    "resumo": "Hip hop da costa oeste do início dos anos 1990, com sintetizadores agudos, baixo grave e samples do P-Funk.",
-    "fontes": ["https://en.wikipedia.org/wiki/G-funk"], "similares": ["west-coast-hip-hop", "gangsta-rap"] },
-  { "id": "southern-hip-hop", "nome": "Southern Hip Hop", "pai": "hip-hop", "mestre": false, "decada": 1980, "origens": ["old-school-hip-hop"],
-    "resumo": "Hip hop do sul dos EUA (Atlanta, Houston, Memphis, Nova Orleans), de graves pesados e cadências próprias.",
-    "fontes": ["https://en.wikipedia.org/wiki/Southern_hip-hop"], "similares": ["trap", "memphis-rap"] },
-  { "id": "memphis-rap", "nome": "Memphis Rap", "pai": "southern-hip-hop", "mestre": false, "decada": 1990, "origens": ["southern-hip-hop"],
-    "resumo": "Cena underground de Memphis com fitas lo-fi, clima sombrio e flows rápidos, muito sampleada pelas gerações seguintes.",
-    "fontes": ["https://en.wikipedia.org/wiki/Memphis_rap"], "similares": ["phonk", "trap"] },
-  { "id": "phonk", "nome": "Phonk", "pai": "memphis-rap", "mestre": false, "decada": 2010, "origens": ["memphis-rap", "trap"],
-    "resumo": "Gênero da internet que recicla vocais e samples do Memphis rap sobre batidas de trap e cowbells distorcidos.",
-    "fontes": ["https://en.wikipedia.org/wiki/Phonk"], "similares": ["memphis-rap", "cloud-rap"] },
-  { "id": "trap", "nome": "Trap", "pai": "southern-hip-hop", "mestre": false, "decada": 2000, "origens": ["southern-hip-hop", "memphis-rap"],
-    "resumo": "Hip hop de Atlanta com hi-hats acelerados, graves de 808 longos e caixas espaçadas; um dos sons dominantes do século XXI.",
-    "fontes": ["https://en.wikipedia.org/wiki/Trap_music"], "similares": ["drill", "cloud-rap"] },
-  { "id": "drill", "nome": "Drill", "pai": "hip-hop", "mestre": false, "decada": 2010, "origens": ["trap", "gangsta-rap"],
-    "resumo": "Hip hop sombrio e niilista surgido em Chicago no início dos anos 2010, com batidas derivadas do trap.",
-    "fontes": ["https://en.wikipedia.org/wiki/Drill_music"], "similares": ["trap", "uk-drill"] },
-  { "id": "uk-drill", "nome": "UK Drill", "pai": "drill", "mestre": false, "decada": 2010, "origens": ["drill", "grime"],
-    "resumo": "Versão londrina do drill, com baixos deslizantes, batidas quebradas e flows influenciados pelo grime.",
-    "fontes": ["https://en.wikipedia.org/wiki/UK_drill"], "similares": ["drill", "grime"] },
-  { "id": "grime", "nome": "Grime", "pai": "hip-hop", "mestre": false, "decada": 2000, "origens": ["uk-garage", "jungle", "dancehall"],
-    "resumo": "Gênero londrino do início dos anos 2000 com batidas eletrônicas a cerca de 140 BPM e MCs de rimas rápidas.",
-    "fontes": ["https://en.wikipedia.org/wiki/Grime_music"], "similares": ["uk-garage", "uk-drill"] },
-  { "id": "conscious-hip-hop", "nome": "Conscious Hip Hop", "pai": "hip-hop", "mestre": false, "decada": 1980, "origens": ["old-school-hip-hop"],
-    "resumo": "Hip hop centrado em letras sociais, políticas e reflexivas.",
-    "fontes": ["https://en.wikipedia.org/wiki/Political_hip-hop"], "similares": ["jazz-rap", "boom-bap"] },
-  { "id": "jazz-rap", "nome": "Jazz Rap", "pai": "hip-hop", "mestre": false, "decada": 1980, "origens": ["boom-bap", "jazz"],
-    "resumo": "Hip hop que usa samples e harmonias de jazz, de clima mais relaxado e letras frequentemente conscientes.",
-    "fontes": ["https://en.wikipedia.org/wiki/Jazz_rap"], "similares": ["boom-bap", "abstract-hip-hop"] },
-  { "id": "abstract-hip-hop", "nome": "Abstract Hip Hop", "pai": "hip-hop", "mestre": false, "decada": 1990, "origens": ["jazz-rap", "trip-hop"],
-    "resumo": "Hip hop de produção atmosférica e letras pouco literais, mais próximo da experimentação do que das convenções do gênero.",
-    "fontes": ["https://en.wikipedia.org/wiki/Alternative_hip-hop"], "similares": ["trip-hop", "experimental-hip-hop"] },
-  { "id": "experimental-hip-hop", "nome": "Experimental Hip Hop", "pai": "hip-hop", "mestre": false, "decada": 1990, "origens": ["abstract-hip-hop", "industrial", "noise-rock"],
-    "resumo": "Hip hop que rompe com estruturas convencionais incorporando ruído, música industrial e produção abrasiva.",
-    "fontes": ["https://en.wikipedia.org/wiki/Alternative_hip-hop"], "similares": ["abstract-hip-hop", "industrial-metal"] },
-  { "id": "cloud-rap", "nome": "Cloud Rap", "pai": "hip-hop", "mestre": false, "decada": 2010, "origens": ["trap", "ambient"],
-    "resumo": "Hip hop da internet com batidas etéreas e enevoadas, samples atmosféricos e vocais relaxados.",
-    "fontes": ["https://en.wikipedia.org/wiki/Cloud_rap"], "similares": ["trap", "vaporwave"] }
+  {
+    "id": "blues",
+    "nome": "Blues",
+    "pai": null,
+    "mestre": true,
+    "decada": 1900,
+    "origens": [],
+    "resumo": "O blues é um gênero e forma musical originado por afro-americanos no extremo sul dos Estados Unidos em torno do fim do século XIX. O gênero se desenvolveu a partir de raízes das tradições musicais africanas, canções de trabalho afro-americanas, spirituals e música tradicional.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Blues",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Blues"
+    ],
+    "similares": [
+      "rock",
+      "hip-hop"
+    ]
+  },
+  {
+    "id": "delta-blues",
+    "nome": "Delta Blues",
+    "pai": "blues",
+    "mestre": false,
+    "decada": 1920,
+    "origens": [],
+    "resumo": "Delta blues é um dos mais antigos estilos da música blues. Foi originado na região do delta do rio Mississippi, nos Estados Unidos, que se estende de Memphis, Tennessee a norte, a Vicksburg, Mississippi no sul, e do Rio Mississippi a oeste ao Rio Yazoo a leste.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Delta_blues",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Delta blues",
+    "resumoFrases": 2,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Delta_blues"
+    ],
+    "similares": [
+      "piedmont-blues",
+      "texas-blues"
+    ]
+  },
+  {
+    "id": "piedmont-blues",
+    "nome": "Piedmont Blues",
+    "pai": "blues",
+    "mestre": false,
+    "decada": 1920,
+    "origens": [],
+    "resumo": "Piedmont blues é uma das mais antigas formas de country blues.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Piedmont_blues",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Piedmont_blues"
+    ],
+    "similares": [
+      "delta-blues",
+      "texas-blues"
+    ]
+  },
+  {
+    "id": "texas-blues",
+    "nome": "Texas Blues",
+    "pai": "blues",
+    "mestre": false,
+    "decada": 1920,
+    "origens": [],
+    "resumo": "O Texas blues é um sub-gênero do blues, não sendo limitado a músicos do Texas. O estilo tem algumas variações, mas é tipicamente tocado com mais swing que outros estilos de blues.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Texas_blues",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Texas blues",
+    "resumoFrases": 2,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Texas_blues"
+    ],
+    "similares": [
+      "delta-blues",
+      "electric-blues"
+    ]
+  },
+  {
+    "id": "boogie-woogie",
+    "nome": "Boogie-Woogie",
+    "pai": "blues",
+    "mestre": false,
+    "decada": 1920,
+    "origens": [],
+    "resumo": "O boogie-woogie (pronuncia-se [ˈbuɡiˈwuɡi]), ou apenas boogie, é um subgênero do blues que se popularizou no final da década de 1920, embora já estivesse em desenvolvimento nas comunidades afro-americanas desde a década de 1870.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Boogie-woogie",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Boogie-woogie"
+    ],
+    "similares": [
+      "jump-blues",
+      "rock-and-roll"
+    ]
+  },
+  {
+    "id": "jump-blues",
+    "nome": "Jump Blues",
+    "pai": "blues",
+    "mestre": false,
+    "decada": 1940,
+    "origens": [
+      "boogie-woogie"
+    ],
+    "resumo": "Jump blues é um blues tocando em andamento acelerado, normalmente desempenhado por pequenos grupos e apresentando metais.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Jump_blues",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jump_blues"
+    ],
+    "similares": [
+      "boogie-woogie",
+      "rock-and-roll"
+    ]
+  },
+  {
+    "id": "electric-blues",
+    "nome": "Electric Blues",
+    "pai": "blues",
+    "mestre": false,
+    "decada": 1940,
+    "origens": [
+      "delta-blues",
+      "texas-blues"
+    ],
+    "resumo": "O blues elétrico é um tipo de blues distinguida pelo uso da amplificação, guitarra elétrica, baixo, bateria e, frequentemente, Harmônica.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Blues_el%C3%A9trico",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Electric_blues"
+    ],
+    "similares": [
+      "chicago-blues",
+      "blues-rock"
+    ]
+  },
+  {
+    "id": "chicago-blues",
+    "nome": "Chicago Blues",
+    "pai": "electric-blues",
+    "mestre": false,
+    "decada": 1940,
+    "origens": [
+      "delta-blues"
+    ],
+    "resumo": "Chicago blues é uma forma de música blues que foi criada em Chicago com a adição de instrumentos elétricos, bateria, piano, baixo e algumas vezes saxofone ao estilo básico de cordas/gaita do Delta blues.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Chicago_blues",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chicago_blues"
+    ],
+    "similares": [
+      "electric-blues",
+      "british-blues"
+    ]
+  },
+  {
+    "id": "british-blues",
+    "nome": "British Blues",
+    "pai": "blues",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "chicago-blues"
+    ],
+    "resumo": "O blues britânico é uma forma de música derivada do blues estadunidense que se originou na década de 1950 e que alcançou o máximo de popularidade na década de 1960, quando desenvolveu um distintone influente estilo dominado pela guitarra elétrica e deu origem a estrelas internacionais de alguns proponentes do gênero, incluindo The Rolling Stones, Eric Clapton, Fleetwood Mac e Led Zeppelin.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Blues_brit%C3%A2nico",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/British_blues"
+    ],
+    "similares": [
+      "chicago-blues",
+      "blues-rock"
+    ]
+  },
+  {
+    "id": "rock",
+    "nome": "Rock",
+    "pai": null,
+    "mestre": true,
+    "decada": 1950,
+    "origens": [
+      "blues",
+      "rhythm-and-blues",
+      "country"
+    ],
+    "resumo": "Rock (ou roque) é um termo abrangente que define um gênero musical de música popular que se desenvolveu durante e após a década de 1950.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rock_music"
+    ],
+    "similares": [
+      "blues",
+      "metal"
+    ]
+  },
+  {
+    "id": "rock-and-roll",
+    "nome": "Rock and Roll",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1950,
+    "origens": [
+      "boogie-woogie",
+      "jump-blues",
+      "rhythm-and-blues",
+      "country"
+    ],
+    "resumo": "Rock and roll (também escrito como rock & roll, rock-n-roll ou rock 'n' roll) é gênero de música popular que evoluiu nos Estados Unidos durante o final da década de 1940 e início da década de 1950, com raízes nos estilos musicais como country, blues, R&B, e que rapidamente se espalhou para o resto do mundo.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Rock_and_roll",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rock_and_roll"
+    ],
+    "similares": [
+      "rockabilly",
+      "jump-blues"
+    ]
+  },
+  {
+    "id": "rockabilly",
+    "nome": "Rockabilly",
+    "pai": "rock-and-roll",
+    "mestre": false,
+    "decada": 1950,
+    "origens": [
+      "country"
+    ],
+    "resumo": "Rockabilly é um dos primeiros sub-gêneros do rock, tendo surgido nos Estados Unidos no começo da década de 1950, especialmente no Sul.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Rockabilly",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rockabilly"
+    ],
+    "similares": [
+      "rock-and-roll",
+      "surf-rock"
+    ]
+  },
+  {
+    "id": "surf-rock",
+    "nome": "Surf Rock",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "rock-and-roll"
+    ],
+    "resumo": "Surf rock ou surf music é um subgênero do rock associada à cultura do surfe, particularmente no Sul da Califórnia.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Surf_music",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Surf_music"
+    ],
+    "similares": [
+      "garage-rock",
+      "rockabilly"
+    ]
+  },
+  {
+    "id": "garage-rock",
+    "nome": "Garage Rock",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "rock-and-roll",
+      "british-blues"
+    ],
+    "resumo": "Rock de garagem (do inglês: garage rock), às vezes chamado de punk dos anos 60 ou punk de garagem, é um estilo de rock and roll bruto e energético que floresceu em meados da década de 1960, notadamente nos Estados Unidos e no Canadá.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Rock_de_garagem",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Garage_rock"
+    ],
+    "similares": [
+      "punk-rock",
+      "psychedelic-rock"
+    ]
+  },
+  {
+    "id": "psychedelic-rock",
+    "nome": "Psychedelic Rock",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "garage-rock",
+      "folk-rock"
+    ],
+    "resumo": "Rock psicadélico (português europeu) ou rock psicodélico (português brasileiro) (psychedelic rock, em inglês) é um subgênero do rock que se desenvolveu na metade da década de 1960 inspirado, influenciado ou representativo da cultura psicodélica, centrado na recriação da sonoridade ou ambientes oníricos, ácidos e viajantes (trip) tipicamente associados aos efeitos de drogas alucinógenas que alteram a percepção como LSD, cogumelos, mescalina e DMT. A música incorporou novos efeitos sonoros eletrônicos e técnicas de gravação, solos instrumentais estendidos e improvisação.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Rock_psicod%C3%A9lico",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Psychedelic_rock"
+    ],
+    "similares": [
+      "progressive-rock",
+      "stoner-rock"
+    ]
+  },
+  {
+    "id": "folk-rock",
+    "nome": "Folk Rock",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "folk"
+    ],
+    "resumo": "Folk rock é um gênero musical que combina elementos do folk e rock.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Folk_rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Folk_rock"
+    ],
+    "similares": [
+      "psychedelic-rock",
+      "indie-rock"
+    ]
+  },
+  {
+    "id": "blues-rock",
+    "nome": "Blues Rock",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "electric-blues",
+      "british-blues"
+    ],
+    "resumo": "Blues rock é um gênero de fusão de rock e blues que se baseia nos acordes, escalas e na improvisação instrumental do blues.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Blues_rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Blues_rock"
+    ],
+    "similares": [
+      "hard-rock",
+      "british-blues"
+    ]
+  },
+  {
+    "id": "hard-rock",
+    "nome": "Hard Rock",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "blues-rock",
+      "garage-rock",
+      "psychedelic-rock"
+    ],
+    "resumo": "Hard rock é um estilo musical, subgênero do rock que tem suas raízes do rock de garagem e psicodélico do meio da década de 1960, que se caracteriza por ser consideravelmente mais pesado do que a música rock convencional, e marcada pelo uso de distorção, uma seção rítmica proeminente, arranjos simples e um som potente, com riffs e solos de guitarra pesada.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Hard_rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hard_rock"
+    ],
+    "similares": [
+      "heavy-metal",
+      "glam-rock"
+    ]
+  },
+  {
+    "id": "glam-rock",
+    "nome": "Glam Rock",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "hard-rock",
+      "rock-and-roll"
+    ],
+    "resumo": "Glam rock (abreviação de glamour rock) é um subgênero do rock que se desenvolveu no Reino Unido no início da década de 1970, apresentado por músicos que usavam fantasias, maquiagem e penteados extravagantes.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Glam_rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Glam_rock"
+    ],
+    "similares": [
+      "hard-rock",
+      "punk-rock"
+    ]
+  },
+  {
+    "id": "progressive-rock",
+    "nome": "Progressive Rock",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "psychedelic-rock"
+    ],
+    "resumo": "Rock progressivo (também abreviado por prog rock ou prog) é um amplo gênero de rock que se desenvolveu no Reino Unido e nos Estados Unidos em meados da década de 1960, atingindo o pico no início da década de 1970.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Rock_progressivo",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Progressive_rock"
+    ],
+    "similares": [
+      "krautrock",
+      "progressive-metal"
+    ]
+  },
+  {
+    "id": "krautrock",
+    "nome": "Krautrock",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "psychedelic-rock",
+      "progressive-rock"
+    ],
+    "resumo": "Krautrock (Kosmische Musik, Kraut, ou ainda Krautwave) é um nome genérico atribuído às bandas experimentais na Alemanha do fim da década de 1960 e do começo da década de 1970.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Krautrock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Krautrock"
+    ],
+    "similares": [
+      "post-rock",
+      "ambient"
+    ]
+  },
+  {
+    "id": "stoner-rock",
+    "nome": "Stoner Rock",
+    "pai": "hard-rock",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "psychedelic-rock",
+      "doom-metal"
+    ],
+    "resumo": "Stoner rock é um gênero musical que mescla elementos do doom metal e do acid rock.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Stoner_rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Stoner_rock"
+    ],
+    "similares": [
+      "stoner-metal",
+      "psychedelic-rock"
+    ]
+  },
+  {
+    "id": "punk-rock",
+    "nome": "Punk Rock",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "garage-rock",
+      "glam-rock"
+    ],
+    "resumo": "Punk rock (ou simplesmente punk) é um gênero musical que surgiu em meados da década de 1970.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Punk_rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Punk_rock"
+    ],
+    "similares": [
+      "hardcore-punk",
+      "garage-rock"
+    ]
+  },
+  {
+    "id": "hardcore-punk",
+    "nome": "Hardcore Punk",
+    "pai": "punk-rock",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "punk-rock"
+    ],
+    "resumo": "Hardcore punk (comumente abreviado para hardcore, hc ou hXc) é um subgênero e subcultura do punk rock que surgiu no final da década de 1970.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Hardcore_punk",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hardcore_punk"
+    ],
+    "similares": [
+      "thrash-metal",
+      "post-hardcore"
+    ]
+  },
+  {
+    "id": "post-hardcore",
+    "nome": "Post-Hardcore",
+    "pai": "hardcore-punk",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "hardcore-punk",
+      "post-punk"
+    ],
+    "resumo": "Post-hardcore (em português: pós-hardcore) é um gênero músical derivado do hardcore punk.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Post-hardcore",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Post-hardcore"
+    ],
+    "similares": [
+      "math-rock",
+      "emo"
+    ]
+  },
+  {
+    "id": "emo",
+    "nome": "Emo",
+    "pai": "post-hardcore",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "post-hardcore"
+    ],
+    "resumo": "Emo (inglês: [iːmoʊˈkɔr]) é um subgênero de rock que combina características musicais do hardcore punk com letras emocionais, muitas vezes confessionais.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Emo",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Emo"
+    ],
+    "similares": [
+      "post-hardcore",
+      "indie-rock"
+    ]
+  },
+  {
+    "id": "post-punk",
+    "nome": "Post-Punk",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "punk-rock",
+      "krautrock"
+    ],
+    "resumo": "Pós-punk (em inglês: post-punk), originalmente chamado new musik, é um amplo gênero de rock que surgiu no final da década de 1970 na esteira do punk rock.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/P%C3%B3s-punk",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Post-punk"
+    ],
+    "similares": [
+      "gothic-rock",
+      "new-wave"
+    ]
+  },
+  {
+    "id": "gothic-rock",
+    "nome": "Gothic Rock",
+    "pai": "post-punk",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "post-punk",
+      "glam-rock"
+    ],
+    "resumo": "Rock gótico (por vezes conhecido simplesmente como gótico, música gótica, ou pelo anglicismo gothic rock ou goth rock) é um estilo de rock que emergiu do pós-punk e glam rock no final da década de 1970.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Rock_g%C3%B3tico",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gothic_rock"
+    ],
+    "similares": [
+      "post-punk",
+      "gothic-metal"
+    ]
+  },
+  {
+    "id": "new-wave",
+    "nome": "New Wave",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "punk-rock",
+      "synth-pop"
+    ],
+    "resumo": "New wave é um gênero musical que engloba estilos pop que surgiram em meados e no final da década de 1970 como uma \"expansão mais leve e melódica da cultura punk\".",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/New_wave_(g%C3%AAnero_musical)",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/New_wave_music"
+    ],
+    "similares": [
+      "synth-pop",
+      "post-punk"
+    ]
+  },
+  {
+    "id": "alternative-rock",
+    "nome": "Alternative Rock",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "post-punk",
+      "punk-rock"
+    ],
+    "resumo": "Rock alternativo (também conhecido como alt-rock, música alternativa ou simplesmente alternativo) é uma categoria de rock que emergiu do underground da música independente na década de 1970 e se tornou amplamente popular na década de 1990.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Rock_alternativo",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alternative_rock"
+    ],
+    "similares": [
+      "indie-rock",
+      "grunge"
+    ]
+  },
+  {
+    "id": "indie-rock",
+    "nome": "Indie Rock",
+    "pai": "alternative-rock",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "post-punk"
+    ],
+    "resumo": "O indie rock (derivação de rock independente) é um subgênero de música rock que se originou nos Estados Unidos, Reino Unido e Nova Zelândia entre os anos 1970 e 1980.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Indie_rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Indie_rock"
+    ],
+    "similares": [
+      "alternative-rock",
+      "britpop"
+    ]
+  },
+  {
+    "id": "grunge",
+    "nome": "Grunge",
+    "pai": "alternative-rock",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "hardcore-punk",
+      "heavy-metal",
+      "noise-rock"
+    ],
+    "resumo": "Grunge (às vezes chamado de Seattle sound ou som de Seattle) foi uma cena do rock alternativo que surgiu no final da década de 1980 no estado americano de Washington, principalmente em Seattle, inspirado pelo hardcore punk, pelo heavy metal e pelo indie rock.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Grunge",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Grunge"
+    ],
+    "similares": [
+      "alternative-metal",
+      "alternative-rock"
+    ]
+  },
+  {
+    "id": "britpop",
+    "nome": "Britpop",
+    "pai": "alternative-rock",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "indie-rock"
+    ],
+    "resumo": "Britpop é um movimento de música e cultura baseado no Reino Unido em meados da década de 1990 que enfatizou o \"Britanismo\" e produziu um estilo de música pop cativante e suave, parte em reação à popularidade dos temas líricos mais pesados da música grunge dos Estados Unidos e também da cena shoegaze do próprio Reino Unido.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Britpop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Britpop"
+    ],
+    "similares": [
+      "indie-rock",
+      "new-wave"
+    ]
+  },
+  {
+    "id": "dream-pop",
+    "nome": "Dream Pop",
+    "pai": "alternative-rock",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "post-punk",
+      "psychedelic-rock"
+    ],
+    "resumo": "Dream pop (também escrito como dreampop) é um subgênero do rock alternativo e da neopsicodelia que enfatiza tanto a atmosfera e a textura sonora quanto a melodia pop romântica.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Dream_pop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dream_pop"
+    ],
+    "similares": [
+      "shoegaze",
+      "ambient"
+    ]
+  },
+  {
+    "id": "shoegaze",
+    "nome": "Shoegaze",
+    "pai": "alternative-rock",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "dream-pop",
+      "noise-rock",
+      "psychedelic-rock"
+    ],
+    "resumo": "Shoegaze (originalmente chamado shoegazing e às vezes confundido com \"dream pop\") é um subgênero do indie e rock alternativo caracterizado por sua mistura fluída de vocais obscuros, distorção e efeitos de guitarra, feedback e volume avassalador.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Shoegaze",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Shoegaze"
+    ],
+    "similares": [
+      "dream-pop",
+      "blackgaze"
+    ]
+  },
+  {
+    "id": "noise-rock",
+    "nome": "Noise Rock",
+    "pai": "alternative-rock",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "post-punk",
+      "punk-rock"
+    ],
+    "resumo": "Noise rock é um gênero musical desenvolvido a partir do final dos anos 70 como uma variação experimental do punk rock, numa fusão com o gênero noise.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Noise_rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Noise_rock"
+    ],
+    "similares": [
+      "shoegaze",
+      "post-hardcore"
+    ]
+  },
+  {
+    "id": "post-rock",
+    "nome": "Post-Rock",
+    "pai": "alternative-rock",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "krautrock",
+      "progressive-rock",
+      "ambient"
+    ],
+    "resumo": "Post-rock ou pós-rock é um subgênero do rock experimental que enfatiza a textura, a atmosfera e estruturas musicais não tradicionais em detrimento das técnicas convencionais do rock.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Post-rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Post-rock"
+    ],
+    "similares": [
+      "post-metal",
+      "math-rock"
+    ]
+  },
+  {
+    "id": "math-rock",
+    "nome": "Math Rock",
+    "pai": "alternative-rock",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "progressive-rock",
+      "post-hardcore"
+    ],
+    "resumo": "Math rock é um gênero musical que surgiu no final da década de 1980, com influências do punk rock e do rock progressivo.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Math_rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Math_rock"
+    ],
+    "similares": [
+      "post-rock",
+      "post-hardcore"
+    ]
+  },
+  {
+    "id": "pop",
+    "nome": "Pop",
+    "pai": null,
+    "mestre": true,
+    "decada": 1950,
+    "origens": [
+      "rock-and-roll",
+      "rhythm-and-blues",
+      "tin-pan-alley"
+    ],
+    "resumo": "A música pop (em inglês: pop music; um termo que deriva da abreviação de \"popular\") é um gênero da música popular que se originou durante a década de 1950 nos Estados Unidos e Reino Unido.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_pop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pop_music"
+    ],
+    "similares": [
+      "rock",
+      "eletronica"
+    ]
+  },
+  {
+    "id": "bubblegum-pop",
+    "nome": "Bubblegum Pop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "rock-and-roll"
+    ],
+    "resumo": "Bubblegum pop (também conhecido como música chiclete, música bubblegum ou simplesmente bubblegum) é um subgênero da música pop com um som animado e cativante, criado e comercializado para atrair pré-adolescentes e adolescentes.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Bubblegum_pop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bubblegum_music"
+    ],
+    "similares": [
+      "sunshine-pop",
+      "teen-pop"
+    ]
+  },
+  {
+    "id": "sunshine-pop",
+    "nome": "Sunshine Pop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "surf-rock",
+      "folk-rock"
+    ],
+    "resumo": "Sunshine pop (originalmente conhecido como soft pop) é um subgênero da música pop que se originou no sul da Califórnia em meados dos anos 1960.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Sunshine_pop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sunshine_pop"
+    ],
+    "similares": [
+      "baroque-pop",
+      "bubblegum-pop"
+    ]
+  },
+  {
+    "id": "baroque-pop",
+    "nome": "Baroque Pop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "psychedelic-rock"
+    ],
+    "resumo": "Pop barroco (ou rock barroco) é um gênero de fusão que combina rock com elementos típicos da música clássica.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Pop_barroco",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Baroque_pop"
+    ],
+    "similares": [
+      "sunshine-pop",
+      "art-pop"
+    ]
+  },
+  {
+    "id": "art-pop",
+    "nome": "Art Pop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "baroque-pop",
+      "glam-rock"
+    ],
+    "resumo": "Art pop (também chamado de pop artístico) é um termo que pode se referir a uma gama de estilos e gêneros musicais da música pop. Sua origem se dá em meados dos anos 1960, principalmente advindo de músicos do art rock como David Bowie, Brian Wilson e Brian Eno.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Art_pop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Art pop",
+    "resumoFrases": 2,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Art_pop"
+    ],
+    "similares": [
+      "baroque-pop",
+      "hypnagogic-pop"
+    ]
+  },
+  {
+    "id": "soft-rock",
+    "nome": "Soft Rock",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "folk-rock",
+      "sunshine-pop"
+    ],
+    "resumo": "Soft rock (ou lite rock) é um subgênero do pop e rock. As canções do estilo, que se originou no sul da Califórnia na década de 1970, são geralmente simples e melódicas com produções grandes e exuberantes.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Soft_rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Soft rock",
+    "resumoFrases": 2,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Soft_rock"
+    ],
+    "similares": [
+      "yacht-rock",
+      "city-pop"
+    ]
+  },
+  {
+    "id": "yacht-rock",
+    "nome": "Yacht Rock",
+    "pai": "soft-rock",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "soft-rock",
+      "jazz",
+      "rhythm-and-blues"
+    ],
+    "resumo": "Yacht rock (originalmente conhecido como West Coast sound ou adult-oriented rock) é um estilo musical e estético amplo, comumente associado ao soft rock, um dos gêneros mais comercialmente bem-sucedidos do período entre meados dos anos 1970 e meados dos anos 1980.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Yacht_rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Yacht_rock"
+    ],
+    "similares": [
+      "soft-rock",
+      "city-pop"
+    ]
+  },
+  {
+    "id": "dance-pop",
+    "nome": "Dance-Pop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "disco",
+      "synth-pop",
+      "house"
+    ],
+    "resumo": "Dance-pop é um subgênero do pop e dance que se originou no início da década de 1980.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Dance-pop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dance-pop"
+    ],
+    "similares": [
+      "teen-pop",
+      "electropop"
+    ]
+  },
+  {
+    "id": "teen-pop",
+    "nome": "Teen Pop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "dance-pop",
+      "bubblegum-pop"
+    ],
+    "resumo": "Teen pop (em português, \"pop adolescente\") é um subgênero da música pop criado, comercializado e orientado para pré-adolescentes e adolescentes, embora possa atingir um público mais abrangente.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Teen_pop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Teen_pop"
+    ],
+    "similares": [
+      "dance-pop",
+      "k-pop"
+    ]
+  },
+  {
+    "id": "indie-pop",
+    "nome": "Indie Pop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "post-punk",
+      "indie-rock"
+    ],
+    "resumo": "Indie pop é um gênero musical e subcultura que, em sua definição original, combina \"pop de guitarra\" com a ideologia ética Do it yourself (\"faça você mesmo\"), em oposição ao estilo e tom da música pop mainstream.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Indie_pop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Indie_pop"
+    ],
+    "similares": [
+      "dream-pop",
+      "bedroom-pop"
+    ]
+  },
+  {
+    "id": "city-pop",
+    "nome": "City Pop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "soft-rock",
+      "yacht-rock",
+      "funk"
+    ],
+    "resumo": "City pop (em japonês: シティ・ポップ; romaniz.: Shiti poppu) é subgênero de música pop japonesa (j-pop), que surgiu no final da década de 1970 e atingiu o seu pico na década de 1980.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/City_pop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/City_pop"
+    ],
+    "similares": [
+      "yacht-rock",
+      "j-pop"
+    ]
+  },
+  {
+    "id": "j-pop",
+    "nome": "J-Pop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "city-pop"
+    ],
+    "resumo": "J-pop (em japonês: ジェイポップ; romaniz.: jeipoppu; lit. abreviação de \"pop japonês\" ou ainda \"música popular japonesa\" é um gênero musical que entrou no mainstream musical do Japão na década de 1990.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/J-pop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:J-pop",
+    "resumoFrases": 2,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/J-pop"
+    ],
+    "similares": [
+      "k-pop",
+      "shibuya-kei"
+    ]
+  },
+  {
+    "id": "shibuya-kei",
+    "nome": "Shibuya-kei",
+    "pai": "j-pop",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "city-pop",
+      "baroque-pop"
+    ],
+    "resumo": "Shibuya-kei (渋谷系) é um subgênero da música pop Japonesa, que foi originado em Shibuya, Tóquio.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Shibuya-kei",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Shibuya-kei"
+    ],
+    "similares": [
+      "j-pop",
+      "indie-pop"
+    ]
+  },
+  {
+    "id": "k-pop",
+    "nome": "K-Pop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "dance-pop",
+      "hip-hop"
+    ],
+    "resumo": "K-pop (abreviação de korean pop [música pop coreana ou música popular coreana] coreano: 케이팝; RR: ke-i-pap, pronúncia em português: [kɐi pɔp]) é uma forma de música popular originária da Coreia do Sul.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/K-pop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/K-pop"
+    ],
+    "similares": [
+      "j-pop",
+      "teen-pop"
+    ]
+  },
+  {
+    "id": "electropop",
+    "nome": "Electropop",
+    "pai": "synth-pop",
+    "mestre": false,
+    "decada": 2000,
+    "origens": [
+      "synth-pop",
+      "dance-pop"
+    ],
+    "resumo": "Electropop é um estilo musical de fusão que combina elementos dos estilos eletrônico e pop, caracterizado por caixas de ritmos, sintetizadores e instrumentação eletrônica.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Electropop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Electropop"
+    ],
+    "similares": [
+      "synth-pop",
+      "hyperpop"
+    ]
+  },
+  {
+    "id": "hypnagogic-pop",
+    "nome": "Hypnagogic Pop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 2000,
+    "origens": [
+      "synth-pop",
+      "soft-rock"
+    ],
+    "resumo": "Hypnagogic pop (or simply h-pop) is a loosely defined style of pop and psychedelic music that evokes cultural memory and nostalgia for the popular entertainment of the past (principally the 1980s and early 1990s).",
+    "resumoFonte": {
+      "url": "https://en.wikipedia.org/wiki/Hypnagogic_pop",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hypnagogic_pop"
+    ],
+    "similares": [
+      "chillwave",
+      "vaporwave"
+    ]
+  },
+  {
+    "id": "chillwave",
+    "nome": "Chillwave",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 2000,
+    "origens": [
+      "hypnagogic-pop",
+      "synth-pop",
+      "dream-pop"
+    ],
+    "resumo": "Chillwave, também chamado de glo-fi, é um gênero musical cujos artistas são frequentemente caracterizados pelo grande uso de efeitos sonoros, sintetizadores, loops, samples e vocais fortemente filtrados com simples linhas melódicas.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Chillwave",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chillwave"
+    ],
+    "similares": [
+      "hypnagogic-pop",
+      "bedroom-pop"
+    ]
+  },
+  {
+    "id": "bedroom-pop",
+    "nome": "Bedroom Pop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 2010,
+    "origens": [
+      "indie-pop",
+      "chillwave"
+    ],
+    "resumo": "",
+    "resumoPendente": "sem artigo próprio na Wikipédia",
+    "resumoArtigo": false,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bedroom_pop"
+    ],
+    "similares": [
+      "indie-pop",
+      "chillwave"
+    ]
+  },
+  {
+    "id": "hyperpop",
+    "nome": "Hyperpop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 2010,
+    "origens": [
+      "electropop",
+      "bubblegum-pop",
+      "trap"
+    ],
+    "resumo": "Hyperpop ou hiperpop é um movimento musical e microgênero definido de forma vaga caracterizado por uma abordagem maximalista ou exagerada da música popular.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Hyperpop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hyperpop"
+    ],
+    "similares": [
+      "electropop",
+      "cloud-rap"
+    ]
+  },
+  {
+    "id": "metal",
+    "nome": "Metal",
+    "pai": null,
+    "mestre": true,
+    "decada": 1960,
+    "origens": [
+      "rock",
+      "hard-rock",
+      "blues-rock",
+      "psychedelic-rock"
+    ],
+    "resumo": "Heavy metal (em tradução livre: metal pesado) (ou simplesmente metal) é um gênero do rock que se desenvolveu no final da década de 1960 e no início da década de 1970, em grande parte no Reino Unido e nos Estados Unidos.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Heavy_metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Heavy_metal_music"
+    ],
+    "similares": [
+      "rock",
+      "eletronica"
+    ]
+  },
+  {
+    "id": "heavy-metal",
+    "nome": "Heavy Metal",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "hard-rock",
+      "blues-rock"
+    ],
+    "resumo": "Heavy metal tradicional (também conhecido como heavy metal clássico) é a forma clássica do gênero heavy metal. O termo heavy metal tradicional é referente a sonoridade do primeiro estilo de metal dos anos 70 e início dos anos 80 fortemente influenciado pelo hard rock e raízes do blues.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Heavy_metal_tradicional",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Heavy metal tradicional",
+    "resumoFrases": 2,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Heavy_metal_music"
+    ],
+    "similares": [
+      "hard-rock",
+      "nwobhm"
+    ]
+  },
+  {
+    "id": "nwobhm",
+    "nome": "New Wave of British Heavy Metal",
+    "pai": "heavy-metal",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "heavy-metal",
+      "punk-rock"
+    ],
+    "resumo": "New Wave of British Heavy Metal (N.W.O.B.H.M.) – traduzindo para o português: Nova Onda Do Heavy Metal Britânico – foi um fenômeno musical underground que surgiu na Inglaterra entre as décadas de 1970 e 1980.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/New_Wave_of_British_Heavy_Metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/New_wave_of_British_heavy_metal"
+    ],
+    "similares": [
+      "heavy-metal",
+      "speed-metal"
+    ]
+  },
+  {
+    "id": "doom-metal",
+    "nome": "Doom Metal",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "heavy-metal"
+    ],
+    "resumo": "Doom metal é um subgênero do heavy metal caracterizado por andamentos lentos e guitarras \"sujas\", que evocam um clima sombrio e apavorante.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Doom_metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Doom_metal"
+    ],
+    "similares": [
+      "sludge-metal",
+      "stoner-metal"
+    ]
+  },
+  {
+    "id": "stoner-metal",
+    "nome": "Stoner Metal",
+    "pai": "doom-metal",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "stoner-rock",
+      "doom-metal"
+    ],
+    "resumo": "",
+    "resumoPendente": "artigo compartilhado com \"stoner-rock\" (Stoner rock)",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Stoner_rock"
+    ],
+    "similares": [
+      "stoner-rock",
+      "sludge-metal"
+    ]
+  },
+  {
+    "id": "sludge-metal",
+    "nome": "Sludge Metal",
+    "pai": "doom-metal",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "doom-metal",
+      "hardcore-punk"
+    ],
+    "resumo": "Sludge metal (às vezes chamado simplesmente de sludge), é um sub-gênero do heavy metal que tem como principal característica a mesclagem de elementos do doom metal, do hardcore e as vezes do southern rock.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Sludge_metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sludge_metal"
+    ],
+    "similares": [
+      "post-metal",
+      "stoner-metal"
+    ]
+  },
+  {
+    "id": "drone-metal",
+    "nome": "Drone Metal",
+    "pai": "doom-metal",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "doom-metal",
+      "ambient"
+    ],
+    "resumo": "Drone metal (também conhecido como drone doom e power ambient) é um estilo de heavy metal que envolve o ritmo lento e o peso do doom metal com os tons de longa duração da música drone.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Drone_metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Drone_metal"
+    ],
+    "similares": [
+      "dark-ambient",
+      "sludge-metal"
+    ]
+  },
+  {
+    "id": "speed-metal",
+    "nome": "Speed Metal",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "nwobhm"
+    ],
+    "resumo": "Speed metal é uma definição de subgênero do heavy metal que apareceu no fim da década de 1970, sendo o progenitor direto dos estilos thrash metal, metal neoclássico e power metal.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Speed_metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Speed_metal"
+    ],
+    "similares": [
+      "thrash-metal",
+      "power-metal"
+    ]
+  },
+  {
+    "id": "thrash-metal",
+    "nome": "Thrash Metal",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "speed-metal",
+      "nwobhm",
+      "hardcore-punk"
+    ],
+    "resumo": "Thrash metal (ou simplesmente thrash) é um subgênero extremo do heavy metal, caracterizado por seu ritmo rápido e agressividade.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Thrash_metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Thrash_metal"
+    ],
+    "similares": [
+      "speed-metal",
+      "death-metal"
+    ]
+  },
+  {
+    "id": "power-metal",
+    "nome": "Power Metal",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "heavy-metal",
+      "speed-metal"
+    ],
+    "resumo": "Power metal é um subgênero do heavy metal que combina características do metal tradicional com speed metal, muitas vezes com forte influência da música clássica.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Power_metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Power_metal"
+    ],
+    "similares": [
+      "speed-metal",
+      "progressive-metal"
+    ]
+  },
+  {
+    "id": "death-metal",
+    "nome": "Death Metal",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "thrash-metal"
+    ],
+    "resumo": "Death metal é um subgênero do heavy metal. Tipicamente agrega guitarras com baixas afinações e muito distorcidas, tocadas com técnicas como palm muting e tremolo picking, vocais guturais, bateria tocada de maneira potente, uso de pedal duplo ou técnica de blast beat, tons menores ou atonalidade, ritmo rápido e mudanças abruptas de tempo.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Death_metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Death metal",
+    "resumoFrases": 2,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Death_metal"
+    ],
+    "similares": [
+      "grindcore",
+      "black-metal"
+    ]
+  },
+  {
+    "id": "melodic-death-metal",
+    "nome": "Melodic Death Metal",
+    "pai": "death-metal",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "death-metal",
+      "nwobhm"
+    ],
+    "resumo": "Death metal melódico (do inglês: melodic death metal, também referido como melodeath) é um subgênero do death metal que emprega riffs e solos de guitarra altamente melódicos, muitas vezes inspirados no heavy metal tradicional, combinados com gritos agressivos ou guturais graves e as guitarras com distorção característica do death metal tradicional.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Death_metal_mel%C3%B3dico",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Melodic_death_metal"
+    ],
+    "similares": [
+      "death-metal",
+      "metalcore"
+    ]
+  },
+  {
+    "id": "grindcore",
+    "nome": "Grindcore",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "hardcore-punk",
+      "thrash-metal"
+    ],
+    "resumo": "Grindcore é estilo musical que surgiu de uma fusão de heavy metal e hardcore punk.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Grindcore",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Grindcore"
+    ],
+    "similares": [
+      "death-metal",
+      "hardcore-punk"
+    ]
+  },
+  {
+    "id": "black-metal",
+    "nome": "Black Metal",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "thrash-metal"
+    ],
+    "resumo": "Black metal é um subgênero do heavy metal que surgiu no início da década de 1980 e se desenvolveu em sua forma atual, principalmente na Noruega e na Suécia, no início da década de 1990.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Black_metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Black_metal"
+    ],
+    "similares": [
+      "death-metal",
+      "blackgaze"
+    ]
+  },
+  {
+    "id": "blackgaze",
+    "nome": "Blackgaze",
+    "pai": "black-metal",
+    "mestre": false,
+    "decada": 2000,
+    "origens": [
+      "black-metal",
+      "shoegaze",
+      "post-rock"
+    ],
+    "resumo": "Blackgaze é um subgênero do black metal surgido no começo da década de 2000 através da fusão entre o black metal e os gêneros shoegaze e post-rock.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Blackgaze",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Blackgaze"
+    ],
+    "similares": [
+      "shoegaze",
+      "post-metal"
+    ]
+  },
+  {
+    "id": "post-metal",
+    "nome": "Post-Metal",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "sludge-metal",
+      "post-rock"
+    ],
+    "resumo": "Post-metal é um gênero musical que consiste na mistura dos gêneros musicais post-rock e metal, com raízes no rock progressivo, na música industrial e sludge.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Post-metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Post-metal"
+    ],
+    "similares": [
+      "post-rock",
+      "sludge-metal"
+    ]
+  },
+  {
+    "id": "progressive-metal",
+    "nome": "Progressive Metal",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "heavy-metal",
+      "progressive-rock"
+    ],
+    "resumo": "Metal progressivo (do inglês, progressive metal, também conhecido como prog metal), é um gênero de fusão, resultado da união do rock progressivo com o heavy metal.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Metal_progressivo",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Progressive_metal"
+    ],
+    "similares": [
+      "progressive-rock",
+      "power-metal"
+    ]
+  },
+  {
+    "id": "gothic-metal",
+    "nome": "Gothic Metal",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "doom-metal",
+      "gothic-rock"
+    ],
+    "resumo": "Metal gótico (conhecido pelo anglicismo — gothic metal ou goth metal) é um gênero de fusão que combina a agressividade do heavy metal com as atmosferas sombrias do rock gótico (gothic rock).",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Metal_g%C3%B3tico",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gothic_metal"
+    ],
+    "similares": [
+      "gothic-rock",
+      "doom-metal"
+    ]
+  },
+  {
+    "id": "metalcore",
+    "nome": "Metalcore",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "hardcore-punk",
+      "thrash-metal",
+      "melodic-death-metal"
+    ],
+    "resumo": "Metalcore é um gênero musical de fusão que combina elementos de metal extremo e hardcore punk.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Metalcore",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Metalcore"
+    ],
+    "similares": [
+      "melodic-death-metal",
+      "post-hardcore"
+    ]
+  },
+  {
+    "id": "alternative-metal",
+    "nome": "Alternative Metal",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "alternative-rock",
+      "thrash-metal"
+    ],
+    "resumo": "Metal alternativo (em inglês: alternative metal) é um gênero que combina heavy metal com influências do rock alternativo e outros gêneros normalmente não associados ao metal.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Metal_alternativo",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alternative_metal"
+    ],
+    "similares": [
+      "grunge",
+      "nu-metal"
+    ]
+  },
+  {
+    "id": "nu-metal",
+    "nome": "Nu Metal",
+    "pai": "alternative-metal",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "alternative-metal",
+      "hip-hop",
+      "grunge"
+    ],
+    "resumo": "Nu metal (também conhecido como nü-metal, aggro-metal, neo-metal ou new metal) é um subgénero do heavy metal. É uma fusão musical que combina elementos do metal com outros géneros, como a música tribal, funk, grunge e um pouco do hip-hop.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Nu_metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Nu metal",
+    "resumoFrases": 2,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nu_metal"
+    ],
+    "similares": [
+      "alternative-metal",
+      "industrial-metal"
+    ]
+  },
+  {
+    "id": "industrial-metal",
+    "nome": "Industrial Metal",
+    "pai": "metal",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "industrial",
+      "thrash-metal"
+    ],
+    "resumo": "Metal industrial é um gênero musical que mistura a música industrial com diversos subgêneros do heavy metal, usando riffs de guitarra rítmicos e repetitivos, samplers, sintetizadores ou sequenciadores e vocais distorcidos.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Metal_industrial",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Industrial_metal"
+    ],
+    "similares": [
+      "nu-metal",
+      "techno"
+    ]
+  },
+  {
+    "id": "eletronica",
+    "nome": "Eletrônica",
+    "pai": null,
+    "mestre": true,
+    "decada": 1950,
+    "origens": [
+      "musique-concrete",
+      "krautrock",
+      "disco"
+    ],
+    "resumo": "A música eletrónica (português europeu) ou eletrônica (português brasileiro) é toda música que é criada ou modificada através do uso de equipamentos e instrumentos eletrônicos.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_eletr%C3%B4nica",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Electronic_music"
+    ],
+    "similares": [
+      "hip-hop",
+      "rock"
+    ]
+  },
+  {
+    "id": "ambient",
+    "nome": "Ambient",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "krautrock",
+      "minimalism"
+    ],
+    "resumo": "Música ambiente é um gênero musical que enfatiza o tom e a atmosfera em detrimento da estrutura ou ritmo musical tradicional.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_ambiente",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ambient_music"
+    ],
+    "similares": [
+      "dark-ambient",
+      "post-rock"
+    ]
+  },
+  {
+    "id": "dark-ambient",
+    "nome": "Dark Ambient",
+    "pai": "ambient",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "ambient",
+      "industrial"
+    ],
+    "resumo": "Dark ambient (originally known as ambient industrial) is a subgenre of ambient and post-industrial music, that originally emerged in the mid-1980s. It is characterized by ominous, dark drones, discordant overtones and a gloomy, monumental or catacomb-inspired atmosphere.",
+    "resumoFonte": {
+      "url": "https://en.wikipedia.org/wiki/Dark_ambient",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "en:Dark ambient",
+    "resumoFrases": 2,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dark_ambient"
+    ],
+    "similares": [
+      "ambient",
+      "drone-metal"
+    ]
+  },
+  {
+    "id": "synth-pop",
+    "nome": "Synth-Pop",
+    "pai": "pop",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "krautrock",
+      "disco"
+    ],
+    "resumo": "Synth-pop (abreviação de synthesizer pop, do inglês: pop sintetizador, também chamado de technopop) é um subgênero da new wave que se tornou proeminente no final da década de 1970, pré-definido no final da década de 1960, apresentando o uso do teclado sintetizador como o instrumento musical dominante.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Synth-pop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Synth-pop"
+    ],
+    "similares": [
+      "new-wave",
+      "electro"
+    ]
+  },
+  {
+    "id": "electro",
+    "nome": "Electro",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "synth-pop",
+      "funk"
+    ],
+    "resumo": "Electro (também chamado de electro-funk ou electro-boogie) é um gênero de música eletrônica diretamente influenciado pelo uso da caixa de ritmos TR-808, sintetizadores Moog keytar e samplers de soul e funk (amostras ou cortes de sons de músicas etc.).",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Electro",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Electro_(music)"
+    ],
+    "similares": [
+      "techno",
+      "old-school-hip-hop"
+    ]
+  },
+  {
+    "id": "house",
+    "nome": "House",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "disco",
+      "synth-pop"
+    ],
+    "resumo": "House é um gênero musical caracterizado por uma batida repetitiva no padrão four-on-the-floor e um andamento típico de 120 bpm.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/House_music",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/House_music"
+    ],
+    "similares": [
+      "techno",
+      "uk-garage"
+    ]
+  },
+  {
+    "id": "deep-house",
+    "nome": "Deep House",
+    "pai": "house",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "house",
+      "jazz",
+      "soul"
+    ],
+    "resumo": "Deep House (110~125 BPM) é um subgênero da House music do tipo downtime, originado na década de 1980, inicialmente fundindo elementos da Chicago House com o Jazz e o Funk com um toque de Soul music.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Deep_house",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Deep_house"
+    ],
+    "similares": [
+      "house",
+      "minimal-techno"
+    ]
+  },
+  {
+    "id": "acid-house",
+    "nome": "Acid House",
+    "pai": "house",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "house"
+    ],
+    "resumo": "O Acid house é um estilo da música eletrônica sub-vertente da House music, que teve seus elementos misturados com um som pesado e graves fundos da caixa-de-ritmos Roland TR-808, e teve sua primeira aparição na década de 1980, no trabalho chamado Acid Traxx\", dos produtores norte-americanos da cidade de Chicago DJ Pierre, Adonis, Farley Jackmaster Funk e Phuture (esse último levou o nome da música que virou clássico).",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Acid_house",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Acid_house"
+    ],
+    "similares": [
+      "house",
+      "techno"
+    ]
+  },
+  {
+    "id": "techno",
+    "nome": "Techno",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "electro",
+      "house",
+      "synth-pop"
+    ],
+    "resumo": "Techno é um gênero musical que abrange vários estilos variação da electronic dance music, criado em Detroit, Michigan (Estados Unidos) em meados da década de 1980.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Techno",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Techno"
+    ],
+    "similares": [
+      "house",
+      "minimal-techno"
+    ]
+  },
+  {
+    "id": "minimal-techno",
+    "nome": "Minimal Techno",
+    "pai": "techno",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "techno"
+    ],
+    "resumo": "Minimal Techno ou simplesmente Minimal, é um estilo de música eletrônica, geralmente considerado como o subgênero minimalista derivado do Techno.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Minimal_techno",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Minimal_techno"
+    ],
+    "similares": [
+      "techno",
+      "deep-house"
+    ]
+  },
+  {
+    "id": "trance",
+    "nome": "Trance",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "techno",
+      "house"
+    ],
+    "resumo": "Trance é uma vertente da música eletrônica que emergiu no início da década de 1990.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Trance",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Trance_music"
+    ],
+    "similares": [
+      "techno",
+      "house"
+    ]
+  },
+  {
+    "id": "idm",
+    "nome": "IDM",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "techno",
+      "ambient",
+      "acid-house"
+    ],
+    "resumo": "Intelligent dance music, ou IDM, é um termo que descreve um gênero de música eletrônica que apareceu no início de 1990, no final da era Rave britânica.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/IDM",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Intelligent_dance_music"
+    ],
+    "similares": [
+      "ambient",
+      "drum-and-bass"
+    ]
+  },
+  {
+    "id": "jungle",
+    "nome": "Jungle",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "breakbeat-hardcore",
+      "dub",
+      "reggae"
+    ],
+    "resumo": "Jungle é um gênero de música eletrônica derivado do Breakbeat hardcore que se desenvolveu na Inglaterra no início dos anos 90 como parte das cenas rave do Reino Unido.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Jungle_music",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jungle_music"
+    ],
+    "similares": [
+      "drum-and-bass",
+      "uk-garage"
+    ]
+  },
+  {
+    "id": "drum-and-bass",
+    "nome": "Drum and Bass",
+    "pai": "jungle",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "jungle"
+    ],
+    "resumo": "Drum and bass (também abreviado como D&B, DnB ou simplesmente d'n'b) é um estilo de música eletrônica que se originou a partir do old school jungle.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Drum_and_bass",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Drum_and_bass"
+    ],
+    "similares": [
+      "jungle",
+      "dubstep"
+    ]
+  },
+  {
+    "id": "uk-garage",
+    "nome": "UK Garage",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "house",
+      "jungle"
+    ],
+    "resumo": "UK Garage (também conhecido como UKG, 4x4, ou simplesmente Garage) é um gênero de música eletrônica/dance music proveniente do Reino Unido em meados dos anos 1990.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/UK_Garage",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/UK_garage"
+    ],
+    "similares": [
+      "dubstep",
+      "grime"
+    ]
+  },
+  {
+    "id": "dubstep",
+    "nome": "Dubstep",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 2000,
+    "origens": [
+      "uk-garage",
+      "dub",
+      "drum-and-bass"
+    ],
+    "resumo": "Dubstep é um gênero de música eletrônica que se originou no Sul de Londres, Inglaterra em meados finais da década de 1990.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Dubstep",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dubstep"
+    ],
+    "similares": [
+      "uk-garage",
+      "drum-and-bass"
+    ]
+  },
+  {
+    "id": "trip-hop",
+    "nome": "Trip Hop",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "hip-hop",
+      "dub"
+    ],
+    "resumo": "Trip Hop (as vezes usado como sinônimo de downtempo e também chamado de música de Bristol) é um gênero de música eletrônica downtempo, influenciada por trilhas sonoras de filmes, funk dos anos 1970 e cool jazz criada geralmente usando samples.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Trip_hop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Trip_hop"
+    ],
+    "similares": [
+      "abstract-hip-hop",
+      "ambient"
+    ]
+  },
+  {
+    "id": "vaporwave",
+    "nome": "Vaporwave",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 2010,
+    "origens": [
+      "plunderphonics",
+      "hypnagogic-pop",
+      "synth-pop"
+    ],
+    "resumo": "Vaporwave é um gênero musical, um estilo de arte visual e um meme que surgiu no início da década de 2010 entre algumas comunidades da internet.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Vaporwave",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Vaporwave"
+    ],
+    "similares": [
+      "ambient",
+      "cloud-rap"
+    ]
+  },
+  {
+    "id": "hip-hop",
+    "nome": "Hip Hop",
+    "pai": null,
+    "mestre": true,
+    "decada": 1970,
+    "origens": [
+      "funk",
+      "soul",
+      "disco",
+      "dub",
+      "electro"
+    ],
+    "resumo": "O hip-hop (também conhecido como rap) é um gênero de música popular que surgiu no início da década de 1970 ao lado de uma subcultura associada nas comunidades afro-americanas e hispânicas da cidade de Nova Iorque.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Hip-hop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hip-hop"
+    ],
+    "similares": [
+      "eletronica",
+      "blues"
+    ]
+  },
+  {
+    "id": "old-school-hip-hop",
+    "nome": "Old-School Hip Hop",
+    "pai": "hip-hop",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "funk",
+      "disco"
+    ],
+    "resumo": "Old school hip hop, ou simplesmente Old school (expressão inglesa que pode ser traduzida como \"velha guarda\") é o termo utilizado para descrever os princípios do hip hop aos estilos musicais da época, representada pelos precursores do rap mundial.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Hip_hop_old_school",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Old-school_hip-hop"
+    ],
+    "similares": [
+      "electro",
+      "boom-bap"
+    ]
+  },
+  {
+    "id": "east-coast-hip-hop",
+    "nome": "East Coast Hip Hop",
+    "pai": "hip-hop",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "old-school-hip-hop"
+    ],
+    "resumo": "A East Coast hip hop (ou Hip Hop da Costa leste) é um subgênero regional do hip hop, que teve sua origem na cidade de Nova Iorque, durante a década de 1970.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/East_Coast_hip_hop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/East_Coast_hip-hop"
+    ],
+    "similares": [
+      "boom-bap",
+      "west-coast-hip-hop"
+    ]
+  },
+  {
+    "id": "boom-bap",
+    "nome": "Boom Bap",
+    "pai": "east-coast-hip-hop",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "east-coast-hip-hop"
+    ],
+    "resumo": "Boom Bap é um subgênero do hip hop e um estilo de produção musical que foi proeminente no hip hop da Costa Leste dos Estados Unidos durante a chamada era de ouro do hip hop, do final da década de 1980 ao início da década de 1990.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Boom_bap",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Boom_bap"
+    ],
+    "similares": [
+      "jazz-rap",
+      "east-coast-hip-hop"
+    ]
+  },
+  {
+    "id": "west-coast-hip-hop",
+    "nome": "West Coast Hip Hop",
+    "pai": "hip-hop",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "old-school-hip-hop",
+      "electro"
+    ],
+    "resumo": "West Coast Hip Hop ou West Coast Rap (traduzido para português: Hip Hop da Costa Oeste) é um movimento do hip hop que surgiu na Costa Oeste dos Estados Unidos (notoriamente no estado da Califórnia).",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/West_Coast_hip_hop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/West_Coast_hip-hop"
+    ],
+    "similares": [
+      "g-funk",
+      "east-coast-hip-hop"
+    ]
+  },
+  {
+    "id": "gangsta-rap",
+    "nome": "Gangsta Rap",
+    "pai": "hip-hop",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "west-coast-hip-hop",
+      "east-coast-hip-hop"
+    ],
+    "resumo": "Gangsta rap (ou gangster rap, inicialmente conhecido como reality rap) é um subgénero da música hip hop que surgiu em meados dos anos 1980 como um subgénero distinto mas altamente controverso do rap, cujas letras afirmam a cultura e a realidade das ruas e dos subúrbios, as vezes com um estilo gangster e valores típicos das gangues de rua.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Gangsta_rap",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gangsta_rap"
+    ],
+    "similares": [
+      "g-funk",
+      "drill"
+    ]
+  },
+  {
+    "id": "g-funk",
+    "nome": "G-Funk",
+    "pai": "west-coast-hip-hop",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "gangsta-rap",
+      "funk"
+    ],
+    "resumo": "G-funk (também chamado de gangsta funk ou ghetto funk) é um tipo de música de hip-hop que emergiu do gangsta rap da Costa Oeste dos Estados Unidos no princípio da década de 1990, mais precisamente de South Los Angeles, Compton, Inglewood, Watts, Long Beach, Oakland, Richmond, Hayward e Vallejo.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/G-funk",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/G-funk"
+    ],
+    "similares": [
+      "west-coast-hip-hop",
+      "gangsta-rap"
+    ]
+  },
+  {
+    "id": "southern-hip-hop",
+    "nome": "Southern Hip Hop",
+    "pai": "hip-hop",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "old-school-hip-hop"
+    ],
+    "resumo": "Hip-hop do Sul, também conhecido como rap do Sul, hip-hop da Costa Sul, ou dirty south, é um termo genérico para um gênero regional de música hip-hop americana que surgiu no sul dos Estados Unidos, especialmente na Geórgia, Texas, Luisiana, Tennessee e Flórida — frequentemente intitulado \"The Big 5\", cinco estados que constituem a \"Southern Network\" na música rap.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Dirty_south",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Southern_hip-hop"
+    ],
+    "similares": [
+      "trap",
+      "memphis-rap"
+    ]
+  },
+  {
+    "id": "memphis-rap",
+    "nome": "Memphis Rap",
+    "pai": "southern-hip-hop",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "southern-hip-hop"
+    ],
+    "resumo": "Memphis rap, também conhecido como Memphis hip hop e Memphis horrorcore, é um subgênero do hip hop que se originou em Memphis, Tennessee, no início da década de 1990.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Memphis_rap",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Memphis_rap"
+    ],
+    "similares": [
+      "phonk",
+      "trap"
+    ]
+  },
+  {
+    "id": "phonk",
+    "nome": "Phonk",
+    "pai": "memphis-rap",
+    "mestre": false,
+    "decada": 2010,
+    "origens": [
+      "memphis-rap",
+      "trap"
+    ],
+    "resumo": "Phonk (fonc, fonk) é um subgênero do hip hop e do trap inspirado diretamente no Memphis rap dos anos 90.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Phonk",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Phonk"
+    ],
+    "similares": [
+      "memphis-rap",
+      "cloud-rap"
+    ]
+  },
+  {
+    "id": "trap",
+    "nome": "Trap",
+    "pai": "southern-hip-hop",
+    "mestre": false,
+    "decada": 2000,
+    "origens": [
+      "southern-hip-hop",
+      "memphis-rap"
+    ],
+    "resumo": "Trap é um subgênero da música hip-hop que se originou no sul dos Estados Unidos, com referências líricas à trap a partir de 1991, mas o som moderno do trap aparecendo em 1999.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Trap",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Trap_music"
+    ],
+    "similares": [
+      "drill",
+      "cloud-rap"
+    ]
+  },
+  {
+    "id": "drill",
+    "nome": "Drill",
+    "pai": "hip-hop",
+    "mestre": false,
+    "decada": 2010,
+    "origens": [
+      "trap",
+      "gangsta-rap"
+    ],
+    "resumo": "O drill é um gênero musical com origem no sul de Chicago, no fim da década de 2000.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Drill_music",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Drill_music"
+    ],
+    "similares": [
+      "trap",
+      "uk-drill"
+    ]
+  },
+  {
+    "id": "uk-drill",
+    "nome": "UK Drill",
+    "pai": "drill",
+    "mestre": false,
+    "decada": 2010,
+    "origens": [
+      "drill",
+      "grime"
+    ],
+    "resumo": "UK drill is a subgenre of drill music and road rap that originated in the South London district of Brixton from 2012 onwards.",
+    "resumoFonte": {
+      "url": "https://en.wikipedia.org/wiki/UK_drill",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/UK_drill"
+    ],
+    "similares": [
+      "drill",
+      "grime"
+    ]
+  },
+  {
+    "id": "grime",
+    "nome": "Grime",
+    "pai": "hip-hop",
+    "mestre": false,
+    "decada": 2000,
+    "origens": [
+      "uk-garage",
+      "jungle",
+      "dancehall"
+    ],
+    "resumo": "Grime é um gênero de música urbana que surgiu em Bow, Londres, Inglaterra, no início da década de 2000, principalmente desenvolvido a partir do UK Garage.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Grime",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Grime_music"
+    ],
+    "similares": [
+      "uk-garage",
+      "uk-drill"
+    ]
+  },
+  {
+    "id": "conscious-hip-hop",
+    "nome": "Conscious Hip Hop",
+    "pai": "hip-hop",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "old-school-hip-hop"
+    ],
+    "resumo": "Political hip hop (also known as political rap and conscious hip-hop) is a subgenre of hip hop music that emerged in the 1980s as a form of political expression and activism.",
+    "resumoFonte": {
+      "url": "https://en.wikipedia.org/wiki/Political_hip-hop",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Political_hip-hop"
+    ],
+    "similares": [
+      "jazz-rap",
+      "boom-bap"
+    ]
+  },
+  {
+    "id": "jazz-rap",
+    "nome": "Jazz Rap",
+    "pai": "hip-hop",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "boom-bap",
+      "jazz"
+    ],
+    "resumo": "Jazz rap é um sub-gênero do hip hop, que incorpora influências do estilo jazz, desenvolvida no final dos anos 1980 e início de 1990.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Jazz_rap",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jazz_rap"
+    ],
+    "similares": [
+      "boom-bap",
+      "abstract-hip-hop"
+    ]
+  },
+  {
+    "id": "abstract-hip-hop",
+    "nome": "Abstract Hip Hop",
+    "pai": "hip-hop",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "jazz-rap",
+      "trip-hop"
+    ],
+    "resumo": "",
+    "resumoPendente": "sem artigo próprio na Wikipédia",
+    "resumoArtigo": false,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alternative_hip-hop"
+    ],
+    "similares": [
+      "trip-hop",
+      "experimental-hip-hop"
+    ]
+  },
+  {
+    "id": "experimental-hip-hop",
+    "nome": "Experimental Hip Hop",
+    "pai": "hip-hop",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "abstract-hip-hop",
+      "industrial",
+      "noise-rock"
+    ],
+    "resumo": "Hip Hop alternativo (também chamado de rap alternativo) é um subgênero do hip hop que abrange uma ampla gama de estilos que não são normalmente identificados como mainstream.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Hip_hop_alternativo",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alternative_hip-hop"
+    ],
+    "similares": [
+      "abstract-hip-hop",
+      "industrial-metal"
+    ]
+  },
+  {
+    "id": "cloud-rap",
+    "nome": "Cloud Rap",
+    "pai": "hip-hop",
+    "mestre": false,
+    "decada": 2010,
+    "origens": [
+      "trap",
+      "ambient"
+    ],
+    "resumo": "Cloud rap (conhecido também como trillwave ou based music) é um gênero originário do Hip-Hop e de Musica Psicodélica.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Cloud_rap",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cloud_rap"
+    ],
+    "similares": [
+      "trap",
+      "vaporwave"
+    ]
+  }
 ]
