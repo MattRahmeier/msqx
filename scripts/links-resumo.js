@@ -53,10 +53,11 @@ function mencoes(texto, lista, ignorar = null) {
   return links.sort((a, b) => a.de - b.de);
 }
 
-function calcularLinks(generos) {
+// `campo`: texto do gênero onde procurar ("resumo" ou "som").
+function calcularLinks(generos, campo = "resumo") {
   const lista = termos(generos);
   const resultado = new Map();
-  for (const g of generos) if (g.resumo) resultado.set(g.id, mencoes(g.resumo, lista, g.id));
+  for (const g of generos) if (g[campo]) resultado.set(g.id, mencoes(g[campo], lista, g.id));
   return resultado;
 }
 

@@ -2,14 +2,12 @@
 // Usado em todas as áreas (Curadoria, Guia de Gêneros, Pesquisa). Devolve HTML.
 // A capa é um botão (data-album) que abre a caixa lateral do álbum (painel-album.js).
 //
-// Streaming híbrido (roadmap.md, Fase 0): link direto quando a ficha tem `links`; sem ele,
-// Spotify, YouTube Music e Qobuz abrem a busca "Artista Álbum". As demais plataformas só
-// aparecem com link direto.
+// Só aparecem plataformas com link direto conferido (scripts/verificar-links.js); sem link, sem botão.
 
 const PLATAFORMAS = [
-  { id: "spotify", nome: "Spotify", busca: (q) => `https://open.spotify.com/search/${q}`, sempre: true },
-  { id: "youtube", nome: "YouTube Music", busca: (q) => `https://music.youtube.com/search?q=${q}`, sempre: true },
-  { id: "qobuz", nome: "Qobuz", busca: (q) => `https://www.qobuz.com/search?q=${q}`, sempre: true },
+  { id: "spotify", nome: "Spotify" },
+  { id: "youtubeMusic", nome: "YouTube Music", icone: "youtube-music" },
+  { id: "qobuz", nome: "Qobuz" },
   { id: "appleMusic", nome: "Apple Music", icone: "apple" },
   { id: "deezer", nome: "Deezer" },
   { id: "tidal", nome: "Tidal" },
@@ -21,12 +19,10 @@ export const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&a
 // Botões de streaming. `comNome`: mostra o nome da plataforma ao lado do ícone (caixa lateral).
 export function botoesStreaming(ficha, { comNome = false } = {}) {
   const links = ficha.links || {};
-  const q = encodeURIComponent(`${ficha.artista} ${ficha.titulo}`);
-  return PLATAFORMAS.filter((p) => links[p.id] || p.sempre).map((p) => {
-    const direto = links[p.id];
-    const rotulo = direto ? `Ouvir no ${p.nome}` : `Buscar no ${p.nome}`;
-    return `<li><a class="plat${comNome ? " plat-nome" : ""}" href="${esc(direto || p.busca(q))}" target="_blank" rel="noopener"
-      ${direto ? "" : "data-busca"} aria-label="${rotulo}: ${esc(ficha.titulo)}" title="${rotulo}">
+  return PLATAFORMAS.filter((p) => links[p.id]).map((p) => {
+    const rotulo = `Ouvir no ${p.nome}`;
+    return `<li><a class="plat${comNome ? " plat-nome" : ""}" href="${esc(links[p.id])}" target="_blank" rel="noopener"
+      aria-label="${rotulo}: ${esc(ficha.titulo)}" title="${rotulo}">
       <svg class="icone" aria-hidden="true"><use href="#i-${p.icone || p.id}"/></svg>${comNome ? `<span>${p.nome}</span>` : ""}</a></li>`;
   }).join("");
 }
@@ -50,7 +46,7 @@ export function cardAlbum(ficha, { nota } = {}) {
         <h3 class="card-titulo" title="${esc(ficha.titulo)}">${esc(ficha.titulo)}</h3>
         <p class="card-artista">${esc(ficha.artista)}${ano ? ` <span>· ${ano}</span>` : ""}</p>
       </div>
-      <ul class="card-plataformas" aria-label="Ouvir">${botoesStreaming(ficha)}</ul>
+      ${ficha.links && Object.keys(ficha.links).length ? `<ul class="card-plataformas" aria-label="Ouvir">${botoesStreaming(ficha)}</ul>` : ""}
       ${nota ? `<p class="card-nota">${esc(nota)}</p>` : ""}
     </article>`;
 }

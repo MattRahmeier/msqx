@@ -92,7 +92,8 @@
       "spotify": "https://open.spotify.com/album/3OrucS4sHv6Bl9GS4rafEk",
       "deezer": "https://www.deezer.com/album/1183037",
       "appleMusic": "https://itunes.apple.com/us/album/id446002567",
-      "tidal": "https://tidal.com/album/7397029"
+      "tidal": "https://tidal.com/album/7397029",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nJKaZjTOtfqdALHUXLBdw32JG6rcAyYSg"
     },
     "capa": "assets/img/capas/2pac-me-against-the-world.jpg",
     "musicbrainz": {
@@ -104,7 +105,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "a-tribe-called-quest-the-low-end-theory",
@@ -190,7 +192,8 @@
       "deezer": "https://www.deezer.com/album/242316",
       "appleMusic": "https://itunes.apple.com/gb/album/id278911460",
       "qobuz": "https://www.qobuz.com/us-en/album/the-low-end-theory-a-tribe-called-quest/0012414141828",
-      "tidal": "https://tidal.com/album/2775344"
+      "tidal": "https://tidal.com/album/2775344",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kzllBxCmMBMz7S2cOfYsRtMAx2GAQY2GU"
     },
     "capa": "assets/img/capas/a-tribe-called-quest-the-low-end-theory.jpg",
     "musicbrainz": {
@@ -202,7 +205,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "ahmed-abdul-malik-jazz-sounds-of-africa",
@@ -273,7 +277,9 @@
         "duracao": "5:13"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mf32TyUONd5L-Foao2fuCF75b-YmzERB0"
+    },
     "capa": "assets/img/capas/ahmed-abdul-malik-jazz-sounds-of-africa.jpg",
     "musicbrainz": {
       "releaseGroup": "49f8201d-1ffe-332a-a321-dc3fa716a1d9",
@@ -284,7 +290,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "albert-king-born-under-a-bad-sign",
@@ -350,7 +357,9 @@
         "duracao": "3:47"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kscnmqXwSX5dLY727vG4m08llsI4d6ueQ"
+    },
     "capa": "assets/img/capas/albert-king-born-under-a-bad-sign.jpg",
     "musicbrainz": {
       "releaseGroup": "022e4221-f872-39e2-bac5-d924c849a52d",
@@ -361,7 +370,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "albert-king-with-stevie-ray-vaughan-in-session",
@@ -442,7 +452,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "alphaville-forever-young",
@@ -507,7 +518,7 @@
       "spotify": "https://open.spotify.com/album/7GToXBCsFOHug9wXhPE4iu",
       "deezer": "https://www.deezer.com/album/317421857",
       "appleMusic": "https://music.apple.com/gb/album/1623347333",
-      "qobuz": "http://www.qobuz.com/album/forever-young-alphaville/0075678018664"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nGDdSzOs4PuIhPzoo6ZwN0KqE4bMhiQKM"
     },
     "capa": "assets/img/capas/alphaville-forever-young.jpg",
     "musicbrainz": {
@@ -519,7 +530,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "amon-tobin-out-from-out-where",
@@ -590,7 +602,8 @@
       "deezer": "https://www.deezer.com/album/936177",
       "bandcamp": "https://amontobin.bandcamp.com/album/out-from-out-where",
       "appleMusic": "https://music.apple.com/gb/album/416343540",
-      "tidal": "https://tidal.com/album/6757463"
+      "tidal": "https://tidal.com/album/6757463",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k7gtwUQt0BLSMPLg09V9wuFtZ0cV6VW9Q"
     },
     "capa": "assets/img/capas/amon-tobin-out-from-out-where.jpg",
     "musicbrainz": {
@@ -602,7 +615,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "anthony-braxton-the-montreux-berlin-concerts",
@@ -640,7 +654,8 @@
     ],
     "links": {
       "spotify": "https://open.spotify.com/album/1kPp7AOikyDNfeTct74vBG",
-      "appleMusic": "https://itunes.apple.com/ca/album/id1272845046"
+      "appleMusic": "https://itunes.apple.com/ca/album/id1272845046",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l-kdYtwafSqZGRhWbNevvQITfhH8F49kk"
     },
     "capa": "assets/img/capas/anthony-braxton-the-montreux-berlin-concerts.jpg",
     "musicbrainz": {
@@ -652,7 +667,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "aphex-twin-i-care-because-you-do",
@@ -726,11 +742,11 @@
     "links": {
       "spotify": "https://open.spotify.com/album/0VG7XLJ8gSynEQDVnpHNNU",
       "bandcamp": "https://aphextwin.bandcamp.com/album/i-care-because-you-do",
-      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_n09BOqlYRm1RdhvTovqQie87TGwa3PbRA",
       "deezer": "https://www.deezer.com/album/2795081",
       "appleMusic": "https://music.apple.com/us/album/281829991",
       "qobuz": "https://www.qobuz.com/us-en/album/i-care-because-you-do-aphex-twin/autpao8cyymnb",
-      "tidal": "https://tidal.com/album/16023975"
+      "tidal": "https://tidal.com/album/16023975",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n09BOqlYRm1RdhvTovqQie87TGwa3PbRA"
     },
     "capa": "assets/img/capas/aphex-twin-i-care-because-you-do.jpg",
     "musicbrainz": {
@@ -742,7 +758,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "aphex-twin-richard-d-james-album",
@@ -807,7 +824,8 @@
       "spotify": "https://open.spotify.com/album/77Lae5VorRCNpgZFMW8yRO",
       "deezer": "https://www.deezer.com/album/2795201",
       "appleMusic": "https://music.apple.com/gb/album/281111401",
-      "qobuz": "https://www.qobuz.com/us-en/album/richard-d-james-album-aphex-twin/0801061004330"
+      "qobuz": "https://www.qobuz.com/us-en/album/richard-d-james-album-aphex-twin/0801061004330",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kYR35B4ncA8wieeJxNroXlI8cSOVh3okU"
     },
     "capa": "assets/img/capas/aphex-twin-richard-d-james-album.jpg",
     "musicbrainz": {
@@ -819,7 +837,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "archie-shepp-and-the-new-york-contemporary-five-archie-shepp-and-the-new-york-contemporary-five",
@@ -891,7 +910,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "archie-shepp-attica-blues",
@@ -952,7 +972,9 @@
         "duracao": "6:11"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lIlUZG_P8JmmrFPDM57eiwNl37SmNngnQ"
+    },
     "capa": "assets/img/capas/archie-shepp-attica-blues.jpg",
     "musicbrainz": {
       "releaseGroup": "39d544c8-5c0a-3b80-bef1-f5bde74431e4",
@@ -963,7 +985,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "art-blakey-and-the-jazz-messengers-moanin",
@@ -1009,7 +1032,8 @@
       "tidal": "https://tidal.com/album/94553459",
       "appleMusic": "https://music.apple.com/us/album/1459438950",
       "deezer": "https://www.deezer.com/album/300268",
-      "qobuz": "https://www.qobuz.com/us-en/album/moanin-art-blakey-the-jazz-messengers/zd37uuw658erc"
+      "qobuz": "https://www.qobuz.com/us-en/album/moanin-art-blakey-the-jazz-messengers/zd37uuw658erc",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lSgdUVAPcwgaBv02aCLNjBqTMe_rfOVV0"
     },
     "capa": "assets/img/capas/art-blakey-and-the-jazz-messengers-moanin.jpg",
     "musicbrainz": {
@@ -1021,7 +1045,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "art-pepper-art-pepper-meets-the-rhythm-section",
@@ -1082,7 +1107,8 @@
       "spotify": "https://open.spotify.com/album/0KVlRrpun0BBnfJFeVTLfX",
       "deezer": "https://www.deezer.com/album/515713",
       "tidal": "https://tidal.com/album/3545710",
-      "qobuz": "https://www.qobuz.com/gb-en/album/art-pepper-meets-the-rhythm-section-art-pepper/z0zpqb3dje3qb"
+      "qobuz": "https://www.qobuz.com/gb-en/album/art-pepper-meets-the-rhythm-section-art-pepper/z0zpqb3dje3qb",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kT_8hPX26ZlopVVkdJ-HuZ1ov8fiZGvlg"
     },
     "capa": "assets/img/capas/art-pepper-art-pepper-meets-the-rhythm-section.jpg",
     "musicbrainz": {
@@ -1094,7 +1120,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "autechre-confield",
@@ -1151,7 +1178,8 @@
       }
     ],
     "links": {
-      "appleMusic": "https://music.apple.com/us/album/confield/282571770"
+      "appleMusic": "https://music.apple.com/us/album/confield/282571770",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_khD9jt4RCT-mPHEsaCB93wgN8HT4YhtAM"
     },
     "capa": "assets/img/capas/autechre-confield.jpg",
     "musicbrainz": {
@@ -1163,7 +1191,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "autechre-tri-repetae",
@@ -1225,7 +1254,8 @@
       }
     ],
     "links": {
-      "bandcamp": "https://autechre.bandcamp.com/album/tri-repetae"
+      "bandcamp": "https://autechre.bandcamp.com/album/tri-repetae",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nrb6dSniKD_28rxT5kAIwo6uN56nm_P58"
     },
     "capa": "assets/img/capas/autechre-tri-repetae.jpg",
     "musicbrainz": {
@@ -1237,7 +1267,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "aviador-dro-alas-sobre-el-mundo",
@@ -1309,7 +1340,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "bathory-blood-fire-death",
@@ -1366,7 +1398,8 @@
       }
     ],
     "links": {
-      "qobuz": "https://www.qobuz.com/album/blood-fire-death-bathory/ax9knhm2mdn6a"
+      "qobuz": "https://www.qobuz.com/album/blood-fire-death-bathory/ax9knhm2mdn6a",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l3YWRhSGENiAMsTSaHhHg9goBR1KMciyE"
     },
     "capa": "assets/img/capas/bathory-blood-fire-death.jpg",
     "musicbrainz": {
@@ -1378,7 +1411,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "bauhaus-in-the-flat-field",
@@ -1445,7 +1479,8 @@
       "bandcamp": "https://beggarsbanquet.bandcamp.com/album/in-the-flat-field",
       "appleMusic": "https://music.apple.com/gb/album/1025316248",
       "qobuz": "https://www.qobuz.com/gb-en/album/in-the-flat-field-bauhaus/0652637001389",
-      "tidal": "https://tidal.com/album/49708362"
+      "tidal": "https://tidal.com/album/49708362",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k1OXlql-UCLYW47AJ226V3t4_YWb8fRqk"
     },
     "capa": "assets/img/capas/bauhaus-in-the-flat-field.jpg",
     "musicbrainz": {
@@ -1457,7 +1492,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "bb-king-live-at-the-regal",
@@ -1520,7 +1556,7 @@
     ],
     "links": {
       "appleMusic": "https://music.apple.com/us/album/1440831941",
-      "qobuz": "https://www.qobuz.com/ie-en/album/live-at-the-regal-bb-king/0190374184557"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m7DWwzrrE9KKnTI7eYGaJ78z8rstewrt4"
     },
     "capa": "assets/img/capas/bb-king-live-at-the-regal.jpg",
     "musicbrainz": {
@@ -1532,7 +1568,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "beastie-boys-pauls-boutique",
@@ -1620,11 +1657,11 @@
     ],
     "links": {
       "appleMusic": "https://music.apple.com/us/album/723654366",
-      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_nc8KjgcZoiX8wIogP9lm5BzBfepScP6CU",
       "spotify": "https://open.spotify.com/album/1kmyirVya5fRxdjsPFDM05",
       "deezer": "https://www.deezer.com/album/301720",
       "qobuz": "https://www.qobuz.com/us-en/album/pauls-boutique-beastie-boys/5099969330056",
-      "tidal": "https://tidal.com/album/2282953"
+      "tidal": "https://tidal.com/album/2282953",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nc8KjgcZoiX8wIogP9lm5BzBfepScP6CU"
     },
     "capa": "assets/img/capas/beastie-boys-pauls-boutique.jpg",
     "musicbrainz": {
@@ -1636,7 +1673,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "berlin-pleasure-victim",
@@ -1683,7 +1721,8 @@
       }
     ],
     "links": {
-      "appleMusic": "https://music.apple.com/us/album/1440915419"
+      "appleMusic": "https://music.apple.com/us/album/1440915419",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kvF2b7UkPFDI76955ZzsPh0QDOtMAJuos"
     },
     "capa": "assets/img/capas/berlin-pleasure-victim.jpg",
     "musicbrainz": {
@@ -1695,7 +1734,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "big-bill-broonzy-the-young-big-bill-broonzy",
@@ -1777,7 +1817,8 @@
       }
     ],
     "links": {
-      "spotify": "https://open.spotify.com/album/0q1KVMCGFhUoh9IBWb2Sis"
+      "spotify": "https://open.spotify.com/album/0q1KVMCGFhUoh9IBWb2Sis",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lNYx2I737xoAjORSs5CCAfqPwxiJiM62Y"
     },
     "capa": "assets/img/capas/big-bill-broonzy-the-young-big-bill-broonzy.jpg",
     "musicbrainz": {
@@ -1789,7 +1830,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "black-dog-productions-bytes",
@@ -1859,7 +1901,8 @@
       "spotify": "https://open.spotify.com/album/3bVlfmSsqAhusT3IIyfHCW",
       "deezer": "https://www.deezer.com/album/2794861",
       "appleMusic": "https://music.apple.com/gb/album/260885119",
-      "tidal": "https://tidal.com/album/16024412"
+      "tidal": "https://tidal.com/album/16024412",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lEPlNsSu66sNNh_9a0o2Pq9sNoeAPia54"
     },
     "capa": "assets/img/capas/black-dog-productions-bytes.jpg",
     "musicbrainz": {
@@ -1871,7 +1914,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "black-sheep-a-wolf-in-sheeps-clothing",
@@ -1995,7 +2039,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/4tIQR0m3PPwybQ32P256IO",
       "deezer": "https://www.deezer.com/album/1698022",
-      "appleMusic": "https://itunes.apple.com/us/album/id5240171"
+      "appleMusic": "https://itunes.apple.com/us/album/id5240171",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lSIFjnbD120KWkik3xDQG8vjHgo4lOQz0"
     },
     "capa": "assets/img/capas/black-sheep-a-wolf-in-sheeps-clothing.jpg",
     "musicbrainz": {
@@ -2007,7 +2052,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "black-star-mos-def-and-talib-kweli-are-black-star",
@@ -2086,7 +2132,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/6GRzmk9UGL7odxprOPop1Q",
       "deezer": "https://www.deezer.com/album/240229",
-      "appleMusic": "https://music.apple.com/us/album/1440799801"
+      "appleMusic": "https://music.apple.com/us/album/1440799801",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lMIwPM1mVDv_1cFNhbNehhXcXbhFEvWFk"
     },
     "capa": "assets/img/capas/black-star-mos-def-and-talib-kweli-are-black-star.jpg",
     "musicbrainz": {
@@ -2098,7 +2145,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "blasphemy-fallen-angel-of-doom",
@@ -2161,9 +2209,9 @@
     ],
     "links": {
       "spotify": "https://open.spotify.com/album/1WAwgVZmhvZZ2uGgaUHFcS",
-      "appleMusic": "https://music.apple.com/us/album/1574099669",
       "deezer": "https://www.deezer.com/album/578268481",
-      "tidal": "https://tidal.com/album/359720743"
+      "tidal": "https://tidal.com/album/359720743",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mgv6nGwQSSyzULavdQC9woJHJ0xDBLZD4"
     },
     "capa": "assets/img/capas/blasphemy-fallen-angel-of-doom.jpg",
     "musicbrainz": {
@@ -2175,7 +2223,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "blind-lemon-jefferson-complete-recorded-works-vol-1",
@@ -2312,7 +2361,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "blind-willie-mctell-statesboro-blues",
@@ -2563,7 +2613,9 @@
         "duracao": "2:35"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ntT1Ef_HBwMWaUHQDvwW5BxB8g90b6uW4"
+    },
     "capa": "assets/img/capas/blind-willie-mctell-statesboro-blues.jpg",
     "musicbrainz": {
       "releaseGroup": "fb155200-4de2-4645-8ded-5fe5453f3030",
@@ -2574,7 +2626,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "boards-of-canada-music-has-the-right-to-children",
@@ -2677,12 +2730,12 @@
     ],
     "links": {
       "bandcamp": "https://boardsofcanada.bandcamp.com/album/music-has-the-right-to-children",
-      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_mKDPOLwgw4WoiZibFCLRUBg6BQynTPq7Q",
       "spotify": "https://open.spotify.com/album/1vWnB0hYmluskQuzxwo25a",
       "deezer": "https://www.deezer.com/album/2795271",
       "appleMusic": "https://itunes.apple.com/gb/album/id281116024",
       "qobuz": "https://open.qobuz.com/album/0801061005535",
-      "tidal": "https://tidal.com/album/16024556"
+      "tidal": "https://tidal.com/album/16024556",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mTZiCulgHFbzkIChf8KQbUL3DWh2PCmSI"
     },
     "capa": "assets/img/capas/boards-of-canada-music-has-the-right-to-children.jpg",
     "musicbrainz": {
@@ -2694,7 +2747,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "bud-powell-the-amazing-bud-powell",
@@ -2745,7 +2799,9 @@
         "duracao": "3:01"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lWtBQuEx9sR-kOorzx0WNsrXlIDSR0jJU"
+    },
     "capa": "assets/img/capas/bud-powell-the-amazing-bud-powell.jpg",
     "musicbrainz": {
       "releaseGroup": "34887975-3564-3094-831f-2476fe3b64e9",
@@ -2756,7 +2812,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "buddy-guy-a-man-and-the-blues",
@@ -2816,7 +2873,8 @@
       "spotify": "https://open.spotify.com/album/3cx4CSrzwft7UVlsoZxbTZ",
       "deezer": "https://www.deezer.com/album/556908",
       "appleMusic": "https://music.apple.com/gb/album/711980272",
-      "tidal": "https://tidal.com/album/3405104"
+      "tidal": "https://tidal.com/album/3405104",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nbCILM0MFiZsiR3xN5cPilifIL8EWd2xA"
     },
     "capa": "assets/img/capas/buddy-guy-a-man-and-the-blues.jpg",
     "musicbrainz": {
@@ -2828,7 +2886,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "buddy-guy-and-junior-wells-buddy-guy-and-junior-wells-play-the-blues",
@@ -2892,7 +2951,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/258nJWLkWNsQshy4AZUDaQ",
       "deezer": "https://www.deezer.com/album/7241849",
-      "tidal": "https://tidal.com/album/24699101"
+      "tidal": "https://tidal.com/album/24699101",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mO3CkHe48efLPVnZ1UHIW4r5qKvzze6wc"
     },
     "capa": "assets/img/capas/buddy-guy-and-junior-wells-buddy-guy-and-junior-wells-play-the-blues.jpg",
     "musicbrainz": {
@@ -2904,7 +2964,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "buddy-guy-sweet-tea",
@@ -2964,7 +3025,8 @@
       "spotify": "https://open.spotify.com/album/7bkjnyiMG8mXzmEyfY49wD",
       "deezer": "https://www.deezer.com/album/227610",
       "appleMusic": "https://music.apple.com/gb/album/254587545",
-      "tidal": "https://tidal.com/album/2925831"
+      "tidal": "https://tidal.com/album/2925831",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_laQHIFSANbEiebuwfkRgUZJEwXEqmnSbI"
     },
     "capa": "assets/img/capas/buddy-guy-sweet-tea.jpg",
     "musicbrainz": {
@@ -2976,7 +3038,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "burzum-hvis-lyset-tar-oss",
@@ -3009,7 +3072,8 @@
     ],
     "links": {
       "deezer": "https://www.deezer.com/album/967751",
-      "tidal": "https://tidal.com/album/5552906"
+      "tidal": "https://tidal.com/album/5552906",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kwjZq1w9TdebQ3FJTHeB2Fe0mUfmMAckk"
     },
     "capa": "assets/img/capas/burzum-hvis-lyset-tar-oss.jpg",
     "musicbrainz": {
@@ -3021,7 +3085,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "cannibal-ox-the-cold-vein",
@@ -3108,7 +3173,8 @@
       }
     ],
     "links": {
-      "bandcamp": "https://ihiphopdistribution.bandcamp.com/album/the-cold-vein-deluxe-edition"
+      "bandcamp": "https://ihiphopdistribution.bandcamp.com/album/the-cold-vein-deluxe-edition",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nygwg4YFPzFTWghQCUqCOUcXVE-Wj2qxM"
     },
     "capa": "assets/img/capas/cannibal-ox-the-cold-vein.jpg",
     "musicbrainz": {
@@ -3120,7 +3186,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "cannonball-adderley-somethin-else",
@@ -3191,7 +3258,9 @@
         "duracao": "8:26"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kcIPnNSrigTxp_UXPaUjKZBAxLKhGKedg"
+    },
     "capa": "assets/img/capas/cannonball-adderley-somethin-else.jpg",
     "musicbrainz": {
       "releaseGroup": "07eb42bc-78e5-4ee7-b7ec-62904a66ca8a",
@@ -3202,7 +3271,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "cannonball-adderley-them-dirty-blues",
@@ -3261,7 +3331,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "celtic-frost-to-mega-therion",
@@ -3326,8 +3397,7 @@
       "spotify": "https://open.spotify.com/album/3pQwMTNd8w4l9AhLyrlNe6",
       "deezer": "https://www.deezer.com/album/43421341",
       "appleMusic": "https://music.apple.com/ch/album/1438440902",
-      "qobuz": "https://www.qobuz.com/us-en/album/to-mega-therion-deluxe-edition-celtic-frost/4050538214260",
-      "tidal": "https://tidal.com/album/75321362"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_niFjXYieppgZKZM1xfkNcT3J62kZgTs1E"
     },
     "capa": "assets/img/capas/celtic-frost-to-mega-therion.jpg",
     "musicbrainz": {
@@ -3339,7 +3409,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "charles-mingus-mingus-ah-um",
@@ -3400,7 +3471,8 @@
       "deezer": "https://www.deezer.com/album/337717",
       "appleMusic": "https://music.apple.com/us/album/315947000",
       "qobuz": "https://www.qobuz.com/album/ah-um-50th-anniversary-legacy-edition-charles-mingus/0884977101638",
-      "tidal": "https://tidal.com/album/2797490"
+      "tidal": "https://tidal.com/album/2797490",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mNqx-iWQKySNlnq4ZAZpwq3RLzOQHW3J4"
     },
     "capa": "assets/img/capas/charles-mingus-mingus-ah-um.jpg",
     "musicbrainz": {
@@ -3412,7 +3484,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "charles-mingus-pithecanthropus-erectus",
@@ -3443,7 +3516,9 @@
         "duracao": "14:54"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lQIiMKwcfFlVSmW3E9bvAVKpm69EbXHGo"
+    },
     "capa": "assets/img/capas/charles-mingus-pithecanthropus-erectus.jpg",
     "musicbrainz": {
       "releaseGroup": "c4d4589f-c6d0-31d1-a9cd-38e31e7cfa70",
@@ -3454,7 +3529,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "charles-mingus-the-black-saint-and-the-sinner-lady",
@@ -3490,7 +3566,8 @@
       "deezer": "https://www.deezer.com/album/1427653",
       "appleMusic": "https://music.apple.com/gb/album/1443280597",
       "qobuz": "https://www.qobuz.com/us-en/album/the-black-saint-and-the-sinner-lady-charles-mingus/0060253742091",
-      "tidal": "https://tidal.com/album/35655078"
+      "tidal": "https://tidal.com/album/35655078",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nTX-25nrnB-Wbij8nhdibYKybjNGVUfZg"
     },
     "capa": "assets/img/capas/charles-mingus-the-black-saint-and-the-sinner-lady.jpg",
     "musicbrainz": {
@@ -3502,7 +3579,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "charley-patton-screamin-and-hollerin-the-blues",
@@ -4224,7 +4302,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "charlie-parker-boss-bird",
@@ -4407,7 +4486,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "chet-baker-chet-baker-sextet",
@@ -4478,7 +4558,9 @@
         "duracao": "4:34"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lkG6AIcBNAeCmtETNmmz8i4KQOtg2X43A"
+    },
     "capa": "assets/img/capas/chet-baker-chet-baker-sextet.jpg",
     "musicbrainz": {
       "releaseGroup": "f639b24d-fda1-3726-b02f-30e6774bbca7",
@@ -4489,7 +4571,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "chet-baker-chet-baker-sings",
@@ -4541,12 +4624,11 @@
       }
     ],
     "links": {
-      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_npR8IzuBUOvCm6ROoC_SyTyY_HTF6akMo",
       "spotify": "https://open.spotify.com/album/5JJ779nrbHx0KB2lBrMMa4",
       "deezer": "https://www.deezer.com/album/319950",
       "tidal": "https://tidal.com/album/158152",
       "appleMusic": "https://music.apple.com/us/album/1440864756",
-      "qobuz": "https://www.qobuz.com/gb-en/album/chet-baker-sings-chet-baker/xkamg22wp325a"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kaeNkfMHt6JHFdoWvmgMN3Emr4ZNz1adg"
     },
     "capa": "assets/img/capas/chet-baker-chet-baker-sings.jpg",
     "musicbrainz": {
@@ -4558,7 +4640,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "chrome-half-machine-lip-moves",
@@ -4635,7 +4718,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "clark-body-riddle",
@@ -4704,7 +4788,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/1mEdULHIlkUdOHVbzz4ZY3",
       "deezer": "https://www.deezer.com/album/329993557",
-      "appleMusic": "https://music.apple.com/gb/album/1631390021"
+      "appleMusic": "https://music.apple.com/gb/album/1631390021",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m0NXwbXVcmdt10y6UvDhdcXjkXIJw2LqY"
     },
     "capa": "assets/img/capas/clark-body-riddle.jpg",
     "musicbrainz": {
@@ -4716,7 +4801,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "clifford-brown-and-max-roach-brown-and-roach-incorporated",
@@ -4763,7 +4849,8 @@
       }
     ],
     "links": {
-      "deezer": "https://www.deezer.com/album/70479092"
+      "deezer": "https://www.deezer.com/album/70479092",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lUlSjIoCOa6FUjGXWdvi6RsA6BstP063o"
     },
     "capa": "assets/img/capas/clifford-brown-and-max-roach-brown-and-roach-incorporated.jpg",
     "musicbrainz": {
@@ -4775,7 +4862,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "clifford-brown-and-max-roach-study-in-brown",
@@ -4833,7 +4921,8 @@
     ],
     "links": {
       "spotify": "https://open.spotify.com/album/3158RZskTkHMhPvQICUeQ1",
-      "deezer": "https://www.deezer.com/album/72069302"
+      "deezer": "https://www.deezer.com/album/72069302",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kSmG_t2EF-LOB68SJudK7Jk2oCS0kT4V4"
     },
     "capa": "assets/img/capas/clifford-brown-and-max-roach-study-in-brown.jpg",
     "musicbrainz": {
@@ -4845,7 +4934,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "clipse-hell-hath-no-fury",
@@ -4920,7 +5010,8 @@
       "spotify": "https://open.spotify.com/album/1HftQWyKWoGsrmG5lRkJDE",
       "deezer": "https://www.deezer.com/album/72343",
       "appleMusic": "https://music.apple.com/gb/album/204865737",
-      "tidal": "https://tidal.com/album/557140"
+      "tidal": "https://tidal.com/album/557140",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kd1R_TOggklrbJTlo1VwV3RnfPGuDzhGY"
     },
     "capa": "assets/img/capas/clipse-hell-hath-no-fury.jpg",
     "musicbrainz": {
@@ -4932,7 +5023,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "coldworld-melancholie",
@@ -4989,7 +5081,8 @@
       }
     ],
     "links": {
-      "bandcamp": "https://colddimensions.bandcamp.com/album/melancholie"
+      "bandcamp": "https://colddimensions.bandcamp.com/album/melancholie",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mRKIwG_4fgsMoPtHOlTBwUc4TI1F-Tpic"
     },
     "capa": "assets/img/capas/coldworld-melancholie.jpg",
     "musicbrainz": {
@@ -5001,7 +5094,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "common-like-water-for-chocolate",
@@ -5096,7 +5190,7 @@
       "spotify": "https://open.spotify.com/album/0ZSwTSaR9VUe3uYsXNQgub",
       "deezer": "https://www.deezer.com/album/239778",
       "qobuz": "https://www.qobuz.com/us-en/album/like-water-for-chocolate-common/dvmse05yd35lb",
-      "appleMusic": "https://music.apple.com/us/album/1440720260"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n2p-iVj-yWF6bEYhrqQI1BhiV3rs_cvtQ"
     },
     "capa": "assets/img/capas/common-like-water-for-chocolate.jpg",
     "musicbrainz": {
@@ -5108,7 +5202,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "cylob-cylobian-sunset",
@@ -5165,7 +5260,8 @@
       }
     ],
     "links": {
-      "bandcamp": "https://cylob.bandcamp.com/album/cylobian-sunset"
+      "bandcamp": "https://cylob.bandcamp.com/album/cylobian-sunset",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lKqac12MJcjxu5l8HFXalMZahvIfe9o98"
     },
     "capa": "assets/img/capas/cylob-cylobian-sunset.jpg",
     "musicbrainz": {
@@ -5177,7 +5273,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "darkthrone-transilvanian-hunger",
@@ -5234,7 +5331,8 @@
       "appleMusic": "https://music.apple.com/no/album/128282603",
       "qobuz": "https://www.qobuz.com/no-en/album/transilvanian-hunger-darkthrone/vgy2kmdmgp8sb",
       "tidal": "https://tidal.com/album/2578504",
-      "bandcamp": "https://peaceville.bandcamp.com/album/transilvanian-hunger-20th-anniversary-edition"
+      "bandcamp": "https://peaceville.bandcamp.com/album/transilvanian-hunger-20th-anniversary-edition",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mDwftNu8GYOz1r13UaptN6QpQBTzoxImU"
     },
     "capa": "assets/img/capas/darkthrone-transilvanian-hunger.jpg",
     "musicbrainz": {
@@ -5246,7 +5344,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "dave-brubeck-jazz-goes-to-college",
@@ -5303,7 +5402,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "dave-brubeck-jazz-impressions-of-japan",
@@ -5354,7 +5454,9 @@
         "duracao": "3:06"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k0ONjO16cMYHMPhni5ThfY1YeXtKhxV8Y"
+    },
     "capa": "assets/img/capas/dave-brubeck-jazz-impressions-of-japan.jpg",
     "musicbrainz": {
       "releaseGroup": "ad2253e8-8b2a-3eca-b6e9-f1a5243fb2dd",
@@ -5365,7 +5467,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "de-la-soul-3-feet-high-and-rising",
@@ -5497,7 +5600,8 @@
       "qobuz": "https://www.qobuz.com/us-en/album/3-feet-high-and-rising-35th-anniversary-de-la-soul/t463j7rytey5b",
       "appleMusic": "https://music.apple.com/us/album/1731021243",
       "bandcamp": "https://delasoul.bandcamp.com/album/3-feet-high-and-rising",
-      "tidal": "https://tidal.com/album/264031430"
+      "tidal": "https://tidal.com/album/264031430",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mvrnYlhTUhBEyeojmVMcawQBa4l1vkDTc"
     },
     "capa": "assets/img/capas/de-la-soul-3-feet-high-and-rising.jpg",
     "musicbrainz": {
@@ -5509,7 +5613,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "deathspell-omega-si-monumentum-requires-circumspice",
@@ -5586,7 +5691,8 @@
       }
     ],
     "links": {
-      "bandcamp": "https://deathspellomega.bandcamp.com/album/si-monumentum-requires-circumspice"
+      "bandcamp": "https://deathspellomega.bandcamp.com/album/si-monumentum-requires-circumspice",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ksxt25gAJlCsMnaIra0FgsBUGEo8_mEuk"
     },
     "capa": "assets/img/capas/deathspell-omega-si-monumentum-requires-circumspice.jpg",
     "musicbrainz": {
@@ -5598,7 +5704,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "deltron-3030-deltron-3030",
@@ -5730,7 +5837,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "depeche-mode-some-great-reward",
@@ -5788,7 +5896,8 @@
     ],
     "links": {
       "appleMusic": "https://itunes.apple.com/gb/album/id665413158",
-      "qobuz": "http://www.qobuz.com/gb-en/album/some-great-reward-depeche-mode/0094637006351"
+      "qobuz": "http://www.qobuz.com/gb-en/album/some-great-reward-depeche-mode/0094637006351",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mgU5FB1gymb62czCeAuaujDCK4uQ8pxV8"
     },
     "capa": "assets/img/capas/depeche-mode-some-great-reward.jpg",
     "musicbrainz": {
@@ -5800,7 +5909,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "depeche-mode-speak-and-spell",
@@ -5871,7 +5981,8 @@
       "spotify": "https://open.spotify.com/album/0ntg4L6zjosDII94zoyboq",
       "deezer": "https://www.deezer.com/album/1347368",
       "appleMusic": "https://music.apple.com/gb/album/665412305",
-      "tidal": "https://tidal.com/album/20907673"
+      "tidal": "https://tidal.com/album/20907673",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n9WzY_Ly0QQrttfvZ0319SU8R76-nqbA0"
     },
     "capa": "assets/img/capas/depeche-mode-speak-and-spell.jpg",
     "musicbrainz": {
@@ -5883,7 +5994,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "devo-freedom-of-choice",
@@ -5954,7 +6066,9 @@
         "duracao": "2:46"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mKjbiYq9FjTvVR-eO9EtMbfqR0C2NHDQk"
+    },
     "capa": "assets/img/capas/devo-freedom-of-choice.jpg",
     "musicbrainz": {
       "releaseGroup": "bb889709-d775-3cb1-84c2-1daf4884e165",
@@ -5965,7 +6079,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "devo-oh-no-its-devo",
@@ -6031,7 +6146,9 @@
         "duracao": "3:24"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ml1TW65LZYJOfy-x9hrZ8QsPX6bLOkRyk"
+    },
     "capa": "assets/img/capas/devo-oh-no-its-devo.jpg",
     "musicbrainz": {
       "releaseGroup": "d81cf3ca-b402-32c1-9add-134a6f5a5e94",
@@ -6042,7 +6159,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "dexter-gordon-go",
@@ -6084,7 +6202,8 @@
       }
     ],
     "links": {
-      "qobuz": "https://www.qobuz.com/fr-fr/album/go-dexter-gordon/0060253764804"
+      "qobuz": "https://www.qobuz.com/fr-fr/album/go-dexter-gordon/0060253764804",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kOVKPquFu6Zckngok4ZSLNkPRp-5OaZRY"
     },
     "capa": "assets/img/capas/dexter-gordon-go.jpg",
     "musicbrainz": {
@@ -6096,7 +6215,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "dexter-gordon-our-man-in-paris",
@@ -6136,7 +6256,8 @@
       "appleMusic": "https://music.apple.com/us/album/1442835524",
       "spotify": "https://open.spotify.com/album/43zfDOSnIaNrdFzik0s088",
       "deezer": "https://www.deezer.com/album/299426",
-      "tidal": "https://tidal.com/album/2902867"
+      "tidal": "https://tidal.com/album/2902867",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n9l1n1ebJttSUwjpsX1IF1A3Pw-iFTdrw"
     },
     "capa": "assets/img/capas/dexter-gordon-our-man-in-paris.jpg",
     "musicbrainz": {
@@ -6148,7 +6269,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "dissection-storm-of-the-lights-bane",
@@ -6204,7 +6326,8 @@
       "deezer": "https://www.deezer.com/album/328984117",
       "appleMusic": "https://music.apple.com/gb/album/1630970998",
       "tidal": "https://tidal.com/album/234471994",
-      "qobuz": "https://www.qobuz.com/album/storm-of-the-lights-bane-dissection/eurx1uu4n4zvc"
+      "qobuz": "https://www.qobuz.com/album/storm-of-the-lights-bane-dissection/eurx1uu4n4zvc",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l45gAW8SzcmfVdBcmsyjexpFU623APkVA"
     },
     "capa": "assets/img/capas/dissection-storm-of-the-lights-bane.jpg",
     "musicbrainz": {
@@ -6216,7 +6339,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "dizzy-gillespie-and-roy-eldridge-roy-and-diz",
@@ -6272,7 +6396,9 @@
         "duracao": "9:55"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kJziYzyYPVINixPt5n6ulCp1qTG90Uz_g"
+    },
     "capa": "assets/img/capas/dizzy-gillespie-and-roy-eldridge-roy-and-diz.jpg",
     "musicbrainz": {
       "releaseGroup": "07ace679-45ee-3e42-b7a7-bedde65341b7",
@@ -6283,7 +6409,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "dizzy-gillespie-and-stan-getz-diz-and-getz",
@@ -6339,7 +6466,9 @@
         "duracao": "4:09"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m_DQI4rs85L-ZuhXdJRq6e4g6OOYtqCnM"
+    },
     "capa": "assets/img/capas/dizzy-gillespie-and-stan-getz-diz-and-getz.jpg",
     "musicbrainz": {
       "releaseGroup": "810e0bfb-f502-3ad0-a345-e25eb4ac140e",
@@ -6350,7 +6479,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "dizzy-gillespie-dizzy-gillespie-and-his-big-band-in-concert",
@@ -6401,7 +6531,9 @@
         "duracao": "7:45"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mEXXKtpUft_ZcQyL4ci_PBLN1V-1NPGa4"
+    },
     "capa": "assets/img/capas/dizzy-gillespie-dizzy-gillespie-and-his-big-band-in-concert.jpg",
     "musicbrainz": {
       "releaseGroup": "fb054ed4-397f-3a19-9546-5bfa2f263715",
@@ -6412,7 +6544,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "dj-shadow-endtroducing",
@@ -6491,10 +6624,9 @@
     "links": {
       "spotify": "https://open.spotify.com/album/4wvqGLk1HThPA0b5lzRK2l",
       "deezer": "https://www.deezer.com/album/83726472",
-      "appleMusic": "https://music.apple.com/de/album/1448896560",
-      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lrFnP8nXwQth3kE7mO4YHyS4o7CTdA7Y0",
       "qobuz": "https://www.qobuz.com/us-en/album/endtroducing-dj-shadow/mxro4fdp8agbb",
-      "tidal": "https://tidal.com/album/269088401"
+      "tidal": "https://tidal.com/album/269088401",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lrFnP8nXwQth3kE7mO4YHyS4o7CTdA7Y0"
     },
     "capa": "assets/img/capas/dj-shadow-endtroducing.jpg",
     "musicbrainz": {
@@ -6506,7 +6638,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "don-cherry-mu",
@@ -6573,7 +6706,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "dr-dre-the-chronic",
@@ -6665,10 +6799,10 @@
       }
     ],
     "links": {
-      "tidal": "https://tidal.com/album/136406036",
       "spotify": "https://open.spotify.com/album/2V5rhszUpCudPcb01zevOt",
       "qobuz": "https://www.qobuz.com/us-en/album/the-chronic-dr-dre/r3x77ee4fm9jc",
-      "appleMusic": "https://music.apple.com/us/album/1668460963"
+      "appleMusic": "https://music.apple.com/us/album/1668460963",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lQNYoHJJhN665eKwDhmirS77MGlw3xRoY"
     },
     "capa": "assets/img/capas/dr-dre-the-chronic.jpg",
     "musicbrainz": {
@@ -6680,7 +6814,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "dr-octagon-dr-octagonecologyst",
@@ -6789,7 +6924,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/23DJ3KNE5JXi61G31T2Kni",
       "deezer": "https://www.deezer.com/album/72176752",
-      "bandcamp": "https://75ark.bandcamp.com/album/dr-octagonecologyst"
+      "bandcamp": "https://75ark.bandcamp.com/album/dr-octagonecologyst",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m_gg9YSEgotFyadlAWfXARnzRKpXBlesY"
     },
     "capa": "assets/img/capas/dr-octagon-dr-octagonecologyst.jpg",
     "musicbrainz": {
@@ -6801,7 +6937,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "drudkh-autumn-aurora",
@@ -6847,7 +6984,8 @@
       "spotify": "https://open.spotify.com/album/5CXrZiNSw4wQaJsmitefNn",
       "deezer": "https://www.deezer.com/album/6151860",
       "appleMusic": "https://music.apple.com/us/album/583588120",
-      "tidal": "https://tidal.com/album/36675687"
+      "tidal": "https://tidal.com/album/36675687",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l7Z3sH-OXp1g859a1BlmtCjp5D0UdygLY"
     },
     "capa": "assets/img/capas/drudkh-autumn-aurora.jpg",
     "musicbrainz": {
@@ -6859,7 +6997,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "duke-ellington-charles-mingus-and-max-roach-money-jungle",
@@ -6905,7 +7044,9 @@
         "duracao": "5:30"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k9deKdlFOjPczZTXWjgo5UZ26mobK5t7o"
+    },
     "capa": "assets/img/capas/duke-ellington-charles-mingus-and-max-roach-money-jungle.jpg",
     "musicbrainz": {
       "releaseGroup": "1c18538e-e9be-3449-8be1-f3cdc7b493e0",
@@ -6916,7 +7057,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "echo-and-the-bunnymen-ocean-rain",
@@ -6977,7 +7119,8 @@
       "spotify": "https://open.spotify.com/album/43jEYhOEU6eWL51lk4l3M7",
       "appleMusic": "https://itunes.apple.com/us/album/id251006541",
       "qobuz": "https://www.qobuz.com/us-en/album/ocean-rain-echo-and-the-bunnymen/0075992508469",
-      "tidal": "https://tidal.com/album/1186613"
+      "tidal": "https://tidal.com/album/1186613",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m4Kzx9CxQmIRuBOez-b043irUX6l_ujYg"
     },
     "capa": "assets/img/capas/echo-and-the-bunnymen-ocean-rain.jpg",
     "musicbrainz": {
@@ -6989,7 +7132,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "ella-fitzgerald-and-louis-armstrong-ella-and-louis",
@@ -7092,7 +7236,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "ella-fitzgerald-ella-fitzgerald-sings-the-duke-ellington-song-book",
@@ -7209,7 +7354,8 @@
       }
     ],
     "links": {
-      "qobuz": "https://www.qobuz.com/nl-nl/album/ella-fitzgerald-sings-the-duke-ellington-song-book-duke-ellington-his-orchestra-ella-fitzgerald/0060255748321"
+      "qobuz": "https://www.qobuz.com/nl-nl/album/ella-fitzgerald-sings-the-duke-ellington-song-book-duke-ellington-his-orchestra-ella-fitzgerald/0060255748321",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m1lDxEl6XIqWj0EI8037zcNmMII_fHq84"
     },
     "capa": "assets/img/capas/ella-fitzgerald-ella-fitzgerald-sings-the-duke-ellington-song-book.jpg",
     "musicbrainz": {
@@ -7221,7 +7367,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "elmore-james-the-sky-is-crying",
@@ -7332,7 +7479,9 @@
         "duracao": "2:46"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_naUSKbEwKiAYqsoQQhbxNzQq3mKdfrzj8"
+    },
     "capa": null,
     "musicbrainz": {
       "releaseGroup": "7136f352-a101-34f8-82aa-347b8357a552",
@@ -7344,7 +7493,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "emperor-in-the-nightside-eclipse",
@@ -7405,7 +7555,8 @@
       "deezer": "https://www.deezer.com/album/405411247",
       "appleMusic": "https://music.apple.com/gb/album/1670679463",
       "tidal": "https://tidal.com/album/276244828",
-      "bandcamp": "https://candlelightrecordsuk.bandcamp.com/album/in-the-nightside-eclipse"
+      "bandcamp": "https://candlelightrecordsuk.bandcamp.com/album/in-the-nightside-eclipse",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kLRNGABlYApTBgTZMqgmo92NsW68CEYSo"
     },
     "capa": "assets/img/capas/emperor-in-the-nightside-eclipse.jpg",
     "musicbrainz": {
@@ -7417,7 +7568,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "enslaved-isa",
@@ -7482,7 +7634,8 @@
       "spotify": "https://open.spotify.com/album/3E7YxHaWlOHiqTBHRtZL7D",
       "deezer": "https://www.deezer.com/album/983329",
       "appleMusic": "https://music.apple.com/us/album/317395447",
-      "tidal": "https://tidal.com/album/5766078"
+      "tidal": "https://tidal.com/album/5766078",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ng67rMVQfoS572M-NWMxigdEY0aGX9lMM"
     },
     "capa": "assets/img/capas/enslaved-isa.jpg",
     "musicbrainz": {
@@ -7494,7 +7647,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "eric-b-and-rakim-paid-in-full",
@@ -7557,7 +7711,8 @@
     ],
     "links": {
       "qobuz": "https://www.qobuz.com/us-en/album/paid-in-full-eric-b-rakim/vtfxf8ird89ka",
-      "appleMusic": "https://itunes.apple.com/mn/album/id361058642"
+      "appleMusic": "https://itunes.apple.com/mn/album/id361058642",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k_cv_05CpMFpO4GGNWUJs4zrEoYtn6NhM"
     },
     "capa": "assets/img/capas/eric-b-and-rakim-paid-in-full.jpg",
     "musicbrainz": {
@@ -7569,7 +7724,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "eric-dolphy-far-cry",
@@ -7626,7 +7782,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "eric-dolphy-out-to-lunch",
@@ -7663,7 +7820,8 @@
       }
     ],
     "links": {
-      "appleMusic": "https://music.apple.com/us/album/1455686798"
+      "appleMusic": "https://music.apple.com/us/album/1455686798",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k0E4W0KXJCTV62l_g28Fsfy0xHUrWoXNI"
     },
     "capa": "assets/img/capas/eric-dolphy-out-to-lunch.jpg",
     "musicbrainz": {
@@ -7675,7 +7833,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "eurythmics-1984-for-the-love-of-big-brother",
@@ -7742,7 +7901,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "eurythmics-sweet-dreams-are-made-of-this",
@@ -7808,7 +7968,8 @@
       "spotify": "https://open.spotify.com/album/4aS9TfMz2ZlDGPzCqxxvJi",
       "deezer": "https://www.deezer.com/album/59437672",
       "qobuz": "https://www.qobuz.com/us-en/album/sweet-dreams-eurythmics-annie-lennox-dave-stewart/hdshmbdidkorc",
-      "tidal": "https://tidal.com/album/86183171"
+      "tidal": "https://tidal.com/album/86183171",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nIxMOOnlef98uB1O9x6JaMSZsMy2KBxo8"
     },
     "capa": "assets/img/capas/eurythmics-sweet-dreams-are-made-of-this.jpg",
     "musicbrainz": {
@@ -7820,7 +7981,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "four-tet-rounds",
@@ -7886,7 +8048,8 @@
       "deezer": "https://www.deezer.com/album/426722",
       "tidal": "https://tidal.com/album/3745671",
       "appleMusic": "https://music.apple.com/gb/album/611523227",
-      "qobuz": "https://www.qobuz.com/us-en/album/rounds-four-tet/0887830008860"
+      "qobuz": "https://www.qobuz.com/us-en/album/rounds-four-tet/0887830008860",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n_Qf-25p_aJNknqvb6zajHbv_bo864y0c"
     },
     "capa": "assets/img/capas/four-tet-rounds.jpg",
     "musicbrainz": {
@@ -7898,7 +8061,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "frank-sinatra-come-fly-with-me",
@@ -7999,7 +8163,9 @@
         "duracao": "2:35"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_meT5XCCKGomaFh8ow3x1Zekg4IHR_Ft4w"
+    },
     "capa": "assets/img/capas/frank-sinatra-come-fly-with-me.jpg",
     "musicbrainz": {
       "releaseGroup": "ee1b1494-745d-43b3-aa8d-ee28cea87a90",
@@ -8010,7 +8176,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "freddie-hubbard-ready-for-freddie",
@@ -8049,7 +8216,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/1WW55eOxlZCvPWJDYmhZXD",
       "deezer": "https://www.deezer.com/album/328701",
-      "appleMusic": "https://music.apple.com/us/album/715902693"
+      "appleMusic": "https://music.apple.com/us/album/715902693",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mDALCYfbZupMfPvVOvziKRftmjI3c2MHs"
     },
     "capa": "assets/img/capas/freddie-hubbard-ready-for-freddie.jpg",
     "musicbrainz": {
@@ -8061,7 +8229,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "freddie-hubbard-red-clay",
@@ -8094,7 +8263,8 @@
     ],
     "links": {
       "spotify": "https://open.spotify.com/album/3rbGfGoXGh1pFkzyehRJww",
-      "appleMusic": "https://music.apple.com/gb/album/394272416"
+      "appleMusic": "https://music.apple.com/gb/album/394272416",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lz4lm0nT4aUG7sQsTTymoPDo8b9ktcrXc"
     },
     "capa": "assets/img/capas/freddie-hubbard-red-clay.jpg",
     "musicbrainz": {
@@ -8106,7 +8276,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "freddie-king-blues-guitar-hero",
@@ -8248,7 +8419,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "freddie-king-lets-dance-and-hide-away",
@@ -8321,8 +8493,7 @@
     ],
     "links": {
       "spotify": "https://open.spotify.com/album/4dm5SsbQGXWg1Rm3Nfech5",
-      "deezer": "https://www.deezer.com/album/11296112",
-      "appleMusic": "https://music.apple.com/us/album/259676380"
+      "deezer": "https://www.deezer.com/album/11296112"
     },
     "capa": "assets/img/capas/freddie-king-lets-dance-and-hide-away.jpg",
     "musicbrainz": {
@@ -8334,7 +8505,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "gang-of-four-entertainment",
@@ -8410,7 +8582,8 @@
       "deezer": "https://www.deezer.com/album/10980010",
       "tidal": "https://tidal.com/album/49866101",
       "appleMusic": "https://music.apple.com/gb/album/1556154085",
-      "qobuz": "https://www.qobuz.com/us-en/album/entertainment-gang-of-four/ox55l7txsu4db"
+      "qobuz": "https://www.qobuz.com/us-en/album/entertainment-gang-of-four/ox55l7txsu4db",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mVy5LbbdJdXOsGSRuvaelL3B_DI8-KzKM"
     },
     "capa": "assets/img/capas/gang-of-four-entertainment.jpg",
     "musicbrainz": {
@@ -8422,7 +8595,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "gang-starr-step-in-the-arena",
@@ -8528,7 +8702,8 @@
       "deezer": "https://www.deezer.com/album/301261",
       "appleMusic": "https://music.apple.com/us/album/723665537",
       "qobuz": "https://www.qobuz.com/us-en/album/step-in-the-arena-gang-starr/0094632179852",
-      "tidal": "https://tidal.com/album/147978"
+      "tidal": "https://tidal.com/album/147978",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mF9P3B-5RlErgB87tkgZJwhl_VIgEmC-Y"
     },
     "capa": "assets/img/capas/gang-starr-step-in-the-arena.jpg",
     "musicbrainz": {
@@ -8540,7 +8715,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "gary-numan-the-pleasure-principle",
@@ -8606,7 +8782,8 @@
       "spotify": "https://open.spotify.com/album/5xFlkqLDx3wbgqtvrez1n0",
       "deezer": "https://www.deezer.com/album/105582",
       "appleMusic": "https://music.apple.com/gb/album/251652523",
-      "tidal": "https://tidal.com/album/2210166"
+      "tidal": "https://tidal.com/album/2210166",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mZkbZwBWGo0_iimqufvIycYkyn4GfmsfQ"
     },
     "capa": "assets/img/capas/gary-numan-the-pleasure-principle.jpg",
     "musicbrainz": {
@@ -8618,7 +8795,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "ghostface-killah-supreme-clientele",
@@ -8737,7 +8915,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/7eaQqVyq6xzAVgsxSzSP83",
       "deezer": "https://www.deezer.com/album/230228",
-      "appleMusic": "https://music.apple.com/us/album/190401592"
+      "appleMusic": "https://music.apple.com/us/album/190401592",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mlxOCyGvQ_3Ujsvtz5X-tF19UHxq41m9k"
     },
     "capa": "assets/img/capas/ghostface-killah-supreme-clientele.jpg",
     "musicbrainz": {
@@ -8749,7 +8928,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "gorgoroth-antichrist",
@@ -8790,7 +8970,9 @@
         "duracao": "6:12"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l8xN_W5O28KDL3rQbLoNBBTvszhsvx31k"
+    },
     "capa": "assets/img/capas/gorgoroth-antichrist.jpg",
     "musicbrainz": {
       "releaseGroup": "b33bc873-1329-3d3a-aefa-69a7d022a995",
@@ -8801,7 +8983,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "grant-green-and-sonny-clark-the-complete-quartets-with-sonny-clark",
@@ -8907,7 +9090,9 @@
         "duracao": "6:00"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n-14llfGIvJeRe2ErOfKu5YbM_8ZJnlOM"
+    },
     "capa": "assets/img/capas/grant-green-and-sonny-clark-the-complete-quartets-with-sonny-clark.jpg",
     "musicbrainz": {
       "releaseGroup": "c8fabe13-fe72-3ca3-907b-bf50cb172336",
@@ -8918,7 +9103,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "grant-green-green-street",
@@ -8958,7 +9144,8 @@
       "spotify": "https://open.spotify.com/album/1RmoKOfLnMAafzhWRJCI8q",
       "deezer": "https://www.deezer.com/album/299830",
       "appleMusic": "https://music.apple.com/gb/album/723515277",
-      "tidal": "https://tidal.com/album/153416"
+      "tidal": "https://tidal.com/album/153416",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_knAbWcP66NhKTQxsOsIrP4iBsXHNuSxvs"
     },
     "capa": "assets/img/capas/grant-green-green-street.jpg",
     "musicbrainz": {
@@ -8970,7 +9157,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "grant-green-idle-moments",
@@ -9005,7 +9193,8 @@
       "spotify": "https://open.spotify.com/album/1lDtUlOPGKp56gQ24MvmNG",
       "deezer": "https://www.deezer.com/album/329611",
       "appleMusic": "https://music.apple.com/gb/album/724724533",
-      "tidal": "https://tidal.com/album/1381759"
+      "tidal": "https://tidal.com/album/1381759",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l6WzOexjZ8yekh7qrQ0kvhbhS3rbHlTVA"
     },
     "capa": "assets/img/capas/grant-green-idle-moments.jpg",
     "musicbrainz": {
@@ -9017,7 +9206,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "gridlock-formless",
@@ -9079,7 +9269,8 @@
       }
     ],
     "links": {
-      "bandcamp": "https://hymen-records.bandcamp.com/album/formless"
+      "bandcamp": "https://hymen-records.bandcamp.com/album/formless",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kpWMKPLDQgjMyniTStqXRPDlQCE_Lr_vM"
     },
     "capa": "assets/img/capas/gridlock-formless.jpg",
     "musicbrainz": {
@@ -9091,7 +9282,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "gris-il-etait-une-foret",
@@ -9145,7 +9337,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "gza-liquid-swords",
@@ -9224,10 +9417,10 @@
     "links": {
       "spotify": "https://open.spotify.com/album/1i4Ju3OL0Tq6QaAO2OUVdE",
       "deezer": "https://www.deezer.com/album/182977392",
-      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lYb6Av5ITBPB-nWsPgklQ-UkwsWoZLnR8",
       "qobuz": "https://www.qobuz.com/us-en/album/liquid-swords-gza/rnb9q6j070zxc",
       "appleMusic": "https://music.apple.com/us/album/1537029775",
-      "tidal": "https://tidal.com/album/160529747"
+      "tidal": "https://tidal.com/album/160529747",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lFhtbf2QLaQg40OBWj75lCYSO--ZMZsDc"
     },
     "capa": "assets/img/capas/gza-liquid-swords.jpg",
     "musicbrainz": {
@@ -9239,7 +9432,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "hank-mobley-roll-call",
@@ -9280,7 +9474,9 @@
         "duracao": "4:58"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m6ye8QjQRt2TGmX5EwS6wYF1cN4WSWZ3k"
+    },
     "capa": "assets/img/capas/hank-mobley-roll-call.jpg",
     "musicbrainz": {
       "releaseGroup": "1468f24c-9f59-45cd-ab89-554f829ebe69",
@@ -9291,7 +9487,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "hank-mobley-soul-station",
@@ -9337,7 +9534,8 @@
       "deezer": "https://www.deezer.com/album/300264",
       "appleMusic": "https://music.apple.com/gb/album/840756872",
       "tidal": "https://tidal.com/album/1381021",
-      "qobuz": "https://www.qobuz.com/fr-fr/album/soul-station-hank-mobley/0060253764801"
+      "qobuz": "https://www.qobuz.com/fr-fr/album/soul-station-hank-mobley/0060253764801",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l4ndorjRnJm_KLUjIEUD2ynDv9maGdmQY"
     },
     "capa": "assets/img/capas/hank-mobley-soul-station.jpg",
     "musicbrainz": {
@@ -9349,7 +9547,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "hank-mobley-workout",
@@ -9385,7 +9584,9 @@
         "duracao": null
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n5hVZcgayd0BcmTPAG29BRTyx-7NOiH7k"
+    },
     "capa": "assets/img/capas/hank-mobley-workout.jpg",
     "musicbrainz": {
       "releaseGroup": "71b3e5e8-3683-3b96-82c0-abf57a989604",
@@ -9396,7 +9597,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "haunted-george-pile-o-meat",
@@ -9482,7 +9684,9 @@
         "duracao": null
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kiDPXY_ghE0Rtn8ZdN-4sqO_HYGnh-NAI"
+    },
     "capa": "assets/img/capas/haunted-george-pile-o-meat.jpg",
     "musicbrainz": {
       "releaseGroup": "9b8fa477-8b1e-4593-8de8-9593f832391f",
@@ -9493,7 +9697,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "heaven-17-penthouse-and-pavement",
@@ -9550,7 +9755,8 @@
       }
     ],
     "links": {
-      "appleMusic": "https://itunes.apple.com/cz/album/id714078083"
+      "appleMusic": "https://itunes.apple.com/cz/album/id714078083",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_krZ85YRbDKJHvLUq17-TWlgPIWdehHfz4"
     },
     "capa": "assets/img/capas/heaven-17-penthouse-and-pavement.jpg",
     "musicbrainz": {
@@ -9562,7 +9768,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "hellhammer-satanic-rites",
@@ -9644,7 +9851,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "herbie-hancock-head-hunters",
@@ -9680,7 +9888,8 @@
       "deezer": "https://www.deezer.com/album/111628",
       "appleMusic": "https://music.apple.com/us/album/158571524",
       "qobuz": "https://www.qobuz.com/us-en/album/head-hunters-herbie-hancock/0074646512326",
-      "tidal": "https://tidal.com/album/640348"
+      "tidal": "https://tidal.com/album/640348",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nvlpZLPE7acPh4D5k2lvtdFCe68yEIqV4"
     },
     "capa": "assets/img/capas/herbie-hancock-head-hunters.jpg",
     "musicbrainz": {
@@ -9692,7 +9901,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "herbie-hancock-maiden-voyage",
@@ -9729,7 +9939,8 @@
       }
     ],
     "links": {
-      "appleMusic": "https://music.apple.com/us/album/1476739989"
+      "appleMusic": "https://music.apple.com/us/album/1476739989",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mWGmcP7ds-zMb_-aqH5Sy7giatkp7AbCA"
     },
     "capa": "assets/img/capas/herbie-hancock-maiden-voyage.jpg",
     "musicbrainz": {
@@ -9741,7 +9952,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "herbie-hancock-thrust",
@@ -9773,7 +9985,8 @@
       }
     ],
     "links": {
-      "qobuz": "https://www.qobuz.com/us-en/album/thrust-herbie-hancock/0074646498422"
+      "qobuz": "https://www.qobuz.com/us-en/album/thrust-herbie-hancock/0074646498422",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n6gyAvIZl1CLwRsiUYD-CUvTVqqSwh5h0"
     },
     "capa": "assets/img/capas/herbie-hancock-thrust.jpg",
     "musicbrainz": {
@@ -9785,7 +9998,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "horace-silver-song-for-my-father",
@@ -9839,7 +10053,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "howlin-wolf-moanin-in-the-moonlight",
@@ -9915,7 +10130,8 @@
       "spotify": "https://open.spotify.com/album/76MT4lqzC1oSvSYnHHjMam",
       "deezer": "https://www.deezer.com/album/70485622",
       "appleMusic": "https://music.apple.com/us/album/1425203542",
-      "tidal": "https://tidal.com/album/93427818"
+      "tidal": "https://tidal.com/album/93427818",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k_bt8IHtpoW6DkmB0Z24zzq5jTxuHF1fo"
     },
     "capa": "assets/img/capas/howlin-wolf-moanin-in-the-moonlight.jpg",
     "musicbrainz": {
@@ -9927,7 +10143,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "howlin-wolf-the-rockin-chair-album",
@@ -10002,7 +10219,8 @@
       "spotify": "https://open.spotify.com/album/26TtzBrPdUkHMSTPSbctbl",
       "deezer": "https://www.deezer.com/album/70205622",
       "appleMusic": "https://music.apple.com/us/album/1423339042",
-      "tidal": "https://tidal.com/album/93242362"
+      "tidal": "https://tidal.com/album/93242362",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lKQ6EBOuD4XvatBC2LGWwWMET79KvIIBg"
     },
     "capa": "assets/img/capas/howlin-wolf-the-rockin-chair-album.jpg",
     "musicbrainz": {
@@ -10014,7 +10232,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "immortal-pure-holocaust",
@@ -10067,7 +10286,8 @@
     ],
     "links": {
       "spotify": "https://open.spotify.com/album/1oiueifrAKrGjrxZzpCYkQ",
-      "deezer": "https://www.deezer.com/album/41056"
+      "deezer": "https://www.deezer.com/album/41056",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mPXWW2qtc-nrXYte32_sDVwK0z_dqMjbU"
     },
     "capa": "assets/img/capas/immortal-pure-holocaust.jpg",
     "musicbrainz": {
@@ -10079,7 +10299,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "j-dilla-donuts",
@@ -10250,7 +10471,8 @@
       "deezer": "https://www.deezer.com/album/54294542",
       "appleMusic": "https://itunes.apple.com/us/album/id108233171",
       "qobuz": "https://www.qobuz.com/us-en/album/donuts-j-dilla/chrfeg52ijqxb",
-      "tidal": "https://tidal.com/album/185776357"
+      "tidal": "https://tidal.com/album/185776357",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lbor6Q_JWE5Fkxip0eJo-_J8xoKx_1aX0"
     },
     "capa": "assets/img/capas/j-dilla-donuts.jpg",
     "musicbrainz": {
@@ -10262,7 +10484,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "japan-gentlemen-take-polaroids",
@@ -10313,7 +10536,9 @@
         "duracao": "5:13"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l40nxvVrUZZQaK7W0shy51diuDDieu4wk"
+    },
     "capa": "assets/img/capas/japan-gentlemen-take-polaroids.jpg",
     "musicbrainz": {
       "releaseGroup": "aa105693-bf63-3ae3-9722-db5e034df8b1",
@@ -10324,7 +10549,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "japan-tin-drum",
@@ -10377,7 +10603,8 @@
     ],
     "links": {
       "spotify": "https://open.spotify.com/album/71R4tl3qYgZVvdlwE7Fxs6",
-      "deezer": "https://www.deezer.com/album/302610"
+      "deezer": "https://www.deezer.com/album/302610",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kp0MEk7SbW1gXD8PSJmO2cHPPAv-VzLgU"
     },
     "capa": "assets/img/capas/japan-tin-drum.jpg",
     "musicbrainz": {
@@ -10389,7 +10616,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "jay-z-reasonable-doubt",
@@ -10478,7 +10706,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/0223RBur9a3VKmgNGOHFR5",
       "deezer": "https://www.deezer.com/album/400146427",
-      "appleMusic": "https://music.apple.com/us/album/1475940563"
+      "appleMusic": "https://music.apple.com/us/album/1475940563",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mSETH0aPwuE1YWAkCd_Rk_7Pqe1QKufgY"
     },
     "capa": "assets/img/capas/jay-z-reasonable-doubt.jpg",
     "musicbrainz": {
@@ -10490,7 +10719,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "jimmy-reed-the-best-of-the-vee-jay-years",
@@ -10602,7 +10832,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "john-coltrane-a-love-supreme",
@@ -10633,7 +10864,8 @@
       "appleMusic": "https://music.apple.com/us/album/1440713018",
       "spotify": "https://open.spotify.com/album/3JRgE1OqN7A8wrYqFxDfJO",
       "deezer": "https://www.deezer.com/album/823871261",
-      "tidal": "https://tidal.com/album/461570286"
+      "tidal": "https://tidal.com/album/461570286",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lDXihQ1ZDYmlnvs3D6x9AV1V8IDC9g0pw"
     },
     "capa": "assets/img/capas/john-coltrane-a-love-supreme.jpg",
     "musicbrainz": {
@@ -10645,7 +10877,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "john-coltrane-and-johnny-hartman-john-coltrane-and-johnny-hartman",
@@ -10691,7 +10924,8 @@
       "spotify": "https://open.spotify.com/album/5e3mq4TT4RLn4VXfgKV6MU",
       "deezer": "https://www.deezer.com/album/117187",
       "appleMusic": "https://music.apple.com/us/album/1440640282",
-      "tidal": "https://tidal.com/album/77623369"
+      "tidal": "https://tidal.com/album/77623369",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lIGZ3d9H9JFcg_2JX3BMUrk4ViFsQ5T-8"
     },
     "capa": "assets/img/capas/john-coltrane-and-johnny-hartman-john-coltrane-and-johnny-hartman.jpg",
     "musicbrainz": {
@@ -10703,7 +10937,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "john-coltrane-blue-train",
@@ -11089,7 +11324,9 @@
         "duracao": "2:21"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nlqvhqoPVG0dnYiGsn-3PxtFIkm7YlIg0"
+    },
     "capa": "assets/img/capas/john-coltrane-blue-train.jpg",
     "musicbrainz": {
       "releaseGroup": "c63baaaa-10c0-4b86-ad7e-1f39d7e2eccc",
@@ -11100,7 +11337,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "john-coltrane-giant-steps",
@@ -11151,7 +11389,8 @@
       "qobuz": "https://www.qobuz.com/us-en/album/giant-steps-john-coltrane/w13y2b5td69eb",
       "spotify": "https://open.spotify.com/album/4jTDjHLMFCHWrjuP1qmCf4",
       "appleMusic": "https://music.apple.com/us/album/1502751229",
-      "tidal": "https://tidal.com/album/4085837"
+      "tidal": "https://tidal.com/album/4085837",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kKb13NwE5i0J04VZnfJIwmwgqG1rIBIg8"
     },
     "capa": "assets/img/capas/john-coltrane-giant-steps.jpg",
     "musicbrainz": {
@@ -11163,7 +11402,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "john-coltrane-live-at-birdland",
@@ -11203,7 +11443,8 @@
       "spotify": "https://open.spotify.com/album/3bFxBCBwFQ8WGRghgoUxaU",
       "deezer": "https://www.deezer.com/album/80673142",
       "appleMusic": "https://music.apple.com/us/album/1469578985",
-      "tidal": "https://tidal.com/album/77650860"
+      "tidal": "https://tidal.com/album/77650860",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lkr0iQvjw-5fZC6GPLirTVpGI0JRsw6Wg"
     },
     "capa": "assets/img/capas/john-coltrane-live-at-birdland.jpg",
     "musicbrainz": {
@@ -11215,7 +11456,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "john-coltrane-my-favorite-things",
@@ -11266,7 +11508,9 @@
         "duracao": "9:35"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m0vIo-YyZ69FBSR0mT_P-NU6bzMUmBYvM"
+    },
     "capa": "assets/img/capas/john-coltrane-my-favorite-things.jpg",
     "musicbrainz": {
       "releaseGroup": "d11a3313-bd2a-463d-8603-cef57cc5fa38",
@@ -11277,7 +11521,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "john-foxx-metamatic",
@@ -11342,7 +11587,8 @@
       "bandcamp": "https://johnfoxx.bandcamp.com/album/metamatic-deluxe",
       "spotify": "https://open.spotify.com/album/3OFXYdKqkbAbnPubrFja0A",
       "appleMusic": "https://itunes.apple.com/gb/album/id730459688",
-      "qobuz": "https://www.qobuz.com/us-en/album/metamaticplus-john-foxx/c5588wshdat9b"
+      "qobuz": "https://www.qobuz.com/us-en/album/metamaticplus-john-foxx/c5588wshdat9b",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kbHZ1Q5Qa-CgCl7bDCJO4PxslG0Vq4Y48"
     },
     "capa": "assets/img/capas/john-foxx-metamatic.jpg",
     "musicbrainz": {
@@ -11354,7 +11600,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "john-lee-hooker-best-of-friends",
@@ -11430,7 +11677,9 @@
         "duracao": "6:41"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l3AIBFvR5i82WVxMu6FtHtwmIrnDZWmyk"
+    },
     "capa": "assets/img/capas/john-lee-hooker-best-of-friends.jpg",
     "musicbrainz": {
       "releaseGroup": "6f3f2d2d-e374-3ea7-9bdb-9b1584bf249d",
@@ -11441,7 +11690,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "john-lee-hooker-the-very-best-of-john-lee-hooker",
@@ -11652,7 +11902,9 @@
         "duracao": "2:17"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mwMpHDZ9_f0RxMGukzUW6QOdEb8jM_RME"
+    },
     "capa": "assets/img/capas/john-lee-hooker-the-very-best-of-john-lee-hooker.jpg",
     "musicbrainz": {
       "releaseGroup": "c058bbdc-2cc5-453a-972f-4fdd0fdd0206",
@@ -11663,7 +11915,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "john-mayall-blues-breakers-with-eric-clapton",
@@ -11751,7 +12004,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "josef-k-the-only-fun-in-town",
@@ -11813,7 +12067,8 @@
       }
     ],
     "links": {
-      "bandcamp": "https://lesdisquesducrepuscule.bandcamp.com/album/the-only-fun-in-town"
+      "bandcamp": "https://lesdisquesducrepuscule.bandcamp.com/album/the-only-fun-in-town",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k9eHO1_XiWjYWxNPYSJQ7wBZ1h-pbf62w"
     },
     "capa": "assets/img/capas/josef-k-the-only-fun-in-town.jpg",
     "musicbrainz": {
@@ -11825,7 +12080,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "junko-onishi-trio-live-at-the-village-vanguard",
@@ -11882,7 +12138,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "jurassic-5-quality-control",
@@ -12041,8 +12298,7 @@
     "links": {
       "spotify": "https://open.spotify.com/album/6I4sWoNs2IlWUyMmJ7VDFw",
       "deezer": "https://www.deezer.com/album/1684822",
-      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nd3DS2vLbva8zF7TR8miEIWdwi7C-JRp8",
-      "appleMusic": "https://music.apple.com/us/album/quality-control/1440906496"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mIEgcRQAQZHBsm7Cj2E_asDD_m-afyI0c"
     },
     "capa": "assets/img/capas/jurassic-5-quality-control.jpg",
     "musicbrainz": {
@@ -12054,7 +12310,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "kanye-west-the-college-dropout",
@@ -12175,7 +12432,8 @@
       "deezer": "https://www.deezer.com/album/68440261",
       "appleMusic": "https://music.apple.com/us/album/1412872568",
       "qobuz": "https://www.qobuz.com/us-en/album/the-college-dropout-kanye-west/dwqkb21o9tz5b",
-      "tidal": "https://tidal.com/album/92099357"
+      "tidal": "https://tidal.com/album/92099357",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mvz7Tr6ZqTX0GKxE4lP5ifCaE9Sx-AEjc"
     },
     "capa": "assets/img/capas/kanye-west-the-college-dropout.jpg",
     "musicbrainz": {
@@ -12187,7 +12445,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "kenny-burrell-midnight-blue",
@@ -12233,7 +12492,9 @@
         "duracao": "6:15"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_muvwFBZOpzRaZ0qRFeDRsNALG65b3Pb8E"
+    },
     "capa": "assets/img/capas/kenny-burrell-midnight-blue.jpg",
     "musicbrainz": {
       "releaseGroup": "88861537-d884-370c-800d-7b4a7aed782c",
@@ -12244,7 +12505,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "killing-joke-killing-joke",
@@ -12308,7 +12570,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/4h2VQSQrJhHF6N5QZDjY86",
       "deezer": "https://www.deezer.com/album/6969485",
-      "appleMusic": "https://itunes.apple.com/us/album/id324126727"
+      "appleMusic": "https://itunes.apple.com/us/album/id324126727",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kUsPcaX0sFRF57EdlNA4Zr67rg91M0Mdg"
     },
     "capa": "assets/img/capas/killing-joke-killing-joke.jpg",
     "musicbrainz": {
@@ -12320,7 +12583,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "kraftwerk-computer-world",
@@ -12383,7 +12647,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "kraftwerk-the-man-machine",
@@ -12441,7 +12706,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "laurie-anderson-big-science",
@@ -12493,7 +12759,8 @@
       }
     ],
     "links": {
-      "bandcamp": "https://laurieanderson.bandcamp.com/album/big-science"
+      "bandcamp": "https://laurieanderson.bandcamp.com/album/big-science",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nMJP4ki1ZTB5e_yU2EY7B9dua8jTNV_4Y"
     },
     "capa": "assets/img/capas/laurie-anderson-big-science.jpg",
     "musicbrainz": {
@@ -12505,7 +12772,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "laurie-anderson-mister-heartbreak",
@@ -12551,7 +12819,9 @@
         "duracao": "2:29"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lhsqOfyiC6SRt0EpWVGUTPJe_zB9QDjqw"
+    },
     "capa": "assets/img/capas/laurie-anderson-mister-heartbreak.jpg",
     "musicbrainz": {
       "releaseGroup": "e2f0600e-5e4e-3776-9946-7c387c5f61d6",
@@ -12562,7 +12832,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "lead-belly-where-did-you-sleep-last-night",
@@ -12748,7 +13019,8 @@
       "deezer": "https://www.deezer.com/album/408863",
       "appleMusic": "https://music.apple.com/us/album/6774345209",
       "qobuz": "https://www.qobuz.com/us-en/album/where-did-you-sleep-last-night-lead-belly-legacy-vol-1-lead-belly/0829410388856",
-      "tidal": "https://tidal.com/album/45562076"
+      "tidal": "https://tidal.com/album/45562076",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_liDbPkGZVqnmMRSnzSMoj7cLmxTLhtc9c"
     },
     "capa": "assets/img/capas/lead-belly-where-did-you-sleep-last-night.jpg",
     "musicbrainz": {
@@ -12760,7 +13032,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "lee-morgan-cornbread",
@@ -12799,7 +13072,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/5aY4PliFxsCd55sgU5A2KQ",
       "deezer": "https://www.deezer.com/album/334194",
-      "appleMusic": "https://music.apple.com/us/album/1440954105"
+      "appleMusic": "https://music.apple.com/us/album/1440954105",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n2uIOc8ggU6gCOkwy9M9d3uPm7p-STSuQ"
     },
     "capa": "assets/img/capas/lee-morgan-cornbread.jpg",
     "musicbrainz": {
@@ -12811,7 +13085,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "lee-morgan-lee-morgan-sextet",
@@ -12852,7 +13127,9 @@
         "duracao": "7:42"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mSo5GWqLND27ITD4uJ4DCym7vfS2H6l84"
+    },
     "capa": "assets/img/capas/lee-morgan-lee-morgan-sextet.jpg",
     "musicbrainz": {
       "releaseGroup": "d701c64b-3e9e-3fba-9175-3782a2f30e94",
@@ -12863,7 +13140,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "lee-morgan-search-for-the-new-land",
@@ -12899,7 +13177,9 @@
         "duracao": "6:32"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m0hNDMWEK_IaWQ1xn-7BmSfUkKb-VMG68"
+    },
     "capa": "assets/img/capas/lee-morgan-search-for-the-new-land.jpg",
     "musicbrainz": {
       "releaseGroup": "492df0b4-049a-37da-b711-3c44a54b867a",
@@ -12910,7 +13190,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "lee-morgan-the-sidewinder",
@@ -12949,7 +13230,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/1n1trPeeY9Q5H4eLbbHHRg",
       "deezer": "https://www.deezer.com/album/300265",
-      "appleMusic": "https://music.apple.com/us/album/724729142"
+      "appleMusic": "https://music.apple.com/us/album/724729142",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mtBPLTcDKEfHyMeUsfPNxPpraJxge_RMQ"
     },
     "capa": "assets/img/capas/lee-morgan-the-sidewinder.jpg",
     "musicbrainz": {
@@ -12961,7 +13243,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "level-42-world-machine",
@@ -13017,7 +13300,9 @@
         "duracao": "5:40"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mdviG2uaagiILqtifN3bHnWPMLBWJlqlg"
+    },
     "capa": "assets/img/capas/level-42-world-machine.jpg",
     "musicbrainz": {
       "releaseGroup": "dc7464eb-9213-3984-881c-d75551d4c92c",
@@ -13028,7 +13313,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "lfo-advance",
@@ -13100,7 +13386,8 @@
       }
     ],
     "links": {
-      "deezer": "https://www.deezer.com/album/2795171"
+      "deezer": "https://www.deezer.com/album/2795171",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mOnnM01Ny2NdkKTGFPQ1_8I4W4b7rE8eo"
     },
     "capa": "assets/img/capas/lfo-advance.jpg",
     "musicbrainz": {
@@ -13112,7 +13399,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "lightnin-hopkins-smokes-like-lightning",
@@ -13179,7 +13467,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "lonnie-johnson-steppin-on-the-blues",
@@ -13285,7 +13574,9 @@
         "duracao": "3:09"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m5YeHIxtGn32xSWPZI5uPJhVnUxGbVf-U"
+    },
     "capa": "assets/img/capas/lonnie-johnson-steppin-on-the-blues.jpg",
     "musicbrainz": {
       "releaseGroup": "fb51f244-1e6f-3895-9c22-daf36626d3e3",
@@ -13296,7 +13587,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "louis-armstrong-the-complete-hot-five-and-hot-seven-recordings",
@@ -13772,7 +14064,9 @@
         "duracao": null
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lhtdYEZvYk7mIP3uv4-j38-Op8oOqMakU"
+    },
     "capa": "assets/img/capas/louis-armstrong-the-complete-hot-five-and-hot-seven-recordings.jpg",
     "musicbrainz": {
       "releaseGroup": "78b00b36-8cb8-3ae5-86f9-04ed4bae3029",
@@ -13783,7 +14077,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "m-new-york-london-paris-munich",
@@ -13835,9 +14130,9 @@
       }
     ],
     "links": {
-      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_kvlEJLmePHfJFYqYEsaWUzsaz6xbcmR9s",
       "deezer": "https://www.deezer.com/album/903701622",
-      "appleMusic": "https://music.apple.com/us/album/1790859415"
+      "appleMusic": "https://music.apple.com/us/album/1790859415",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_maBYgM80JpPPQhbF9dxyIQCfJcUdWJpZY"
     },
     "capa": "assets/img/capas/m-new-york-london-paris-munich.jpg",
     "musicbrainz": {
@@ -13849,7 +14144,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "madlib-shades-of-blue",
@@ -13944,7 +14240,8 @@
       "spotify": "https://open.spotify.com/album/6jRvDpOc9oi3sjQuoPK7if",
       "deezer": "https://www.deezer.com/album/87717082",
       "qobuz": "https://www.qobuz.com/us-en/album/shades-of-blue-madlib-invades-blue-note-madlib/vz8zgahd1zteb",
-      "appleMusic": "https://music.apple.com/us/album/1444093548"
+      "appleMusic": "https://music.apple.com/us/album/1444093548",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kkqAcmmbMntZDr1ltS8Ya-6swuU30kVo0"
     },
     "capa": "assets/img/capas/madlib-shades-of-blue.jpg",
     "musicbrainz": {
@@ -13956,7 +14253,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "madvillain-madvillainy",
@@ -14081,7 +14379,8 @@
       "bandcamp": "https://madvillain.bandcamp.com/album/madvillainy",
       "spotify": "https://open.spotify.com/album/61809gZj46tFYs0g4s51nu",
       "deezer": "http://www.deezer.com/se/album/14389134",
-      "appleMusic": "https://music.apple.com/gb/album/41655332"
+      "appleMusic": "https://music.apple.com/gb/album/41655332",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mj4SWRn9ywrwGZ4q1U1_242e9r9TrLjLM"
     },
     "capa": "assets/img/capas/madvillain-madvillainy.jpg",
     "musicbrainz": {
@@ -14093,7 +14392,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "magazine-real-life",
@@ -14154,7 +14454,8 @@
       "deezer": "https://www.deezer.com/album/300591",
       "appleMusic": "https://music.apple.com/us/album/714604344",
       "qobuz": "https://www.qobuz.com/us-en/album/real-life-magazine/0094638529354",
-      "tidal": "https://tidal.com/album/1348985"
+      "tidal": "https://tidal.com/album/1348985",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lcSiyv6U3bFcaSATfL1wTjkvlRKq4Pqqw"
     },
     "capa": "assets/img/capas/magazine-real-life.jpg",
     "musicbrainz": {
@@ -14166,7 +14467,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "magic-sam-west-side-soul",
@@ -14269,7 +14571,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "mary-lou-williams-live-at-the-cookery",
@@ -14340,7 +14643,9 @@
         "duracao": "7:52"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m0yVPConida0Lz4uMzEJtHTfFfErbixu0"
+    },
     "capa": "assets/img/capas/mary-lou-williams-live-at-the-cookery.jpg",
     "musicbrainz": {
       "releaseGroup": "06dd55a5-7611-4b54-b16d-812d1b6b1894",
@@ -14351,7 +14656,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "masters-hammer-ritual",
@@ -14417,7 +14723,9 @@
         "duracao": "7:32"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nMi3Je-eQohUQYkfo2m_njESLA7xR8ecQ"
+    },
     "capa": "assets/img/capas/masters-hammer-ritual.jpg",
     "musicbrainz": {
       "releaseGroup": "e7f69689-e0a3-3b25-8fd7-40fc6335d5eb",
@@ -14428,7 +14736,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "max-roach-we-insist-max-roachs-freedom-now-suite",
@@ -14464,7 +14773,9 @@
         "duracao": "9:43"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l-mDJ7tmNvltN84ub1ER5zvmXpJA2OyCQ"
+    },
     "capa": "assets/img/capas/max-roach-we-insist-max-roachs-freedom-now-suite.jpg",
     "musicbrainz": {
       "releaseGroup": "74a22423-bc30-3f20-8339-bcee59483819",
@@ -14475,7 +14786,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "mayhem-de-mysteriis-dom-sathanas",
@@ -14532,7 +14844,8 @@
       "appleMusic": "https://music.apple.com/gb/album/1451406150",
       "qobuz": "https://www.qobuz.com/gb-en/album/de-mysteriis-dom-sathanas-mayhem/xhbh0pkdkxa1b",
       "tidal": "https://tidal.com/album/103468510",
-      "bandcamp": "https://mayhemindie.bandcamp.com/album/de-mysteriis-dom-sathanas"
+      "bandcamp": "https://mayhemindie.bandcamp.com/album/de-mysteriis-dom-sathanas",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kVUMtWBjuOqGhqSFq2NzNRK76G6eMAkjY"
     },
     "capa": "assets/img/capas/mayhem-de-mysteriis-dom-sathanas.jpg",
     "musicbrainz": {
@@ -14544,7 +14857,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "mccoy-tyner-the-real-mccoy",
@@ -14581,7 +14895,8 @@
       }
     ],
     "links": {
-      "appleMusic": "https://music.apple.com/us/album/721273864"
+      "appleMusic": "https://music.apple.com/us/album/721273864",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nAgZjFc0NsyTJtzb1Xmigma7J4qf-M-Ow"
     },
     "capa": "assets/img/capas/mccoy-tyner-the-real-mccoy.jpg",
     "musicbrainz": {
@@ -14593,7 +14908,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "mercyful-fate-melissa",
@@ -14644,7 +14960,8 @@
       "spotify": "https://open.spotify.com/album/5qGJwgqmI3PeGWfDXTkvkt",
       "deezer": "https://www.deezer.com/album/500987601",
       "appleMusic": "https://music.apple.com/gb/album/1711845095",
-      "tidal": "https://tidal.com/album/322046310"
+      "tidal": "https://tidal.com/album/322046310",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_liDXSSs3wkx6tQmQ3J7Q6c-BPKJ4gIjag"
     },
     "capa": "assets/img/capas/mercyful-fate-melissa.jpg",
     "musicbrainz": {
@@ -14656,7 +14973,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "miles-davis-birth-of-the-cool",
@@ -14727,7 +15045,8 @@
       "deezer": "https://www.deezer.com/album/12494218",
       "qobuz": "https://www.qobuz.com/us-en/album/birth-of-the-cool-miles-davis/0509996365215",
       "tidal": "https://tidal.com/album/57339947",
-      "appleMusic": "https://music.apple.com/us/album/1440951879"
+      "appleMusic": "https://music.apple.com/us/album/1440951879",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lvRJlt6i15FS1qcLa7MFq3de9Bh_RftPc"
     },
     "capa": "assets/img/capas/miles-davis-birth-of-the-cool.jpg",
     "musicbrainz": {
@@ -14739,7 +15058,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "miles-davis-bitches-brew",
@@ -14784,7 +15104,8 @@
       "spotify": "https://open.spotify.com/album/3Q0zkOZEOC855ErOOJ1AdO",
       "deezer": "https://www.deezer.com/album/645702",
       "appleMusic": "https://music.apple.com/us/album/168376392",
-      "qobuz": "https://www.qobuz.com/us-en/album/bitches-brew-miles-davis/0886443874428"
+      "qobuz": "https://www.qobuz.com/us-en/album/bitches-brew-miles-davis/0886443874428",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l_b-W_ss_19Cy7L9BrZuv1vS0VUzhFlaU"
     },
     "capa": "assets/img/capas/miles-davis-bitches-brew.jpg",
     "musicbrainz": {
@@ -14796,7 +15117,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "miles-davis-in-a-silent-way",
@@ -14822,7 +15144,8 @@
       "deezer": "https://www.deezer.com/album/1210678",
       "appleMusic": "https://music.apple.com/gb/album/193603857",
       "qobuz": "https://www.qobuz.com/us-en/album/in-a-silent-way-miles-davis/0696998655621",
-      "tidal": "https://tidal.com/album/3284750"
+      "tidal": "https://tidal.com/album/3284750",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kEmmuPKcfwKPAyhho74v4QiMHIHeWSRbY"
     },
     "capa": "assets/img/capas/miles-davis-in-a-silent-way.jpg",
     "musicbrainz": {
@@ -14834,7 +15157,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "miles-davis-kind-of-blue",
@@ -14862,7 +15186,8 @@
     ],
     "links": {
       "appleMusic": "https://music.apple.com/us/album/300865074",
-      "spotify": "https://open.spotify.com/album/1weenld61qoidwYuZ1GESA"
+      "spotify": "https://open.spotify.com/album/1weenld61qoidwYuZ1GESA",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kQdrECE-ozwNQzDlLQT2vsgVQp8DfHElE"
     },
     "capa": "assets/img/capas/miles-davis-kind-of-blue.jpg",
     "musicbrainz": {
@@ -14874,7 +15199,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "miles-davis-porgy-and-bess",
@@ -14954,7 +15280,8 @@
       "spotify": "https://open.spotify.com/album/5SytWslbaHEZsbbEeb0oUk",
       "deezer": "https://www.deezer.com/album/39803981",
       "appleMusic": "https://music.apple.com/gb/album/1225723234",
-      "tidal": "https://tidal.com/album/72692977"
+      "tidal": "https://tidal.com/album/72692977",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nB0rGV4N5cdKbn34sTyDNfufq-XrZDYeo"
     },
     "capa": "assets/img/capas/miles-davis-porgy-and-bess.jpg",
     "musicbrainz": {
@@ -14966,7 +15293,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "miles-davis-round-about-midnight",
@@ -15008,7 +15336,8 @@
       }
     ],
     "links": {
-      "qobuz": "https://www.qobuz.com/fr-fr/album/round-about-midnight-miles-davis/5056124608474"
+      "qobuz": "https://www.qobuz.com/fr-fr/album/round-about-midnight-miles-davis/5056124608474",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l62yHfb12iit6AjPoF-FqwQsaFGqQnO0A"
     },
     "capa": "assets/img/capas/miles-davis-round-about-midnight.jpg",
     "musicbrainz": {
@@ -15020,7 +15349,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "miles-davis-sketches-of-spain",
@@ -15060,7 +15390,8 @@
       "spotify": "https://open.spotify.com/album/1ku5slJkqUWSBFQLinlW25",
       "deezer": "https://www.deezer.com/album/1554948",
       "qobuz": "https://www.qobuz.com/gb-en/album/sketches-of-spain-miles-davis/0871444819295",
-      "appleMusic": "https://music.apple.com/us/album/832060615"
+      "appleMusic": "https://music.apple.com/us/album/832060615",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n9tr2OQYeOKOaVNNaavZpn18zZNjJVE1Q"
     },
     "capa": "assets/img/capas/miles-davis-sketches-of-spain.jpg",
     "musicbrainz": {
@@ -15072,7 +15403,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "mirrorthrone-carriers-of-dust",
@@ -15103,7 +15435,9 @@
         "duracao": "22:10"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lpDFBcz0gThoAU1StnQzTZcUm5BJGdHQo"
+    },
     "capa": "assets/img/capas/mirrorthrone-carriers-of-dust.jpg",
     "musicbrainz": {
       "releaseGroup": "d335b61f-3ad1-3f5e-9f06-258280c3b713",
@@ -15114,7 +15448,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "mission-of-burma-vs",
@@ -15186,7 +15521,8 @@
       }
     ],
     "links": {
-      "bandcamp": "https://missionofburmamusic.bandcamp.com/album/vs"
+      "bandcamp": "https://missionofburmamusic.bandcamp.com/album/vs",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kTRyqMNGErMHjaii7UV8lOosdqCE_CzBk"
     },
     "capa": "assets/img/capas/mission-of-burma-vs.jpg",
     "musicbrainz": {
@@ -15198,7 +15534,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "mississippi-fred-mcdowell-i-do-not-play-no-rock-n-roll",
@@ -15320,7 +15657,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "mississippi-john-hurt-avalon-blues",
@@ -15431,7 +15769,9 @@
         "duracao": "4:40"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kZqoBeJqfasAmYTChoU6ln7zDRi-xtmFA"
+    },
     "capa": "assets/img/capas/mississippi-john-hurt-avalon-blues.jpg",
     "musicbrainz": {
       "releaseGroup": "53ea541e-4308-3c7b-9850-4bccbb351635",
@@ -15442,7 +15782,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "mobb-deep-the-infamous",
@@ -15536,7 +15877,8 @@
     "links": {
       "deezer": "https://www.deezer.com/album/142635842",
       "spotify": "https://open.spotify.com/album/5ziRFhVApdrCRrX004Qaxo",
-      "appleMusic": "https://itunes.apple.com/gb/album/id255342338"
+      "appleMusic": "https://itunes.apple.com/gb/album/id255342338",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lpFX_34j8pzgFKsue3YUe5sk90lvCFNnk"
     },
     "capa": "assets/img/capas/mobb-deep-the-infamous.jpg",
     "musicbrainz": {
@@ -15548,7 +15890,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "modern-jazz-quartet-mjq",
@@ -15610,7 +15953,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "mos-def-black-on-both-sides",
@@ -15709,7 +16053,7 @@
     "links": {
       "spotify": "https://open.spotify.com/album/5gK2l2LgWY0BA4p9uy27z6",
       "deezer": "https://www.deezer.com/album/212184",
-      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lSxJFo0H9sdqAU_XjaExWLsOth3wgXPKA"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lSxJFo0H9sdqAU_XjaExWLsOth3wgXPKA"
     },
     "capa": "assets/img/capas/mos-def-black-on-both-sides.jpg",
     "musicbrainz": {
@@ -15721,7 +16065,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "mouse-on-mars-iaora-tahiti",
@@ -15797,7 +16142,9 @@
         "duracao": "12:39"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lqL8qs_EeESu8y9autkUnAu6gTLTR0eGI"
+    },
     "capa": "assets/img/capas/mouse-on-mars-iaora-tahiti.jpg",
     "musicbrainz": {
       "releaseGroup": "bf0b37f8-5cd2-3cb3-ac96-36f35f60f91c",
@@ -15808,7 +16155,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "muddy-waters-folk-singer",
@@ -15864,7 +16212,9 @@
         "duracao": "3:52"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ltfvqaTQfQOKVHqkSMweohG_g5UCId41w"
+    },
     "capa": "assets/img/capas/muddy-waters-folk-singer.jpg",
     "musicbrainz": {
       "releaseGroup": "7cd640e8-7009-3217-a085-08384da9e49a",
@@ -15875,7 +16225,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "muddy-waters-hard-again",
@@ -15936,7 +16287,8 @@
       "deezer": "https://www.deezer.com/album/76057",
       "appleMusic": "https://music.apple.com/us/album/198155305",
       "qobuz": "https://www.qobuz.com/us-en/album/hard-again-muddy-waters/0696998681729",
-      "tidal": "https://tidal.com/album/1308853"
+      "tidal": "https://tidal.com/album/1308853",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nd2LIEuGoMx0ep-xWy6NmVT0TV-2idGKQ"
     },
     "capa": "assets/img/capas/muddy-waters-hard-again.jpg",
     "musicbrainz": {
@@ -15948,7 +16300,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "nas-illmatic",
@@ -16014,8 +16367,8 @@
       "deezer": "https://www.deezer.com/album/7654077",
       "appleMusic": "https://music.apple.com/us/album/662324135",
       "qobuz": "https://www.qobuz.com/us-en/album/illmatic-nas/0886444072496",
-      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_nG3EVZSoQV76KqS0G_RtXDWkxBgkjMZyk",
-      "tidal": "https://tidal.com/album/27395775"
+      "tidal": "https://tidal.com/album/27395775",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lh8IDILeWhuRYlJsOS7DndJkBr94VnKcY"
     },
     "capa": "assets/img/capas/nas-illmatic.jpg",
     "musicbrainz": {
@@ -16027,7 +16380,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "negura-bunget-om",
@@ -16093,7 +16447,9 @@
         "duracao": "2:04"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lMXVrq9a2XEwkQGJEjtyP0U3sWCicx1hQ"
+    },
     "capa": "assets/img/capas/negura-bunget-om.jpg",
     "musicbrainz": {
       "releaseGroup": "fb2eba6e-a173-3da2-84dd-85867c58713d",
@@ -16104,7 +16460,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "new-order-low-life",
@@ -16160,7 +16517,8 @@
       "spotify": "https://open.spotify.com/album/1zw2R2jhDJf7BFJMR0aOSq",
       "deezer": "https://www.deezer.com/album/397575927",
       "appleMusic": "https://music.apple.com/us/album/1653042841",
-      "tidal": "https://tidal.com/album/386881846"
+      "tidal": "https://tidal.com/album/386881846",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lGHD6v1kcrPc3E4apihILajsIV6IDEgh8"
     },
     "capa": "assets/img/capas/new-order-low-life.jpg",
     "musicbrainz": {
@@ -16172,7 +16530,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "nina-simone-nina-simone-sings-the-blues",
@@ -16238,7 +16597,9 @@
         "duracao": "3:58"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l4hTSAePKaF9GbOvaeYPUFW6xdExz6hao"
+    },
     "capa": "assets/img/capas/nina-simone-nina-simone-sings-the-blues.jpg",
     "musicbrainz": {
       "releaseGroup": "3e756ef5-ffa4-3d48-83ae-f7f856a2b989",
@@ -16249,7 +16610,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "nwa-straight-outta-compton",
@@ -16315,7 +16677,8 @@
       "spotify": "https://open.spotify.com/album/0Y7qkJVZ06tS2GUCDptzyW",
       "deezer": "https://www.deezer.com/album/10975090",
       "qobuz": "https://play.qobuz.com/album/0060254754199",
-      "tidal": "https://tidal.com/album/49820183"
+      "tidal": "https://tidal.com/album/49820183",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n7tQZHCeKZKGghMCNVcHQp51maARM_9xY"
     },
     "capa": "assets/img/capas/nwa-straight-outta-compton.jpg",
     "musicbrainz": {
@@ -16327,7 +16690,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "orchestral-manoeuvres-in-the-dark-architecture-and-morality",
@@ -16400,7 +16764,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "orchestral-manoeuvres-in-the-dark-orchestral-manoeuvres-in-the-dark",
@@ -16463,7 +16828,7 @@
     ],
     "links": {
       "spotify": "https://open.spotify.com/album/5AN8aqTrcuMZO7rpD9U2yF",
-      "qobuz": "https://www.qobuz.com/be-nl/album/orchestral-manoeuvres-in-the-dark-orchestral-manoeuvres-in-the-dark/0724358150551"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ngUvagWRxVP5irB7cKzlrbR2bRjjJ6qsY"
     },
     "capa": "assets/img/capas/orchestral-manoeuvres-in-the-dark-orchestral-manoeuvres-in-the-dark.jpg",
     "musicbrainz": {
@@ -16475,7 +16840,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "ornette-coleman-the-shape-of-jazz-to-come",
@@ -16516,7 +16882,9 @@
         "duracao": "6:03"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mOQEXImXqnMIZuatlLUdiO3OTTox-6pS8"
+    },
     "capa": "assets/img/capas/ornette-coleman-the-shape-of-jazz-to-come.jpg",
     "musicbrainz": {
       "releaseGroup": "5879cfca-e1d0-3ef4-8014-3b284832ed18",
@@ -16527,7 +16895,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "otis-rush-so-many-roads",
@@ -16619,7 +16988,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "outkast-stankonia",
@@ -16765,8 +17135,8 @@
       "deezer": "https://www.deezer.com/album/843502202",
       "appleMusic": "https://music.apple.com/gb/album/1841975745",
       "tidal": "https://tidal.com/album/469012130",
-      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_k2WbbLAKpX1_r4YMQwNy1O2yrRcL-KQ3s",
-      "qobuz": "https://www.qobuz.com/us-en/album/stankonia-outkast/0730082607223"
+      "qobuz": "https://www.qobuz.com/us-en/album/stankonia-outkast/0730082607223",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lUpNb9YJrd3wI95cDdF8MjKpIY4GYHayo"
     },
     "capa": "assets/img/capas/outkast-stankonia.jpg",
     "musicbrainz": {
@@ -16778,7 +17148,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "p-model-in-a-model-room",
@@ -16848,7 +17219,8 @@
       "spotify": "https://open.spotify.com/album/3oET2VS7ysr2NgNPRBhjpy",
       "deezer": "https://www.deezer.com/album/453689155",
       "appleMusic": "https://music.apple.com/gb/album/1692755754",
-      "tidal": "https://tidal.com/album/300022605"
+      "tidal": "https://tidal.com/album/300022605",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nf72w5bUfUzbB796jGwJUmIN5MA3oyrys"
     },
     "capa": "assets/img/capas/p-model-in-a-model-room.jpg",
     "musicbrainz": {
@@ -16860,7 +17232,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "pere-ubu-the-modern-dance",
@@ -16926,7 +17299,8 @@
       "deezer": "https://www.deezer.com/album/401263317",
       "appleMusic": "https://music.apple.com/gb/album/1061144951",
       "qobuz": "https://www.qobuz.com/us-en/album/the-modern-dance-pere-ubu/brailocpgt2qb",
-      "tidal": "https://tidal.com/album/273576147"
+      "tidal": "https://tidal.com/album/273576147",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kSzi8rGvjWajAhaaNVScfzEDcevmgInYo"
     },
     "capa": "assets/img/capas/pere-ubu-the-modern-dance.jpg",
     "musicbrainz": {
@@ -16938,7 +17312,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "peste-noire-la-sanie-des-siecles",
@@ -17000,7 +17375,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "pet-shop-boys-please",
@@ -17070,7 +17446,8 @@
       "spotify": "https://open.spotify.com/album/47fRf3JwriMUPPzFjdvNS6",
       "deezer": "https://www.deezer.com/album/57187532",
       "appleMusic": "https://music.apple.com/gb/album/1321155898",
-      "tidal": "https://tidal.com/album/84745723"
+      "tidal": "https://tidal.com/album/84745723",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mQ2JwANB6PPycuAKc0BiiTdf0M5-FPr6M"
     },
     "capa": "assets/img/capas/pet-shop-boys-please.jpg",
     "musicbrainz": {
@@ -17082,7 +17459,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "pharoah-sanders-black-unity",
@@ -17107,7 +17485,8 @@
       "spotify": "https://open.spotify.com/album/3luFuzmpqNIeQQM485wkI8",
       "deezer": "https://www.deezer.com/album/321087817",
       "appleMusic": "https://music.apple.com/gb/album/1444070545",
-      "tidal": "https://tidal.com/album/35655353"
+      "tidal": "https://tidal.com/album/35655353",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kbJsY6XnOBy1lX6xGRK6zJ1uOtcIEyIe8"
     },
     "capa": "assets/img/capas/pharoah-sanders-black-unity.jpg",
     "musicbrainz": {
@@ -17119,7 +17498,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "pharoah-sanders-karma",
@@ -17148,7 +17528,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/04sSPjO9MQFQ6fG4lpBI3G",
       "deezer": "https://www.deezer.com/album/5942124",
-      "appleMusic": "https://music.apple.com/us/album/1443785100"
+      "appleMusic": "https://music.apple.com/us/album/1443785100",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kJZGvcMcq4KIl0JCNkXGmkJEURtRbIH3Y"
     },
     "capa": "assets/img/capas/pharoah-sanders-karma.jpg",
     "musicbrainz": {
@@ -17160,7 +17541,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "phil-woods-rights-of-swing",
@@ -17196,7 +17578,9 @@
         "duracao": "7:17"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nZPVkmZQOrXA_ej-RDuBjW9_wV6QHB8hI"
+    },
     "capa": "assets/img/capas/phil-woods-rights-of-swing.jpg",
     "musicbrainz": {
       "releaseGroup": "038258b2-db17-4480-a9bd-9279bdd03ada",
@@ -17207,7 +17591,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "philip-oakey-and-giorgio-moroder-philip-oakey-and-giorgio-moroder",
@@ -17268,7 +17653,8 @@
       "deezer": "https://www.deezer.com/album/315339",
       "appleMusic": "https://music.apple.com/gb/album/714827876",
       "qobuz": "https://play.qobuz.com/album/0724359160559",
-      "tidal": "https://tidal.com/album/1217381"
+      "tidal": "https://tidal.com/album/1217381",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k_hzgfab7-qfIJVTtDhtIthNS8Vw6Mgdw"
     },
     "capa": "assets/img/capas/philip-oakey-and-giorgio-moroder-philip-oakey-and-giorgio-moroder.jpg",
     "musicbrainz": {
@@ -17280,7 +17666,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "plaid-not-for-threes",
@@ -17376,7 +17763,8 @@
       "deezer": "https://www.deezer.com/album/2795261",
       "appleMusic": "https://music.apple.com/gb/album/260898505",
       "qobuz": "https://www.qobuz.com/gb-en/album/not-for-threes-plaid/0801061005436",
-      "tidal": "https://tidal.com/album/16024853"
+      "tidal": "https://tidal.com/album/16024853",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mGG-9tRHaBKRdq_lXsHBw_4LEcwV5QDRQ"
     },
     "capa": "assets/img/capas/plaid-not-for-threes.jpg",
     "musicbrainz": {
@@ -17388,7 +17776,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "plastics-welcome-plastics",
@@ -17469,7 +17858,9 @@
         "duracao": "5:23"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ksDTqcmQF8Lc1p8-nBNd7KafUWnmyLDF4"
+    },
     "capa": "assets/img/capas/plastics-welcome-plastics.jpg",
     "musicbrainz": {
       "releaseGroup": "c7f1f8e4-923d-463d-b134-dd8f119b1234",
@@ -17480,7 +17871,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "public-enemy-it-takes-a-nation-of-millions-to-hold-us-back",
@@ -17576,7 +17968,8 @@
       "deezer": "https://www.deezer.com/album/9181537",
       "appleMusic": "https://music.apple.com/us/album/1443639373",
       "qobuz": "https://www.qobuz.com/us-en/album/it-takes-a-nation-of-millions-to-hold-us-back-public-enemy/w60muyh1dkoqb",
-      "tidal": "https://tidal.com/album/93649603"
+      "tidal": "https://tidal.com/album/93649603",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kj3bRiY4AWPAfIZ3HFe66YiYB-sKbug-0"
     },
     "capa": "assets/img/capas/public-enemy-it-takes-a-nation-of-millions-to-hold-us-back.jpg",
     "musicbrainz": {
@@ -17588,7 +17981,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "public-image-ltd-metal-box",
@@ -17675,7 +18069,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "raekwon-only-built-4-cuban-linx",
@@ -17781,7 +18176,8 @@
       "deezer": "https://www.deezer.com/album/114188",
       "appleMusic": "https://music.apple.com/gb/album/258634938",
       "qobuz": "https://www.qobuz.com/us-en/album/only-built-4-cuban-linx-raekwon/0078636666327",
-      "tidal": "https://tidal.com/album/1805232"
+      "tidal": "https://tidal.com/album/1805232",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kWJR2C_ZS-TgvkwphQ93-gbAjbChkbVTc"
     },
     "capa": "assets/img/capas/raekwon-only-built-4-cuban-linx.jpg",
     "musicbrainz": {
@@ -17793,7 +18189,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "robert-johnson-the-complete-recordings",
@@ -18013,7 +18410,8 @@
       "spotify": "https://open.spotify.com/album/6QwHn86Rw53qli3Y6b41Rd",
       "deezer": "https://www.deezer.com/album/4854231",
       "appleMusic": "https://music.apple.com/us/album/546817591",
-      "tidal": "https://tidal.com/album/16448728"
+      "tidal": "https://tidal.com/album/16448728",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mS6DHUhP_bBqFFrGVLeF2vDJtmvR8dzNw"
     },
     "capa": "assets/img/capas/robert-johnson-the-complete-recordings.jpg",
     "musicbrainz": {
@@ -18025,7 +18423,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "rory-gallagher-irish-tour",
@@ -18086,7 +18485,9 @@
         "duracao": "7:58"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n4peXtEyyPRAXiBaw92bnaNlmMSg_WF4k"
+    },
     "capa": "assets/img/capas/rory-gallagher-irish-tour.jpg",
     "musicbrainz": {
       "releaseGroup": "a512f8cf-7f54-3f18-aa34-be88cf6b1347",
@@ -18097,7 +18498,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "roy-buchanan-roy-buchanan",
@@ -18148,7 +18550,9 @@
         "duracao": "2:15"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kPXrGEymDaW9r17A5Ljwz6cNBXSzKinUo"
+    },
     "capa": "assets/img/capas/roy-buchanan-roy-buchanan.jpg",
     "musicbrainz": {
       "releaseGroup": "ef762110-33fb-3ec6-a3ee-ac6d7ac75080",
@@ -18159,7 +18563,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "roy-porter-sound-machine-jessica",
@@ -18205,7 +18610,9 @@
         "duracao": "4:22"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mUISx0fdfVUOVUdxXSyUZA2GsLoBWPosM"
+    },
     "capa": "assets/img/capas/roy-porter-sound-machine-jessica.jpg",
     "musicbrainz": {
       "releaseGroup": "9a226617-882a-484f-8e1c-c0a1f485cc28",
@@ -18216,7 +18623,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "run-dmc-raising-hell",
@@ -18292,7 +18700,8 @@
       "deezer": "https://www.deezer.com/album/107638",
       "appleMusic": "https://music.apple.com/us/album/254344779",
       "qobuz": "https://www.qobuz.com/us-en/album/raising-hell-run-dmc/0078221640824",
-      "tidal": "https://tidal.com/album/494083"
+      "tidal": "https://tidal.com/album/494083",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kNwTNak5aVXoQclhBqDzK5FDXAxfgE9cA"
     },
     "capa": "assets/img/capas/run-dmc-raising-hell.jpg",
     "musicbrainz": {
@@ -18304,7 +18713,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "ryuichi-sakamoto-the-thousand-knives-of-ryuichi-sakamoto",
@@ -18360,7 +18770,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "sacramentum-far-away-from-the-sun",
@@ -18417,7 +18828,8 @@
       }
     ],
     "links": {
-      "bandcamp": "https://sacramentum.bandcamp.com/album/far-away-from-the-sun-2020-remaster"
+      "bandcamp": "https://sacramentum.bandcamp.com/album/far-away-from-the-sun-2020-remaster",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k33ACGd_6WwOxPSMdcUcRFUb0H67M5w8s"
     },
     "capa": "assets/img/capas/sacramentum-far-away-from-the-sun.jpg",
     "musicbrainz": {
@@ -18429,7 +18841,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "sarcofago-inri",
@@ -18488,7 +18901,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/1ar4Z56FydAxYg7FuWYgOu",
       "deezer": "https://www.deezer.com/album/7819285",
-      "appleMusic": "https://music.apple.com/gb/album/678046222"
+      "appleMusic": "https://music.apple.com/gb/album/678046222",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kgsiFn-P-ujPHypRxMGAU6TALLSrfcuJg"
     },
     "capa": "assets/img/capas/sarcofago-inri.jpg",
     "musicbrainz": {
@@ -18500,7 +18914,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "satyricon-dark-medieval-times",
@@ -18550,7 +18965,8 @@
       "spotify": "https://open.spotify.com/album/1PI7BARhjM3hpdvt6dGtYl",
       "deezer": "https://www.deezer.com/album/217728992",
       "bandcamp": "https://satyricon.bandcamp.com/album/dark-medieval-times",
-      "appleMusic": "https://music.apple.com/us/album/1560240008"
+      "appleMusic": "https://music.apple.com/us/album/1560240008",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l5B3mWuJn_LX-0icg2OeyYeN-AiznAHEU"
     },
     "capa": "assets/img/capas/satyricon-dark-medieval-times.jpg",
     "musicbrainz": {
@@ -18562,7 +18978,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "scritti-politti-cupid-and-psyche-85",
@@ -18619,11 +19036,8 @@
       }
     ],
     "links": {
-      "deezer": "https://www.deezer.com/album/302127657",
-      "appleMusic": "https://music.apple.com/fi/album/1613812541",
-      "qobuz": "https://www.qobuz.com/fi-en/album/cupid-psyche-85-scritti-politti/xs681e3tuwtda",
-      "tidal": "https://tidal.com/album/220343961",
-      "spotify": "https://open.spotify.com/album/0nBH3ITWaQDYT2wAWRdg3K"
+      "spotify": "https://open.spotify.com/album/0nBH3ITWaQDYT2wAWRdg3K",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lQTa_AMBJpHRg7dEKTkf-_eVais_S3kTQ"
     },
     "capa": "assets/img/capas/scritti-politti-cupid-and-psyche-85.jpg",
     "musicbrainz": {
@@ -18635,7 +19049,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "shining-v-halmstad",
@@ -18680,7 +19095,8 @@
       "spotify": "https://open.spotify.com/album/2BTl7RiMhAO92Q83lZtbsF",
       "deezer": "https://www.deezer.com/album/40372",
       "appleMusic": "https://music.apple.com/gb/album/259310182",
-      "tidal": "https://tidal.com/album/14818955"
+      "tidal": "https://tidal.com/album/14818955",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mPX4eT4Yimk2gnXbERBExpb5LyupZpsoE"
     },
     "capa": "assets/img/capas/shining-v-halmstad.jpg",
     "musicbrainz": {
@@ -18692,7 +19108,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "sigue-sigue-sputnik-flaunt-it",
@@ -18744,7 +19161,8 @@
       }
     ],
     "links": {
-      "spotify": "https://open.spotify.com/album/5UzShGWJIpOfH98tnk2qQl"
+      "spotify": "https://open.spotify.com/album/5UzShGWJIpOfH98tnk2qQl",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lsh1fCdGKgXtAWBLHSbEs4WOCpZD2DGX0"
     },
     "capa": "assets/img/capas/sigue-sigue-sputnik-flaunt-it.jpg",
     "musicbrainz": {
@@ -18756,7 +19174,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "siouxsie-and-the-banshees-juju",
@@ -18814,7 +19233,8 @@
     ],
     "links": {
       "spotify": "https://open.spotify.com/album/5OEum65e1HMGX51Ifu51Wb",
-      "qobuz": "https://www.qobuz.com/be-nl/album/juju-siouxsie-and-the-banshees/0060249836914"
+      "qobuz": "https://www.qobuz.com/be-nl/album/juju-siouxsie-and-the-banshees/0060249836914",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kUiyCNW0eDdPpW6KfCAA4lRrzJqkvXTfM"
     },
     "capa": "assets/img/capas/siouxsie-and-the-banshees-juju.jpg",
     "musicbrainz": {
@@ -18826,7 +19246,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "skip-james-devil-got-my-woman",
@@ -18898,7 +19319,8 @@
       }
     ],
     "links": {
-      "qobuz": "https://open.qobuz.com/album/s50fmiw4uw4xt"
+      "qobuz": "https://open.qobuz.com/album/s50fmiw4uw4xt",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_knoyfgslgHhA2vIeVdlFb_yLT1KKWKNYE"
     },
     "capa": "assets/img/capas/skip-james-devil-got-my-woman.jpg",
     "musicbrainz": {
@@ -18910,7 +19332,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "snoop-doggy-dogg-doggystyle",
@@ -19028,7 +19451,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "sodom-obsessed-by-cruelty",
@@ -19105,7 +19529,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "soft-cell-non-stop-erotic-cabaret",
@@ -19170,7 +19595,8 @@
       "spotify": "https://open.spotify.com/album/4jItyCObu9cFUR5vqU8GJy",
       "deezer": "https://www.deezer.com/album/499557361",
       "appleMusic": "https://music.apple.com/gb/album/1440913005",
-      "qobuz": "https://www.qobuz.com/de-de/album/non-stop-erotic-cabaret-soft-cell/0073145325952"
+      "qobuz": "https://www.qobuz.com/de-de/album/non-stop-erotic-cabaret-soft-cell/0073145325952",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ka2Mda4Z_64WH3Lqaven0Cqmy2tomVN7M"
     },
     "capa": "assets/img/capas/soft-cell-non-stop-erotic-cabaret.jpg",
     "musicbrainz": {
@@ -19182,7 +19608,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "son-house-father-of-the-delta-blues",
@@ -19259,7 +19686,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "sonny-rollins-saxophone-colossus",
@@ -19296,11 +19724,10 @@
       }
     ],
     "links": {
-      "qobuz": "https://www.qobuz.com/album/saxophone-colossus-sonny-rollins/ejqsir6q83o8a",
       "bandcamp": "https://prestigerecords.bandcamp.com/album/saxophone-colossus-rudy-van-gelder-remaster",
       "tidal": "https://tidal.com/album/77701374",
       "spotify": "https://open.spotify.com/album/0yodD8uAkAT5UmrlF2xy97",
-      "appleMusic": "https://itunes.apple.com/us/album/id129952067"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mVKdS4_UKwLk2jBd7BDSVtpORi4-b0PYw"
     },
     "capa": "assets/img/capas/sonny-rollins-saxophone-colossus.jpg",
     "musicbrainz": {
@@ -19312,7 +19739,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "squarepusher-hard-normal-daddy",
@@ -19388,7 +19816,8 @@
       "deezer": "https://www.deezer.com/album/2795241",
       "appleMusic": "https://itunes.apple.com/mx/album/id78495631",
       "qobuz": "https://www.qobuz.com/mx-es/album/hard-normal-daddy-squarepusher/0801061005030",
-      "tidal": "https://tidal.com/album/16024374"
+      "tidal": "https://tidal.com/album/16024374",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kYy0W2B0MisApOHm_XxtA9yaE1GOESzos"
     },
     "capa": "assets/img/capas/squarepusher-hard-normal-daddy.jpg",
     "musicbrainz": {
@@ -19400,7 +19829,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "stan-getz-and-joao-gilberto-getz-gilberto",
@@ -19467,7 +19897,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "stan-getz-sweet-rain",
@@ -19503,7 +19934,9 @@
         "duracao": "8:52"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kaIe_7GVbim5Qhl3hz6fNs-2Q9DpEkqes"
+    },
     "capa": "assets/img/capas/stan-getz-sweet-rain.jpg",
     "musicbrainz": {
       "releaseGroup": "933f5f56-71f8-34f2-bc2d-2188c6a0af2e",
@@ -19514,7 +19947,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "stevie-ray-vaughan-texas-flood",
@@ -19579,7 +20013,7 @@
       "spotify": "https://open.spotify.com/album/1AL5oXZRtTc8PyhcTwg4xQ",
       "deezer": "https://www.deezer.com/album/6227255",
       "tidal": "https://tidal.com/album/18592455",
-      "appleMusic": "https://itunes.apple.com/us/album/id202748228"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nsRTgQOts7DfxxC6bOzw7EbFDabO_KyTc"
     },
     "capa": "assets/img/capas/stevie-ray-vaughan-texas-flood.jpg",
     "musicbrainz": {
@@ -19591,7 +20025,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "summoning-dol-guldur",
@@ -19643,7 +20078,8 @@
       }
     ],
     "links": {
-      "deezer": "https://www.deezer.com/album/6230570"
+      "deezer": "https://www.deezer.com/album/6230570",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mj0BtXcDaAdfk_nclkzJexPJWFFtxM2co"
     },
     "capa": "assets/img/capas/summoning-dol-guldur.jpg",
     "musicbrainz": {
@@ -19655,7 +20091,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "sun-ra-atlantis",
@@ -19704,7 +20141,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "sun-ra-nuclear-war",
@@ -19766,7 +20204,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "sun-ra-sound-of-joy",
@@ -19822,7 +20261,9 @@
         "duracao": "2:33"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lSG6u_U-MPGpJKE8XHKdnmPAc-fVGwpGw"
+    },
     "capa": "assets/img/capas/sun-ra-sound-of-joy.jpg",
     "musicbrainz": {
       "releaseGroup": "492cf39a-2481-3cb9-844c-6935b74d1d28",
@@ -19833,7 +20274,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "supersax-supersax-plays-bird",
@@ -19894,7 +20336,9 @@
         "duracao": "4:44"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lfYqLbwS9rVFpBXMHUrp5E8-hEaL2p_ck"
+    },
     "capa": null,
     "musicbrainz": {
       "releaseGroup": "697605d3-85a4-3c16-818a-f5fd0af14f32",
@@ -19906,7 +20350,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "swell-maps-a-trip-to-marineville",
@@ -20007,7 +20452,9 @@
         "duracao": "3:44"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_md22iug01YxSfEUYKu963kt4pfEFP6x98"
+    },
     "capa": "assets/img/capas/swell-maps-a-trip-to-marineville.jpg",
     "musicbrainz": {
       "releaseGroup": "448735fa-9d38-33d7-9612-621c25cb101f",
@@ -20018,7 +20465,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "t-bone-walker-t-bone-blues",
@@ -20154,7 +20602,9 @@
         "duracao": "2:55"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kQG39_Fu4ka5kZPWPwqwFc-kjNXbuC5Co"
+    },
     "capa": null,
     "musicbrainz": {
       "releaseGroup": "d8196b72-61d0-3e20-9820-869c945fda18",
@@ -20166,7 +20616,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "taake-nattestid-ser-porten-vid",
@@ -20217,7 +20668,8 @@
       "deezer": "https://www.deezer.com/album/442596",
       "appleMusic": "https://music.apple.com/no/album/338849472",
       "qobuz": "https://www.qobuz.com/no-en/album/nattestid-ser-porten-vid-taake/t0d2dd0fsybac",
-      "tidal": "https://tidal.com/album/3191189"
+      "tidal": "https://tidal.com/album/3191189",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kYWJ6qzXnPGrJQaAbsgbxALjtZdHNhtIk"
     },
     "capa": "assets/img/capas/taake-nattestid-ser-porten-vid.jpg",
     "musicbrainz": {
@@ -20229,7 +20681,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "taj-mahal-taj-mahal",
@@ -20280,7 +20733,9 @@
         "duracao": "8:50"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nPRYy9c3PUEdiDD3vmZVI1zLHjrT_Z44Q"
+    },
     "capa": "assets/img/capas/taj-mahal-taj-mahal.jpg",
     "musicbrainz": {
       "releaseGroup": "492a6f99-0e60-37ff-8548-5d571b3ec10d",
@@ -20291,7 +20746,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-art-ensemble-of-chicago-tutankhamun",
@@ -20314,7 +20770,8 @@
     ],
     "links": {
       "spotify": "https://open.spotify.com/album/5DsmNjLvJbYxFeZlAYCb8H",
-      "appleMusic": "https://music.apple.com/gb/album/156127980"
+      "appleMusic": "https://music.apple.com/gb/album/156127980",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mWgmbwnvgaim6TxipXLoqqwqlO45nmNfU"
     },
     "capa": "assets/img/capas/the-art-ensemble-of-chicago-tutankhamun.jpg",
     "musicbrainz": {
@@ -20326,7 +20783,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-birthday-party-prayers-on-fire",
@@ -20408,7 +20866,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-buggles-the-age-of-plastic",
@@ -20463,7 +20922,8 @@
       "spotify": "https://open.spotify.com/album/5KKpKvLOS4tCV7cSOwIOWF",
       "appleMusic": "https://music.apple.com/gb/album/1444090125",
       "tidal": "https://tidal.com/album/35707939",
-      "deezer": "https://www.deezer.com/album/241082"
+      "deezer": "https://www.deezer.com/album/241082",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lwG-2lO2vFcMEyUbGekZhb0_SNrMCjmu4"
     },
     "capa": "assets/img/capas/the-buggles-the-age-of-plastic.jpg",
     "musicbrainz": {
@@ -20475,7 +20935,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-butterfield-blues-band-east-west",
@@ -20531,7 +20992,9 @@
         "duracao": "13:11"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nZ6PfSrI5-B2swFD15XYfQO78NPA825RY"
+    },
     "capa": "assets/img/capas/the-butterfield-blues-band-east-west.jpg",
     "musicbrainz": {
       "releaseGroup": "059d1a70-2ced-313d-b244-9793720f64b4",
@@ -20542,7 +21005,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-dave-brubeck-quartet-time-out",
@@ -20593,7 +21057,8 @@
       "deezer": "https://www.deezer.com/album/337748",
       "appleMusic": "https://itunes.apple.com/gb/album/id316351910",
       "qobuz": "https://www.qobuz.com/us-en/album/time-out-legacy-edition-dave-brubeck/0884977171662",
-      "tidal": "https://tidal.com/album/2809485"
+      "tidal": "https://tidal.com/album/2809485",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lUvDoQMeYsJ3ILj4rbPiDMRF7bBVONlg4"
     },
     "capa": "assets/img/capas/the-dave-brubeck-quartet-time-out.jpg",
     "musicbrainz": {
@@ -20605,7 +21070,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-fall-hex-enduction-hour",
@@ -20674,7 +21140,7 @@
     "links": {
       "spotify": "https://open.spotify.com/album/07AwcsCHsluqGak2UpCMH6",
       "deezer": "https://www.deezer.com/album/13270999",
-      "appleMusic": "https://itunes.apple.com/us/album/id1120747168"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_krvBPlcYbUeb2ZMZdQZtNESxA0mY7brng"
     },
     "capa": "assets/img/capas/the-fall-hex-enduction-hour.jpg",
     "musicbrainz": {
@@ -20686,7 +21152,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-flashbulb-kirlian-selections",
@@ -20842,7 +21309,8 @@
       "spotify": "https://open.spotify.com/album/4FiNukINIT1H7G8Pvcksdi",
       "deezer": "https://www.deezer.com/album/746891841",
       "appleMusic": "https://music.apple.com/gb/album/1810343932",
-      "tidal": "https://tidal.com/album/431841625"
+      "tidal": "https://tidal.com/album/431841625",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mUq6m8PnwopVQIRCaJPCnC0UQ9bQj-Isk"
     },
     "capa": "assets/img/capas/the-flashbulb-kirlian-selections.jpg",
     "musicbrainz": {
@@ -20854,7 +21322,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-future-sound-of-london-dead-cities",
@@ -20941,12 +21410,12 @@
       }
     ],
     "links": {
-      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_lWDbp_FXm0Mp-Yxfv_uCtWNVopdPbWlTc",
       "spotify": "https://open.spotify.com/album/2xHvAxrgMfKrYIicQVT9ay",
       "deezer": "https://www.deezer.com/album/328911",
       "appleMusic": "https://music.apple.com/gb/album/714769679",
       "qobuz": "https://www.qobuz.com/us-en/album/dead-cities-the-future-sound-of-london/0724384206857",
-      "tidal": "https://tidal.com/album/160962"
+      "tidal": "https://tidal.com/album/160962",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lWDbp_FXm0Mp-Yxfv_uCtWNVopdPbWlTc"
     },
     "capa": "assets/img/capas/the-future-sound-of-london-dead-cities.jpg",
     "musicbrainz": {
@@ -20958,7 +21427,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-gil-evans-orchestra-the-gil-evans-orchestra-plays-the-music-of-jimi-hendrix",
@@ -21025,7 +21495,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-human-league-dare",
@@ -21088,7 +21559,7 @@
     ],
     "links": {
       "deezer": "https://www.deezer.com/album/299443",
-      "qobuz": "https://www.qobuz.com/de-de/album/dare-the-human-league/0724358011456"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lSL0LQplVXIf00zdDGWRh_QPMHsHdzMXA"
     },
     "capa": "assets/img/capas/the-human-league-dare.jpg",
     "musicbrainz": {
@@ -21100,7 +21571,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-human-league-reproduction",
@@ -21159,7 +21631,8 @@
     "links": {
       "appleMusic": "https://music.apple.com/at/album/724390619",
       "qobuz": "https://www.qobuz.com/album/reproduction-the-human-league/0724358016550",
-      "tidal": "https://tidal.com/album/155448"
+      "tidal": "https://tidal.com/album/155448",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kkHvLNqwZzSFOMuB167_QdJRNZDH4rdaU"
     },
     "capa": "assets/img/capas/the-human-league-reproduction.jpg",
     "musicbrainz": {
@@ -21171,7 +21644,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-miles-davis-quintet-steamin-with-the-miles-davis-quintet",
@@ -21192,7 +21666,9 @@
         "duracao": null
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ljO2Zd0Sr7qp_fC8FDC85xgpQ0ohJ5Pio"
+    },
     "capa": "assets/img/capas/the-miles-davis-quintet-steamin-with-the-miles-davis-quintet.jpg",
     "musicbrainz": {
       "releaseGroup": "5c607c9b-beb1-4ce4-b388-0b5f8449ecf4",
@@ -21203,7 +21679,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-notorious-big-ready-to-die",
@@ -21302,10 +21779,10 @@
     "links": {
       "spotify": "https://open.spotify.com/album/2HTbQ0RHwukKVXAlTmCZP2",
       "deezer": "https://www.deezer.com/album/271489",
-      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mXhuBRiTG1-w3MMfdV2DK7u14ts8qnaX0",
       "qobuz": "https://www.qobuz.com/us-en/album/ready-to-die-the-remaster-us-explicit-version-94567-the-notorious-big/0075679456762",
       "appleMusic": "https://music.apple.com/us/album/204669326",
-      "tidal": "https://tidal.com/album/362384"
+      "tidal": "https://tidal.com/album/362384",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mXhuBRiTG1-w3MMfdV2DK7u14ts8qnaX0"
     },
     "capa": "assets/img/capas/the-notorious-big-ready-to-die.jpg",
     "musicbrainz": {
@@ -21317,7 +21794,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-pharcyde-bizarre-ride-ii-the-pharcyde",
@@ -21412,7 +21890,8 @@
       "spotify": "https://open.spotify.com/album/48kU5gP41TqZEw32Cwhsna",
       "deezer": "https://www.deezer.com/album/8469605",
       "qobuz": "https://www.qobuz.com/fr-fr/album/bizarre-ride-ii-the-pharcyde-the-pharcyde/0088807203545",
-      "appleMusic": "https://music.apple.com/us/album/1440946475"
+      "appleMusic": "https://music.apple.com/us/album/1440946475",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nvX-yzLaiIBW9VBi4IUpjnqoauU-N8tm4"
     },
     "capa": "assets/img/capas/the-pharcyde-bizarre-ride-ii-the-pharcyde.jpg",
     "musicbrainz": {
@@ -21424,7 +21903,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-pop-group-y",
@@ -21484,7 +21964,8 @@
       "spotify": "https://open.spotify.com/album/2FIPqFsTkNb5K6gX0aXcUc",
       "qobuz": "https://open.qobuz.com/album/hxh00q347fhhb",
       "tidal": "https://tidal.com/album/114342038",
-      "appleMusic": "https://music.apple.com/us/album/y-definitive-edition/1473332174?app=music&ign-mpt=uo%3D4"
+      "appleMusic": "https://music.apple.com/us/album/y-definitive-edition/1473332174?app=music&ign-mpt=uo%3D4",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nDsMA12OsLGgMBaiqKfiPDJ0dxZ598fV0"
     },
     "capa": "assets/img/capas/the-pop-group-y.jpg",
     "musicbrainz": {
@@ -21496,7 +21977,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-roots-illadelph-halflife",
@@ -21610,9 +22092,9 @@
     "links": {
       "spotify": "https://open.spotify.com/album/4hkERQVrmM9JQ9g2eie2tL",
       "deezer": "https://www.deezer.com/album/1541554",
-      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lRT_xgVq6Q9uwCnceyl73FQ3H45mts2sY",
       "appleMusic": "https://music.apple.com/us/album/1440646391",
-      "tidal": "https://tidal.com/album/13561069"
+      "tidal": "https://tidal.com/album/13561069",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lRT_xgVq6Q9uwCnceyl73FQ3H45mts2sY"
     },
     "capa": "assets/img/capas/the-roots-illadelph-halflife.jpg",
     "musicbrainz": {
@@ -21624,7 +22106,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "the-slits-cut",
@@ -21690,7 +22173,8 @@
       "deezer": "https://www.deezer.com/album/122274",
       "appleMusic": "https://itunes.apple.com/mx/album/id314984050",
       "qobuz": "https://www.qobuz.com/us-en/album/cut-the-slits/0073145481862",
-      "tidal": "https://tidal.com/album/336452"
+      "tidal": "https://tidal.com/album/336452",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lKAQfB9NPp4iFYnLiCQAefw0gM0nmL744"
     },
     "capa": "assets/img/capas/the-slits-cut.jpg",
     "musicbrainz": {
@@ -21702,7 +22186,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "thelonious-monk-brilliant-corners",
@@ -21743,7 +22228,8 @@
       "deezer": "https://www.deezer.com/album/387410",
       "appleMusic": "https://music.apple.com/gb/album/1467953578",
       "tidal": "https://tidal.com/album/1218875",
-      "qobuz": "https://www.qobuz.com/gb-en/album/brilliant-corners-mono-version-thelonious-monk/3610154682709"
+      "qobuz": "https://www.qobuz.com/gb-en/album/brilliant-corners-mono-version-thelonious-monk/3610154682709",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nVBknsf19t4oTwK1ymTjShS7gbYFyPa5A"
     },
     "capa": "assets/img/capas/thelonious-monk-brilliant-corners.jpg",
     "musicbrainz": {
@@ -21755,7 +22241,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "thelonious-monk-genius-of-modern-music-vols-1-and-2",
@@ -21821,7 +22308,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "this-heat-deceit",
@@ -21888,7 +22376,8 @@
       }
     ],
     "links": {
-      "bandcamp": "https://thisheat.bandcamp.com/album/deceit-2"
+      "bandcamp": "https://thisheat.bandcamp.com/album/deceit-2",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_naieJz8ICoKrwXqgLNyaO6SeHNr8oiAbM"
     },
     "capa": "assets/img/capas/this-heat-deceit.jpg",
     "musicbrainz": {
@@ -21900,7 +22389,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "thomas-dolby-the-flat-earth",
@@ -21947,7 +22437,7 @@
       }
     ],
     "links": {
-      "tidal": "https://tidal.com/album/367361387"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mkg1s0N1vStAOuM32oWsM2WtaE7zlT8KE"
     },
     "capa": "assets/img/capas/thomas-dolby-the-flat-earth.jpg",
     "musicbrainz": {
@@ -21959,7 +22449,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "thomas-dolby-the-golden-age-of-wireless",
@@ -22020,7 +22511,9 @@
         "duracao": "5:45"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mDkI3iq_knUURsgfka0zscN5kWX1gYl6M"
+    },
     "capa": "assets/img/capas/thomas-dolby-the-golden-age-of-wireless.jpg",
     "musicbrainz": {
       "releaseGroup": "11ed9046-1cbc-39b0-a8c0-dc27ecbb8670",
@@ -22031,7 +22524,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "tommy-johnson-complete-recorded-works",
@@ -22138,7 +22632,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "tormentor-anno-domini",
@@ -22214,7 +22709,9 @@
         "duracao": "1:55"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l7wBB2Oe8pDAoljCGX4EyNitoCsL_UmkQ"
+    },
     "capa": "assets/img/capas/tormentor-anno-domini.jpg",
     "musicbrainz": {
       "releaseGroup": "c5f3668a-91bb-3637-a445-2346034236c4",
@@ -22225,7 +22722,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "tribe-a-message-from-the-tribe",
@@ -22279,7 +22777,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "tubby-hayes-and-clark-terry-the-new-york-sessions",
@@ -22291,7 +22790,11 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ma-f-8W0iVTIdXBg49ywP-NerPhc7atY0"
+    },
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "tubby-hayes-mexican-green",
@@ -22338,7 +22841,8 @@
       }
     ],
     "links": {
-      "qobuz": "https://www.qobuz.com/gb-en/album/mexican-green-the-tubby-hayes-quartet/phdv3adrpp9jc"
+      "qobuz": "https://www.qobuz.com/gb-en/album/mexican-green-the-tubby-hayes-quartet/phdv3adrpp9jc",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mEIYegYYSLIMHYlb-Nn-Ox2BCcGgcam1M"
     },
     "capa": "assets/img/capas/tubby-hayes-mexican-green.jpg",
     "musicbrainz": {
@@ -22350,7 +22854,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "tubeway-army-replicas",
@@ -22417,7 +22922,8 @@
       "bandcamp": "https://garynuman.bandcamp.com/album/replicas",
       "appleMusic": "https://music.apple.com/gb/album/1027458090",
       "qobuz": "https://www.qobuz.com/us-en/album/replicas-tubeway-army/0607618000707",
-      "tidal": "https://tidal.com/album/49794345"
+      "tidal": "https://tidal.com/album/49794345",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kry4zobAtqkKJl1nlJeYOyfGoKjlKRWUc"
     },
     "capa": "assets/img/capas/tubeway-army-replicas.jpg",
     "musicbrainz": {
@@ -22429,7 +22935,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "ultravox-vienna",
@@ -22487,7 +22994,7 @@
     ],
     "links": {
       "qobuz": "https://www.qobuz.com/us-en/album/vienna-ultravox/urtvkmqxpbkbb",
-      "appleMusic": "https://music.apple.com/us/album/1526113272"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mKMgqzgGbm9NPjtiZbsTZ9Vfx8QKHz8w0"
     },
     "capa": "assets/img/capas/ultravox-vienna.jpg",
     "musicbrainz": {
@@ -22499,7 +23006,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "ulver-bergtatt",
@@ -22541,7 +23049,8 @@
       "deezer": "https://www.deezer.com/album/86281422",
       "appleMusic": "https://music.apple.com/no/album/1451405991",
       "qobuz": "https://www.qobuz.com/no-en/album/bergtatt-ulver/maby3o4fahoka",
-      "tidal": "https://tidal.com/album/103468333"
+      "tidal": "https://tidal.com/album/103468333",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kM60OA5Bkezbyt1h0lFgOQHNgpKerHspw"
     },
     "capa": "assets/img/capas/ulver-bergtatt.jpg",
     "musicbrainz": {
@@ -22553,7 +23062,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "ved-buens-ende-written-in-waters",
@@ -22613,8 +23123,8 @@
       "spotify": "https://open.spotify.com/album/1nsIRkZgu9u4I1CigRiMqv",
       "deezer": "https://www.deezer.com/album/74540632",
       "appleMusic": "https://music.apple.com/no/album/1437841397",
-      "qobuz": "https://www.qobuz.com/album/written-in-waters-ved-buens-ende/knbq6vima52la",
-      "tidal": "https://tidal.com/album/95981891"
+      "tidal": "https://tidal.com/album/95981891",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nMCHfTZ_-MHbLvvf3QmKva8WMRSnCv6uA"
     },
     "capa": "assets/img/capas/ved-buens-ende-written-in-waters.jpg",
     "musicbrainz": {
@@ -22626,7 +23136,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "venetian-snares-huge-chrome-cylinder-box-unfolding",
@@ -22708,7 +23219,8 @@
       }
     ],
     "links": {
-      "spotify": "https://open.spotify.com/album/4y05JEgylJaNfji97Qo0Jz"
+      "spotify": "https://open.spotify.com/album/4y05JEgylJaNfji97Qo0Jz",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mnxBiw5fuGwBsHBMoyOgYLzcXX6-occIU"
     },
     "capa": "assets/img/capas/venetian-snares-huge-chrome-cylinder-box-unfolding.jpg",
     "musicbrainz": {
@@ -22720,7 +23232,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "venetian-snares-rossz-csillag-alatt-szuletett",
@@ -22790,7 +23303,8 @@
       "spotify": "https://open.spotify.com/album/5ZfRZFsE3rZOOad7zv8fCt",
       "deezer": "https://www.deezer.com/album/11345242",
       "bandcamp": "https://venetiansnares.bandcamp.com/album/rossz-csillag-alatt-sz-letett",
-      "appleMusic": "https://music.apple.com/gb/album/1046224788"
+      "appleMusic": "https://music.apple.com/gb/album/1046224788",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ntaQhGGMSHFtDHLpm0LcEaTnq9UmQrBis"
     },
     "capa": "assets/img/capas/venetian-snares-rossz-csillag-alatt-szuletett.jpg",
     "musicbrainz": {
@@ -22802,7 +23316,8 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "venom-black-metal",
@@ -22871,8 +23386,8 @@
     "links": {
       "spotify": "https://open.spotify.com/album/1e6Osda6t8UDFYQ29sFVlV",
       "deezer": "https://www.deezer.com/album/13944208",
-      "appleMusic": "https://itunes.apple.com/mx/album/id1143701234",
-      "qobuz": "https://www.qobuz.com/us-en/album/black-metal-venom/xx965e9n9vu8p"
+      "qobuz": "https://www.qobuz.com/us-en/album/black-metal-venom/xx965e9n9vu8p",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n8G8Udj0tQ705Moe8PmeiEC2xVbg1WkqY"
     },
     "capa": "assets/img/capas/venom-black-metal.jpg",
     "musicbrainz": {
@@ -22884,7 +23399,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "vsop-the-quintet",
@@ -22946,7 +23462,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "wayne-shorter-adams-apple",
@@ -22989,7 +23506,8 @@
     ],
     "links": {
       "tidal": "https://tidal.com/album/77609808",
-      "appleMusic": "https://music.apple.com/us/album/1443300056"
+      "appleMusic": "https://music.apple.com/us/album/1443300056",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kE3-lqwS_3zeVbnSvQf_Yxfu7kx8YGZZw"
     },
     "capa": "assets/img/capas/wayne-shorter-adams-apple.jpg",
     "musicbrainz": {
@@ -23001,7 +23519,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "wayne-shorter-speak-no-evil",
@@ -23046,7 +23565,8 @@
       "qobuz": "https://www.qobuz.com/au-en/album/speak-no-evil-wayne-shorter/0060253764843",
       "spotify": "https://open.spotify.com/album/27Rl7A8jXEQOkIfUKOa6ZU",
       "deezer": "https://www.deezer.com/album/300214",
-      "appleMusic": "https://music.apple.com/us/album/723473694"
+      "appleMusic": "https://music.apple.com/us/album/723473694",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_knaLcc-5RHyrYCuy71Du3JBd88vLIshwQ"
     },
     "capa": "assets/img/capas/wayne-shorter-speak-no-evil.jpg",
     "musicbrainz": {
@@ -23058,7 +23578,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "weakling-dead-as-dreams",
@@ -23105,7 +23626,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "weather-report-i-sing-the-body-electric",
@@ -23151,7 +23673,9 @@
         "duracao": "4:35"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nKJRUL_06FPIH8mVSp6hgTeqKAPURJxR4"
+    },
     "capa": "assets/img/capas/weather-report-i-sing-the-body-electric.jpg",
     "musicbrainz": {
       "releaseGroup": "35c24abc-f1b5-3908-b4e0-53517080afd1",
@@ -23162,7 +23686,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "weather-report-weather-report",
@@ -23213,7 +23738,9 @@
         "duracao": "6:14"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lQpzMcBhLgCI538zDttP7HX8JUhI0nLhk"
+    },
     "capa": "assets/img/capas/weather-report-weather-report.jpg",
     "musicbrainz": {
       "releaseGroup": "6750dc69-90e2-302b-bfd8-fc2ac4d886b9",
@@ -23224,7 +23751,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "wes-montgomery-the-incredible-jazz-guitar-of-wes-montgomery",
@@ -23275,7 +23803,9 @@
         "duracao": "6:20"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nCTMta8OZ6YK6eAoHl6RNUL1tRrhv5_ZM"
+    },
     "capa": "assets/img/capas/wes-montgomery-the-incredible-jazz-guitar-of-wes-montgomery.jpg",
     "musicbrainz": {
       "releaseGroup": "92829cab-8dee-3e6b-97ad-22fd49c95ed5",
@@ -23286,7 +23816,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "willie-dixon-the-big-three-trio",
@@ -23413,7 +23944,8 @@
     ],
     "generos": [
       "blues"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "windir-arntor",
@@ -23460,13 +23992,13 @@
       }
     ],
     "links": {
-      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_kHYvnZdD2cCx3JnKtBp9AuUEy19cKtXV0",
       "spotify": "https://open.spotify.com/album/6RNkLWsEaepoRBcbzkAHEe",
       "deezer": "https://www.deezer.com/album/86278992",
       "appleMusic": "https://music.apple.com/no/album/1451407911",
       "qobuz": "https://www.qobuz.com/de-de/album/arntor-windir/hsll3fdlrq3ja",
       "tidal": "https://tidal.com/album/103470624",
-      "bandcamp": "https://windirband.bandcamp.com/album/arntor"
+      "bandcamp": "https://windirband.bandcamp.com/album/arntor",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kHYvnZdD2cCx3JnKtBp9AuUEy19cKtXV0"
     },
     "capa": "assets/img/capas/windir-arntor.jpg",
     "musicbrainz": {
@@ -23478,7 +24010,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "wipers-youth-of-america",
@@ -23525,7 +24058,8 @@
       "appleMusic": "https://music.apple.com/gb/album/1031831705",
       "qobuz": "https://www.qobuz.com/gb-en/album/youth-of-america-wipers/0889326354338",
       "tidal": "https://tidal.com/album/50270579",
-      "bandcamp": "https://wipers.bandcamp.com/album/youth-of-america"
+      "bandcamp": "https://wipers.bandcamp.com/album/youth-of-america",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nmcKMSv8xYVmBDSZbva2GwfMQBBrSqQrY"
     },
     "capa": "assets/img/capas/wipers-youth-of-america.jpg",
     "musicbrainz": {
@@ -23537,7 +24071,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "wire-chairs-missing",
@@ -23625,7 +24160,8 @@
     ],
     "links": {
       "spotify": "https://open.spotify.com/album/7tWxaE1as1wy12Yd1De41r",
-      "deezer": "https://www.deezer.com/album/53969772"
+      "deezer": "https://www.deezer.com/album/53969772",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k4IKpMvoh9Zsq8nvzewqipSbdGFvp5-VY"
     },
     "capa": "assets/img/capas/wire-chairs-missing.jpg",
     "musicbrainz": {
@@ -23637,7 +24173,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "wolves-in-the-throne-room-two-hunters",
@@ -23674,7 +24211,8 @@
       "deezer": "https://www.deezer.com/album/1528328",
       "appleMusic": "https://music.apple.com/us/album/455062629",
       "qobuz": "https://www.qobuz.com/us-en/album/two-hunters-wolves-in-the-throne-room/zwnmn6yuvw9sc",
-      "tidal": "https://tidal.com/album/7709965"
+      "tidal": "https://tidal.com/album/7709965",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kpX-YnIbR_pJVqwO5INrCJRQsPV1-dRYQ"
     },
     "capa": "assets/img/capas/wolves-in-the-throne-room-two-hunters.jpg",
     "musicbrainz": {
@@ -23686,7 +24224,8 @@
     ],
     "generos": [
       "black-metal"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "wu-tang-clan-enter-the-wu-tang-36-chambers",
@@ -23745,10 +24284,10 @@
     "links": {
       "spotify": "https://open.spotify.com/album/3tQd5mwBtVyxCoEo4htGAV",
       "deezer": "https://www.deezer.com/album/71652",
-      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mwIcbpishw-MNTuqBIcnsAxiFXl2dXKnI",
       "appleMusic": "https://music.apple.com/us/album/269842381",
       "qobuz": "https://www.qobuz.com/us-en/album/enter-the-wu-tang-36-chambers-expanded-edition-wu-tang-clan/0888880400017",
-      "tidal": "https://tidal.com/album/1631844"
+      "tidal": "https://tidal.com/album/1631844",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nysk5zmSkNeO06IpaImRO7kzoP0Iw8YSs"
     },
     "capa": "assets/img/capas/wu-tang-clan-enter-the-wu-tang-36-chambers.jpg",
     "musicbrainz": {
@@ -23760,7 +24299,8 @@
     ],
     "generos": [
       "hip-hop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "wynton-marsalis-from-the-plantation-to-the-penitentiary",
@@ -23806,7 +24346,9 @@
         "duracao": "5:48"
       }
     ],
-    "links": {},
+    "links": {
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nBd9_huXgIxGDwhuWgvdrLRdD7ZmJ3qks"
+    },
     "capa": "assets/img/capas/wynton-marsalis-from-the-plantation-to-the-penitentiary.jpg",
     "musicbrainz": {
       "releaseGroup": "62a5bc6a-035a-3340-aa55-6c29f4822e7b",
@@ -23817,7 +24359,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "yazoo-upstairs-at-erics",
@@ -23884,8 +24427,8 @@
       }
     ],
     "links": {
-      "appleMusic": "https://itunes.apple.com/gb/album/id670533681",
-      "qobuz": "https://play.qobuz.com/album/0081227787264"
+      "qobuz": "https://play.qobuz.com/album/0081227787264",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kk8o5YxPV3HRhHk_GJ28p8jaZ_76Bm0CY"
     },
     "capa": "assets/img/capas/yazoo-upstairs-at-erics.jpg",
     "musicbrainz": {
@@ -23897,7 +24440,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "yellow-magic-orchestra-solid-state-survivor",
@@ -23949,10 +24493,9 @@
       }
     ],
     "links": {
-      "appleMusic": "https://music.apple.com/us/album/415294288",
       "spotify": "https://open.spotify.com/album/5z480Ywi9Hn3EQV8N4UwEN",
       "deezer": "https://www.deezer.com/album/96526202",
-      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_n-5DGlBFDq3baxVAH8Ly6GhO9rpFGqYLE"
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n-5DGlBFDq3baxVAH8Ly6GhO9rpFGqYLE"
     },
     "capa": "assets/img/capas/yellow-magic-orchestra-solid-state-survivor.jpg",
     "musicbrainz": {
@@ -23964,7 +24507,8 @@
     ],
     "generos": [
       "synth-pop"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "young-marble-giants-colossal-youth",
@@ -24055,7 +24599,8 @@
       "deezer": "https://www.deezer.com/album/178594922",
       "appleMusic": "https://music.apple.com/us/album/1535230234",
       "qobuz": "https://www.qobuz.com/us-en/album/colossal-youth-young-marble-giants/wr3cogqo9g5wa",
-      "tidal": "https://tidal.com/album/162144016"
+      "tidal": "https://tidal.com/album/162144016",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k9H-CrQ0dFc8OF7DtWL5ySK7AbbTzazPs"
     },
     "capa": "assets/img/capas/young-marble-giants-colossal-youth.jpg",
     "musicbrainz": {
@@ -24067,7 +24612,8 @@
     ],
     "generos": [
       "post-punk"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "yusef-lateef-eastern-sounds",
@@ -24127,7 +24673,8 @@
       "spotify": "https://open.spotify.com/album/0srrfPuHAnFyz2sF5KKmhW",
       "deezer": "https://www.deezer.com/album/457925225",
       "appleMusic": "https://music.apple.com/gb/album/837624073",
-      "tidal": "https://tidal.com/album/342042643"
+      "tidal": "https://tidal.com/album/342042643",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lLkAZNbaIpPrLxBzmec6hbfisF3F-ZoSc"
     },
     "capa": "assets/img/capas/yusef-lateef-eastern-sounds.jpg",
     "musicbrainz": {
@@ -24139,7 +24686,8 @@
     ],
     "generos": [
       "jazz"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   },
   {
     "id": "ziq-lunatic-harness",
@@ -24217,7 +24765,8 @@
     ],
     "links": {
       "qobuz": "https://www.qobuz.com/album/lunatic-harness-ziq/0724384430955",
-      "spotify": "https://open.spotify.com/album/5Rc5G86a4zX96HlyHYeGsX"
+      "spotify": "https://open.spotify.com/album/5Rc5G86a4zX96HlyHYeGsX",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mYp5UV9Hr9vzMrm_5J7D3egJXRQqjoflQ"
     },
     "capa": "assets/img/capas/ziq-lunatic-harness.jpg",
     "musicbrainz": {
@@ -24229,6 +24778,7 @@
     ],
     "generos": [
       "idm"
-    ]
+    ],
+    "linksVerificados": "2026-10-26"
   }
 ]

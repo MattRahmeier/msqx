@@ -1,4 +1,4 @@
-# MusiqueScout
+# Tracklore
 
 **Curadoria Humana Organizada por IA.**
 

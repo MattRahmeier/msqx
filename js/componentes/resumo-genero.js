@@ -1,22 +1,31 @@
-// Resumo de um gênero com os links para os gêneros citados (resumoLinks) e a fonte.
+// Descrição de um gênero (resumo + como soa), com os links para os gêneros citados e a fonte.
 // Cópia da Wikipédia: "Fonte: Wikipédia"; paráfrase: "Baseado em: <fonte>" (modelo-de-dados.md).
 import { esc } from "./card-album.js";
 
-export function resumoGenero(genero) {
-  if (!genero?.resumo) return "";
-  const t = genero.resumo;
+function comLinks(texto, links, rota) {
   let html = "";
   let pos = 0;
-  for (const l of [...(genero.resumoLinks || [])].sort((a, b) => a.de - b.de)) {
-    html += esc(t.slice(pos, l.de)) + `<a href="#/cerebro/${esc(l.genero)}">${esc(t.slice(l.de, l.ate))}</a>`;
+  for (const l of [...(links || [])].sort((a, b) => a.de - b.de)) {
+    html += esc(texto.slice(pos, l.de)) + `<a href="#/${rota}/${esc(l.genero)}">${esc(texto.slice(l.de, l.ate))}</a>`;
     pos = l.ate;
   }
-  html += esc(t.slice(pos));
+  return html + esc(texto.slice(pos));
+}
 
-  const f = genero.resumoFonte;
-  const fonte = !f?.url ? ""
-    : f.tipo === "parafrase"
-      ? `Baseado em: <a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.autor || new URL(f.url).hostname)}</a>`
-      : `Fonte: <a href="${esc(f.url)}" target="_blank" rel="noopener">Wikipédia</a> (${esc(f.licenca || "CC BY-SA 4.0")})`;
-  return `<p class="resumo-genero">${html}</p>${fonte ? `<p class="resumo-fonte">${fonte}</p>` : ""}`;
+function fonte(f) {
+  if (f.tipo === "parafrase") return `Baseado em: <a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.autor || new URL(f.url).hostname)}</a>`;
+  return `Fonte: <a href="${esc(f.url)}" target="_blank" rel="noopener">Wikipédia${f.idioma === "en" ? " (em inglês)" : ""}</a> (${esc(f.licenca || "CC BY-SA 4.0")})`;
+}
+
+// Descrição contínua do gênero: o resumo seguido de "como soa" (som — os elementos que definem o
+// som, da seção de características da Wikipédia), num só parágrafo, com as fontes embaixo.
+// `rota`: área para onde os links levam (padrão: o TrackMap).
+export function resumoGenero(genero, { rota = "cerebro" } = {}) {
+  const partes = [[genero?.resumo, genero?.resumoLinks, genero?.resumoFonte], [genero?.som, genero?.somLinks, genero?.somFonte]].filter(([t]) => t);
+  if (!partes.length) return "";
+  const texto = partes.map(([t, l]) => comLinks(t, l, rota)).join(" ");
+  // Mesmo artigo nas duas partes: uma fonte só.
+  const fontes = [];
+  for (const [, , f] of partes) if (f?.url && !fontes.some((x) => x.url.split("#")[0] === f.url.split("#")[0])) fontes.push(f);
+  return `<p class="resumo-genero">${texto}</p>${fontes.length ? `<p class="resumo-fonte">${fontes.map(fonte).join(" · ")}</p>` : ""}`;
 }

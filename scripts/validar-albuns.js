@@ -27,10 +27,10 @@ for (const arq of fs.readdirSync(pasta).filter((a) => a.endsWith(".json"))) {
 }
 
 const n = (fn) => fichas.filter(fn).length;
-const plat = ["spotify", "youtube", "qobuz", "bandcamp", "appleMusic", "deezer", "tidal"];
+const plat = ["spotify", "youtubeMusic", "qobuz", "bandcamp", "appleMusic", "deezer", "tidal"];
 console.log(`${fichas.length} fichas · com capa ${n((f) => f.capa)} · com faixas ${n((f) => f.faixas?.length)} · com data ${n((f) => f.lancamento)}`);
 console.log("links diretos: " + plat.map((p) => `${p} ${n((f) => f.links?.[p])}`).join(", "));
-console.log(`sem nenhum link direto: ${n((f) => !Object.keys(f.links || {}).length)} (o site usa link de busca)`);
+console.log(`sem nenhum link: ${n((f) => !Object.keys(f.links || {}).length)} · links ainda não verificados: ${n((f) => !f.linksVerificados)} (rode scripts/verificar-links.js)`);
 if (conferir.length) console.log(`\nConferir (${conferir.length}):\n  ` + conferir.join("\n  "));
 for (const e of erros) console.log("ERRO:", e);
 console.log(erros.length ? `\n${erros.length} erro(s).` : "\nOK.");

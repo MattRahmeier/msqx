@@ -1,4 +1,4 @@
-# MusiqueScout — guia para sessões
+# Tracklore — guia para sessões
 
 Site de curadoria musical ("segundo cérebro" de gêneros). Leia antes de trabalhar:
 

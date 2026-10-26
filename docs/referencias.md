@@ -14,5 +14,5 @@
 
 - **RateYourMusic** usa proteção anti-bot do Cloudflare. Decisão: ler pelo **Claude in Chrome** com a sessão do usuário, página a página, em ritmo humano. Verificações/CAPTCHA o usuário resolve.
 - Discogs tem API oficial (requer token do usuário).
-- Streaming: modelo híbrido — links diretos coletados quando possível (Spotify exige chave de API para buscar por script); senão, link de busca.
+- Streaming: só links diretos (MusicBrainz + playlist do álbum no YouTube Music), conferidos por `scripts/verificar-links.js`; sem link, sem botão. Bandcamp bloqueia acesso automatizado e não é conferido.
 - Capas: Cover Art Archive (MusicBrainz, sem chave) como primeira opção; Discogs como alternativa.

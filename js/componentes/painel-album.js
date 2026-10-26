@@ -45,7 +45,7 @@ function conteudo(f) {
     <h2 id="painel-titulo" class="painel-titulo">${esc(f.titulo)}</h2>
     <p class="painel-artista">${esc(f.artista)}</p>
     ${dados.length ? `<dl class="painel-dados">${dados.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
-    <ul class="painel-plataformas" aria-label="Ouvir">${botoesStreaming(f, { comNome: true })}</ul>
+    ${f.links && Object.keys(f.links).length ? `<ul class="painel-plataformas" aria-label="Ouvir">${botoesStreaming(f, { comNome: true })}</ul>` : ""}
     ${f.faixas?.length ? `
       <h3 class="painel-secao">Faixas</h3>
       <ol class="painel-faixas">

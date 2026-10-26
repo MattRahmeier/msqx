@@ -42,10 +42,12 @@ for (const g of generos) {
 
 // Links dos resumos precisam bater com o texto atual.
 const { calcularLinks } = require("./links-resumo");
-const esperados = calcularLinks(generos);
-for (const g of generos) {
-  const atual = JSON.stringify(g.resumoLinks || []);
-  if (atual !== JSON.stringify(esperados.get(g.id) || [])) erros.push(`${g.id}: "resumoLinks" desatualizado (rode scripts/ligar-resumos.js)`);
+for (const [campo, chave] of [["resumo", "resumoLinks"], ["som", "somLinks"]]) {
+  const esperados = calcularLinks(generos, campo);
+  for (const g of generos) {
+    const atual = JSON.stringify(g[chave] || []);
+    if (atual !== JSON.stringify(esperados.get(g.id) || [])) erros.push(`${g.id}: "${chave}" desatualizado (rode scripts/ligar-resumos.js)`);
+  }
 }
 
 const mestres = generos.filter((g) => g.mestre);
@@ -67,7 +69,7 @@ async function conferirWiki() {
   for (let i = 0; i < titulos.length; i += 50) {
     const lote = titulos.slice(i, i + 50);
     const api = `https://en.wikipedia.org/w/api.php?action=query&format=json&redirects=1&titles=${encodeURIComponent(lote.join("|"))}`;
-    const resp = await fetch(api, { headers: { "User-Agent": "MusiqueScout-validador/0.1" } });
+    const resp = await fetch(api, { headers: { "User-Agent": "Tracklore-validador/0.1" } });
     if (!resp.ok) { avisos.push(`Wikipédia respondeu ${resp.status}; links não conferidos — tente de novo mais tarde`); return; }
     const r = await resp.json();
     for (const p of Object.values(r.query.pages)) if (p.missing !== undefined) erros.push(`link quebrado: ${p.title}`);

@@ -2,8 +2,8 @@
 
 const OPCOES = [
   { rota: "curadoria", icone: "i-curadoria", nome: "Curadoria da Semana", desc: "Cinco discos escolhidos por um autor convidado, toda semana." },
-  { rota: "cerebro", icone: "i-cerebro", nome: "Musique Brain", desc: "O mapa dos gêneros: de onde cada estilo veio e no que se ramificou." },
-  { rota: "recomendados", icone: "i-recomendados", nome: "Guia de Gêneros", desc: "As listas essenciais da internet, gênero por gênero." },
+  { rota: "cerebro", icone: "i-cerebro", nome: "TrackMap", desc: "O mapa dos gêneros: de onde cada estilo veio e no que se ramificou." },
+  { rota: "recomendados", icone: "i-recomendados", nome: "Guia de Gêneros", desc: "Conheça todos os gêneros com uma lista de álbuns curada por gente que ouve muita música." },
   { rota: "busca", icone: "i-busca", nome: "Pesquisa", desc: "Álbuns, artistas e faixas por nome, gênero, data ou vibe." },
 ];
 
@@ -11,7 +11,7 @@ export async function render(el) {
   el.innerHTML = `
     <section class="inicio">
       <header>
-        <h1 class="inicio-marca">Musique <span>Scout</span></h1>
+        <h1 class="inicio-marca">Track<span>lore</span></h1>
         <p class="inicio-sub">Curadoria Humana Organizada por IA.</p>
       </header>
       <nav class="opcoes" aria-label="Áreas do site">

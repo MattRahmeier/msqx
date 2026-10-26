@@ -3,7 +3,7 @@
 ## Fase 0 — Decisões (fechadas em 26/10/2026)
 - [x] **Stack:** site estático (HTML/CSS/JS puro, sem build) + **D3** para o grafo da Visão de Cérebro.
 - [x] **Hospedagem:** GitHub Pages, repositório [`MattRahmeier/musique-scout`](https://github.com/MattRahmeier/musique-scout) — **privado por enquanto**; tornar público antes de ativar o Pages (plano gratuito exige).
-- [x] **Streaming:** híbrido — link direto do álbum quando estiver no JSON (`links`); sem ele, o botão abre a busca "Artista Álbum" na plataforma.
+- [x] **Streaming:** só links diretos do álbum (`links`), conferidos por `scripts/verificar-links.js`; sem link, sem botão. YouTube Music sempre pela playlist oficial do álbum. *(Revisto em 26/10/2026: antes era híbrido, com link de busca.)*
 - [x] **Escopo do piloto:** gêneros mestres **Blues, Rock, Pop, Metal, Eletrônica, Hip Hop e Jazz**, com subgêneros e ~5 charts completos.
   - Gêneros mestres também têm linhagem entre si: **Blues → Rock → Metal**. Essas origens aparecem no cérebro como uma **linha-guia de conexão** (ver `modelo-de-dados.md`, campo `origens`).
 - [x] **RateYourMusic:** leitura pelo **Claude in Chrome**, com a sessão do usuário, em ritmo humano e só páginas pontuais. CAPTCHA/verificação do Cloudflare é resolvido pelo usuário, nunca pelo Claude.
@@ -16,6 +16,8 @@
 - [x] Stoner Metal: paráfrase de texto fornecido pelo usuário (fonte original ainda não informada).
 - [ ] Resumo pendente — **fica separado na árvore**; o usuário vai escrever ou indicar a fonte: Abstract Hip Hop e Chicago Jazz (a Wikipédia o trata dentro de Dixieland). Ao receber, preencher `resumo` e `resumoFonte` à mão (ou `resumoArtigo` se for outra página da Wikipédia) e remover `resumoArtigo: false`/`resumoPendente`.
 - [x] Menções a outros gêneros nos resumos marcadas como links (`resumoLinks`, `scripts/ligar-resumos.js`).
+- [x] "Como soa" (`som`): frases da Wikipédia sobre os elementos do som de 111 gêneros (`scripts/buscar-som.js`), mostradas em continuação ao resumo.
+- [ ] "Como soa" pendente em 23 gêneros (a Wikipédia não descreve o som ou o trecho era fraco): indicar outra fonte.
 - [ ] Revisão da árvore pelo usuário (nomes, hierarquia, o que falta ou sobra).
 - [x] Índice das 541 Essential Charts (`data/charts/mu-essential-charts.json`) e imagens baixadas em `fontes/mu-charts/` (`scripts/baixar-charts.js`).
 - [x] Primeiros charts transcritos (`data/charts/mu/`), um por mestre: Blues, Post-Punk 1, Synth Pop, Black Metal, IDM, Hip Hop 1 e Jazz — 291 álbuns, 10 itens a conferir (`scripts/validar-charts.js`).
@@ -26,10 +28,12 @@
 - [ ] Scripts de coleta/validação em `scripts/`.
 
 ## Fase 2 — Base do site
+- [x] Nome do site: **Tracklore**; área do grafo: **TrackMap** (renomeados em 26/10/2026).
+- [x] Seta de voltar à esquerda do título de cada página (`js/componentes/titulo.js`).
 - [x] Esqueleto: `index.html`, barra lateral (vira navegação inferior no celular), tokens em `css/tokens.css`, rotas por hash em `js/app.js` (`#/cerebro`, `#/curadoria`, `#/recomendados`, `#/busca`; parâmetros extras, ex. `#/cerebro/heavy-metal`), carregamento de dados em `js/dados.js`, uma vista por área em `js/vistas/`.
 - [ ] Layout final com tema escuro refinado.
 - [x] Ícones das plataformas (sprite em `index.html`: Spotify, YouTube, Qobuz, Apple Music, Deezer, Tidal, Bandcamp).
-- [x] Componente de card de álbum (`js/componentes/card-album.js`): capa, título, artista · ano e botões de streaming — preenchidos com link direto, contornados quando abrem a busca. Em uso nas páginas de chart do Guia de Gêneros (`#/recomendados/<chart>`).
+- [x] Componente de card de álbum (`js/componentes/card-album.js`): capa, título, artista · ano e botões só para links diretos conferidos (ícone do YouTube Music para a playlist do álbum). Em uso nas páginas de gênero do Guia de Gêneros.
 
 ## Fase 3 — Visão de Cérebro
 - [ ] Grafo animado, expansão por clique, hover.
@@ -43,11 +47,12 @@
 - [ ] Primeira edição de exemplo para testar o layout; a real vem de um autor convidado.
 
 ## Fase 5 — Recomendados pela Internet
-- [ ] Grade de cards de gênero.
-- [x] Página do chart (`#/recomendados/<chart>`): só o nome do gênero e o resumo dele (com links e fonte), grade de cards e o disclaimer no fim. A interface não cita o site de origem das listas.
+- [x] Lista de gêneros com a mesma árvore do TrackMap (`js/arvore.js`): um bloco por mestre (com coroa), um card por gênero, sem sublistas (cada subgênero logo depois do gênero de onde saiu, com "de <gênero>"); irmãos em ordem cronológica e, na mesma década, em cadeia de proximidade (origens/similares). Gêneros com lista de álbuns ficam destacados.
+- [ ] Fotos nos cards de gênero.
+- [x] Página do gênero (`#/recomendados/<gênero>`): caminho na árvore, nome (coroa se for mestre), resumo com links e fonte, subgêneros, álbuns da lista e o disclaimer no fim. A interface não cita o site de origem das listas.
 - [x] Caixa lateral do álbum ao clicar na capa (`js/componentes/painel-album.js`): lançamento, duração, nº de faixas, tipo, links de streaming com nome, lista de faixas e fonte (MusicBrainz). Pop-up off-white à direita; no celular, sobe de baixo. Fecha com ×, Esc ou clique fora.
 - [ ] Caixa lateral: sobre (Wikipédia), 2 reviews com estrelas, tags.
-- [ ] "Gêneros similares" no fim da página do chart.
+- [ ] "Gêneros similares" no fim da página do gênero.
 
 ## Fase 6 — Ache o Seu Som!
 - [ ] Índice de busca no cliente; filtros álbum/artista/faixa.
