@@ -44,8 +44,8 @@
   --sombra-popup: 0 12px 40px rgba(0, 0, 0, 0.45);
   --transicao: 180ms ease;
 
-  --largura-barra: 196px;
-  --altura-topo: 92px;
+  --largura-barra: 224px;
+  --largura-trilho: 64px;
   --altura-barra-mobile: 64px;
 
   color-scheme: dark;

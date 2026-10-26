@@ -12,39 +12,29 @@
   <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
-  <header class="topo">
-    <a class="marca" href="#/curadoria" aria-label="Musique Scout — início">
-      <span class="marca-nome">Musique</span>
-      <span class="marca-nome marca-nome-2">Scout</span>
-    </a>
+  <!-- Ícones das áreas, reutilizados na barra e na página inicial com <use href="#i-..."> -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-curadoria" viewBox="0 0 24 24"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"/></symbol>
+    <symbol id="i-cerebro" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.2"/><circle cx="5" cy="17" r="2.2"/><circle cx="19" cy="17" r="2.2"/><circle cx="12" cy="13" r="1.6"/><path d="M12 7.2v4.2M10.7 14l-4 1.9M13.3 14l4 1.9M7.2 17h9.6M6.1 15.1L10.9 6.9M17.9 15.1L13.1 6.9"/></symbol>
+    <symbol id="i-recomendados" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></symbol>
+    <symbol id="i-busca" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.3 15.3L20.5 20.5"/></symbol>
+  </svg>
+
+  <header class="topo-mobile">
+    <a class="marca-linha" href="#/inicio"><b>Musique</b> Scout</a>
   </header>
 
+  <!-- Recolhida mostra só os ícones; abre ao passar o mouse ou ao receber foco pelo teclado. -->
   <nav class="barra" aria-label="Seções">
+    <a class="marca" href="#/inicio" aria-label="Musique Scout — página inicial">
+      <span class="marca-sigla" aria-hidden="true">MS</span>
+      <span class="marca-texto"><b>Musique</b> Scout</span>
+    </a>
     <ul class="menu">
-      <li>
-        <a href="#/curadoria" data-rota="curadoria">
-          <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"/></svg>
-          <span class="rotulo">Curadoria da Semana</span>
-        </a>
-      </li>
-      <li>
-        <a href="#/cerebro" data-rota="cerebro">
-          <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="2.2"/><circle cx="5" cy="17" r="2.2"/><circle cx="19" cy="17" r="2.2"/><circle cx="12" cy="13" r="1.6"/><path d="M12 7.2v4.2M10.7 14l-4 1.9M13.3 14l4 1.9M7.2 17h9.6M6.1 15.1L10.9 6.9M17.9 15.1L13.1 6.9"/></svg>
-          <span class="rotulo">Musique Brain</span>
-        </a>
-      </li>
-      <li>
-        <a href="#/recomendados" data-rota="recomendados">
-          <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></svg>
-          <span class="rotulo">Guia de Gêneros</span>
-        </a>
-      </li>
-      <li>
-        <a href="#/busca" data-rota="busca">
-          <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.3 15.3L20.5 20.5"/></svg>
-          <span class="rotulo">Pesquisa</span>
-        </a>
-      </li>
+      <li><a href="#/curadoria" data-rota="curadoria"><svg class="icone"><use href="#i-curadoria"/></svg><span class="rotulo">Curadoria da Semana</span></a></li>
+      <li><a href="#/cerebro" data-rota="cerebro"><svg class="icone"><use href="#i-cerebro"/></svg><span class="rotulo">Musique Brain</span></a></li>
+      <li><a href="#/recomendados" data-rota="recomendados"><svg class="icone"><use href="#i-recomendados"/></svg><span class="rotulo">Guia de Gêneros</span></a></li>
+      <li><a href="#/busca" data-rota="busca"><svg class="icone"><use href="#i-busca"/></svg><span class="rotulo">Pesquisa</span></a></li>
     </ul>
   </nav>
 

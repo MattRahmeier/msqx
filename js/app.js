@@ -2,12 +2,13 @@
 // que exporta `render(elemento, parametros)`.
 
 const ROTAS = {
+  inicio: () => import("./vistas/inicio.js"),
   cerebro: () => import("./vistas/cerebro.js"),
   curadoria: () => import("./vistas/curadoria.js"),
   recomendados: () => import("./vistas/recomendados.js"),
   busca: () => import("./vistas/busca.js"),
 };
-const PADRAO = "curadoria";
+const PADRAO = "inicio";
 
 const conteudo = document.getElementById("conteudo");
 
