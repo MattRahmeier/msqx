@@ -2,32 +2,208 @@
   "id": "idm",
   "titulo": "Essential 'IDM'",
   "indice": "idm",
-  "generos": ["idm"],
+  "generos": [
+    "idm"
+  ],
   "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
   "imagem": "fontes/mu-charts/idm.png",
-  "transcricao": { "data": "2026-10-26", "metodo": "lista escrita no próprio chart; subestilo pela cor da borda", "status": "revisar" },
+  "transcricao": {
+    "data": "2026-10-26",
+    "metodo": "lista escrita no próprio chart; subestilo pela cor da borda",
+    "status": "revisar"
+  },
   "nota": "O chart recomenda começar pela coletânea Artificial Intelligence (Warp). A cor da borda de cada capa indica o subestilo: azul = Drill & Bass, verde = Ambient Techno, laranja = Downtempo, vermelho = Glitch, roxo = outro/sem subgênero distinto. Bordas pontilhadas misturam duas cores.",
-  "inicio": { "artista": "Various Artists", "titulo": "Artificial Intelligence" },
+  "inicio": {
+    "artista": "Various Artists",
+    "titulo": "Artificial Intelligence"
+  },
   "albuns": [
-    { "pos": "1A", "artista": "Aphex Twin", "titulo": "Richard D. James Album", "subestilos": ["Drill & Bass"], "noChart": "Richard D James Album" },
-    { "pos": "1B", "artista": "Autechre", "titulo": "Tri Repetae", "subestilos": ["Ambient Techno"] },
-    { "pos": "1C", "artista": "Boards of Canada", "titulo": "Music Has the Right to Children", "subestilos": ["Downtempo", "Ambient Techno"], "conferir": "borda pontilhada" },
-    { "pos": "1D", "artista": "Squarepusher", "titulo": "Hard Normal Daddy", "subestilos": ["Drill & Bass"] },
-    { "pos": "1E", "artista": "Venetian Snares", "titulo": "Rossz csillag alatt született", "subestilos": ["Drill & Bass"] },
-    { "pos": "2A", "artista": "LFO", "titulo": "Advance", "subestilos": ["Ambient Techno"] },
-    { "pos": "2B", "artista": "Mouse on Mars", "titulo": "Iaora Tahiti", "subestilos": ["Ambient Techno"] },
-    { "pos": "2C", "artista": "Aphex Twin", "titulo": "...I Care Because You Do", "subestilos": ["Drill & Bass", "Downtempo"], "conferir": "borda pontilhada" },
-    { "pos": "2D", "artista": "Plaid", "titulo": "Not for Threes", "subestilos": ["Outro"] },
-    { "pos": "2E", "artista": "The Future Sound of London", "titulo": "Dead Cities", "subestilos": ["Ambient Techno"] },
-    { "pos": "3A", "artista": "Clark", "titulo": "Body Riddle", "subestilos": ["Glitch"] },
-    { "pos": "3B", "artista": "µ-Ziq", "titulo": "Lunatic Harness", "subestilos": ["Drill & Bass"] },
-    { "pos": "3C", "artista": "Gridlock", "titulo": "Formless", "subestilos": ["Outro"] },
-    { "pos": "3D", "artista": "Four Tet", "titulo": "Rounds", "subestilos": ["Glitch", "Downtempo"], "conferir": "borda pontilhada" },
-    { "pos": "3E", "artista": "Cylob", "titulo": "Cylobian Sunset", "subestilos": ["Ambient Techno"] },
-    { "pos": "4A", "artista": "Venetian Snares", "titulo": "Huge Chrome Cylinder Box Unfolding", "subestilos": ["Glitch"] },
-    { "pos": "4B", "artista": "The Flashbulb", "titulo": "Kirlian Selections", "subestilos": ["Ambient Techno"] },
-    { "pos": "4C", "artista": "Black Dog Productions", "titulo": "Bytes", "subestilos": ["Ambient Techno"] },
-    { "pos": "4D", "artista": "Amon Tobin", "titulo": "Out from Out Where", "subestilos": ["Downtempo"] },
-    { "pos": "4E", "artista": "Autechre", "titulo": "Confield", "subestilos": ["Glitch"] }
+    {
+      "pos": "1A",
+      "artista": "Aphex Twin",
+      "titulo": "Richard D. James Album",
+      "subestilos": [
+        "Drill & Bass"
+      ],
+      "noChart": "Richard D James Album",
+      "album": "aphex-twin-richard-d-james-album"
+    },
+    {
+      "pos": "1B",
+      "artista": "Autechre",
+      "titulo": "Tri Repetae",
+      "subestilos": [
+        "Ambient Techno"
+      ],
+      "album": "autechre-tri-repetae"
+    },
+    {
+      "pos": "1C",
+      "artista": "Boards of Canada",
+      "titulo": "Music Has the Right to Children",
+      "subestilos": [
+        "Downtempo",
+        "Ambient Techno"
+      ],
+      "conferir": "borda pontilhada",
+      "album": "boards-of-canada-music-has-the-right-to-children"
+    },
+    {
+      "pos": "1D",
+      "artista": "Squarepusher",
+      "titulo": "Hard Normal Daddy",
+      "subestilos": [
+        "Drill & Bass"
+      ],
+      "album": "squarepusher-hard-normal-daddy"
+    },
+    {
+      "pos": "1E",
+      "artista": "Venetian Snares",
+      "titulo": "Rossz csillag alatt született",
+      "subestilos": [
+        "Drill & Bass"
+      ],
+      "album": "venetian-snares-rossz-csillag-alatt-szuletett"
+    },
+    {
+      "pos": "2A",
+      "artista": "LFO",
+      "titulo": "Advance",
+      "subestilos": [
+        "Ambient Techno"
+      ],
+      "album": "lfo-advance"
+    },
+    {
+      "pos": "2B",
+      "artista": "Mouse on Mars",
+      "titulo": "Iaora Tahiti",
+      "subestilos": [
+        "Ambient Techno"
+      ],
+      "album": "mouse-on-mars-iaora-tahiti"
+    },
+    {
+      "pos": "2C",
+      "artista": "Aphex Twin",
+      "titulo": "...I Care Because You Do",
+      "subestilos": [
+        "Drill & Bass",
+        "Downtempo"
+      ],
+      "conferir": "borda pontilhada",
+      "album": "aphex-twin-i-care-because-you-do"
+    },
+    {
+      "pos": "2D",
+      "artista": "Plaid",
+      "titulo": "Not for Threes",
+      "subestilos": [
+        "Outro"
+      ],
+      "album": "plaid-not-for-threes"
+    },
+    {
+      "pos": "2E",
+      "artista": "The Future Sound of London",
+      "titulo": "Dead Cities",
+      "subestilos": [
+        "Ambient Techno"
+      ],
+      "album": "the-future-sound-of-london-dead-cities"
+    },
+    {
+      "pos": "3A",
+      "artista": "Clark",
+      "titulo": "Body Riddle",
+      "subestilos": [
+        "Glitch"
+      ],
+      "album": "clark-body-riddle"
+    },
+    {
+      "pos": "3B",
+      "artista": "µ-Ziq",
+      "titulo": "Lunatic Harness",
+      "subestilos": [
+        "Drill & Bass"
+      ],
+      "album": "ziq-lunatic-harness"
+    },
+    {
+      "pos": "3C",
+      "artista": "Gridlock",
+      "titulo": "Formless",
+      "subestilos": [
+        "Outro"
+      ],
+      "album": "gridlock-formless"
+    },
+    {
+      "pos": "3D",
+      "artista": "Four Tet",
+      "titulo": "Rounds",
+      "subestilos": [
+        "Glitch",
+        "Downtempo"
+      ],
+      "conferir": "borda pontilhada",
+      "album": "four-tet-rounds"
+    },
+    {
+      "pos": "3E",
+      "artista": "Cylob",
+      "titulo": "Cylobian Sunset",
+      "subestilos": [
+        "Ambient Techno"
+      ],
+      "album": "cylob-cylobian-sunset"
+    },
+    {
+      "pos": "4A",
+      "artista": "Venetian Snares",
+      "titulo": "Huge Chrome Cylinder Box Unfolding",
+      "subestilos": [
+        "Glitch"
+      ],
+      "album": "venetian-snares-huge-chrome-cylinder-box-unfolding"
+    },
+    {
+      "pos": "4B",
+      "artista": "The Flashbulb",
+      "titulo": "Kirlian Selections",
+      "subestilos": [
+        "Ambient Techno"
+      ],
+      "album": "the-flashbulb-kirlian-selections"
+    },
+    {
+      "pos": "4C",
+      "artista": "Black Dog Productions",
+      "titulo": "Bytes",
+      "subestilos": [
+        "Ambient Techno"
+      ],
+      "album": "black-dog-productions-bytes"
+    },
+    {
+      "pos": "4D",
+      "artista": "Amon Tobin",
+      "titulo": "Out from Out Where",
+      "subestilos": [
+        "Downtempo"
+      ],
+      "album": "amon-tobin-out-from-out-where"
+    },
+    {
+      "pos": "4E",
+      "artista": "Autechre",
+      "titulo": "Confield",
+      "subestilos": [
+        "Glitch"
+      ],
+      "album": "autechre-confield"
+    }
   ]
 }

@@ -2,45 +2,228 @@
   "id": "black-metal",
   "titulo": "/mu/'s Essential Black Metal",
   "indice": "black-metal",
-  "generos": ["black-metal"],
+  "generos": [
+    "black-metal"
+  ],
   "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
   "imagem": "fontes/mu-charts/black-metal.jpg",
-  "transcricao": { "data": "2026-10-26", "metodo": "lista escrita no próprio chart", "status": "revisar" },
+  "transcricao": {
+    "data": "2026-10-26",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
   "albuns": [
-    { "pos": "A1", "artista": "Celtic Frost", "titulo": "To Mega Therion" },
-    { "pos": "A2", "artista": "Tormentor", "titulo": "Anno Domini" },
-    { "pos": "A3", "artista": "Sarcófago", "titulo": "I.N.R.I." },
-    { "pos": "A4", "artista": "Bathory", "titulo": "Blood Fire Death" },
-    { "pos": "A5", "artista": "Venom", "titulo": "Black Metal" },
-    { "pos": "B1", "artista": "Hellhammer", "titulo": "Satanic Rites" },
-    { "pos": "B2", "artista": "Master's Hammer", "titulo": "Ritual" },
-    { "pos": "B3", "artista": "Blasphemy", "titulo": "Fallen Angel of Doom" },
-    { "pos": "B4", "artista": "Mercyful Fate", "titulo": "Melissa" },
-    { "pos": "B5", "artista": "Sodom", "titulo": "Obsessed by Cruelty" },
-    { "pos": "C1", "artista": "Ulver", "titulo": "Bergtatt" },
-    { "pos": "C2", "artista": "Burzum", "titulo": "Hvis lyset tar oss" },
-    { "pos": "C3", "artista": "Mayhem", "titulo": "De Mysteriis Dom Sathanas", "noChart": "Mysteriis Dom Sathanas" },
-    { "pos": "C4", "artista": "Darkthrone", "titulo": "Transilvanian Hunger" },
-    { "pos": "C5", "artista": "Satyricon", "titulo": "Dark Medieval Times" },
-    { "pos": "D1", "artista": "Summoning", "titulo": "Dol Guldur" },
-    { "pos": "D2", "artista": "Enslaved", "titulo": "Isa" },
-    { "pos": "D3", "artista": "Gorgoroth", "titulo": "Antichrist" },
-    { "pos": "D4", "artista": "Windir", "titulo": "Arntor" },
-    { "pos": "D5", "artista": "Immortal", "titulo": "Pure Holocaust" },
-    { "pos": "E1", "artista": "Emperor", "titulo": "In the Nightside Eclipse" },
-    { "pos": "E2", "artista": "Sacramentum", "titulo": "Far Away from the Sun" },
-    { "pos": "E3", "artista": "Dissection", "titulo": "Storm of the Light's Bane" },
-    { "pos": "E4", "artista": "Ved Buens Ende", "titulo": "Written in Waters" },
-    { "pos": "E5", "artista": "Taake", "titulo": "Nattestid ser porten vid" },
-    { "pos": "F1", "artista": "Weakling", "titulo": "Dead as Dreams" },
-    { "pos": "F2", "artista": "Drudkh", "titulo": "Autumn Aurora" },
-    { "pos": "F3", "artista": "Mirrorthrone", "titulo": "Carriers of Dust" },
-    { "pos": "F4", "artista": "Negură Bunget", "titulo": "OM" },
-    { "pos": "F5", "artista": "Wolves in the Throne Room", "titulo": "Two Hunters" },
-    { "pos": "G1", "artista": "Gris", "titulo": "Il était une forêt..." },
-    { "pos": "G2", "artista": "Deathspell Omega", "titulo": "Si Monumentum Requires, Circumspice", "noChart": "Si Monumentum.." },
-    { "pos": "G3", "artista": "Coldworld", "titulo": "Melancholie²" },
-    { "pos": "G4", "artista": "Peste Noire", "titulo": "La Sanie des siècles" },
-    { "pos": "G5", "artista": "Shining", "titulo": "V / Halmstad" }
+    {
+      "pos": "A1",
+      "artista": "Celtic Frost",
+      "titulo": "To Mega Therion",
+      "album": "celtic-frost-to-mega-therion"
+    },
+    {
+      "pos": "A2",
+      "artista": "Tormentor",
+      "titulo": "Anno Domini",
+      "album": "tormentor-anno-domini"
+    },
+    {
+      "pos": "A3",
+      "artista": "Sarcófago",
+      "titulo": "I.N.R.I.",
+      "album": "sarcofago-inri"
+    },
+    {
+      "pos": "A4",
+      "artista": "Bathory",
+      "titulo": "Blood Fire Death",
+      "album": "bathory-blood-fire-death"
+    },
+    {
+      "pos": "A5",
+      "artista": "Venom",
+      "titulo": "Black Metal",
+      "album": "venom-black-metal"
+    },
+    {
+      "pos": "B1",
+      "artista": "Hellhammer",
+      "titulo": "Satanic Rites",
+      "album": "hellhammer-satanic-rites"
+    },
+    {
+      "pos": "B2",
+      "artista": "Master's Hammer",
+      "titulo": "Ritual",
+      "album": "masters-hammer-ritual"
+    },
+    {
+      "pos": "B3",
+      "artista": "Blasphemy",
+      "titulo": "Fallen Angel of Doom",
+      "album": "blasphemy-fallen-angel-of-doom"
+    },
+    {
+      "pos": "B4",
+      "artista": "Mercyful Fate",
+      "titulo": "Melissa",
+      "album": "mercyful-fate-melissa"
+    },
+    {
+      "pos": "B5",
+      "artista": "Sodom",
+      "titulo": "Obsessed by Cruelty",
+      "album": "sodom-obsessed-by-cruelty"
+    },
+    {
+      "pos": "C1",
+      "artista": "Ulver",
+      "titulo": "Bergtatt",
+      "album": "ulver-bergtatt"
+    },
+    {
+      "pos": "C2",
+      "artista": "Burzum",
+      "titulo": "Hvis lyset tar oss",
+      "album": "burzum-hvis-lyset-tar-oss"
+    },
+    {
+      "pos": "C3",
+      "artista": "Mayhem",
+      "titulo": "De Mysteriis Dom Sathanas",
+      "noChart": "Mysteriis Dom Sathanas",
+      "album": "mayhem-de-mysteriis-dom-sathanas"
+    },
+    {
+      "pos": "C4",
+      "artista": "Darkthrone",
+      "titulo": "Transilvanian Hunger",
+      "album": "darkthrone-transilvanian-hunger"
+    },
+    {
+      "pos": "C5",
+      "artista": "Satyricon",
+      "titulo": "Dark Medieval Times",
+      "album": "satyricon-dark-medieval-times"
+    },
+    {
+      "pos": "D1",
+      "artista": "Summoning",
+      "titulo": "Dol Guldur",
+      "album": "summoning-dol-guldur"
+    },
+    {
+      "pos": "D2",
+      "artista": "Enslaved",
+      "titulo": "Isa",
+      "album": "enslaved-isa"
+    },
+    {
+      "pos": "D3",
+      "artista": "Gorgoroth",
+      "titulo": "Antichrist",
+      "album": "gorgoroth-antichrist"
+    },
+    {
+      "pos": "D4",
+      "artista": "Windir",
+      "titulo": "Arntor",
+      "album": "windir-arntor"
+    },
+    {
+      "pos": "D5",
+      "artista": "Immortal",
+      "titulo": "Pure Holocaust",
+      "album": "immortal-pure-holocaust"
+    },
+    {
+      "pos": "E1",
+      "artista": "Emperor",
+      "titulo": "In the Nightside Eclipse",
+      "album": "emperor-in-the-nightside-eclipse"
+    },
+    {
+      "pos": "E2",
+      "artista": "Sacramentum",
+      "titulo": "Far Away from the Sun",
+      "album": "sacramentum-far-away-from-the-sun"
+    },
+    {
+      "pos": "E3",
+      "artista": "Dissection",
+      "titulo": "Storm of the Light's Bane",
+      "album": "dissection-storm-of-the-lights-bane"
+    },
+    {
+      "pos": "E4",
+      "artista": "Ved Buens Ende",
+      "titulo": "Written in Waters",
+      "album": "ved-buens-ende-written-in-waters"
+    },
+    {
+      "pos": "E5",
+      "artista": "Taake",
+      "titulo": "Nattestid ser porten vid",
+      "album": "taake-nattestid-ser-porten-vid"
+    },
+    {
+      "pos": "F1",
+      "artista": "Weakling",
+      "titulo": "Dead as Dreams",
+      "album": "weakling-dead-as-dreams"
+    },
+    {
+      "pos": "F2",
+      "artista": "Drudkh",
+      "titulo": "Autumn Aurora",
+      "album": "drudkh-autumn-aurora"
+    },
+    {
+      "pos": "F3",
+      "artista": "Mirrorthrone",
+      "titulo": "Carriers of Dust",
+      "album": "mirrorthrone-carriers-of-dust"
+    },
+    {
+      "pos": "F4",
+      "artista": "Negură Bunget",
+      "titulo": "OM",
+      "album": "negura-bunget-om"
+    },
+    {
+      "pos": "F5",
+      "artista": "Wolves in the Throne Room",
+      "titulo": "Two Hunters",
+      "album": "wolves-in-the-throne-room-two-hunters"
+    },
+    {
+      "pos": "G1",
+      "artista": "Gris",
+      "titulo": "Il était une forêt...",
+      "album": "gris-il-etait-une-foret"
+    },
+    {
+      "pos": "G2",
+      "artista": "Deathspell Omega",
+      "titulo": "Si Monumentum Requires, Circumspice",
+      "noChart": "Si Monumentum..",
+      "album": "deathspell-omega-si-monumentum-requires-circumspice"
+    },
+    {
+      "pos": "G3",
+      "artista": "Coldworld",
+      "titulo": "Melancholie²",
+      "album": "coldworld-melancholie"
+    },
+    {
+      "pos": "G4",
+      "artista": "Peste Noire",
+      "titulo": "La Sanie des siècles",
+      "album": "peste-noire-la-sanie-des-siecles"
+    },
+    {
+      "pos": "G5",
+      "artista": "Shining",
+      "titulo": "V / Halmstad",
+      "album": "shining-v-halmstad"
+    }
   ]
 }

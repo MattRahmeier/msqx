@@ -21,7 +21,8 @@
 - [x] Primeiros charts transcritos (`data/charts/mu/`), um por mestre: Blues, Post-Punk 1, Synth Pop, Black Metal, IDM, Hip Hop 1 e Jazz — 291 álbuns, 10 itens a conferir (`scripts/validar-charts.js`).
 - [ ] Revisão das transcrições pelo usuário (status `revisar` → `conferido`).
 - [ ] Transcrever os demais charts ligados à árvore.
-- [ ] Fichas de álbuns: metadados, tags, 2 reviews positivos, links.
+- [x] Fichas dos 288 álbuns dos 7 charts (`data/albuns/albuns.json`, `scripts/criar-fichas.js`): metadados, faixas, capa (281) e links de streaming do MusicBrainz; correções manuais em `data/albuns/correcoes.json`; 8 a conferir (`scripts/validar-albuns.js`).
+- [ ] Fichas de álbuns: `sobre`, tags, 2 reviews positivos.
 - [ ] Scripts de coleta/validação em `scripts/`.
 
 ## Fase 2 — Base do site

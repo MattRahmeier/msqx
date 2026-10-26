@@ -127,27 +127,35 @@ Um arquivo por chart; `id` igual ao do índice. Os álbuns são copiados da imag
 - Campos extras usados quando o chart traz a informação: `ano`, `subestilos` (ex.: cor da borda no chart de IDM), `inicio` (álbum de entrada recomendado).
 - `transcricao.status`: `revisar` até alguém conferir com a imagem; depois `conferido`.
 - Validação: `node scripts/validar-charts.js` (lista também os itens a conferir).
-- Os álbuns ainda não apontam para `data/albuns/`: as fichas (metadados, capas, reviews, links) são o próximo passo.
+- Cada álbum identificado aponta para sua ficha pelo campo `album` (gravado por `scripts/criar-fichas.js`).
 
-## `data/albuns/<id>.json` (ou um único `albuns.json`)
+## `data/albuns/albuns.json` (fichas de álbum)
+
+Um único arquivo com todas as fichas (a Pesquisa precisa de todas de uma vez). Gerado por `node scripts/criar-fichas.js` a partir dos charts transcritos; o script retoma de onde parou e `--refazer id1,id2` busca de novo.
 
 ```json
 {
-  "id": "my-bloody-valentine-loveless",
-  "titulo": "Loveless",
-  "artista": "My Bloody Valentine",
-  "lancamento": "1991-11-04",
-  "duracao": "48:36",
-  "generos": ["shoegaze"],
-  "tags": ["dreamy", "noisy", "ethereal"],
-  "sobre": "Resumo da Wikipédia ou fonte relevante.",
-  "reviews": [
-    { "fonte": "Pitchfork", "nota": 10, "escala": 10, "estrelas": 5, "trecho": "", "url": "" }
-  ],
-  "faixas": [{ "n": 1, "titulo": "Only Shallow", "duracao": "4:17" }],
-  "links": { "spotify": "", "youtube": "", "qobuz": "" },
-  "capa": "assets/img/capas/my-bloody-valentine-loveless.jpg"
+  "id": "celtic-frost-to-mega-therion",
+  "titulo": "To Mega Therion",
+  "artista": "Celtic Frost",
+  "lancamento": "1985",
+  "tipo": "Album",
+  "duracao": "40:23",
+  "faixas": [{ "n": 1, "titulo": "Innocence and Wrath", "duracao": "1:03" }],
+  "links": { "spotify": "https://open.spotify.com/album/...", "qobuz": "...", "appleMusic": "...", "deezer": "...", "tidal": "..." },
+  "capa": "assets/img/capas/celtic-frost-to-mega-therion.jpg",
+  "musicbrainz": { "releaseGroup": "f2f954cb-...", "release": "9af4c0d9-..." },
+  "charts": ["black-metal"],
+  "generos": ["black-metal"]
 }
 ```
 
-`estrelas` = nota normalizada para 0–5 (meias estrelas permitidas). A busca (área 3) indexa `titulo`, `artista`, `faixas`, `generos`, `tags` e `lancamento`.
+- **Fontes:** MusicBrainz (banco aberto, mantido por pessoas) para título, artista, data, tipo, faixas e links; Cover Art Archive para a capa (500 px).
+- `titulo`/`artista` são os do MusicBrainz; se não batem com o chart, a ficha ganha `conferir` com o que foi pedido e o que veio.
+- `lancamento`: primeira data de lançamento do álbum (pode ser só o ano).
+- `faixas` e `duracao`: da edição oficial mais antiga.
+- `links`: links diretos encontrados em qualquer edição (as digitais costumam tê-los). Plataformas: `spotify`, `youtube`, `qobuz`, `bandcamp`, `appleMusic`, `deezer`, `tidal`. Sem link direto, o site monta o link de busca "Artista Álbum" (decisão da Fase 0).
+- `charts` e `generos` são recalculados a partir dos charts a cada execução.
+- `data/albuns/correcoes.json` fixa à mão o release-group certo quando a busca erra ou só acha o título com subtítulo: `{ "<id da ficha>": "<MBID do release-group>" }`; `null` marca álbum que não está no MusicBrainz. Depois de editar, rode `node scripts/criar-fichas.js --refazer <id>` (apague antes a capa antiga em `assets/img/capas/`).
+- Validação: `node scripts/validar-albuns.js`.
+- Ainda faltam (próximas etapas): `sobre` (texto da Wikipédia, com fonte), `tags` de clima/mood e `reviews` (dois positivos, com nota em `estrelas` de 0–5). A Pesquisa indexa `titulo`, `artista`, `faixas`, `generos`, `tags` e `lancamento`.
