@@ -100,16 +100,34 @@ Gerado por `node scripts/baixar-charts.js` a partir das galerias de https://4cha
 - `generos` é uma **sugestão automática** a partir do título (mesma regra dos links dos resumos); revisar ao transcrever.
 - As imagens ficam em `fontes/mu-charts/`, **fora do git** (são colagens de capas com direitos reservados e somam ~780 MB). Servem de fonte para transcrever os álbuns de cada chart; o site exibe capas individuais (Cover Art Archive/Discogs), não as colagens.
 
-## `data/charts/<genero>.json`
+## `data/charts/mu/<id>.json` (chart transcrito)
+
+Um arquivo por chart; `id` igual ao do índice. Os álbuns são copiados da imagem, na ordem da grade:
 
 ```json
 {
-  "genero": "shoegaze",
-  "titulo": "Shoegaze Essentials",
+  "id": "blues",
+  "titulo": "/mu/'s Essential Blues List",
+  "indice": "blues",
+  "generos": ["blues"],
   "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
-  "albuns": ["my-bloody-valentine-loveless"]
+  "imagem": "fontes/mu-charts/blues.jpg",
+  "transcricao": { "data": "2026-10-26", "metodo": "lista escrita no próprio chart", "status": "revisar" },
+  "nota": "Observações do próprio chart (opcional).",
+  "albuns": [
+    { "pos": "G4", "artista": "Skip James", "titulo": "Devil Got My Woman", "noChart": "Skip James Devil — Got My Woman" },
+    { "pos": "h10", "artista": "Art Tatum", "titulo": null, "noChart": "art tatum genius etc.", "conferir": "título incompleto no chart" }
+  ]
 }
 ```
+
+- `pos` segue a numeração do próprio chart (A1, 1-1, a10…).
+- `noChart` guarda o texto original quando ele foi corrigido (erro de digitação, abreviação, título cortado). Só corrigimos o que é inequívoco.
+- `conferir` marca o que não deu para confirmar pela imagem; `titulo: null` quando o álbum não foi identificado. Nada é inventado.
+- Campos extras usados quando o chart traz a informação: `ano`, `subestilos` (ex.: cor da borda no chart de IDM), `inicio` (álbum de entrada recomendado).
+- `transcricao.status`: `revisar` até alguém conferir com a imagem; depois `conferido`.
+- Validação: `node scripts/validar-charts.js` (lista também os itens a conferir).
+- Os álbuns ainda não apontam para `data/albuns/`: as fichas (metadados, capas, reviews, links) são o próximo passo.
 
 ## `data/albuns/<id>.json` (ou um único `albuns.json`)
 

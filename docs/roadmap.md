@@ -18,7 +18,9 @@
 - [x] Menções a outros gêneros nos resumos marcadas como links (`resumoLinks`, `scripts/ligar-resumos.js`).
 - [ ] Revisão da árvore pelo usuário (nomes, hierarquia, o que falta ou sobra).
 - [x] Índice das 541 Essential Charts (`data/charts/mu-essential-charts.json`) e imagens baixadas em `fontes/mu-charts/` (`scripts/baixar-charts.js`).
-- [ ] Charts das Essential Charts transcritos para JSON (álbuns de cada imagem), começando pelos do piloto.
+- [x] Primeiros charts transcritos (`data/charts/mu/`), um por mestre: Blues, Post-Punk 1, Synth Pop, Black Metal, IDM, Hip Hop 1 e Jazz — 291 álbuns, 10 itens a conferir (`scripts/validar-charts.js`).
+- [ ] Revisão das transcrições pelo usuário (status `revisar` → `conferido`).
+- [ ] Transcrever os demais charts ligados à árvore.
 - [ ] Fichas de álbuns: metadados, tags, 2 reviews positivos, links.
 - [ ] Scripts de coleta/validação em `scripts/`.
 

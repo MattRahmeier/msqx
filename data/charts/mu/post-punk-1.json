@@ -1,0 +1,32 @@
+{
+  "id": "post-punk-1",
+  "titulo": "/mu/ Essential Post-Punk",
+  "indice": "post-punk-1",
+  "generos": ["post-punk"],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/post-punk-1.jpg",
+  "transcricao": { "data": "2026-10-26", "metodo": "lista escrita no próprio chart", "status": "revisar" },
+  "nota": "Ordenado por ano de lançamento, não por importância. Unknown Pleasures e Closer (Joy Division) aparecem no topo como 'você já ouviu esses', fora da lista.",
+  "albuns": [
+    { "pos": "A1", "artista": "Pere Ubu", "titulo": "The Modern Dance", "ano": 1978 },
+    { "pos": "A2", "artista": "Magazine", "titulo": "Real Life", "ano": 1978 },
+    { "pos": "A3", "artista": "Wire", "titulo": "Chairs Missing", "ano": 1978 },
+    { "pos": "A4", "artista": "Chrome", "titulo": "Half Machine Lip Moves", "ano": 1979 },
+    { "pos": "A5", "artista": "The Pop Group", "titulo": "Y", "ano": 1979 },
+    { "pos": "B1", "artista": "Swell Maps", "titulo": "A Trip to Marineville", "ano": 1979 },
+    { "pos": "B2", "artista": "Gang of Four", "titulo": "Entertainment!", "ano": 1979 },
+    { "pos": "B3", "artista": "The Slits", "titulo": "Cut", "ano": 1979 },
+    { "pos": "B4", "artista": "Public Image Ltd.", "titulo": "Metal Box", "ano": 1979 },
+    { "pos": "B5", "artista": "Young Marble Giants", "titulo": "Colossal Youth", "ano": 1980 },
+    { "pos": "C1", "artista": "Josef K", "titulo": "The Only Fun in Town", "ano": 1980 },
+    { "pos": "C2", "artista": "Killing Joke", "titulo": "Killing Joke", "ano": 1980 },
+    { "pos": "C3", "artista": "Bauhaus", "titulo": "In the Flat Field", "ano": 1980 },
+    { "pos": "C4", "artista": "The Birthday Party", "titulo": "Prayers on Fire", "ano": 1981 },
+    { "pos": "C5", "artista": "Siouxsie and the Banshees", "titulo": "Juju", "ano": 1981 },
+    { "pos": "D1", "artista": "This Heat", "titulo": "Deceit", "ano": 1981 },
+    { "pos": "D2", "artista": "Wipers", "titulo": "Youth of America", "ano": 1981 },
+    { "pos": "D3", "artista": "The Fall", "titulo": "Hex Enduction Hour", "ano": 1982 },
+    { "pos": "D4", "artista": "Mission of Burma", "titulo": "Vs.", "ano": 1982 },
+    { "pos": "D5", "artista": "Echo and the Bunnymen", "titulo": "Ocean Rain", "ano": 1984 }
+  ]
+}
