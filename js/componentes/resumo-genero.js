@@ -12,9 +12,13 @@ function comLinks(texto, links, rota) {
   return html + esc(texto.slice(pos));
 }
 
-function fonte(f) {
+// Crédito de um texto: paráfrase, cópia da Wikipédia ou tradução (com aviso e link para o original).
+// Também usado na caixa do álbum.
+export function creditoFonte(f) {
   if (f.tipo === "parafrase") return `Baseado em: <a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.autor || new URL(f.url).hostname)}</a>`;
-  return `Fonte: <a href="${esc(f.url)}" target="_blank" rel="noopener">Wikipédia${f.idioma === "en" ? " (em inglês)" : ""}</a> (${esc(f.licenca || "CC BY-SA 4.0")})`;
+  const link = `<a href="${esc(f.url)}" target="_blank" rel="noopener">Wikipédia${f.idioma === "en" ? " em inglês" : ""}</a>`;
+  const licenca = esc(f.licenca || "CC BY-SA 4.0");
+  return f.traduzido ? `Traduzido do inglês. Original: ${link} (${licenca})` : `Fonte: ${link} (${licenca})`;
 }
 
 // Descrição contínua do gênero: o resumo seguido de "como soa" (som — os elementos que definem o
@@ -27,5 +31,5 @@ export function resumoGenero(genero, { rota = "cerebro" } = {}) {
   // Mesmo artigo nas duas partes: uma fonte só.
   const fontes = [];
   for (const [, , f] of partes) if (f?.url && !fontes.some((x) => x.url.split("#")[0] === f.url.split("#")[0])) fontes.push(f);
-  return `<p class="resumo-genero">${texto}</p>${fontes.length ? `<p class="resumo-fonte">${fontes.map(fonte).join(" · ")}</p>` : ""}`;
+  return `<p class="resumo-genero">${texto}</p>${fontes.length ? `<p class="resumo-fonte">${fontes.map(creditoFonte).join(" · ")}</p>` : ""}`;
 }

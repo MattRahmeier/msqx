@@ -94,21 +94,17 @@
       "delta-blues",
       "texas-blues"
     ],
-    "som": "Piedmont blues (also known as East Coast, or Southeastern blues) refers primarily to a guitar style, which is characterized by a fingerpicking approach in which a regular, alternating thumb bass string rhythmic pattern supports a syncopated melody using the treble strings generally picked with the fore-finger, occasionally others. The result is comparable in sound to ragtime or stride piano styles.",
+    "som": "O piedmont blues (também conhecido como blues da Costa Leste ou do Sudeste) se refere principalmente a um estilo de violão, caracterizado pelo dedilhado em que um padrão rítmico regular e alternado do polegar nas cordas graves sustenta uma melodia sincopada nas cordas agudas, geralmente tocada com o indicador e às vezes com outros dedos. O resultado tem um som comparável ao do ragtime ou do piano stride.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Piedmont_blues",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 30,
-        "ate": 40,
-        "genero": "east-coast-hip-hop"
-      },
-      {
-        "de": 58,
-        "ate": 63,
+        "de": 40,
+        "ate": 45,
         "genero": "blues"
       }
     ]
@@ -268,16 +264,17 @@
       "chicago-blues",
       "blues-rock"
     ],
-    "som": "The guitar was the first instrument to be popularly amplified and used by early pioneers T-Bone Walker in the late 1930s and John Lee Hooker and Muddy Waters in the 1940s. By the early 1950s, Little Walter was a featured soloist on blues harmonica using a small hand-held microphone fed into a guitar amplifier.",
+    "som": "A guitarra foi o primeiro instrumento a ser amplificado em larga escala, usado por pioneiros como T-Bone Walker no fim dos anos 1930 e John Lee Hooker e Muddy Waters nos anos 1940. No início dos anos 1950, Little Walter já era solista de destaque na gaita de blues, usando um pequeno microfone de mão ligado a um amplificador de guitarra.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Electric_blues",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 232,
-        "ate": 237,
+        "de": 259,
+        "ate": 264,
         "genero": "blues"
       }
     ]
@@ -317,16 +314,17 @@
       "electric-blues",
       "british-blues"
     ],
-    "som": "Key features that distinguish Chicago blues from the earlier traditions, such as Delta blues, are the prominent use of electrified instruments (especially the electric guitar), and the use of electronic effects, such as distortion and overdrive.",
+    "som": "As principais características que distinguem o Chicago blues das tradições anteriores, como o Delta blues, são o uso destacado de instrumentos elétricos (principalmente a guitarra elétrica) e de efeitos eletrônicos, como distorção e overdrive.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Chicago_blues",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 81,
-        "ate": 92,
+        "de": 94,
+        "ate": 105,
         "genero": "delta-blues"
       }
     ]
@@ -363,16 +361,17 @@
       "chicago-blues",
       "blues-rock"
     ],
-    "som": "In Britain, blues developed a distinctive and influential style dominated by electric guitar, and made international stars of several proponents of the genre, including the Rolling Stones, the Animals, the Yardbirds, John Mayall & the Bluesbreakers, Cream, Fleetwood Mac and Led Zeppelin.",
+    "som": "Na Grã-Bretanha, o blues desenvolveu um estilo próprio e influente, dominado pela guitarra elétrica, que transformou em estrelas internacionais vários representantes do gênero, entre eles os Rolling Stones, os Animals, os Yardbirds, John Mayall & the Bluesbreakers, Cream, Fleetwood Mac e Led Zeppelin.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/British_blues",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 12,
-        "ate": 17,
+        "de": 19,
+        "ate": 24,
         "genero": "blues"
       }
     ]
@@ -401,22 +400,23 @@
       "blues",
       "metal"
     ],
-    "som": "The sound of rock is traditionally centered on the amplified electric guitar, which emerged in its modern form in the 1950s with the popularity of rock and roll. It was also greatly influenced by the sounds of electric blues guitarists.",
+    "som": "O som do rock é tradicionalmente centrado na guitarra elétrica amplificada, que surgiu em sua forma moderna nos anos 1950 com a popularidade do rock and roll. Também foi muito influenciado pelo som dos guitarristas de blues elétrico.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Rock_music#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 147,
-        "ate": 160,
+        "de": 144,
+        "ate": 157,
         "genero": "rock-and-roll"
       },
       {
-        "de": 210,
-        "ate": 224,
+        "de": 218,
+        "ate": 232,
         "genero": "electric-blues"
       }
     ]
@@ -823,27 +823,28 @@
       "hard-rock",
       "punk-rock"
     ],
-    "som": "Artists drew on such musical influences as bubblegum pop, the brash guitar riffs of hard rock, stomping rhythms, and 1950s rock and roll, filtering them through the recording innovations of the late 1960s.",
+    "som": "Os artistas se apoiaram em influências como o bubblegum pop, os riffs de guitarra atrevidos do hard rock, ritmos marcados e o rock and roll dos anos 1950, filtrando tudo pelas inovações de gravação do fim dos anos 1960.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Glam_rock#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 43,
-        "ate": 56,
+        "de": 46,
+        "ate": 59,
         "genero": "bubblegum-pop"
       },
       {
-        "de": 84,
-        "ate": 93,
+        "de": 95,
+        "ate": 104,
         "genero": "hard-rock"
       },
       {
-        "de": 123,
-        "ate": 136,
+        "de": 126,
+        "ate": 139,
         "genero": "rock-and-roll"
       }
     ]
@@ -915,17 +916,18 @@
       "post-rock",
       "ambient"
     ],
-    "som": "Krautrock has been described as a broad genre encompassing varied approaches, but commonly drawing on psychedelia, avant-garde collage, electronic sounds, and rock music, while typically featuring \"improvisation and hypnotic, minimalistic rhythms.\" However, a common feature is the \"motorik\" beat: the 4/4 beat often used by drummers associated with krautrock, characterised by a kick drum-heavy, pulsating groove, that created a forward-flowing feel.",
+    "som": "O krautrock foi descrito como um gênero amplo, que abrange abordagens variadas, mas costuma se apoiar na psicodelia, na colagem de vanguarda, em sons eletrônicos e no rock, geralmente com \"improvisação e ritmos hipnóticos e minimalistas\". Uma característica comum, porém, é a batida \"motorik\": o compasso 4/4 muito usado pelos bateristas ligados ao krautrock, marcado por um groove pulsante e carregado no bumbo, que cria uma sensação de movimento para a frente.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Krautrock#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 159,
-        "ate": 163,
+        "de": 167,
+        "ate": 171,
         "genero": "rock"
       }
     ]
@@ -963,12 +965,13 @@
       "stoner-metal",
       "psychedelic-rock"
     ],
-    "som": "Stoner rock is typically slow- to mid-tempo and features a heavily distorted, groove-laden bass-heavy sound, melodic vocals, and \"retro\" production.",
+    "som": "O stoner rock costuma ter andamento lento a moderado e um som muito distorcido, cheio de groove e pesado no baixo, com vocais melódicos e produção \"retrô\".",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Stoner_rock#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     }
   },
   {
@@ -998,12 +1001,13 @@
       "garage-rock"
     ],
     "somPular": 1,
-    "som": "Typical punk rock instrumentation is stripped down to one or two guitars, bass, drums and vocals. Complicated guitar solos were considered self-indulgent, although basic guitar breaks were common.",
+    "som": "A instrumentação típica do punk rock se resume a uma ou duas guitarras, baixo, bateria e voz. Solos de guitarra complicados eram vistos como autoindulgentes, embora pausas simples de guitarra fossem comuns.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Punk_rock#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     }
   },
   {
@@ -1135,17 +1139,18 @@
       "post-hardcore",
       "indie-rock"
     ],
-    "som": "According to Chris Payne, author of Where Are Your Boys Tonight?: The Oral History of Emo's Mainstream Explosion, emo is \"often more melodic, more vulnerable [than traditional hardcore] — and often really over the top. [There are also] really performative aspects in emo.\" Sandra Song of CNN describes emo as a \"softer approach to hardcore punk, with warbly vocals and evocative lyrics that have other bands derisively calling it the sound of 'teen angst.'\" Em Casalena of American Songwriter stated that the genre is characterized by an \"angsty yet kind of miserable vibe\".",
+    "som": "Segundo Chris Payne, autor de Where Are Your Boys Tonight?: The Oral History of Emo's Mainstream Explosion, o emo é \"muitas vezes mais melódico, mais vulnerável [que o hardcore tradicional] — e muitas vezes bem exagerado. [Há também] aspectos bastante performáticos no emo.\" Sandra Song, da CNN, descreve o emo como uma \"abordagem mais suave do hardcore punk, com vocais trêmulos e letras evocativas que levam outras bandas a chamá-lo, com desdém, de som da 'angústia adolescente'\". Em Casalena, da American Songwriter, afirmou que o gênero se caracteriza por uma \"vibe angustiada, meio miserável\".",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Emo#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 331,
-        "ate": 344,
+        "de": 345,
+        "ate": 358,
         "genero": "hardcore-punk"
       }
     ]
@@ -1488,31 +1493,32 @@
       "indie-rock",
       "new-wave"
     ],
-    "som": "Musically, it produced bright, catchy alternative rock that drew heavily on the traditions of 1960s guitar-based British pop, with lyrics that emphasised national identity and offered commentary on British culture and society. The movement was seen as a reaction against the darker lyrical themes and soundscapes of the American-led grunge and the more introspective shoegaze scene in Britain.",
+    "som": "Musicalmente, produziu um rock alternativo luminoso e cativante, muito apoiado nas tradições do pop britânico de guitarras dos anos 1960, com letras que enfatizavam a identidade nacional e comentavam a cultura e a sociedade britânicas. O movimento foi visto como uma reação aos temas líricos e paisagens sonoras mais sombrios do grunge, liderado pelos americanos, e à cena mais introspectiva do shoegaze na Grã-Bretanha.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Britpop",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 38,
-        "ate": 54,
+        "de": 26,
+        "ate": 42,
         "genero": "alternative-rock"
       },
       {
-        "de": 121,
-        "ate": 124,
+        "de": 96,
+        "ate": 99,
         "genero": "pop"
       },
       {
-        "de": 333,
-        "ate": 339,
+        "de": 329,
+        "ate": 335,
         "genero": "grunge"
       },
       {
-        "de": 367,
-        "ate": 375,
+        "de": 395,
+        "ate": 403,
         "genero": "shoegaze"
       }
     ]
@@ -1647,22 +1653,23 @@
       "shoegaze",
       "post-hardcore"
     ],
-    "som": "Bands like Sonic Youth incorporated both the genre's punk rooted origins as well as its art-damaged sound, by including the use of alternate tunings and unconventional prepared guitar techniques, such as playing guitar with drumsticks. Noise rock fuses rock to noise, merging extreme levels of guitar distortion, electronic effects, atonality, improvisation, and white noise with that of traditional rock music instrumentation.",
+    "som": "Bandas como o Sonic Youth incorporaram tanto as origens punk do gênero quanto seu som de vanguarda ruidosa, usando afinações alternativas e técnicas não convencionais de guitarra preparada, como tocar guitarra com baquetas. O noise rock funde o rock ao ruído, misturando níveis extremos de distorção de guitarra, efeitos eletrônicos, atonalidade, improvisação e ruído branco à instrumentação tradicional do rock.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Noise_rock#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 53,
-        "ate": 57,
+        "de": 56,
+        "ate": 60,
         "genero": "punk-rock"
       },
       {
-        "de": 253,
-        "ate": 257,
+        "de": 245,
+        "ate": 249,
         "genero": "rock"
       }
     ]
@@ -1744,17 +1751,18 @@
       "post-rock",
       "post-hardcore"
     ],
-    "som": "As in traditional rock, the sound is most often dominated by guitars and drums. However, drums play a greater role in math rock in providing driving, complex rhythms.",
+    "som": "Como no rock tradicional, o som costuma ser dominado por guitarras e bateria. No math rock, porém, a bateria tem um papel maior, conduzindo ritmos complexos.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Math_rock#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 18,
-        "ate": 22,
+        "de": 8,
+        "ate": 12,
         "genero": "rock"
       }
     ]
@@ -1866,16 +1874,17 @@
       "baroque-pop",
       "bubblegum-pop"
     ],
-    "som": "Its studio-centric sound was primarily rooted in folk rock and easy listening, typically featuring rich harmony vocals and progressive elements, while lyrics combined idyllic imagery with a subtle awareness of societal change, melancholic undertones, and countercultural themes.",
+    "som": "Seu som, centrado no estúdio, tinha raízes principalmente no folk rock e no easy listening, geralmente com vocais em harmonias ricas e elementos progressivos, enquanto as letras combinavam imagens idílicas com uma consciência sutil das mudanças sociais, tons melancólicos e temas da contracultura.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Sunshine_pop",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 49,
-        "ate": 58,
+        "de": 61,
+        "ate": 70,
         "genero": "folk-rock"
       }
     ]
@@ -1913,17 +1922,18 @@
       "sunshine-pop",
       "art-pop"
     ],
-    "som": "Baroque pop, stylistically, fuses elements of rock with classical music, often incorporating layered harmonies, strings, and horns to achieve a majestic, orchestral sound. Its prominent characteristics are the use of contrapuntal melodies and functional harmony patterns.",
+    "som": "O baroque pop, em termos de estilo, funde elementos do rock com a música clássica, muitas vezes com harmonias em camadas, cordas e metais para chegar a um som majestoso e orquestral. Suas características marcantes são o uso de melodias em contraponto e de padrões de harmonia funcional.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Baroque_pop#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 46,
-        "ate": 50,
+        "de": 55,
+        "ate": 59,
         "genero": "rock"
       }
     ]
@@ -2095,13 +2105,21 @@
       "teen-pop",
       "electropop"
     ],
-    "som": "Catchy hooks accompanied with a readily comprehensible melody and memorable rhythm, while maintaining a fast-paced and energetic tempo and conforming to a commercially viable pop-oriented song structure catered and suitable for radio airplay and appeals to a mainstream audience. A strong emphasis on beats, grooves, and rhythmic pulse that are musically arranged within a rudimentary framework.",
+    "som": "Ganchos cativantes acompanhados de uma melodia fácil de entender e de um ritmo marcante, mantendo um andamento rápido e enérgico e seguindo uma estrutura de canção pop comercialmente viável, pensada para tocar no rádio e agradar ao grande público. Uma forte ênfase em batidas, grooves e pulsação rítmica, arranjados musicalmente dentro de uma estrutura simples.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Dance-pop#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
-    }
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 164,
+        "ate": 167,
+        "genero": "pop"
+      }
+    ]
   },
   {
     "id": "teen-pop",
@@ -2136,12 +2154,13 @@
     "nomesAlternativos": [
       "pop adolescente"
     ],
-    "som": "Usually, it includes catchy repeated chorus lines, Auto-Tuned or pitch-corrected vocals, and upbeat melodies.",
+    "som": "Geralmente inclui refrões repetidos e cativantes, vocais com Auto-Tune ou correção de afinação e melodias animadas.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Teen_pop#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     }
   },
   {
@@ -2174,27 +2193,28 @@
       "dream-pop",
       "bedroom-pop"
     ],
-    "som": "Indie pop is defined by its DIY ethos, upbeat melodies, and an overarching sense of \"authenticity.\" It primarily takes influences from post-punk, jangle pop, and its counterpart, indie rock. While sharing overarching similarities, indie pop is more melodic, simplistic, and accessible, eschewing the more abrasive and conventional aspects of indie rock.",
+    "som": "O indie pop é definido pela ética faça-você-mesmo, por melodias animadas e por um sentido geral de \"autenticidade\". Tem influências principalmente do post-punk, do jangle pop e de seu correspondente, o indie rock. Embora tenham semelhanças gerais, o indie pop é mais melódico, simples e acessível, evitando os aspectos mais ásperos e convencionais do indie rock.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Indie_pop#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 135,
-        "ate": 144,
+        "de": 150,
+        "ate": 159,
         "genero": "post-punk"
       },
       {
-        "de": 153,
-        "ate": 156,
+        "de": 171,
+        "ate": 174,
         "genero": "pop"
       },
       {
-        "de": 179,
-        "ate": 189,
+        "de": 202,
+        "ate": 212,
         "genero": "indie-rock"
       }
     ]
@@ -2298,19 +2318,13 @@
       "j-pop",
       "indie-pop"
     ],
-    "som": "The term mainly refers to the shared artistic sensibilities between these musicians, who were typically dissimilar in sound, employed quotation and sampling extensively, and were inspired by earlier genres that used kitsch, fusion, and artifice.",
+    "som": "O termo se refere principalmente à sensibilidade artística compartilhada por esses músicos, que em geral tinham sons diferentes entre si, usavam muito a citação e o sampling e se inspiravam em gêneros anteriores que recorriam ao kitsch, à fusão e ao artifício.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Shibuya-kei",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
-    },
-    "somLinks": [
-      {
-        "de": 224,
-        "ate": 230,
-        "genero": "jazz-fusion"
-      }
-    ]
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    }
   },
   {
     "id": "k-pop",
@@ -2378,16 +2392,17 @@
       "synth-pop",
       "hyperpop"
     ],
-    "som": "Electropop has been described as a variant of synth-pop with emphasis on a hard electronic sound.",
+    "som": "O electropop foi descrito como uma variante do synth-pop com ênfase num som eletrônico duro.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Electropop",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 46,
-        "ate": 55,
+        "de": 47,
+        "ate": 56,
         "genero": "synth-pop"
       }
     ]
@@ -2402,16 +2417,17 @@
       "synth-pop",
       "soft-rock"
     ],
-    "resumo": "Hypnagogic pop (or simply h-pop) is a loosely defined style of pop and psychedelic music that evokes cultural memory and nostalgia for the popular entertainment of the past (principally the 1980s and early 1990s).",
+    "resumo": "Hypnagogic pop (ou simplesmente h-pop) é um estilo pouco definido de pop e música psicodélica que evoca a memória cultural e a nostalgia do entretenimento popular do passado (principalmente dos anos 1980 e do início dos anos 1990).",
     "resumoFonte": {
       "url": "https://en.wikipedia.org/wiki/Hypnagogic_pop",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "resumoLinks": [
       {
-        "de": 63,
-        "ate": 66,
+        "de": 69,
+        "ate": 72,
         "genero": "pop"
       }
     ],
@@ -2422,17 +2438,18 @@
       "chillwave",
       "vaporwave"
     ],
-    "som": "Examples of specific sounds evoked by hypnagogic pop artists range from \"ecstatically blurry and irradiated lo-fi pop\" to \"seventies cosmic-synth-rock\" and \"tripped-out, tribal exotica\".",
+    "som": "Os sons evocados pelos artistas de hypnagogic pop vão de \"pop lo-fi extaticamente borrado e irradiado\" a \"synth-rock cósmico dos anos setenta\" e \"exotica tribal e viajada\".",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Hypnagogic_pop#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 114,
-        "ate": 117,
+        "de": 58,
+        "ate": 61,
         "genero": "pop"
       }
     ]
@@ -2464,16 +2481,17 @@
       "hypnagogic-pop",
       "bedroom-pop"
     ],
-    "som": "Common features include a faded or dreamy retro pop sound, escapist lyrics (frequent topics include the beach or summer), psychedelic or lo-fi aesthetics, mellow vocals, slow-to-moderate tempos, effects processing (especially reverb), and vintage synthesizers.",
+    "som": "Entre as características comuns estão um som pop retrô desbotado ou onírico, letras escapistas (a praia e o verão são temas frequentes), estética psicodélica ou lo-fi, vocais suaves, andamentos lentos a moderados, processamento de efeitos (principalmente reverb) e sintetizadores antigos.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Chillwave",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 48,
-        "ate": 51,
+        "de": 45,
+        "ate": 48,
         "genero": "pop"
       }
     ]
@@ -2947,22 +2965,23 @@
       "thrash-metal",
       "power-metal"
     ],
-    "som": "It is usually considered less abrasive and more melodic than thrash metal. However, speed metal is usually faster and more aggressive than traditional heavy metal, also showing more inclination to virtuoso soloing and featuring short instrumental passages between couplets.",
+    "som": "Costuma ser considerado menos áspero e mais melódico que o thrash metal. Ainda assim, o speed metal costuma ser mais rápido e agressivo que o heavy metal tradicional, com mais inclinação para solos virtuosos e passagens instrumentais curtas entre as estrofes.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Speed_metal",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 61,
-        "ate": 73,
+        "de": 59,
+        "ate": 71,
         "genero": "thrash-metal"
       },
       {
-        "de": 151,
-        "ate": 162,
-        "genero": "metal"
+        "de": 142,
+        "ate": 165,
+        "genero": "heavy-metal"
       }
     ]
   },
@@ -3000,12 +3019,13 @@
       "speed-metal",
       "death-metal"
     ],
-    "som": "Thrash metal generally features fast tempos, low-register, complex guitar riffs, high-register guitar solos, and double bass drumming. The rhythm guitar parts are played with heavy distortion, power chords and often palm muted to create a tighter and more precise sound.",
+    "som": "O thrash metal geralmente tem andamentos rápidos, riffs de guitarra complexos em região grave, solos de guitarra em região aguda e bateria com bumbo duplo. As guitarras base são tocadas com muita distorção, power chords e, muitas vezes, abafadas com a palma da mão, para criar um som mais seco e preciso.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Thrash_metal#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     }
   },
   {
@@ -3048,22 +3068,23 @@
       "speed-metal",
       "progressive-metal"
     ],
-    "som": "Power metal is today associated with fast guitar riffs and drumming, twin melodies, operatic singing, and thus \"bears all the hallmarks of traditional metal.\" The sound is tempered by characteristics of speed metal, power metal's musical forerunner. Power metal guitarists and bassists generally play rapid streams of notes, but change chords comparatively slowly, with a harmonic tempo of once per measure or slower.",
+    "som": "Hoje o power metal é associado a riffs de guitarra e bateria rápidos, melodias em dueto e canto operístico, e por isso \"traz todas as marcas do metal tradicional\". O som é temperado por características do speed metal, seu precursor musical. Guitarristas e baixistas de power metal geralmente tocam sequências rápidas de notas, mas trocam de acorde de forma relativamente lenta, com um ritmo harmônico de uma vez por compasso ou menos.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Power_metal#Musical_characteristics",
       "idioma": "en",
       "secao": "Musical characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 151,
-        "ate": 156,
-        "genero": "metal"
+        "de": 144,
+        "ate": 161,
+        "genero": "heavy-metal"
       },
       {
-        "de": 203,
-        "ate": 214,
+        "de": 205,
+        "ate": 216,
         "genero": "speed-metal"
       }
     ]
@@ -3099,12 +3120,13 @@
       "grindcore",
       "black-metal"
     ],
-    "som": "The setup most frequently used within the death metal genre is two guitarists, a bass player, a vocalist, and a drummer often using \"hyper double-bass blast beats\". Although this is the standard setup, bands have been known to occasionally incorporate other instruments such as electronic keyboards.",
+    "som": "A formação mais comum no death metal tem dois guitarristas, um baixista, um vocalista e um baterista, que muitas vezes usa \"blast beats hiper rápidos com bumbo duplo\". Embora essa seja a formação padrão, algumas bandas eventualmente incorporam outros instrumentos, como teclados eletrônicos.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Death_metal#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     }
   },
   {
@@ -3146,27 +3168,28 @@
       "death-metal",
       "metalcore"
     ],
-    "som": "Melodic death metal combines death metal with elements of traditional heavy metal ranging as far as the New Wave of British Heavy Metal, especially melodic or harmonized guitar riffs, with the heavily distorted guitars, fast double-bass drum patterns and occasional blast beats of death metal. Alternative Press Magazine describes the style as \"incorporat[ing] stylistically 'pretty' and epic sounds\" into the death metal formula, augmented by \"blazing\" guitar solos and \"buzz-saw\"-like guitar tones.",
+    "som": "O death metal melódico combina o death metal com elementos do heavy metal tradicional que chegam até a New Wave of British Heavy Metal, principalmente riffs de guitarra melódicos ou harmonizados, com as guitarras muito distorcidas, os padrões rápidos de bumbo duplo e os blast beats ocasionais do death metal. A revista Alternative Press descreve o estilo como \"a incorporação de sons estilisticamente 'bonitos' e épicos\" à fórmula do death metal, reforçados por solos de guitarra \"incendiários\" e timbres de guitarra \"de serra elétrica\".",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Melodic_death_metal#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 29,
-        "ate": 40,
+        "de": 33,
+        "ate": 44,
         "genero": "death-metal"
       },
       {
-        "de": 70,
-        "ate": 81,
-        "genero": "metal"
+        "de": 62,
+        "ate": 85,
+        "genero": "heavy-metal"
       },
       {
-        "de": 104,
-        "ate": 135,
+        "de": 103,
+        "ate": 134,
         "genero": "nwobhm"
       }
     ]
@@ -3206,17 +3229,18 @@
       "death-metal",
       "hardcore-punk"
     ],
-    "som": "Grindcore relies on standard hardcore punk instrumentation: electric guitar, bass and drums. Vocals may be used as merely an added sound effect, a common practice with bands such as the experimental and jazz-infused band Naked City.",
+    "som": "O grindcore se apoia na instrumentação padrão do hardcore punk: guitarra elétrica, baixo e bateria. A voz pode ser usada apenas como um efeito sonoro a mais, prática comum em bandas como a experimental e jazzística Naked City.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Grindcore#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 29,
-        "ate": 42,
+        "de": 49,
+        "ate": 62,
         "genero": "hardcore-punk"
       }
     ]
@@ -3368,42 +3392,43 @@
       "sludge-metal"
     ],
     "somPular": 1,
-    "som": "Contemporary post-metal is often seen as combining \"elements of doom metal, sludge, and/or black metal with elements of post-rock and shoegaze\", being more \"peaceful\" than metal but retaining its dark theming and harsh vocal style. As with post-rock, however, many bands are instrumental and when vocals are used, they often \"resemble another accompanying instrument\" rather than actual words.",
+    "som": "O post-metal contemporâneo costuma ser visto como a combinação de \"elementos do doom metal, do sludge e/ou do black metal com elementos do post-rock e do shoegaze\", sendo mais \"tranquilo\" que o metal, mas mantendo os temas sombrios e o estilo vocal áspero. Como no post-rock, porém, muitas bandas são instrumentais e, quando há voz, ela muitas vezes \"lembra mais um instrumento de acompanhamento\" do que palavras de fato.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Post-metal#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 64,
-        "ate": 74,
+        "de": 80,
+        "ate": 90,
         "genero": "doom-metal"
       },
       {
-        "de": 76,
-        "ate": 82,
+        "de": 95,
+        "ate": 101,
         "genero": "sludge-metal"
       },
       {
-        "de": 91,
-        "ate": 102,
+        "de": 110,
+        "ate": 121,
         "genero": "black-metal"
       },
       {
-        "de": 120,
-        "ate": 129,
+        "de": 139,
+        "ate": 148,
         "genero": "post-rock"
       },
       {
-        "de": 134,
-        "ate": 142,
+        "de": 154,
+        "ate": 162,
         "genero": "shoegaze"
       },
       {
-        "de": 172,
-        "ate": 177,
+        "de": 194,
+        "ate": 199,
         "genero": "metal"
       }
     ]
@@ -3591,22 +3616,23 @@
       "grunge",
       "nu-metal"
     ],
-    "som": "One of the main characteristics of alternative metal and its subgenres are heavily downtuned, mid-paced \"chug\"-like guitar riffs. Alternative metal features clean and melodic vocals, influenced by those of alternative rock, in contrast to other heavy metal subgenres.",
+    "som": "Uma das principais características do metal alternativo e de seus subgêneros são os riffs de guitarra com afinação bem baixa, em andamento médio e no estilo \"chug\". O metal alternativo tem vocais limpos e melódicos, influenciados pelo rock alternativo, ao contrário de outros subgêneros do heavy metal.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Alternative_metal#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 206,
-        "ate": 222,
+        "de": 235,
+        "ate": 251,
         "genero": "alternative-rock"
       },
       {
-        "de": 245,
-        "ate": 256,
+        "de": 290,
+        "ate": 301,
         "genero": "metal"
       }
     ]
@@ -3706,21 +3732,17 @@
       "nu-metal",
       "techno"
     ],
-    "som": "Industrial metal is the fusion of heavy metal and industrial music, typically employing repeating metal guitar riffs, sampling, synthesizer or sequencer lines, and distorted vocals.",
+    "som": "O industrial metal é a fusão do heavy metal com a música industrial, geralmente com riffs repetitivos de guitarra metal, samples, linhas de sintetizador ou sequenciador e vocais distorcidos.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Industrial_metal",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 24,
-        "ate": 30,
-        "genero": "jazz-fusion"
-      },
-      {
-        "de": 34,
-        "ate": 45,
+        "de": 32,
+        "ate": 43,
         "genero": "metal"
       }
     ]
@@ -3802,16 +3824,17 @@
       "ambient",
       "industrial"
     ],
-    "resumo": "Dark ambient (originally known as ambient industrial) is a subgenre of ambient and post-industrial music, that originally emerged in the mid-1980s. It is characterized by ominous, dark drones, discordant overtones and a gloomy, monumental or catacomb-inspired atmosphere.",
+    "resumo": "Dark ambient (originalmente conhecido como ambient industrial) é um subgênero do ambient e da música pós-industrial que surgiu em meados dos anos 1980. Caracteriza-se por drones sombrios e ameaçadores, harmônicos dissonantes e uma atmosfera lúgubre, monumental ou inspirada em catacumbas.",
     "resumoFonte": {
       "url": "https://en.wikipedia.org/wiki/Dark_ambient",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "resumoLinks": [
       {
-        "de": 34,
-        "ate": 41,
+        "de": 43,
+        "ate": 50,
         "genero": "ambient"
       }
     ],
@@ -3824,12 +3847,13 @@
       "ambient",
       "drone-metal"
     ],
-    "som": "Dark ambient often consists of evolving dissonant harmonies of drones and resonances, low frequency rumbles and machine noises, sometimes supplemented by gongs, percussive rhythms, bullroarers, distorted voices and other found sounds, often processed to the point where the original sample cannot be recognized.",
+    "som": "O dark ambient muitas vezes consiste em harmonias dissonantes e em transformação, feitas de drones e ressonâncias, roncos de baixa frequência e ruídos de máquinas, às vezes complementados por gongos, ritmos percussivos, zunidores, vozes distorcidas e outros sons encontrados, muitas vezes processados a ponto de não se reconhecer o sample original.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Dark_ambient#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     }
   },
   {
@@ -3868,17 +3892,18 @@
       "new-wave",
       "electro"
     ],
-    "som": "Synth-pop is defined by its primary use of synthesizers, drum machines and sequencers, sometimes using them to replace all other instruments. Borthwick and Moy have described the genre as diverse but \"characterised by a broad set of values that eschewed rock playing styles, rhythms and structures\", which were replaced by \"synthetic textures\" and \"robotic rigidity\", often defined by the limitations of the new technology, including monophonic synthesizers (only able to play one note at a time).",
+    "som": "O synth-pop é definido pelo uso principal de sintetizadores, baterias eletrônicas e sequenciadores, às vezes usados para substituir todos os outros instrumentos. Borthwick e Moy descreveram o gênero como diverso, mas \"caracterizado por um amplo conjunto de valores que rejeitava os estilos de execução, os ritmos e as estruturas do rock\", substituídos por \"texturas sintéticas\" e \"rigidez robótica\", muitas vezes definidas pelas limitações da nova tecnologia, como os sintetizadores monofônicos (capazes de tocar só uma nota por vez).",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Synth-pop#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 254,
-        "ate": 258,
+        "de": 332,
+        "ate": 336,
         "genero": "rock"
       }
     ]
@@ -4040,17 +4065,18 @@
       "house",
       "techno"
     ],
-    "som": "Acid house's minimalist sound combined house music's ubiquitous programmed four-on-the-floor 4/4 beat with the electronic squelch sound produced by the Roland TB-303 electronic synthesizer-sequencer. The sound is commonly produced by raising the filter resonance and lowering the cutoff frequency of the synthesizer, along with programming the 303's accent, slide, and octave parameters, to create variation in otherwise simple bass patterns.",
+    "som": "O som minimalista do acid house combinava a batida 4/4 programada, \"four-on-the-floor\", onipresente no house, com o som eletrônico borbulhante produzido pelo sintetizador e sequenciador Roland TB-303. Esse som costuma ser obtido aumentando a ressonância do filtro e baixando a frequência de corte do sintetizador, além de programar os parâmetros de acento, glissando e oitava do 303, para criar variação em linhas de baixo que de outro modo seriam simples.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Acid_house#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 39,
-        "ate": 50,
+        "de": 103,
+        "ate": 108,
         "genero": "house"
       }
     ]
@@ -4120,12 +4146,13 @@
       "techno",
       "deep-house"
     ],
-    "som": "The average tempo of a minimal techno track is between 125 and 130 beats per minute. Richie Hawtin suggests 128 bpm as the perfect tempo.",
+    "som": "O andamento médio de uma faixa de minimal techno fica entre 125 e 130 batidas por minuto. Richie Hawtin sugere 128 bpm como o andamento perfeito.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Minimal_techno#Style",
       "idioma": "en",
       "secao": "Style",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     }
   },
   {
@@ -4199,23 +4226,29 @@
       "ambient",
       "drum-and-bass"
     ],
-    "som": "Simon Reynolds distinguishes an early phase whose beats were modelled on house and techno from a later, jungle-influenced phase marked by more forceful and inventive drum programming. In analyses of works by Aphex Twin and Autechre, Papavassiliou identifies two kinds of \"microrhythmic set\"—groups of very rapid events: textural sets that contrast with the surrounding rhythmic material, and gestural sets that suggest rhythmic continuation.",
+    "som": "Simon Reynolds distingue uma primeira fase, cujas batidas seguiam o modelo do house e do techno, de uma fase posterior, influenciada pelo jungle e marcada por uma programação de bateria mais vigorosa e inventiva. Em análises de obras de Aphex Twin e Autechre, Papavassiliou identifica dois tipos de \"conjunto microrrítmico\" — grupos de eventos muito rápidos: conjuntos texturais, que contrastam com o material rítmico ao redor, e conjuntos gestuais, que sugerem continuação rítmica.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Intelligent_dance_music#Musical_characteristics",
       "idioma": "en",
       "secao": "Musical characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 73,
-        "ate": 78,
+        "de": 78,
+        "ate": 83,
         "genero": "house"
       },
       {
-        "de": 83,
-        "ate": 89,
+        "de": 89,
+        "ate": 95,
         "genero": "techno"
+      },
+      {
+        "de": 138,
+        "ate": 144,
+        "genero": "jungle"
       }
     ]
   },
@@ -4339,16 +4372,17 @@
       "dubstep",
       "grime"
     ],
-    "som": "It is defined by percussive, shuffled rhythms with syncopated hi-hats, cymbals, and snares, and may include either 4/4 house kick patterns or more irregular \"2-step\" rhythms. Garage tracks also commonly feature \"chopped up\" and time-stretched or pitch-shifted vocal samples complementing the underlying rhythmic structure at a tempo usually around 130 BPM.",
+    "som": "É definido por ritmos percussivos e embaralhados, com chimbais, pratos e caixas sincopados, e pode incluir tanto padrões de bumbo 4/4 do house quanto ritmos mais irregulares, \"2-step\". As faixas de garage também costumam ter samples de voz \"picotados\", esticados no tempo ou com a afinação alterada, complementando a estrutura rítmica num andamento geralmente em torno de 130 BPM.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/UK_garage",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 119,
-        "ate": 124,
+        "de": 137,
+        "ate": 142,
         "genero": "house"
       }
     ]
@@ -4427,27 +4461,28 @@
       "abstract-hip-hop",
       "ambient"
     ],
-    "som": "Common musical aesthetics include a bass-heavy drumbeat, often providing the slowed down breakbeat samples similar to standard 1990s hip-hop beats, giving the genre a more psychedelic and mainstream feel. Vocals in trip hop are often female and feature characteristics of various singing styles, including R&B, jazz and rock.",
+    "som": "Entre as estéticas musicais comuns está uma batida de bateria pesada no grave, muitas vezes com samples de breakbeat desacelerados, parecidos com as batidas típicas do hip-hop dos anos 1990, o que dá ao gênero um clima mais psicodélico e acessível. Os vocais no trip hop costumam ser femininos e têm características de vários estilos de canto, como R&B, jazz e rock.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Trip_hop#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 133,
-        "ate": 140,
+        "de": 168,
+        "ate": 175,
         "genero": "hip-hop"
       },
       {
-        "de": 311,
-        "ate": 315,
+        "de": 354,
+        "ate": 358,
         "genero": "jazz"
       },
       {
-        "de": 320,
-        "ate": 324,
+        "de": 361,
+        "ate": 365,
         "genero": "rock"
       }
     ]
@@ -4476,13 +4511,21 @@
       "ambient",
       "cloud-rap"
     ],
-    "som": "Academic Adam Harper described the typical vaporwave track as \"a wholly synthesised or heavily processed chunk of corporate mood music, bright and earnest or slow and sultry, often beautiful, either looped out of sync and beyond the point of functionality.\"",
+    "som": "O acadêmico Adam Harper descreveu a faixa típica de vaporwave como \"um pedaço totalmente sintetizado ou muito processado de música ambiente corporativa, luminosa e sincera ou lenta e sensual, muitas vezes bonita, posta em loop fora de sincronia e além do ponto de funcionalidade\".",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Vaporwave#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
-    }
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 124,
+        "ate": 139,
+        "genero": "ambient"
+      }
+    ]
   },
   {
     "id": "hip-hop",
@@ -4590,12 +4633,13 @@
       "boom-bap",
       "west-coast-hip-hop"
     ],
-    "som": "Although East Coast hip-hop can vary in sound and style, \"aggressive\" beats and the combining of samples were common to the subgenre in the mid- to late 1980s.",
+    "som": "Embora o hip-hop da Costa Leste possa variar de som e estilo, batidas \"agressivas\" e a combinação de samples eram comuns no subgênero entre meados e o fim dos anos 1980.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/East_Coast_hip-hop#Musical_style",
       "idioma": "en",
       "secao": "Musical style",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     }
   },
   {
@@ -4746,27 +4790,28 @@
       "west-coast-hip-hop",
       "gangsta-rap"
     ],
-    "som": "G-funk, which uses funk with an artificially altered tempo, incorporates multi-layered and melodic synthesizers, slow hypnotic grooves, a deep bass, heavy use of the snare drum, background female vocals, the extensive sampling of P-Funk tunes, and a high-pitched portamento saw wave synthesizer lead. In essence, the smooth, slow-tempo sound of G-funk accompanied the perceived \"laid-back\" stereotype of Californian culture whereas East Coast hip-hop typically featured more aggressive attitudes alongside a fast-paced tempo (e.g. hardcore hip-hop).",
+    "som": "O G-funk, que usa o funk com o andamento alterado artificialmente, incorpora sintetizadores melódicos em várias camadas, grooves lentos e hipnóticos, um baixo profundo, uso intenso da caixa, vocais femininos de fundo, samples extensos de músicas do P-Funk e um sintetizador solo agudo, de onda dente de serra, com portamento. Em essência, o som suave e de andamento lento do G-funk acompanhava o estereótipo \"descontraído\" da cultura californiana, enquanto o hip-hop da Costa Leste tinha, em geral, atitudes mais agressivas e andamento mais rápido (por exemplo, o hardcore hip-hop).",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/G-funk#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 432,
-        "ate": 450,
+        "de": 459,
+        "ate": 481,
         "genero": "east-coast-hip-hop"
       },
       {
-        "de": 531,
-        "ate": 539,
+        "de": 564,
+        "ate": 572,
         "genero": "hardcore-punk"
       },
       {
-        "de": 540,
-        "ate": 547,
+        "de": 573,
+        "ate": 580,
         "genero": "hip-hop"
       }
     ]
@@ -4805,11 +4850,12 @@
       "trap",
       "memphis-rap"
     ],
-    "som": "Typical characteristics of the Southern hip-hop sound include a focus on bass-heavy beats; relatively little use of sampling, in favor of live or synthesized instrumentation; and a decreased emphasis on lyrical complexity, instead incorporating other vocal styles such as call-and-response chants or heavily processed singing.",
+    "som": "Entre as características típicas do som do hip-hop do Sul estão o foco em batidas pesadas no grave; uso relativamente pequeno de samples, em favor de instrumentação ao vivo ou sintetizada; e menos ênfase na complexidade das letras, incorporando em vez disso outros estilos vocais, como cantos de chamada e resposta ou canto muito processado.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Southern_hip-hop",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     }
   },
   {
@@ -4844,12 +4890,13 @@
       "phonk",
       "trap"
     ],
-    "som": "Memphis rap has been characterized as being low budget, using repetitive vocal hooks and a \"distorted\", lo-fi soundscape that uses the Roland TR-808 drum machine and minimal synth melodies. DJ Spanish Fly had introduced the synthetic drum-kit sound with the TR-808, splitting the Memphis scene in two between those who preferred the live versus the digital sound.",
+    "som": "O Memphis rap foi descrito como de baixo orçamento, com refrões vocais repetitivos e uma paisagem sonora lo-fi \"distorcida\", que usa a bateria eletrônica Roland TR-808 e melodias mínimas de sintetizador. DJ Spanish Fly introduziu o som de bateria sintética com a TR-808, dividindo a cena de Memphis em dois lados: os que preferiam o som ao vivo e os que preferiam o digital.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Memphis_rap#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     }
   },
   {
@@ -4976,12 +5023,13 @@
       "trap",
       "uk-drill"
     ],
-    "som": "The BBC states that \"Whereas trap, the Atlanta-born rap style that dominated hip-hop for most of the 2000s, is often rhythmically rigid – with a snare falling on the third beat of each bar – drill moves to skippy, syncopated hi-hat patterns echoing the rapid fire of a machine gun\". The sound of trap producer Lex Luger's music is a major influence on drill, and Young Chop identified Shawty Redd, Drumma Boy, and Zaytoven as important precursors to drill.",
+    "som": "A BBC afirma que \"enquanto o trap, o estilo de rap nascido em Atlanta que dominou o hip-hop durante boa parte dos anos 2000, costuma ser ritmicamente rígido — com a caixa caindo no terceiro tempo de cada compasso —, o drill se move em padrões de chimbal saltitantes e sincopados que lembram os disparos de uma metralhadora\". O som do produtor de trap Lex Luger é uma grande influência no drill, e Young Chop apontou Shawty Redd, Drumma Boy e Zaytoven como precursores importantes do drill.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Drill_music#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
@@ -4990,8 +5038,8 @@
         "genero": "trap"
       },
       {
-        "de": 77,
-        "ate": 84,
+        "de": 84,
+        "ate": 91,
         "genero": "hip-hop"
       }
     ]
@@ -5006,16 +5054,17 @@
       "drill",
       "grime"
     ],
-    "resumo": "UK drill is a subgenre of drill music and road rap that originated in the South London district of Brixton from 2012 onwards.",
+    "resumo": "UK drill é um subgênero do drill e do road rap que surgiu no bairro de Brixton, no sul de Londres, a partir de 2012.",
     "resumoFonte": {
       "url": "https://en.wikipedia.org/wiki/UK_drill",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "resumoLinks": [
       {
-        "de": 26,
-        "ate": 37,
+        "de": 27,
+        "ate": 32,
         "genero": "drill"
       }
     ],
@@ -5026,22 +5075,23 @@
       "drill",
       "grime"
     ],
-    "som": "UK drill beats are generally structured around an contrast to the typical trap/Chicago drill beat, the hi-hats have moved from on-beat and triplet subdivisions to a steady 3+3+2 polyrhythm, hi-hat pattern, with snares landing on the fourth beat instead of the third every 2 bars. Instrumentals often also have a sliding bass, hard hitting kicks, and dark melodies.",
+    "som": "As batidas do UK drill geralmente se estruturam em contraste com a batida típica do trap e do drill de Chicago: os chimbais deixaram as subdivisões no tempo e em tercinas e passaram a um padrão constante, em polirritmo 3+3+2, com a caixa caindo no quarto tempo, em vez do terceiro, a cada 2 compassos. As bases muitas vezes também têm baixo deslizante, bumbos fortes e melodias sombrias.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/UK_drill#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 74,
-        "ate": 78,
+        "de": 84,
+        "ate": 88,
         "genero": "trap"
       },
       {
-        "de": 87,
-        "ate": 92,
+        "de": 94,
+        "ate": 99,
         "genero": "drill"
       }
     ]
@@ -5077,12 +5127,13 @@
       "uk-garage",
       "uk-drill"
     ],
-    "som": "Grime is typified by complex 2-step, 4/4 breakbeats, generally around 140 beats per minute, or sometimes structured around a double-time rhythm, and constructed from different synth, string and electronic sounds. Self-proclaimed 'godfather' of grime Wiley claims in his 2017 autobiography Eskiboy that he personally created most of his early tracks at 140 BPM as it is the default tempo in FL Studio.",
+    "som": "O grime se caracteriza por breakbeats complexos em 2-step e 4/4, geralmente em torno de 140 batidas por minuto, às vezes estruturados em ritmo de tempo dobrado, e construídos com diferentes sons de sintetizador, cordas e eletrônicos. Wiley, que se diz o \"padrinho\" do grime, afirma em sua autobiografia de 2017, Eskiboy, que criou a maioria de suas primeiras faixas a 140 BPM por ser o andamento padrão do FL Studio.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Grime_music#Musical_style",
       "idioma": "en",
       "secao": "Musical style",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     }
   },
   {
@@ -5098,16 +5149,17 @@
     "origens": [
       "old-school-hip-hop"
     ],
-    "resumo": "Political hip hop (also known as political rap and conscious hip-hop) is a subgenre of hip hop music that emerged in the 1980s as a form of political expression and activism.",
+    "resumo": "O hip hop político (também conhecido como rap político e conscious hip-hop) é um subgênero do hip hop que surgiu nos anos 1980 como forma de expressão política e ativismo.",
     "resumoFonte": {
       "url": "https://en.wikipedia.org/wiki/Political_hip-hop",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "resumoLinks": [
       {
-        "de": 87,
-        "ate": 94,
+        "de": 2,
+        "ate": 9,
         "genero": "hip-hop"
       }
     ],
@@ -5263,37 +5315,38 @@
       "trap",
       "vaporwave"
     ],
-    "som": "Cloud rap is defined by the use of ethereal, psychedelic and soft samples as well as the inclusion of trap style drums, drawing primary influences from lo-fi hip-hop and chillwave. The genre's production style draws heavily from general mellow and relaxed sounds that are atypical to traditional hip-hop such as ambient and new age music, while esoteric melodic chopped samples have been lifted from J-pop, video game music and anime soundtracks.",
+    "som": "O cloud rap é definido pelo uso de samples etéreos, psicodélicos e suaves e pela inclusão de bateria no estilo do trap, com influências principais do lo-fi hip-hop e do chillwave. O estilo de produção do gênero se apoia muito em sons suaves e relaxados, atípicos no hip-hop tradicional, como o ambient e a new age, enquanto samples melódicos picotados e esotéricos foram tirados do J-pop, de músicas de videogame e de trilhas de anime.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Cloud_rap#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 102,
-        "ate": 106,
+        "de": 114,
+        "ate": 118,
         "genero": "trap"
       },
       {
-        "de": 158,
-        "ate": 165,
+        "de": 156,
+        "ate": 163,
         "genero": "hip-hop"
       },
       {
-        "de": 170,
-        "ate": 179,
+        "de": 169,
+        "ate": 178,
         "genero": "chillwave"
       },
       {
-        "de": 312,
-        "ate": 319,
+        "de": 294,
+        "ate": 301,
         "genero": "ambient"
       },
       {
-        "de": 400,
-        "ate": 405,
+        "de": 382,
+        "ate": 387,
         "genero": "j-pop"
       }
     ]
@@ -5326,12 +5379,13 @@
       "hip-hop"
     ],
     "somFrases": 1,
-    "som": "Depending on the performer's mood, experience, and interaction with band members or audience members, the performer may change melodies, harmonies, and time signatures.",
+    "som": "Dependendo do humor, da experiência e da interação com os outros músicos ou com a plateia, o intérprete pode mudar melodias, harmonias e fórmulas de compasso.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Jazz#Elements",
       "idioma": "en",
       "secao": "Elements",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     }
   },
   {
@@ -5486,16 +5540,17 @@
       "swing",
       "dixieland-revival"
     ],
-    "resumo": "Bebop or bop is a style of jazz developed in the early to mid-1940s in the United States.",
+    "resumo": "Bebop ou bop é um estilo de jazz desenvolvido entre o início e meados dos anos 1940 nos Estados Unidos.",
     "resumoFonte": {
       "url": "https://en.wikipedia.org/wiki/Bebop",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "resumoLinks": [
       {
-        "de": 27,
-        "ate": 31,
+        "de": 28,
+        "ate": 32,
         "genero": "jazz"
       }
     ],
@@ -5597,16 +5652,17 @@
       "hard-bop",
       "third-stream"
     ],
-    "som": "Modal jazz is jazz that makes use of musical modes, often modulating among them to accompany the chords instead of relying on one tonal center used across the piece.",
+    "som": "O jazz modal é o jazz que usa modos musicais, muitas vezes modulando entre eles para acompanhar os acordes, em vez de depender de um único centro tonal ao longo da peça.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Modal_jazz",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 14,
-        "ate": 18,
+        "de": 17,
+        "ate": 21,
         "genero": "jazz"
       }
     ]
@@ -5645,17 +5701,18 @@
       "modal-jazz"
     ],
     "somFrases": 1,
-    "som": "Gioia cites Beiderbecke's softening of jazz's strong rhythmic impact in favor of maintaining melodic flow, while also employing complex techniques such as unusual harmonies and whole tone scales.",
+    "som": "Gioia cita a suavização, por Beiderbecke, do forte impacto rítmico do jazz em favor da fluidez melódica, ao mesmo tempo em que usava técnicas complexas, como harmonias incomuns e escalas de tons inteiros.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Cool_jazz#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 39,
-        "ate": 43,
+        "de": 70,
+        "ate": 74,
         "genero": "jazz"
       }
     ]
@@ -5750,17 +5807,18 @@
       "hard-bop",
       "acid-jazz"
     ],
-    "som": "Mark C. Gridley, writing for the All Music Guide to Jazz, explains that soul jazz more specifically refers to music with \"an earthy, bluesy melodic concept\" and \"repetitive, dance-like rhythms.... According to Nick Morrison, the subgenre \"usually begins with the bass player\" who \"take[s] a strong bass line, establish[es] a steady groove between the bass and drums\", before the band can \"embellish that groove with riffs and melody lines\".",
+    "som": "Mark C. Gridley, escrevendo para o All Music Guide to Jazz, explica que o soul jazz se refere mais especificamente à música com \"uma concepção melódica terrosa e bluesy\" e \"ritmos repetitivos e dançantes\". Segundo Nick Morrison, o subgênero \"geralmente começa pelo baixista\", que \"faz uma linha de baixo forte e estabelece um groove firme entre o baixo e a bateria\", antes que a banda possa \"enfeitar esse groove com riffs e linhas melódicas\".",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Soul_jazz#Musical_style",
       "idioma": "en",
       "secao": "Musical style",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 52,
-        "ate": 56,
+        "de": 54,
+        "ate": 58,
         "genero": "jazz"
       }
     ]
@@ -5806,17 +5864,18 @@
       "jazz-fusion",
       "modal-jazz"
     ],
-    "som": "Conductor and jazz writer Loren Schoenberg wrote that free jazz \"gave up on functional harmony altogether, relying instead on a far ranging, stream-of-consciousness approach to melodic variation\". Pharoah Sanders and John Coltrane used harsh overblowing or other extended techniques to elicit unconventional sounds from their instruments.",
+    "som": "O maestro e escritor de jazz Loren Schoenberg escreveu que o free jazz \"abandonou de vez a harmonia funcional, apoiando-se em vez disso numa abordagem ampla, de fluxo de consciência, para a variação melódica\". Pharoah Sanders e John Coltrane usavam sopro forçado e áspero e outras técnicas estendidas para tirar sons não convencionais de seus instrumentos.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Free_jazz#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 14,
-        "ate": 18,
+        "de": 24,
+        "ate": 28,
         "genero": "jazz"
       }
     ]
@@ -5905,11 +5964,12 @@
       "soft-rock"
     ],
     "somPular": 1,
-    "som": "The instrument that has become the most widely-associated with the genre is the saxophone inspired by players like Grover Washington Jr., Ronnie Laws, Wayne Shorter and Nathan Davis; plus a gentle, legato electric guitar (influenced by players like Wes Montgomery and Grant Green).",
+    "som": "O instrumento mais associado ao gênero é o saxofone, inspirado em músicos como Grover Washington Jr., Ronnie Laws, Wayne Shorter e Nathan Davis, além de uma guitarra elétrica suave e em legato (influenciada por músicos como Wes Montgomery e Grant Green).",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Smooth_jazz",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     }
   },
   {
@@ -5994,21 +6054,22 @@
       "acid-jazz",
       "electro-swing"
     ],
-    "som": "The music blends jazz elements with other musical styles, such as funk, electronic music, and free improvisation. Nu jazz can be very experimental in nature and can vary widely in sound and concept.",
+    "som": "A música mistura elementos do jazz com outros estilos, como funk, música eletrônica e improvisação livre. O nu jazz pode ser muito experimental e variar bastante em som e conceito.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Nu_jazz",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 17,
-        "ate": 21,
+        "de": 30,
+        "ate": 34,
         "genero": "jazz"
       },
       {
-        "de": 72,
-        "ate": 88,
+        "de": 66,
+        "ate": 83,
         "genero": "eletronica"
       }
     ]
@@ -6025,16 +6086,17 @@
       "ambient",
       "post-rock"
     ],
-    "resumo": "Nordic jazz is a style of jazz music that developed in the Nordic countries (Norway, Sweden, Denmark, Finland, and Iceland) and is characterized by a synthesis of jazz with Scandinavian folk music traditions.",
+    "resumo": "Nordic jazz é um estilo de jazz que se desenvolveu nos países nórdicos (Noruega, Suécia, Dinamarca, Finlândia e Islândia) e se caracteriza pela síntese do jazz com as tradições da música folclórica escandinava.",
     "resumoFonte": {
       "url": "https://en.wikipedia.org/wiki/Nordic_jazz",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "resumoLinks": [
       {
-        "de": 26,
-        "ate": 30,
+        "de": 27,
+        "ate": 31,
         "genero": "jazz"
       }
     ],
@@ -6049,17 +6111,18 @@
       "nu-jazz",
       "post-rock"
     ],
-    "som": "These recordings established what became known as the \"ECM sound,\" characterized by spacious production and atmospheric qualities. The style emphasizes space and silence as compositional elements, with long, sustained melodic lines and flexible rhythmic interpretation rather than strict swing.",
+    "som": "Essas gravações estabeleceram o que ficou conhecido como \"som ECM\", caracterizado por uma produção espaçosa e qualidades atmosféricas. O estilo enfatiza o espaço e o silêncio como elementos de composição, com linhas melódicas longas e sustentadas e interpretação rítmica flexível, em vez do swing rígido.",
     "somFonte": {
       "url": "https://en.wikipedia.org/wiki/Nordic_jazz#Characteristics",
       "idioma": "en",
       "secao": "Characteristics",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "somLinks": [
       {
-        "de": 288,
-        "ate": 293,
+        "de": 291,
+        "ate": 296,
         "genero": "swing"
       }
     ]
@@ -6075,11 +6138,12 @@
       "nu-jazz",
       "house"
     ],
-    "resumo": "Electro swing, or swing house, is an electronic dance music genre that combines the influence of vintage or modern swing and jazz mixed with house and hip hop.",
+    "resumo": "Electro swing, ou swing house, é um gênero de música eletrônica de dança que combina a influência do swing e do jazz, antigos ou modernos, com house e hip hop.",
     "resumoFonte": {
       "url": "https://en.wikipedia.org/wiki/Electro_swing",
       "idioma": "en",
-      "licenca": "CC BY-SA 4.0"
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
     },
     "resumoLinks": [
       {
@@ -6093,8 +6157,13 @@
         "genero": "house"
       },
       {
-        "de": 125,
-        "ate": 129,
+        "de": 46,
+        "ate": 63,
+        "genero": "eletronica"
+      },
+      {
+        "de": 112,
+        "ate": 116,
         "genero": "jazz"
       },
       {

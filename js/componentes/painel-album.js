@@ -1,8 +1,10 @@
 // Caixa lateral do álbum (especificacao.md, "Página do chart"): abre ao clicar na capa de um card.
-// Mostra data de lançamento, artista, duração, faixas e links de streaming. Sobre, reviews e tags
-// entram quando as fichas tiverem esses campos.
+// Mostra data de lançamento, artista, duração, links de streaming, "Sobre este álbum" (Wikipédia)
+// e as notas da crítica em estrelas. A lista de faixas fica guardada na ficha, mas não aparece por
+// enquanto. Tags entram quando as fichas tiverem esse campo.
 // Uso: ligarPainel(elementoComCards, porId) — porId: Map id → ficha (dados.js, albuns()).
 import { esc, botoesStreaming, capaHtml } from "./card-album.js";
+import { creditoFonte } from "./resumo-genero.js";
 
 const MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
 
@@ -32,6 +34,15 @@ function criar() {
   document.body.append(painel);
 }
 
+// Nota da crítica: veículo (com link para a crítica, quando houver), estrelas e a nota original.
+function review(r) {
+  const estrelas = String(r.estrelas).replace(".", ",");
+  const nome = r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.fonte)}</a>` : esc(r.fonte);
+  return `<li><span class="review-fonte">${nome}</span>
+    <span class="estrelas" style="--nota:${r.estrelas}" role="img" aria-label="${estrelas} de 5 estrelas"></span>
+    <span class="review-nota">${esc(r.nota)}</span></li>`;
+}
+
 function conteudo(f) {
   const dados = [
     ["Lançamento", data(f.lancamento)],
@@ -46,11 +57,14 @@ function conteudo(f) {
     <p class="painel-artista">${esc(f.artista)}</p>
     ${dados.length ? `<dl class="painel-dados">${dados.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
     ${f.links && Object.keys(f.links).length ? `<ul class="painel-plataformas" aria-label="Ouvir">${botoesStreaming(f, { comNome: true })}</ul>` : ""}
-    ${f.faixas?.length ? `
-      <h3 class="painel-secao">Faixas</h3>
-      <ol class="painel-faixas">
-        ${f.faixas.map((t) => `<li><span class="faixa-n">${t.n}</span><span class="faixa-titulo">${esc(t.titulo)}</span><span class="faixa-dur">${t.duracao || ""}</span></li>`).join("")}
-      </ol>` : ""}
+    ${f.sobre ? `
+      <h3 class="painel-secao">Sobre este álbum</h3>
+      <p class="painel-sobre">${esc(f.sobre)}</p>
+      <p class="painel-fonte">${creditoFonte(f.sobreFonte)}</p>` : ""}
+    ${f.reviews?.length ? `
+      <h3 class="painel-secao">O que a crítica disse</h3>
+      <ul class="painel-reviews">${f.reviews.map(review).join("")}</ul>
+      <p class="painel-fonte">Notas reunidas na <a href="${esc(f.reviews[0].via)}" target="_blank" rel="noopener">Wikipédia</a>.</p>` : ""}
     ${f.conferir ? `<p class="painel-aviso">Dados ainda em revisão.</p>` : ""}
     ${f.musicbrainz?.releaseGroup ? `<p class="painel-fonte">Dados: <a href="https://musicbrainz.org/release-group/${esc(f.musicbrainz.releaseGroup)}" target="_blank" rel="noopener">MusicBrainz</a> · capa: Cover Art Archive</p>` : ""}`;
 }

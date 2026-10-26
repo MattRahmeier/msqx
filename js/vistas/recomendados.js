@@ -44,7 +44,7 @@ export async function render(el, [generoId]) {
   if (!genero) {
     el.innerHTML = `
       ${tituloPagina("Guia de Gêneros")}
-      <p class="vista-sub">Conheça todos os gêneros com uma lista de álbuns curada por gente que ouve muita música.</p>
+      <p class="vista-sub">Conheça cada gênero musical com uma lista de álbuns escolhidos a dedo.</p>
       ${arvore.map((m) => `
         <section class="mestre">
           <h2 class="mestre-nome"><a href="#/recomendados/${m.id}">${coroa}${esc(m.nome)}</a>

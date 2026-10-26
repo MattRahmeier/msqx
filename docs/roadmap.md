@@ -50,8 +50,10 @@
 - [x] Lista de gêneros com a mesma árvore do TrackMap (`js/arvore.js`): um bloco por mestre (com coroa), um card por gênero, sem sublistas (cada subgênero logo depois do gênero de onde saiu, com "de <gênero>"); irmãos em ordem cronológica e, na mesma década, em cadeia de proximidade (origens/similares). Gêneros com lista de álbuns ficam destacados.
 - [ ] Fotos nos cards de gênero.
 - [x] Página do gênero (`#/recomendados/<gênero>`): caminho na árvore, nome (coroa se for mestre), resumo com links e fonte, subgêneros, álbuns da lista e o disclaimer no fim. A interface não cita o site de origem das listas.
-- [x] Caixa lateral do álbum ao clicar na capa (`js/componentes/painel-album.js`): lançamento, duração, nº de faixas, tipo, links de streaming com nome, lista de faixas e fonte (MusicBrainz). Pop-up off-white à direita; no celular, sobe de baixo. Fecha com ×, Esc ou clique fora.
-- [ ] Caixa lateral: sobre (Wikipédia), 2 reviews com estrelas, tags.
+- [x] Caixa lateral do álbum ao clicar na capa (`js/componentes/painel-album.js`): lançamento, duração, nº de faixas, tipo, links de streaming com nome e fonte (MusicBrainz). Pop-up off-white à direita; no celular, sobe de baixo. Fecha com ×, Esc ou clique fora.
+- [x] Caixa lateral: "Sobre este álbum" (Wikipédia) e "O que a crítica disse" (até 2 notas positivas em estrelas, com link da crítica), por `scripts/buscar-sobre-albuns.js`. A lista de faixas saiu da caixa por enquanto (continua na ficha).
+- [x] Textos em inglês (165 "sobre", 7 resumos e 55 "como soa") traduzidos para o português, com aviso de tradução e link para o original.
+- [ ] Caixa lateral: tags.
 - [ ] "Gêneros similares" no fim da página do gênero.
 
 ## Fase 6 — Ache o Seu Som!

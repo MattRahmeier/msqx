@@ -15,8 +15,8 @@ a { color: inherit; }
 
 .icone {
   flex: none;
-  width: 24px;
-  height: 24px;
+  width: 27px;
+  height: 27px;
   fill: none;
   stroke: currentColor;
   stroke-width: 1.7;
@@ -150,7 +150,7 @@ main { margin-left: var(--largura-trilho); min-width: 0; padding: var(--esp-8); 
   transition: background var(--transicao), border-color var(--transicao), transform var(--transicao);
 }
 .opcao:hover, .opcao:focus-visible { background: var(--superficie-2); border-color: var(--texto-fraco); transform: translateY(-2px); }
-.opcao .icone { width: 32px; height: 32px; margin-bottom: var(--esp-3); }
+.opcao .icone { width: 36px; height: 36px; margin-bottom: var(--esp-3); }
 .opcao-nome { font-size: var(--t-lg); font-weight: 600; letter-spacing: -0.01em; }
 .opcao-desc { color: var(--texto-suave); font-size: var(--t-sm); }
 
@@ -309,10 +309,18 @@ body.com-painel { overflow: hidden; }
 .painel .plat:hover, .painel .plat:focus-visible { background: #000; color: var(--popup); border-color: #000; }
 
 .painel-secao { margin: 0 0 var(--esp-2); font-size: var(--t-xs); color: var(--popup-texto-suave); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; }
-.painel-faixas { list-style: none; margin: 0 0 var(--esp-4); padding: 0; font-size: var(--t-sm); }
-.painel-faixas li { display: grid; grid-template-columns: 2ch 1fr auto; gap: var(--esp-3); padding: var(--esp-2) 0; border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
-.faixa-n, .faixa-dur { color: var(--popup-texto-suave); font-variant-numeric: tabular-nums; }
-.faixa-n { text-align: right; }
+.painel-sobre { margin: 0; font-size: var(--t-sm); line-height: 1.6; }
+.painel-fonte + .painel-secao { margin-top: var(--esp-6); }
+
+.painel-reviews { list-style: none; margin: 0; padding: 0; font-size: var(--t-sm); }
+.painel-reviews li { display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: var(--esp-3); padding: var(--esp-2) 0; border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
+.review-fonte { font-weight: 500; }
+.review-fonte a { color: inherit; text-underline-offset: 2px; }
+.review-nota { color: var(--popup-texto-suave); font-variant-numeric: tabular-nums; min-width: 3.5ch; text-align: right; }
+/* Estrelas: cinco estrelas cinza com a parte da nota pintada por cima (aceita meias) */
+.estrelas { position: relative; display: inline-block; font-size: 1rem; line-height: 1; letter-spacing: 2px; color: rgba(0, 0, 0, 0.18); }
+.estrelas::before { content: "★★★★★"; }
+.estrelas::after { content: "★★★★★"; position: absolute; inset: 0 auto 0 0; width: calc(var(--nota) / 5 * 100%); overflow: hidden; color: var(--popup-texto); white-space: nowrap; }
 .painel-aviso, .painel-fonte { font-size: var(--t-xs); color: var(--popup-texto-suave); margin: var(--esp-2) 0 0; }
 .painel-fonte a { color: inherit; }
 
@@ -352,7 +360,7 @@ body.com-painel { overflow: hidden; }
   }
   .menu a[aria-current="page"] { background: transparent; }
   .rotulo { opacity: 1; }
-  .icone { width: 26px; height: 26px; }
+  .icone { width: 28px; height: 28px; }
 
   main { margin-left: 0; padding: var(--esp-6) var(--esp-4); }
 
