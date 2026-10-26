@@ -77,7 +77,9 @@
     "pai": "blues",
     "mestre": false,
     "decada": 1920,
-    "origens": [],
+    "origens": [
+      "swing"
+    ],
     "resumo": "O Texas blues é um sub-gênero do blues, não sendo limitado a músicos do Texas. O estilo tem algumas variações, mas é tipicamente tocado com mais swing que outros estilos de blues.",
     "resumoFonte": {
       "url": "https://pt.wikipedia.org/wiki/Texas_blues",
@@ -89,6 +91,11 @@
         "de": 33,
         "ate": 38,
         "genero": "blues"
+      },
+      {
+        "de": 145,
+        "ate": 150,
+        "genero": "swing"
       }
     ],
     "resumoArtigo": "pt:Texas blues",
@@ -136,7 +143,8 @@
     "mestre": false,
     "decada": 1940,
     "origens": [
-      "boogie-woogie"
+      "boogie-woogie",
+      "swing"
     ],
     "resumo": "Jump blues é um blues tocando em andamento acelerado, normalmente desempenhado por pequenos grupos e apresentando metais.",
     "resumoFonte": {
@@ -200,7 +208,8 @@
     "mestre": false,
     "decada": 1940,
     "origens": [
-      "delta-blues"
+      "delta-blues",
+      "chicago-jazz"
     ],
     "resumo": "Chicago blues é uma forma de música blues que foi criada em Chicago com a adição de instrumentos elétricos, bateria, piano, baixo e algumas vezes saxofone ao estilo básico de cordas/gaita do Delta blues.",
     "resumoFonte": {
@@ -439,7 +448,8 @@
     "decada": 1960,
     "origens": [
       "garage-rock",
-      "folk-rock"
+      "folk-rock",
+      "free-jazz"
     ],
     "resumo": "Rock psicadélico (português europeu) ou rock psicodélico (português brasileiro) (psychedelic rock, em inglês) é um subgênero do rock que se desenvolveu na metade da década de 1960 inspirado, influenciado ou representativo da cultura psicodélica, centrado na recriação da sonoridade ou ambientes oníricos, ácidos e viajantes (trip) tipicamente associados aos efeitos de drogas alucinógenas que alteram a percepção como LSD, cogumelos, mescalina e DMT. A música incorporou novos efeitos sonoros eletrônicos e técnicas de gravação, solos instrumentais estendidos e improvisação.",
     "resumoFonte": {
@@ -1454,7 +1464,8 @@
     "decada": 1970,
     "origens": [
       "folk-rock",
-      "sunshine-pop"
+      "sunshine-pop",
+      "smooth-jazz"
     ],
     "resumo": "Soft rock (ou lite rock) é um subgênero do pop e rock. As canções do estilo, que se originou no sul da Califórnia na década de 1970, são geralmente simples e melódicas com produções grandes e exuberantes.",
     "resumoFonte": {
@@ -2962,7 +2973,8 @@
     "origens": [
       "house",
       "jazz",
-      "soul"
+      "soul",
+      "jazz-fusion"
     ],
     "resumo": "Deep House (110~125 BPM) é um subgênero da House music do tipo downtime, originado na década de 1980, inicialmente fundindo elementos da Chicago House com o Jazz e o Funk com um toque de Soul music.",
     "resumoFonte": {
@@ -2975,6 +2987,11 @@
         "de": 43,
         "ate": 54,
         "genero": "house"
+      },
+      {
+        "de": 157,
+        "ate": 161,
+        "genero": "jazz"
       }
     ],
     "fontes": [
@@ -3308,6 +3325,11 @@
         "de": 106,
         "ate": 123,
         "genero": "eletronica"
+      },
+      {
+        "de": 200,
+        "ate": 209,
+        "genero": "cool-jazz"
       }
     ],
     "fontes": [
@@ -3853,7 +3875,9 @@
     "decada": 1980,
     "origens": [
       "boom-bap",
-      "jazz"
+      "jazz",
+      "soul-jazz",
+      "jazz-fusion"
     ],
     "resumo": "Jazz rap é um sub-gênero do hip hop, que incorpora influências do estilo jazz, desenvolvida no final dos anos 1980 e início de 1990.",
     "resumoFonte": {
@@ -3866,6 +3890,11 @@
         "de": 28,
         "ate": 35,
         "genero": "hip-hop"
+      },
+      {
+        "de": 73,
+        "ate": 77,
+        "genero": "jazz"
       }
     ],
     "fontes": [
@@ -3958,6 +3987,684 @@
     "similares": [
       "trap",
       "vaporwave"
+    ]
+  },
+  {
+    "id": "jazz",
+    "nome": "Jazz",
+    "pai": null,
+    "mestre": true,
+    "decada": 1910,
+    "origens": [
+      "blues",
+      "ragtime",
+      "spirituals"
+    ],
+    "resumo": "O jazz (pronuncia-se [ʤæz]) é uma manifestação artístico-musical originária de comunidades de Nova Orleans, nos Estados Unidos. Tal manifestação teria surgido por volta do final do século XIX, tendo origem na cultura popular e na criatividade das comunidades negras que ali viviam, um de seus espaços de desenvolvimento mais importantes.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Jazz",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Jazz",
+    "resumoFrases": 2,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jazz",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "blues",
+      "hip-hop"
+    ]
+  },
+  {
+    "id": "new-orleans-jazz",
+    "nome": "New Orleans Jazz",
+    "pai": "jazz",
+    "mestre": false,
+    "decada": 1910,
+    "origens": [
+      "blues",
+      "spirituals",
+      "ragtime"
+    ],
+    "resumo": "O Dixieland ou Jazz tradicional, é um subgénero de jazz criado em 1910, em Nova Orleans.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Dixieland_jazz",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 51,
+        "ate": 55,
+        "genero": "jazz"
+      }
+    ],
+    "nomesAlternativos": [
+      "dixieland",
+      "jazz de nova orleans",
+      "jazz tradicional"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dixieland_jazz",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "chicago-jazz",
+      "dixieland-revival"
+    ]
+  },
+  {
+    "id": "chicago-jazz",
+    "nome": "Chicago Jazz",
+    "pai": "jazz",
+    "mestre": false,
+    "decada": 1920,
+    "origens": [
+      "new-orleans-jazz"
+    ],
+    "resumo": "",
+    "resumoPendente": "sem artigo próprio na Wikipédia",
+    "resumoArtigo": false,
+    "fontes": [
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "new-orleans-jazz",
+      "swing"
+    ]
+  },
+  {
+    "id": "swing",
+    "nome": "Swing",
+    "pai": "jazz",
+    "mestre": false,
+    "decada": 1930,
+    "origens": [
+      "new-orleans-jazz"
+    ],
+    "resumo": "A música swing é um estilo de jazz que se desenvolveu nos Estados Unidos durante o final da década de 1920 e início da década de 1930.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Swing_(jazz)",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 30,
+        "ate": 34,
+        "genero": "jazz"
+      }
+    ],
+    "nomesAlternativos": [
+      "big band",
+      "swing music"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Swing_music",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "bebop",
+      "jump-blues"
+    ]
+  },
+  {
+    "id": "dixieland-revival",
+    "nome": "Dixieland Revival",
+    "pai": "new-orleans-jazz",
+    "mestre": false,
+    "decada": 1940,
+    "origens": [
+      "new-orleans-jazz",
+      "swing"
+    ],
+    "resumo": "Trad jazz, abreviação de \"jazz tradicional\", é uma forma de jazz nos Estados Unidos e na Grã-Bretanha que floresceu entre as décadas de 1930 e 1960, baseada no estilo anterior de jazz Dixieland de Nova Orleans.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Trad_jazz",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 26,
+        "ate": 42,
+        "genero": "new-orleans-jazz"
+      },
+      {
+        "de": 60,
+        "ate": 64,
+        "genero": "jazz"
+      }
+    ],
+    "nomesAlternativos": [
+      "trad jazz"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Trad_jazz",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "new-orleans-jazz",
+      "swing"
+    ]
+  },
+  {
+    "id": "bebop",
+    "nome": "Bebop",
+    "pai": "jazz",
+    "mestre": false,
+    "decada": 1940,
+    "origens": [
+      "swing",
+      "dixieland-revival"
+    ],
+    "resumo": "Bebop or bop is a style of jazz developed in the early to mid-1940s in the United States.",
+    "resumoFonte": {
+      "url": "https://en.wikipedia.org/wiki/Bebop",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 27,
+        "ate": 31,
+        "genero": "jazz"
+      }
+    ],
+    "resumoArtigo": "en:Bebop",
+    "resumoFrases": 1,
+    "nomesAlternativos": [
+      "bop"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bebop",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "hard-bop",
+      "cool-jazz"
+    ]
+  },
+  {
+    "id": "third-stream",
+    "nome": "Third Stream",
+    "pai": "jazz",
+    "mestre": false,
+    "decada": 1950,
+    "origens": [
+      "swing"
+    ],
+    "resumo": "Terceira corrente (Third stream, em inglês), é um termo criado pelo compositor Gunther Schuller, em 1957, para descrever um género musical que junta a música clássica ao jazz.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Terceira_corrente",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 170,
+        "ate": 174,
+        "genero": "jazz"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Third_stream",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "modal-jazz",
+      "cool-jazz"
+    ]
+  },
+  {
+    "id": "modal-jazz",
+    "nome": "Modal Jazz",
+    "pai": "jazz",
+    "mestre": false,
+    "decada": 1950,
+    "origens": [
+      "swing"
+    ],
+    "resumo": "Jazz modal é um dos estilos do jazz, assim denominado por utilizar o modo, em vez da progressão de acordes para a harmonia.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Jazz_modal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 31,
+        "ate": 35,
+        "genero": "jazz"
+      }
+    ],
+    "nomesAlternativos": [
+      "jazz modal"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Modal_jazz",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "hard-bop",
+      "third-stream"
+    ]
+  },
+  {
+    "id": "cool-jazz",
+    "nome": "Cool Jazz",
+    "pai": "jazz",
+    "mestre": false,
+    "decada": 1950,
+    "origens": [
+      "bebop"
+    ],
+    "resumo": "Cool jazz é um estilo de jazz surgido no final da década de 1940 em Nova Iorque.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Cool_jazz",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 25,
+        "ate": 29,
+        "genero": "jazz"
+      }
+    ],
+    "nomesAlternativos": [
+      "west coast jazz"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cool_jazz",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "bebop",
+      "modal-jazz"
+    ]
+  },
+  {
+    "id": "hard-bop",
+    "nome": "Hard Bop",
+    "pai": "bebop",
+    "mestre": false,
+    "decada": 1950,
+    "origens": [
+      "bebop",
+      "cool-jazz",
+      "gospel",
+      "rhythm-and-blues"
+    ],
+    "resumo": "Hard bop é um subgênero de jazz, trata-se de uma evolução do bebop ou bop, com influências do rhythm and blues, gospel, e blues, sendo no caso do último principalmente no saxofone e no piano.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Hard_bop",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 27,
+        "ate": 31,
+        "genero": "jazz"
+      },
+      {
+        "de": 61,
+        "ate": 66,
+        "genero": "bebop"
+      },
+      {
+        "de": 105,
+        "ate": 110,
+        "genero": "blues"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hard_bop",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "soul-jazz",
+      "bebop"
+    ]
+  },
+  {
+    "id": "soul-jazz",
+    "nome": "Soul Jazz",
+    "pai": "hard-bop",
+    "mestre": false,
+    "decada": 1950,
+    "origens": [
+      "hard-bop",
+      "rhythm-and-blues"
+    ],
+    "resumo": "O Soul jazz é um género de jazz desenvolvido a partir do hard bop, com influências de blues, gospel e R&B, característico de pequenas bandas, que habitulamente utilizavam o órgão Hammond.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Soul_jazz",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 27,
+        "ate": 31,
+        "genero": "jazz"
+      },
+      {
+        "de": 57,
+        "ate": 65,
+        "genero": "hard-bop"
+      },
+      {
+        "de": 86,
+        "ate": 91,
+        "genero": "blues"
+      }
+    ],
+    "nomesAlternativos": [
+      "jazz-funk"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Soul_jazz",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "hard-bop",
+      "acid-jazz"
+    ]
+  },
+  {
+    "id": "free-jazz",
+    "nome": "Free Jazz",
+    "pai": "jazz",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "chicago-jazz",
+      "bebop",
+      "hard-bop"
+    ],
+    "resumo": "Free Jazz ou \"New Thing\", como foi chamado mais tarde, é um estilo de jazz criado nos Estados Unidos da América por músicos afro-americanos como John Coltrane e Rashied Ali, originário do Bebop e que propunha uma liberdade de improvisação musical total do músico e de uma diferenciação de atitude musical da música produzida pelos anglo-americanos.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Free_jazz",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 70,
+        "ate": 74,
+        "genero": "jazz"
+      },
+      {
+        "de": 188,
+        "ate": 193,
+        "genero": "bebop"
+      }
+    ],
+    "nomesAlternativos": [
+      "avant-garde jazz",
+      "jazz de vanguarda"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Free_jazz",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "jazz-fusion",
+      "modal-jazz"
+    ]
+  },
+  {
+    "id": "jazz-fusion",
+    "nome": "Jazz Fusion",
+    "pai": "jazz",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "soul-jazz",
+      "free-jazz",
+      "psychedelic-rock",
+      "funk"
+    ],
+    "resumo": "Jazz fusion é um gênero musical desenvolvido no final dos anos 60, que fundiu o jazz, o rock, e o funk.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Jazz_fusion",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 80,
+        "ate": 84,
+        "genero": "jazz"
+      },
+      {
+        "de": 88,
+        "ate": 92,
+        "genero": "rock"
+      }
+    ],
+    "nomesAlternativos": [
+      "fusion",
+      "jazz rock",
+      "jazz-rock"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jazz_fusion",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "progressive-rock",
+      "smooth-jazz"
+    ]
+  },
+  {
+    "id": "smooth-jazz",
+    "nome": "Smooth Jazz",
+    "pai": "jazz-fusion",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "jazz-fusion",
+      "lounge",
+      "philly-soul"
+    ],
+    "resumo": "O smooth jazz (em português, 'jazz suave'), também por vezes referida como new adult contemporary music ('nova música contemporânea para adultos'), é um gênero que usa alguma improvisação, instrumentos tradicionalmente associados ao jazz e influências estilizadas do R&B e também do funk e do pop.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Smooth_jazz",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 30,
+        "ate": 34,
+        "genero": "jazz"
+      },
+      {
+        "de": 293,
+        "ate": 296,
+        "genero": "pop"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Smooth_jazz",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "jazz-fusion",
+      "soft-rock"
+    ]
+  },
+  {
+    "id": "acid-jazz",
+    "nome": "Acid Jazz",
+    "pai": "jazz",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "soul-jazz",
+      "jazz-fusion",
+      "acid-house",
+      "boom-bap",
+      "funk"
+    ],
+    "resumo": "Acid jazz, também conhecido como club jazz, é um gênero musical que combina elementos do soul music, jazz, funk e música disco particularmente com batidas loop.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Acid_jazz",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 38,
+        "ate": 42,
+        "genero": "jazz"
+      }
+    ],
+    "nomesAlternativos": [
+      "jazzdance",
+      "jazz dance"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Acid_jazz",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "nu-jazz",
+      "trip-hop"
+    ]
+  },
+  {
+    "id": "nu-jazz",
+    "nome": "Nu Jazz",
+    "pai": "jazz",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "acid-jazz",
+      "jazz-fusion",
+      "lounge"
+    ],
+    "resumo": "Nu jazz (também escrito nü-jazz ou NuJazz, é às vezes chamado de New Urban Jazz, electronic jazz, electro-jazz, e-jazz, jazztronica, jazz house, phusion, \"neo-jazz\" e future jazz), é um termo surgido na década de 1990 para referenciar o gênero jazz misturado com outros elementos e estilos musicais, como o funk, soul music, electronic dance music, e outras improvisações livres.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Nu_jazz",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 75,
+        "ate": 79,
+        "genero": "jazz"
+      },
+      {
+        "de": 138,
+        "ate": 143,
+        "genero": "house"
+      }
+    ],
+    "nomesAlternativos": [
+      "electro jazz",
+      "jazztronica"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nu_jazz",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "acid-jazz",
+      "electro-swing"
+    ]
+  },
+  {
+    "id": "nordic-jazz",
+    "nome": "Nordic Jazz",
+    "pai": "jazz",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "bebop",
+      "nu-jazz",
+      "ambient",
+      "post-rock"
+    ],
+    "resumo": "Nordic jazz is a style of jazz music that developed in the Nordic countries (Norway, Sweden, Denmark, Finland, and Iceland) and is characterized by a synthesis of jazz with Scandinavian folk music traditions.",
+    "resumoFonte": {
+      "url": "https://en.wikipedia.org/wiki/Nordic_jazz",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 26,
+        "ate": 30,
+        "genero": "jazz"
+      }
+    ],
+    "nomesAlternativos": [
+      "jazz nórdico"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nordic_jazz",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "nu-jazz",
+      "post-rock"
+    ]
+  },
+  {
+    "id": "electro-swing",
+    "nome": "Electro Swing",
+    "pai": "swing",
+    "mestre": false,
+    "decada": 2000,
+    "origens": [
+      "swing",
+      "nu-jazz",
+      "house"
+    ],
+    "resumo": "Electro swing, or swing house, is an electronic dance music genre that combines the influence of vintage or modern swing and jazz mixed with house and hip hop.",
+    "resumoFonte": {
+      "url": "https://en.wikipedia.org/wiki/Electro_swing",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 18,
+        "ate": 23,
+        "genero": "swing"
+      },
+      {
+        "de": 24,
+        "ate": 29,
+        "genero": "house"
+      },
+      {
+        "de": 125,
+        "ate": 129,
+        "genero": "jazz"
+      },
+      {
+        "de": 151,
+        "ate": 158,
+        "genero": "hip-hop"
+      }
+    ],
+    "resumoArtigo": "en:Electro swing",
+    "resumoFrases": 1,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Electro_swing",
+      "https://musicmap.info/"
+    ],
+    "similares": [
+      "nu-jazz",
+      "swing"
     ]
   }
 ]
