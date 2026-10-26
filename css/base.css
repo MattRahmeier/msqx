@@ -146,7 +146,13 @@ main { margin-left: var(--largura-trilho); min-width: 0; padding: var(--esp-8); 
 /* Guia de Gêneros */
 .voltar { display: inline-block; margin-bottom: var(--esp-4); color: var(--texto-suave); text-decoration: none; font-size: var(--t-sm); }
 .voltar:hover { color: var(--texto); }
-.disclaimer { color: var(--texto-fraco); font-size: var(--t-xs); margin: calc(-1 * var(--esp-3)) 0 var(--esp-6); max-width: 70ch; }
+.disclaimer { color: var(--texto-fraco); font-size: var(--t-xs); margin: var(--esp-8) 0 0; padding-top: var(--esp-4); border-top: 1px solid var(--borda); max-width: 70ch; }
+.vista-resumo { max-width: 70ch; margin: 0 0 var(--esp-8); }
+.resumo-genero { margin: 0; color: var(--texto-suave); }
+.resumo-genero a { color: var(--texto); text-decoration-color: var(--texto-fraco); text-underline-offset: 2px; }
+.resumo-genero a:hover { text-decoration-color: var(--texto); }
+.resumo-fonte { margin: var(--esp-2) 0 0; font-size: var(--t-xs); color: var(--texto-fraco); }
+.resumo-fonte a { color: inherit; }
 
 .lista-charts { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--esp-4); }
 .chart-link {

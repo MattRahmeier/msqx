@@ -4,6 +4,7 @@
 import { chartsTranscritos, albuns, generos } from "../dados.js";
 import { cardAlbum, esc } from "../componentes/card-album.js";
 import { ligarPainel } from "../componentes/painel-album.js";
+import { resumoGenero } from "../componentes/resumo-genero.js";
 
 export async function render(el, [chartId]) {
   const [lista, gen] = await Promise.all([chartsTranscritos(), generos()]);
@@ -13,7 +14,7 @@ export async function render(el, [chartId]) {
   if (!chart) {
     el.innerHTML = `
       <h1 class="vista-titulo">Guia de Gêneros</h1>
-      <p class="vista-sub">As listas essenciais do /mu/, gênero por gênero.</p>
+      <p class="vista-sub">Os discos essenciais de cada gênero.</p>
       <ul class="lista-charts">
         ${lista.map((c) => `
           <li><a class="chart-link" href="#/recomendados/${c.id}">
@@ -30,8 +31,8 @@ export async function render(el, [chartId]) {
   el.innerHTML = `
     <a class="voltar" href="#/recomendados">← Guia de Gêneros</a>
     <h1 class="vista-titulo">${esc(nomesGeneros(chart))}</h1>
-    <p class="vista-sub">${esc(chart.titulo)} · ${fichas.length} álbuns</p>
-    <p class="disclaimer">Listas curadas por usuários da internet. Podem não refletir a totalidade do gênero, mas são um bom ponto de partida.</p>
-    <div class="grade-albuns">${fichas.map((f) => cardAlbum(f)).join("")}</div>`;
+    <div class="vista-resumo">${chart.generos.map((g) => resumoGenero(gen.porId.get(g))).join("")}</div>
+    <div class="grade-albuns">${fichas.map((f) => cardAlbum(f)).join("")}</div>
+    <p class="disclaimer">Listas curadas por usuários da internet. Podem não refletir a totalidade do gênero, mas são um bom ponto de partida.</p>`;
   ligarPainel(el.querySelector(".grade-albuns"), porId);
 }
