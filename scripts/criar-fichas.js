@@ -120,6 +120,8 @@ async function baixarCapa(grupoId, versoes, id) {
 
 // Correções manuais (data/albuns/correcoes.json): { "<id da ficha>": "<MBID do release-group>" }.
 // null = o álbum não está no MusicBrainz (a ficha fica só com o que veio do chart).
+// Objeto { "releaseGroup": "<MBID>", "titulo": "...", "artista": "..." } quando o nome do MusicBrainz
+// não é o usual (ex.: título original em alemão); titulo/artista substituem os do MusicBrainz.
 const ARQ_CORRECOES = path.join(RAIZ, "data", "albuns", "correcoes.json");
 const correcoes = fs.existsSync(ARQ_CORRECOES) ? JSON.parse(fs.readFileSync(ARQ_CORRECOES, "utf8")) : {};
 
@@ -132,7 +134,8 @@ async function grupoCorrigido(mbid) {
 
 async function criarFicha(id, artista, titulo) {
   if (correcoes[id] === null) return { id, titulo, artista, conferir: "não está no MusicBrainz (correcoes.json)" };
-  const achado = correcoes[id] ? await grupoCorrigido(correcoes[id]) : await buscarGrupo(artista, titulo);
+  const correcao = typeof correcoes[id] === "string" ? { releaseGroup: correcoes[id] } : correcoes[id];
+  const achado = correcao ? await grupoCorrigido(correcao.releaseGroup) : await buscarGrupo(artista, titulo);
   // Crédito só em escrita não latina (ex.: "坂本龍一"): fica o nome como está no chart.
   if (achado && !/[a-z]/i.test(achado.credito)) achado.credito = artista;
   if (!achado) return { id, titulo, artista, conferir: "não encontrado no MusicBrainz" };
@@ -171,6 +174,8 @@ async function criarFicha(id, artista, titulo) {
     ficha.conferir = `MusicBrainz retornou "${achado.credito} — ${g.title}" para "${artista} — ${titulo}"`;
   }
   if (!ficha.capa) ficha.conferir = [ficha.conferir, "sem capa no Cover Art Archive"].filter(Boolean).join("; ");
+  if (correcao?.titulo) ficha.titulo = correcao.titulo;
+  if (correcao?.artista) ficha.artista = correcao.artista;
   return ficha;
 }
 

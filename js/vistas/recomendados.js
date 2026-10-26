@@ -1,10 +1,9 @@
 // Guia de Gêneros (Recomendados pela Internet) — Fase 5 (roadmap.md).
 // #/recomendados: charts transcritos · #/recomendados/<chart>: grade de cards de álbum do chart.
-// Os cards de gênero com foto e a caixa lateral do álbum ainda virão.
+// Clicar na capa abre a caixa lateral do álbum. Os cards de gênero com foto ainda virão.
 import { chartsTranscritos, albuns, generos } from "../dados.js";
-import { cardAlbum } from "../componentes/card-album.js";
-
-const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+import { cardAlbum, esc } from "../componentes/card-album.js";
+import { ligarPainel } from "../componentes/painel-album.js";
 
 export async function render(el, [chartId]) {
   const [lista, gen] = await Promise.all([chartsTranscritos(), generos()]);
@@ -34,4 +33,5 @@ export async function render(el, [chartId]) {
     <p class="vista-sub">${esc(chart.titulo)} · ${fichas.length} álbuns</p>
     <p class="disclaimer">Listas curadas por usuários da internet. Podem não refletir a totalidade do gênero, mas são um bom ponto de partida.</p>
     <div class="grade-albuns">${fichas.map((f) => cardAlbum(f)).join("")}</div>`;
+  ligarPainel(el.querySelector(".grade-albuns"), porId);
 }

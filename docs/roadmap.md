@@ -44,7 +44,10 @@
 
 ## Fase 5 — Recomendados pela Internet
 - [ ] Grade de cards de gênero.
-- [ ] Página do chart com ficha do álbum, disclaimer e "Gêneros similares".
+- [x] Página do chart (`#/recomendados/<chart>`) com grade de cards e disclaimer.
+- [x] Caixa lateral do álbum ao clicar na capa (`js/componentes/painel-album.js`): lançamento, duração, nº de faixas, tipo, links de streaming com nome, lista de faixas e fonte (MusicBrainz). Pop-up off-white à direita; no celular, sobe de baixo. Fecha com ×, Esc ou clique fora.
+- [ ] Caixa lateral: sobre (Wikipédia), 2 reviews com estrelas, tags.
+- [ ] "Gêneros similares" no fim da página do chart.
 
 ## Fase 6 — Ache o Seu Som!
 - [ ] Índice de busca no cliente; filtros álbum/artista/faixa.

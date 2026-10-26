@@ -6,8 +6,14 @@
   "dizzy-gillespie-and-stan-getz-diz-and-getz": "810e0bfb-f502-3ad0-a345-e25eb4ac140e",
   "freddie-king-lets-dance-and-hide-away": "c5e9cfff-c935-3dd6-8e0e-21062db7bac1",
   "howlin-wolf-the-rockin-chair-album": "8619edca-cb46-355d-a3a0-d27ca32fab2d",
-  "kraftwerk-computer-world": "2e58b620-cf80-3b07-a5bc-edabd69ba285",
-  "kraftwerk-the-man-machine": "d147e89b-90ca-35b6-9f7b-3e34b8edf63f",
+  "kraftwerk-computer-world": {
+    "releaseGroup": "2e58b620-cf80-3b07-a5bc-edabd69ba285",
+    "titulo": "Computer World"
+  },
+  "kraftwerk-the-man-machine": {
+    "releaseGroup": "d147e89b-90ca-35b6-9f7b-3e34b8edf63f",
+    "titulo": "The Man-Machine"
+  },
   "lead-belly-where-did-you-sleep-last-night": "452a5573-d496-3062-8ce2-c8e7afd399e4",
   "lee-morgan-lee-morgan-sextet": "d701c64b-3e9e-3fba-9175-3782a2f30e94",
   "madlib-shades-of-blue": "ce569c5b-b67b-3e0c-b4c0-04d916d13891",
@@ -16,7 +22,10 @@
   "rory-gallagher-irish-tour": "a512f8cf-7f54-3f18-aa34-be88cf6b1347",
   "ryuichi-sakamoto-the-thousand-knives-of-ryuichi-sakamoto": "e47e1a1f-5060-3ec2-9444-f93c2212ec49",
   "shining-v-halmstad": "4f5d8a7d-eeba-3c19-baf7-39f81895fc98",
-  "taake-nattestid-ser-porten-vid": "94c16071-c375-3b6e-82fb-066df1684662",
+  "taake-nattestid-ser-porten-vid": {
+    "releaseGroup": "94c16071-c375-3b6e-82fb-066df1684662",
+    "titulo": "Nattestid ser porten vid"
+  },
   "tommy-johnson-complete-recorded-works": "5f859c5a-29f5-3661-bd0d-1954bbec90eb",
   "tribe-a-message-from-the-tribe": "196ba501-f0b7-4dd8-9a11-afe46abd7ace",
   "tubby-hayes-and-clark-terry-the-new-york-sessions": null,
