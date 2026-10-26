@@ -17,12 +17,14 @@
 - [ ] Resumo pendente — **fica separado na árvore**; o usuário vai escrever ou indicar a fonte: Abstract Hip Hop e Chicago Jazz (a Wikipédia o trata dentro de Dixieland). Ao receber, preencher `resumo` e `resumoFonte` à mão (ou `resumoArtigo` se for outra página da Wikipédia) e remover `resumoArtigo: false`/`resumoPendente`.
 - [x] Menções a outros gêneros nos resumos marcadas como links (`resumoLinks`, `scripts/ligar-resumos.js`).
 - [ ] Revisão da árvore pelo usuário (nomes, hierarquia, o que falta ou sobra).
-- [ ] Charts das Essential Charts transcritos para JSON.
+- [x] Índice das 541 Essential Charts (`data/charts/mu-essential-charts.json`) e imagens baixadas em `fontes/mu-charts/` (`scripts/baixar-charts.js`).
+- [ ] Charts das Essential Charts transcritos para JSON (álbuns de cada imagem), começando pelos do piloto.
 - [ ] Fichas de álbuns: metadados, tags, 2 reviews positivos, links.
 - [ ] Scripts de coleta/validação em `scripts/`.
 
 ## Fase 2 — Base do site
-- [ ] Layout com barra lateral, tema escuro, tokens de cor/tipografia.
+- [x] Esqueleto: `index.html`, barra lateral (vira navegação inferior no celular), tokens em `css/tokens.css`, rotas por hash em `js/app.js` (`#/cerebro`, `#/curadoria`, `#/recomendados`, `#/busca`; parâmetros extras, ex. `#/cerebro/heavy-metal`), carregamento de dados em `js/dados.js`, uma vista por área em `js/vistas/`.
+- [ ] Layout final com tema escuro refinado.
 - [ ] Ícones das plataformas.
 - [ ] Componente de card de álbum (capa + botões de streaming).
 

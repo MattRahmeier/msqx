@@ -1,0 +1,51 @@
+/* Tokens do tema. O site é sempre escuro (especificação: "muito similar a dark mode"). */
+:root {
+  /* Superfícies: preto-concreto e variações um pouco mais claras */
+  --fundo: #141414;
+  --superficie: #1c1c1c;
+  --superficie-2: #252525;
+  --borda: #2f2f2f;
+
+  /* Texto */
+  --texto: #f4f4f2;
+  --texto-suave: #a7a7a2;
+  --texto-fraco: #6e6e6a;
+
+  /* Pop-ups em off-white */
+  --popup: #efece5;
+  --popup-texto: #1a1a18;
+  --popup-texto-suave: #55554f;
+
+  /* Destaque único, discreto */
+  --destaque: #e8e3d6;
+
+  /* Linhas do cérebro (modelo-de-dados.md) */
+  --linha-hierarquia: rgba(244, 244, 242, 0.28);
+  --linha-origem: rgba(232, 227, 214, 0.55);
+  --linha-similar: rgba(244, 244, 242, 0.10);
+
+  /* Tipografia */
+  --fonte: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --t-xs: 0.75rem;
+  --t-sm: 0.875rem;
+  --t-md: 1rem;
+  --t-lg: 1.25rem;
+  --t-xl: 1.75rem;
+
+  /* Espaço, forma e movimento */
+  --esp-1: 4px;
+  --esp-2: 8px;
+  --esp-3: 12px;
+  --esp-4: 16px;
+  --esp-6: 24px;
+  --esp-8: 32px;
+  --raio: 10px;
+  --raio-lg: 16px;
+  --sombra-popup: 0 12px 40px rgba(0, 0, 0, 0.45);
+  --transicao: 180ms ease;
+
+  --largura-barra: 240px;
+  --altura-barra-mobile: 64px;
+
+  color-scheme: dark;
+}

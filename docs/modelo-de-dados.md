@@ -78,6 +78,28 @@ Uma edição por arquivo, nomeado `AAAA-MM-DD-<autor>.json` (data de publicaçã
 - `albuns` tem **exatamente 5** itens. `album` aponta para um ID de `data/albuns/`; se o disco ainda não existir lá, cadastrar a ficha dele (assim ele também entra na busca).
 - `rede` usa um nome fixo (`instagram`, `x`, `bluesky`, `youtube`, `rym`, `lastfm`, `spotify`, `site`) para o site escolher o ícone.
 
+## `data/charts/mu-essential-charts.json` (índice das Essential Charts)
+
+Gerado por `node scripts/baixar-charts.js` a partir das galerias de https://4chanmusic.miraheze.org/wiki/Essential_Charts. Um item por chart:
+
+```json
+{
+  "id": "black-metal-2",
+  "titulo": "Black Metal 2",
+  "secao": "Genres",
+  "generos": ["black-metal"],
+  "arquivoWiki": "Black Metal 2.jpg",
+  "url": "https://static.miraheze.org/4chanmusicwiki/...",
+  "bytes": 1234567, "largura": 1500, "altura": 1500,
+  "imagemLocal": "fontes/mu-charts/black-metal-2.jpg",
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts"
+}
+```
+
+- `secao`: `/mu/core`, `Genres`, `Countries` ou `Other`, como na wiki.
+- `generos` é uma **sugestão automática** a partir do título (mesma regra dos links dos resumos); revisar ao transcrever.
+- As imagens ficam em `fontes/mu-charts/`, **fora do git** (são colagens de capas com direitos reservados e somam ~780 MB). Servem de fonte para transcrever os álbuns de cada chart; o site exibe capas individuais (Cover Art Archive/Discogs), não as colagens.
+
 ## `data/charts/<genero>.json`
 
 ```json

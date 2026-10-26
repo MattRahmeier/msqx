@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MusiqueScout</title>
+  <meta name="description" content="Curadoria Humana Organizada por IA.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <nav class="barra" aria-label="Seções">
+    <a class="marca" href="#/cerebro">
+      <span class="marca-nome">MusiqueScout</span>
+      <span class="marca-sub">Curadoria Humana Organizada por IA</span>
+    </a>
+    <ul class="menu">
+      <li><a href="#/cerebro" data-rota="cerebro">Visão de Cérebro</a></li>
+      <li><a href="#/curadoria" data-rota="curadoria">Curadoria da Semana</a></li>
+      <li><a href="#/recomendados" data-rota="recomendados">Recomendados pela Internet</a></li>
+      <li><a href="#/busca" data-rota="busca">Ache o Seu Som!</a></li>
+    </ul>
+  </nav>
+
+  <main id="conteudo" tabindex="-1"></main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

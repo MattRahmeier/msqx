@@ -4,7 +4,17 @@
 
 Site de curadoria musical que organiza a história e a catalogação dos gêneros numa visão de "segundo cérebro": um mapa de gêneros mestres e subgêneros interligados, charts recomendados pela internet e uma busca interna de álbuns.
 
-> Status: **estrutura organizada, desenvolvimento não iniciado.**
+> Status: **dados em montagem (Fase 1) e esqueleto do site pronto; as áreas ainda estão em construção.**
+
+## Rodar localmente
+
+O site é estático, mas precisa de um servidor (os dados são carregados com `fetch`). Da pasta `Projetos`:
+
+```bash
+node .claude/serve.js sites/musique-scout 5175
+```
+
+e abra http://localhost:5175. Scripts de dados ficam em `scripts/` (ver `docs/modelo-de-dados.md`).
 > Fonte da especificação: página "Musique Scout" no Notion (copiada e organizada em `docs/`).
 
 ## Estrutura
@@ -28,9 +38,11 @@ musique-scout/
 │  ├─ img/capas/        capas de álbuns/playlists
 │  ├─ img/autores/      fotos dos autores convidados
 │  └─ icones/           ícones de plataformas (Spotify, YouTube, Qobuz…)
-├─ css/                 estilos
-├─ js/                  código do site
-└─ scripts/             scripts de coleta/geração de dados
+├─ index.html           página única do site
+├─ css/                 tokens.css (cores, tipografia) e base.css
+├─ js/                  app.js (rotas), dados.js (JSON), vistas/ (uma por área)
+├─ scripts/             coleta, geração e validação de dados
+└─ fontes/              material de referência baixado (fora do git), ex.: mu-charts/
 ```
 
 ## Áreas do site

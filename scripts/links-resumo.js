@@ -15,6 +15,7 @@
 const TERMOS_FORA_DA_ARVORE = [
   "breakbeat hardcore", "southern rock", "acid rock", "art rock", "country blues",
   "power ambient", "drone doom", "road rap",
+  "witch house", "electro house", "new wave of traditional", "pop punk",
 ];
 
 function escapar(s) {
@@ -32,29 +33,31 @@ function termos(generos) {
     .map((x) => ({ ...x, re: new RegExp(`(?<![\\p{L}\\p{N}-])${escapar(x.termo)}(?![\\p{L}\\p{N}-])`, "giu") }));
 }
 
+// Primeira menção de cada gênero num texto qualquer; `ignorar` é o gênero dono do texto.
+function mencoes(texto, lista, ignorar = null) {
+  const reservados = [];
+  const links = [];
+  const ligados = new Set([ignorar]);
+  for (const { id, re } of lista) {
+    re.lastIndex = 0;
+    for (let m; (m = re.exec(texto)); ) {
+      const de = m.index, ate = m.index + m[0].length;
+      if (reservados.some((r) => de < r.ate && ate > r.de)) continue;
+      reservados.push({ de, ate });
+      if (id && !ligados.has(id)) {
+        links.push({ de, ate, genero: id });
+        ligados.add(id);
+      }
+    }
+  }
+  return links.sort((a, b) => a.de - b.de);
+}
+
 function calcularLinks(generos) {
   const lista = termos(generos);
   const resultado = new Map();
-  for (const g of generos) {
-    if (!g.resumo) continue;
-    const reservados = [];
-    const links = [];
-    const ligados = new Set([g.id]);
-    for (const { id, re } of lista) {
-      re.lastIndex = 0;
-      for (let m; (m = re.exec(g.resumo)); ) {
-        const de = m.index, ate = m.index + m[0].length;
-        if (reservados.some((r) => de < r.ate && ate > r.de)) continue;
-        reservados.push({ de, ate });
-        if (id && !ligados.has(id)) {
-          links.push({ de, ate, genero: id });
-          ligados.add(id);
-        }
-      }
-    }
-    resultado.set(g.id, links.sort((a, b) => a.de - b.de));
-  }
+  for (const g of generos) if (g.resumo) resultado.set(g.id, mencoes(g.resumo, lista, g.id));
   return resultado;
 }
 
-module.exports = { calcularLinks };
+module.exports = { calcularLinks, mencoes, termos };
