@@ -19,6 +19,17 @@ export async function generos() {
 
 export const charts = () => carregar("data/charts/mu-essential-charts.json");
 
+// Charts já transcritos (data/charts/mu/), na ordem de mu-transcritos.json.
+export async function chartsTranscritos() {
+  const ids = await carregar("data/charts/mu-transcritos.json");
+  return Promise.all(ids.map((id) => carregar(`data/charts/mu/${id}.json`)));
+}
+
+export async function albuns() {
+  const lista = await carregar("data/albuns/albuns.json");
+  return { lista, porId: new Map(lista.map((a) => [a.id, a])) };
+}
+
 export async function curadorias() {
   const ids = await carregar("data/curadorias/indice.json");
   return Promise.all(ids.map((id) => carregar(`data/curadorias/${id}.json`)));

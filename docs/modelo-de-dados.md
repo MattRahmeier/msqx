@@ -127,6 +127,7 @@ Um arquivo por chart; `id` igual ao do índice. Os álbuns são copiados da imag
 - Campos extras usados quando o chart traz a informação: `ano`, `subestilos` (ex.: cor da borda no chart de IDM), `inicio` (álbum de entrada recomendado).
 - `transcricao.status`: `revisar` até alguém conferir com a imagem; depois `conferido`.
 - Validação: `node scripts/validar-charts.js` (lista também os itens a conferir).
+- `data/charts/mu-transcritos.json` lista os ids dos charts transcritos, na ordem em que o Guia de Gêneros os mostra (o GitHub Pages não lista pastas). Acrescente o id ao transcrever um chart novo.
 - Cada álbum identificado aponta para sua ficha pelo campo `album` (gravado por `scripts/criar-fichas.js`).
 
 ## `data/albuns/albuns.json` (fichas de álbum)

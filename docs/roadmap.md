@@ -28,8 +28,8 @@
 ## Fase 2 — Base do site
 - [x] Esqueleto: `index.html`, barra lateral (vira navegação inferior no celular), tokens em `css/tokens.css`, rotas por hash em `js/app.js` (`#/cerebro`, `#/curadoria`, `#/recomendados`, `#/busca`; parâmetros extras, ex. `#/cerebro/heavy-metal`), carregamento de dados em `js/dados.js`, uma vista por área em `js/vistas/`.
 - [ ] Layout final com tema escuro refinado.
-- [ ] Ícones das plataformas.
-- [ ] Componente de card de álbum (capa + botões de streaming).
+- [x] Ícones das plataformas (sprite em `index.html`: Spotify, YouTube, Qobuz, Apple Music, Deezer, Tidal, Bandcamp).
+- [x] Componente de card de álbum (`js/componentes/card-album.js`): capa, título, artista · ano e botões de streaming — preenchidos com link direto, contornados quando abrem a busca. Em uso nas páginas de chart do Guia de Gêneros (`#/recomendados/<chart>`).
 
 ## Fase 3 — Visão de Cérebro
 - [ ] Grafo animado, expansão por clique, hover.
