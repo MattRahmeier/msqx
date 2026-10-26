@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "musique-scout",
+      "name": "tracklore",
       "runtimeExecutable": "node",
       "runtimeArgs": ["../../.claude/serve.js", ".", "5175"],
       "port": 5175

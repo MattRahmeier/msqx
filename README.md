@@ -11,7 +11,7 @@ Site de curadoria musical que organiza a história e a catalogação dos gênero
 O site é estático, mas precisa de um servidor (os dados são carregados com `fetch`). Da pasta `Projetos`:
 
 ```bash
-node .claude/serve.js sites/musique-scout 5175
+node .claude/serve.js sites/tracklore 5175
 ```
 
 e abra http://localhost:5175. Scripts de dados ficam em `scripts/` (ver `docs/modelo-de-dados.md`).
@@ -20,7 +20,7 @@ e abra http://localhost:5175. Scripts de dados ficam em `scripts/` (ver `docs/mo
 ## Estrutura
 
 ```
-musique-scout/
+tracklore/
 ├─ README.md            este arquivo
 ├─ CLAUDE.md            guia rápido para sessões de desenvolvimento
 ├─ docs/

@@ -12,7 +12,7 @@ const { mencoes, termos } = require("./links-resumo");
 const RAIZ = path.join(__dirname, "..");
 const API = "https://4chanmusic.miraheze.org/w/api.php";
 const PAGINA = "https://4chanmusic.miraheze.org/wiki/Essential_Charts";
-const UA = { "User-Agent": "Tracklore/0.1 (https://github.com/MattRahmeier/musique-scout)" };
+const UA = { "User-Agent": "Tracklore/0.1 (https://github.com/MattRahmeier/tracklore)" };
 const SAIDA_IMG = path.join(RAIZ, "fontes", "mu-charts");
 const INDICE = path.join(RAIZ, "data", "charts", "mu-essential-charts.json");
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));

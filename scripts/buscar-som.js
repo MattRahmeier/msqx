@@ -19,7 +19,7 @@ const path = require("path");
 const arquivo = path.join(__dirname, "..", "data", "generos", "generos.json");
 const generos = JSON.parse(fs.readFileSync(arquivo, "utf8"));
 const todos = process.argv.includes("--todos");
-const UA = { "User-Agent": "Tracklore/0.1 (https://github.com/MattRahmeier/musique-scout)" };
+const UA = { "User-Agent": "Tracklore/0.1 (https://github.com/MattRahmeier/tracklore)" };
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 const MAX_CARACTERES = 600;
 

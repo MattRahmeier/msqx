@@ -2,7 +2,7 @@
 
 ## Fase 0 — Decisões (fechadas em 26/10/2026)
 - [x] **Stack:** site estático (HTML/CSS/JS puro, sem build) + **D3** para o grafo da Visão de Cérebro.
-- [x] **Hospedagem:** GitHub Pages, repositório [`MattRahmeier/musique-scout`](https://github.com/MattRahmeier/musique-scout) — **privado por enquanto**; tornar público antes de ativar o Pages (plano gratuito exige).
+- [x] **Hospedagem:** GitHub Pages, repositório [`MattRahmeier/tracklore`](https://github.com/MattRahmeier/tracklore) — **privado por enquanto**; tornar público antes de ativar o Pages (plano gratuito exige).
 - [x] **Streaming:** só links diretos do álbum (`links`), conferidos por `scripts/verificar-links.js`; sem link, sem botão. YouTube Music sempre pela playlist oficial do álbum. *(Revisto em 26/10/2026: antes era híbrido, com link de busca.)*
 - [x] **Escopo do piloto:** gêneros mestres **Blues, Rock, Pop, Metal, Eletrônica, Hip Hop e Jazz**, com subgêneros e ~5 charts completos.
   - Gêneros mestres também têm linhagem entre si: **Blues → Rock → Metal**. Essas origens aparecem no cérebro como uma **linha-guia de conexão** (ver `modelo-de-dados.md`, campo `origens`).
