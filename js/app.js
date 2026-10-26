@@ -7,7 +7,7 @@ const ROTAS = {
   recomendados: () => import("./vistas/recomendados.js"),
   busca: () => import("./vistas/busca.js"),
 };
-const PADRAO = "cerebro";
+const PADRAO = "curadoria";
 
 const conteudo = document.getElementById("conteudo");
 

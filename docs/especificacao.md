@@ -5,7 +5,7 @@ Organizado a partir da página "Musique Scout" do Notion (26/10/2026).
 ## Navegação geral
 
 - O nome do site é escrito separado: **Musique Scout**.
-- O site abre na **Visão de Cérebro** (Musique Brain).
+- O site abre na **Curadoria da Semana**, o primeiro item do menu (decisão do usuário; o Notion previa a Visão de Cérebro).
 - Barra de navegação lateral estreita; cada item tem **sempre um ícone e um nome curto**, nesta ordem:
   1. **Curadoria da Semana** (área 2 abaixo)
   2. **Musique Brain** (área 1, Visão de Cérebro)
