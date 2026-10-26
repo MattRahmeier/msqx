@@ -34,6 +34,38 @@ Piloto: `blues` (origens: []), `rock` (origens: ["blues"]), `metal` (origens: ["
 { "arquivo": "assets/img/generos/blues.jpg", "autor": "", "fonte": "https://unsplash.com/...", "licenca": "Unsplash License" }
 ```
 
+## `data/curadorias/` (Curadoria da Semana)
+
+Uma edição por arquivo, nomeado `AAAA-MM-DD-<autor>.json` (data de publicação). O site mostra a edição mais recente cuja data já chegou; as demais formam o arquivo. Para criar uma edição, copie `data/curadorias/_modelo.json` e acrescente o `id` em `data/curadorias/indice.json` (o GitHub Pages não lista pastas, então o site precisa desse índice):
+
+```json
+["2026-11-02-fulano-de-tal", "2026-11-09-ciclana"]
+```
+
+```json
+{
+  "id": "2026-11-02-fulano-de-tal",
+  "publicacao": "2026-11-02",
+  "titulo": "Discos para ouvir de madrugada",
+  "texto": "Texto do autor. Parágrafos separados por linha em branco.",
+  "albuns": [
+    { "album": "my-bloody-valentine-loveless", "nota": "Frase opcional do autor sobre o disco." }
+  ],
+  "autor": {
+    "nome": "Fulano de Tal",
+    "foto": "assets/img/autores/fulano-de-tal.jpg",
+    "bio": "Bio curta, 2–3 frases.",
+    "redes": [
+      { "rede": "instagram", "url": "https://instagram.com/..." },
+      { "rede": "rym", "url": "https://rateyourmusic.com/~..." }
+    ]
+  }
+}
+```
+
+- `albuns` tem **exatamente 5** itens. `album` aponta para um ID de `data/albuns/`; se o disco ainda não existir lá, cadastrar a ficha dele (assim ele também entra na busca).
+- `rede` usa um nome fixo (`instagram`, `x`, `bluesky`, `youtube`, `rym`, `lastfm`, `spotify`, `site`) para o site escolher o ícone.
+
 ## `data/charts/<genero>.json`
 
 ```json

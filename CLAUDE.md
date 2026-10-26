@@ -2,7 +2,7 @@
 
 Site de curadoria musical ("segundo cérebro" de gêneros). Leia antes de trabalhar:
 
-- `docs/especificacao.md` — o que construir (3 áreas + visual). É a fonte de verdade; veio da página "Musique Scout" do Notion.
+- `docs/especificacao.md` — o que construir (4 áreas + visual). É a fonte de verdade; veio da página "Musique Scout" do Notion.
 - `docs/modelo-de-dados.md` — formato dos JSON em `data/`.
 - `docs/roadmap.md` — fases e decisões em aberto. Não pule a Fase 0 sem confirmar com o usuário.
 - `docs/referencias.md` — fontes de dados e pendências de acesso (RYM/Cloudflare).

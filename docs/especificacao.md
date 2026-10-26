@@ -5,7 +5,7 @@ Organizado a partir da página "Musique Scout" do Notion (26/10/2026).
 ## Navegação geral
 
 - O site abre na **Visão de Cérebro**.
-- Barra de navegação lateral com menus para as três áreas.
+- Barra de navegação lateral com menus para as quatro áreas, nesta ordem: Visão de Cérebro, Curadoria da Semana, Recomendados pela Internet, Ache o Seu Som!
 - Navegação rápida: ir de um lugar a outro e destrinchar um gênero em poucos cliques.
 
 ## 1 — Visão de Cérebro
@@ -21,7 +21,17 @@ Grafo gigante de interconexões entre **gêneros mestres** (originários) e seus
   - os melhores/mais famosos álbuns do gênero.
   - Cada item mostra a capa com dois botões internos: **Spotify** e **YouTube**.
 
-## 2 — Recomendados pela Internet
+## 2 — Curadoria da Semana
+
+Página logo após a Visão de Cérebro (segundo item da barra lateral). Alimentada **manualmente** por um autor convidado a cada semana.
+
+- **Texto** do autor sobre a seleção (tema, contexto, por que esses discos).
+- **Cinco álbuns**, cada um com capa, artista, ano e botões de streaming (mesmo card das outras áreas, com ícones). Opcional: uma frase do autor sobre cada álbum.
+- **Bio curta do autor**, com foto.
+- **Redes sociais do autor**, como ícones com link (Instagram, X, Bluesky, RYM, Last.fm, site etc.).
+- Edições anteriores ficam acessíveis num arquivo simples (lista por data) no fim da página.
+
+## 3 — Recomendados pela Internet
 
 Versão interativa das [Essential Charts do /mu/](https://4chanmusic.miraheze.org/wiki/Essential_Charts).
 
@@ -42,7 +52,7 @@ Versão interativa das [Essential Charts do /mu/](https://4chanmusic.miraheze.or
 - **Disclaimer**: listas curadas por usuários da internet; podem não refletir a totalidade do gênero, mas são um bom ponto de partida.
 - No final: **"Gêneros similares"** com dois botões interativos levando a gêneros relacionados.
 
-## 3 — Ache o Seu Som!
+## 4 — Ache o Seu Som!
 
 Motor de busca interno sobre os álbuns recomendados, com resultados rápidos.
 

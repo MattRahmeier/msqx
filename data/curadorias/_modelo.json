@@ -1,0 +1,21 @@
+{
+  "id": "AAAA-MM-DD-nome-do-autor",
+  "publicacao": "AAAA-MM-DD",
+  "titulo": "",
+  "texto": "",
+  "albuns": [
+    { "album": "", "nota": "" },
+    { "album": "", "nota": "" },
+    { "album": "", "nota": "" },
+    { "album": "", "nota": "" },
+    { "album": "", "nota": "" }
+  ],
+  "autor": {
+    "nome": "",
+    "foto": "assets/img/autores/nome-do-autor.jpg",
+    "bio": "",
+    "redes": [
+      { "rede": "instagram", "url": "" }
+    ]
+  }
+}

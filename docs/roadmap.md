@@ -24,14 +24,20 @@
 - [ ] Grafo animado, expansão por clique, hover.
 - [ ] Pop-up de gênero + "Mais informações" (playlist e álbuns).
 
-## Fase 4 — Recomendados pela Internet
+## Fase 4 — Curadoria da Semana
+- [ ] Página logo após o cérebro: texto, 5 álbuns (cards com streaming), bio e foto do autor, ícones de redes sociais.
+- [ ] Carregar a edição mais recente por data de `data/curadorias/` + arquivo de edições anteriores.
+- [ ] Validação simples da edição (5 álbuns, IDs existentes, redes conhecidas) num script em `scripts/`.
+- [ ] Primeira edição de exemplo para testar o layout; a real vem de um autor convidado.
+
+## Fase 5 — Recomendados pela Internet
 - [ ] Grade de cards de gênero.
 - [ ] Página do chart com ficha do álbum, disclaimer e "Gêneros similares".
 
-## Fase 5 — Ache o Seu Som!
+## Fase 6 — Ache o Seu Som!
 - [ ] Índice de busca no cliente; filtros álbum/artista/faixa.
 - [ ] Copiar "Artista – Álbum", seleção múltipla, exportar .txt / clipboard.
 
-## Fase 6 — Mobile e polimento
+## Fase 7 — Mobile e polimento
 - [ ] Swipe esquerda/direita, layout empilhado.
 - [ ] Performance do grafo, acessibilidade, publicação.
