@@ -1322,9 +1322,14 @@
       "indie-pop",
       "chillwave"
     ],
-    "resumo": "",
-    "resumoPendente": "sem artigo próprio na Wikipédia",
-    "resumoArtigo": false,
+    "resumo": "Bedroom pop é um rótulo que fala mais sobre o jeito como a música é feita do que sobre como ela soa: as faixas podem passear por rock, americana, hip hop ou praticamente qualquer outro estilo.",
+    "resumoFonte": {
+      "url": "https://www.reddit.com/r/indie/comments/ivrpxy/what_is_the_difference_between_indie_pop_dream/",
+      "tipo": "parafrase",
+      "idioma": "pt",
+      "autor": null,
+      "nota": "Paráfrase de comentário em r/indie; o trecho original estava incompleto."
+    },
     "fontes": [
       "https://en.wikipedia.org/wiki/Bedroom_pop"
     ],

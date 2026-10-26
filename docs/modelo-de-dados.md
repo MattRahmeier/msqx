@@ -22,6 +22,7 @@ Arquivos JSON estáticos em `data/`, lidos pelo site no navegador. Os IDs são `
 ```
 
 - `resumo` — **sempre texto escrito por pessoas, nunca gerado por IA.** Vem das primeiras frases da Wikipédia (português; inglês quando não há artigo em português), copiadas sem alteração por `scripts/buscar-resumos.js`, com `resumoFonte` (`url`, `idioma`, `licenca: "CC BY-SA 4.0"`). Quando o artigo automático é vago ou errado, `resumoArtigo` (ex.: `"pt:Heavy metal tradicional"`) e `resumoFrases` escolhem outro artigo ou mais frases; `resumoArtigo: false` + `resumoPendente` marcam gêneros sem fonte adequada.
+  - `resumoFonte.tipo: "parafrase"` — quando a fonte não tem licença livre (ex.: comentário do Reddit indicado pelo usuário), os pontos principais são reescritos com outras palavras e a fonte fica registrada (`url`, `autor`, `nota`). Sem `tipo`, o texto é cópia literal da Wikipédia. O site deve exibir "Baseado em: <fonte>" para paráfrases e "Fonte: Wikipédia" para cópias.
 - `decada` — década aproximada de surgimento (ex.: `1980` = anos 1980). Serve para ordenar e contar a história no cérebro.
 - `playlist`, `albunsEssenciais` e `imagem` são opcionais e entram em fases posteriores (álbuns e imagens).
 - Rode `node scripts/validar-generos.js` após editar (acrescente `--wiki` para conferir os links da Wikipédia).
