@@ -15,6 +15,7 @@
 - [x] Bedroom Pop: paráfrase de comentário em r/indie indicado pelo usuário (trecho original incompleto; pode ser ampliado).
 - [x] Stoner Metal: paráfrase de texto fornecido pelo usuário (fonte original ainda não informada).
 - [ ] Resumo pendente — **fica separado na árvore**; o usuário vai escrever ou indicar a fonte: Abstract Hip Hop. Ao receber, preencher `resumo` e `resumoFonte` à mão (ou `resumoArtigo` se for outra página da Wikipédia) e remover `resumoArtigo: false`/`resumoPendente`.
+- [x] Menções a outros gêneros nos resumos marcadas como links (`resumoLinks`, `scripts/ligar-resumos.js`).
 - [ ] Revisão da árvore pelo usuário (nomes, hierarquia, o que falta ou sobra).
 - [ ] Charts das Essential Charts transcritos para JSON.
 - [ ] Fichas de álbuns: metadados, tags, 2 reviews positivos, links.
@@ -28,6 +29,7 @@
 ## Fase 3 — Visão de Cérebro
 - [ ] Grafo animado, expansão por clique, hover.
 - [ ] Pop-up de gênero + "Mais informações" (playlist e álbuns).
+- [ ] Links de gênero dentro do resumo navegam até o gênero citado.
 
 ## Fase 4 — Curadoria da Semana
 - [ ] Página logo após o cérebro: texto, 5 álbuns (cards com streaming), bio e foto do autor, ícones de redes sociais.

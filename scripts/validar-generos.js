@@ -40,6 +40,14 @@ for (const g of generos) {
   }
 }
 
+// Links dos resumos precisam bater com o texto atual.
+const { calcularLinks } = require("./links-resumo");
+const esperados = calcularLinks(generos);
+for (const g of generos) {
+  const atual = JSON.stringify(g.resumoLinks || []);
+  if (atual !== JSON.stringify(esperados.get(g.id) || [])) erros.push(`${g.id}: "resumoLinks" desatualizado (rode scripts/ligar-resumos.js)`);
+}
+
 const mestres = generos.filter((g) => g.mestre);
 console.log(`${generos.length} gêneros, ${mestres.length} mestres:`);
 for (const m of mestres) {
