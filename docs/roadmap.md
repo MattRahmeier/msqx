@@ -12,7 +12,7 @@
 ## Fase 1 — Dados
 - [x] Árvore de gêneros do piloto em `data/generos/generos.json`: 6 mestres, 110 subgêneros, com década, origens e similares. Validador em `scripts/validar-generos.js`.
 - [x] Resumos trocados por texto da Wikipédia (`scripts/buscar-resumos.js`): 113 com fonte, 3 pendentes.
-- [ ] Decidir os pendentes: Stoner Metal (a Wikipédia trata como sinônimo de Stoner Rock), Abstract Hip Hop (a Wikipédia francesa trata como sinônimo de Experimental Hip Hop) e Bedroom Pop (sem artigo próprio; a Wikipédia inclui em Lo-fi).
+- [ ] Resumos pendentes — **ficam separados na árvore**; o usuário vai escrever ou indicar a fonte: Stoner Metal, Abstract Hip Hop e Bedroom Pop. Ao receber, preencher `resumo` e `resumoFonte` à mão (ou `resumoArtigo` se for outra página da Wikipédia) e remover `resumoArtigo: false`/`resumoPendente`.
 - [ ] Revisão da árvore pelo usuário (nomes, hierarquia, o que falta ou sobra).
 - [ ] Charts das Essential Charts transcritos para JSON.
 - [ ] Fichas de álbuns: metadados, tags, 2 reviews positivos, links.
