@@ -4,8 +4,14 @@ Organizado a partir da página "Musique Scout" do Notion (26/10/2026).
 
 ## Navegação geral
 
-- O site abre na **Visão de Cérebro**.
-- Barra de navegação lateral com menus para as quatro áreas, nesta ordem: Visão de Cérebro, Curadoria da Semana, Recomendados pela Internet, Ache o Seu Som!
+- O nome do site é escrito separado: **Musique Scout**.
+- O site abre na **Visão de Cérebro** (Musique Brain).
+- Barra de navegação lateral estreita; cada item tem **sempre um ícone e um nome curto**, nesta ordem:
+  1. **Curadoria da Semana** (área 2 abaixo)
+  2. **Musique Brain** (área 1, Visão de Cérebro)
+  3. **Guia de Gêneros** (área 3, Recomendados pela Internet)
+  4. **Pesquisa** (área 4, Ache o Seu Som!)
+- No celular, a navegação fica numa faixa fixa na parte de baixo, sempre visível, com o ícone acima do nome; a marca fica no topo.
 - Navegação rápida: ir de um lugar a outro e destrinchar um gênero em poucos cliques.
 
 ## 1 — Visão de Cérebro

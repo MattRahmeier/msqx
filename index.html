@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>MusiqueScout</title>
+  <title>Musique Scout</title>
   <meta name="description" content="Curadoria Humana Organizada por IA.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,16 +12,39 @@
   <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
-  <nav class="barra" aria-label="Seções">
-    <a class="marca" href="#/cerebro">
-      <span class="marca-nome">MusiqueScout</span>
-      <span class="marca-sub">Curadoria Humana Organizada por IA</span>
+  <header class="topo">
+    <a class="marca" href="#/cerebro" aria-label="Musique Scout — início">
+      <span class="marca-nome">Musique</span>
+      <span class="marca-nome marca-nome-2">Scout</span>
     </a>
+  </header>
+
+  <nav class="barra" aria-label="Seções">
     <ul class="menu">
-      <li><a href="#/cerebro" data-rota="cerebro">Visão de Cérebro</a></li>
-      <li><a href="#/curadoria" data-rota="curadoria">Curadoria da Semana</a></li>
-      <li><a href="#/recomendados" data-rota="recomendados">Recomendados pela Internet</a></li>
-      <li><a href="#/busca" data-rota="busca">Ache o Seu Som!</a></li>
+      <li>
+        <a href="#/curadoria" data-rota="curadoria">
+          <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"/></svg>
+          <span class="rotulo">Curadoria da Semana</span>
+        </a>
+      </li>
+      <li>
+        <a href="#/cerebro" data-rota="cerebro">
+          <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="2.2"/><circle cx="5" cy="17" r="2.2"/><circle cx="19" cy="17" r="2.2"/><circle cx="12" cy="13" r="1.6"/><path d="M12 7.2v4.2M10.7 14l-4 1.9M13.3 14l4 1.9M7.2 17h9.6M6.1 15.1L10.9 6.9M17.9 15.1L13.1 6.9"/></svg>
+          <span class="rotulo">Musique Brain</span>
+        </a>
+      </li>
+      <li>
+        <a href="#/recomendados" data-rota="recomendados">
+          <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></svg>
+          <span class="rotulo">Guia de Gêneros</span>
+        </a>
+      </li>
+      <li>
+        <a href="#/busca" data-rota="busca">
+          <svg class="icone" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.3 15.3L20.5 20.5"/></svg>
+          <span class="rotulo">Pesquisa</span>
+        </a>
+      </li>
     </ul>
   </nav>
 

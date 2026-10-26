@@ -11,43 +11,65 @@ body {
   -webkit-font-smoothing: antialiased;
   display: grid;
   grid-template-columns: var(--largura-barra) 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: "topo conteudo" "barra conteudo";
 }
 
 a { color: inherit; }
 
-/* Barra lateral */
-.barra {
-  position: sticky;
-  top: 0;
-  height: 100vh;
+/* Marca: "Musique" e "Scout" em linhas separadas */
+.topo {
+  grid-area: topo;
   background: var(--superficie);
   border-right: 1px solid var(--borda);
-  padding: var(--esp-6) var(--esp-4);
-  display: flex;
-  flex-direction: column;
-  gap: var(--esp-8);
+  padding: var(--esp-6) var(--esp-4) var(--esp-4);
 }
+.marca { text-decoration: none; display: grid; line-height: 1.05; }
+.marca-nome { font-size: var(--t-lg); font-weight: 700; letter-spacing: -0.02em; }
+.marca-nome-2 { font-weight: 400; color: var(--texto-suave); }
 
-.marca { text-decoration: none; display: grid; gap: var(--esp-1); }
-.marca-nome { font-size: var(--t-lg); font-weight: 700; letter-spacing: -0.01em; }
-.marca-sub { font-size: var(--t-xs); color: var(--texto-suave); }
+/* Barra lateral: ícone + nome curto */
+.barra {
+  grid-area: barra;
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: calc(100vh - var(--altura-topo));
+  background: var(--superficie);
+  border-right: 1px solid var(--borda);
+  padding: var(--esp-2);
+}
 
 .menu { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--esp-1); }
 .menu a {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: var(--esp-3);
   padding: var(--esp-2) var(--esp-3);
   border-radius: var(--raio);
   color: var(--texto-suave);
   text-decoration: none;
   font-weight: 500;
   font-size: var(--t-sm);
+  line-height: 1.25;
   transition: background var(--transicao), color var(--transicao);
 }
 .menu a:hover { color: var(--texto); background: var(--superficie-2); }
 .menu a[aria-current="page"] { color: var(--texto); background: var(--superficie-2); }
 
+.icone {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 /* Conteúdo */
-main { min-width: 0; padding: var(--esp-8); outline: none; }
+main { grid-area: conteudo; min-width: 0; padding: var(--esp-8); outline: none; }
 
 .vista-titulo { font-size: var(--t-xl); font-weight: 700; margin: 0 0 var(--esp-2); letter-spacing: -0.02em; }
 .vista-sub { color: var(--texto-suave); margin: 0 0 var(--esp-6); max-width: 60ch; }
@@ -60,23 +82,43 @@ main { min-width: 0; padding: var(--esp-8); outline: none; }
   font-size: var(--t-sm);
 }
 
-/* Celular: barra vira navegação inferior */
+/* Celular: marca no topo, navegação fixa embaixo com ícone acima do nome */
 @media (max-width: 760px) {
-  body { grid-template-columns: 1fr; padding-bottom: var(--altura-barra-mobile); }
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "topo" "conteudo";
+    padding-bottom: calc(var(--altura-barra-mobile) + env(safe-area-inset-bottom));
+  }
+  .topo {
+    border-right: 0;
+    border-bottom: 1px solid var(--borda);
+    padding: var(--esp-3) var(--esp-4);
+  }
+  .marca { display: flex; gap: 0.3em; align-items: baseline; }
+  .marca-nome { font-size: var(--t-md); }
+
   .barra {
     position: fixed;
     top: auto; bottom: 0; left: 0; right: 0;
-    height: var(--altura-barra-mobile);
-    padding: 0 var(--esp-2);
+    height: calc(var(--altura-barra-mobile) + env(safe-area-inset-bottom));
+    padding: var(--esp-1) var(--esp-1) env(safe-area-inset-bottom);
     border-right: 0;
     border-top: 1px solid var(--borda);
-    flex-direction: row;
-    align-items: center;
     z-index: 10;
   }
-  .marca { display: none; }
-  .menu { grid-auto-flow: column; grid-auto-columns: 1fr; width: 100%; }
-  .menu a { text-align: center; font-size: var(--t-xs); padding: var(--esp-2) var(--esp-1); }
+  .menu { grid-auto-flow: column; grid-auto-columns: 1fr; height: 100%; }
+  .menu a {
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--esp-1);
+    padding: var(--esp-1);
+    font-size: 0.6875rem;
+    text-align: center;
+  }
+  .menu a[aria-current="page"] { background: transparent; }
+  .icone { width: 22px; height: 22px; }
+
   main { padding: var(--esp-6) var(--esp-4); }
 }
 
