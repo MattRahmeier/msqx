@@ -10,7 +10,8 @@
 - [x] **Imagens:** capas via API (Cover Art Archive / Discogs), salvas em `assets/img/capas/`; fotos de gênero de fontes livres (Unsplash, Wikimedia Commons) com crédito em `data/creditos.json`.
 
 ## Fase 1 — Dados
-- [ ] Árvore de gêneros (mestres → subgêneros) com resumos e similares.
+- [x] Árvore de gêneros do piloto em `data/generos/generos.json`: 5 mestres, 92 subgêneros, com resumos, década, origens e similares. Validador em `scripts/validar-generos.js`.
+- [ ] Revisão da árvore pelo usuário (nomes, hierarquia, o que falta ou sobra).
 - [ ] Charts das Essential Charts transcritos para JSON.
 - [ ] Fichas de álbuns: metadados, tags, 2 reviews positivos, links.
 - [ ] Scripts de coleta/validação em `scripts/`.

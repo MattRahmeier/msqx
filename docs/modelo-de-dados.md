@@ -6,19 +6,24 @@ Arquivos JSON estáticos em `data/`, lidos pelo site no navegador. Os IDs são `
 
 ```json
 {
-  "id": "heavy-metal",
-  "nome": "Heavy Metal",
+  "id": "metal",
+  "nome": "Metal",
   "pai": null,
   "mestre": true,
-  "origens": ["rock"],
+  "decada": 1960,
+  "origens": ["rock", "hard-rock", "blues-rock", "psychedelic-rock"],
   "resumo": "Primeira frase descritiva do gênero.",
   "fontes": ["https://en.wikipedia.org/wiki/Heavy_metal_music"],
-  "similares": ["hard-rock", "doom-metal"],
+  "similares": ["rock", "eletronica"],
   "playlist": { "spotify": "", "youtube": "" },
   "albunsEssenciais": ["black-sabbath-paranoid"],
-  "imagem": "assets/img/generos/heavy-metal.jpg"
+  "imagem": "assets/img/generos/metal.jpg"
 }
 ```
+
+- `decada` — década aproximada de surgimento (ex.: `1980` = anos 1980). Serve para ordenar e contar a história no cérebro.
+- `playlist`, `albunsEssenciais` e `imagem` são opcionais e entram em fases posteriores (álbuns e imagens).
+- Rode `node scripts/validar-generos.js` após editar (acrescente `--wiki` para conferir os links da Wikipédia).
 
 Três tipos de ligação, cada um com um estilo de linha próprio no cérebro:
 
@@ -26,7 +31,9 @@ Três tipos de ligação, cada um com um estilo de linha próprio no cérebro:
 - `origens` — linhagem histórica: de quais gêneros este surgiu. Vale também entre mestres (Blues → Rock → Metal) e desenha uma **linha-guia de conexão** sempre visível. Pode ter mais de uma origem.
 - `similares` — parentesco estético; alimenta o bloco "Gêneros similares" e, opcionalmente, linhas tênues no grafo.
 
-Piloto: `blues` (origens: []), `rock` (origens: ["blues"]), `metal` (origens: ["rock"]), `eletronica`, `hip-hop`. As origens de Eletrônica e Hip Hop fora do piloto (ex.: disco, funk, soul) ficam registradas no campo mesmo que o gênero ainda não exista no JSON; o site ignora IDs ausentes.
+Piloto: mestres `blues`, `rock` (origens incluem `blues`), `metal` (origens incluem `rock`), `eletronica` e `hip-hop`. Origens fora do piloto (ex.: `disco`, `funk`, `soul`, `jazz`, `industrial`) ficam registradas mesmo que o gênero ainda não exista no JSON; o site ignora IDs ausentes e o validador só os lista como aviso.
+
+A hierarquia (`pai`) e a linhagem (`origens`) são independentes: o Metal é mestre próprio (`pai: null`), mas tem o Rock entre suas origens; o Grindcore está sob o Metal, mas também vem do Hardcore Punk (Rock). Essas linhas cruzadas entre árvores são o que forma o "cérebro".
 
 ## `data/creditos.json`
 
