@@ -33,8 +33,9 @@ export function capaHtml(ficha, { lazy = true } = {}) {
     : `<span class="card-sem-capa" aria-hidden="true">${esc(ficha.titulo).slice(0, 1)}</span>`;
 }
 
-// `nota`: frase opcional (ex.: do autor da Curadoria da Semana).
-export function cardAlbum(ficha, { nota } = {}) {
+// `nota`: frase opcional (ex.: do autor da Curadoria da Semana). `etiqueta`: { texto, href } —
+// botão pequeno embaixo do card (ex.: o subgênero do disco na página do gênero mestre).
+export function cardAlbum(ficha, { nota, etiqueta } = {}) {
   const ano = ficha.lancamento?.slice(0, 4);
   const capa = ficha.id
     ? `<button type="button" class="card-capa" data-album="${esc(ficha.id)}" aria-label="Detalhes de ${esc(ficha.titulo)}" aria-haspopup="dialog">${capaHtml(ficha)}</button>`
@@ -48,5 +49,6 @@ export function cardAlbum(ficha, { nota } = {}) {
       </div>
       ${ficha.links && Object.keys(ficha.links).length ? `<ul class="card-plataformas" aria-label="Ouvir">${botoesStreaming(ficha)}</ul>` : ""}
       ${nota ? `<p class="card-nota">${esc(nota)}</p>` : ""}
+      ${etiqueta ? `<a class="card-etiqueta" href="${esc(etiqueta.href)}">${esc(etiqueta.texto)}</a>` : ""}
     </article>`;
 }

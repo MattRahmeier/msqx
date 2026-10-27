@@ -230,6 +230,19 @@ button.card-capa:focus-visible { outline: 2px solid var(--texto); outline-offset
 .card-titulo { margin: 0; font-size: var(--t-sm); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card-artista { margin: 0; font-size: var(--t-sm); color: var(--texto-suave); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card-artista span { color: var(--texto-fraco); }
+/* Etiqueta do subgênero embaixo do card (página do gênero mestre) */
+.card-etiqueta {
+  justify-self: start;
+  margin-top: 2px;
+  padding: 3px 8px;
+  border: 1px solid var(--borda);
+  border-radius: 6px;
+  font-size: var(--t-xs);
+  color: var(--texto-suave);
+  text-decoration: none;
+  transition: border-color var(--transicao), color var(--transicao);
+}
+.card-etiqueta:hover, .card-etiqueta:focus-visible { color: var(--texto); border-color: var(--texto-fraco); }
 .card-nota { margin: 0; font-size: var(--t-sm); color: var(--texto-suave); font-style: italic; }
 
 .card-plataformas { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--esp-1); }

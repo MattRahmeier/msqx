@@ -2,7 +2,7 @@
 // Chrome, com a sessão do usuário e em ritmo humano (decisão da Fase 0; o RYM bloqueia acesso
 // automatizado). Só a média dos usuários e o link — nenhum texto.
 // Entrada: JSON [{ "id": "<ficha>", "url": "https://rateyourmusic.com/release/...", "media": 3.71, "votos": 87 }]
-// Regras (iguais às das outras notas): só média >= 3,5 e no máximo duas notas por ficha.
+// Regras (iguais às das outras notas): estrelas arredondadas para cima, só >= 3,5, no máximo duas por ficha.
 // Uso: node scripts/aplicar-notas-rym.js notas-rym.json
 
 const fs = require("fs");
@@ -11,12 +11,14 @@ const path = require("path");
 const ARQ = path.join(__dirname, "..", "data", "albuns", "albuns.json");
 const fichas = JSON.parse(fs.readFileSync(ARQ, "utf8"));
 const notas = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
-const meio = (x) => Math.round(x * 2) / 2;
+// Estrelas de meia em meia, sempre arredondadas para cima (decisão do usuário); o 1e-9 evita que
+// erros de ponto flutuante (0,7 × 5 = 3,5000000000000004) subam meia estrela a mais.
+const meio = (x) => Math.ceil(x * 2 - 1e-9) / 2;
 
 let gravadas = 0;
 for (const n of notas) {
   const f = fichas.find((x) => x.id === n.id);
-  if (!f || !n.url || !(n.media >= 3.5)) { console.log(`– ${n.id}: ${!f ? "ficha não existe" : n.media ? `média ${n.media} abaixo de 3,5` : "sem nota"}`); continue; }
+  if (!f || !n.url || !(meio(n.media || 0) >= 3.5)) { console.log(`– ${n.id}: ${!f ? "ficha não existe" : n.media ? `média ${n.media} abaixo de 3,5` : "sem nota"}`); continue; }
   const r = { fonte: "Rate Your Music (usuários)", nota: `${n.media.toFixed(2)}/5`, estrelas: meio(n.media), url: n.url, votos: n.votos };
   f.reviews = [...(f.reviews || []).filter((x) => !/^Rate Your Music/.test(x.fonte)), r].sort((a, b) => b.estrelas - a.estrelas).slice(0, 2);
   gravadas++;

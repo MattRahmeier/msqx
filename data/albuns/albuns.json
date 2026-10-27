@@ -401,7 +401,7 @@
       {
         "fonte": "Rate Your Music (usuários)",
         "nota": "3.64/5",
-        "estrelas": 3.5,
+        "estrelas": 4,
         "url": "https://rateyourmusic.com/release/comp/ahmed-abdul-malik/jazz-sounds-of-africa/",
         "votos": 64
       }
@@ -747,7 +747,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.13/5",
-        "estrelas": 4,
+        "estrelas": 4.5,
         "url": "https://www.discogs.com/master/68304",
         "votos": 1009
       }
@@ -2169,7 +2169,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.63/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/5803",
         "votos": 405
       },
@@ -2299,7 +2299,7 @@
       {
         "fonte": "Pitchfork",
         "nota": "9.2/10",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "http://www.pitchforkmedia.com/record-reviews/b/bauhaus/in-the-flat-field.shtml",
         "via": "https://en.wikipedia.org/wiki/In_the_Flat_Field#Critical_reception"
       }
@@ -2817,7 +2817,7 @@
       {
         "fonte": "Rate Your Music (usuários)",
         "nota": "3.71/5",
-        "estrelas": 3.5,
+        "estrelas": 4,
         "url": "https://rateyourmusic.com/release/comp/big-bill-broonzy/the-young-big-bill-broonzy-1928-1935/",
         "votos": 87
       }
@@ -3545,7 +3545,7 @@
       {
         "fonte": "Rate Your Music (usuários)",
         "nota": "3.65/5",
-        "estrelas": 3.5,
+        "estrelas": 4,
         "url": "https://rateyourmusic.com/release/comp/blind-lemon-jefferson/complete-recorded-works-in-chronological-order-volume-1-1925-1926/",
         "votos": 54
       }
@@ -4503,18 +4503,18 @@
     },
     "reviews": [
       {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.58/5",
+        "estrelas": 5,
+        "url": "https://www.discogs.com/master/13440",
+        "votos": 292
+      },
+      {
         "fonte": "AllMusic",
         "nota": "4.5/5",
         "estrelas": 4.5,
         "url": "http://www.allmusic.com/album/hvis-lyset-tar-oss-mw0000626139",
         "via": "https://en.wikipedia.org/wiki/Hvis_lyset_tar_oss#Critical_reception"
-      },
-      {
-        "fonte": "Discogs (usuários)",
-        "nota": "4.58/5",
-        "estrelas": 4.5,
-        "url": "https://www.discogs.com/master/13440",
-        "votos": 292
       }
     ],
     "sobreVerificado": "2026-10-26",
@@ -6362,7 +6362,16 @@
     "complementos": {
       "lancamento": "wikipedia",
       "gravadora": "wikipedia"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.39/5",
+        "estrelas": 3.5,
+        "url": "https://rateyourmusic.com/release/album/chet-baker-sextet/chet-baker-sextet/",
+        "votos": 157
+      }
+    ]
   },
   {
     "id": "chet-baker-chet-baker-sings",
@@ -7147,7 +7156,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.53/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/416244",
         "votos": 127
       }
@@ -7402,7 +7411,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.23/5",
-        "estrelas": 4,
+        "estrelas": 4.5,
         "url": "https://www.discogs.com/master/11900",
         "votos": 141
       }
@@ -7492,18 +7501,18 @@
     },
     "reviews": [
       {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.57/5",
+        "estrelas": 5,
+        "url": "https://www.discogs.com/master/5582",
+        "votos": 202
+      },
+      {
         "fonte": "AllMusic",
         "nota": "4.5/5",
         "estrelas": 4.5,
         "url": "http://www.allmusic.com/album/transilvanian-hunger-mw0000368185",
         "via": "https://en.wikipedia.org/wiki/Transilvanian_Hunger#Critical_reception"
-      },
-      {
-        "fonte": "Discogs (usuários)",
-        "nota": "4.57/5",
-        "estrelas": 4.5,
-        "url": "https://www.discogs.com/master/5582",
-        "votos": 202
       }
     ],
     "sobreVerificado": "2026-10-26",
@@ -8704,7 +8713,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.17/5",
-        "estrelas": 4,
+        "estrelas": 4.5,
         "url": "https://www.discogs.com/master/52741",
         "votos": 343
       }
@@ -10022,7 +10031,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.51/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/29137",
         "votos": 164
       }
@@ -11315,7 +11324,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "3.7/5",
-        "estrelas": 3.5,
+        "estrelas": 4,
         "url": "https://www.discogs.com/master/72184",
         "votos": 218
       }
@@ -13275,7 +13284,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.68/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/15353",
         "votos": 275
       }
@@ -13933,7 +13942,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/9b8fa477-8b1e-4593-8de8-9593f832391f"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.29/5",
+        "estrelas": 3.5,
+        "url": "https://rateyourmusic.com/release/album/haunted_george/pile_o_meat/",
+        "votos": 44
+      }
+    ]
   },
   {
     "id": "heaven-17-penthouse-and-pavement",
@@ -15693,7 +15711,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.74/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/32287",
         "votos": 78
       }
@@ -16441,7 +16459,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.22/5",
-        "estrelas": 4,
+        "estrelas": 4.5,
         "url": "https://www.discogs.com/master/319831",
         "votos": 65
       }
@@ -18473,7 +18491,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.69/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/298369",
         "votos": 32
       }
@@ -18993,7 +19011,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.73/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/461009",
         "votos": 15
       },
@@ -19700,7 +19718,7 @@
       {
         "fonte": "Rate Your Music (usuários)",
         "nota": "4.22/5",
-        "estrelas": 4,
+        "estrelas": 4.5,
         "url": "https://rateyourmusic.com/release/comp/louis-armstrong/the-complete-hot-five-and-hot-seven-recordings/",
         "votos": 693
       }
@@ -20610,7 +20628,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.68/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/110770",
         "votos": 82
       }
@@ -20688,7 +20706,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.73/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/64368",
         "votos": 74
       }
@@ -21811,7 +21829,16 @@
         "youtubeMusic",
         "listenbrainz"
       ]
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.33/5",
+        "estrelas": 3.5,
+        "url": "https://rateyourmusic.com/release/album/mirrorthrone/carriers-of-dust/",
+        "votos": 501
+      }
+    ]
   },
   {
     "id": "mission-of-burma-vs",
@@ -22390,7 +22417,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.03/5",
-        "estrelas": 4,
+        "estrelas": 4.5,
         "url": "https://www.discogs.com/master/337732",
         "votos": 38
       }
@@ -22663,7 +22690,7 @@
       {
         "fonte": "Pitchfork",
         "nota": "8.3/10",
-        "estrelas": 4,
+        "estrelas": 4.5,
         "url": "http://www.pitchforkmedia.com/record-reviews/m/mouse-on-mars/iaora-tahiti.shtml",
         "via": "https://en.wikipedia.org/wiki/Iaora_Tahiti#Critical_reception"
       }
@@ -23130,17 +23157,17 @@
     },
     "reviews": [
       {
+        "fonte": "Metalstorm",
+        "nota": "9.1/10",
+        "estrelas": 5,
+        "url": "http://www.metalstorm.net/pub/review.php?review_id=4806",
+        "via": "https://en.wikipedia.org/wiki/OM_(Negur%C4%83_Bunget_album)#Critical_reception"
+      },
+      {
         "fonte": "AllMusic",
         "nota": "4.5/5",
         "estrelas": 4.5,
         "url": null,
-        "via": "https://en.wikipedia.org/wiki/OM_(Negur%C4%83_Bunget_album)#Critical_reception"
-      },
-      {
-        "fonte": "Metalstorm",
-        "nota": "9.1/10",
-        "estrelas": 4.5,
-        "url": "http://www.metalstorm.net/pub/review.php?review_id=4806",
         "via": "https://en.wikipedia.org/wiki/OM_(Negur%C4%83_Bunget_album)#Critical_reception"
       }
     ],
@@ -24476,7 +24503,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.63/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/171533",
         "votos": 118
       }
@@ -25253,7 +25280,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.21/5",
-        "estrelas": 4,
+        "estrelas": 4.5,
         "url": "https://www.discogs.com/master/144525",
         "votos": 80
       }
@@ -26174,7 +26201,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.17/5",
-        "estrelas": 4,
+        "estrelas": 4.5,
         "url": "https://www.discogs.com/master/173476",
         "votos": 200
       }
@@ -26280,7 +26307,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.68/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/217828",
         "votos": 44
       }
@@ -26492,7 +26519,7 @@
       {
         "fonte": "Pitchfork",
         "nota": "8.2/10",
-        "estrelas": 4,
+        "estrelas": 4.5,
         "url": "https://pitchfork.com/reviews/albums/ryuichi-sakamoto-thousand-knives-of-ryuichi-sakamoto/",
         "via": "https://en.wikipedia.org/wiki/Thousand_Knives#Critical_reception"
       }
@@ -26816,7 +26843,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.61/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/5899",
         "votos": 111
       },
@@ -27032,7 +27059,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.57/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/57285",
         "votos": 197
       },
@@ -27147,7 +27174,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.07/5",
-        "estrelas": 4,
+        "estrelas": 4.5,
         "url": "https://www.discogs.com/master/61659",
         "votos": 130
       }
@@ -28537,7 +28564,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.52/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/57183",
         "votos": 197
       }
@@ -28727,7 +28754,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.56/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/143596",
         "votos": 32
       }
@@ -29091,17 +29118,17 @@
     },
     "reviews": [
       {
+        "fonte": "Pitchfork",
+        "nota": "8.3/10",
+        "estrelas": 4.5,
+        "url": "http://pitchfork.com/reviews/albums/11838-a-trip-to-marineville-jane-from-occupied-europe/",
+        "via": "https://en.wikipedia.org/wiki/A_Trip_to_Marineville#Critical_reception"
+      },
+      {
         "fonte": "AllMusic",
         "nota": "4/5",
         "estrelas": 4,
         "url": "http://www.allmusic.com/album/a-trip-to-marineville-mw0000201483",
-        "via": "https://en.wikipedia.org/wiki/A_Trip_to_Marineville#Critical_reception"
-      },
-      {
-        "fonte": "Pitchfork",
-        "nota": "8.3/10",
-        "estrelas": 4,
-        "url": "http://pitchfork.com/reviews/albums/11838-a-trip-to-marineville-jane-from-occupied-europe/",
         "via": "https://en.wikipedia.org/wiki/A_Trip_to_Marineville#Critical_reception"
       }
     ],
@@ -29229,7 +29256,7 @@
       {
         "fonte": "Rate Your Music (usuários)",
         "nota": "3.71/5",
-        "estrelas": 3.5,
+        "estrelas": 4,
         "url": "https://rateyourmusic.com/release/album/t-bone-walker/t-bone-blues/",
         "votos": 956
       }
@@ -30275,7 +30302,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.72/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/1799167",
         "votos": 106
       }
@@ -31008,7 +31035,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.53/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/57970",
         "votos": 81
       }
@@ -32657,7 +32684,7 @@
       {
         "fonte": "Rate Your Music (usuários)",
         "nota": "3.74/5",
-        "estrelas": 3.5,
+        "estrelas": 4,
         "url": "https://rateyourmusic.com/release/album/the-tubby-hayes-quartet/mexican-green/",
         "votos": 254
       }
@@ -33079,7 +33106,7 @@
       {
         "fonte": "Discogs (usuários)",
         "nota": "4.63/5",
-        "estrelas": 4.5,
+        "estrelas": 5,
         "url": "https://www.discogs.com/master/67496",
         "votos": 112
       },
@@ -33229,7 +33256,16 @@
       "idioma": "es",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.49/5",
+        "estrelas": 3.5,
+        "url": "https://rateyourmusic.com/release/album/venetian-snares/huge-chrome-cylinder-box-unfolding/",
+        "votos": 1220
+      }
+    ]
   },
   {
     "id": "venetian-snares-rossz-csillag-alatt-szuletett",
@@ -34404,18 +34440,18 @@
     },
     "reviews": [
       {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.64/5",
+        "estrelas": 5,
+        "url": "https://www.discogs.com/master/228899",
+        "votos": 118
+      },
+      {
         "fonte": "AllMusic",
         "nota": "4.5/5",
         "estrelas": 4.5,
         "url": "http://www.allmusic.com/album/arntor-mw0000009551",
         "via": "https://en.wikipedia.org/wiki/Arntor#Critical_reception"
-      },
-      {
-        "fonte": "Discogs (usuários)",
-        "nota": "4.64/5",
-        "estrelas": 4.5,
-        "url": "https://www.discogs.com/master/228899",
-        "votos": 118
       }
     ],
     "sobreVerificado": "2026-10-26",
@@ -35606,7 +35642,7 @@
       {
         "fonte": "Pitchfork",
         "nota": "8.3/10",
-        "estrelas": 4,
+        "estrelas": 4.5,
         "url": "http://www.pitchforkmedia.com/article/record_review/22831-lunatic-harness",
         "via": "https://en.wikipedia.org/wiki/Lunatic_Harness#Critical_reception"
       }

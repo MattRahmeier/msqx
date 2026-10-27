@@ -18,7 +18,9 @@ const UA = { "User-Agent": "Mozilla/5.0 (Tracklore; https://github.com/MattRahme
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 const norm = (s) => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/&/g, "and").replace(/^the\s+/, "").replace(/[^a-z0-9]+/g, "");
 const semEdicao = (s) => (s || "").replace(/\s*[([][^)\]]*[)\]]/g, "").replace(/\s+-\s+.*$/, "").trim();
-const meio = (x) => Math.round(x * 2) / 2;
+// Estrelas de meia em meia, sempre arredondadas para cima (decisão do usuário); o 1e-9 evita que
+// erros de ponto flutuante (0,7 × 5 = 3,5000000000000004) subam meia estrela a mais.
+const meio = (x) => Math.ceil(x * 2 - 1e-9) / 2;
 
 const ultimo = {};
 async function pedir(servico, url, intervalo, formato = "json") {

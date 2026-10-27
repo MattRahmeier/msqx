@@ -48,6 +48,7 @@
 
 ## Fase 5 — Recomendados pela Internet
 - [x] Lista de gêneros com a mesma árvore do TrackMap (`js/arvore.js`): um bloco por mestre (com coroa), um card por gênero, sem sublistas (cada subgênero logo depois do gênero de onde saiu; o card mostra a década e quantos álbuns tem); irmãos em ordem cronológica e, na mesma década, em cadeia de proximidade (origens/similares). Gêneros com lista de álbuns ficam destacados.
+- [x] Página do gênero mestre mostra também os álbuns de todos os subgêneros, cada um com um botão do subgênero (`card-etiqueta`).
 - [ ] Fotos nos cards de gênero.
 - [x] Página do gênero (`#/recomendados/<gênero>`): caminho na árvore, nome (coroa se for mestre), resumo com links e fonte, subgêneros, álbuns da lista e o disclaimer no fim. A interface não cita o site de origem das listas.
 - [x] Caixa lateral do álbum ao clicar na capa (`js/componentes/painel-album.js`): lançamento, duração, nº de faixas, tipo, links de streaming com nome e fonte (MusicBrainz). Pop-up off-white à direita; no celular, sobe de baixo. Fecha com ×, Esc ou clique fora.
@@ -56,8 +57,9 @@
 - [x] Caixa lateral: "Faixa destaque" (média de popularidade no Deezer, no YouTube Music e no ListenBrainz, com links para a faixa) logo abaixo dos dados; os links do álbum ("Ouça o álbum") foram para depois da crítica. Fonte citada uma vez só.
 - [x] Todas as fichas com lançamento, duração, gravadora e faixas (`scripts/completar-fichas.js`; validador exige os quatro).
 - [x] Fichas sem lacunas: capas (busca de imagem quando preciso, com a fonte no rodapé), "sobre" em todas (Wikipédias em outros idiomas ou descrição montada com os dados), notas extras do Pitchfork e do Discogs.
-- [x] Notas do RYM (usuários) via Claude in Chrome para 16 dos 25 álbuns sem crítica (`data/albuns/notas-rym.json`, `scripts/aplicar-notas-rym.js`).
-- [ ] 9 álbuns seguem sem nota: 5 não têm a mesma edição no RYM (Statesboro Blues, Boss Bird!, Avalon Blues, So Many Roads ao vivo, The New York Sessions) e 4 têm média abaixo de 3,5 (Chet Baker Sextet, Carriers of Dust, Huge Chrome Cylinder Box Unfolding, Pile O' Meat).
+- [x] Notas do RYM (usuários) via Claude in Chrome para 20 dos 25 álbuns sem crítica (`data/albuns/notas-rym.json`, `scripts/aplicar-notas-rym.js`).
+- [x] Estrelas arredondadas sempre para cima, de meia em meia.
+- [ ] 5 álbuns seguem sem nota: não têm a mesma edição no RYM (Statesboro Blues, Boss Bird!, Avalon Blues, So Many Roads ao vivo, The New York Sessions).
 - [ ] Caixa lateral: tags.
 - [ ] "Gêneros similares" no fim da página do gênero.
 

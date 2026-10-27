@@ -140,7 +140,8 @@ const CONCEITOS = { "A+": 5, A: 5, "A-": 4.5, "B+": 4, B: 3.5, "B-": 3, "C+": 2.
 // Nota original → { nota, estrelas } (estrelas de 0 a 5, em meios).
 function converter(bruto) {
   const s = bruto.replace(/<ref[\s\S]*?(\/>|<\/ref>)/g, "").trim();
-  const meio = (x) => Math.round(x * 2) / 2;
+  // Meia em meia, sempre para cima (decisão do usuário); 1e-9 contra erro de ponto flutuante.
+  const meio = (x) => Math.ceil(x * 2 - 1e-9) / 2;
   let m = s.match(/\{\{\s*Rating\s*\|\s*([\d.]+)\s*\|\s*([\d.]+)/i);
   if (m) return { nota: `${m[1]}/${m[2]}`, estrelas: meio((m[1] / m[2]) * 5) };
   m = s.match(/\{\{\s*Rating-Christgau\s*\|\s*([^}|]+)/i) || s.match(/^\s*([A-F][+\-−–]?)\s*(?:$|\()/);
