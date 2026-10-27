@@ -1891,57 +1891,112 @@
     "lancamento": "1982",
     "tipo": "Album",
     "gravadora": "DRO",
-    "duracao": null,
+    "duracao": "78:09",
     "faixas": [
       {
         "n": 1,
         "titulo": "Brigada de demolición",
-        "duracao": null
+        "duracao": "4:01"
       },
       {
         "n": 2,
         "titulo": "Ondina",
-        "duracao": null
+        "duracao": "4:36"
       },
       {
         "n": 3,
         "titulo": "La televisión es nutritiva",
-        "duracao": null
+        "duracao": "3:12"
       },
       {
         "n": 4,
         "titulo": "Cita en el asteroide",
-        "duracao": null
+        "duracao": "3:24"
       },
       {
         "n": 5,
         "titulo": "Obsesión",
-        "duracao": null
+        "duracao": "4:08"
       },
       {
         "n": 6,
-        "titulo": "Sintonia de la moda estandarizada (collage de El Aviador Dro)",
-        "duracao": null
+        "titulo": "Sintonía de la moda estandarizada (Collage de El Aviador Dro)",
+        "duracao": "2:15"
       },
       {
         "n": 7,
         "titulo": "El laberinto del nuevo minotauro",
-        "duracao": null
+        "duracao": "3:55"
       },
       {
         "n": 8,
         "titulo": "Kraken",
-        "duracao": null
+        "duracao": "6:24"
       },
       {
         "n": 9,
         "titulo": "Selector de frecuencias",
-        "duracao": null
+        "duracao": "5:22"
       },
       {
         "n": 10,
         "titulo": "La cicatriz en la fábrica roja",
-        "duracao": null
+        "duracao": "2:50"
+      },
+      {
+        "n": 11,
+        "titulo": "No tengo boca (Y debo gritar)",
+        "duracao": "3:32"
+      },
+      {
+        "n": 12,
+        "titulo": "El intruso",
+        "duracao": "4:12"
+      },
+      {
+        "n": 13,
+        "titulo": "En la quinta glaciación",
+        "duracao": "2:37"
+      },
+      {
+        "n": 14,
+        "titulo": "Baila con tu robot",
+        "duracao": "2:01"
+      },
+      {
+        "n": 15,
+        "titulo": "Corazón de batidora",
+        "duracao": "2:11"
+      },
+      {
+        "n": 16,
+        "titulo": "Metalina 2",
+        "duracao": "3:55"
+      },
+      {
+        "n": 17,
+        "titulo": "El nacimiento de la industria",
+        "duracao": "4:22"
+      },
+      {
+        "n": 18,
+        "titulo": "Cadena de montaje (En directo)",
+        "duracao": "3:26"
+      },
+      {
+        "n": 19,
+        "titulo": "No os soporto más (En directo)",
+        "duracao": "2:25"
+      },
+      {
+        "n": 20,
+        "titulo": "Gérmenes psiquicos (En directo)",
+        "duracao": "4:40"
+      },
+      {
+        "n": 21,
+        "titulo": "Los fabricantes de electrodomésticos (En directo)",
+        "duracao": "4:41"
       }
     ],
     "links": {},
@@ -1968,6 +2023,10 @@
       "plataformas": [
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -3117,57 +3176,57 @@
     "lancamento": "1990",
     "tipo": "Album",
     "gravadora": "Wild Rags Records",
-    "duracao": null,
+    "duracao": "30:13",
     "faixas": [
       {
         "n": 1,
         "titulo": "(Winds of the Black Godz) Intro",
-        "duracao": null
+        "duracao": "1:21"
       },
       {
         "n": 2,
         "titulo": "Fallen Angel of Doom",
-        "duracao": null
+        "duracao": "3:39"
       },
       {
         "n": 3,
         "titulo": "Hording of Evil Vengeance",
-        "duracao": null
+        "duracao": "2:22"
       },
       {
         "n": 4,
         "titulo": "Darkness Prevails",
-        "duracao": null
+        "duracao": "3:32"
       },
       {
         "n": 5,
         "titulo": "Desecration",
-        "duracao": null
+        "duracao": "2:27"
       },
       {
         "n": 6,
         "titulo": "Ritual",
-        "duracao": null
+        "duracao": "3:18"
       },
       {
         "n": 7,
         "titulo": "Weltering in Blood",
-        "duracao": null
+        "duracao": "2:27"
       },
       {
         "n": 8,
         "titulo": "Demoniac",
-        "duracao": null
+        "duracao": "2:46"
       },
       {
         "n": 9,
         "titulo": "Goddess of Perversity",
-        "duracao": null
+        "duracao": "4:27"
       },
       {
         "n": 10,
         "titulo": "The Desolate One (outro)",
-        "duracao": null
+        "duracao": "3:54"
       }
     ],
     "links": {
@@ -3220,6 +3279,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -8495,32 +8558,42 @@
     "lancamento": "1963-11",
     "tipo": "Album",
     "gravadora": "Blue Note",
-    "duracao": null,
+    "duracao": "50:16",
     "faixas": [
       {
         "n": 1,
         "titulo": "Scrapple From the Apple",
-        "duracao": null
+        "duracao": "7:24"
       },
       {
         "n": 2,
         "titulo": "Willow Weep for Me",
-        "duracao": null
+        "duracao": "8:50"
       },
       {
         "n": 3,
         "titulo": "Broadway",
-        "duracao": null
+        "duracao": "6:46"
       },
       {
         "n": 4,
         "titulo": "Stairway to the Stars",
-        "duracao": null
+        "duracao": "6:59"
       },
       {
         "n": 5,
         "titulo": "A Night in Tunisia",
-        "duracao": null
+        "duracao": "8:18"
+      },
+      {
+        "n": 6,
+        "titulo": "Our Love Is Here to Stay",
+        "duracao": "5:41"
+      },
+      {
+        "n": 7,
+        "titulo": "Like Someone in Love",
+        "duracao": "6:18"
       }
     ],
     "links": {
@@ -8582,6 +8655,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -9808,62 +9885,62 @@
     "lancamento": "1956",
     "tipo": "Album",
     "gravadora": "Verve",
-    "duracao": null,
+    "duracao": "54:36",
     "faixas": [
       {
         "n": 1,
         "titulo": "Can’t We Be Friends",
-        "duracao": null
+        "duracao": "3:44"
       },
       {
         "n": 2,
         "titulo": "Isn’t This a Lovely Day",
-        "duracao": null
+        "duracao": "6:14"
       },
       {
         "n": 3,
         "titulo": "Moonlight in Vermont",
-        "duracao": null
+        "duracao": "3:42"
       },
       {
         "n": 4,
         "titulo": "They Can’t Take That Away From Me",
-        "duracao": null
+        "duracao": "4:38"
       },
       {
         "n": 5,
         "titulo": "Under a Blanket of Blue",
-        "duracao": null
+        "duracao": "4:18"
       },
       {
         "n": 6,
         "titulo": "Tenderly",
-        "duracao": null
+        "duracao": "5:10"
       },
       {
         "n": 7,
         "titulo": "A Foggy Day",
-        "duracao": null
+        "duracao": "4:30"
       },
       {
         "n": 8,
         "titulo": "Stars Fell on Alabama",
-        "duracao": null
+        "duracao": "3:30"
       },
       {
         "n": 9,
         "titulo": "Cheek to Cheek",
-        "duracao": null
+        "duracao": "5:47"
       },
       {
         "n": 10,
         "titulo": "The Nearness of You",
-        "duracao": null
+        "duracao": "6:33"
       },
       {
         "n": 11,
         "titulo": "April in Paris",
-        "duracao": null
+        "duracao": "6:30"
       }
     ],
     "links": {
@@ -9917,7 +9994,11 @@
         "listenbrainz"
       ]
     },
-    "destaqueVerificado": "2026-10-27"
+    "destaqueVerificado": "2026-10-27",
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
+    }
   },
   {
     "id": "ella-fitzgerald-ella-fitzgerald-sings-the-duke-ellington-song-book",
@@ -10094,9 +10175,9 @@
     "id": "elmore-james-the-sky-is-crying",
     "titulo": "The Sky Is Crying",
     "artista": "Elmore James",
-    "lancamento": "1992",
+    "lancamento": "1965",
     "tipo": "Album",
-    "gravadora": null,
+    "gravadora": "Sphere Sound Records",
     "duracao": "44:56",
     "faixas": [
       {
@@ -10212,7 +10293,11 @@
       ]
     },
     "destaqueVerificado": "2026-10-27",
-    "capaFonte": "https://f4.bcbits.com/img/a3446981195_5.jpg"
+    "capaFonte": "https://f4.bcbits.com/img/a3446981195_5.jpg",
+    "complementos": {
+      "gravadora": "wikipedia",
+      "lancamento": "wikipedia"
+    }
   },
   {
     "id": "emperor-in-the-nightside-eclipse",
@@ -12083,112 +12168,77 @@
     "lancamento": "2000-01-25",
     "tipo": "Album",
     "gravadora": "Epic",
-    "duracao": null,
+    "duracao": "67:00",
     "faixas": [
       {
         "n": 1,
-        "titulo": "Intro",
-        "duracao": null
+        "titulo": "Nutmeg",
+        "duracao": "4:25"
       },
       {
         "n": 2,
-        "titulo": "Nutmeg",
-        "duracao": null
+        "titulo": "One",
+        "duracao": "3:42"
       },
       {
         "n": 3,
-        "titulo": "One",
-        "duracao": null
+        "titulo": "Saturday Nite / Impossible / Iron's Theme (Intermission)",
+        "duracao": "4:58"
       },
       {
         "n": 4,
-        "titulo": "Saturday Nite",
-        "duracao": null
+        "titulo": "In The Rain",
+        "duracao": "4:49"
       },
       {
         "n": 5,
-        "titulo": "Ghost Deini",
-        "duracao": null
+        "titulo": "Mighty Healthy",
+        "duracao": "3:22"
       },
       {
         "n": 6,
-        "titulo": "Apollo Kids",
-        "duracao": null
+        "titulo": "Apollo Kids / Clyde Smith (Skit)",
+        "duracao": "6:32"
       },
       {
         "n": 7,
-        "titulo": "The Grain",
-        "duracao": null
+        "titulo": "Buck 50 / Stroke of Death / Woodrow The Basehead (Skit)",
+        "duracao": "9:04"
       },
       {
         "n": 8,
-        "titulo": "Buck 50",
-        "duracao": null
+        "titulo": "Stay True",
+        "duracao": "1:39"
       },
       {
         "n": 9,
-        "titulo": "Mighty Healthy",
-        "duracao": null
+        "titulo": "Ghost Deini",
+        "duracao": "4:02"
       },
       {
         "n": 10,
-        "titulo": "Woodrow the Base Head",
-        "duracao": null
+        "titulo": "Malcolm",
+        "duracao": "4:13"
       },
       {
         "n": 11,
-        "titulo": "Stay True",
-        "duracao": null
+        "titulo": "We Made It / Who Would You Fuck? (Skit)",
+        "duracao": "7:13"
       },
       {
         "n": 12,
-        "titulo": "We Made It",
-        "duracao": null
+        "titulo": "Child's Play",
+        "duracao": "4:30"
       },
       {
         "n": 13,
-        "titulo": "Stroke of Death",
-        "duracao": null
+        "titulo": "Cherchez LaGhost",
+        "duracao": "3:07"
       },
       {
         "n": 14,
-        "titulo": "Iron’s Theme - Intermission",
-        "duracao": null
-      },
-      {
-        "n": 15,
-        "titulo": "Malcolm",
-        "duracao": null
-      },
-      {
-        "n": 16,
-        "titulo": "Who Would You Fuck",
-        "duracao": null
-      },
-      {
-        "n": 17,
-        "titulo": "Child’s Play",
-        "duracao": null
-      },
-      {
-        "n": 18,
-        "titulo": "Cherchez Laghost",
-        "duracao": null
-      },
-      {
-        "n": 19,
-        "titulo": "Wu Banga 101",
-        "duracao": null
-      },
-      {
-        "n": 20,
-        "titulo": "Clyde Smith",
-        "duracao": null
-      },
-      {
-        "n": 21,
-        "titulo": "Iron’s Theme - Conclusion",
-        "duracao": null
+        "titulo": "Wu Banga 101 / Iron's Theme (Conclusion)",
+        "duracao": "5:24"
       }
     ],
     "links": {
@@ -12249,6 +12299,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -13193,32 +13247,37 @@
     "lancamento": "1961",
     "tipo": "Album",
     "gravadora": "Blue Note",
-    "duracao": null,
+    "duracao": "46:12",
     "faixas": [
       {
         "n": 1,
         "titulo": "Workout",
-        "duracao": null
+        "duracao": "10:03"
       },
       {
         "n": 2,
         "titulo": "Uh Huh",
-        "duracao": null
+        "duracao": "10:50"
       },
       {
         "n": 3,
         "titulo": "Smokin'",
-        "duracao": null
+        "duracao": "7:33"
       },
       {
         "n": 4,
         "titulo": "The Best Things in Life Are Free",
-        "duracao": null
+        "duracao": "5:20"
       },
       {
         "n": 5,
         "titulo": "Greasin' Easy",
-        "duracao": null
+        "duracao": "7:03"
+      },
+      {
+        "n": 6,
+        "titulo": "Three Coins in the Fountain",
+        "duracao": "5:23"
       }
     ],
     "links": {
@@ -13274,6 +13333,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -13283,82 +13346,82 @@
     "lancamento": "2007",
     "tipo": "Album",
     "gravadora": "Hook or Crook Records",
-    "duracao": null,
+    "duracao": "39:56",
     "faixas": [
       {
         "n": 1,
         "titulo": "Song for World Peace",
-        "duracao": null
+        "duracao": "2:33"
       },
       {
         "n": 2,
         "titulo": "Bone-Cat",
-        "duracao": null
+        "duracao": "1:19"
       },
       {
         "n": 3,
         "titulo": "My Penance",
-        "duracao": null
+        "duracao": "2:47"
       },
       {
         "n": 4,
-        "titulo": "Pile O' Meat",
-        "duracao": null
+        "titulo": "Pile O'Meat",
+        "duracao": "1:47"
       },
       {
         "n": 5,
         "titulo": "The Hangman",
-        "duracao": null
+        "duracao": "1:20"
       },
       {
         "n": 6,
         "titulo": "Invisible",
-        "duracao": null
+        "duracao": "2:37"
       },
       {
         "n": 7,
         "titulo": "Buried Alive",
-        "duracao": null
+        "duracao": "1:50"
       },
       {
         "n": 8,
         "titulo": "Son of Satan",
-        "duracao": null
+        "duracao": "3:28"
       },
       {
         "n": 9,
         "titulo": "Sunstroke",
-        "duracao": null
+        "duracao": "2:13"
       },
       {
         "n": 10,
         "titulo": "Torture",
-        "duracao": null
+        "duracao": "3:55"
       },
       {
         "n": 11,
         "titulo": "Broken Hearted Gypsy",
-        "duracao": null
+        "duracao": "1:36"
       },
       {
         "n": 12,
         "titulo": "Moaning Behind the Door",
-        "duracao": null
+        "duracao": "3:36"
       },
       {
         "n": 13,
         "titulo": "Pit of Death",
-        "duracao": null
+        "duracao": "4:05"
       },
       {
         "n": 14,
         "titulo": "Swamp Witch",
-        "duracao": null
+        "duracao": "4:31"
       },
       {
         "n": 15,
         "titulo": "Moody River",
-        "duracao": null
+        "duracao": "2:19"
       }
     ],
     "links": {
@@ -13392,6 +13455,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "deezer",
+      "faixas": "deezer"
     }
   },
   {
@@ -18228,52 +18295,52 @@
     "lancamento": "1963",
     "tipo": "Album",
     "gravadora": "Bluesville",
-    "duracao": null,
+    "duracao": "35:43",
     "faixas": [
       {
         "n": 1,
         "titulo": "T Model Blues",
-        "duracao": null
+        "duracao": "2:46"
       },
       {
         "n": 2,
         "titulo": "Jackstropper Blues",
-        "duracao": null
+        "duracao": "3:22"
       },
       {
         "n": 3,
         "titulo": "You Cook All Right",
-        "duracao": null
+        "duracao": "4:15"
       },
       {
         "n": 4,
         "titulo": "My Black Name",
-        "duracao": null
+        "duracao": "3:56"
       },
       {
         "n": 5,
         "titulo": "Never Miss Your Water",
-        "duracao": null
+        "duracao": "2:36"
       },
       {
         "n": 6,
         "titulo": "Lets Do the Susie-Q",
-        "duracao": null
+        "duracao": "3:39"
       },
       {
         "n": 7,
         "titulo": "Ida Mae",
-        "duracao": null
+        "duracao": "5:26"
       },
       {
         "n": 8,
         "titulo": "Smokes Like Lightning",
-        "duracao": null
+        "duracao": "5:13"
       },
       {
         "n": 9,
         "titulo": "Prison Farm Blues",
-        "duracao": null
+        "duracao": "4:30"
       }
     ],
     "links": {},
@@ -18318,6 +18385,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -18465,7 +18536,7 @@
     "lancamento": "2000-08-22",
     "tipo": "Album / Compilation",
     "gravadora": "Legacy",
-    "duracao": "198:12",
+    "duracao": "272:09",
     "faixas": [
       {
         "n": 1,
@@ -18479,7 +18550,7 @@
       },
       {
         "n": 3,
-        "titulo": "Yes! I’m in the Barrel",
+        "titulo": "Yes! I'm in the Barrel",
         "duracao": "2:39"
       },
       {
@@ -18509,7 +18580,7 @@
       },
       {
         "n": 9,
-        "titulo": "You’re Next",
+        "titulo": "You're Next",
         "duracao": "3:17"
       },
       {
@@ -18519,22 +18590,22 @@
       },
       {
         "n": 11,
-        "titulo": "Don’t Forget to Mess Around",
+        "titulo": "Don't Forget to Mess Around",
         "duracao": "3:04"
       },
       {
         "n": 12,
-        "titulo": "I’m Gonna Gitcha",
+        "titulo": "I'm Gonna Gitcha",
         "duracao": "2:45"
       },
       {
         "n": 13,
-        "titulo": "Droppin’ Shucks",
+        "titulo": "Droppin' Shucks",
         "duracao": "2:53"
       },
       {
         "n": 14,
-        "titulo": "Who’sit",
+        "titulo": "Who'sit",
         "duracao": "2:46"
       },
       {
@@ -18564,7 +18635,7 @@
       },
       {
         "n": 20,
-        "titulo": "Skid‐Dat‐De‐Dat",
+        "titulo": "Skid-Dat-De-Dat",
         "duracao": "3:05"
       },
       {
@@ -18594,12 +18665,12 @@
       },
       {
         "n": 26,
-        "titulo": "Put ’em Down Blues",
+        "titulo": "Put 'Em Down Blues",
         "duracao": "3:15"
       },
       {
         "n": 27,
-        "titulo": "Ory’s Creole Trombone",
+        "titulo": "Ory's Creole Trombone",
         "duracao": "3:06"
       },
       {
@@ -18609,7 +18680,7 @@
       },
       {
         "n": 29,
-        "titulo": "Struttin’ With Some Barbecue",
+        "titulo": "Struttin' With Some Barbecue",
         "duracao": "3:06"
       },
       {
@@ -18624,7 +18695,7 @@
       },
       {
         "n": 32,
-        "titulo": "I’m Not Rough",
+        "titulo": "I'm Not Rough",
         "duracao": "3:04"
       },
       {
@@ -18644,7 +18715,7 @@
       },
       {
         "n": 36,
-        "titulo": "Gambler’s Dream",
+        "titulo": "Gambler's Dream",
         "duracao": "2:28"
       },
       {
@@ -18669,7 +18740,7 @@
       },
       {
         "n": 41,
-        "titulo": "I’ve Stopped My Man",
+        "titulo": "I've Stopped My Man",
         "duracao": "2:54"
       },
       {
@@ -18749,7 +18820,7 @@
       },
       {
         "n": 57,
-        "titulo": "That’s When I’ll Come Back to You",
+        "titulo": "That's When I'll Come Back to You",
         "duracao": "2:58"
       },
       {
@@ -18769,27 +18840,27 @@
       },
       {
         "n": 61,
-        "titulo": "Wild Man Blues (common take)",
+        "titulo": "Wild Man Blues (Dodds - Common take)",
         "duracao": "3:04"
       },
       {
         "n": 62,
-        "titulo": "Wild Man Blues (rare take)",
+        "titulo": "Wild Man Blues (Dodds - Rare take)",
         "duracao": "3:08"
       },
       {
         "n": 63,
-        "titulo": "Melancholy Blues (common take)",
+        "titulo": "Melancholy Blues (Dodds - Common take)",
         "duracao": "3:08"
       },
       {
         "n": 64,
-        "titulo": "Melancholy Blues (rare take)",
+        "titulo": "Melancholy Blues (Dodds - Rare take)",
         "duracao": "3:24"
       },
       {
         "n": 65,
-        "titulo": "You’re a Real Sweetheart",
+        "titulo": "You're a Real Sweetheart",
         "duracao": "3:12"
       },
       {
@@ -18815,122 +18886,122 @@
       {
         "n": 70,
         "titulo": "Fireworks",
-        "duracao": null
+        "duracao": "3:11"
       },
       {
         "n": 71,
         "titulo": "Skip the Gutter",
-        "duracao": null
+        "duracao": "3:10"
       },
       {
         "n": 72,
         "titulo": "A Monday Date",
-        "duracao": null
+        "duracao": "3:14"
       },
       {
         "n": 73,
-        "titulo": "Don’t Jive Me",
-        "duracao": null
+        "titulo": "Don't Jive Me",
+        "duracao": "2:50"
       },
       {
         "n": 74,
         "titulo": "West End Blues",
-        "duracao": null
+        "duracao": "3:22"
       },
       {
         "n": 75,
         "titulo": "Sugar Foot Strut",
-        "duracao": null
+        "duracao": "3:22"
       },
       {
         "n": 76,
         "titulo": "Two Deuces",
-        "duracao": null
+        "duracao": "2:59"
       },
       {
         "n": 77,
         "titulo": "Squeeze Me",
-        "duracao": null
+        "duracao": "3:25"
       },
       {
         "n": 78,
         "titulo": "Knee Drops",
-        "duracao": null
+        "duracao": "3:27"
       },
       {
         "n": 79,
         "titulo": "No (Papa, No)",
-        "duracao": null
+        "duracao": "2:54"
       },
       {
         "n": 80,
         "titulo": "Basin Street Blues",
-        "duracao": null
+        "duracao": "3:18"
       },
       {
         "n": 81,
-        "titulo": "No One Else but You",
-        "duracao": null
+        "titulo": "No One Else But You",
+        "duracao": "3:24"
       },
       {
         "n": 82,
         "titulo": "Beau Koo Jack",
-        "duracao": null
+        "duracao": "3:02"
       },
       {
         "n": 83,
         "titulo": "Save It, Pretty Mama",
-        "duracao": null
+        "duracao": "3:17"
       },
       {
         "n": 84,
         "titulo": "Muggles",
-        "duracao": null
+        "duracao": "2:53"
       },
       {
         "n": 85,
-        "titulo": "Hear Me Talkin’ to You",
-        "duracao": null
+        "titulo": "Hear Me Talkin' To Ya",
+        "duracao": "3:19"
       },
       {
         "n": 86,
         "titulo": "St. James Infirmary",
-        "duracao": null
+        "duracao": "3:14"
       },
       {
         "n": 87,
         "titulo": "Tight Like This",
-        "duracao": null
+        "duracao": "3:15"
       },
       {
         "n": 88,
         "titulo": "Weather Bird",
-        "duracao": null
+        "duracao": "2:47"
       },
       {
         "n": 89,
-        "titulo": "I Can’t Give You Anything but Love (common take)",
-        "duracao": null
+        "titulo": "I Can't Give You Anything But Love (common take)",
+        "duracao": "3:26"
       },
       {
         "n": 90,
-        "titulo": "I Can’t Give You Anything but Love (rare take)",
-        "duracao": null
+        "titulo": "I Can't Give You Anything But Love (rare take)",
+        "duracao": "3:29"
       },
       {
         "n": 91,
         "titulo": "Mahogany Hall Stomp",
-        "duracao": null
+        "duracao": "3:17"
       },
       {
         "n": 92,
-        "titulo": "Knockin’ a Jug",
-        "duracao": null
+        "titulo": "Knockin' A Jug",
+        "duracao": "3:16"
       },
       {
         "n": 93,
         "titulo": "[silence]",
-        "duracao": null
+        "duracao": "0:04"
       }
     ],
     "links": {
@@ -18964,6 +19035,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -19920,47 +19995,47 @@
     "lancamento": "1994-05-24",
     "tipo": "Album",
     "gravadora": "Deathlike Silence Productions",
-    "duracao": null,
+    "duracao": "46:01",
     "faixas": [
       {
         "n": 1,
         "titulo": "Funeral Fog",
-        "duracao": null
+        "duracao": "5:47"
       },
       {
         "n": 2,
         "titulo": "Freezing Moon",
-        "duracao": null
+        "duracao": "6:23"
       },
       {
         "n": 3,
         "titulo": "Cursed in Eternity",
-        "duracao": null
+        "duracao": "5:10"
       },
       {
         "n": 4,
         "titulo": "Pagan Fears",
-        "duracao": null
+        "duracao": "6:21"
       },
       {
         "n": 5,
         "titulo": "Life Eternal",
-        "duracao": null
+        "duracao": "6:57"
       },
       {
         "n": 6,
         "titulo": "From the Dark Past",
-        "duracao": null
+        "duracao": "5:27"
       },
       {
         "n": 7,
         "titulo": "Buried by Time and Dust",
-        "duracao": null
+        "duracao": "3:34"
       },
       {
         "n": 8,
         "titulo": "De Mysteriis Dom Sathanas",
-        "duracao": null
+        "duracao": "6:22"
       }
     ],
     "links": {
@@ -20024,6 +20099,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -20855,32 +20934,32 @@
     "lancamento": "1960-08",
     "tipo": "Album",
     "gravadora": "Columbia",
-    "duracao": null,
+    "duracao": "41:23",
     "faixas": [
       {
         "n": 1,
         "titulo": "Concierto de Aranjuez",
-        "duracao": null
+        "duracao": "16:22"
       },
       {
         "n": 2,
-        "titulo": "Will O’ the Wisp",
-        "duracao": null
+        "titulo": "Will O' the Wisp",
+        "duracao": "3:51"
       },
       {
         "n": 3,
         "titulo": "The Pan Piper",
-        "duracao": null
+        "duracao": "4:00"
       },
       {
         "n": 4,
         "titulo": "Saeta",
-        "duracao": null
+        "duracao": "5:00"
       },
       {
         "n": 5,
         "titulo": "Solea",
-        "duracao": null
+        "duracao": "12:10"
       }
     ],
     "links": {
@@ -20943,6 +21022,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -21243,112 +21326,77 @@
   },
   {
     "id": "mississippi-john-hurt-avalon-blues",
-    "titulo": "Avalon Blues",
+    "titulo": "Avalon Blues: The Complete 1928 OKeh Recordings",
     "artista": "Mississippi John Hurt",
-    "lancamento": null,
+    "lancamento": "1996",
     "tipo": "Album / Compilation",
-    "gravadora": null,
-    "duracao": "65:28",
+    "gravadora": "Legacy",
+    "duracao": "38:18",
     "faixas": [
       {
         "n": 1,
-        "titulo": "Avalon Blues",
-        "duracao": "4:26"
+        "titulo": "Frankie",
+        "duracao": "3:23"
       },
       {
         "n": 2,
-        "titulo": "Richlands Women Blues",
-        "duracao": "4:08"
+        "titulo": "Nobody’s Dirty Business",
+        "duracao": "2:54"
       },
       {
         "n": 3,
-        "titulo": "Frankie And Albert",
-        "duracao": "3:58"
+        "titulo": "Ain’t No Tellin’",
+        "duracao": "2:56"
       },
       {
         "n": 4,
         "titulo": "Louis Collins",
-        "duracao": "3:08"
+        "duracao": "2:59"
       },
       {
         "n": 5,
-        "titulo": "Stackolee",
-        "duracao": "4:08"
+        "titulo": "Avalon Blues",
+        "duracao": "3:04"
       },
       {
         "n": 6,
-        "titulo": "Coffee Blues",
-        "duracao": "3:26"
+        "titulo": "Big Leg Blues",
+        "duracao": "2:52"
       },
       {
         "n": 7,
-        "titulo": "Slidin' Delta",
-        "duracao": "3:03"
+        "titulo": "Stack O’Lee",
+        "duracao": "2:57"
       },
       {
         "n": 8,
-        "titulo": "Corrine Corrina",
-        "duracao": "2:13"
+        "titulo": "Candy Man Blues",
+        "duracao": "2:47"
       },
       {
         "n": 9,
-        "titulo": "Nobody's Dirty Business",
-        "duracao": "3:58"
+        "titulo": "Got the Blues (Can’t Be Satisfied)",
+        "duracao": "2:52"
       },
       {
         "n": 10,
-        "titulo": "Monday Morning Blues",
-        "duracao": "3:14"
+        "titulo": "Blessed Be the Name",
+        "duracao": "2:48"
       },
       {
         "n": 11,
-        "titulo": "Hey Baby Right Away",
-        "duracao": "1:49"
+        "titulo": "Praying on the Old Camp Ground",
+        "duracao": "2:37"
       },
       {
         "n": 12,
-        "titulo": "Spanish Flang Dang",
-        "duracao": "2:25"
+        "titulo": "Blue Harvest Blues",
+        "duracao": "2:53"
       },
       {
         "n": 13,
-        "titulo": "Payday",
-        "duracao": "2:56"
-      },
-      {
-        "n": 14,
-        "titulo": "Talking Casey Jones",
-        "duracao": "5:10"
-      },
-      {
-        "n": 15,
-        "titulo": "Let The Mermaids Flirt With Me",
-        "duracao": "3:08"
-      },
-      {
-        "n": 16,
-        "titulo": "Got The Blues That Can't Be Satisfied",
-        "duracao": "3:07"
-      },
-      {
-        "n": 17,
-        "titulo": "Stock Time",
-        "duracao": "1:42"
-      },
-      {
-        "n": 18,
-        "titulo": "Candy Man",
-        "duracao": "2:55"
-      },
-      {
-        "n": 19,
-        "titulo": "Pera Lee",
-        "duracao": "1:54"
-      },
-      {
-        "n": 20,
-        "titulo": "Trouble I've Had All My Days",
-        "duracao": "4:40"
+        "titulo": "Spike Driver Blues",
+        "duracao": "3:14"
       }
     ],
     "links": {
@@ -21356,8 +21404,8 @@
     },
     "capa": "assets/img/capas/mississippi-john-hurt-avalon-blues.jpg",
     "musicbrainz": {
-      "releaseGroup": "53ea541e-4308-3c7b-9850-4bccbb351635",
-      "release": "b3e8b539-1721-49ff-9c56-bf4e9dc4baf5"
+      "releaseGroup": "bfd3b16f-6808-3f2e-9c44-9a16400c5ab4",
+      "release": "aba29bfa-354a-45b7-8748-e48cf6ed8089"
     },
     "charts": [
       "blues"
@@ -21370,15 +21418,13 @@
     "sobreVerificado": "2026-10-27",
     "destaque": {
       "titulo": "Avalon Blues",
-      "duracao": "3:27",
+      "duracao": "3:04",
       "links": {
-        "youtubeMusic": "https://music.youtube.com/watch?v=TRMT8jNKf9A&list=OLAK5uy_kZqoBeJqfasAmYTChoU6ln7zDRi-xtmFA",
-        "deezer": "https://www.deezer.com/track/1008893782"
+        "youtubeMusic": "https://music.youtube.com/watch?v=TRMT8jNKf9A&list=OLAK5uy_kZqoBeJqfasAmYTChoU6ln7zDRi-xtmFA"
       },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
         "youtubeMusic",
-        "deezer",
         "listenbrainz"
       ]
     },
@@ -23467,57 +23513,57 @@
     "lancamento": "1978-01",
     "tipo": "Album",
     "gravadora": "Mercury Records",
-    "duracao": null,
+    "duracao": "36:40",
     "faixas": [
       {
         "n": 1,
         "titulo": "Non‐Alignment Pact",
-        "duracao": null
+        "duracao": "3:20"
       },
       {
         "n": 2,
         "titulo": "The Modern Dance",
-        "duracao": null
+        "duracao": "3:30"
       },
       {
         "n": 3,
         "titulo": "Laughing",
-        "duracao": null
+        "duracao": "4:37"
       },
       {
         "n": 4,
         "titulo": "Street Waves",
-        "duracao": null
+        "duracao": "3:07"
       },
       {
         "n": 5,
         "titulo": "Chinese Radiation",
-        "duracao": null
+        "duracao": "3:29"
       },
       {
         "n": 6,
         "titulo": "Life Stinks",
-        "duracao": null
+        "duracao": "1:53"
       },
       {
         "n": 7,
         "titulo": "Real World",
-        "duracao": null
+        "duracao": "4:02"
       },
       {
         "n": 8,
         "titulo": "Over My Head",
-        "duracao": null
+        "duracao": "3:50"
       },
       {
         "n": 9,
         "titulo": "Sentimental Journey",
-        "duracao": null
+        "duracao": "6:08"
       },
       {
         "n": 10,
         "titulo": "Humor Me",
-        "duracao": null
+        "duracao": "2:44"
       }
     ],
     "links": {
@@ -23580,6 +23626,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -24047,52 +24097,52 @@
     "lancamento": "1985-07-19",
     "tipo": "Album",
     "gravadora": "Virgin",
-    "duracao": null,
+    "duracao": "32:46",
     "faixas": [
       {
         "n": 1,
-        "titulo": "Why Must the Show Go On",
-        "duracao": null
+        "titulo": "Why Must the Show Go On?",
+        "duracao": "4:10"
       },
       {
         "n": 2,
         "titulo": "In Transit",
-        "duracao": null
+        "duracao": "0:56"
       },
       {
         "n": 3,
         "titulo": "Good-Bye Bad Times",
-        "duracao": null
+        "duracao": "3:44"
       },
       {
         "n": 4,
         "titulo": "Brand New Love (Take a Chance)",
-        "duracao": null
+        "duracao": "4:06"
       },
       {
         "n": 5,
         "titulo": "Valerie",
-        "duracao": null
+        "duracao": "3:20"
       },
       {
         "n": 6,
         "titulo": "Now",
-        "duracao": null
+        "duracao": "4:28"
       },
       {
         "n": 7,
         "titulo": "Together in Electric Dreams",
-        "duracao": null
+        "duracao": "3:53"
       },
       {
         "n": 8,
         "titulo": "Be My Lover Now",
-        "duracao": null
+        "duracao": "3:52"
       },
       {
         "n": 9,
         "titulo": "Shake It Up",
-        "duracao": null
+        "duracao": "4:17"
       }
     ],
     "links": {
@@ -24139,6 +24189,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -26745,57 +26799,57 @@
     "lancamento": "1981-11-23",
     "tipo": "Album",
     "gravadora": "Vertigo",
-    "duracao": null,
+    "duracao": "40:40",
     "faixas": [
       {
         "n": 1,
         "titulo": "Frustration",
-        "duracao": null
+        "duracao": "4:11"
       },
       {
         "n": 2,
         "titulo": "Tainted Love",
-        "duracao": null
+        "duracao": "2:34"
       },
       {
         "n": 3,
         "titulo": "Seedy Films",
-        "duracao": null
+        "duracao": "5:05"
       },
       {
         "n": 4,
         "titulo": "Youth",
-        "duracao": null
+        "duracao": "3:15"
       },
       {
         "n": 5,
         "titulo": "Sex Dwarf",
-        "duracao": null
+        "duracao": "5:12"
       },
       {
         "n": 6,
         "titulo": "Entertain Me",
-        "duracao": null
+        "duracao": "3:35"
       },
       {
         "n": 7,
-        "titulo": "Chips on My Shoulder",
-        "duracao": null
+        "titulo": "Chips On My Shoulder",
+        "duracao": "4:07"
       },
       {
         "n": 8,
         "titulo": "Bedsitter",
-        "duracao": null
+        "duracao": "3:36"
       },
       {
         "n": 9,
         "titulo": "Secret Life",
-        "duracao": null
+        "duracao": "3:38"
       },
       {
         "n": 10,
         "titulo": "Say Hello, Wave Goodbye",
-        "duracao": null
+        "duracao": "5:27"
       }
     ],
     "links": {
@@ -26857,6 +26911,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -27864,9 +27922,9 @@
     "id": "supersax-supersax-plays-bird",
     "titulo": "Supersax Plays Bird",
     "artista": "Supersax",
-    "lancamento": "1991",
+    "lancamento": "1973",
     "tipo": "Album",
-    "gravadora": null,
+    "gravadora": "Capitol",
     "duracao": "37:18",
     "faixas": [
       {
@@ -27952,6 +28010,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "gravadora": "wikipedia",
+      "lancamento": "wikipedia"
     }
   },
   {
@@ -28593,47 +28655,47 @@
     "lancamento": "1980-02-04",
     "tipo": "Album",
     "gravadora": "Island",
-    "duracao": null,
+    "duracao": "35:37",
     "faixas": [
       {
         "n": 1,
-        "titulo": "The Plastic Age = La Edad de Plástico",
-        "duracao": null
+        "titulo": "The Plastic Age",
+        "duracao": "5:05"
       },
       {
         "n": 2,
-        "titulo": "Video Killed the Radio Star = El Video Mató Al Radio Star",
-        "duracao": null
+        "titulo": "Video Killed the Radio‐Star",
+        "duracao": "4:09"
       },
       {
         "n": 3,
         "titulo": "Kid Dynamo",
-        "duracao": null
+        "duracao": "3:26"
       },
       {
         "n": 4,
-        "titulo": "I Love You (Miss Robot) = Te Amo (Srta. Robot)",
-        "duracao": null
+        "titulo": "I Love You (Miss Robot)",
+        "duracao": "4:50"
       },
       {
         "n": 5,
-        "titulo": "Clean, Clean = Limpio, Limpio",
-        "duracao": null
+        "titulo": "Clean, Clean!",
+        "duracao": "3:51"
       },
       {
         "n": 6,
         "titulo": "Elstree",
-        "duracao": null
+        "duracao": "4:28"
       },
       {
         "n": 7,
         "titulo": "Astroboy (And the Proles on Parade)",
-        "duracao": null
+        "duracao": "4:25"
       },
       {
         "n": 8,
         "titulo": "Johnny on the Monorail",
-        "duracao": null
+        "duracao": "5:23"
       }
     ],
     "links": {
@@ -28690,6 +28752,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -29225,82 +29291,72 @@
     "lancamento": "1996-10-28",
     "tipo": "Album",
     "gravadora": "Virgin",
-    "duracao": null,
+    "duracao": "70:08",
     "faixas": [
       {
         "n": 1,
         "titulo": "Herd Killing",
-        "duracao": null
+        "duracao": "2:38"
       },
       {
         "n": 2,
         "titulo": "Dead Cities",
-        "duracao": null
+        "duracao": "6:37"
       },
       {
         "n": 3,
         "titulo": "Her Face Forms in Summertime",
-        "duracao": null
+        "duracao": "5:39"
       },
       {
         "n": 4,
         "titulo": "We Have Explosive",
-        "duracao": null
+        "duracao": "6:19"
       },
       {
         "n": 5,
         "titulo": "Everyone in the World Is Doing Something Without Me",
-        "duracao": null
+        "duracao": "4:10"
       },
       {
         "n": 6,
         "titulo": "My Kingdom",
-        "duracao": null
+        "duracao": "5:47"
       },
       {
         "n": 7,
         "titulo": "Max",
-        "duracao": null
+        "duracao": "2:49"
       },
       {
         "n": 8,
         "titulo": "Antique Toy",
-        "duracao": null
+        "duracao": "5:44"
       },
       {
         "n": 9,
-        "titulo": "Quagmire",
-        "duracao": null
+        "titulo": "Quagmire / In a State of Permanent Abyss",
+        "duracao": "6:57"
       },
       {
         "n": 10,
-        "titulo": "In a State of Permanent Abyss",
-        "duracao": null
+        "titulo": "Glass",
+        "duracao": "5:38"
       },
       {
         "n": 11,
-        "titulo": "Glass",
-        "duracao": null
+        "titulo": "Yage",
+        "duracao": "7:32"
       },
       {
         "n": 12,
-        "titulo": "Yage",
-        "duracao": null
+        "titulo": "Vit Drowning / Through Your Gills I Breathe",
+        "duracao": "5:32"
       },
       {
         "n": 13,
-        "titulo": "Vit Drowning",
-        "duracao": null
-      },
-      {
-        "n": 14,
-        "titulo": "Through Your Gills I Breathe",
-        "duracao": null
-      },
-      {
-        "n": 15,
-        "titulo": "First Death in the Family",
-        "duracao": null
+        "titulo": "First Death in the Family / Headstone Lane - Dead Cities Reprise",
+        "duracao": "4:46"
       }
     ],
     "links": {
@@ -29364,6 +29420,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -29701,31 +29761,53 @@
   },
   {
     "id": "the-miles-davis-quintet-steamin-with-the-miles-davis-quintet",
-    "titulo": "Steamin' With the Miles Davis Quintet",
-    "artista": "The Miles Davis Quintet",
-    "lancamento": null,
-    "tipo": "EP",
-    "gravadora": "Metronome",
-    "duracao": null,
+    "titulo": "Steamin’ With the Miles Davis Quintet",
+    "artista": "Miles Davis Quintet",
+    "lancamento": "1961",
+    "tipo": "Album",
+    "gravadora": "Prestige",
+    "duracao": "39:55",
     "faixas": [
       {
         "n": 1,
-        "titulo": "Diane",
-        "duracao": null
+        "titulo": "Surrey With the Fringe on Top",
+        "duracao": "9:04"
       },
       {
         "n": 2,
-        "titulo": "Well, You Needn't",
-        "duracao": null
+        "titulo": "Salt Peanuts",
+        "duracao": "6:07"
+      },
+      {
+        "n": 3,
+        "titulo": "Something I Dreamed Last Night",
+        "duracao": "6:13"
+      },
+      {
+        "n": 4,
+        "titulo": "Diane",
+        "duracao": "7:49"
+      },
+      {
+        "n": 5,
+        "titulo": "Well You Needn't",
+        "duracao": "6:18"
+      },
+      {
+        "n": 6,
+        "titulo": "When I Fall in Love",
+        "duracao": "4:24"
       }
     ],
     "links": {
+      "spotify": "https://open.spotify.com/album/0Q0bftWuBSwZAHBKZr0lxB",
+      "qobuz": "https://www.qobuz.com/fr-fr/album/steamin-with-the-miles-davis-quintet-the-miles-davis-quintet/0088807239097",
       "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ljO2Zd0Sr7qp_fC8FDC85xgpQ0ohJ5Pio"
     },
     "capa": "assets/img/capas/the-miles-davis-quintet-steamin-with-the-miles-davis-quintet.jpg",
     "musicbrainz": {
-      "releaseGroup": "5c607c9b-beb1-4ce4-b388-0b5f8449ecf4",
-      "release": "d8737ae9-a73f-4b9a-9784-cb16f0e313ad"
+      "releaseGroup": "f0b72e4b-e2af-32e5-aa4a-5005deb2db17",
+      "release": "0c266559-4ccd-4713-ba0e-6b8a08d330bc"
     },
     "charts": [
       "jazz"
@@ -29733,22 +29815,46 @@
     "generos": [
       "jazz"
     ],
-    "linksVerificados": "2026-10-26",
-    "sobreVerificado": "2026-10-26",
-    "sobrePendente": "sem artigo na Wikipédia",
-    "destaqueVerificado": "2026-10-27",
+    "linksVerificados": "2026-10-27",
+    "sobre": "Steamin' with the Miles Davis Quintet é um álbum do Miles Davis Quintet, lançado em 1961 pela Prestige Records. A gravação foi feita em duas sessões, em 11 de maio e 26 de outubro de 1956, que renderam quatro álbuns: Steamin, Relaxin' with The Miles Davis Quintet, Workin' with The Miles Davis Quintet e Cookin' with the Miles Davis Quintet.",
+    "sobreFonte": {
+      "url": "https://en.wikipedia.org/wiki/Steamin'_with_the_Miles_Davis_Quintet",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "reviews": [
+      {
+        "fonte": "AllMusic",
+        "nota": "5/5",
+        "estrelas": 5,
+        "url": "http://www.allmusic.com/album/r106093",
+        "via": "https://en.wikipedia.org/wiki/Steamin'_with_the_Miles_Davis_Quintet#Critical_reception"
+      },
+      {
+        "fonte": "The Penguin Guide to Jazz Recordings",
+        "nota": "4/4",
+        "estrelas": 5,
+        "url": null,
+        "via": "https://en.wikipedia.org/wiki/Steamin'_with_the_Miles_Davis_Quintet#Critical_reception"
+      }
+    ],
+    "sobreVerificado": "2026-10-27",
     "destaque": {
-      "titulo": "Well, You Needn't",
-      "duracao": null,
+      "titulo": "Well You Needn't",
+      "duracao": "6:18",
       "links": {
-        "youtubeMusic": "https://music.youtube.com/watch?v=EFlRP2UfxJM&list=OLAK5uy_ljO2Zd0Sr7qp_fC8FDC85xgpQ0ohJ5Pio"
+        "youtubeMusic": "https://music.youtube.com/watch?v=EFlRP2UfxJM&list=OLAK5uy_ljO2Zd0Sr7qp_fC8FDC85xgpQ0ohJ5Pio",
+        "spotify": "https://open.spotify.com/track/0H1yEyhzUMIG8WjlzTchK4",
+        "qobuz": "https://open.qobuz.com/track/30331041"
       },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
         "youtubeMusic",
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "the-notorious-big-ready-to-die",
@@ -30654,62 +30760,62 @@
     "lancamento": "1981",
     "tipo": "Album",
     "gravadora": "Rough Trade",
-    "duracao": null,
+    "duracao": "40:15",
     "faixas": [
       {
         "n": 1,
         "titulo": "Sleep",
-        "duracao": null
+        "duracao": "2:15"
       },
       {
         "n": 2,
         "titulo": "Paper Hats",
-        "duracao": null
+        "duracao": "6:04"
       },
       {
         "n": 3,
         "titulo": "Triumph",
-        "duracao": null
+        "duracao": "2:56"
       },
       {
         "n": 4,
         "titulo": "S.P.Q.R.",
-        "duracao": null
+        "duracao": "3:29"
       },
       {
         "n": 5,
         "titulo": "Cenotaph",
-        "duracao": null
+        "duracao": "4:39"
       },
       {
         "n": 6,
         "titulo": "Shrink Wrap",
-        "duracao": null
+        "duracao": "1:41"
       },
       {
         "n": 7,
         "titulo": "Radio Prague",
-        "duracao": null
+        "duracao": "2:25"
       },
       {
         "n": 8,
         "titulo": "Makeshift Swahili",
-        "duracao": null
+        "duracao": "4:01"
       },
       {
         "n": 9,
         "titulo": "Independence",
-        "duracao": null
+        "duracao": "3:43"
       },
       {
         "n": 10,
         "titulo": "A New Kind of Water",
-        "duracao": null
+        "duracao": "4:58"
       },
       {
         "n": 11,
         "titulo": "Hi Baku Shyo (Suffer Bomb Disease)",
-        "duracao": null
+        "duracao": "4:04"
       }
     ],
     "links": {
@@ -30766,6 +30872,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {
@@ -31110,7 +31220,7 @@
     "artista": "Tormentor",
     "lancamento": "1988-08",
     "tipo": "Album",
-    "gravadora": null,
+    "gravadora": "Season of mist",
     "duracao": "39:28",
     "faixas": [
       {
@@ -31210,6 +31320,9 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "gravadora": "deezer"
     }
   },
   {
@@ -31219,37 +31332,47 @@
     "lancamento": "1972",
     "tipo": "Album",
     "gravadora": "Tribe",
-    "duracao": null,
+    "duracao": "41:18",
     "faixas": [
       {
         "n": 1,
-        "titulo": "Evening With the Devil: Mary Had an Abortion",
-        "duracao": null
+        "titulo": "What We Need",
+        "duracao": "4:07"
       },
       {
         "n": 2,
-        "titulo": "Evening With the Devil: Where Am I",
-        "duracao": null
+        "titulo": "Angela’s Dilemma (instrumental)",
+        "duracao": "5:18"
       },
       {
         "n": 3,
-        "titulo": "Evening With the Devil: Angry Young Man",
-        "duracao": null
+        "titulo": "Angela’s Dilemma (vocal)",
+        "duracao": "4:27"
       },
       {
         "n": 4,
-        "titulo": "What Now?: What We Need",
-        "duracao": null
+        "titulo": "How Do We End All of This Madness (instrumental)",
+        "duracao": "6:51"
       },
       {
         "n": 5,
-        "titulo": "What Now?: Angela’s Dilemma",
-        "duracao": null
+        "titulo": "How Do We End All of This Madness (vocal)",
+        "duracao": "2:40"
       },
       {
         "n": 6,
-        "titulo": "What Now?: How Do We End All of This Madness",
-        "duracao": null
+        "titulo": "Wife",
+        "duracao": "4:52"
+      },
+      {
+        "n": 7,
+        "titulo": "Merciful",
+        "duracao": "6:58"
+      },
+      {
+        "n": 8,
+        "titulo": "Beneficient",
+        "duracao": "6:05"
       }
     ],
     "links": {
@@ -31269,13 +31392,17 @@
     "linksVerificados": "2026-10-26",
     "sobreVerificado": "2026-10-26",
     "sobrePendente": "sem artigo na Wikipédia",
-    "destaqueVerificado": "2026-10-27"
+    "destaqueVerificado": "2026-10-27",
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
+    }
   },
   {
     "id": "tubby-hayes-and-clark-terry-the-new-york-sessions",
     "titulo": "The New York Sessions",
     "artista": "Tubby Hayes & Clark Terry",
-    "conferir": "não está no MusicBrainz (correcoes.json)",
+    "conferir": "não está no MusicBrainz; faixas e duração do Deezer (reedição de 2014); gravadora e ano (o da gravação) da Wikipédia — falta a data exata do lançamento pela Columbia",
     "charts": [
       "jazz"
     ],
@@ -31283,7 +31410,7 @@
       "jazz"
     ],
     "links": {
-      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ma-f-8W0iVTIdXBg49ywP-NerPhc7atY0"
+      "deezer": "https://www.deezer.com/album/7866887"
     },
     "linksVerificados": "2026-10-26",
     "sobreVerificado": "2026-10-26",
@@ -31299,6 +31426,70 @@
       "plataformas": [
         "youtubeMusic"
       ]
+    },
+    "lancamento": "1961",
+    "tipo": "Album",
+    "gravadora": "Columbia",
+    "duracao": "74:30",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "You for Me",
+        "duracao": "4:41"
+      },
+      {
+        "n": 2,
+        "titulo": "Pint of Bitter",
+        "duracao": "7:03"
+      },
+      {
+        "n": 3,
+        "titulo": "Airegin",
+        "duracao": "8:56"
+      },
+      {
+        "n": 4,
+        "titulo": "Opus Ocean",
+        "duracao": "7:34"
+      },
+      {
+        "n": 5,
+        "titulo": "Soon",
+        "duracao": "7:35"
+      },
+      {
+        "n": 6,
+        "titulo": "Doxie",
+        "duracao": "9:14"
+      },
+      {
+        "n": 7,
+        "titulo": "Soho Soul",
+        "duracao": "8:04"
+      },
+      {
+        "n": 8,
+        "titulo": "The Simple Waltz",
+        "duracao": "9:00"
+      },
+      {
+        "n": 9,
+        "titulo": "Half a Sawbuck",
+        "duracao": "7:16"
+      },
+      {
+        "n": 10,
+        "titulo": "You're My Everything",
+        "duracao": "5:07"
+      }
+    ],
+    "capa": "assets/img/capas/tubby-hayes-and-clark-terry-the-new-york-sessions.jpg",
+    "complementos": {
+      "faixas": "deezer",
+      "duracao": "deezer",
+      "lancamento": "wikipedia",
+      "gravadora": "wikipedia",
+      "capa": "deezer"
     }
   },
   {
@@ -33904,82 +34095,82 @@
     "lancamento": "1980",
     "tipo": "Album",
     "gravadora": "Rough Trade",
-    "duracao": null,
+    "duracao": "38:12",
     "faixas": [
       {
         "n": 1,
         "titulo": "Searching for Mr Right",
-        "duracao": null
+        "duracao": "3:03"
       },
       {
         "n": 2,
         "titulo": "Include Me Out",
-        "duracao": null
+        "duracao": "2:01"
       },
       {
         "n": 3,
         "titulo": "The Taxi",
-        "duracao": null
+        "duracao": "2:07"
       },
       {
         "n": 4,
         "titulo": "Eating Noddemix",
-        "duracao": null
+        "duracao": "2:04"
       },
       {
         "n": 5,
         "titulo": "Constantly Changing",
-        "duracao": null
+        "duracao": "2:04"
       },
       {
         "n": 6,
         "titulo": "N.I.T.A.",
-        "duracao": null
+        "duracao": "3:31"
       },
       {
         "n": 7,
         "titulo": "Colossal Youth",
-        "duracao": null
+        "duracao": "1:54"
       },
       {
         "n": 8,
         "titulo": "Music for Evenings",
-        "duracao": null
+        "duracao": "3:02"
       },
       {
         "n": 9,
         "titulo": "The Man Amplifier",
-        "duracao": null
+        "duracao": "3:15"
       },
       {
         "n": 10,
         "titulo": "Choci Loni",
-        "duracao": null
+        "duracao": "2:37"
       },
       {
         "n": 11,
         "titulo": "Wurlitzer Jukebox",
-        "duracao": null
+        "duracao": "2:45"
       },
       {
         "n": 12,
         "titulo": "Salad Days",
-        "duracao": null
+        "duracao": "2:01"
       },
       {
         "n": 13,
         "titulo": "Credit in the Straight World",
-        "duracao": null
+        "duracao": "2:29"
       },
       {
         "n": 14,
         "titulo": "Brand - New - Life",
-        "duracao": null
+        "duracao": "2:54"
       },
       {
         "n": 15,
         "titulo": "Wind in the Rigging",
-        "duracao": null
+        "duracao": "2:25"
       }
     ],
     "links": {
@@ -34043,6 +34234,10 @@
         "deezer",
         "listenbrainz"
       ]
+    },
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
     }
   },
   {

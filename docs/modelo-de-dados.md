@@ -154,6 +154,7 @@ Um único arquivo com todas as fichas (a Pesquisa precisa de todas de uma vez). 
 ```
 
 - **Fontes:** MusicBrainz (banco aberto, mantido por pessoas) para título, artista, data, tipo, faixas e links; Cover Art Archive para a capa (500 px).
+- Todas as fichas têm `lancamento`, `duracao`, `gravadora` e `faixas` (com duração) — o validador acusa o que faltar. Quando o MusicBrainz não tem o dado, `node scripts/completar-fichas.js` busca em outra edição do MusicBrainz, no Deezer ou no quadro do álbum na Wikipédia, e registra a origem em `complementos` (`{ "duracao": "deezer", "gravadora": "wikipedia" }`). Dados conferidos à mão ficam em `correcoes.json` (campos `lancamento`, `gravadora` e `fonte`).
 - `capaFonte`: endereço da imagem quando a capa foi trocada à mão (por exemplo, indicada pelo usuário), em vez de vir do Cover Art Archive.
 - `titulo`/`artista` são os do MusicBrainz; se não batem com o chart, a ficha ganha `conferir` com o que foi pedido e o que veio.
 - `lancamento`: primeira data de lançamento do álbum (pode ser só o ano).

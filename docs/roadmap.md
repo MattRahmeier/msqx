@@ -54,6 +54,7 @@
 - [x] Caixa lateral: "Sobre este álbum" (Wikipédia) e "O que a crítica disse" (até 2 notas positivas em estrelas, com link da crítica), por `scripts/buscar-sobre-albuns.js`. A lista de faixas saiu da caixa por enquanto (continua na ficha).
 - [x] Textos em inglês (165 "sobre", 7 resumos e 55 "como soa") traduzidos para o português, com aviso de tradução e link para o original.
 - [x] Caixa lateral: "Faixa destaque" (média de popularidade no Deezer, no YouTube Music e no ListenBrainz, com links para a faixa) logo abaixo dos dados; os links do álbum ("Ouça o álbum") foram para depois da crítica. Fonte citada uma vez só.
+- [x] Todas as fichas com lançamento, duração, gravadora e faixas (`scripts/completar-fichas.js`; validador exige os quatro).
 - [ ] Caixa lateral: tags.
 - [ ] "Gêneros similares" no fim da página do gênero.
 

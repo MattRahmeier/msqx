@@ -11,7 +11,10 @@ const erros = [];
 const conferir = [];
 
 for (const f of fichas) {
-  for (const campo of ["titulo", "artista"]) if (!f[campo]) erros.push(`${f.id}: falta "${campo}"`);
+  // Todas as fichas precisam das mesmas informações (scripts/completar-fichas.js preenche o que faltar).
+  for (const campo of ["titulo", "artista", "lancamento", "duracao", "gravadora"]) if (!f[campo]) erros.push(`${f.id}: falta "${campo}"`);
+  if (!f.faixas?.length) erros.push(`${f.id}: sem faixas`);
+  else if (f.faixas.some((t) => !t.duracao)) erros.push(`${f.id}: faixa sem duração`);
   if (f.capa && !fs.existsSync(path.join(RAIZ, f.capa))) erros.push(`${f.id}: capa "${f.capa}" não existe`);
   if (f.conferir) conferir.push(`${f.id}: ${f.conferir}`);
 }

@@ -123,8 +123,9 @@ async function baixarCapa(grupoId, versoes, id) {
 
 // Correções manuais (data/albuns/correcoes.json): { "<id da ficha>": "<MBID do release-group>" }.
 // null = o álbum não está no MusicBrainz (a ficha fica só com o que veio do chart).
-// Objeto { "releaseGroup": "<MBID>", "titulo": "...", "artista": "..." } quando o nome do MusicBrainz
-// não é o usual (ex.: título original em alemão); titulo/artista substituem os do MusicBrainz.
+// Objeto { "releaseGroup": "<MBID>", "titulo": "...", "artista": "...", "lancamento": "...", "gravadora": "...",
+// "fonte": "<url>" } quando o MusicBrainz não tem o dado usual (ex.: título original em alemão, só a
+// reedição); esses campos substituem os do MusicBrainz e "fonte" registra de onde vieram.
 const ARQ_CORRECOES = path.join(RAIZ, "data", "albuns", "correcoes.json");
 const correcoes = fs.existsSync(ARQ_CORRECOES) ? JSON.parse(fs.readFileSync(ARQ_CORRECOES, "utf8")) : {};
 
@@ -193,6 +194,8 @@ async function criarFicha(id, artista, titulo) {
   }
   if (!ficha.capa) ficha.conferir = [ficha.conferir, "sem capa no Cover Art Archive"].filter(Boolean).join("; ");
   if (correcao?.titulo) ficha.titulo = correcao.titulo;
+  if (correcao?.lancamento) ficha.lancamento = correcao.lancamento;
+  if (correcao?.gravadora) ficha.gravadora = correcao.gravadora;
   if (correcao?.artista) ficha.artista = correcao.artista;
   return ficha;
 }
