@@ -1,0 +1,187 @@
+{
+  "id": "trip-hop",
+  "titulo": "/mu/ Essential: Trip-Hop",
+  "indice": "trip-hop",
+  "generos": [
+    "trip-hop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/trip-hop.jpeg",
+  "transcricao": {
+    "data": "2026-10-27",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Archive",
+      "titulo": "Londinium",
+      "album": "archive-londinium"
+    },
+    {
+      "pos": "A2",
+      "artista": "Morcheeba",
+      "titulo": "Big Calm",
+      "album": "morcheeba-big-calm"
+    },
+    {
+      "pos": "A3",
+      "artista": "Sneaker Pimps",
+      "titulo": "Becoming X",
+      "album": "sneaker-pimps-becoming-x"
+    },
+    {
+      "pos": "A4",
+      "artista": "Flying Lotus",
+      "titulo": "1983",
+      "album": "flying-lotus-1983"
+    },
+    {
+      "pos": "A5",
+      "artista": "Kid Koala",
+      "titulo": "Nufonia Must Fall",
+      "album": "kid-koala-nufonia-must-fall"
+    },
+    {
+      "pos": "A6",
+      "artista": "Doctor Flake",
+      "titulo": "Paradis Dirtyficiels",
+      "album": "doctor-flake-paradis-dirtyficiels"
+    },
+    {
+      "pos": "A7",
+      "artista": "Emancipator",
+      "titulo": "Safe in the Steep Cliffs",
+      "album": "emancipator-safe-in-the-steep-cliffs"
+    },
+    {
+      "pos": "B1",
+      "artista": "Lamb",
+      "titulo": "Lamb",
+      "noChart": "Lamb - S/T",
+      "album": "lamb-lamb"
+    },
+    {
+      "pos": "B2",
+      "artista": "Portishead",
+      "titulo": "Dummy",
+      "album": "portishead-dummy"
+    },
+    {
+      "pos": "B3",
+      "artista": "Portishead",
+      "titulo": "Third",
+      "album": "portishead-third"
+    },
+    {
+      "pos": "B4",
+      "artista": "UNKLE",
+      "titulo": "Psyence Fiction",
+      "album": "unkle-psyence-fiction"
+    },
+    {
+      "pos": "B5",
+      "artista": "Earthling",
+      "titulo": "Radar",
+      "album": "earthling-radar"
+    },
+    {
+      "pos": "B6",
+      "artista": "Thievery Corporation",
+      "titulo": "The Richest Man in Babylon",
+      "album": "thievery-corporation-the-richest-man-in-babylon"
+    },
+    {
+      "pos": "B7",
+      "artista": "Saltillo",
+      "titulo": "Ganglion",
+      "album": "saltillo-ganglion"
+    },
+    {
+      "pos": "C1",
+      "artista": "Massive Attack",
+      "titulo": "Blue Lines",
+      "album": "massive-attack-blue-lines"
+    },
+    {
+      "pos": "C2",
+      "artista": "Télépopmusik",
+      "titulo": "Angel Milk",
+      "album": "telepopmusik-angel-milk"
+    },
+    {
+      "pos": "C3",
+      "artista": "Hooverphonic",
+      "titulo": "Blue Wonder Power Milk",
+      "album": "hooverphonic-blue-wonder-power-milk"
+    },
+    {
+      "pos": "C4",
+      "artista": "UNKLE",
+      "titulo": "Never, Never, Land",
+      "noChart": "UNKLE - Never, Never Land",
+      "album": "unkle-never-never-land"
+    },
+    {
+      "pos": "C5",
+      "artista": "Blockhead",
+      "titulo": "Music by Cavelight",
+      "album": "blockhead-music-by-cavelight"
+    },
+    {
+      "pos": "C6",
+      "artista": "Bowery Electric",
+      "titulo": "Beat",
+      "album": "bowery-electric-beat"
+    },
+    {
+      "pos": "C7",
+      "artista": "DJ Shadow",
+      "titulo": "Endtroducing.....",
+      "album": "dj-shadow-endtroducing"
+    },
+    {
+      "pos": "D1",
+      "artista": "Massive Attack",
+      "titulo": "Mezzanine",
+      "album": "massive-attack-mezzanine"
+    },
+    {
+      "pos": "D2",
+      "artista": "Tricky",
+      "titulo": "Maxinquaye",
+      "album": "tricky-maxinquaye"
+    },
+    {
+      "pos": "D3",
+      "artista": "Martina Topley-Bird",
+      "titulo": "Quixotic",
+      "album": "martina-topley-bird-quixotic"
+    },
+    {
+      "pos": "D4",
+      "artista": "Bonobo",
+      "titulo": "Black Sands",
+      "album": "bonobo-black-sands"
+    },
+    {
+      "pos": "D5",
+      "artista": "RJD2",
+      "titulo": "Deadringer",
+      "album": "rjd2-deadringer"
+    },
+    {
+      "pos": "D6",
+      "artista": "Monk & Canatella",
+      "titulo": "Care in the Community",
+      "album": "monk-and-canatella-care-in-the-community"
+    },
+    {
+      "pos": "D7",
+      "artista": "I Monster",
+      "titulo": "Neveroddoreven",
+      "album": "i-monster-neveroddoreven"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "vaporwave-1",
+  "titulo": "/mu/ Vaporwave Essentials",
+  "indice": "vaporwave-1",
+  "generos": [
+    "vaporwave"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/vaporwave-1.png",
+  "transcricao": {
+    "data": "2026-10-27",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "O chart separa eccojams/proto-vapor, os lançamentos da New Dreams Ltd. (em ordem cronológica) e post-internet & outros favoritos (campo \"subestilos\"). Traduções entre colchetes são do próprio chart.",
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "James Ferraro",
+      "titulo": "Far Side Virtual",
+      "subestilos": [
+        "eccojams/proto-vapor"
+      ],
+      "album": "james-ferraro-far-side-virtual"
+    },
+    {
+      "pos": "A2",
+      "artista": "Chuck Person",
+      "titulo": "Chuck Person's Eccojams Vol. 1",
+      "subestilos": [
+        "eccojams/proto-vapor"
+      ],
+      "album": "chuck-person-chuck-persons-eccojams-vol-1"
+    },
+    {
+      "pos": "A3",
+      "artista": "Oneohtrix Point Never",
+      "titulo": "Replica",
+      "subestilos": [
+        "eccojams/proto-vapor"
+      ],
+      "album": "oneohtrix-point-never-replica"
+    },
+    {
+      "pos": "B1",
+      "artista": "Laserdisc Visions",
+      "titulo": "Laserdisc Visions",
+      "subestilos": [
+        "New Dreams Ltd."
+      ],
+      "album": "laserdisc-visions-laserdisc-visions"
+    },
+    {
+      "pos": "B2",
+      "artista": "Fuji Grid TV",
+      "titulo": "Prism Genesis",
+      "subestilos": [
+        "New Dreams Ltd."
+      ],
+      "album": "fuji-grid-tv-prism-genesis"
+    },
+    {
+      "pos": "B3",
+      "artista": "ESC 不在",
+      "titulo": "MIDI Dungeon",
+      "subestilos": [
+        "New Dreams Ltd."
+      ],
+      "noChart": "ESC 不在 [ESC NOT HERE] - MIDI DUNGEON",
+      "album": "esc-midi-dungeon"
+    },
+    {
+      "pos": "C1",
+      "artista": "Macintosh Plus",
+      "titulo": "Floral Shoppe",
+      "subestilos": [
+        "New Dreams Ltd."
+      ],
+      "album": "macintosh-plus-floral-shoppe"
+    },
+    {
+      "pos": "C2",
+      "artista": "情報デスクVIRTUAL",
+      "titulo": "幌コンテンポラリ",
+      "subestilos": [
+        "New Dreams Ltd."
+      ],
+      "noChart": "情報デスクVIRTUAL [VIRTUAL INFORMATION DESK] - 幌コンテンポラリ [CONTEMPORARY SAPPORO]",
+      "album": "virtual"
+    },
+    {
+      "pos": "C3",
+      "artista": "Sacred Tapestry",
+      "titulo": "Shader",
+      "subestilos": [
+        "New Dreams Ltd."
+      ],
+      "album": "sacred-tapestry-shader"
+    },
+    {
+      "pos": "D1",
+      "artista": "Internet Club",
+      "titulo": "Underwater Mirage",
+      "subestilos": [
+        "post-internet"
+      ],
+      "album": "internet-club-underwater-mirage"
+    },
+    {
+      "pos": "D2",
+      "artista": "Internet Club",
+      "titulo": "Final Tears",
+      "subestilos": [
+        "post-internet"
+      ],
+      "album": "internet-club-final-tears"
+    },
+    {
+      "pos": "D3",
+      "artista": "骨架的",
+      "titulo": "Holograms",
+      "subestilos": [
+        "post-internet"
+      ],
+      "noChart": "骨架的 [SKELETON] - HOLOGRAMS",
+      "album": "holograms"
+    },
+    {
+      "pos": "E1",
+      "artista": "Surfing",
+      "titulo": "Deep Fantasy",
+      "subestilos": [
+        "post-internet"
+      ],
+      "album": "surfing-deep-fantasy"
+    },
+    {
+      "pos": "E2",
+      "artista": "MediaFired",
+      "titulo": "The Pathway Through Whatever",
+      "subestilos": [
+        "post-internet"
+      ],
+      "album": "mediafired-the-pathway-through-whatever"
+    },
+    {
+      "pos": "E3",
+      "artista": "Eyeliner",
+      "titulo": "High Fashion Mood Music",
+      "subestilos": [
+        "post-internet"
+      ],
+      "album": "eyeliner-high-fashion-mood-music"
+    }
+  ]
+}

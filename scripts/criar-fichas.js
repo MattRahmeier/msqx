@@ -153,7 +153,7 @@ function gravadoraDe(versoes) {
 async function criarFicha(id, artista, titulo) {
   if (correcoes[id] === null) return { id, titulo, artista, conferir: "não está no MusicBrainz (correcoes.json)" };
   const correcao = typeof correcoes[id] === "string" ? { releaseGroup: correcoes[id] } : correcoes[id];
-  const achado = correcao ? await grupoCorrigido(correcao.releaseGroup) : await buscarGrupo(artista, titulo);
+  const achado = correcao?.releaseGroup ? await grupoCorrigido(correcao.releaseGroup) : await buscarGrupo(artista, titulo);
   // Crédito só em escrita não latina (ex.: "坂本龍一"): fica o nome como está no chart.
   if (achado && !/[a-z]/i.test(achado.credito)) achado.credito = artista;
   if (!achado) return { id, titulo, artista, conferir: "não encontrado no MusicBrainz" };

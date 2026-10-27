@@ -1,0 +1,318 @@
+{
+  "id": "electronic-general",
+  "titulo": "/mu/'s Essential Electronic Album List",
+  "indice": "electronic-general",
+  "generos": [
+    "eletronica"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/electronic-general.jpeg",
+  "transcricao": {
+    "data": "2026-10-27",
+    "metodo": "lista escrita no próprio chart (título e artista sob cada capa)",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Air",
+      "titulo": "Moon Safari",
+      "album": "air-moon-safari"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Alec Empire",
+      "titulo": "The Destroyer",
+      "album": "alec-empire-the-destroyer"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Amon Tobin",
+      "titulo": "Permutation",
+      "album": "amon-tobin-permutation"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Aphex Twin",
+      "titulo": "Selected Ambient Works 85–92",
+      "noChart": "Selected Ambient Works 8... (cortado na imagem)",
+      "album": "aphex-twin-selected-ambient-works-85-92"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Autechre",
+      "titulo": "Amber",
+      "album": "autechre-amber"
+    },
+    {
+      "pos": "2-1",
+      "artista": "The Avalanches",
+      "titulo": "Since I Left You",
+      "album": "the-avalanches-since-i-left-you"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Björk",
+      "titulo": "Homogenic",
+      "album": "bjork-homogenic"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Boards of Canada",
+      "titulo": "Geogaddi",
+      "album": "boards-of-canada-geogaddi"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Brian Eno",
+      "titulo": "Ambient 1: Music for Airports",
+      "album": "brian-eno-ambient-1-music-for-airports"
+    },
+    {
+      "pos": "2-5",
+      "artista": "BT",
+      "titulo": "This Binary Universe",
+      "album": "bt-this-binary-universe"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Burial",
+      "titulo": "Untrue",
+      "album": "burial-untrue"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Ceephax Acid Crew",
+      "titulo": "United Acid Emirates",
+      "album": "ceephax-acid-crew-united-acid-emirates"
+    },
+    {
+      "pos": "3-3",
+      "artista": "The Chemical Brothers",
+      "titulo": "Dig Your Own Hole",
+      "album": "the-chemical-brothers-dig-your-own-hole"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Clark",
+      "titulo": "Totems Flare",
+      "album": "clark-totems-flare"
+    },
+    {
+      "pos": "3-5",
+      "artista": "Daft Punk",
+      "titulo": "Discovery",
+      "album": "daft-punk-discovery"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Kashiwa Daisuke",
+      "titulo": "Program Music I",
+      "album": "kashiwa-daisuke-program-music-i"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Digitalism",
+      "titulo": "Idealism",
+      "album": "digitalism-idealism"
+    },
+    {
+      "pos": "4-3",
+      "artista": "DJ Shadow",
+      "titulo": "Endtroducing.....",
+      "album": "dj-shadow-endtroducing"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Fatboy Slim",
+      "titulo": "Better Living Through Chemistry",
+      "album": "fatboy-slim-better-living-through-chemistry"
+    },
+    {
+      "pos": "4-5",
+      "artista": "The Field",
+      "titulo": "From Here We Go Sublime",
+      "album": "the-field-from-here-we-go-sublime"
+    },
+    {
+      "pos": "5-1",
+      "artista": "The Flashbulb",
+      "titulo": "Kirlian Selections",
+      "album": "the-flashbulb-kirlian-selections"
+    },
+    {
+      "pos": "5-2",
+      "artista": "Fuck Buttons",
+      "titulo": "Tarot Sport",
+      "album": "fuck-buttons-tarot-sport"
+    },
+    {
+      "pos": "5-3",
+      "artista": "The Future Sound of London",
+      "titulo": "Lifeforms",
+      "album": "the-future-sound-of-london-lifeforms"
+    },
+    {
+      "pos": "5-4",
+      "artista": "Helios",
+      "titulo": "Eingya",
+      "album": "helios-eingya"
+    },
+    {
+      "pos": "5-5",
+      "artista": "Junior Boys",
+      "titulo": "Last Exit",
+      "album": "junior-boys-last-exit"
+    },
+    {
+      "pos": "6-1",
+      "artista": "Justice",
+      "titulo": "†",
+      "album": "justice"
+    },
+    {
+      "pos": "6-2",
+      "artista": "Kettel",
+      "titulo": "Myam James 2",
+      "album": "kettel-myam-james-2"
+    },
+    {
+      "pos": "6-3",
+      "artista": "The Knife",
+      "titulo": "Silent Shout",
+      "album": "the-knife-silent-shout"
+    },
+    {
+      "pos": "6-4",
+      "artista": "Kraftwerk",
+      "titulo": "The Man-Machine",
+      "album": "kraftwerk-the-man-machine"
+    },
+    {
+      "pos": "6-5",
+      "artista": "LFO",
+      "titulo": "Frequencies",
+      "album": "lfo-frequencies"
+    },
+    {
+      "pos": "7-1",
+      "artista": "Massive Attack",
+      "titulo": "Mezzanine",
+      "album": "massive-attack-mezzanine"
+    },
+    {
+      "pos": "7-2",
+      "artista": "Nero's Day at Disneyland",
+      "titulo": "From Rotting Fantasylands",
+      "album": "neros-day-at-disneyland-from-rotting-fantasylands"
+    },
+    {
+      "pos": "7-3",
+      "artista": "The Orb",
+      "titulo": "The Orb's Adventures Beyond the Ultraworld",
+      "album": "the-orb-the-orbs-adventures-beyond-the-ultraworld"
+    },
+    {
+      "pos": "7-4",
+      "artista": "Plaid",
+      "titulo": "Not for Threes",
+      "album": "plaid-not-for-threes"
+    },
+    {
+      "pos": "7-5",
+      "artista": "Plug",
+      "titulo": "Drum 'n' Bass for Papa",
+      "album": "plug-drum-n-bass-for-papa"
+    },
+    {
+      "pos": "8-1",
+      "artista": "Portishead",
+      "titulo": "Dummy",
+      "album": "portishead-dummy"
+    },
+    {
+      "pos": "8-2",
+      "artista": "The Prodigy",
+      "titulo": "The Fat of the Land",
+      "album": "the-prodigy-the-fat-of-the-land"
+    },
+    {
+      "pos": "8-3",
+      "artista": "Röyksopp",
+      "titulo": "Melody A.M.",
+      "album": "royksopp-melody-am"
+    },
+    {
+      "pos": "8-4",
+      "artista": "Sabrepulse",
+      "titulo": "Chipbreak Wars",
+      "album": "sabrepulse-chipbreak-wars"
+    },
+    {
+      "pos": "8-5",
+      "artista": "Saint Etienne",
+      "titulo": "Foxbase Alpha",
+      "album": "saint-etienne-foxbase-alpha"
+    },
+    {
+      "pos": "9-1",
+      "artista": "Secede",
+      "titulo": "Tryshasla",
+      "album": "secede-tryshasla"
+    },
+    {
+      "pos": "9-2",
+      "artista": "Squarepusher",
+      "titulo": "Ultravisitor",
+      "album": "squarepusher-ultravisitor"
+    },
+    {
+      "pos": "9-3",
+      "artista": "Stars of the Lid",
+      "titulo": "And Their Refinement of the Decline",
+      "album": "stars-of-the-lid-and-their-refinement-of-the-decline"
+    },
+    {
+      "pos": "9-4",
+      "artista": "Tangerine Dream",
+      "titulo": "Phaedra",
+      "album": "tangerine-dream-phaedra"
+    },
+    {
+      "pos": "9-5",
+      "artista": "Underworld",
+      "titulo": "Beaucoup Fish",
+      "album": "underworld-beaucoup-fish"
+    },
+    {
+      "pos": "10-1",
+      "artista": "Vangelis",
+      "titulo": "Blade Runner",
+      "album": "vangelis-blade-runner"
+    },
+    {
+      "pos": "10-2",
+      "artista": "Venetian Snares",
+      "titulo": "Rossz csillag alatt született",
+      "album": "venetian-snares-rossz-csillag-alatt-szuletett"
+    },
+    {
+      "pos": "10-3",
+      "artista": "Wendy Carlos",
+      "titulo": "Switched-On Bach",
+      "album": "wendy-carlos-switched-on-bach"
+    },
+    {
+      "pos": "10-4",
+      "artista": "Wisp",
+      "titulo": "The Shimmering Hour",
+      "album": "wisp-the-shimmering-hour"
+    },
+    {
+      "pos": "10-5",
+      "artista": "µ-Ziq",
+      "titulo": "Lunatic Harness",
+      "album": "ziq-lunatic-harness"
+    }
+  ]
+}

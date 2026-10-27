@@ -1,0 +1,240 @@
+{
+  "id": "ambient-1",
+  "titulo": "/mu/ Essential Ambient",
+  "indice": "ambient-1",
+  "generos": [
+    "ambient"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/ambient-1.jpeg",
+  "transcricao": {
+    "data": "2026-10-27",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "a1",
+      "artista": "Brian Eno",
+      "titulo": "Ambient 1: Music for Airports",
+      "noChart": "Brian Eno - Ambient Works 1",
+      "album": "brian-eno-ambient-1-music-for-airports"
+    },
+    {
+      "pos": "a2",
+      "artista": "Harold Budd & Brian Eno",
+      "titulo": "Ambient 2: The Plateaux of Mirror",
+      "noChart": "Brian Eno - Ambient Works 2",
+      "album": "harold-budd-and-brian-eno-ambient-2-the-plateaux-of-mirror"
+    },
+    {
+      "pos": "a3",
+      "artista": "Laraaji",
+      "titulo": "Ambient 3: Day of Radiance",
+      "noChart": "Brian Eno - Ambient Works 3 (série Ambient de Eno; o disco é de Laraaji, produzido por Eno)",
+      "album": "laraaji-ambient-3-day-of-radiance"
+    },
+    {
+      "pos": "a4",
+      "artista": "Brian Eno",
+      "titulo": "Ambient 4: On Land",
+      "noChart": "Brian Eno - Ambient Works 4",
+      "album": "brian-eno-ambient-4-on-land"
+    },
+    {
+      "pos": "b1",
+      "artista": "Chihei Hatakeyama",
+      "titulo": "Minima Moralia",
+      "album": "chihei-hatakeyama-minima-moralia"
+    },
+    {
+      "pos": "b2",
+      "artista": "Biosphere",
+      "titulo": "Substrata",
+      "album": "biosphere-substrata"
+    },
+    {
+      "pos": "b3",
+      "artista": "Loscil",
+      "titulo": "Plume",
+      "album": "loscil-plume"
+    },
+    {
+      "pos": "b4",
+      "artista": "Celer",
+      "titulo": "Capri",
+      "album": "celer-capri"
+    },
+    {
+      "pos": "c1",
+      "artista": "Windy & Carl",
+      "titulo": "Consciousness",
+      "album": "windy-and-carl-consciousness"
+    },
+    {
+      "pos": "c2",
+      "artista": "Emeralds",
+      "titulo": "What Happened",
+      "album": "emeralds-what-happened"
+    },
+    {
+      "pos": "c3",
+      "artista": "Labradford",
+      "titulo": "Mi Media Naranja",
+      "album": "labradford-mi-media-naranja"
+    },
+    {
+      "pos": "c4",
+      "artista": "William Basinski",
+      "titulo": "The Disintegration Loops",
+      "album": "william-basinski-the-disintegration-loops"
+    },
+    {
+      "pos": "d1",
+      "artista": "Marsen Jules",
+      "titulo": "Les Fleurs",
+      "album": "marsen-jules-les-fleurs"
+    },
+    {
+      "pos": "d2",
+      "artista": "Keith Fullerton Whitman",
+      "titulo": "Playthroughs",
+      "album": "keith-fullerton-whitman-playthroughs"
+    },
+    {
+      "pos": "d3",
+      "artista": "Lawrence English",
+      "titulo": "For Varying Degrees of Winter",
+      "album": "lawrence-english-for-varying-degrees-of-winter"
+    },
+    {
+      "pos": "d4",
+      "artista": "Alva Noto",
+      "titulo": "Xerrox Vol. 2",
+      "album": "alva-noto-xerrox-vol-2"
+    },
+    {
+      "pos": "e1",
+      "artista": "Coil",
+      "titulo": "Time Machines",
+      "album": "coil-time-machines"
+    },
+    {
+      "pos": "e2",
+      "artista": "Aidan Baker & Tim Hecker",
+      "titulo": "Fantasma Parastasie",
+      "album": "aidan-baker-and-tim-hecker-fantasma-parastasie"
+    },
+    {
+      "pos": "e3",
+      "artista": "Ulver",
+      "titulo": "Perdition City",
+      "album": "ulver-perdition-city"
+    },
+    {
+      "pos": "e4",
+      "artista": "Aphex Twin",
+      "titulo": "Selected Ambient Works Volume II",
+      "noChart": "Aphex Twin - Selected Ambient vol. 2",
+      "album": "aphex-twin-selected-ambient-works-volume-ii"
+    },
+    {
+      "pos": "f1",
+      "artista": "Solar Fields",
+      "titulo": "Blue Moon Station",
+      "album": "solar-fields-blue-moon-station"
+    },
+    {
+      "pos": "f2",
+      "artista": "The KLF",
+      "titulo": "Chill Out",
+      "album": "the-klf-chill-out"
+    },
+    {
+      "pos": "f3",
+      "artista": "Global Communication",
+      "titulo": "76:14",
+      "album": "global-communication-76-14"
+    },
+    {
+      "pos": "f4",
+      "artista": "Terry Riley",
+      "titulo": "A Rainbow in Curved Air",
+      "noChart": "Terry Reilly - A Rainbow in Curved Air",
+      "album": "terry-riley-a-rainbow-in-curved-air"
+    },
+    {
+      "pos": "g1",
+      "artista": "Michael Shrieve",
+      "titulo": "Transfer Station Blue",
+      "album": "michael-shrieve-transfer-station-blue"
+    },
+    {
+      "pos": "g2",
+      "artista": "Cluster & Eno",
+      "titulo": "Cluster & Eno",
+      "album": "cluster-and-eno-cluster-and-eno"
+    },
+    {
+      "pos": "g3",
+      "artista": "Eluvium",
+      "titulo": "Talk Amongst the Trees",
+      "album": "eluvium-talk-amongst-the-trees"
+    },
+    {
+      "pos": "g4",
+      "artista": "Seaworthy",
+      "titulo": "1897",
+      "album": "seaworthy-1897"
+    },
+    {
+      "pos": "h1",
+      "artista": "Stars of the Lid",
+      "titulo": "And Their Refinement of the Decline",
+      "album": "stars-of-the-lid-and-their-refinement-of-the-decline"
+    },
+    {
+      "pos": "h2",
+      "artista": "Tangerine Dream",
+      "titulo": "Green Desert",
+      "album": "tangerine-dream-green-desert"
+    },
+    {
+      "pos": "h3",
+      "artista": "Unomia",
+      "titulo": "Helios",
+      "album": "unomia-helios"
+    },
+    {
+      "pos": "h4",
+      "artista": "Oneohtrix Point Never",
+      "titulo": "Rifts",
+      "noChart": "oneohtrix - point never rifts",
+      "album": "oneohtrix-point-never-rifts"
+    },
+    {
+      "pos": "i1",
+      "artista": "Porcupine Tree",
+      "titulo": "The Sky Moves Sideways",
+      "album": "porcupine-tree-the-sky-moves-sideways"
+    },
+    {
+      "pos": "i2",
+      "artista": "Steve Roach",
+      "titulo": "Dreamtime Return",
+      "album": "steve-roach-dreamtime-return"
+    },
+    {
+      "pos": "i3",
+      "artista": "Sleepresearch_Facility",
+      "titulo": "Dead Weather Machine",
+      "album": "sleepresearch-facility-dead-weather-machine"
+    },
+    {
+      "pos": "i4",
+      "artista": "Robert Rich & Lustmord",
+      "titulo": "Stalker",
+      "album": "robert-rich-and-lustmord-stalker"
+    }
+  ]
+}

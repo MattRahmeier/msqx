@@ -1,0 +1,190 @@
+{
+  "id": "detroit-techno",
+  "titulo": "Essential Detroit Techno",
+  "indice": "detroit-techno",
+  "generos": [
+    "techno"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/detroit-techno.jpg",
+  "transcricao": {
+    "data": "2026-10-27",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "A cor da borda indica elementos de outros estilos (verde = house, rosa = nu jazz, amarelo = electro, vermelho = minimal techno, azul = ambient techno); as cores não foram transcritas.",
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Juan Atkins",
+      "titulo": "20 Years Metroplex 1985–2005",
+      "noChart": "Juan Atkins - 20 Years Metroplex",
+      "album": "juan-atkins-20-years-metroplex-1985-2005"
+    },
+    {
+      "pos": "A2",
+      "artista": "Derrick May",
+      "titulo": "Innovator",
+      "album": "derrick-may-innovator"
+    },
+    {
+      "pos": "A3",
+      "artista": "Richie Hawtin",
+      "titulo": "DE9 | Decks, EFX & 909",
+      "noChart": "Richie Hawtin - Decks, EFX & 909",
+      "album": "richie-hawtin-de9-decks-efx-and-909"
+    },
+    {
+      "pos": "B1",
+      "artista": "Underground Resistance",
+      "titulo": "Interstellar Fugitives",
+      "album": "underground-resistance-interstellar-fugitives"
+    },
+    {
+      "pos": "B2",
+      "artista": "Drexciya",
+      "titulo": "The Quest",
+      "album": "drexciya-the-quest"
+    },
+    {
+      "pos": "B3",
+      "artista": "Kevin Saunderson",
+      "titulo": "Faces & Phases",
+      "album": "kevin-saunderson-faces-and-phases"
+    },
+    {
+      "pos": "B4",
+      "artista": "Galaxy 2 Galaxy",
+      "titulo": "A High Tech Jazz Compilation",
+      "album": "galaxy-2-galaxy-a-high-tech-jazz-compilation"
+    },
+    {
+      "pos": "B5",
+      "artista": "Psyche / BFC",
+      "titulo": "Elements 1989–1990",
+      "album": "psyche-bfc-elements-1989-1990"
+    },
+    {
+      "pos": "C1",
+      "artista": "Anthony Shakir",
+      "titulo": "Frictionalism 1994–2009",
+      "album": "anthony-shakir-frictionalism-1994-2009"
+    },
+    {
+      "pos": "C2",
+      "artista": "69",
+      "titulo": "The Sound of Music",
+      "album": "69-the-sound-of-music"
+    },
+    {
+      "pos": "C3",
+      "artista": "Carl Craig",
+      "titulo": "Landcruising",
+      "album": "carl-craig-landcruising"
+    },
+    {
+      "pos": "C4",
+      "artista": "Omar S",
+      "titulo": "Fabric 45",
+      "album": "omar-s-fabric-45"
+    },
+    {
+      "pos": "C5",
+      "artista": "Infiniti",
+      "titulo": "Skynet",
+      "album": "infiniti-skynet"
+    },
+    {
+      "pos": "D1",
+      "artista": "The Martian",
+      "titulo": "A Red Planet Compilation",
+      "album": "the-martian-a-red-planet-compilation"
+    },
+    {
+      "pos": "D2",
+      "artista": "Paperclip People",
+      "titulo": "The Secret Tapes of Dr. Eich",
+      "noChart": "Paperclip People - The Secret Tapes of Doctor Eich",
+      "album": "paperclip-people-the-secret-tapes-of-dr-eich"
+    },
+    {
+      "pos": "D3",
+      "artista": "DJ Rolando",
+      "titulo": "The Aztec Mystic Mix",
+      "album": "dj-rolando-the-aztec-mystic-mix"
+    },
+    {
+      "pos": "D4",
+      "artista": "Plastikman",
+      "titulo": "Consumed",
+      "album": "plastikman-consumed"
+    },
+    {
+      "pos": "D5",
+      "artista": "Jeff Mills",
+      "titulo": "Live at the Liquid Room",
+      "album": "jeff-mills-live-at-the-liquid-room"
+    },
+    {
+      "pos": "E1",
+      "artista": "Robert Hood",
+      "titulo": "Minimal Nation",
+      "album": "robert-hood-minimal-nation"
+    },
+    {
+      "pos": "E2",
+      "artista": "Model 500",
+      "titulo": "Deep Space",
+      "album": "model-500-deep-space"
+    },
+    {
+      "pos": "E3",
+      "artista": "The Other People Place",
+      "titulo": "Lifestyles of the Laptop Café",
+      "noChart": "The Other People Place - Lifestyles of the Laptop Cafe",
+      "album": "the-other-people-place-lifestyles-of-the-laptop-cafe"
+    },
+    {
+      "pos": "E4",
+      "artista": "X-102",
+      "titulo": "Discovers the Rings of Saturn",
+      "album": "x-102-discovers-the-rings-of-saturn"
+    },
+    {
+      "pos": "E5",
+      "artista": "Moodymann",
+      "titulo": "Silent Introduction",
+      "album": "moodymann-silent-introduction"
+    },
+    {
+      "pos": "F1",
+      "artista": "Kenny Larkin",
+      "titulo": "Azimuth",
+      "album": "kenny-larkin-azimuth"
+    },
+    {
+      "pos": "F2",
+      "artista": "Innerzone Orchestra",
+      "titulo": "Programmed",
+      "album": "innerzone-orchestra-programmed"
+    },
+    {
+      "pos": "F3",
+      "artista": "Suburban Knight",
+      "titulo": "My Sol Dark Direction",
+      "album": "suburban-knight-my-sol-dark-direction"
+    },
+    {
+      "pos": "F4",
+      "artista": "Stacey Pullen",
+      "titulo": "DJ-Kicks",
+      "album": "stacey-pullen-dj-kicks"
+    },
+    {
+      "pos": "F5",
+      "artista": "E-Dancer",
+      "titulo": "Heavenly",
+      "album": "e-dancer-heavenly"
+    }
+  ]
+}

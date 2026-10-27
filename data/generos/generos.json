@@ -36,7 +36,8 @@
         "ate": 77,
         "genero": "rock-and-roll"
       }
-    ]
+    ],
+    "musicmap": "blu"
   },
   {
     "id": "delta-blues",
@@ -72,7 +73,12 @@
       "url": "https://pt.wikipedia.org/wiki/Delta_blues",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "blu01",
+    "influencias": [
+      "boogie-woogie",
+      "new-orleans-jazz"
+    ]
   },
   {
     "id": "piedmont-blues",
@@ -107,7 +113,8 @@
         "ate": 45,
         "genero": "blues"
       }
-    ]
+    ],
+    "musicmap": "blu01"
   },
   {
     "id": "texas-blues",
@@ -145,7 +152,8 @@
       "delta-blues",
       "electric-blues"
     ],
-    "somPendente": "artigo sem trecho sobre o som"
+    "somPendente": "artigo sem trecho sobre o som",
+    "musicmap": "blu04"
   },
   {
     "id": "boogie-woogie",
@@ -180,7 +188,11 @@
       "idioma": "pt",
       "secao": "Características musicais",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "blu03",
+    "influencias": [
+      "delta-blues"
+    ]
   },
   {
     "id": "jump-blues",
@@ -229,7 +241,8 @@
         "ate": 103,
         "genero": "swing"
       }
-    ]
+    ],
+    "musicmap": "blu05"
   },
   {
     "id": "electric-blues",
@@ -277,6 +290,11 @@
         "ate": 264,
         "genero": "blues"
       }
+    ],
+    "musicmap": "blu06",
+    "influencias": [
+      "british-blues",
+      "chicago-jazz"
     ]
   },
   {
@@ -327,7 +345,8 @@
         "ate": 105,
         "genero": "delta-blues"
       }
-    ]
+    ],
+    "musicmap": "blu06"
   },
   {
     "id": "british-blues",
@@ -374,6 +393,14 @@
         "ate": 24,
         "genero": "blues"
       }
+    ],
+    "musicmap": "blu09",
+    "influencias": [
+      "electric-blues",
+      "psychedelic-rock",
+      "hard-rock",
+      "heavy-metal",
+      "rock-and-roll"
     ]
   },
   {
@@ -419,7 +446,8 @@
         "ate": 232,
         "genero": "electric-blues"
       }
-    ]
+    ],
+    "musicmap": "rnr"
   },
   {
     "id": "rock-and-roll",
@@ -464,7 +492,12 @@
       "url": "https://pt.wikipedia.org/wiki/Rock_and_roll",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "rnr02",
+    "influencias": [
+      "folk-rock",
+      "british-blues"
+    ]
   },
   {
     "id": "rockabilly",
@@ -508,7 +541,8 @@
         "ate": 210,
         "genero": "blues"
       }
-    ]
+    ],
+    "musicmap": "rnr02"
   },
   {
     "id": "surf-rock",
@@ -547,7 +581,8 @@
       "url": "https://pt.wikipedia.org/wiki/Surf_music",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "rnr04"
   },
   {
     "id": "garage-rock",
@@ -592,7 +627,11 @@
       "url": "https://pt.wikipedia.org/wiki/Rock_de_garagem",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "rnr05",
+    "influencias": [
+      "bubblegum-pop"
+    ]
   },
   {
     "id": "psychedelic-rock",
@@ -642,6 +681,13 @@
         "ate": 344,
         "genero": "rock"
       }
+    ],
+    "musicmap": "gld03",
+    "influencias": [
+      "glam-rock",
+      "british-blues",
+      "heavy-metal",
+      "gothic-rock"
     ]
   },
   {
@@ -678,7 +724,12 @@
       "url": "https://pt.wikipedia.org/wiki/Folk_rock",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "gld02",
+    "influencias": [
+      "art-pop",
+      "rock-and-roll"
+    ]
   },
   {
     "id": "blues-rock",
@@ -728,7 +779,8 @@
         "ate": 71,
         "genero": "blues"
       }
-    ]
+    ],
+    "musicmap": "blu09"
   },
   {
     "id": "hard-rock",
@@ -788,6 +840,12 @@
         "ate": 332,
         "genero": "metal"
       }
+    ],
+    "musicmap": "gld04",
+    "influencias": [
+      "punk-rock",
+      "british-blues",
+      "bubblegum-pop"
     ]
   },
   {
@@ -847,6 +905,14 @@
         "ate": 139,
         "genero": "rock-and-roll"
       }
+    ],
+    "musicmap": "gld06",
+    "influencias": [
+      "psychedelic-rock",
+      "progressive-rock",
+      "new-wave",
+      "krautrock",
+      "grunge"
     ]
   },
   {
@@ -888,7 +954,12 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "gld05",
+    "influencias": [
+      "glam-rock",
+      "punk-rock"
+    ]
   },
   {
     "id": "krautrock",
@@ -930,6 +1001,10 @@
         "ate": 171,
         "genero": "rock"
       }
+    ],
+    "musicmap": "inl01",
+    "influencias": [
+      "glam-rock"
     ]
   },
   {
@@ -972,7 +1047,13 @@
       "secao": "Characteristics",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "met10",
+    "influencias": [
+      "gothic-metal",
+      "grunge",
+      "noise-rock"
+    ]
   },
   {
     "id": "punk-rock",
@@ -1008,7 +1089,14 @@
       "secao": "Characteristics",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "pwv02",
+    "influencias": [
+      "hard-rock",
+      "grunge",
+      "heavy-metal",
+      "progressive-rock"
+    ]
   },
   {
     "id": "hardcore-punk",
@@ -1055,6 +1143,12 @@
         "ate": 29,
         "genero": "punk-rock"
       }
+    ],
+    "musicmap": "hcp01",
+    "influencias": [
+      "indie-rock",
+      "alternative-metal",
+      "noise-rock"
     ]
   },
   {
@@ -1103,6 +1197,11 @@
         "ate": 36,
         "genero": "hardcore-punk"
       }
+    ],
+    "musicmap": "hcp04",
+    "influencias": [
+      "indie-rock",
+      "alternative-rock"
     ]
   },
   {
@@ -1153,7 +1252,8 @@
         "ate": 358,
         "genero": "hardcore-punk"
       }
-    ]
+    ],
+    "musicmap": "con02"
   },
   {
     "id": "post-punk",
@@ -1199,7 +1299,8 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "pwv04"
   },
   {
     "id": "gothic-rock",
@@ -1263,6 +1364,11 @@
         "ate": 144,
         "genero": "glam-rock"
       }
+    ],
+    "musicmap": "inl03",
+    "influencias": [
+      "doom-metal",
+      "psychedelic-rock"
     ]
   },
   {
@@ -1313,6 +1419,11 @@
         "ate": 236,
         "genero": "punk-rock"
       }
+    ],
+    "musicmap": "pwv06",
+    "influencias": [
+      "glam-rock",
+      "dream-pop"
     ]
   },
   {
@@ -1356,7 +1467,12 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "alt07",
+    "influencias": [
+      "hypnagogic-pop",
+      "post-hardcore"
+    ]
   },
   {
     "id": "indie-rock",
@@ -1391,7 +1507,16 @@
       "britpop"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "alt01",
+    "influencias": [
+      "hardcore-punk",
+      "alternative-metal",
+      "dream-pop",
+      "post-hardcore",
+      "grunge",
+      "art-pop"
+    ]
   },
   {
     "id": "grunge",
@@ -1452,6 +1577,15 @@
         "ate": 293,
         "genero": "metal"
       }
+    ],
+    "musicmap": "alt04",
+    "influencias": [
+      "thrash-metal",
+      "punk-rock",
+      "indie-rock",
+      "stoner-rock",
+      "britpop",
+      "glam-rock"
     ]
   },
   {
@@ -1521,6 +1655,11 @@
         "ate": 403,
         "genero": "shoegaze"
       }
+    ],
+    "musicmap": "pop10",
+    "influencias": [
+      "dream-pop",
+      "grunge"
     ]
   },
   {
@@ -1574,6 +1713,15 @@
         "ate": 113,
         "genero": "alternative-rock"
       }
+    ],
+    "musicmap": "alt03",
+    "influencias": [
+      "britpop",
+      "hypnagogic-pop",
+      "indie-rock",
+      "new-wave",
+      "post-rock",
+      "noise-rock"
     ]
   },
   {
@@ -1621,7 +1769,8 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "alt03"
   },
   {
     "id": "noise-rock",
@@ -1672,6 +1821,14 @@
         "ate": 249,
         "genero": "rock"
       }
+    ],
+    "musicmap": "alt02",
+    "influencias": [
+      "math-rock",
+      "hardcore-punk",
+      "grindcore",
+      "dream-pop",
+      "stoner-rock"
     ]
   },
   {
@@ -1714,7 +1871,11 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "alt09",
+    "influencias": [
+      "dream-pop"
+    ]
   },
   {
     "id": "math-rock",
@@ -1765,6 +1926,11 @@
         "ate": 12,
         "genero": "rock"
       }
+    ],
+    "musicmap": "hcp05",
+    "influencias": [
+      "grindcore",
+      "noise-rock"
     ]
   },
   {
@@ -1801,7 +1967,8 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "pop"
   },
   {
     "id": "bubblegum-pop",
@@ -1842,7 +2009,12 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "pop02",
+    "influencias": [
+      "garage-rock",
+      "hard-rock"
+    ]
   },
   {
     "id": "sunshine-pop",
@@ -1887,6 +2059,10 @@
         "ate": 70,
         "genero": "folk-rock"
       }
+    ],
+    "musicmap": "pop04",
+    "influencias": [
+      "indie-pop"
     ]
   },
   {
@@ -1936,7 +2112,8 @@
         "ate": 59,
         "genero": "rock"
       }
-    ]
+    ],
+    "musicmap": "pop04"
   },
   {
     "id": "art-pop",
@@ -1974,7 +2151,13 @@
       "hypnagogic-pop"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "pop03",
+    "influencias": [
+      "folk-rock",
+      "soft-rock",
+      "indie-rock"
+    ]
   },
   {
     "id": "soft-rock",
@@ -2022,7 +2205,11 @@
       "url": "https://pt.wikipedia.org/wiki/Soft_rock",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "pop05",
+    "influencias": [
+      "art-pop"
+    ]
   },
   {
     "id": "yacht-rock",
@@ -2072,7 +2259,8 @@
         "ate": 53,
         "genero": "smooth-jazz"
       }
-    ]
+    ],
+    "musicmap": "pop05"
   },
   {
     "id": "dance-pop",
@@ -2119,7 +2307,8 @@
         "ate": 167,
         "genero": "pop"
       }
-    ]
+    ],
+    "musicmap": "pop11"
   },
   {
     "id": "teen-pop",
@@ -2161,7 +2350,8 @@
       "secao": "Characteristics",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "pop02"
   },
   {
     "id": "indie-pop",
@@ -2217,6 +2407,12 @@
         "ate": 212,
         "genero": "indie-rock"
       }
+    ],
+    "musicmap": "pop08",
+    "influencias": [
+      "hypnagogic-pop",
+      "electropop",
+      "sunshine-pop"
     ]
   },
   {
@@ -2256,7 +2452,8 @@
       "j-pop"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "pop09"
   },
   {
     "id": "j-pop",
@@ -2286,7 +2483,8 @@
       "shibuya-kei"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "pop09"
   },
   {
     "id": "shibuya-kei",
@@ -2324,7 +2522,8 @@
       "idioma": "en",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "pop09"
   },
   {
     "id": "k-pop",
@@ -2360,7 +2559,8 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "pop09"
   },
   {
     "id": "electropop",
@@ -2405,6 +2605,11 @@
         "ate": 56,
         "genero": "synth-pop"
       }
+    ],
+    "musicmap": "pop13",
+    "influencias": [
+      "indie-pop",
+      "vaporwave"
     ]
   },
   {
@@ -2452,6 +2657,13 @@
         "ate": 61,
         "genero": "pop"
       }
+    ],
+    "musicmap": "con05",
+    "influencias": [
+      "dream-pop",
+      "indie-pop",
+      "alternative-rock",
+      "eletronica"
     ]
   },
   {
@@ -2494,7 +2706,8 @@
         "ate": 48,
         "genero": "pop"
       }
-    ]
+    ],
+    "musicmap": "con05"
   },
   {
     "id": "bedroom-pop",
@@ -2534,7 +2747,8 @@
       "chillwave"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "pop08"
   },
   {
     "id": "hyperpop",
@@ -2576,7 +2790,8 @@
         "ate": 85,
         "genero": "pop"
       }
-    ]
+    ],
+    "musicmap": "pop13"
   },
   {
     "id": "metal",
@@ -2631,7 +2846,8 @@
         "ate": 324,
         "genero": "blues"
       }
-    ]
+    ],
+    "musicmap": "met"
   },
   {
     "id": "heavy-metal",
@@ -2682,7 +2898,13 @@
       "nwobhm"
     ],
     "somArtigo": false,
-    "somPendente": "o artigo descreve o metal como um todo (já usado no mestre Metal)"
+    "somPendente": "o artigo descreve o metal como um todo (já usado no mestre Metal)",
+    "musicmap": "met01",
+    "influencias": [
+      "british-blues",
+      "psychedelic-rock",
+      "punk-rock"
+    ]
   },
   {
     "id": "nwobhm",
@@ -2712,7 +2934,11 @@
       "speed-metal"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "met05",
+    "influencias": [
+      "power-metal"
+    ]
   },
   {
     "id": "doom-metal",
@@ -2759,6 +2985,10 @@
         "ate": 94,
         "genero": "metal"
       }
+    ],
+    "musicmap": "met08",
+    "influencias": [
+      "gothic-rock"
     ]
   },
   {
@@ -2818,7 +3048,8 @@
       "stoner-rock",
       "sludge-metal"
     ],
-    "somPendente": "trecho compartilhado com \"stoner-rock\" (Stoner rock)"
+    "somPendente": "trecho compartilhado com \"stoner-rock\" (Stoner rock)",
+    "musicmap": "met10"
   },
   {
     "id": "sludge-metal",
@@ -2881,7 +3112,8 @@
         "ate": 155,
         "genero": "hardcore-punk"
       }
-    ]
+    ],
+    "musicmap": "met10"
   },
   {
     "id": "drone-metal",
@@ -2924,7 +3156,8 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "met08"
   },
   {
     "id": "speed-metal",
@@ -2983,7 +3216,8 @@
         "ate": 165,
         "genero": "heavy-metal"
       }
-    ]
+    ],
+    "musicmap": "met06"
   },
   {
     "id": "thrash-metal",
@@ -3026,7 +3260,11 @@
       "secao": "Characteristics",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "met06",
+    "influencias": [
+      "grunge"
+    ]
   },
   {
     "id": "power-metal",
@@ -3087,6 +3325,10 @@
         "ate": 216,
         "genero": "speed-metal"
       }
+    ],
+    "musicmap": "met03",
+    "influencias": [
+      "nwobhm"
     ]
   },
   {
@@ -3127,7 +3369,13 @@
       "secao": "Characteristics",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "met09",
+    "influencias": [
+      "nu-metal",
+      "metalcore",
+      "gothic-metal"
+    ]
   },
   {
     "id": "melodic-death-metal",
@@ -3192,7 +3440,8 @@
         "ate": 134,
         "genero": "nwobhm"
       }
-    ]
+    ],
+    "musicmap": "met09"
   },
   {
     "id": "grindcore",
@@ -3243,6 +3492,11 @@
         "ate": 62,
         "genero": "hardcore-punk"
       }
+    ],
+    "musicmap": "hcp03",
+    "influencias": [
+      "math-rock",
+      "noise-rock"
     ]
   },
   {
@@ -3280,7 +3534,11 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "met11",
+    "influencias": [
+      "gothic-metal"
+    ]
   },
   {
     "id": "blackgaze",
@@ -3341,7 +3599,8 @@
         "ate": 205,
         "genero": "shoegaze"
       }
-    ]
+    ],
+    "musicmap": "met11"
   },
   {
     "id": "post-metal",
@@ -3431,7 +3690,8 @@
         "ate": 199,
         "genero": "metal"
       }
-    ]
+    ],
+    "musicmap": "met10"
   },
   {
     "id": "progressive-metal",
@@ -3490,7 +3750,8 @@
         "ate": 309,
         "genero": "metal"
       }
-    ]
+    ],
+    "musicmap": "met02"
   },
   {
     "id": "gothic-metal",
@@ -3537,7 +3798,13 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "met12",
+    "influencias": [
+      "stoner-rock",
+      "death-metal",
+      "black-metal"
+    ]
   },
   {
     "id": "metalcore",
@@ -3576,7 +3843,12 @@
       "post-hardcore"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "hcp06",
+    "influencias": [
+      "death-metal",
+      "nu-metal"
+    ]
   },
   {
     "id": "alternative-metal",
@@ -3635,6 +3907,12 @@
         "ate": 301,
         "genero": "metal"
       }
+    ],
+    "musicmap": "alt05",
+    "influencias": [
+      "indie-rock",
+      "east-coast-hip-hop",
+      "hardcore-punk"
     ]
   },
   {
@@ -3697,6 +3975,11 @@
         "ate": 42,
         "genero": "metal"
       }
+    ],
+    "musicmap": "met13",
+    "influencias": [
+      "death-metal",
+      "metalcore"
     ]
   },
   {
@@ -3745,7 +4028,8 @@
         "ate": 43,
         "genero": "metal"
       }
-    ]
+    ],
+    "musicmap": "inl08"
   },
   {
     "id": "eletronica",
@@ -3778,7 +4062,11 @@
       "rock"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "dtp05",
+    "influencias": [
+      "hypnagogic-pop"
+    ]
   },
   {
     "id": "ambient",
@@ -3812,7 +4100,12 @@
       "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_ambiente",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "dtp06",
+    "influencias": [
+      "trance",
+      "house"
+    ]
   },
   {
     "id": "dark-ambient",
@@ -3854,7 +4147,8 @@
       "secao": "Characteristics",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "inl06"
   },
   {
     "id": "synth-pop",
@@ -3906,7 +4200,8 @@
         "ate": 336,
         "genero": "rock"
       }
-    ]
+    ],
+    "musicmap": "pwv08"
   },
   {
     "id": "electro",
@@ -3943,7 +4238,8 @@
       "url": "https://pt.wikipedia.org/wiki/Electro",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "brb01"
   },
   {
     "id": "house",
@@ -3977,7 +4273,11 @@
       "idioma": "pt",
       "secao": "Características musicais",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "hou01",
+    "influencias": [
+      "ambient"
+    ]
   },
   {
     "id": "deep-house",
@@ -4029,7 +4329,8 @@
         "ate": 89,
         "genero": "house"
       }
-    ]
+    ],
+    "musicmap": "hou04"
   },
   {
     "id": "acid-house",
@@ -4079,6 +4380,10 @@
         "ate": 108,
         "genero": "house"
       }
+    ],
+    "musicmap": "hou02",
+    "influencias": [
+      "trance"
     ]
   },
   {
@@ -4110,7 +4415,8 @@
       "url": "https://pt.wikipedia.org/wiki/Techno",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "tec01"
   },
   {
     "id": "minimal-techno",
@@ -4153,7 +4459,8 @@
       "secao": "Style",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "tec05"
   },
   {
     "id": "trance",
@@ -4190,7 +4497,12 @@
       "url": "https://pt.wikipedia.org/wiki/Trance",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "tra01",
+    "influencias": [
+      "acid-house",
+      "ambient"
+    ]
   },
   {
     "id": "idm",
@@ -4250,6 +4562,10 @@
         "ate": 144,
         "genero": "jungle"
       }
+    ],
+    "musicmap": "tec03",
+    "influencias": [
+      "experimental-hip-hop"
     ]
   },
   {
@@ -4291,7 +4607,8 @@
       "url": "https://pt.wikipedia.org/wiki/Jungle_music",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "dnb01"
   },
   {
     "id": "drum-and-bass",
@@ -4337,7 +4654,8 @@
       "url": "https://pt.wikipedia.org/wiki/Drum_and_bass",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "dnb01"
   },
   {
     "id": "uk-garage",
@@ -4385,7 +4703,8 @@
         "ate": 142,
         "genero": "house"
       }
-    ]
+    ],
+    "musicmap": "brb06"
   },
   {
     "id": "dubstep",
@@ -4424,7 +4743,12 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "dnb08",
+    "influencias": [
+      "grime",
+      "experimental-hip-hop"
+    ]
   },
   {
     "id": "trip-hop",
@@ -4485,6 +4809,10 @@
         "ate": 365,
         "genero": "rock"
       }
+    ],
+    "musicmap": "brb04",
+    "influencias": [
+      "east-coast-hip-hop"
     ]
   },
   {
@@ -4525,6 +4853,10 @@
         "ate": 139,
         "genero": "ambient"
       }
+    ],
+    "musicmap": "dtp14",
+    "influencias": [
+      "electropop"
     ]
   },
   {
@@ -4561,7 +4893,8 @@
       "url": "https://pt.wikipedia.org/wiki/Hip-hop",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "rap"
   },
   {
     "id": "old-school-hip-hop",
@@ -4598,7 +4931,8 @@
       "boom-bap"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "rap01"
   },
   {
     "id": "east-coast-hip-hop",
@@ -4640,7 +4974,14 @@
       "secao": "Musical style",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "rap02",
+    "influencias": [
+      "trip-hop",
+      "jazz-rap",
+      "alternative-metal",
+      "acid-jazz"
+    ]
   },
   {
     "id": "boom-bap",
@@ -4681,7 +5022,8 @@
       "url": "https://pt.wikipedia.org/wiki/Boom_bap",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "rap02"
   },
   {
     "id": "west-coast-hip-hop",
@@ -4717,7 +5059,14 @@
       "g-funk",
       "east-coast-hip-hop"
     ],
-    "somPendente": "artigo sem trecho sobre o som"
+    "somPendente": "artigo sem trecho sobre o som",
+    "musicmap": "rap04",
+    "influencias": [
+      "southern-hip-hop",
+      "experimental-hip-hop",
+      "conscious-hip-hop",
+      "jazz-rap"
+    ]
   },
   {
     "id": "gangsta-rap",
@@ -4753,7 +5102,8 @@
       "drill"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "rap04"
   },
   {
     "id": "g-funk",
@@ -4814,7 +5164,8 @@
         "ate": 580,
         "genero": "hip-hop"
       }
-    ]
+    ],
+    "musicmap": "rap04"
   },
   {
     "id": "southern-hip-hop",
@@ -4856,7 +5207,12 @@
       "idioma": "en",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "rap07",
+    "influencias": [
+      "experimental-hip-hop",
+      "west-coast-hip-hop"
+    ]
   },
   {
     "id": "memphis-rap",
@@ -4897,7 +5253,8 @@
       "secao": "Characteristics",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "rap07"
   },
   {
     "id": "phonk",
@@ -4957,7 +5314,8 @@
         "ate": 130,
         "genero": "hip-hop"
       }
-    ]
+    ],
+    "musicmap": "rap07"
   },
   {
     "id": "trap",
@@ -4995,7 +5353,8 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "rap09"
   },
   {
     "id": "drill",
@@ -5042,7 +5401,8 @@
         "ate": 91,
         "genero": "hip-hop"
       }
-    ]
+    ],
+    "musicmap": "rap09"
   },
   {
     "id": "uk-drill",
@@ -5094,7 +5454,8 @@
         "ate": 99,
         "genero": "drill"
       }
-    ]
+    ],
+    "musicmap": "rap09"
   },
   {
     "id": "grime",
@@ -5134,7 +5495,11 @@
       "secao": "Musical style",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "brb09",
+    "influencias": [
+      "dubstep"
+    ]
   },
   {
     "id": "conscious-hip-hop",
@@ -5170,7 +5535,11 @@
       "jazz-rap",
       "boom-bap"
     ],
-    "somPendente": "artigo sem trecho sobre o som"
+    "somPendente": "artigo sem trecho sobre o som",
+    "musicmap": "rap06",
+    "influencias": [
+      "west-coast-hip-hop"
+    ]
   },
   {
     "id": "jazz-rap",
@@ -5226,6 +5595,11 @@
         "ate": 72,
         "genero": "jazz"
       }
+    ],
+    "musicmap": "rap05",
+    "influencias": [
+      "east-coast-hip-hop",
+      "west-coast-hip-hop"
     ]
   },
   {
@@ -5249,7 +5623,8 @@
       "experimental-hip-hop"
     ],
     "somArtigo": false,
-    "somPendente": "aguardando o texto ou a fonte do usuário (como o resumo)"
+    "somPendente": "aguardando o texto ou a fonte do usuário (como o resumo)",
+    "musicmap": "rap06"
   },
   {
     "id": "experimental-hip-hop",
@@ -5283,7 +5658,14 @@
       "industrial-metal"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "rap11",
+    "influencias": [
+      "dubstep",
+      "southern-hip-hop",
+      "idm",
+      "west-coast-hip-hop"
+    ]
   },
   {
     "id": "cloud-rap",
@@ -5349,7 +5731,8 @@
         "ate": 387,
         "genero": "j-pop"
       }
-    ]
+    ],
+    "musicmap": "rap09"
   },
   {
     "id": "jazz",
@@ -5386,7 +5769,8 @@
       "secao": "Elements",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "jaz"
   },
   {
     "id": "new-orleans-jazz",
@@ -5425,7 +5809,11 @@
       "chicago-jazz",
       "dixieland-revival"
     ],
-    "somPendente": "artigo sem trecho sobre o som"
+    "somPendente": "artigo sem trecho sobre o som",
+    "musicmap": "jaz01",
+    "influencias": [
+      "delta-blues"
+    ]
   },
   {
     "id": "chicago-jazz",
@@ -5446,7 +5834,11 @@
       "new-orleans-jazz",
       "swing"
     ],
-    "somPendente": "artigo sem trecho sobre o som"
+    "somPendente": "artigo sem trecho sobre o som",
+    "musicmap": "jaz02",
+    "influencias": [
+      "electric-blues"
+    ]
   },
   {
     "id": "swing",
@@ -5487,7 +5879,8 @@
       "url": "https://pt.wikipedia.org/wiki/Swing_(jazz)",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "jaz03"
   },
   {
     "id": "dixieland-revival",
@@ -5528,7 +5921,8 @@
       "new-orleans-jazz",
       "swing"
     ],
-    "somPendente": "artigo sem trecho sobre o som"
+    "somPendente": "artigo sem trecho sobre o som",
+    "musicmap": "jaz05"
   },
   {
     "id": "bebop",
@@ -5573,7 +5967,8 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "musicmap": "jaz06"
   },
   {
     "id": "third-stream",
@@ -5617,7 +6012,8 @@
         "ate": 51,
         "genero": "jazz"
       }
-    ]
+    ],
+    "musicmap": "jaz04"
   },
   {
     "id": "modal-jazz",
@@ -5665,7 +6061,8 @@
         "ate": 21,
         "genero": "jazz"
       }
-    ]
+    ],
+    "musicmap": "jaz04"
   },
   {
     "id": "cool-jazz",
@@ -5715,7 +6112,8 @@
         "ate": 74,
         "genero": "jazz"
       }
-    ]
+    ],
+    "musicmap": "jaz07"
   },
   {
     "id": "hard-bop",
@@ -5761,7 +6159,8 @@
       "bebop"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "jaz08"
   },
   {
     "id": "soul-jazz",
@@ -5821,7 +6220,8 @@
         "ate": 58,
         "genero": "jazz"
       }
-    ]
+    ],
+    "musicmap": "jaz09"
   },
   {
     "id": "free-jazz",
@@ -5878,7 +6278,8 @@
         "ate": 28,
         "genero": "jazz"
       }
-    ]
+    ],
+    "musicmap": "jaz10"
   },
   {
     "id": "jazz-fusion",
@@ -5924,7 +6325,8 @@
       "smooth-jazz"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "jaz11"
   },
   {
     "id": "smooth-jazz",
@@ -5970,7 +6372,8 @@
       "idioma": "en",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "musicmap": "jaz12"
   },
   {
     "id": "acid-jazz",
@@ -6011,7 +6414,11 @@
       "trip-hop"
     ],
     "somArtigo": false,
-    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte"
+    "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
+    "musicmap": "jaz14",
+    "influencias": [
+      "east-coast-hip-hop"
+    ]
   },
   {
     "id": "nu-jazz",
@@ -6072,7 +6479,8 @@
         "ate": 83,
         "genero": "eletronica"
       }
-    ]
+    ],
+    "musicmap": "jaz15"
   },
   {
     "id": "nordic-jazz",
@@ -6125,7 +6533,8 @@
         "ate": 296,
         "genero": "swing"
       }
-    ]
+    ],
+    "musicmap": "jaz16"
   },
   {
     "id": "electro-swing",
@@ -6194,6 +6603,7 @@
         "ate": 90,
         "genero": "jazz"
       }
-    ]
+    ],
+    "musicmap": "jaz17"
   }
 ]

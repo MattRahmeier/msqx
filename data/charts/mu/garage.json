@@ -1,0 +1,307 @@
+{
+  "id": "garage",
+  "titulo": "/mu/ essential garage",
+  "indice": "garage",
+  "generos": [
+    "uk-garage"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/garage.png",
+  "transcricao": {
+    "data": "2026-10-27",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "O chart divide os discos em US garage, UK garage e future garage (campo \"subestilos\").",
+  "albuns": [
+    {
+      "pos": "US-1",
+      "artista": "Masters at Work",
+      "titulo": "Tenth Anniversary Compilation",
+      "subestilos": [
+        "US garage"
+      ],
+      "album": "masters-at-work-tenth-anniversary-compilation"
+    },
+    {
+      "pos": "US-2",
+      "artista": "Larry Levan",
+      "titulo": "Live at the Paradise Garage",
+      "subestilos": [
+        "US garage"
+      ],
+      "album": "larry-levan-live-at-the-paradise-garage"
+    },
+    {
+      "pos": "US-3",
+      "artista": "David Mancuso",
+      "titulo": "The Loft",
+      "subestilos": [
+        "US garage"
+      ],
+      "album": "david-mancuso-the-loft"
+    },
+    {
+      "pos": "US-4",
+      "artista": "Danny Tenaglia",
+      "titulo": "Tourism",
+      "subestilos": [
+        "US garage"
+      ],
+      "album": "danny-tenaglia-tourism"
+    },
+    {
+      "pos": "US-5",
+      "artista": "Candido",
+      "titulo": "Dancin' & Prancin'",
+      "subestilos": [
+        "US garage"
+      ],
+      "album": "candido-dancin-and-prancin"
+    },
+    {
+      "pos": "US-6",
+      "artista": "Todd Terry",
+      "titulo": "Sessions Eight",
+      "subestilos": [
+        "US garage"
+      ],
+      "album": "todd-terry-sessions-eight"
+    },
+    {
+      "pos": "US-7",
+      "artista": "Tony Humphries",
+      "titulo": "Take Home the Club",
+      "subestilos": [
+        "US garage"
+      ],
+      "album": "tony-humphries-take-home-the-club"
+    },
+    {
+      "pos": "US-8",
+      "artista": "Inner City",
+      "titulo": "Big Fun",
+      "subestilos": [
+        "US garage"
+      ],
+      "album": "inner-city-big-fun"
+    },
+    {
+      "pos": "UK-1",
+      "artista": "The Streets",
+      "titulo": "Original Pirate Material",
+      "subestilos": [
+        "UK garage"
+      ],
+      "album": "the-streets-original-pirate-material"
+    },
+    {
+      "pos": "UK-2",
+      "artista": "Zed Bias",
+      "titulo": "Sound of the Pirates",
+      "subestilos": [
+        "UK garage"
+      ],
+      "album": "zed-bias-sound-of-the-pirates"
+    },
+    {
+      "pos": "UK-3",
+      "artista": "DJ EZ",
+      "titulo": "Pure Garage II",
+      "subestilos": [
+        "UK garage"
+      ],
+      "album": "dj-ez-pure-garage-ii"
+    },
+    {
+      "pos": "UK-4",
+      "artista": "Todd Edwards",
+      "titulo": "Prima Edizione",
+      "subestilos": [
+        "UK garage"
+      ],
+      "album": "todd-edwards-prima-edizione"
+    },
+    {
+      "pos": "UK-5",
+      "artista": "Various Artists",
+      "titulo": "Ayia Napa Discovered",
+      "subestilos": [
+        "UK garage"
+      ],
+      "album": "various-artists-ayia-napa-discovered"
+    },
+    {
+      "pos": "UK-6",
+      "artista": "Wookie",
+      "titulo": "Wookie",
+      "subestilos": [
+        "UK garage"
+      ],
+      "album": "wookie-wookie"
+    },
+    {
+      "pos": "UK-7",
+      "artista": "MJ Cole",
+      "titulo": "Sincere",
+      "subestilos": [
+        "UK garage"
+      ],
+      "album": "mj-cole-sincere"
+    },
+    {
+      "pos": "UK-8",
+      "artista": "Oxide & Neutrino",
+      "titulo": "Execute",
+      "subestilos": [
+        "UK garage"
+      ],
+      "album": "oxide-and-neutrino-execute"
+    },
+    {
+      "pos": "UK-9",
+      "artista": "El-B",
+      "titulo": "Ammunition & Blackdown Present: The Roots of El-B",
+      "subestilos": [
+        "UK garage"
+      ],
+      "album": "el-b-ammunition-and-blackdown-present-the-roots-of-el-b"
+    },
+    {
+      "pos": "UK-10",
+      "artista": "Artful Dodger",
+      "titulo": "It's All About the Stragglers",
+      "subestilos": [
+        "UK garage"
+      ],
+      "album": "artful-dodger-its-all-about-the-stragglers"
+    },
+    {
+      "pos": "UK-11",
+      "artista": "Burial",
+      "titulo": "Burial",
+      "subestilos": [
+        "UK garage"
+      ],
+      "album": "burial-burial"
+    },
+    {
+      "pos": "UK-12",
+      "artista": "True Steppers",
+      "titulo": "True Stepping",
+      "subestilos": [
+        "UK garage"
+      ],
+      "album": "true-steppers-true-stepping"
+    },
+    {
+      "pos": "FG-1",
+      "artista": "Various Artists",
+      "titulo": "NA001",
+      "subestilos": [
+        "future garage"
+      ],
+      "conferir": "coletânea da Night Audio",
+      "album": "various-artists-na001"
+    },
+    {
+      "pos": "FG-2",
+      "artista": "Submerse",
+      "titulo": "Distance",
+      "subestilos": [
+        "future garage"
+      ],
+      "album": "submerse-distance"
+    },
+    {
+      "pos": "FG-3",
+      "artista": "Resketch",
+      "titulo": "Refract EP",
+      "subestilos": [
+        "future garage"
+      ],
+      "album": "resketch-refract-ep"
+    },
+    {
+      "pos": "FG-4",
+      "artista": "Whistla",
+      "titulo": "Etymology of Maureen",
+      "subestilos": [
+        "future garage"
+      ],
+      "album": "whistla-etymology-of-maureen"
+    },
+    {
+      "pos": "FG-5",
+      "artista": "Roof Light",
+      "titulo": "Harlem Power",
+      "subestilos": [
+        "future garage"
+      ],
+      "album": "roof-light-harlem-power"
+    },
+    {
+      "pos": "FG-6",
+      "artista": "Sentinels",
+      "titulo": "Love Rhythm",
+      "subestilos": [
+        "future garage"
+      ],
+      "album": "sentinels-love-rhythm"
+    },
+    {
+      "pos": "FG-7",
+      "artista": "Clueless",
+      "titulo": "Lady in Red",
+      "subestilos": [
+        "future garage"
+      ],
+      "album": "clueless-lady-in-red"
+    },
+    {
+      "pos": "FG-8",
+      "artista": "Kingthing",
+      "titulo": "Mad Hatter",
+      "subestilos": [
+        "future garage"
+      ],
+      "album": "kingthing-mad-hatter"
+    },
+    {
+      "pos": "FG-9",
+      "artista": "Littlefoot",
+      "titulo": "Interplanetary",
+      "subestilos": [
+        "future garage"
+      ],
+      "album": "littlefoot-interplanetary"
+    },
+    {
+      "pos": "FG-10",
+      "artista": "FaltyDL",
+      "titulo": "Love Is a Liability",
+      "subestilos": [
+        "future garage"
+      ],
+      "album": "faltydl-love-is-a-liability"
+    },
+    {
+      "pos": "FG-11",
+      "artista": "Clubroot",
+      "titulo": "Clubroot",
+      "subestilos": [
+        "future garage"
+      ],
+      "album": "clubroot-clubroot"
+    },
+    {
+      "pos": "FG-12",
+      "artista": "Altered Natives",
+      "titulo": "Serial Vendetta",
+      "subestilos": [
+        "future garage"
+      ],
+      "album": "altered-natives-serial-vendetta"
+    }
+  ]
+}

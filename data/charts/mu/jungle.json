@@ -1,0 +1,170 @@
+{
+  "id": "jungle",
+  "titulo": "Jungle Essentials Just For /mu/!",
+  "indice": "jungle",
+  "generos": [
+    "jungle"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/jungle.jpg",
+  "transcricao": {
+    "data": "2026-10-27",
+    "metodo": "lista escrita no próprio chart (com selo e ano)",
+    "status": "revisar"
+  },
+  "nota": "O chart avisa que coletâneas, samplers e EPs não foram incluídos.",
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "4hero",
+      "titulo": "Parallel Universe",
+      "ano": 1995,
+      "noChart": "4 Hero - Parallel Universe (Reinforced Records)",
+      "album": "4hero-parallel-universe"
+    },
+    {
+      "pos": "A2",
+      "artista": "Bay B Kane",
+      "titulo": "The Guardian of Ruff",
+      "ano": 1994,
+      "album": "bay-b-kane-the-guardian-of-ruff"
+    },
+    {
+      "pos": "A3",
+      "artista": "DJ Rap & Voyager",
+      "titulo": "Intelligence",
+      "ano": 1995,
+      "album": "dj-rap-and-voyager-intelligence"
+    },
+    {
+      "pos": "A4",
+      "artista": "Jacob's Optical Stairway",
+      "titulo": "Jacob's Optical Stairway",
+      "ano": 1995,
+      "noChart": "Jacob's Optical Stairway (R & S Records)",
+      "album": "jacobs-optical-stairway-jacobs-optical-stairway"
+    },
+    {
+      "pos": "A5",
+      "artista": "Marvellous Cain",
+      "titulo": "Gun Talk",
+      "ano": 1995,
+      "album": "marvellous-cain-gun-talk"
+    },
+    {
+      "pos": "A6",
+      "artista": "Prizna",
+      "titulo": "10,000 Babylon",
+      "ano": 1995,
+      "album": "prizna-10-000-babylon"
+    },
+    {
+      "pos": "A7",
+      "artista": "SoundMurderer & SK-1",
+      "titulo": "Rewind Records",
+      "ano": 2003,
+      "noChart": "SoundMurderer + SK-1 - Rewind Records",
+      "album": "soundmurderer-and-sk-1-rewind-records"
+    },
+    {
+      "pos": "B1",
+      "artista": "A Guy Called Gerald",
+      "titulo": "Black Secret Technology",
+      "ano": 1995,
+      "album": "a-guy-called-gerald-black-secret-technology"
+    },
+    {
+      "pos": "B2",
+      "artista": "Bizzy B",
+      "titulo": "Retrospective",
+      "ano": 2009,
+      "album": "bizzy-b-retrospective"
+    },
+    {
+      "pos": "B3",
+      "artista": "DJ Red Alert & Mike Slammer",
+      "titulo": "Slammin' Vinyl",
+      "ano": 1995,
+      "album": "dj-red-alert-and-mike-slammer-slammin-vinyl"
+    },
+    {
+      "pos": "B4",
+      "artista": "Kemet Crew",
+      "titulo": "Champion Jungle Sound",
+      "ano": 1995,
+      "album": "kemet-crew-champion-jungle-sound"
+    },
+    {
+      "pos": "B5",
+      "artista": "Nookie",
+      "titulo": "The Sound of Music",
+      "ano": 1995,
+      "album": "nookie-the-sound-of-music"
+    },
+    {
+      "pos": "B6",
+      "artista": "Remarc",
+      "titulo": "Sound Murderer",
+      "ano": 2003,
+      "album": "remarc-sound-murderer"
+    },
+    {
+      "pos": "B7",
+      "artista": "Spring Heel Jack",
+      "titulo": "There Are Strings",
+      "ano": 1995,
+      "album": "spring-heel-jack-there-are-strings"
+    },
+    {
+      "pos": "C1",
+      "artista": "Amen Andrews vs. Spac Hand Luke",
+      "titulo": "Amen Andrews vs. Spac Hand Luke",
+      "ano": 2006,
+      "noChart": "Amen Andrews vs. Spac Hand Luke (Rephlex)",
+      "album": "amen-andrews-vs-spac-hand-luke-amen-andrews-vs-spac-hand-luke"
+    },
+    {
+      "pos": "C2",
+      "artista": "D'Cruze",
+      "titulo": "Control",
+      "ano": 1995,
+      "album": "dcruze-control"
+    },
+    {
+      "pos": "C3",
+      "artista": "Foul Play",
+      "titulo": "Suspected",
+      "ano": 1995,
+      "album": "foul-play-suspected"
+    },
+    {
+      "pos": "C4",
+      "artista": "M-Beat",
+      "titulo": "The Album",
+      "ano": 1994,
+      "noChart": "M Beat - Album (Renk Records)",
+      "album": "m-beat-the-album"
+    },
+    {
+      "pos": "C5",
+      "artista": "Omni Trio",
+      "titulo": "The Deepest Cut",
+      "ano": 1995,
+      "album": "omni-trio-the-deepest-cut"
+    },
+    {
+      "pos": "C6",
+      "artista": "Shy FX",
+      "titulo": "Just an Example",
+      "ano": 1995,
+      "album": "shy-fx-just-an-example"
+    },
+    {
+      "pos": "C7",
+      "artista": "T.Power",
+      "titulo": "The Self Evident Truth of an Intuitive Mind",
+      "ano": 1995,
+      "album": "tpower-the-self-evident-truth-of-an-intuitive-mind"
+    }
+  ]
+}

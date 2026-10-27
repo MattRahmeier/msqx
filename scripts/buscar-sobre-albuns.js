@@ -55,8 +55,11 @@ const OUTROS = ["es", "fr", "de", "it", "nl", "sv", "no", "fi", "da", "pl", "cs"
 const CORRECOES = (() => { try { return JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "albuns", "correcoes.json"), "utf8")); } catch { return {}; } })();
 
 async function artigos(ficha) {
-  // Artigo escolhido à mão em correcoes.json: { "sobreArtigo": "en:Dr. Octagonecologyst" }.
+  // Artigo escolhido à mão em correcoes.json: { "sobreArtigo": "en:Dr. Octagonecologyst" };
+  // false quando o único artigo achado é de outra coisa (a música, o artista, a série) — a ficha fica
+  // com a descrição montada com os dados (scripts/descrever-albuns.js).
   const manual = CORRECOES[ficha.id]?.sobreArtigo;
+  if (manual === false) return {};
   if (manual) { const [lang, ...t] = manual.split(":"); return { [lang]: t.join(":") }; }
   const rg = ficha.musicbrainz?.releaseGroup && await mb(`release-group/${ficha.musicbrainz.releaseGroup}?fmt=json&inc=url-rels`);
   const qid = rg?.relations?.find((r) => r.type === "wikidata")?.url?.resource.split("/").pop();

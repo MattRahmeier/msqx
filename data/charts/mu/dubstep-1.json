@@ -1,0 +1,424 @@
+{
+  "id": "dubstep-1",
+  "titulo": "/mu/ essential dubstep albums, EPs, and compilations",
+  "indice": "dubstep-1",
+  "generos": [
+    "dubstep"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/dubstep-1.jpeg",
+  "transcricao": {
+    "data": "2026-10-27",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "O chart lista álbuns, EPs e coletâneas em ordem cronológica (campo \"subestilos\" indica a seção) e omite mixes de DJ.",
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Horsepower Productions",
+      "titulo": "In Fine Style",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "horsepower-productions-in-fine-style"
+    },
+    {
+      "pos": "A2",
+      "artista": "Vex'd",
+      "titulo": "Degenerate",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "vexd-degenerate"
+    },
+    {
+      "pos": "A3",
+      "artista": "Kode9 & The Spaceape",
+      "titulo": "Memories of the Future",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "kode9-and-the-spaceape-memories-of-the-future"
+    },
+    {
+      "pos": "A4",
+      "artista": "Skream",
+      "titulo": "Skream!",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "skream-skream"
+    },
+    {
+      "pos": "A5",
+      "artista": "Milanese",
+      "titulo": "Extend",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "milanese-extend"
+    },
+    {
+      "pos": "B1",
+      "artista": "Burial",
+      "titulo": "Untrue",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "burial-untrue"
+    },
+    {
+      "pos": "B2",
+      "artista": "Distance",
+      "titulo": "My Demons",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "distance-my-demons"
+    },
+    {
+      "pos": "B3",
+      "artista": "Boxcutter",
+      "titulo": "Glyphic",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "boxcutter-glyphic"
+    },
+    {
+      "pos": "B4",
+      "artista": "Cyrus (Random Trio)",
+      "titulo": "From the Shadows",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "cyrus-random-trio-from-the-shadows"
+    },
+    {
+      "pos": "B5",
+      "artista": "Pinch",
+      "titulo": "Underwater Dancehall",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "pinch-underwater-dancehall"
+    },
+    {
+      "pos": "C1",
+      "artista": "Starkey",
+      "titulo": "Ephemeral Exhibits",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "starkey-ephemeral-exhibits"
+    },
+    {
+      "pos": "C2",
+      "artista": "Benga",
+      "titulo": "Diary of an Afro Warrior",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "benga-diary-of-an-afro-warrior"
+    },
+    {
+      "pos": "C3",
+      "artista": "The Bug",
+      "titulo": "London Zoo",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "the-bug-london-zoo"
+    },
+    {
+      "pos": "C4",
+      "artista": "2562",
+      "titulo": "Aerial",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "2562-aerial"
+    },
+    {
+      "pos": "C5",
+      "artista": "Kromestar",
+      "titulo": "My Sound",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "kromestar-my-sound"
+    },
+    {
+      "pos": "D1",
+      "artista": "Silkie",
+      "titulo": "City Limits Vol. 1",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "silkie-city-limits-vol-1"
+    },
+    {
+      "pos": "D2",
+      "artista": "Kryptic Minds",
+      "titulo": "One of Us",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "kryptic-minds-one-of-us"
+    },
+    {
+      "pos": "D3",
+      "artista": "Martyn",
+      "titulo": "Great Lengths",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "martyn-great-lengths"
+    },
+    {
+      "pos": "D4",
+      "artista": "Guido",
+      "titulo": "Anidea",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "guido-anidea"
+    },
+    {
+      "pos": "D5",
+      "artista": "Scuba",
+      "titulo": "Triangulation",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "scuba-triangulation"
+    },
+    {
+      "pos": "E1",
+      "artista": "Digital Mystikz",
+      "titulo": "Return II Space",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "digital-mystikz-return-ii-space"
+    },
+    {
+      "pos": "E2",
+      "artista": "Truth",
+      "titulo": "Puppets",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "truth-puppets"
+    },
+    {
+      "pos": "E3",
+      "artista": "Clubroot",
+      "titulo": "II – MMX",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "clubroot-ii-mmx"
+    },
+    {
+      "pos": "E4",
+      "artista": "Mount Kimbie",
+      "titulo": "Crooks & Lovers",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "mount-kimbie-crooks-and-lovers"
+    },
+    {
+      "pos": "E5",
+      "artista": "Author",
+      "titulo": "Author",
+      "subestilos": [
+        "álbum"
+      ],
+      "album": "author-author"
+    },
+    {
+      "pos": "F1",
+      "artista": "Rusko",
+      "titulo": "Babylon Vol. 1",
+      "subestilos": [
+        "EP"
+      ],
+      "album": "rusko-babylon-vol-1"
+    },
+    {
+      "pos": "F2",
+      "artista": "El-B",
+      "titulo": "Ghost Rider",
+      "subestilos": [
+        "EP"
+      ],
+      "album": "el-b-ghost-rider"
+    },
+    {
+      "pos": "F3",
+      "artista": "Skream",
+      "titulo": "Skreamizm Vol. 5",
+      "subestilos": [
+        "EP"
+      ],
+      "album": "skream-skreamizm-vol-5"
+    },
+    {
+      "pos": "F4",
+      "artista": "Untold",
+      "titulo": "Gonna Work Out Fine",
+      "subestilos": [
+        "EP"
+      ],
+      "album": "untold-gonna-work-out-fine"
+    },
+    {
+      "pos": "F5",
+      "artista": "TRG",
+      "titulo": "Missed Calls",
+      "subestilos": [
+        "EP"
+      ],
+      "album": "trg-missed-calls"
+    },
+    {
+      "pos": "G1",
+      "artista": "Zomby",
+      "titulo": "One Foot Ahead of the Other",
+      "subestilos": [
+        "EP"
+      ],
+      "noChart": "Zomby - One Foot Ahead Of The O... (cortado na imagem)",
+      "album": "zomby-one-foot-ahead-of-the-other"
+    },
+    {
+      "pos": "G2",
+      "artista": "Ramadanman",
+      "titulo": "Ramadanman EP",
+      "subestilos": [
+        "EP"
+      ],
+      "album": "ramadanman-ramadanman-ep"
+    },
+    {
+      "pos": "G3",
+      "artista": "Kuedo",
+      "titulo": "Dream Sequence",
+      "subestilos": [
+        "EP"
+      ],
+      "album": "kuedo-dream-sequence"
+    },
+    {
+      "pos": "G4",
+      "artista": "James Blake",
+      "titulo": "CMYK",
+      "subestilos": [
+        "EP"
+      ],
+      "album": "james-blake-cmyk"
+    },
+    {
+      "pos": "G5",
+      "artista": "Reso",
+      "titulo": "Temjin",
+      "subestilos": [
+        "EP"
+      ],
+      "album": "reso-temjin"
+    },
+    {
+      "pos": "H1",
+      "artista": "Various Artists",
+      "titulo": "Grime 2",
+      "subestilos": [
+        "coletânea"
+      ],
+      "album": "various-artists-grime-2"
+    },
+    {
+      "pos": "H2",
+      "artista": "Various Artists",
+      "titulo": "The Roots of Dubstep",
+      "subestilos": [
+        "coletânea"
+      ],
+      "album": "various-artists-the-roots-of-dubstep"
+    },
+    {
+      "pos": "H3",
+      "artista": "Various Artists",
+      "titulo": "Tectonic Plates Vol. 1",
+      "subestilos": [
+        "coletânea"
+      ],
+      "album": "various-artists-tectonic-plates-vol-1"
+    },
+    {
+      "pos": "H4",
+      "artista": "Various Artists",
+      "titulo": "Warrior Dubz",
+      "subestilos": [
+        "coletânea"
+      ],
+      "album": "various-artists-warrior-dubz"
+    },
+    {
+      "pos": "H5",
+      "artista": "Various Artists",
+      "titulo": "Soundboy Punishments",
+      "subestilos": [
+        "coletânea"
+      ],
+      "album": "various-artists-soundboy-punishments"
+    },
+    {
+      "pos": "I1",
+      "artista": "Various Artists",
+      "titulo": "5 Years of Hyperdub",
+      "subestilos": [
+        "coletânea"
+      ],
+      "album": "various-artists-5-years-of-hyperdub"
+    },
+    {
+      "pos": "I2",
+      "artista": "Various Artists",
+      "titulo": "Deep Medi Releases Vol. 1",
+      "subestilos": [
+        "coletânea"
+      ],
+      "album": "various-artists-deep-medi-releases-vol-1"
+    },
+    {
+      "pos": "I3",
+      "artista": "Various Artists",
+      "titulo": "Worth the Weight",
+      "subestilos": [
+        "coletânea"
+      ],
+      "album": "various-artists-worth-the-weight"
+    },
+    {
+      "pos": "I4",
+      "artista": "Various Artists",
+      "titulo": "Back and 4th",
+      "subestilos": [
+        "coletânea"
+      ],
+      "album": "various-artists-back-and-4th"
+    },
+    {
+      "pos": "I5",
+      "artista": "Various Artists",
+      "titulo": "Transmissions Vol. 1",
+      "subestilos": [
+        "coletânea"
+      ],
+      "album": "various-artists-transmissions-vol-1"
+    }
+  ]
+}

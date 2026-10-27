@@ -1,0 +1,168 @@
+{
+  "id": "dark-ambient-general",
+  "titulo": "/mu/ Essential Dark Ambient",
+  "indice": "dark-ambient-general",
+  "generos": [
+    "dark-ambient"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/dark-ambient-general.png",
+  "transcricao": {
+    "data": "2026-10-27",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Sleepresearch_Facility",
+      "titulo": "Nostromo",
+      "album": "sleepresearch-facility-nostromo"
+    },
+    {
+      "pos": "A2",
+      "artista": "Lustmord",
+      "titulo": "Heresy",
+      "album": "lustmord-heresy"
+    },
+    {
+      "pos": "A3",
+      "artista": "Brian Eno",
+      "titulo": "Ambient 4: On Land",
+      "album": "brian-eno-ambient-4-on-land"
+    },
+    {
+      "pos": "A4",
+      "artista": "Theologian",
+      "titulo": "The Further I Get From Your Star, the Less Light I Feel on My Face",
+      "album": "theologian-the-further-i-get-from-your-star-the-less-light-i-feel-on-my-face"
+    },
+    {
+      "pos": "A5",
+      "artista": "Mortaur",
+      "titulo": "Horror Vacui",
+      "album": "mortaur-horror-vacui"
+    },
+    {
+      "pos": "B1",
+      "artista": "Tholen",
+      "titulo": "Neuropol",
+      "album": "tholen-neuropol"
+    },
+    {
+      "pos": "B2",
+      "artista": "Thomas Köner",
+      "titulo": "Permafrost",
+      "album": "thomas-koner-permafrost"
+    },
+    {
+      "pos": "B3",
+      "artista": "Enemite",
+      "titulo": "Wuyuan (巫怨)",
+      "album": "enemite-wuyuan"
+    },
+    {
+      "pos": "B4",
+      "artista": "Atrium Carceri",
+      "titulo": "Seishinbyouin",
+      "album": "atrium-carceri-seishinbyouin"
+    },
+    {
+      "pos": "B5",
+      "artista": "Undiscovered Moons of Saturn",
+      "titulo": "Lost in Cosmos...",
+      "noChart": "Undiscovered Moons Of Saturn - Lost In Cosmos...",
+      "album": "undiscovered-moons-of-saturn-lost-in-cosmos"
+    },
+    {
+      "pos": "C1",
+      "artista": "Zoät-Aon",
+      "titulo": "The Triplex Bestial",
+      "album": "zoat-aon-the-triplex-bestial"
+    },
+    {
+      "pos": "C2",
+      "artista": "Endvra",
+      "titulo": "Black Eden",
+      "album": "endvra-black-eden"
+    },
+    {
+      "pos": "C3",
+      "artista": "Halo Manash",
+      "titulo": "Par-Antra I: Vir",
+      "album": "halo-manash-par-antra-i-vir"
+    },
+    {
+      "pos": "C4",
+      "artista": "Amon",
+      "titulo": "El Khela",
+      "album": "amon-el-khela"
+    },
+    {
+      "pos": "C5",
+      "artista": "Brighter Death Now",
+      "titulo": "Necrose Evangelicum",
+      "album": "brighter-death-now-necrose-evangelicum"
+    },
+    {
+      "pos": "D1",
+      "artista": "Svarte Greiner",
+      "titulo": "Knive",
+      "album": "svarte-greiner-knive"
+    },
+    {
+      "pos": "D2",
+      "artista": "Astral & Shit",
+      "titulo": "Hyperboloid",
+      "album": "astral-and-shit-hyperboloid"
+    },
+    {
+      "pos": "D3",
+      "artista": "Zero Kama",
+      "titulo": "The Secret Eye of L.A.Y.L.A.H.",
+      "album": "zero-kama-the-secret-eye-of-laylah"
+    },
+    {
+      "pos": "D4",
+      "artista": "Aghast",
+      "titulo": "Hexerei im Zwielicht der Finsternis",
+      "album": "aghast-hexerei-im-zwielicht-der-finsternis"
+    },
+    {
+      "pos": "D5",
+      "artista": "Aeoga",
+      "titulo": "Coav",
+      "album": "aeoga-coav"
+    },
+    {
+      "pos": "E1",
+      "artista": "Letum",
+      "titulo": "The Entrance to Salvation",
+      "album": "letum-the-entrance-to-salvation"
+    },
+    {
+      "pos": "E2",
+      "artista": "Moëvöt",
+      "titulo": "Ézléÿfbdréhtr Vépréùb Zùérfl Màzàgvàtre Érbbédréà",
+      "album": "moevot-ezleyfbdrehtr-vepreub-zuerfl-mazagvatre-erbbedrea"
+    },
+    {
+      "pos": "E3",
+      "artista": "Kreng",
+      "titulo": "L'Autopsie Phénoménale de Dieu",
+      "album": "kreng-lautopsie-phenomenale-de-dieu"
+    },
+    {
+      "pos": "E4",
+      "artista": "Ashtorath",
+      "titulo": "Darkstorm Entwinded",
+      "album": "ashtorath-darkstorm-entwinded"
+    },
+    {
+      "pos": "E5",
+      "artista": "Penjaga Insaf",
+      "titulo": "Sama Sadja",
+      "album": "penjaga-insaf-sama-sadja"
+    }
+  ]
+}

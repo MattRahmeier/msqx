@@ -1,6 +1,6 @@
 // Caixa lateral do álbum (especificacao.md, "Página do chart"): abre ao clicar na capa de um card.
 // Mostra data de lançamento, artista, duração, a faixa destaque, "Sobre este álbum" (Wikipédia),
-// as notas da crítica em estrelas e, no fim, os links de streaming do álbum. A lista de faixas fica guardada na ficha, mas não aparece por
+// as notas da crítica em estrelas, os links de streaming do álbum e o registro mestre no Discogs. A lista de faixas fica guardada na ficha, mas não aparece por
 // enquanto. Tags entram quando as fichas tiverem esse campo.
 // Uso: ligarPainel(elementoComCards, porId) — porId: Map id → ficha (dados.js, albuns()).
 import { esc, botoesStreaming, capaHtml } from "./card-album.js";
@@ -87,7 +87,8 @@ function conteudo(f) {
   ].filter(([, v]) => v);
   return `
     <button type="button" class="painel-fechar" data-fechar aria-label="Fechar">×</button>
-    <div class="painel-capa">${capaHtml(f, { lazy: false })}</div>
+    <div class="painel-capa card-capa-area">${capaHtml(f, { lazy: false })}
+      <button type="button" class="copiar-nome" data-copiar="${esc(`${f.artista} - ${f.titulo}`)}" aria-label="Copiar ${esc(`${f.artista} - ${f.titulo}`)}" title="Copiar nome do disco"><svg class="icone" aria-hidden="true"><use href="#i-copiar"/></svg></button></div>
     <h2 id="painel-titulo" class="painel-titulo">${esc(f.titulo)}</h2>
     <p class="painel-artista">${esc(f.artista)}</p>
     ${dados.length ? `<dl class="painel-dados">${dados.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
@@ -103,6 +104,9 @@ function conteudo(f) {
     ${f.links && Object.keys(f.links).length ? `
       <h3 class="painel-secao">Ouça o álbum</h3>
       <ul class="painel-plataformas" aria-label="Ouvir">${botoesStreaming(f, { comNome: true })}</ul>` : ""}
+    ${f.discogs ? `
+      <a class="plat plat-nome botao-discogs" href="${esc(f.discogs)}" target="_blank" rel="noopener" aria-label="Ver ${esc(f.titulo)} no Discogs">
+        <svg class="icone" aria-hidden="true"><use href="#i-discogs"/></svg><span>Discogs</span></a>` : ""}
     ${f.conferir ? `<p class="painel-aviso">Dados ainda em revisão.</p>` : ""}
     ${rodape(f)}`;
 }

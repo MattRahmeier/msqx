@@ -1,0 +1,242 @@
+{
+  "id": "house",
+  "titulo": "Essential House Albums",
+  "indice": "house",
+  "generos": [
+    "house"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/house.jpg",
+  "transcricao": {
+    "data": "2026-10-27",
+    "metodo": "capas identificadas pela imagem (o chart não tem lista escrita)",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Phuture 303",
+      "titulo": "Alpha & Omega",
+      "conferir": "identificado pela capa",
+      "album": "phuture-303-alpha-and-omega"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Frankie Knuckles",
+      "titulo": "Rain Falls",
+      "conferir": "capa de single (Frankie Knuckles featuring Lisa Michaelis)",
+      "album": "frankie-knuckles-rain-falls"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Bomb the Bass",
+      "titulo": "Beat Dis",
+      "conferir": "capa de single; o álbum seria Into the Dragon",
+      "album": "bomb-the-bass-beat-dis"
+    },
+    {
+      "pos": "1-4",
+      "artista": "808 State",
+      "titulo": "Newbuild",
+      "album": "808-state-newbuild"
+    },
+    {
+      "pos": "1-5",
+      "artista": "The Orb",
+      "titulo": "The Orb's Adventures Beyond the Ultraworld",
+      "album": "the-orb-the-orbs-adventures-beyond-the-ultraworld"
+    },
+    {
+      "pos": "1-6",
+      "artista": "The KLF",
+      "titulo": "The White Room",
+      "album": "the-klf-the-white-room"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Basement Jaxx",
+      "titulo": "Remedy",
+      "album": "basement-jaxx-remedy"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Faithless",
+      "titulo": "Reverence",
+      "album": "faithless-reverence"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Deep Dish",
+      "titulo": "George Is On",
+      "album": "deep-dish-george-is-on"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Fingers Inc.",
+      "titulo": "Another Side",
+      "album": "fingers-inc-another-side"
+    },
+    {
+      "pos": "2-5",
+      "artista": "Lee Burridge",
+      "titulo": "Global Underground: Nubreed",
+      "album": "lee-burridge-global-underground-nubreed"
+    },
+    {
+      "pos": "2-6",
+      "artista": "Leftfield",
+      "titulo": "Leftism",
+      "album": "leftfield-leftism"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Luomo",
+      "titulo": "Vocalcity",
+      "noChart": "capa sem texto; identificada pela mesma capa no chart de Deep House",
+      "album": "luomo-vocalcity"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Mylo",
+      "titulo": "Destroy Rock & Roll",
+      "album": "mylo-destroy-rock-and-roll"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Orbital",
+      "titulo": "Blue Album",
+      "conferir": "identificado pela capa",
+      "album": "orbital-blue-album"
+    },
+    {
+      "pos": "3-4",
+      "artista": "St Germain",
+      "titulo": "Tourist",
+      "album": "st-germain-tourist"
+    },
+    {
+      "pos": "3-5",
+      "artista": "Biosphere",
+      "titulo": "Microgravity",
+      "album": "biosphere-microgravity"
+    },
+    {
+      "pos": "3-6",
+      "artista": "Way Out West",
+      "titulo": "Way Out West",
+      "album": "way-out-west-way-out-west"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Underworld",
+      "titulo": "Second Toughest in the Infants",
+      "album": "underworld-second-toughest-in-the-infants"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Moodymann",
+      "titulo": "Silent Introduction",
+      "album": "moodymann-silent-introduction"
+    },
+    {
+      "pos": "4-3",
+      "artista": "Layo & Bushwacka!",
+      "titulo": "Night Works",
+      "album": "layo-and-bushwacka-night-works"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Danny Tenaglia",
+      "titulo": "Tourism",
+      "album": "danny-tenaglia-tourism"
+    },
+    {
+      "pos": "4-5",
+      "artista": "Motor City Drum Ensemble",
+      "titulo": "Raw Cuts Vol. 1",
+      "album": "motor-city-drum-ensemble-raw-cuts-vol-1"
+    },
+    {
+      "pos": "4-6",
+      "artista": "Sasha",
+      "titulo": "Involver",
+      "album": "sasha-involver"
+    },
+    {
+      "pos": "5-1",
+      "artista": "John Digweed",
+      "titulo": "Warung Beach (Kiki / Lützenkirchen Remixes)",
+      "conferir": "capa de single",
+      "album": "john-digweed-warung-beach-kiki-lutzenkirchen-remixes"
+    },
+    {
+      "pos": "5-2",
+      "artista": "Laurent Garnier",
+      "titulo": "30",
+      "album": "laurent-garnier-30"
+    },
+    {
+      "pos": "5-3",
+      "artista": "Carl Cox",
+      "titulo": "Phuture 2000",
+      "conferir": "identificado pela capa",
+      "album": "carl-cox-phuture-2000"
+    },
+    {
+      "pos": "5-4",
+      "artista": "Danny Howells",
+      "titulo": "Global Underground #027: Miami",
+      "album": "danny-howells-global-underground-027-miami"
+    },
+    {
+      "pos": "5-5",
+      "artista": "Felix da Housecat",
+      "titulo": "Virgo Blaktro and the Movie Disco",
+      "album": "felix-da-housecat-virgo-blaktro-and-the-movie-disco"
+    },
+    {
+      "pos": "5-6",
+      "artista": "Miss Kittin",
+      "titulo": "BatBox",
+      "album": "miss-kittin-batbox"
+    },
+    {
+      "pos": "6-1",
+      "artista": "LFO",
+      "titulo": "Frequencies",
+      "album": "lfo-frequencies"
+    },
+    {
+      "pos": "6-2",
+      "artista": "Round One",
+      "titulo": "Round One to Round Five",
+      "conferir": "coletânea da Main Street Records (1993–99)",
+      "album": "round-one-round-one-to-round-five"
+    },
+    {
+      "pos": "6-3",
+      "artista": "Boys Noize",
+      "titulo": "Oi Oi Oi",
+      "album": "boys-noize-oi-oi-oi"
+    },
+    {
+      "pos": "6-4",
+      "artista": "Justice",
+      "titulo": "†",
+      "album": "justice"
+    },
+    {
+      "pos": "6-5",
+      "artista": "Daft Punk",
+      "titulo": "Discovery",
+      "conferir": "identificado pela capa",
+      "album": "daft-punk-discovery"
+    },
+    {
+      "pos": "6-6",
+      "artista": "Wolf + Lamb",
+      "titulo": "Love Someone",
+      "album": "wolf-lamb-love-someone"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "deep-house",
+  "titulo": "Essential guide to... Deep House",
+  "indice": "deep-house",
+  "generos": [
+    "deep-house"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/deep-house.png",
+  "transcricao": {
+    "data": "2026-10-27",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "DJ Sprinkles",
+      "titulo": "Midtown 120 Blues",
+      "album": "dj-sprinkles-midtown-120-blues"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Moodymann",
+      "titulo": "Silent Introduction",
+      "noChart": "Moodymann - Silentintroduction",
+      "album": "moodymann-silent-introduction"
+    },
+    {
+      "pos": "1-3",
+      "artista": "St Germain",
+      "titulo": "Tourist",
+      "noChart": "St. Germain - Tourist",
+      "album": "st-germain-tourist"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Steffi",
+      "titulo": "Yours & Mine",
+      "album": "steffi-yours-and-mine"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Motorbass",
+      "titulo": "Pansoul",
+      "album": "motorbass-pansoul"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Luomo",
+      "titulo": "Vocalcity",
+      "album": "luomo-vocalcity"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Theo Parrish",
+      "titulo": "Parallel Dimensions",
+      "noChart": "Theo Parrish - Parallel Dimension",
+      "album": "theo-parrish-parallel-dimensions"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Kaskade",
+      "titulo": "Here & Now",
+      "album": "kaskade-here-and-now"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Motor City Drum Ensemble",
+      "titulo": "Raw Cuts Vol. 1",
+      "noChart": "MCD Ensemble - Raw Cuts Vol. 1",
+      "album": "motor-city-drum-ensemble-raw-cuts-vol-1"
+    },
+    {
+      "pos": "2-5",
+      "artista": "Herbert",
+      "titulo": "Bodily Functions",
+      "album": "herbert-bodily-functions"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Levon Vincent",
+      "titulo": "Fabric 63",
+      "album": "levon-vincent-fabric-63"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Omar S",
+      "titulo": "It Can Be Done but Only I Can Do It",
+      "noChart": "Omar-S - It Can Be Done...",
+      "album": "omar-s-it-can-be-done-but-only-i-can-do-it"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Satoshi Tomiie",
+      "titulo": "Full Lick",
+      "noChart": "Satoshi Tomiie - Full Lick",
+      "album": "satoshi-tomiie-full-lick"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Charles Webster",
+      "titulo": "Born on the 24th of July",
+      "noChart": "Charles Webster - Born July 24th",
+      "album": "charles-webster-born-on-the-24th-of-july"
+    },
+    {
+      "pos": "3-5",
+      "artista": "Mr. Fingers",
+      "titulo": "Introduction",
+      "album": "mr-fingers-introduction"
+    }
+  ]
+}

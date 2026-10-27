@@ -112,6 +112,8 @@ main { margin-left: var(--largura-trilho); min-width: 0; padding: var(--esp-8); 
   transition: background var(--transicao), color var(--transicao);
 }
 .voltar-seta .icone { width: 22px; height: 22px; }
+.vista-setas { display: flex; gap: var(--esp-1); margin-left: calc(-1 * var(--esp-2)); }
+.vista-setas .voltar-seta { margin-left: 0; }
 .voltar-seta:hover, .voltar-seta:focus-visible { background: var(--superficie-2); color: var(--texto); }
 .vista-sub { color: var(--texto-suave); margin: 0 0 var(--esp-6); max-width: 60ch; }
 
@@ -230,10 +232,35 @@ button.card-capa:focus-visible { outline: 2px solid var(--texto); outline-offset
 .card-titulo { margin: 0; font-size: var(--t-sm); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card-artista { margin: 0; font-size: var(--t-sm); color: var(--texto-suave); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card-artista span { color: var(--texto-fraco); }
-/* Etiqueta do subgênero embaixo do card (página do gênero mestre) */
+/* Botão de copiar "Artista - Álbum" sobre a capa: cinza translúcido, mais visível no hover */
+.card-capa-area { position: relative; }
+.copiar-nome {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: rgba(40, 40, 40, 0.45);
+  color: rgba(255, 255, 255, 0.85);
+  opacity: 0.55;
+  cursor: pointer;
+  backdrop-filter: blur(2px);
+  transition: opacity var(--transicao), background var(--transicao);
+}
+.copiar-nome .icone { width: 16px; height: 16px; }
+.card-capa-area:hover .copiar-nome, .copiar-nome:focus-visible { opacity: 1; }
+.copiar-nome:hover { background: rgba(20, 20, 20, 0.75); }
+.copiar-nome.copiado { opacity: 1; background: rgba(20, 20, 20, 0.85); }
+.copiar-nome.copiado::after { content: "Copiado"; position: absolute; top: 100%; right: 0; margin-top: 4px; padding: 2px 6px; border-radius: 4px; background: rgba(20, 20, 20, 0.85); font-size: var(--t-xs); white-space: nowrap; }
+
+/* Botões dos gêneros do disco embaixo do card */
+.card-etiquetas { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 2px; }
 .card-etiqueta {
-  justify-self: start;
-  margin-top: 2px;
   padding: 3px 8px;
   border: 1px solid var(--borda);
   border-radius: 6px;
@@ -321,6 +348,9 @@ body.com-painel { overflow: hidden; }
 .painel .plat { background: var(--popup-texto); color: var(--popup); }
 .painel .plat:hover, .painel .plat:focus-visible { background: #000; color: var(--popup); border-color: #000; }
 
+/* Discogs: registro mestre do álbum, logo depois dos links de streaming */
+.painel a.botao-discogs { margin: 0 0 var(--esp-6); background: transparent; color: var(--popup-texto); border: 1px solid rgba(0, 0, 0, 0.2); }
+.painel a.botao-discogs:hover, .painel a.botao-discogs:focus-visible { background: var(--popup-texto); color: var(--popup); }
 .painel-secao { margin: 0 0 var(--esp-2); font-size: var(--t-xs); color: var(--popup-texto-suave); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; }
 /* Faixa destaque: texto à esquerda; links da faixa abaixo, separados por uma linha */
 .painel-destaque {
@@ -356,6 +386,94 @@ body.com-painel { overflow: hidden; }
 .painel-fonte a { color: inherit; }
 
 /* Celular: marca no topo, navegação fixa embaixo com ícone acima do nome */
+
+/* TrackMap (js/vistas/cerebro.js): o mapa ocupa a área toda; título e legenda flutuam por cima,
+   o pop-up do gênero fica à direita sem cobrir o resto do mapa (no celular, sobe de baixo). */
+.mapa { position: relative; height: 100dvh; margin: calc(-1 * var(--esp-8)); overflow: hidden; }
+.mapa-topo { position: absolute; top: var(--esp-6); left: var(--esp-6); z-index: 2; pointer-events: none; padding: var(--esp-2) var(--esp-4) var(--esp-3); border-radius: var(--raio-lg); background: rgba(20, 20, 20, 0.82); backdrop-filter: blur(6px); }
+.mapa-topo > * { pointer-events: auto; }
+.mapa-topo .vista-sub { margin: 0; font-size: var(--t-sm); }
+.mapa-svg { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
+.mapa-svg:active { cursor: grabbing; }
+
+.linha { fill: none; stroke-linecap: round; transition: stroke var(--transicao), opacity var(--transicao); }
+.linha.hierarquia { stroke: var(--linha-hierarquia); stroke-width: 1.3; }
+.linha.guia { stroke: rgba(232, 227, 214, 0.8); stroke-width: 2.4; stroke-dasharray: 7 6; animation: linha-fluxo 2.4s linear infinite; }
+.linha.origem { stroke: var(--linha-origem); stroke-width: 1.1; stroke-dasharray: 2 5; opacity: 0.7; }
+.linha.influencia, .linha.similar { stroke: var(--linha-similar); stroke-width: 1; }
+@keyframes linha-fluxo { to { stroke-dashoffset: -26; } }
+.mapa-svg.com-foco .linha:not(.ativa):not(.guia) { opacity: 0.35; }
+.linha.ativa { stroke: rgba(244, 244, 242, 0.75); opacity: 1; }
+.linha.ativa.influencia, .linha.ativa.similar { stroke: rgba(244, 244, 242, 0.45); }
+
+.no { cursor: pointer; outline: none; transition: opacity var(--transicao); }
+.no .bola { fill: var(--superficie-2); stroke: var(--borda); stroke-width: 1.2; transition: fill var(--transicao), stroke var(--transicao); }
+.no .anel { fill: none; stroke: transparent; stroke-width: 1; stroke-dasharray: 2 4; transition: stroke var(--transicao); }
+.no.tem-filhos:not(.aberto) .anel { stroke: var(--texto-fraco); }
+.no.nivel-0 .bola { fill: var(--mestre); stroke: var(--mestre-borda); stroke-width: 2; }
+.no-nome { fill: var(--texto-suave); font-size: 12px; font-weight: 500; pointer-events: none; paint-order: stroke; stroke: var(--fundo); stroke-width: 4px; stroke-linejoin: round; }
+.no.nivel-0 .no-nome { fill: var(--mestre-texto); font-size: 17px; font-weight: 700; stroke: none; }
+.no-contagem { fill: var(--texto-fraco); font-size: 10px; font-weight: 500; pointer-events: none; paint-order: stroke; stroke: var(--fundo); stroke-width: 4px; stroke-linejoin: round; }
+.no.nivel-0 .no-contagem { fill: var(--mestre-texto-suave); font-size: 11px; stroke: none; }
+.no:not(.nivel-0) .no-contagem { fill: var(--texto); font-size: 12px; font-weight: 700; stroke: none; }
+.no.atual:not(.nivel-0) .no-contagem { fill: var(--popup-texto); }
+.no.nivel-2 .no-nome, .no.nivel-3 .no-nome { font-size: 11px; }
+.no-coroa { color: var(--mestre-texto); fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; pointer-events: none; }
+.no:hover .bola, .no:focus-visible .bola { stroke: var(--texto); }
+.no.nivel-0:hover .bola, .no.nivel-0:focus-visible .bola { fill: var(--mestre-hover); }
+.no:hover .no-nome, .no:focus-visible .no-nome { fill: var(--texto); }
+.no.atual .bola { fill: var(--popup); stroke: var(--popup); }
+.no.atual.nivel-0 .no-nome { fill: var(--popup-texto); }
+.no.atual.nivel-0 .no-contagem { fill: var(--popup-texto-suave); }
+.no.atual.nivel-0 .bola { stroke: var(--texto); stroke-width: 3; }
+.no.atual .no-coroa { color: var(--popup-texto); }
+.mapa-svg.com-foco .no:not(.perto) { opacity: 0.45; }
+
+.mapa-legenda { position: absolute; left: var(--esp-6); bottom: var(--esp-4); padding: var(--esp-2) var(--esp-3); border-radius: var(--raio); background: rgba(20, 20, 20, 0.82); backdrop-filter: blur(6px); z-index: 2; list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--esp-2) var(--esp-4); font-size: var(--t-xs); color: var(--texto-fraco); pointer-events: none; }
+.mapa-legenda li { display: flex; align-items: center; gap: var(--esp-2); }
+.mapa-legenda svg { width: 28px; height: 8px; overflow: visible; }
+.mapa-legenda .linha { opacity: 1; animation: none; }
+
+.genero-popup {
+  position: absolute;
+  inset: var(--esp-3) var(--esp-3) var(--esp-3) auto;
+  z-index: 3;
+  width: min(400px, calc(100% - 2 * var(--esp-3)));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: var(--esp-6);
+  background: var(--popup);
+  color: var(--popup-texto);
+  border-radius: var(--raio-lg);
+  box-shadow: var(--sombra-popup);
+  outline: none;
+  transform: translateX(24px);
+  opacity: 0;
+  transition: transform var(--transicao), opacity var(--transicao);
+}
+.genero-popup.aberto { transform: none; opacity: 1; }
+.genero-popup a { color: inherit; }
+.popup-caminho { clear: both; font-size: var(--t-xs); color: var(--popup-texto-suave); margin: 0 0 var(--esp-2); }
+.popup-caminho a { color: inherit; }
+.popup-titulo { display: flex; align-items: center; gap: var(--esp-2); margin: 0; font-size: var(--t-xl); font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; }
+.popup-titulo .coroa { width: 24px; height: 24px; color: var(--popup-texto); }
+.popup-resumo a { color: inherit; text-decoration-color: rgba(0, 0, 0, 0.35); }
+.popup-meta { margin: var(--esp-1) 0 var(--esp-4); font-size: var(--t-sm); color: var(--popup-texto-suave); }
+.botao-recomendacoes {
+  display: inline-flex; align-items: center; gap: var(--esp-2);
+  margin: 0 0 var(--esp-4); padding: var(--esp-2) var(--esp-4) var(--esp-2) var(--esp-3);
+  border-radius: 999px; background: var(--popup-texto); color: var(--popup) !important;
+  font-size: var(--t-sm); font-weight: 600; text-decoration: none;
+  transition: background var(--transicao);
+}
+.botao-recomendacoes .icone { width: 20px; height: 20px; }
+.botao-recomendacoes:hover, .botao-recomendacoes:focus-visible { background: #000; }
+.popup-resumo .resumo-genero { margin: 0; color: var(--popup-texto); font-size: var(--t-sm); line-height: 1.6; }
+.popup-resumo .resumo-fonte { margin: var(--esp-2) 0 var(--esp-6); font-size: var(--t-xs); color: var(--popup-texto-suave); }
+.popup-chips { list-style: none; margin: 0 0 var(--esp-4); padding: 0; display: flex; flex-wrap: wrap; gap: var(--esp-2); }
+.popup-chips a { display: inline-block; padding: 2px var(--esp-3); border: 1px solid rgba(0, 0, 0, 0.18); border-radius: 999px; font-size: var(--t-sm); text-decoration: none; }
+.popup-chips a:hover, .popup-chips a:focus-visible { background: var(--popup-texto); color: var(--popup); border-color: var(--popup-texto); }
+
 @media (max-width: 760px) {
   body { padding-bottom: calc(var(--altura-barra-mobile) + env(safe-area-inset-bottom)); }
 
@@ -414,6 +532,21 @@ body.com-painel { overflow: hidden; }
     transform: translateY(32px);
   }
   .painel-capa { width: min(240px, 70%); margin-inline: auto; }
+
+  .mapa { height: calc(100dvh - 49px - var(--altura-barra-mobile) - env(safe-area-inset-bottom)); margin: calc(-1 * var(--esp-6)) calc(-1 * var(--esp-4)); }
+  .mapa-topo { top: var(--esp-4); left: var(--esp-4); }
+  .mapa-topo { padding: var(--esp-1) var(--esp-3); }
+  .mapa-topo .vista-titulo { font-size: var(--t-lg); margin: 0; }
+  .mapa-topo .vista-sub { display: none; }
+  .mapa-legenda { display: none; }
+  .genero-popup {
+    inset: auto 0 0 0;
+    width: auto;
+    max-height: 62%;
+    border-radius: var(--raio-lg) var(--raio-lg) 0 0;
+    padding: var(--esp-6) var(--esp-4);
+    transform: translateY(32px);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

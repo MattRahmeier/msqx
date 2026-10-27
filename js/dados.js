@@ -25,6 +25,16 @@ export async function chartsTranscritos() {
   return Promise.all(ids.map((id) => carregar(`data/charts/mu/${id}.json`)));
 }
 
+// Ids de álbum de cada gênero (Map gênero → ids), na ordem dos charts. Usado pelo Guia de Gêneros e pelo TrackMap.
+export async function albunsPorGenero() {
+  const mapa = new Map();
+  for (const c of await chartsTranscritos()) for (const g of c.generos) {
+    const ids = mapa.get(g) || mapa.set(g, []).get(g);
+    for (const a of c.albuns) if (a.album && !ids.includes(a.album)) ids.push(a.album);
+  }
+  return mapa;
+}
+
 export async function albuns() {
   const lista = await carregar("data/albuns/albuns.json");
   return { lista, porId: new Map(lista.map((a) => [a.id, a])) };

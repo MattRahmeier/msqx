@@ -1,11 +1,11 @@
 // Guia de Gêneros (Recomendados pela Internet) — Fase 5 (roadmap.md).
 // #/recomendados: todos os gêneros da árvore, separados por mestre (com coroa), um card por
 // gênero em ordem de proximidade · #/recomendados/<gênero>: resumo, subgêneros e os álbuns da lista.
-// Na página de um gênero mestre entram também os álbuns de todos os subgêneros, cada um com um
-// botão com o nome do subgênero.
+// Na página de um gênero mestre entram também os álbuns de todos os subgêneros. Um disco pode
+// estar em vários gêneros; cada card tem botões para os outros gêneros em que ele está.
 // Clicar na capa abre a caixa lateral do álbum. As fotos dos gêneros ainda virão.
 import { tituloPagina } from "../componentes/titulo.js";
-import { chartsTranscritos, albuns, generos } from "../dados.js";
+import { albunsPorGenero, albuns, generos } from "../dados.js";
 import { cardAlbum, esc } from "../componentes/card-album.js";
 import { ligarPainel } from "../componentes/painel-album.js";
 import { resumoGenero } from "../componentes/resumo-genero.js";
@@ -13,16 +13,6 @@ import { arvoreOrdenada, descendentes } from "../arvore.js";
 
 const coroa = `<svg class="icone coroa" aria-hidden="true"><use href="#i-coroa"/></svg>`;
 const decada = (g) => (g.decada ? `anos ${g.decada}` : "");
-
-// Ids de álbum de cada gênero, na ordem dos charts.
-function albunsPorGenero(charts) {
-  const mapa = new Map();
-  for (const c of charts) for (const g of c.generos) {
-    const ids = mapa.get(g) || mapa.set(g, []).get(g);
-    for (const a of c.albuns) if (a.album && !ids.includes(a.album)) ids.push(a.album);
-  }
-  return mapa;
-}
 
 // Um card por gênero, sem sublistas. Na ordem da árvore cada subgênero vem logo depois do
 // gênero de onde saiu. O card mostra só a década e quantos álbuns tem.
@@ -40,8 +30,7 @@ function cardGenero(no, porGenero) {
 const totalMestre = (m, porGenero) => new Set([m, ...descendentes(m)].flatMap((g) => porGenero.get(g.id) || [])).size;
 
 export async function render(el, [generoId]) {
-  const [charts, gen] = await Promise.all([chartsTranscritos(), generos()]);
-  const porGenero = albunsPorGenero(charts);
+  const [porGenero, gen] = await Promise.all([albunsPorGenero(), generos()]);
   const arvore = arvoreOrdenada(gen.lista);
   const genero = gen.porId.get(generoId);
 
@@ -62,31 +51,26 @@ export async function render(el, [generoId]) {
   const caminho = [];
   for (let g = genero; g; g = gen.porId.get(g.pai)) caminho.unshift(g);
   const { porId } = await albuns();
-  // Álbuns do próprio gênero e, no mestre, os de cada subgênero (na ordem da árvore, sem repetir),
-  // com a etiqueta do subgênero.
-  const itens = (porGenero.get(genero.id) || []).map((id) => ({ ficha: porId.get(id) }));
-  if (genero.mestre) {
-    const vistos = new Set(itens.map((i) => i.ficha?.id));
-    for (const sub of descendentes(no)) {
-      for (const id of porGenero.get(sub.id) || []) {
-        if (vistos.has(id)) continue;
-        vistos.add(id);
-        itens.push({ ficha: porId.get(id), etiqueta: { texto: sub.nome, href: `#/recomendados/${sub.id}` } });
-      }
-    }
-  }
-  const fichas = itens.filter((i) => i.ficha);
+  // Álbuns do próprio gênero e, no mestre, os de cada subgênero (na ordem da árvore, sem repetir).
+  const ids = [...(porGenero.get(genero.id) || [])];
+  if (genero.mestre) for (const sub of descendentes(no)) for (const id of porGenero.get(sub.id) || []) if (!ids.includes(id)) ids.push(id);
+  // Botões: os gêneros em que o disco está (pelos charts), menos o desta página.
+  const etiquetas = (ficha) => [...new Set(ficha.generos || [])].filter((g) => g !== genero.id && gen.porId.has(g))
+    .map((g) => ({ texto: gen.porId.get(g).nome, href: `#/recomendados/${g}` }));
+  const fichas = ids.map((id) => porId.get(id)).filter(Boolean).map((ficha) => ({ ficha, etiquetas: etiquetas(ficha) }));
 
   el.innerHTML = `
     <nav class="voltar" aria-label="Caminho"><a href="#/recomendados">Guia de Gêneros</a>${caminho.slice(0, -1).map((g) => ` › <a href="#/recomendados/${g.id}">${esc(g.nome)}</a>`).join("")}</nav>
-    ${tituloPagina(`${genero.mestre ? coroa : ""}${esc(genero.nome)}`, genero.pai ? `recomendados/${genero.pai}` : "recomendados")}
+    ${tituloPagina(`${genero.mestre ? coroa : ""}${esc(genero.nome)}`, genero.mestre ? "recomendados" : `recomendados/${caminho[0].id}`, genero.mestre
+      ? { rotuloVoltar: "Voltar ao Guia de Gêneros" }
+      : { subir: `recomendados/${genero.pai}`, rotuloVoltar: `Voltar para ${esc(caminho[0].nome)}`, rotuloSubir: `Subir para ${esc(gen.porId.get(genero.pai).nome)}` })}
     <div class="vista-resumo">${resumoGenero(genero, { rota: "recomendados" }) || (genero.resumoPendente ? `<p class="resumo-genero">Resumo em preparação.</p>` : "")}</div>
     ${descendentes(no).length ? `
       <h2 class="secao-titulo">Subgêneros</h2>
       <ul class="chips">${descendentes(no).map((f) => `<li><a href="#/recomendados/${f.id}">${esc(f.nome)}</a></li>`).join("")}</ul>` : ""}
     ${fichas.length ? `
       <h2 class="secao-titulo">Álbuns essenciais</h2>
-      <div class="grade-albuns">${fichas.map((i) => cardAlbum(i.ficha, { etiqueta: i.etiqueta })).join("")}</div>
+      <div class="grade-albuns">${fichas.map((i) => cardAlbum(i.ficha, { etiquetas: i.etiquetas })).join("")}</div>
       <p class="disclaimer">Listas curadas por usuários da internet. Podem não refletir a totalidade do gênero, mas são um bom ponto de partida.</p>`
     : `<p class="aviso">A lista de álbuns deste gênero ainda está sendo montada.</p>`}`;
   if (fichas.length) ligarPainel(el.querySelector(".grade-albuns"), porId);

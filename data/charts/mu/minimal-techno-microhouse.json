@@ -1,0 +1,233 @@
+{
+  "id": "minimal-techno-microhouse",
+  "titulo": "/mu/'s minimal techno/microhouse essentials",
+  "indice": "minimal-techno-microhouse",
+  "generos": [
+    "minimal-techno"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/minimal-techno-microhouse.png",
+  "transcricao": {
+    "data": "2026-10-27",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "O chart marca com * os discos que não são minimal techno/microhouse, mas foram muito influenciados por ele (campo \"influencia\").",
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Oval",
+      "titulo": "94diskont",
+      "album": "oval-94diskont"
+    },
+    {
+      "pos": "A2",
+      "artista": "Luomo",
+      "titulo": "Vocalcity",
+      "album": "luomo-vocalcity"
+    },
+    {
+      "pos": "A3",
+      "artista": "Herbert",
+      "titulo": "Bodily Functions",
+      "album": "herbert-bodily-functions"
+    },
+    {
+      "pos": "A4",
+      "artista": "Closer Musik",
+      "titulo": "After Love",
+      "album": "closer-musik-after-love"
+    },
+    {
+      "pos": "A5",
+      "artista": "Michael Mayer",
+      "titulo": "Immer",
+      "album": "michael-mayer-immer"
+    },
+    {
+      "pos": "B1",
+      "artista": "Metro Area",
+      "titulo": "Metro Area",
+      "album": "metro-area-metro-area"
+    },
+    {
+      "pos": "B2",
+      "artista": "Akufen",
+      "titulo": "My Way",
+      "album": "akufen-my-way"
+    },
+    {
+      "pos": "B3",
+      "artista": "Farben",
+      "titulo": "Textstar",
+      "album": "farben-textstar"
+    },
+    {
+      "pos": "B4",
+      "artista": "Ricardo Villalobos",
+      "titulo": "Alcachofa",
+      "album": "ricardo-villalobos-alcachofa"
+    },
+    {
+      "pos": "B5",
+      "artista": "Ellen Allien",
+      "titulo": "Berlinette",
+      "album": "ellen-allien-berlinette"
+    },
+    {
+      "pos": "C1",
+      "artista": "Erlend Øye",
+      "titulo": "DJ-Kicks",
+      "influencia": true,
+      "album": "erlend-ye-dj-kicks"
+    },
+    {
+      "pos": "C2",
+      "artista": "Matias Aguayo",
+      "titulo": "Are You Really Lost",
+      "album": "matias-aguayo-are-you-really-lost"
+    },
+    {
+      "pos": "C3",
+      "artista": "Monolake",
+      "titulo": "Polygon_Cities",
+      "album": "monolake-polygon-cities"
+    },
+    {
+      "pos": "C4",
+      "artista": "Isolée",
+      "titulo": "We Are Monster",
+      "album": "isolee-we-are-monster"
+    },
+    {
+      "pos": "C5",
+      "artista": "Plastikman",
+      "titulo": "Closer",
+      "album": "plastikman-closer"
+    },
+    {
+      "pos": "D1",
+      "artista": "Ellen Allien & Apparat",
+      "titulo": "Orchestra of Bubbles",
+      "album": "ellen-allien-and-apparat-orchestra-of-bubbles"
+    },
+    {
+      "pos": "D2",
+      "artista": "TrentemØller",
+      "titulo": "The Last Resort",
+      "album": "trentem-ller-the-last-resort"
+    },
+    {
+      "pos": "D3",
+      "artista": "Gui Boratto",
+      "titulo": "Chromophobia",
+      "album": "gui-boratto-chromophobia"
+    },
+    {
+      "pos": "D4",
+      "artista": "Efdemin",
+      "titulo": "Efdemin",
+      "album": "efdemin-efdemin"
+    },
+    {
+      "pos": "D5",
+      "artista": "Booka Shade",
+      "titulo": "Movements",
+      "album": "booka-shade-movements"
+    },
+    {
+      "pos": "E1",
+      "artista": "The Field",
+      "titulo": "From Here We Go Sublime",
+      "album": "the-field-from-here-we-go-sublime"
+    },
+    {
+      "pos": "E2",
+      "artista": "Melchior Productions",
+      "titulo": "No Disco Future",
+      "album": "melchior-productions-no-disco-future"
+    },
+    {
+      "pos": "E3",
+      "artista": "Bruno Pronsato",
+      "titulo": "Why Can't We Be Like Us",
+      "album": "bruno-pronsato-why-cant-we-be-like-us"
+    },
+    {
+      "pos": "E4",
+      "artista": "Scuba",
+      "titulo": "A Mutual Antipathy",
+      "influencia": true,
+      "album": "scuba-a-mutual-antipathy"
+    },
+    {
+      "pos": "E5",
+      "artista": "Minilogue",
+      "titulo": "Animals",
+      "album": "minilogue-animals"
+    },
+    {
+      "pos": "F1",
+      "artista": "Move D & Benjamin Brunn",
+      "titulo": "Songs From the Beehive",
+      "album": "move-d-and-benjamin-brunn-songs-from-the-beehive"
+    },
+    {
+      "pos": "F2",
+      "artista": "Theo Parrish",
+      "titulo": "Sound Sculptures",
+      "album": "theo-parrish-sound-sculptures"
+    },
+    {
+      "pos": "F3",
+      "artista": "Fever Ray",
+      "titulo": "Fever Ray",
+      "influencia": true,
+      "album": "fever-ray-fever-ray"
+    },
+    {
+      "pos": "F4",
+      "artista": "DJ Sprinkles",
+      "titulo": "Midtown 120 Blues",
+      "album": "dj-sprinkles-midtown-120-blues"
+    },
+    {
+      "pos": "F5",
+      "artista": "Robert Hood",
+      "titulo": "Minimal Nation",
+      "album": "robert-hood-minimal-nation"
+    },
+    {
+      "pos": "G1",
+      "artista": "Matthew Dear",
+      "titulo": "Black City",
+      "influencia": true,
+      "album": "matthew-dear-black-city"
+    },
+    {
+      "pos": "G2",
+      "artista": "Pantha du Prince",
+      "titulo": "Black Noise",
+      "album": "pantha-du-prince-black-noise"
+    },
+    {
+      "pos": "G3",
+      "artista": "John Roberts",
+      "titulo": "Glass Eights",
+      "album": "john-roberts-glass-eights"
+    },
+    {
+      "pos": "G4",
+      "artista": "Gold Panda",
+      "titulo": "Lucky Shiner",
+      "influencia": true,
+      "album": "gold-panda-lucky-shiner"
+    },
+    {
+      "pos": "G5",
+      "artista": "Jürgen Paape",
+      "titulo": "Kompilation",
+      "album": "jurgen-paape-kompilation"
+    }
+  ]
+}

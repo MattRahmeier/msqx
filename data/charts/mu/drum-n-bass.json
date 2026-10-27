@@ -1,0 +1,231 @@
+{
+  "id": "drum-n-bass",
+  "titulo": "Essential Drum n' Bass",
+  "indice": "drum-n-bass",
+  "generos": [
+    "drum-and-bass"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/drum-n-bass.png",
+  "transcricao": {
+    "data": "2026-10-27",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Goldie",
+      "titulo": "Timeless",
+      "album": "goldie-timeless"
+    },
+    {
+      "pos": "A2",
+      "artista": "Roni Size",
+      "titulo": "New Forms",
+      "noChart": "Roni size - New Forms",
+      "album": "roni-size-new-forms"
+    },
+    {
+      "pos": "A3",
+      "artista": "Cyantific",
+      "titulo": "Ghetto Blaster",
+      "album": "cyantific-ghetto-blaster"
+    },
+    {
+      "pos": "A4",
+      "artista": "Ed Rush & Optical",
+      "titulo": "Wormhole",
+      "album": "ed-rush-and-optical-wormhole"
+    },
+    {
+      "pos": "A5",
+      "artista": "Blame",
+      "titulo": "Into the Void",
+      "album": "blame-into-the-void"
+    },
+    {
+      "pos": "A6",
+      "artista": "Klute",
+      "titulo": "Lie, Cheat & Steal",
+      "album": "klute-lie-cheat-and-steal"
+    },
+    {
+      "pos": "A7",
+      "artista": "Logistics",
+      "titulo": "Now More Than Ever",
+      "album": "logistics-now-more-than-ever"
+    },
+    {
+      "pos": "B1",
+      "artista": "Black Sun Empire",
+      "titulo": "Cruel & Unusual",
+      "album": "black-sun-empire-cruel-and-unusual"
+    },
+    {
+      "pos": "B2",
+      "artista": "Silent Killer & Breaker",
+      "titulo": "Amongst Villains",
+      "album": "silent-killer-and-breaker-amongst-villains"
+    },
+    {
+      "pos": "B3",
+      "artista": "Utah Jazz",
+      "titulo": "It's a Jazz Thing",
+      "album": "utah-jazz-its-a-jazz-thing"
+    },
+    {
+      "pos": "B4",
+      "artista": "Concord Dawn",
+      "titulo": "Uprising",
+      "album": "concord-dawn-uprising"
+    },
+    {
+      "pos": "B5",
+      "artista": "Technical Itch",
+      "titulo": "You Need Therapy",
+      "album": "technical-itch-you-need-therapy"
+    },
+    {
+      "pos": "B6",
+      "artista": "High Contrast",
+      "titulo": "Tough Guys Don't Dance",
+      "album": "high-contrast-tough-guys-dont-dance"
+    },
+    {
+      "pos": "B7",
+      "artista": "DJ Marky",
+      "titulo": "The Brazilian Job",
+      "album": "dj-marky-the-brazilian-job"
+    },
+    {
+      "pos": "C1",
+      "artista": "Source Direct",
+      "titulo": "Exorcise the Demons",
+      "noChart": "Source Direct - Exercise The Demons",
+      "album": "source-direct-exorcise-the-demons"
+    },
+    {
+      "pos": "C2",
+      "artista": "Photek",
+      "titulo": "Form & Function",
+      "album": "photek-form-and-function"
+    },
+    {
+      "pos": "C3",
+      "artista": "Mistabishi",
+      "titulo": "Drop",
+      "album": "mistabishi-drop"
+    },
+    {
+      "pos": "C4",
+      "artista": "Evol Intent",
+      "titulo": "Era of Diversion",
+      "album": "evol-intent-era-of-diversion"
+    },
+    {
+      "pos": "C5",
+      "artista": "Limewax & Current Value",
+      "titulo": "All Ends",
+      "album": "limewax-and-current-value-all-ends"
+    },
+    {
+      "pos": "C6",
+      "artista": "Aphrodite",
+      "titulo": "Aphrodite",
+      "album": "aphrodite-aphrodite"
+    },
+    {
+      "pos": "C7",
+      "artista": "Nu:Tone",
+      "titulo": "Brave Nu World",
+      "noChart": "Nu:Tone - Brave New World",
+      "album": "nu-tone-brave-nu-world"
+    },
+    {
+      "pos": "D1",
+      "artista": "Current Value",
+      "titulo": "2012 the Day of Silence",
+      "album": "current-value-2012-the-day-of-silence"
+    },
+    {
+      "pos": "D2",
+      "artista": "London Elektricity",
+      "titulo": "Billion Dollar Gravy",
+      "album": "london-elektricity-billion-dollar-gravy"
+    },
+    {
+      "pos": "D3",
+      "artista": "LTJ Bukem",
+      "titulo": "Logical Progression",
+      "album": "ltj-bukem-logical-progression"
+    },
+    {
+      "pos": "D4",
+      "artista": "Calyx & TeeBee",
+      "titulo": "Anatomy",
+      "album": "calyx-and-teebee-anatomy"
+    },
+    {
+      "pos": "D5",
+      "artista": "Telemetrik",
+      "titulo": "My Lightyear",
+      "album": "telemetrik-my-lightyear"
+    },
+    {
+      "pos": "D6",
+      "artista": "Omni Trio",
+      "titulo": "Even Angels Cast Shadows",
+      "album": "omni-trio-even-angels-cast-shadows"
+    },
+    {
+      "pos": "D7",
+      "artista": "DJ Dara",
+      "titulo": "Future Perfect",
+      "album": "dj-dara-future-perfect"
+    },
+    {
+      "pos": "E1",
+      "artista": "Squarepusher",
+      "titulo": "Hard Normal Daddy",
+      "album": "squarepusher-hard-normal-daddy"
+    },
+    {
+      "pos": "E2",
+      "artista": "Paradox",
+      "titulo": "The Musician as Outsider",
+      "album": "paradox-the-musician-as-outsider"
+    },
+    {
+      "pos": "E3",
+      "artista": "Shy FX & T Power",
+      "titulo": "Diary of a Digital Soundboy",
+      "album": "shy-fx-and-t-power-diary-of-a-digital-soundboy"
+    },
+    {
+      "pos": "E4",
+      "artista": "B-Complex",
+      "titulo": "Beautiful Lies",
+      "album": "b-complex-beautiful-lies"
+    },
+    {
+      "pos": "E5",
+      "artista": "Grooverider",
+      "titulo": "Mysteries of Funk",
+      "album": "grooverider-mysteries-of-funk"
+    },
+    {
+      "pos": "E6",
+      "artista": "Bachelors of Science",
+      "titulo": "Science Fiction",
+      "album": "bachelors-of-science-science-fiction"
+    },
+    {
+      "pos": "E7",
+      "artista": "Dieselboy",
+      "titulo": "The Dungeonmaster's Guide",
+      "noChart": "Dieselboy - The Dungeonmasters Guide",
+      "album": "dieselboy-the-dungeonmasters-guide"
+    }
+  ]
+}

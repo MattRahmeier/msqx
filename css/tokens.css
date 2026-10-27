@@ -19,6 +19,13 @@
   /* Destaque único, discreto */
   --destaque: #e8e3d6;
 
+  /* Gêneros mestres no TrackMap: areia, chama atenção sem sair da paleta neutra */
+  --mestre: #cbbf9f;
+  --mestre-hover: #d8cdb0;
+  --mestre-borda: #e8e3d6;
+  --mestre-texto: #1d1b16;
+  --mestre-texto-suave: #4f4a3d;
+
   /* Linhas do cérebro (modelo-de-dados.md) */
   --linha-hierarquia: rgba(244, 244, 242, 0.28);
   --linha-origem: rgba(232, 227, 214, 0.55);

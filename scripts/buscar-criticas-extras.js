@@ -3,12 +3,14 @@
 // texto das críticas tem direitos reservados e não é copiado.
 //   Pitchfork — resenha do álbum (busca pelo título no site — a busca não acha com o artista junto;
 //               o artista é conferido no título da resenha; nota de 0 a 10)
+//   Metacritic — nota da crítica agregada (Metascore de 0 a 100, que o site só mostra com quatro
+//              críticas ou mais), pela API de busca do próprio site; confere artista, título e ano (±1)
 //   Discogs  — média das avaliações dos usuários (API pública; mínimo de 10 votos), pelo link do
 //              Discogs que o MusicBrainz tem para o álbum; aparece como "Discogs (usuários)"
 // Ficam só notas positivas (estrelas >= 3,5) e no máximo duas por ficha, junto com as que já existem.
-// Sites que bloqueiam acesso automatizado (AllMusic, RYM, Metal Archives, ProgArchives — Cloudflare)
-// não são consultados.
-// Uso: node scripts/buscar-criticas-extras.js
+// Sites que bloqueiam acesso automatizado (AllMusic, RYM, Album of the Year, Metal Archives,
+// ProgArchives, Angry Metal Guy) não são consultados; o Wikidata não tem notas para estas fichas.
+// Uso: node scripts/buscar-criticas-extras.js [--so metacritic,discogs,pitchfork]
 
 const fs = require("fs");
 const path = require("path");
@@ -55,6 +57,22 @@ async function pitchfork(f) {
   return null;
 }
 
+async function metacritic(f) {
+  const busca = encodeURIComponent(semEdicao(f.titulo));
+  const j = await pedir("metacritic", `https://backend.metacritic.com/finder/metacritic/search/${busca}/web?mcoTypeId=31&limit=20`, 1500);
+  const primeiro = norm(f.artista.split(/,|&| and | e |•/)[0]);
+  const ano = Number(String(f.lancamento || "").slice(0, 4));
+  for (const i of j?.data?.items || []) {
+    const nota = i.criticScoreSummary?.score;
+    if (!nota || norm(semEdicao(i.title)) !== norm(semEdicao(f.titulo))) continue;
+    if (!(i.artists || []).some((a) => norm(a.name).includes(primeiro))) continue;
+    const anoMc = Number(String(i.releaseDate || "").slice(0, 4));
+    if (ano && anoMc && Math.abs(ano - anoMc) > 1) continue;
+    return { fonte: "Metacritic", nota: `${nota}/100`, estrelas: meio(nota / 20), url: `https://www.metacritic.com${i.criticScoreSummary.url}` };
+  }
+  return null;
+}
+
 async function discogs(f) {
   if (!f.musicbrainz?.releaseGroup) return null;
   const rg = await pedir("mb", `https://musicbrainz.org/ws/2/release-group/${f.musicbrainz.releaseGroup}?fmt=json&inc=url-rels`, 1100);
@@ -69,6 +87,9 @@ async function discogs(f) {
   return { fonte: "Discogs (usuários)", nota: `${average.toFixed(2).replace(/0$/, "")}/5`, estrelas: meio(average), url: url, votos: count };
 }
 
+const so = process.argv.includes("--so") ? process.argv[process.argv.indexOf("--so") + 1].split(",") : null;
+const fontes = [pitchfork, metacritic, discogs].filter((b) => !so || so.includes(b.name));
+
 (async () => {
   const fichas = JSON.parse(fs.readFileSync(ARQ, "utf8"));
   const alvo = fichas.filter((f) => f.titulo && f.artista && (f.reviews?.length || 0) < 2);
@@ -77,7 +98,7 @@ async function discogs(f) {
   for (const f of alvo) {
     const atuais = f.reviews || [];
     const novas = [];
-    for (const buscar of [pitchfork, discogs]) {
+    for (const buscar of fontes) {
       if (atuais.length + novas.length >= 2) break;
       const r = await buscar(f);
       if (r && r.estrelas >= 3.5 && !atuais.some((a) => norm(a.fonte).startsWith(norm(r.fonte.split(" ")[0])))) novas.push(r);
