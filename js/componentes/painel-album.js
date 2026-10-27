@@ -50,12 +50,12 @@ function destaque(d) {
     ? `<ul class="card-plataformas destaque-links" aria-label="Ouvir a faixa">${botoesStreaming({ titulo: d.titulo, links: d.links })}</ul>` : "";
   return `
     <div class="painel-destaque">
-      <span class="destaque-rotulo">Faixa destaque</span>
-      <div class="destaque-linha">
+      <div class="destaque-texto">
+        <span class="destaque-rotulo">Faixa destaque</span>
         <span class="destaque-faixa">${esc(d.titulo)}${d.duracao ? ` <span class="destaque-dur">${esc(d.duracao)}</span>` : ""}</span>
-        ${links}
+        <span class="destaque-criterio">${esc(d.criterio.charAt(0).toUpperCase() + d.criterio.slice(1))}</span>
       </div>
-      <span class="destaque-criterio">${esc(d.criterio.charAt(0).toUpperCase() + d.criterio.slice(1))}</span>
+      ${links}
     </div>`;
 }
 

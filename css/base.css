@@ -309,21 +309,24 @@ body.com-painel { overflow: hidden; }
 .painel .plat:hover, .painel .plat:focus-visible { background: #000; color: var(--popup); border-color: #000; }
 
 .painel-secao { margin: 0 0 var(--esp-2); font-size: var(--t-xs); color: var(--popup-texto-suave); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; }
+/* Faixa destaque: texto à esquerda; links da faixa abaixo, separados por uma linha */
 .painel-destaque {
   display: grid;
-  gap: 2px;
+  gap: var(--esp-3);
   margin: 0 0 var(--esp-6);
-  padding: var(--esp-3) var(--esp-4);
+  padding: var(--esp-3) var(--esp-4) var(--esp-4);
   border-radius: var(--raio);
   background: rgba(0, 0, 0, 0.05);
 }
+.destaque-texto { display: grid; gap: 2px; }
 .destaque-rotulo { font-size: var(--t-xs); color: var(--popup-texto-suave); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; }
-.destaque-linha { display: flex; align-items: center; justify-content: space-between; gap: var(--esp-3); flex-wrap: wrap; }
 .destaque-faixa { font-weight: 600; }
-.destaque-links .plat { width: 30px; height: 30px; }
-.destaque-links .plat .icone { width: 16px; height: 16px; }
 .destaque-dur { font-weight: 400; color: var(--popup-texto-suave); font-variant-numeric: tabular-nums; margin-left: var(--esp-1); }
 .destaque-criterio { font-size: var(--t-xs); color: var(--popup-texto-suave); }
+.destaque-links { padding-top: var(--esp-3); border-top: 1px solid rgba(0, 0, 0, 0.08); gap: var(--esp-2); }
+/* Ícones quadrados (cantos arredondados), no mesmo desenho do bloco */
+.painel .destaque-links .plat { width: 34px; height: 34px; border-radius: 8px; }
+.painel .destaque-links .plat .icone { width: 18px; height: 18px; }
 .painel-sobre { margin: 0; font-size: var(--t-sm); line-height: 1.6; }
 .painel-fonte + .painel-secao { margin-top: var(--esp-6); }
 
