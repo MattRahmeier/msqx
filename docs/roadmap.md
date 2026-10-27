@@ -47,7 +47,7 @@
 - [ ] Primeira edição de exemplo para testar o layout; a real vem de um autor convidado.
 
 ## Fase 5 — Recomendados pela Internet
-- [x] Lista de gêneros com a mesma árvore do TrackMap (`js/arvore.js`): um bloco por mestre (com coroa), um card por gênero, sem sublistas (cada subgênero logo depois do gênero de onde saiu, com "de <gênero>"); irmãos em ordem cronológica e, na mesma década, em cadeia de proximidade (origens/similares). Gêneros com lista de álbuns ficam destacados.
+- [x] Lista de gêneros com a mesma árvore do TrackMap (`js/arvore.js`): um bloco por mestre (com coroa), um card por gênero, sem sublistas (cada subgênero logo depois do gênero de onde saiu; o card mostra a década e quantos álbuns tem); irmãos em ordem cronológica e, na mesma década, em cadeia de proximidade (origens/similares). Gêneros com lista de álbuns ficam destacados.
 - [ ] Fotos nos cards de gênero.
 - [x] Página do gênero (`#/recomendados/<gênero>`): caminho na árvore, nome (coroa se for mestre), resumo com links e fonte, subgêneros, álbuns da lista e o disclaimer no fim. A interface não cita o site de origem das listas.
 - [x] Caixa lateral do álbum ao clicar na capa (`js/componentes/painel-album.js`): lançamento, duração, nº de faixas, tipo, links de streaming com nome e fonte (MusicBrainz). Pop-up off-white à direita; no celular, sobe de baixo. Fecha com ×, Esc ou clique fora.

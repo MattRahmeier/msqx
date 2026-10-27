@@ -142,6 +142,7 @@ Um único arquivo com todas as fichas (a Pesquisa precisa de todas de uma vez). 
   "artista": "Celtic Frost",
   "lancamento": "1985",
   "tipo": "Album",
+  "gravadora": "Noise Records",
   "duracao": "40:23",
   "faixas": [{ "n": 1, "titulo": "Innocence and Wrath", "duracao": "1:03" }],
   "links": { "spotify": "https://open.spotify.com/album/...", "qobuz": "...", "appleMusic": "...", "deezer": "...", "tidal": "..." },
@@ -153,8 +154,10 @@ Um único arquivo com todas as fichas (a Pesquisa precisa de todas de uma vez). 
 ```
 
 - **Fontes:** MusicBrainz (banco aberto, mantido por pessoas) para título, artista, data, tipo, faixas e links; Cover Art Archive para a capa (500 px).
+- `capaFonte`: endereço da imagem quando a capa foi trocada à mão (por exemplo, indicada pelo usuário), em vez de vir do Cover Art Archive.
 - `titulo`/`artista` são os do MusicBrainz; se não batem com o chart, a ficha ganha `conferir` com o que foi pedido e o que veio.
 - `lancamento`: primeira data de lançamento do álbum (pode ser só o ano).
+- `gravadora`: a gravadora que mais aparece nas edições oficiais do álbum no MusicBrainz (no empate, a da edição mais antiga; `null` quando não consta). Fichas antigas: `node scripts/buscar-gravadoras.js`.
 - `faixas` e `duracao`: da edição oficial mais antiga.
 - `links`: links diretos do álbum. Plataformas: `spotify`, `youtubeMusic`, `qobuz`, `bandcamp`, `appleMusic`, `deezer`, `tidal`. Os do MusicBrainz vêm de qualquer edição; `youtubeMusic` é a playlist oficial do álbum (`music.youtube.com/playlist?list=OLAK5uy_…`), achada pela busca de álbuns do YouTube Music com o mesmo artista e título. **Sem link, sem botão** — o site não monta links de busca.
 - `linksVerificados`: data da última verificação por `node scripts/verificar-links.js`, que apaga os links quebrados (Spotify pelo oEmbed, Deezer pela API, Apple Music, Tidal e Qobuz pela página; o Qobuz responde pela loja do Brasil). O Bandcamp não é conferido: bloqueia acesso automatizado.

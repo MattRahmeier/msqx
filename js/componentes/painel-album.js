@@ -64,7 +64,7 @@ function conteudo(f) {
     ["Lançamento", data(f.lancamento)],
     ["Duração", f.duracao],
     ["Faixas", f.faixas?.length || null],
-    ["Tipo", f.tipo],
+    ["Gravadora", f.gravadora],
   ].filter(([, v]) => v);
   return `
     <button type="button" class="painel-fechar" data-fechar aria-label="Fechar">×</button>

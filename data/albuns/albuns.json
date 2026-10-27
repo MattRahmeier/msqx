@@ -5,6 +5,7 @@
     "artista": "2Pac",
     "lancamento": "1995-03-14",
     "tipo": "Album",
+    "gravadora": "Interscope Records",
     "duracao": "71:22",
     "faixas": [
       {
@@ -154,6 +155,7 @@
     "artista": "A Tribe Called Quest",
     "lancamento": "1991-09-24",
     "tipo": "Album",
+    "gravadora": "Jive",
     "duracao": "48:04",
     "faixas": [
       {
@@ -295,6 +297,7 @@
     "artista": "Ahmed Abdul‐Malik",
     "lancamento": "2003-03-11",
     "tipo": "Album / Compilation",
+    "gravadora": "Prestige",
     "duracao": "69:14",
     "faixas": [
       {
@@ -372,10 +375,9 @@
     "generos": [
       "jazz"
     ],
-    "linksVerificados": "2026-10-26",
-    "sobreVerificado": "2026-10-26",
+    "linksVerificados": "2026-10-27",
     "sobrePendente": "sem artigo na Wikipédia",
-    "destaqueVerificado": "2026-10-27",
+    "sobreVerificado": "2026-10-27",
     "destaque": {
       "titulo": "Oud Blues",
       "duracao": "4:10",
@@ -387,7 +389,8 @@
         "youtubeMusic",
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "albert-king-born-under-a-bad-sign",
@@ -395,6 +398,7 @@
     "artista": "Albert King",
     "lancamento": "1967-08",
     "tipo": "Album",
+    "gravadora": "Stax",
     "duracao": "35:02",
     "faixas": [
       {
@@ -513,6 +517,7 @@
     "artista": "Albert King with Stevie Ray Vaughan",
     "lancamento": "1999-08",
     "tipo": "Album / Live",
+    "gravadora": "Stax",
     "duracao": "63:54",
     "faixas": [
       {
@@ -633,6 +638,7 @@
     "artista": "Alphaville",
     "lancamento": "1984-09-27",
     "tipo": "Album",
+    "gravadora": "wea",
     "duracao": "43:35",
     "faixas": [
       {
@@ -744,6 +750,7 @@
     "artista": "Amon Tobin",
     "lancamento": "2002-10-10",
     "tipo": "Album",
+    "gravadora": "Ninja Tune",
     "duracao": "56:56",
     "faixas": [
       {
@@ -870,6 +877,7 @@
     "artista": "Anthony Braxton",
     "lancamento": "1977",
     "tipo": "Album / Live",
+    "gravadora": "Arista",
     "duracao": "87:27",
     "faixas": [
       {
@@ -958,6 +966,7 @@
     "artista": "Aphex Twin",
     "lancamento": "1995-04-24",
     "tipo": "Album",
+    "gravadora": "Warp",
     "duracao": "62:35",
     "faixas": [
       {
@@ -1090,6 +1099,7 @@
     "artista": "Aphex Twin",
     "lancamento": "1996-11-04",
     "tipo": "Album",
+    "gravadora": "Warp",
     "duracao": "32:57",
     "faixas": [
       {
@@ -1210,6 +1220,7 @@
     "artista": "Archie Shepp",
     "lancamento": "1991",
     "tipo": "Album / Live",
+    "gravadora": "Storyville Records",
     "duracao": "71:49",
     "faixas": [
       {
@@ -1317,6 +1328,7 @@
     "artista": "Archie Shepp",
     "lancamento": "1972",
     "tipo": "Album",
+    "gravadora": "impulse!",
     "duracao": "37:19",
     "faixas": [
       {
@@ -1431,6 +1443,7 @@
     "artista": "Art Blakey and The Jazz Messengers",
     "lancamento": "1958",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "40:15",
     "faixas": [
       {
@@ -1533,6 +1546,7 @@
     "artista": "Art Pepper",
     "lancamento": "1957",
     "tipo": "Album",
+    "gravadora": "Contemporary",
     "duracao": "43:14",
     "faixas": [
       {
@@ -1649,6 +1663,7 @@
     "artista": "Autechre",
     "lancamento": "2001-04-14",
     "tipo": "Album",
+    "gravadora": "Warp",
     "duracao": "62:00",
     "faixas": [
       {
@@ -1759,6 +1774,7 @@
     "artista": "Autechre",
     "lancamento": "1995-11-06",
     "tipo": "Album",
+    "gravadora": "Warp",
     "duracao": "72:34",
     "faixas": [
       {
@@ -1874,6 +1890,7 @@
     "artista": "El Aviador Dro",
     "lancamento": "1982",
     "tipo": "Album",
+    "gravadora": "DRO",
     "duracao": null,
     "faixas": [
       {
@@ -1959,6 +1976,7 @@
     "artista": "Bathory",
     "lancamento": "1988-10-08",
     "tipo": "Album",
+    "gravadora": "Under One Flag",
     "duracao": "45:45",
     "faixas": [
       {
@@ -2062,6 +2080,7 @@
     "artista": "Bauhaus",
     "lancamento": "1980-10",
     "tipo": "Album",
+    "gravadora": "4AD",
     "duracao": "40:54",
     "faixas": [
       {
@@ -2184,6 +2203,7 @@
     "artista": "B.B. King",
     "lancamento": "1965",
     "tipo": "Album / Live",
+    "gravadora": "ABC Records",
     "duracao": "35:03",
     "faixas": [
       {
@@ -2300,6 +2320,7 @@
     "artista": "Beastie Boys",
     "lancamento": "1989-07-25",
     "tipo": "Album",
+    "gravadora": "Capitol Records",
     "duracao": "53:09",
     "faixas": [
       {
@@ -2446,6 +2467,7 @@
     "artista": "Berlin",
     "lancamento": "1982-10-01",
     "tipo": "Album",
+    "gravadora": "M.A.O. Records",
     "duracao": "29:07",
     "faixas": [
       {
@@ -2540,6 +2562,7 @@
     "artista": "Big Bill Broonzy",
     "lancamento": "1991-04-08",
     "tipo": "Album / Compilation",
+    "gravadora": "Yazoo Records",
     "duracao": "39:37",
     "faixas": [
       {
@@ -2654,6 +2677,7 @@
     "artista": "Black Dog Productions",
     "lancamento": "1993-01-25",
     "tipo": "Album / Compilation",
+    "gravadora": "Warp",
     "duracao": "67:33",
     "faixas": [
       {
@@ -2779,6 +2803,7 @@
     "artista": "Black Sheep",
     "lancamento": "1991-10-22",
     "tipo": "Album",
+    "gravadora": "Mercury Records",
     "duracao": "70:40",
     "faixas": [
       {
@@ -2956,6 +2981,7 @@
     "artista": "Black Star",
     "lancamento": "1998-08-25",
     "tipo": "Album",
+    "gravadora": "Rawkus Records",
     "duracao": "50:09",
     "faixas": [
       {
@@ -3090,6 +3116,7 @@
     "artista": "Blasphemy",
     "lancamento": "1990",
     "tipo": "Album",
+    "gravadora": "Wild Rags Records",
     "duracao": null,
     "faixas": [
       {
@@ -3201,6 +3228,7 @@
     "artista": "Blind Lemon Jefferson",
     "lancamento": "1991",
     "tipo": "Album / Compilation",
+    "gravadora": "Document Records",
     "duracao": "68:14",
     "faixas": [
       {
@@ -3351,6 +3379,7 @@
     "artista": "Blind Willie McTell",
     "lancamento": "2024-04-09",
     "tipo": "Album / Compilation",
+    "gravadora": "Acrobat",
     "duracao": "143:54",
     "faixas": [
       {
@@ -3633,6 +3662,7 @@
     "artista": "Boards of Canada",
     "lancamento": "1998-04-20",
     "tipo": "Album",
+    "gravadora": "Warp",
     "duracao": "70:56",
     "faixas": [
       {
@@ -3795,6 +3825,7 @@
     "artista": "Bud Powell",
     "lancamento": "1951",
     "tipo": "Album / Compilation",
+    "gravadora": "Blue Note",
     "duracao": "26:35",
     "faixas": [
       {
@@ -3896,6 +3927,7 @@
     "artista": "Buddy Guy",
     "lancamento": "1968",
     "tipo": "Album",
+    "gravadora": "Vanguard",
     "duracao": "38:38",
     "faixas": [
       {
@@ -4011,6 +4043,7 @@
     "artista": "Buddy Guy & Junior Wells",
     "lancamento": "1972-08-14",
     "tipo": "Album",
+    "gravadora": "ATCO Records",
     "duracao": "37:11",
     "faixas": [
       {
@@ -4107,6 +4140,7 @@
     "artista": "Buddy Guy",
     "lancamento": "2001-05-15",
     "tipo": "Album",
+    "gravadora": "Silvertone Records",
     "duracao": "54:40",
     "faixas": [
       {
@@ -4222,6 +4256,7 @@
     "artista": "Burzum",
     "lancamento": "1994-04",
     "tipo": "Album",
+    "gravadora": "Misanthropy Records",
     "duracao": "44:30",
     "faixas": [
       {
@@ -4300,6 +4335,7 @@
     "artista": "Cannibal Ox",
     "lancamento": "2001-05-15",
     "tipo": "Album",
+    "gravadora": "Definitive Jux",
     "duracao": "73:55",
     "faixas": [
       {
@@ -4436,80 +4472,50 @@
   },
   {
     "id": "cannonball-adderley-somethin-else",
-    "titulo": "Somethin' Else",
+    "titulo": "Somethin’ Else",
     "artista": "Cannonball Adderley",
-    "lancamento": "2010-04-15",
-    "tipo": "Album / Compilation",
-    "duracao": "77:03",
+    "lancamento": "1958",
+    "tipo": "Album",
+    "gravadora": "Blue Note",
+    "duracao": "38:38",
     "faixas": [
       {
         "n": 1,
         "titulo": "Autumn Leaves",
-        "duracao": "11:06"
+        "duracao": "10:55"
       },
       {
         "n": 2,
-        "titulo": "Love For Sale",
-        "duracao": "7:10"
+        "titulo": "Love for Sale",
+        "duracao": "7:03"
       },
       {
         "n": 3,
-        "titulo": "Somethin' Else",
-        "duracao": "8:20"
+        "titulo": "Somethin’ Else",
+        "duracao": "8:12"
       },
       {
         "n": 4,
-        "titulo": "One For Daddy-O",
-        "duracao": "8:32"
+        "titulo": "One for Daddy‐O",
+        "duracao": "8:23"
       },
       {
         "n": 5,
-        "titulo": "Dancing In The Dark",
-        "duracao": "4:10"
-      },
-      {
-        "n": 6,
-        "titulo": "Our Delight",
-        "duracao": "4:43"
-      },
-      {
-        "n": 7,
-        "titulo": "What's New",
-        "duracao": "5:06"
-      },
-      {
-        "n": 8,
-        "titulo": "Fuller Bop Man",
-        "duracao": "3:48"
-      },
-      {
-        "n": 9,
-        "titulo": "Jubilation",
-        "duracao": "5:31"
-      },
-      {
-        "n": 10,
-        "titulo": "Stay On It",
-        "duracao": "4:41"
-      },
-      {
-        "n": 11,
-        "titulo": "If I Love Again",
-        "duracao": "5:29"
-      },
-      {
-        "n": 12,
-        "titulo": "Straight, No Chaser",
-        "duracao": "8:26"
+        "titulo": "Dancing in the Dark",
+        "duracao": "4:05"
       }
     ],
     "links": {
+      "qobuz": "https://www.qobuz.com/us-en/album/somethin-else-cannonball-adderley/t9tywhij3q4kc",
+      "spotify": "https://open.spotify.com/album/3Wu0chxAm4GxSeRnIIf2Om",
+      "deezer": "https://www.deezer.com/album/300267",
+      "tidal": "https://tidal.com/album/149298",
       "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kcIPnNSrigTxp_UXPaUjKZBAxLKhGKedg"
     },
     "capa": "assets/img/capas/cannonball-adderley-somethin-else.jpg",
     "musicbrainz": {
-      "releaseGroup": "07eb42bc-78e5-4ee7-b7ec-62904a66ca8a",
-      "release": "6f75e9e8-694a-4462-80c6-b5699ff18e9c"
+      "releaseGroup": "495c22f5-90b3-3e87-8be1-2c55aef3ed82",
+      "release": "12c3ef02-0b5d-3350-968c-0af67a329ae0"
     },
     "charts": [
       "jazz"
@@ -4517,13 +4523,12 @@
     "generos": [
       "jazz"
     ],
-    "linksVerificados": "2026-10-26",
-    "sobre": "Somethin' Else é um álbum do saxofonista de jazz americano Julian \"Cannonball\" Adderley, gravado em 9 de março de 1958 e lançado pela Blue Note em agosto do mesmo ano — seu único disco pelo selo. Também participa da sessão o trompetista Miles Davis, numa de suas poucas gravações para a Blue Note. Adderley fazia parte do grupo de Davis na época, e o álbum foi gravado pouco depois do marco de Davis, Milestones.",
+    "linksVerificados": "2026-10-27",
+    "sobre": "Somethin' Else é um álbum do ano de 1958 do saxofonista de jazz Julian \"Cannonball\" Adderley, álbum reconhecido como um marco no estilo cool e hard bop. Este álbum conta com importantes contribuições do trompetista Miles Davis, em uma de suas poucas gravações para o selo Blue Note Records. Muitos críticos e fãs de jazz consideram Somethin' Else estar entre os maiores álbuns de jazz de todo o tempo.",
     "sobreFonte": {
-      "url": "https://en.wikipedia.org/wiki/Somethin'_Else_(Cannonball_Adderley_album)",
-      "idioma": "en",
-      "licenca": "CC BY-SA 4.0",
-      "traduzido": true
+      "url": "https://pt.wikipedia.org/wiki/Somethin'_Else",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
     },
     "reviews": [
       {
@@ -4541,14 +4546,15 @@
         "via": "https://en.wikipedia.org/wiki/Somethin'_Else_(Cannonball_Adderley_album)#Critical_reception"
       }
     ],
-    "sobreVerificado": "2026-10-26",
-    "destaqueVerificado": "2026-10-27",
+    "sobreVerificado": "2026-10-27",
     "destaque": {
       "titulo": "Autumn Leaves",
-      "duracao": "11:01",
+      "duracao": "11:00",
       "links": {
         "youtubeMusic": "https://music.youtube.com/watch?v=CpB7-8SGlJ0&list=OLAK5uy_kcIPnNSrigTxp_UXPaUjKZBAxLKhGKedg",
-        "deezer": "https://www.deezer.com/track/108652390"
+        "deezer": "https://www.deezer.com/track/3105353",
+        "spotify": "https://open.spotify.com/track/0X5DcGkbxCXSadgj01ZXd7",
+        "qobuz": "https://open.qobuz.com/track/51342545"
       },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
@@ -4556,7 +4562,8 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "cannonball-adderley-them-dirty-blues",
@@ -4564,6 +4571,7 @@
     "artista": "The Cannonball Adderley Quintet feat. Nat Adderley",
     "lancamento": "1960",
     "tipo": "Album",
+    "gravadora": "Riverside",
     "duracao": "39:25",
     "faixas": [
       {
@@ -4660,6 +4668,7 @@
     "artista": "Celtic Frost",
     "lancamento": "1985",
     "tipo": "Album",
+    "gravadora": "Combat",
     "duracao": "40:23",
     "faixas": [
       {
@@ -4776,6 +4785,7 @@
     "artista": "Charles Mingus",
     "lancamento": "1959",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": "45:56",
     "faixas": [
       {
@@ -4893,6 +4903,7 @@
     "artista": "Charles Mingus",
     "lancamento": "1956-07",
     "tipo": "Album",
+    "gravadora": "Atlantic",
     "duracao": "36:27",
     "faixas": [
       {
@@ -4977,6 +4988,7 @@
     "artista": "Charles Mingus",
     "lancamento": "1963-07",
     "tipo": "Album",
+    "gravadora": "impulse!",
     "duracao": "39:26",
     "faixas": [
       {
@@ -5067,6 +5079,7 @@
     "artista": "Charley Patton",
     "lancamento": "2001-10-23",
     "tipo": "Album / Compilation",
+    "gravadora": "Revenant",
     "duracao": "408:56",
     "faixas": [
       {
@@ -5824,6 +5837,7 @@
     "artista": "Charlie Parker",
     "lancamento": "1998",
     "tipo": "Album / Compilation",
+    "gravadora": "Official",
     "duracao": "99:28",
     "faixas": [
       {
@@ -6020,6 +6034,7 @@
     "artista": "Chet Baker",
     "lancamento": "2004-09-21",
     "tipo": "Album / Compilation",
+    "gravadora": "Blue Note",
     "duracao": "48:00",
     "faixas": [
       {
@@ -6097,10 +6112,9 @@
     "generos": [
       "jazz"
     ],
-    "linksVerificados": "2026-10-26",
-    "sobreVerificado": "2026-10-26",
+    "linksVerificados": "2026-10-27",
     "sobrePendente": "sem artigo na Wikipédia",
-    "destaqueVerificado": "2026-10-27",
+    "sobreVerificado": "2026-10-27",
     "destaque": {
       "titulo": "I'm Glad There Is You",
       "duracao": "3:14",
@@ -6114,7 +6128,8 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "chet-baker-chet-baker-sings",
@@ -6122,6 +6137,7 @@
     "artista": "Chet Baker",
     "lancamento": "1954",
     "tipo": "Album",
+    "gravadora": "Pacific Jazz",
     "duracao": "23:05",
     "faixas": [
       {
@@ -6232,6 +6248,7 @@
     "artista": "Chrome",
     "lancamento": "1979",
     "tipo": "Album",
+    "gravadora": "Siren Records",
     "duracao": "35:33",
     "faixas": [
       {
@@ -6347,6 +6364,7 @@
     "artista": "Clark",
     "lancamento": "2006-10-02",
     "tipo": "Album",
+    "gravadora": "Warp",
     "duracao": "42:09",
     "faixas": [
       {
@@ -6471,6 +6489,7 @@
     "artista": "Clifford Brown & Max Roach Quintet",
     "lancamento": "1955",
     "tipo": "Album",
+    "gravadora": "EmArcy",
     "duracao": "40:34",
     "faixas": [
       {
@@ -6548,6 +6567,7 @@
     "artista": "Clifford Brown & Max Roach",
     "lancamento": "1955",
     "tipo": "Album",
+    "gravadora": "EmArcy",
     "duracao": "39:31",
     "faixas": [
       {
@@ -6660,6 +6680,7 @@
     "artista": "Clipse",
     "lancamento": "2006-11-28",
     "tipo": "Album",
+    "gravadora": "Re‐Up Gang Records",
     "duracao": "48:46",
     "faixas": [
       {
@@ -6790,6 +6811,7 @@
     "artista": "ColdWorld",
     "lancamento": "2008-03-24",
     "tipo": "Album",
+    "gravadora": "Cold Dimensions",
     "duracao": "49:47",
     "faixas": [
       {
@@ -6876,6 +6898,7 @@
     "artista": "Common",
     "lancamento": "2000-03-28",
     "tipo": "Album",
+    "gravadora": "MCA Records",
     "duracao": "77:58",
     "faixas": [
       {
@@ -7023,6 +7046,7 @@
     "artista": "Cylob",
     "lancamento": "1996-06-10",
     "tipo": "Album",
+    "gravadora": "Rephlex",
     "duracao": "44:16",
     "faixas": [
       {
@@ -7111,6 +7135,7 @@
     "artista": "Darkthrone",
     "lancamento": "1994-02-17",
     "tipo": "Album",
+    "gravadora": "Peaceville",
     "duracao": "39:04",
     "faixas": [
       {
@@ -7216,6 +7241,7 @@
     "artista": "The Dave Brubeck Quartet",
     "lancamento": "1954-03",
     "tipo": "Album / Live",
+    "gravadora": "Columbia",
     "duracao": "51:48",
     "faixas": [
       {
@@ -7310,6 +7336,7 @@
     "artista": "The Dave Brubeck Quartet",
     "lancamento": "1964-06-16",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": "35:22",
     "faixas": [
       {
@@ -7414,6 +7441,7 @@
     "artista": "De La Soul",
     "lancamento": "1989-05-14",
     "tipo": "Album",
+    "gravadora": "Tommy Boy",
     "duracao": "61:47",
     "faixas": [
       {
@@ -7601,6 +7629,7 @@
     "artista": "Deathspell Omega",
     "lancamento": "2004-02",
     "tipo": "Album",
+    "gravadora": "Norma Evangelium Diaboli",
     "duracao": "77:52",
     "faixas": [
       {
@@ -7731,6 +7760,7 @@
     "artista": "Deltron 3030",
     "lancamento": "2000-10-17",
     "tipo": "Album",
+    "gravadora": "75 Ark",
     "duracao": "60:28",
     "faixas": [
       {
@@ -7902,6 +7932,7 @@
     "artista": "Depeche Mode",
     "lancamento": "1984-09-24",
     "tipo": "Album",
+    "gravadora": "Mute",
     "duracao": "40:26",
     "faixas": [
       {
@@ -8014,6 +8045,7 @@
     "artista": "Depeche Mode",
     "lancamento": "1981-10-05",
     "tipo": "Album",
+    "gravadora": "Mute",
     "duracao": "39:40",
     "faixas": [
       {
@@ -8138,6 +8170,7 @@
     "artista": "DEVO",
     "lancamento": "1980-07-01",
     "tipo": "Album",
+    "gravadora": "Warner Bros. Records",
     "duracao": "32:31",
     "faixas": [
       {
@@ -8261,6 +8294,7 @@
     "artista": "DEVO",
     "lancamento": "1982-11",
     "tipo": "Album",
+    "gravadora": "Warner Bros. Records",
     "duracao": "33:16",
     "faixas": [
       {
@@ -8363,6 +8397,7 @@
     "artista": "Dexter Gordon",
     "lancamento": "1962",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "37:36",
     "faixas": [
       {
@@ -8459,6 +8494,7 @@
     "artista": "Dexter Gordon",
     "lancamento": "1963-11",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": null,
     "faixas": [
       {
@@ -8554,6 +8590,7 @@
     "artista": "Dissection",
     "lancamento": "1995-11-17",
     "tipo": "Album",
+    "gravadora": "Nuclear Blast",
     "duracao": "43:16",
     "faixas": [
       {
@@ -8666,6 +8703,7 @@
     "artista": "Roy Eldridge & Dizzy Gillespie",
     "lancamento": "1994",
     "tipo": "Album",
+    "gravadora": "Verve",
     "duracao": "75:45",
     "faixas": [
       {
@@ -8773,6 +8811,7 @@
     "artista": "Diz and Getz",
     "lancamento": "1955",
     "tipo": "Album",
+    "gravadora": "Norgran Records",
     "duracao": "47:37",
     "faixas": [
       {
@@ -8880,6 +8919,7 @@
     "artista": "Dizzy Gillespie",
     "lancamento": "1957",
     "tipo": "Album / Live",
+    "gravadora": "GNP Crescendo Records",
     "duracao": "39:53",
     "faixas": [
       {
@@ -8962,6 +9002,7 @@
     "artista": "DJ Shadow",
     "lancamento": "1996-09-16",
     "tipo": "Album",
+    "gravadora": "Mo Wax",
     "duracao": "63:32",
     "faixas": [
       {
@@ -9094,6 +9135,7 @@
     "artista": "宮沢りえ",
     "lancamento": "1989-11-21",
     "tipo": "Album",
+    "gravadora": "CBS/Sony",
     "duracao": "41:45",
     "faixas": [
       {
@@ -9174,6 +9216,7 @@
     "artista": "Dr. Dre",
     "lancamento": "1992-12-15",
     "tipo": "Album",
+    "gravadora": "Interscope Records",
     "duracao": "62:57",
     "faixas": [
       {
@@ -9322,6 +9365,7 @@
     "artista": "Dr. Octagon",
     "lancamento": "1996-04",
     "tipo": "Album",
+    "gravadora": "Mo Wax",
     "duracao": "67:10",
     "faixas": [
       {
@@ -9463,6 +9507,7 @@
     "artista": "Drudkh",
     "lancamento": "2004-11-28",
     "tipo": "Album",
+    "gravadora": "Supernal Music",
     "duracao": "40:19",
     "faixas": [
       {
@@ -9548,6 +9593,7 @@
     "artista": "Duke Ellington • Charlie Mingus • Max Roach",
     "lancamento": "1962",
     "tipo": "Album",
+    "gravadora": "United Artists Jazz",
     "duracao": "29:57",
     "faixas": [
       {
@@ -9644,6 +9690,7 @@
     "artista": "Echo & the Bunnymen",
     "lancamento": "1984-05-04",
     "tipo": "Album",
+    "gravadora": "Korova",
     "duracao": "37:12",
     "faixas": [
       {
@@ -9758,105 +9805,82 @@
     "id": "ella-fitzgerald-and-louis-armstrong-ella-and-louis",
     "titulo": "Ella and Louis",
     "artista": "Ella Fitzgerald & Louis Armstrong",
-    "lancamento": null,
-    "tipo": "Album / Compilation",
-    "duracao": "78:40",
+    "lancamento": "1956",
+    "tipo": "Album",
+    "gravadora": "Verve",
+    "duracao": null,
     "faixas": [
       {
         "n": 1,
-        "titulo": "Cheek to Cheek",
-        "duracao": "3:49"
+        "titulo": "Can’t We Be Friends",
+        "duracao": null
       },
       {
         "n": 2,
-        "titulo": "Don’t Be That Way",
-        "duracao": "6:18"
+        "titulo": "Isn’t This a Lovely Day",
+        "duracao": null
       },
       {
         "n": 3,
-        "titulo": "Let’s Call the Whole Thing Off",
-        "duracao": "3:43"
+        "titulo": "Moonlight in Vermont",
+        "duracao": null
       },
       {
         "n": 4,
-        "titulo": "Stars Fell on Alabama",
-        "duracao": "4:41"
+        "titulo": "They Can’t Take That Away From Me",
+        "duracao": null
       },
       {
         "n": 5,
-        "titulo": "A Fine Romance",
-        "duracao": "4:19"
+        "titulo": "Under a Blanket of Blue",
+        "duracao": null
       },
       {
         "n": 6,
-        "titulo": "The Nearness of You",
-        "duracao": "5:09"
+        "titulo": "Tenderly",
+        "duracao": null
       },
       {
         "n": 7,
-        "titulo": "Can’t We Be Friends",
-        "duracao": "4:34"
+        "titulo": "A Foggy Day",
+        "duracao": null
       },
       {
         "n": 8,
-        "titulo": "A Foggy Day in London Town",
-        "duracao": "3:35"
+        "titulo": "Stars Fell on Alabama",
+        "duracao": null
       },
       {
         "n": 9,
-        "titulo": "I’m Puttin’ All My Eggs in One Basket",
-        "duracao": "5:55"
+        "titulo": "Cheek to Cheek",
+        "duracao": null
       },
       {
         "n": 10,
-        "titulo": "Moonlight in Vermont",
-        "duracao": "5:43"
+        "titulo": "The Nearness of You",
+        "duracao": null
       },
       {
         "n": 11,
-        "titulo": "Love Is Here to Stay",
-        "duracao": "6:33"
-      },
-      {
-        "n": 12,
-        "titulo": "They Can’t Take That Away From Me",
-        "duracao": "4:57"
-      },
-      {
-        "n": 13,
-        "titulo": "Isn’t This a Lovely Day",
-        "duracao": "5:58"
-      },
-      {
-        "n": 14,
-        "titulo": "Under a Blanket of Blue",
-        "duracao": "4:14"
-      },
-      {
-        "n": 15,
-        "titulo": "Tenderly",
-        "duracao": "4:00"
-      },
-      {
-        "n": 16,
-        "titulo": "I’ve Got My Love to Keep Me Warm",
-        "duracao": "5:13"
+        "titulo": "April in Paris",
+        "duracao": null
       }
     ],
-    "links": {},
-    "capa": null,
-    "musicbrainz": {
-      "releaseGroup": "8edf2ffa-8ed0-3950-ae84-9ef4d078e3f2",
-      "release": "680b09f6-1ac1-454b-a4f9-4a0c3f0d5f6d"
+    "links": {
+      "appleMusic": "https://music.apple.com/us/album/1469584174"
     },
-    "conferir": "sem capa no Cover Art Archive",
+    "capa": "assets/img/capas/ella-fitzgerald-and-louis-armstrong-ella-and-louis.jpg",
+    "musicbrainz": {
+      "releaseGroup": "6a8ec885-544e-3b31-859a-a73289a01421",
+      "release": "3f1385f1-2cea-4902-bbb9-57564298d11e"
+    },
     "charts": [
       "jazz"
     ],
     "generos": [
       "jazz"
     ],
-    "linksVerificados": "2026-10-26",
+    "linksVerificados": "2026-10-27",
     "sobre": "Ella and Louis é um álbum de Ella Fitzgerald e Louis Armstrong, acompanhados pelo Oscar Peterson Quartet, lançado em outubro de 1956. Depois de colaborarem no fim dos anos 1940 pelo selo Decca, este foi o primeiro de três álbuns que Fitzgerald e Armstrong gravariam juntos para a Verve Records, seguido por Ella and Louis Again, de 1957, e Porgy and Bess, de 1959.",
     "sobreFonte": {
       "url": "https://en.wikipedia.org/wiki/Ella_and_Louis",
@@ -9880,18 +9904,20 @@
         "via": "https://en.wikipedia.org/wiki/Ella_and_Louis#Critical_reception"
       }
     ],
-    "sobreVerificado": "2026-10-26",
-    "destaqueVerificado": "2026-10-27",
+    "sobreVerificado": "2026-10-27",
     "destaque": {
-      "titulo": "A Foggy Day in London Town",
-      "duracao": "3:35",
-      "links": {},
+      "titulo": "Cheek to Cheek",
+      "duracao": null,
+      "links": {
+        "appleMusic": "https://music.apple.com/br/album/cheek-to-cheek/1469584174?i=1469584193"
+      },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "ella-fitzgerald-ella-fitzgerald-sings-the-duke-ellington-song-book",
@@ -9899,6 +9925,7 @@
     "artista": "Ella Fitzgerald",
     "lancamento": "1957",
     "tipo": "Album",
+    "gravadora": "Verve",
     "duracao": "87:51",
     "faixas": [
       {
@@ -10067,136 +10094,115 @@
     "id": "elmore-james-the-sky-is-crying",
     "titulo": "The Sky Is Crying",
     "artista": "Elmore James",
-    "lancamento": "2000",
-    "tipo": "Album / Compilation",
-    "duracao": "53:11",
+    "lancamento": "1992",
+    "tipo": "Album",
+    "gravadora": null,
+    "duracao": "44:56",
     "faixas": [
       {
         "n": 1,
         "titulo": "The Sky Is Crying",
-        "duracao": "2:44"
+        "duracao": "2:47"
       },
       {
         "n": 2,
-        "titulo": "Dust My Broom",
-        "duracao": "2:52"
+        "titulo": "Bobby's Rock",
+        "duracao": "2:12"
       },
       {
         "n": 3,
-        "titulo": "Shake Your Moneymaker",
-        "duracao": "2:29"
+        "titulo": "Held My Baby Last Night",
+        "duracao": "2:53"
       },
       {
         "n": 4,
-        "titulo": "Baby Please Set a Date",
-        "duracao": "2:51"
+        "titulo": "Dust My Broom",
+        "duracao": "2:55"
       },
       {
         "n": 5,
-        "titulo": "Anna Lee",
-        "duracao": "2:49"
+        "titulo": "Baby Please Set A Date",
+        "duracao": "2:54"
       },
       {
         "n": 6,
-        "titulo": "Stranger Blues",
-        "duracao": "2:55"
+        "titulo": "Rollin' And Tumblin'",
+        "duracao": "2:31"
       },
       {
         "n": 7,
-        "titulo": "My Bleeding Heart",
-        "duracao": "3:01"
+        "titulo": "I'm Worried",
+        "duracao": "2:49"
       },
       {
         "n": 8,
-        "titulo": "Standing at the Crossroads",
-        "duracao": "2:55"
-      },
-      {
-        "n": 9,
-        "titulo": "One Way Out",
+        "titulo": "I Done Somebody Wrong",
         "duracao": "2:20"
       },
       {
+        "n": 9,
+        "titulo": "Fine Little Mama",
+        "duracao": "2:34"
+      },
+      {
         "n": 10,
-        "titulo": "Person to Person",
-        "duracao": "2:26"
+        "titulo": "I Can't Stop Lovin' You",
+        "duracao": "2:40"
       },
       {
         "n": 11,
-        "titulo": "My Kind of Woman",
-        "duracao": "2:52"
+        "titulo": "Early One Morning",
+        "duracao": "2:46"
       },
       {
         "n": 12,
-        "titulo": "So Unkind",
-        "duracao": "2:30"
+        "titulo": "I Need You Baby",
+        "duracao": "2:49"
       },
       {
         "n": 13,
-        "titulo": "Got to Move",
-        "duracao": "2:42"
+        "titulo": "Strange Angels",
+        "duracao": "3:08"
       },
       {
         "n": 14,
-        "titulo": "Look on Yonder Wall",
-        "duracao": "2:28"
+        "titulo": "She Done Moved",
+        "duracao": "1:51"
       },
       {
         "n": 15,
-        "titulo": "Mean Mistreatin' Mama (take 1)",
-        "duracao": "1:42"
+        "titulo": "Something Inside Of Me",
+        "duracao": "4:51"
       },
       {
         "n": 16,
-        "titulo": "Mean Mistreatin' Mama (take 2)",
-        "duracao": "2:46"
-      },
-      {
-        "n": 17,
-        "titulo": "Mean Mistreatin' Mama (take 3)",
-        "duracao": "2:41"
-      },
-      {
-        "n": 18,
-        "titulo": "Sunnyland Train",
-        "duracao": "2:13"
-      },
-      {
-        "n": 19,
-        "titulo": "My Baby's Gone",
-        "duracao": "3:09"
-      },
-      {
-        "n": 20,
-        "titulo": "Find My Kinda Woman",
-        "duracao": "2:46"
+        "titulo": "Stranger Blues",
+        "duracao": "2:56"
       }
     ],
     "links": {
       "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_naUSKbEwKiAYqsoQQhbxNzQq3mKdfrzj8"
     },
-    "capa": null,
+    "capa": "assets/img/capas/elmore-james-the-sky-is-crying.jpg",
     "musicbrainz": {
-      "releaseGroup": "7136f352-a101-34f8-82aa-347b8357a552",
-      "release": "84539983-491f-49f8-bb73-4d1026c01de5"
+      "releaseGroup": "61c10b5b-ec7f-4132-8be8-528525ad3cf2",
+      "release": "8337bf10-61bd-4817-b770-616ad43c18e1"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "blues"
     ],
     "generos": [
       "blues"
     ],
-    "linksVerificados": "2026-10-26",
-    "sobreVerificado": "2026-10-26",
+    "linksVerificados": "2026-10-27",
     "sobrePendente": "sem artigo na Wikipédia",
-    "destaqueVerificado": "2026-10-27",
+    "sobreVerificado": "2026-10-27",
     "destaque": {
-      "titulo": "The Sky Is Crying",
-      "duracao": "2:47",
+      "titulo": "Stranger Blues",
+      "duracao": "2:57",
       "links": {
-        "youtubeMusic": "https://music.youtube.com/watch?v=_9GaTLhYOYU&list=OLAK5uy_naUSKbEwKiAYqsoQQhbxNzQq3mKdfrzj8",
-        "deezer": "https://www.deezer.com/track/1233286"
+        "youtubeMusic": "https://music.youtube.com/watch?v=hU_4mzyQaBQ&list=OLAK5uy_naUSKbEwKiAYqsoQQhbxNzQq3mKdfrzj8",
+        "deezer": "https://www.deezer.com/track/1233351"
       },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
@@ -10204,7 +10210,9 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27",
+    "capaFonte": "https://f4.bcbits.com/img/a3446981195_5.jpg"
   },
   {
     "id": "emperor-in-the-nightside-eclipse",
@@ -10212,6 +10220,7 @@
     "artista": "Emperor",
     "lancamento": "1994-02-21",
     "tipo": "Album",
+    "gravadora": "Candlelight Records",
     "duracao": "48:29",
     "faixas": [
       {
@@ -10328,6 +10337,7 @@
     "artista": "Enslaved",
     "lancamento": "2004-11-01",
     "tipo": "Album",
+    "gravadora": "Tabu Recordings",
     "duracao": "51:06",
     "faixas": [
       {
@@ -10448,6 +10458,7 @@
     "artista": "Eric B. & Rakim",
     "lancamento": "1987-07-07",
     "tipo": "Album",
+    "gravadora": "Island",
     "duracao": "45:37",
     "faixas": [
       {
@@ -10564,6 +10575,7 @@
     "artista": "Eric Dolphy with Booker Little",
     "lancamento": "1962",
     "tipo": "Album",
+    "gravadora": "New Jazz",
     "duracao": "41:19",
     "faixas": [
       {
@@ -10656,6 +10668,7 @@
     "artista": "Eric Dolphy",
     "lancamento": "1964-08",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "42:13",
     "faixas": [
       {
@@ -10747,6 +10760,7 @@
     "artista": "Eurythmics",
     "lancamento": "1984-11-12",
     "tipo": "Album / Soundtrack",
+    "gravadora": "Virgin",
     "duracao": "39:09",
     "faixas": [
       {
@@ -10841,6 +10855,7 @@
     "artista": "Eurythmics",
     "lancamento": "1983",
     "tipo": "Album",
+    "gravadora": "RCA",
     "duracao": "42:34",
     "faixas": [
       {
@@ -10962,6 +10977,7 @@
     "artista": "Four Tet",
     "lancamento": "2003-05-05",
     "tipo": "Album",
+    "gravadora": "Domino",
     "duracao": "45:27",
     "faixas": [
       {
@@ -11080,110 +11096,81 @@
   },
   {
     "id": "frank-sinatra-come-fly-with-me",
-    "titulo": "Come Fly with Me",
-    "artista": "Frank Sinatra",
-    "lancamento": "1992",
-    "tipo": "Album / Compilation",
-    "duracao": "44:52",
+    "titulo": "Come Fly With Me",
+    "artista": "Frank Sinatra with Billy May and His Orchestra",
+    "lancamento": "1958-01-06",
+    "tipo": "Album",
+    "gravadora": "Capitol Records",
+    "duracao": "38:36",
     "faixas": [
       {
         "n": 1,
-        "titulo": "Come Fly with Me",
-        "duracao": "2:47"
+        "titulo": "Come Fly With Me",
+        "duracao": "3:17"
       },
       {
         "n": 2,
-        "titulo": "Dancing in the Dark",
-        "duracao": "2:34"
+        "titulo": "Around the World",
+        "duracao": "3:19"
       },
       {
         "n": 3,
-        "titulo": "All the Way",
-        "duracao": "2:15"
+        "titulo": "Isle of Capri",
+        "duracao": "2:28"
       },
       {
         "n": 4,
-        "titulo": "You Make Me Feel So Young",
-        "duracao": "2:57"
+        "titulo": "Moonlight in Vermont",
+        "duracao": "3:31"
       },
       {
         "n": 5,
-        "titulo": "Love Me or Leave Me",
-        "duracao": "2:13"
+        "titulo": "Autumn in New York",
+        "duracao": "4:36"
       },
       {
         "n": 6,
-        "titulo": "On the Sunny Side of the Street",
-        "duracao": "2:01"
+        "titulo": "On the Road to Mandalay",
+        "duracao": "3:30"
       },
       {
         "n": 7,
-        "titulo": "Blue Skies",
-        "duracao": "2:33"
+        "titulo": "Let's Get Away From It All",
+        "duracao": "2:09"
       },
       {
         "n": 8,
-        "titulo": "Begin the Beguine",
-        "duracao": "3:09"
+        "titulo": "April in Paris",
+        "duracao": "2:49"
       },
       {
         "n": 9,
-        "titulo": "I Didn't Stand a Ghost of a Chance",
-        "duracao": "3:15"
+        "titulo": "London by Night",
+        "duracao": "3:27"
       },
       {
         "n": 10,
-        "titulo": "Night and Day",
-        "duracao": "2:25"
+        "titulo": "Brazil",
+        "duracao": "2:58"
       },
       {
         "n": 11,
-        "titulo": "Somebody Loves Me",
-        "duracao": "1:32"
+        "titulo": "Blue Hawaii",
+        "duracao": "2:42"
       },
       {
         "n": 12,
-        "titulo": "Just One of Those Things",
-        "duracao": "2:48"
-      },
-      {
-        "n": 13,
-        "titulo": "You Are Love",
-        "duracao": "3:26"
-      },
-      {
-        "n": 14,
-        "titulo": "They Didn't Believe Me",
-        "duracao": "2:02"
-      },
-      {
-        "n": 15,
-        "titulo": "Out of Nowhere",
-        "duracao": "2:20"
-      },
-      {
-        "n": 16,
-        "titulo": "I've Got My Love to Keep Me Warm",
-        "duracao": "2:01"
-      },
-      {
-        "n": 17,
-        "titulo": "For You",
-        "duracao": "1:59"
-      },
-      {
-        "n": 18,
-        "titulo": "The Road to Mandalay",
-        "duracao": "2:35"
+        "titulo": "It's Nice to Go Trav'ling",
+        "duracao": "3:50"
       }
     ],
     "links": {
-      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_meT5XCCKGomaFh8ow3x1Zekg4IHR_Ft4w"
+      "appleMusic": "https://itunes.apple.com/us/album/id933076346"
     },
     "capa": "assets/img/capas/frank-sinatra-come-fly-with-me.jpg",
     "musicbrainz": {
-      "releaseGroup": "ee1b1494-745d-43b3-aa8d-ee28cea87a90",
-      "release": "54f87ff1-4c87-482e-aa76-a0756d940214"
+      "releaseGroup": "78e08fd8-6e52-3712-bcba-99f0312fe7bd",
+      "release": "50672d15-4204-437a-a228-870b232396a7"
     },
     "charts": [
       "jazz"
@@ -11191,7 +11178,7 @@
     "generos": [
       "jazz"
     ],
-    "linksVerificados": "2026-10-26",
+    "linksVerificados": "2026-10-27",
     "sobre": "Come Fly with Me é o décimo quarto álbum de estúdio do cantor americano Frank Sinatra, lançado em 1958. Em 2000, ficou na 616ª posição do livro All Time Top 1000 Albums, de Colin Larkin.",
     "sobreFonte": {
       "url": "https://en.wikipedia.org/wiki/Come_Fly_with_Me_(Frank_Sinatra_album)",
@@ -11215,22 +11202,21 @@
         "via": "https://en.wikipedia.org/wiki/Come_Fly_with_Me_(Frank_Sinatra_album)#Critical_reception"
       }
     ],
-    "sobreVerificado": "2026-10-26",
-    "destaqueVerificado": "2026-10-27",
+    "sobreVerificado": "2026-10-27",
     "destaque": {
-      "titulo": "Come Fly with Me",
-      "duracao": "3:21",
+      "titulo": "Autumn in New York",
+      "duracao": "4:38",
       "links": {
-        "youtubeMusic": "https://music.youtube.com/watch?v=WmbVpBaXuCI&list=OLAK5uy_meT5XCCKGomaFh8ow3x1Zekg4IHR_Ft4w",
-        "deezer": "https://www.deezer.com/track/11704910"
+        "deezer": "https://www.deezer.com/track/85446416",
+        "appleMusic": "https://music.apple.com/br/album/autumn-in-new-york/1442910348?i=1442910522"
       },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
-        "youtubeMusic",
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "freddie-hubbard-ready-for-freddie",
@@ -11238,6 +11224,7 @@
     "artista": "Freddie Hubbard",
     "lancamento": "1962-05",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "41:46",
     "faixas": [
       {
@@ -11332,6 +11319,7 @@
     "artista": "Freddie Hubbard",
     "lancamento": "1970",
     "tipo": "Album",
+    "gravadora": "CTI",
     "duracao": "38:50",
     "faixas": [
       {
@@ -11420,6 +11408,7 @@
     "artista": "Freddie King",
     "lancamento": "1993-09-13",
     "tipo": "Album / Compilation",
+    "gravadora": "Ace",
     "duracao": "68:59",
     "faixas": [
       {
@@ -11575,6 +11564,7 @@
     "artista": "Freddie King",
     "lancamento": "1961",
     "tipo": "Album",
+    "gravadora": "King Records",
     "duracao": "33:41",
     "faixas": [
       {
@@ -11677,6 +11667,7 @@
     "artista": "Gang of Four",
     "lancamento": "1979-09-25",
     "tipo": "Album",
+    "gravadora": "EMI",
     "duracao": "39:47",
     "faixas": [
       {
@@ -11808,6 +11799,7 @@
     "artista": "Gang Starr",
     "lancamento": "1990",
     "tipo": "Album",
+    "gravadora": "Chrysalis",
     "duracao": "50:32",
     "faixas": [
       {
@@ -11969,6 +11961,7 @@
     "artista": "Gary Numan",
     "lancamento": "1979-09-07",
     "tipo": "Album",
+    "gravadora": "Beggars Banquet",
     "duracao": "41:23",
     "faixas": [
       {
@@ -12089,6 +12082,7 @@
     "artista": "Ghostface Killah",
     "lancamento": "2000-01-25",
     "tipo": "Album",
+    "gravadora": "Epic",
     "duracao": null,
     "faixas": [
       {
@@ -12263,6 +12257,7 @@
     "artista": "Gorgoroth",
     "lancamento": "1996-06-03",
     "tipo": "Album",
+    "gravadora": "Malicious Records",
     "duracao": "24:59",
     "faixas": [
       {
@@ -12357,6 +12352,7 @@
     "artista": "Grant Green",
     "lancamento": "1997-07-15",
     "tipo": "Album / Compilation",
+    "gravadora": "Blue Note",
     "duracao": "135:08",
     "faixas": [
       {
@@ -12516,6 +12512,7 @@
     "artista": "Grant Green",
     "lancamento": "1961",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "39:25",
     "faixas": [
       {
@@ -12610,6 +12607,7 @@
     "artista": "Grant Green",
     "lancamento": "1964",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "42:45",
     "faixas": [
       {
@@ -12699,6 +12697,7 @@
     "artista": "Gridlock",
     "lancamento": "2003-10",
     "tipo": "Album",
+    "gravadora": "Hymen Records",
     "duracao": "53:16",
     "faixas": [
       {
@@ -12791,6 +12790,7 @@
     "artista": "Gris",
     "lancamento": "2007-12-20",
     "tipo": "Album",
+    "gravadora": "Sepulchral Productions",
     "duracao": "59:33",
     "faixas": [
       {
@@ -12858,6 +12858,7 @@
     "artista": "Genius/GZA",
     "lancamento": "1995-11-07",
     "tipo": "Album",
+    "gravadora": "Geffen",
     "duracao": "55:20",
     "faixas": [
       {
@@ -12994,6 +12995,7 @@
     "artista": "Hank Mobley",
     "lancamento": "1960",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "42:49",
     "faixas": [
       {
@@ -13088,6 +13090,7 @@
     "artista": "Hank Mobley",
     "lancamento": "1960-02-07",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "37:18",
     "faixas": [
       {
@@ -13189,6 +13192,7 @@
     "artista": "Hank Mobley",
     "lancamento": "1961",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": null,
     "faixas": [
       {
@@ -13278,6 +13282,7 @@
     "artista": "'Haunted' George",
     "lancamento": "2007",
     "tipo": "Album",
+    "gravadora": "Hook or Crook Records",
     "duracao": null,
     "faixas": [
       {
@@ -13395,6 +13400,7 @@
     "artista": "Heaven 17",
     "lancamento": "1981",
     "tipo": "Album",
+    "gravadora": "Virgin",
     "duracao": "37:04",
     "faixas": [
       {
@@ -13506,6 +13512,7 @@
     "artista": "Hellhammer",
     "lancamento": "1983-12",
     "tipo": "Album / Demo",
+    "gravadora": "Prowling Death Records",
     "duracao": "46:15",
     "faixas": [
       {
@@ -13607,6 +13614,7 @@
     "artista": "Herbie Hancock",
     "lancamento": "1973-10-13",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": "41:47",
     "faixas": [
       {
@@ -13699,6 +13707,7 @@
     "artista": "Herbie Hancock",
     "lancamento": "1965-05-17",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "42:05",
     "faixas": [
       {
@@ -13790,6 +13799,7 @@
     "artista": "Herbie Hancock",
     "lancamento": "1974-09-06",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": "38:44",
     "faixas": [
       {
@@ -13876,6 +13886,7 @@
     "artista": "The Horace Silver Quintet",
     "lancamento": "1964-12",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "42:03",
     "faixas": [
       {
@@ -13969,6 +13980,7 @@
     "artista": "Howlin’ Wolf",
     "lancamento": "1959",
     "tipo": "Album",
+    "gravadora": "Chess",
     "duracao": "33:49",
     "faixas": [
       {
@@ -14094,6 +14106,7 @@
     "artista": "Howlin’ Wolf",
     "lancamento": "1962-01-11",
     "tipo": "Album",
+    "gravadora": "Chess",
     "duracao": "30:33",
     "faixas": [
       {
@@ -14224,6 +14237,7 @@
     "artista": "Immortal",
     "lancamento": "1993-11-01",
     "tipo": "Album",
+    "gravadora": "Osmose Productions",
     "duracao": "33:47",
     "faixas": [
       {
@@ -14324,6 +14338,7 @@
     "artista": "J Dilla",
     "lancamento": "2006-02-07",
     "tipo": "Album",
+    "gravadora": "Stones Throw Records",
     "duracao": "43:39",
     "faixas": [
       {
@@ -14550,6 +14565,7 @@
     "artista": "Japan",
     "lancamento": "1980-11-15",
     "tipo": "Album",
+    "gravadora": "Virgin",
     "duracao": "46:32",
     "faixas": [
       {
@@ -14653,6 +14669,7 @@
     "artista": "Japan",
     "lancamento": "1981-11-28",
     "tipo": "Album",
+    "gravadora": "Virgin",
     "duracao": "38:04",
     "faixas": [
       {
@@ -14760,6 +14777,7 @@
     "artista": "Jaÿ‐Z",
     "lancamento": "1996-06-25",
     "tipo": "Album",
+    "gravadora": "Roc‐A‐Fella Records",
     "duracao": "60:03",
     "faixas": [
       {
@@ -14903,6 +14921,7 @@
     "artista": "Jimmy Reed",
     "lancamento": "2007-09-25",
     "tipo": "Album / Compilation",
+    "gravadora": "Shout! Factory",
     "duracao": "48:47",
     "faixas": [
       {
@@ -15028,6 +15047,7 @@
     "artista": "John Coltrane",
     "lancamento": "1965-01",
     "tipo": "Album",
+    "gravadora": "impulse!",
     "duracao": "33:04",
     "faixas": [
       {
@@ -15101,6 +15121,7 @@
     "artista": "John Coltrane and Johnny Hartman",
     "lancamento": "1963",
     "tipo": "Album",
+    "gravadora": "impulse!",
     "duracao": "31:16",
     "faixas": [
       {
@@ -15200,393 +15221,49 @@
     "id": "john-coltrane-blue-train",
     "titulo": "Blue Train",
     "artista": "John Coltrane",
-    "lancamento": "2008",
-    "tipo": "Album / Compilation",
-    "duracao": "597:54",
+    "lancamento": "1958-02",
+    "tipo": "Album",
+    "gravadora": "Blue Note",
+    "duracao": "42:21",
     "faixas": [
       {
         "n": 1,
-        "titulo": "On It",
-        "duracao": "9:05"
+        "titulo": "Blue Train",
+        "duracao": "10:45"
       },
       {
         "n": 2,
-        "titulo": "Polka Dots and Moonbeams",
-        "duracao": "8:40"
+        "titulo": "Moment’s Notice",
+        "duracao": "9:12"
       },
       {
         "n": 3,
-        "titulo": "Weeja",
-        "duracao": "11:10"
+        "titulo": "Locomotion",
+        "duracao": "7:16"
       },
       {
         "n": 4,
-        "titulo": "Avalon",
-        "duracao": "9:41"
+        "titulo": "I’m Old Fashioned",
+        "duracao": "8:00"
       },
       {
         "n": 5,
-        "titulo": "Tenor Madness",
-        "duracao": "12:19"
-      },
-      {
-        "n": 6,
-        "titulo": "Tenor Conclave",
-        "duracao": "8:21"
-      },
-      {
-        "n": 7,
-        "titulo": "Bobs Boys",
-        "duracao": "11:05"
-      },
-      {
-        "n": 8,
-        "titulo": "Just You, Just Me",
-        "duracao": "9:30"
-      },
-      {
-        "n": 9,
-        "titulo": "How Deep Is the Ocean?",
-        "duracao": "15:27"
-      },
-      {
-        "n": 10,
-        "titulo": "Soultrane",
-        "duracao": "5:24"
-      },
-      {
-        "n": 11,
-        "titulo": "Gnid",
-        "duracao": "5:09"
-      },
-      {
-        "n": 12,
-        "titulo": "Mating Call",
-        "duracao": "5:36"
-      },
-      {
-        "n": 13,
-        "titulo": "On a Misty Night",
-        "duracao": "6:22"
-      },
-      {
-        "n": 14,
-        "titulo": "Romas",
-        "duracao": "6:52"
-      },
-      {
-        "n": 15,
-        "titulo": "Super Jet",
-        "duracao": "5:55"
-      },
-      {
-        "n": 16,
-        "titulo": "Interplay",
-        "duracao": "9:40"
-      },
-      {
-        "n": 17,
-        "titulo": "Soul Eyes",
-        "duracao": "17:32"
-      },
-      {
-        "n": 18,
-        "titulo": "Anatomy",
-        "duracao": "11:55"
-      },
-      {
-        "n": 19,
-        "titulo": "Light Blue",
-        "duracao": "7:51"
-      },
-      {
-        "n": 20,
-        "titulo": "C.T.A.",
-        "duracao": "4:42"
-      },
-      {
-        "n": 21,
-        "titulo": "Solacium",
-        "duracao": "9:10"
-      },
-      {
-        "n": 22,
-        "titulo": "Tommys Time",
-        "duracao": "12:00"
-      },
-      {
-        "n": 23,
-        "titulo": "Minor Mishap",
-        "duracao": "7:26"
-      },
-      {
-        "n": 24,
-        "titulo": "Witches Pit",
-        "duracao": "6:42"
-      },
-      {
-        "n": 25,
-        "titulo": "Marys Blues",
-        "duracao": "6:48"
-      },
-      {
-        "n": 26,
-        "titulo": "Cat Walk",
-        "duracao": "7:13"
-      },
-      {
-        "n": 27,
-        "titulo": "Route Four",
-        "duracao": "6:55"
-      },
-      {
-        "n": 28,
-        "titulo": "Dakar",
-        "duracao": "7:10"
-      },
-      {
-        "n": 29,
-        "titulo": "Velvet Scene",
-        "duracao": "4:43"
-      },
-      {
-        "n": 30,
-        "titulo": "Potpourri",
-        "duracao": "6:37"
-      },
-      {
-        "n": 31,
-        "titulo": "Dont Explain",
-        "duracao": "6:58"
-      },
-      {
-        "n": 32,
-        "titulo": "Falling in Love With Love",
-        "duracao": "11:39"
-      },
-      {
-        "n": 33,
-        "titulo": "J.M.S. Dream Doll",
-        "duracao": "8:41"
-      },
-      {
-        "n": 34,
-        "titulo": "Chronic Blues",
-        "duracao": "8:14"
-      },
-      {
-        "n": 35,
-        "titulo": "Bakai",
-        "duracao": "8:43"
-      },
-      {
-        "n": 36,
-        "titulo": "While My Lady Sleeps",
-        "duracao": "4:43"
-      },
-      {
-        "n": 37,
-        "titulo": "Time Was",
-        "duracao": "7:29"
-      },
-      {
-        "n": 38,
-        "titulo": "Slowtrane",
-        "duracao": "7:19"
-      },
-      {
-        "n": 39,
-        "titulo": "I Hear a Rhapsody",
-        "duracao": "5:59"
-      },
-      {
-        "n": 40,
-        "titulo": "Violets for Your Furs",
-        "duracao": "6:17"
-      },
-      {
-        "n": 41,
-        "titulo": "Tranes Slo Blues",
-        "duracao": "6:02"
-      },
-      {
-        "n": 42,
-        "titulo": "Like Someone in Love",
-        "duracao": "4:58"
-      },
-      {
-        "n": 43,
-        "titulo": "I Love You",
-        "duracao": "5:31"
-      },
-      {
-        "n": 44,
-        "titulo": "Monks Mood",
-        "duracao": "7:52"
-      },
-      {
-        "n": 45,
-        "titulo": "Trinkle, Tinkle",
-        "duracao": "6:41"
-      },
-      {
-        "n": 46,
-        "titulo": "Nutty",
-        "duracao": "6:35"
-      },
-      {
-        "n": 47,
-        "titulo": "Blue Train",
-        "duracao": "10:42"
-      },
-      {
-        "n": 48,
-        "titulo": "Moments Notice",
-        "duracao": "9:10"
-      },
-      {
-        "n": 49,
-        "titulo": "Locomotion",
-        "duracao": "7:14"
-      },
-      {
-        "n": 50,
-        "titulo": "Im Old Fashioned",
-        "duracao": "7:58"
-      },
-      {
-        "n": 51,
         "titulo": "Lazy Bird",
-        "duracao": "7:06"
-      },
-      {
-        "n": 52,
-        "titulo": "Dealin (take 1)",
-        "duracao": "10:02"
-      },
-      {
-        "n": 53,
-        "titulo": "Things Ain't What They Used to Be",
-        "duracao": "8:25"
-      },
-      {
-        "n": 54,
-        "titulo": "Wheelin (take 1)",
-        "duracao": "10:26"
-      },
-      {
-        "n": 55,
-        "titulo": "Robbins Nest",
-        "duracao": "15:34"
-      },
-      {
-        "n": 56,
-        "titulo": "Dealin (take 2)",
-        "duracao": "10:18"
-      },
-      {
-        "n": 57,
-        "titulo": "Wheelin (take 2)",
-        "duracao": "11:23"
-      },
-      {
-        "n": 58,
-        "titulo": "Slow Dance",
-        "duracao": "5:26"
-      },
-      {
-        "n": 59,
-        "titulo": "Soft Lights and Sweet Music",
-        "duracao": "4:39"
-      },
-      {
-        "n": 60,
-        "titulo": "Traneing In",
-        "duracao": "12:34"
-      },
-      {
-        "n": 61,
-        "titulo": "You Leave Me Breathless",
-        "duracao": "7:23"
-      },
-      {
-        "n": 62,
-        "titulo": "Bass Blues",
-        "duracao": "7:45"
-      },
-      {
-        "n": 63,
-        "titulo": "Woodyn You",
-        "duracao": "6:50"
-      },
-      {
-        "n": 64,
-        "titulo": "I Got It Bad (and That Ain't Good)",
-        "duracao": "6:16"
-      },
-      {
-        "n": 65,
-        "titulo": "They Cant Take That Away From Me",
-        "duracao": "10:26"
-      },
-      {
-        "n": 66,
-        "titulo": "Our Delight",
-        "duracao": "6:18"
-      },
-      {
-        "n": 67,
-        "titulo": "Monks Mood",
-        "duracao": "7:52"
-      },
-      {
-        "n": 68,
-        "titulo": "Evidence",
-        "duracao": "4:42"
-      },
-      {
-        "n": 69,
-        "titulo": "Crepuscule With Nellie",
-        "duracao": "4:27"
-      },
-      {
-        "n": 70,
-        "titulo": "Nutty",
-        "duracao": "5:04"
-      },
-      {
-        "n": 71,
-        "titulo": "Epistrophy",
-        "duracao": "4:31"
-      },
-      {
-        "n": 72,
-        "titulo": "Bye-Ya",
-        "duracao": "6:15"
-      },
-      {
-        "n": 73,
-        "titulo": "Sweet and Lovely",
-        "duracao": "9:35"
-      },
-      {
-        "n": 74,
-        "titulo": "Blue Monk",
-        "duracao": "6:31"
-      },
-      {
-        "n": 75,
-        "titulo": "Epistrophy (incomplete)",
-        "duracao": "2:21"
+        "duracao": "7:09"
       }
     ],
     "links": {
+      "spotify": "https://open.spotify.com/album/2Z11cXWEa2qqYQBGkJrCga",
+      "deezer": "https://www.deezer.com/album/100448982",
+      "qobuz": "https://www.qobuz.com/us-en/album/blue-train-john-coltrane/yu3h7utigi27b",
+      "tidal": "https://tidal.com/album/111227371",
+      "appleMusic": "https://music.apple.com/us/album/1636572781",
       "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nlqvhqoPVG0dnYiGsn-3PxtFIkm7YlIg0"
     },
     "capa": "assets/img/capas/john-coltrane-blue-train.jpg",
     "musicbrainz": {
-      "releaseGroup": "c63baaaa-10c0-4b86-ad7e-1f39d7e2eccc",
-      "release": "1a8b1ea7-9a08-46f5-ae12-1fb7f6c21cc6"
+      "releaseGroup": "12349ce8-2087-3d16-93da-70cd65621774",
+      "release": "4ca248f9-8f10-462b-a3bd-6ff48f25f151"
     },
     "charts": [
       "jazz"
@@ -15594,13 +15271,12 @@
     "generos": [
       "jazz"
     ],
-    "linksVerificados": "2026-10-26",
-    "sobre": "Blue Train é um álbum de estúdio do saxofonista e compositor de jazz John Coltrane. Foi lançado em janeiro de 1958 pela Blue Note Records e é a única sessão de Coltrane como líder pelo selo. A gravação, feita por Rudy Van Gelder, aconteceu em seu estúdio em Hackensack, Nova Jersey, em 15 de setembro de 1957.",
+    "linksVerificados": "2026-10-27",
+    "sobre": "Blue Train é um álbum de jazz do saxofonista John Coltrane, lançado em 1957 (veja 1957 na música). Ele é considerado por muitos críticos como sendo o primeiro álbum solo de Coltrane \"legítimo\", como é também o primeiro dele a ser gravado com todas as músicas de sua escolha. Todas as músicas foram escritas por Coltrane, com exceção de uma \"I'm Old Fashioned\" (uma standard de Jerome Kern e Johnny Mercer).",
     "sobreFonte": {
-      "url": "https://en.wikipedia.org/wiki/Blue_Train_(album)",
-      "idioma": "en",
-      "licenca": "CC BY-SA 4.0",
-      "traduzido": true
+      "url": "https://pt.wikipedia.org/wiki/Blue_Train",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
     },
     "reviews": [
       {
@@ -15618,14 +15294,16 @@
         "via": "https://en.wikipedia.org/wiki/Blue_Train_(album)#Critical_reception"
       }
     ],
-    "sobreVerificado": "2026-10-26",
-    "destaqueVerificado": "2026-10-27",
+    "sobreVerificado": "2026-10-27",
     "destaque": {
       "titulo": "Blue Train",
       "duracao": "10:40",
       "links": {
         "youtubeMusic": "https://music.youtube.com/watch?v=UUhsPxPCovA&list=OLAK5uy_nlqvhqoPVG0dnYiGsn-3PxtFIkm7YlIg0",
-        "deezer": "https://www.deezer.com/track/696955852"
+        "deezer": "https://www.deezer.com/track/696955852",
+        "spotify": "https://open.spotify.com/track/3zIuHdD8dkh1vPxQu334T7",
+        "appleMusic": "https://music.apple.com/br/album/blue-train/1636572781?i=1636572782",
+        "qobuz": "https://open.qobuz.com/track/62632650"
       },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
@@ -15633,7 +15311,8 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "john-coltrane-giant-steps",
@@ -15641,6 +15320,7 @@
     "artista": "John Coltrane",
     "lancamento": "1960-01-27",
     "tipo": "Album",
+    "gravadora": "Atlantic",
     "duracao": "37:03",
     "faixas": [
       {
@@ -15748,6 +15428,7 @@
     "artista": "John Coltrane",
     "lancamento": "1964",
     "tipo": "Album / Live",
+    "gravadora": "impulse!",
     "duracao": "39:03",
     "faixas": [
       {
@@ -15841,58 +15522,42 @@
     "id": "john-coltrane-my-favorite-things",
     "titulo": "My Favorite Things",
     "artista": "John Coltrane",
-    "lancamento": "2010",
-    "tipo": "Album / Compilation",
-    "duracao": "72:27",
+    "lancamento": "1961",
+    "tipo": "Album",
+    "gravadora": "Atlantic",
+    "duracao": "40:38",
     "faixas": [
       {
         "n": 1,
-        "titulo": "Summertime",
-        "duracao": "3:16"
+        "titulo": "My Favorite Things",
+        "duracao": "13:44"
       },
       {
         "n": 2,
-        "titulo": "Trane's Blues",
+        "titulo": "Every Time We Say Goodbye",
         "duracao": "5:43"
       },
       {
         "n": 3,
-        "titulo": "Blue Train",
-        "duracao": "10:47"
+        "titulo": "Summertime",
+        "duracao": "11:36"
       },
       {
         "n": 4,
-        "titulo": "One and Four",
-        "duracao": "7:40"
-      },
-      {
-        "n": 5,
-        "titulo": "Shifting Down",
-        "duracao": "10:41"
-      },
-      {
-        "n": 6,
-        "titulo": "My Favorite Things",
-        "duracao": "13:47"
-      },
-      {
-        "n": 7,
-        "titulo": "I Want to Talk About You",
-        "duracao": "10:58"
-      },
-      {
-        "n": 8,
         "titulo": "But Not for Me",
         "duracao": "9:35"
       }
     ],
     "links": {
+      "spotify": "https://open.spotify.com/album/64FbRIZTckwlBGNkTSRztJ",
+      "deezer": "https://www.deezer.com/album/316814747",
+      "appleMusic": "https://music.apple.com/us/album/1614004820",
       "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m0vIo-YyZ69FBSR0mT_P-NU6bzMUmBYvM"
     },
     "capa": "assets/img/capas/john-coltrane-my-favorite-things.jpg",
     "musicbrainz": {
-      "releaseGroup": "d11a3313-bd2a-463d-8603-cef57cc5fa38",
-      "release": "ba8c2413-aa66-4014-8317-f6cdd96e4b4d"
+      "releaseGroup": "b60cdf20-74b7-3bed-b233-0f4818235895",
+      "release": "1dbacf08-e08c-4f44-a409-81ea1fb4b8aa"
     },
     "charts": [
       "jazz"
@@ -15900,7 +15565,7 @@
     "generos": [
       "jazz"
     ],
-    "linksVerificados": "2026-10-26",
+    "linksVerificados": "2026-10-27",
     "sobre": "My Favorite Things é um álbum de estúdio do músico de jazz John Coltrane. Foi lançado em março de 1961 pela Atlantic Records. Foi o primeiro álbum em que Coltrane toca saxofone soprano.",
     "sobreFonte": {
       "url": "https://en.wikipedia.org/wiki/My_Favorite_Things_(John_Coltrane_album)",
@@ -15924,14 +15589,15 @@
         "via": "https://en.wikipedia.org/wiki/My_Favorite_Things_(John_Coltrane_album)#Critical_reception"
       }
     ],
-    "sobreVerificado": "2026-10-26",
-    "destaqueVerificado": "2026-10-27",
+    "sobreVerificado": "2026-10-27",
     "destaque": {
       "titulo": "My Favorite Things",
-      "duracao": "13:40",
+      "duracao": "13:49",
       "links": {
         "youtubeMusic": "https://music.youtube.com/watch?v=rqpriUFsMQQ&list=OLAK5uy_m0vIo-YyZ69FBSR0mT_P-NU6bzMUmBYvM",
-        "deezer": "https://www.deezer.com/track/825264822"
+        "deezer": "https://www.deezer.com/track/1744121917",
+        "spotify": "https://open.spotify.com/track/13I6FwUpkuXsO5DPQAsoX9",
+        "appleMusic": "https://music.apple.com/br/album/my-favorite-things-mono-2022-remaster/1614004820?i=1614004831"
       },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
@@ -15939,7 +15605,8 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "john-foxx-metamatic",
@@ -15947,6 +15614,7 @@
     "artista": "John Foxx",
     "lancamento": "1980-01-17",
     "tipo": "Album",
+    "gravadora": "Virgin",
     "duracao": "39:02",
     "faixas": [
       {
@@ -16068,6 +15736,7 @@
     "artista": "John Lee Hooker",
     "lancamento": "1998-10-20",
     "tipo": "Album / Compilation",
+    "gravadora": "Pointblank Records",
     "duracao": "63:31",
     "faixas": [
       {
@@ -16175,6 +15844,7 @@
     "artista": "John Lee Hooker",
     "lancamento": "1996",
     "tipo": "Album / Compilation",
+    "gravadora": "Startel Entertainment",
     "duracao": "115:19",
     "faixas": [
       {
@@ -16416,6 +16086,7 @@
     "artista": "John Mayall & the Bluesbreakers",
     "lancamento": "1966-07-22",
     "tipo": "Album",
+    "gravadora": "Decca Records",
     "duracao": "37:44",
     "faixas": [
       {
@@ -16545,6 +16216,7 @@
     "artista": "Josef K",
     "lancamento": "1981-07",
     "tipo": "Album",
+    "gravadora": "Postcard Records",
     "duracao": "29:20",
     "faixas": [
       {
@@ -16653,6 +16325,7 @@
     "artista": "Junko Onishi Trio",
     "lancamento": "1994-09-21",
     "tipo": "Album / Live",
+    "gravadora": "somethin’else",
     "duracao": "55:35",
     "faixas": [
       {
@@ -16742,6 +16415,7 @@
     "artista": "Jurassic 5",
     "lancamento": "2000-06-19",
     "tipo": "Album",
+    "gravadora": "Interscope Records",
     "duracao": "107:26",
     "faixas": [
       {
@@ -16952,6 +16626,7 @@
     "artista": "Kanye West",
     "lancamento": "2004-02-09",
     "tipo": "Album",
+    "gravadora": "Roc‐A‐Fella Records",
     "duracao": "76:24",
     "faixas": [
       {
@@ -17128,6 +16803,7 @@
     "artista": "Kenny Burrell",
     "lancamento": "1963",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "35:23",
     "faixas": [
       {
@@ -17227,6 +16903,7 @@
     "artista": "Killing Joke",
     "lancamento": "2003-07-15",
     "tipo": "Album",
+    "gravadora": "Zuma Recordings",
     "duracao": "55:53",
     "faixas": [
       {
@@ -17345,6 +17022,7 @@
     "artista": "Kraftwerk",
     "lancamento": "1981",
     "tipo": "Album",
+    "gravadora": "Kling Klang",
     "duracao": "33:50",
     "faixas": [
       {
@@ -17449,6 +17127,7 @@
     "artista": "Kraftwerk",
     "lancamento": "1978-05",
     "tipo": "Album",
+    "gravadora": "Capitol Records",
     "duracao": "36:19",
     "faixas": [
       {
@@ -17544,6 +17223,7 @@
     "artista": "Laurie Anderson",
     "lancamento": "1982-04-19",
     "tipo": "Album",
+    "gravadora": "Warner Bros. Records",
     "duracao": "38:19",
     "faixas": [
       {
@@ -17647,6 +17327,7 @@
     "artista": "Laurie Anderson",
     "lancamento": "1984",
     "tipo": "Album",
+    "gravadora": "Warner Bros. Records",
     "duracao": "39:42",
     "faixas": [
       {
@@ -17746,6 +17427,7 @@
     "artista": "Lead Belly",
     "lancamento": "1996-02-20",
     "tipo": "Album / Compilation",
+    "gravadora": "Smithsonian Folkways",
     "duracao": "66:44",
     "faixas": [
       {
@@ -17966,6 +17648,7 @@
     "artista": "Lee Morgan",
     "lancamento": "1965",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "39:09",
     "faixas": [
       {
@@ -18059,6 +17742,7 @@
     "artista": "Lee Morgan",
     "lancamento": "1957",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "40:36",
     "faixas": [
       {
@@ -18129,6 +17813,7 @@
     "artista": "Lee Morgan",
     "lancamento": "1964",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "42:20",
     "faixas": [
       {
@@ -18218,6 +17903,7 @@
     "artista": "Lee Morgan",
     "lancamento": "1964-07",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "40:26",
     "faixas": [
       {
@@ -18312,6 +17998,7 @@
     "artista": "Level 42",
     "lancamento": "1985-09-30",
     "tipo": "Album",
+    "gravadora": "Polydor",
     "duracao": "42:48",
     "faixas": [
       {
@@ -18414,6 +18101,7 @@
     "artista": "LFO",
     "lancamento": "1996-01-29",
     "tipo": "Album",
+    "gravadora": "Warp",
     "duracao": "57:42",
     "faixas": [
       {
@@ -18539,6 +18227,7 @@
     "artista": "Lightnin’ Hopkins",
     "lancamento": "1963",
     "tipo": "Album",
+    "gravadora": "Bluesville",
     "duracao": null,
     "faixas": [
       {
@@ -18637,6 +18326,7 @@
     "artista": "Lonnie Johnson",
     "lancamento": "1990",
     "tipo": "Album / Compilation",
+    "gravadora": "Columbia",
     "duracao": "57:32",
     "faixas": [
       {
@@ -18774,6 +18464,7 @@
     "artista": "Louis Armstrong",
     "lancamento": "2000-08-22",
     "tipo": "Album / Compilation",
+    "gravadora": "Legacy",
     "duracao": "198:12",
     "faixas": [
       {
@@ -19281,6 +18972,7 @@
     "artista": "M",
     "lancamento": "1979-12-06",
     "tipo": "Album",
+    "gravadora": "MCA Records",
     "duracao": "39:01",
     "faixas": [
       {
@@ -19388,6 +19080,7 @@
     "artista": "Madlib",
     "lancamento": "2003-06-24",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "56:58",
     "faixas": [
       {
@@ -19539,6 +19232,7 @@
     "artista": "Madvillain",
     "lancamento": "2004-03-19",
     "tipo": "Album",
+    "gravadora": "Stones Throw Records",
     "duracao": "46:24",
     "faixas": [
       {
@@ -19716,6 +19410,7 @@
     "artista": "Magazine",
     "lancamento": "1978-06-09",
     "tipo": "Album",
+    "gravadora": "Virgin",
     "duracao": "41:24",
     "faixas": [
       {
@@ -19830,106 +19525,83 @@
   {
     "id": "magic-sam-west-side-soul",
     "titulo": "West Side Soul",
-    "artista": "Magic Sam",
-    "lancamento": "1992",
-    "tipo": "Album / Compilation",
-    "duracao": "42:36",
+    "artista": "Magic Sam Blues Band",
+    "lancamento": "1967",
+    "tipo": "Album",
+    "gravadora": "Delmark Records",
+    "duracao": "42:22",
     "faixas": [
       {
         "n": 1,
-        "titulo": "All Your Love",
-        "duracao": "2:58"
+        "titulo": "That's All I Need",
+        "duracao": "3:18"
       },
       {
         "n": 2,
-        "titulo": "Love Me With a Feeling",
-        "duracao": "2:10"
+        "titulo": "I Need You So Bad",
+        "duracao": "4:57"
       },
       {
         "n": 3,
-        "titulo": "Everything Gonna Be Alright",
-        "duracao": "2:56"
+        "titulo": "I Feel so Good (I Wanna Boogie)",
+        "duracao": "4:47"
       },
       {
         "n": 4,
-        "titulo": "Look Watcha Done",
-        "duracao": "2:15"
+        "titulo": "All of Your Love",
+        "duracao": "3:52"
       },
       {
         "n": 5,
-        "titulo": "All Night Long",
-        "duracao": "2:50"
+        "titulo": "I Don't Want No Woman",
+        "duracao": "3:38"
       },
       {
         "n": 6,
-        "titulo": "All My Whole Life",
-        "duracao": "2:16"
+        "titulo": "Sweet Home Chicago",
+        "duracao": "4:17"
       },
       {
         "n": 7,
-        "titulo": "Easy Baby",
-        "duracao": "3:30"
+        "titulo": "I Found a New Love",
+        "duracao": "4:08"
       },
       {
         "n": 8,
-        "titulo": "21 Days in Jail",
-        "duracao": "2:44"
+        "titulo": "Every Night and Every Day",
+        "duracao": "3:11"
       },
       {
         "n": 9,
-        "titulo": "Love Me This Way",
-        "duracao": "2:51"
+        "titulo": "Lookin' Good (Instrumental)",
+        "duracao": "3:17"
       },
       {
         "n": 10,
-        "titulo": "Magic Rocker",
-        "duracao": "2:31"
+        "titulo": "My Love Will Never Die",
+        "duracao": "4:11"
       },
       {
         "n": 11,
-        "titulo": "Roll Your Moneymaker",
+        "titulo": "Mama, Mama-Talk to Your Daughter",
         "duracao": "2:46"
-      },
-      {
-        "n": 12,
-        "titulo": "Call Me If You Need Me",
-        "duracao": "3:05"
-      },
-      {
-        "n": 13,
-        "titulo": "Every Night About This Time",
-        "duracao": "2:09"
-      },
-      {
-        "n": 14,
-        "titulo": "Blue Light Boogie",
-        "duracao": "2:40"
-      },
-      {
-        "n": 15,
-        "titulo": "Out of Bad Luck",
-        "duracao": "2:24"
-      },
-      {
-        "n": 16,
-        "titulo": "She Belongs to Me",
-        "duracao": "2:31"
       }
     ],
-    "links": {},
-    "capa": null,
-    "musicbrainz": {
-      "releaseGroup": "cbc85c50-1576-4a54-8c82-89886e450d22",
-      "release": "d5d95a99-f57d-473f-971a-2165fc7d3963"
+    "links": {
+      "spotify": "https://open.spotify.com/album/2bonSc9cW7a0YcFBiH9naX"
     },
-    "conferir": "sem capa no Cover Art Archive",
+    "capa": "assets/img/capas/magic-sam-west-side-soul.jpg",
+    "musicbrainz": {
+      "releaseGroup": "288aa280-02a8-3381-9390-229abe4bf978",
+      "release": "465a9bfe-b803-4f7f-8075-9920748fbf6c"
+    },
     "charts": [
       "blues"
     ],
     "generos": [
       "blues"
     ],
-    "linksVerificados": "2026-10-26",
+    "linksVerificados": "2026-10-27",
     "sobre": "West Side Soul é o álbum de estreia do músico de Chicago blues Magic Sam. Lançado pela Delmark Records em 1968, é citado com frequência como um dos principais álbuns do blues elétrico moderno. O disco inclui uma nova gravação do primeiro single de Magic Sam pela Cobra Records, \"All Your Love\" (1957), e uma versão atualizada de \"Sweet Home Chicago\", que virou um hino popular do blues.",
     "sobreFonte": {
       "url": "https://en.wikipedia.org/wiki/West_Side_Soul",
@@ -19953,18 +19625,19 @@
         "via": "https://en.wikipedia.org/wiki/West_Side_Soul#Critical_reception"
       }
     ],
-    "sobreVerificado": "2026-10-26",
-    "destaqueVerificado": "2026-10-27",
+    "sobreVerificado": "2026-10-27",
     "destaque": {
-      "titulo": "She Belongs to Me",
-      "duracao": "2:31",
-      "links": {},
+      "titulo": "Sweet Home Chicago",
+      "duracao": "4:17",
+      "links": {
+        "spotify": "https://open.spotify.com/track/31NrEjRvAP4ot9Mj3DWIqa"
+      },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
-        "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "mary-lou-williams-live-at-the-cookery",
@@ -19972,6 +19645,7 @@
     "artista": "Mary Lou Williams",
     "lancamento": "1990",
     "tipo": "Album / Live",
+    "gravadora": "Chiaroscuro Records",
     "duracao": "65:02",
     "faixas": [
       {
@@ -20074,6 +19748,7 @@
     "artista": "Master’s Hammer",
     "lancamento": "1991",
     "tipo": "Album",
+    "gravadora": "Monitor",
     "duracao": "50:10",
     "faixas": [
       {
@@ -20177,6 +19852,7 @@
     "artista": "Max Roach",
     "lancamento": "1961-01",
     "tipo": "Album",
+    "gravadora": "Candid",
     "duracao": "37:22",
     "faixas": [
       {
@@ -20243,6 +19919,7 @@
     "artista": "Mayhem",
     "lancamento": "1994-05-24",
     "tipo": "Album",
+    "gravadora": "Deathlike Silence Productions",
     "duracao": null,
     "faixas": [
       {
@@ -20355,6 +20032,7 @@
     "artista": "McCoy Tyner",
     "lancamento": "1967",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "37:09",
     "faixas": [
       {
@@ -20445,6 +20123,7 @@
     "artista": "Mercyful Fate",
     "lancamento": "1983",
     "tipo": "Album",
+    "gravadora": "Megaforce Records",
     "duracao": "40:29",
     "faixas": [
       {
@@ -20550,6 +20229,7 @@
     "artista": "Miles Davis",
     "lancamento": "1957-02",
     "tipo": "Album / Compilation",
+    "gravadora": "Capitol Records",
     "duracao": "32:03",
     "faixas": [
       {
@@ -20676,6 +20356,7 @@
     "artista": "Miles Davis",
     "lancamento": "1970",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": "93:53",
     "faixas": [
       {
@@ -20776,6 +20457,7 @@
     "artista": "Miles Davis",
     "lancamento": "1969-07-30",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": "38:13",
     "faixas": [
       {
@@ -20858,6 +20540,7 @@
     "artista": "Miles Davis",
     "lancamento": "1959-08-17",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": "26:08",
     "faixas": [
       {
@@ -20940,6 +20623,7 @@
     "artista": "Miles Davis",
     "lancamento": "1958",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": "50:53",
     "faixas": [
       {
@@ -21074,6 +20758,7 @@
     "artista": "Miles Davis",
     "lancamento": "1957-03-18",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": "39:22",
     "faixas": [
       {
@@ -21169,6 +20854,7 @@
     "artista": "Miles Davis",
     "lancamento": "1960-08",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": null,
     "faixas": [
       {
@@ -21265,6 +20951,7 @@
     "artista": "Mirrorthrone",
     "lancamento": "2006-01",
     "tipo": "Album",
+    "gravadora": "Red Stream",
     "duracao": "46:44",
     "faixas": [
       {
@@ -21331,6 +21018,7 @@
     "artista": "Mission of Burma",
     "lancamento": "1982",
     "tipo": "Album",
+    "gravadora": "Ace of Hearts Records",
     "duracao": "40:58",
     "faixas": [
       {
@@ -21452,20 +21140,21 @@
   },
   {
     "id": "mississippi-fred-mcdowell-i-do-not-play-no-rock-n-roll",
-    "titulo": "I Do Not Play No Rock 'n' Roll",
+    "titulo": "I Do Not Play No Rock ’n’ Roll",
     "artista": "Mississippi Fred McDowell",
-    "lancamento": "1996-05-02",
-    "tipo": "Album / Compilation",
-    "duracao": "90:54",
+    "lancamento": "1969",
+    "tipo": "Album",
+    "gravadora": "Capitol Records",
+    "duracao": "41:57",
     "faixas": [
       {
         "n": 1,
-        "titulo": "Baby Please Don't Go",
+        "titulo": "Baby Please Don’t Go",
         "duracao": "4:49"
       },
       {
         "n": 2,
-        "titulo": "Good Morning Little Schoolgirl",
+        "titulo": "Good Morning Little School Girl",
         "duracao": "4:28"
       },
       {
@@ -21475,17 +21164,17 @@
       },
       {
         "n": 4,
-        "titulo": "That's All Right Baby",
-        "duracao": "5:05"
+        "titulo": "That’s All Right Baby",
+        "duracao": "5:06"
       },
       {
         "n": 5,
         "titulo": "Red Cross Store",
-        "duracao": "4:06"
+        "duracao": "4:05"
       },
       {
         "n": 6,
-        "titulo": "Everybody's Down on Me",
+        "titulo": "Everybody’s Down on Me",
         "duracao": "9:14"
       },
       {
@@ -21500,70 +21189,15 @@
       },
       {
         "n": 9,
-        "titulo": "Jesus Is on the Mainline",
-        "duracao": "3:40"
-      },
-      {
-        "n": 10,
-        "titulo": "Someday",
-        "duracao": "4:32"
-      },
-      {
-        "n": 11,
-        "titulo": "Write Me a Few of Your Lines",
-        "duracao": "3:37"
-      },
-      {
-        "n": 12,
-        "titulo": "Mortgage on My Soul",
-        "duracao": "4:25"
-      },
-      {
-        "n": 13,
-        "titulo": "Baby Let Me Lay Down",
-        "duracao": "4:29"
-      },
-      {
-        "n": 14,
-        "titulo": "Drop Down Mama",
-        "duracao": "3:44"
-      },
-      {
-        "n": 15,
-        "titulo": "Rap/Louise",
-        "duracao": "8:18"
-      },
-      {
-        "n": 16,
-        "titulo": "Somebody Keeps Callin' Me",
-        "duracao": "3:32"
-      },
-      {
-        "n": 17,
-        "titulo": "Eyes Like an Eagle",
-        "duracao": "4:40"
-      },
-      {
-        "n": 18,
-        "titulo": "My Baby She Gonna Jump and Shout",
-        "duracao": "2:40"
-      },
-      {
-        "n": 19,
-        "titulo": "Long Line Skinner",
-        "duracao": "5:54"
-      },
-      {
-        "n": 20,
-        "titulo": "Baby Please Don't Go (alternate)",
-        "duracao": "3:07"
+        "titulo": "Jesus on the Mainline",
+        "duracao": "3:39"
       }
     ],
     "links": {},
     "capa": "assets/img/capas/mississippi-fred-mcdowell-i-do-not-play-no-rock-n-roll.jpg",
     "musicbrainz": {
-      "releaseGroup": "417e27e5-69b5-3fcf-bf7c-bff27b327b89",
-      "release": "1c90dea2-d600-4437-8696-a0957aa2c810"
+      "releaseGroup": "8e209030-e2fb-36c9-8fbf-fc6a6b082e3a",
+      "release": "06ca2b5e-0fc0-42ce-833f-aa41fa9b2947"
     },
     "charts": [
       "blues"
@@ -21571,7 +21205,7 @@
     "generos": [
       "blues"
     ],
-    "linksVerificados": "2026-10-26",
+    "linksVerificados": "2026-10-27",
     "sobre": "I Do Not Play No Rock 'n' Roll é um álbum do músico americano Mississippi Fred McDowell, lançado em 1969. O título vem de uma frase que McDowell usava para apresentar \"Baby Please Don't Go\". Foi relançado em 1995 como parte da série Capitol Blues Collection.",
     "sobreFonte": {
       "url": "https://en.wikipedia.org/wiki/I_Do_Not_Play_No_Rock_'n'_Roll",
@@ -21595,17 +21229,17 @@
         "via": "https://en.wikipedia.org/wiki/I_Do_Not_Play_No_Rock_'n'_Roll#Critical_reception"
       }
     ],
-    "sobreVerificado": "2026-10-26",
-    "destaqueVerificado": "2026-10-27",
+    "sobreVerificado": "2026-10-27",
     "destaque": {
-      "titulo": "Baby Please Don't Go",
-      "duracao": "3:07",
+      "titulo": "Baby Please Don’t Go",
+      "duracao": "4:49",
       "links": {},
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "mississippi-john-hurt-avalon-blues",
@@ -21613,6 +21247,7 @@
     "artista": "Mississippi John Hurt",
     "lancamento": null,
     "tipo": "Album / Compilation",
+    "gravadora": null,
     "duracao": "65:28",
     "faixas": [
       {
@@ -21730,10 +21365,9 @@
     "generos": [
       "blues"
     ],
-    "linksVerificados": "2026-10-26",
-    "sobreVerificado": "2026-10-26",
+    "linksVerificados": "2026-10-27",
     "sobrePendente": "sem artigo na Wikipédia",
-    "destaqueVerificado": "2026-10-27",
+    "sobreVerificado": "2026-10-27",
     "destaque": {
       "titulo": "Avalon Blues",
       "duracao": "3:27",
@@ -21747,7 +21381,8 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "mobb-deep-the-infamous",
@@ -21755,6 +21390,7 @@
     "artista": "Mobb Deep",
     "lancamento": "1995-04-18",
     "tipo": "Album",
+    "gravadora": "RCA",
     "duracao": "66:58",
     "faixas": [
       {
@@ -21904,6 +21540,7 @@
     "artista": "The Modern Jazz Quartet & The Milt Jackson Quintet",
     "lancamento": "1984",
     "tipo": "Album",
+    "gravadora": "Prestige",
     "duracao": "31:13",
     "faixas": [
       {
@@ -21979,6 +21616,7 @@
     "artista": "Mos Def",
     "lancamento": "1999-10-12",
     "tipo": "Album",
+    "gravadora": "Rawkus Records",
     "duracao": "71:36",
     "faixas": [
       {
@@ -22131,6 +21769,7 @@
     "artista": "Mouse on Mars",
     "lancamento": "1995-10-03",
     "tipo": "Album",
+    "gravadora": "Too Pure",
     "duracao": "69:53",
     "faixas": [
       {
@@ -22260,6 +21899,7 @@
     "artista": "Muddy Waters",
     "lancamento": "1964",
     "tipo": "Album",
+    "gravadora": "Chess",
     "duracao": "34:22",
     "faixas": [
       {
@@ -22369,6 +22009,7 @@
     "artista": "Muddy Waters",
     "lancamento": "1977-01-10",
     "tipo": "Album",
+    "gravadora": "Blue Sky",
     "duracao": "45:22",
     "faixas": [
       {
@@ -22486,6 +22127,7 @@
     "artista": "Nas",
     "lancamento": "1994-04-15",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": "39:49",
     "faixas": [
       {
@@ -22607,6 +22249,7 @@
     "artista": "Negură Bunget",
     "lancamento": "2006-10-27",
     "tipo": "Album",
+    "gravadora": "Code666",
     "duracao": "67:11",
     "faixas": [
       {
@@ -22726,6 +22369,7 @@
     "artista": "New Order",
     "lancamento": "1985-05-01",
     "tipo": "Album",
+    "gravadora": "Factory",
     "duracao": "40:10",
     "faixas": [
       {
@@ -22837,6 +22481,7 @@
     "artista": "Nina Simone",
     "lancamento": "1967",
     "tipo": "Album",
+    "gravadora": "RCA Victor",
     "duracao": "32:41",
     "faixas": [
       {
@@ -22956,6 +22601,7 @@
     "artista": "N.W.A",
     "lancamento": "1988-08-08",
     "tipo": "Album",
+    "gravadora": "Priority Records",
     "duracao": "48:27",
     "faixas": [
       {
@@ -23076,6 +22722,7 @@
     "artista": "Orchestral Manœuvres in the Dark",
     "lancamento": "1981-11-06",
     "tipo": "Album",
+    "gravadora": "Dindisc",
     "duracao": "36:39",
     "faixas": [
       {
@@ -23190,6 +22837,7 @@
     "artista": "Orchestral Manoeuvres in the Dark",
     "lancamento": "1980-02-22",
     "tipo": "Album",
+    "gravadora": "Virgin",
     "duracao": "37:07",
     "faixas": [
       {
@@ -23306,6 +22954,7 @@
     "artista": "Ornette Coleman",
     "lancamento": "1959-10",
     "tipo": "Album",
+    "gravadora": "Atlantic",
     "duracao": "38:14",
     "faixas": [
       {
@@ -23399,6 +23048,7 @@
     "artista": "Albert King & Otis Rush",
     "lancamento": "1992",
     "tipo": "Album / Compilation",
+    "gravadora": "Charly R&B",
     "duracao": "39:32",
     "faixas": [
       {
@@ -23504,6 +23154,7 @@
     "artista": "OutKast",
     "lancamento": "2000-10-23",
     "tipo": "Album",
+    "gravadora": "LaFace Records",
     "duracao": "83:06",
     "faixas": [
       {
@@ -23705,6 +23356,7 @@
     "artista": "P-MODEL",
     "lancamento": "1979-08-25",
     "tipo": "Album",
+    "gravadora": "Warner Bros. Records",
     "duracao": "33:28",
     "faixas": [
       {
@@ -23814,6 +23466,7 @@
     "artista": "Pere Ubu",
     "lancamento": "1978-01",
     "tipo": "Album",
+    "gravadora": "Mercury Records",
     "duracao": null,
     "faixas": [
       {
@@ -23935,6 +23588,7 @@
     "artista": "Peste Noire",
     "lancamento": "2006-08",
     "tipo": "Album",
+    "gravadora": "De Profundis Éditions",
     "duracao": "51:57",
     "faixas": [
       {
@@ -24016,6 +23670,7 @@
     "artista": "Pet Shop Boys",
     "lancamento": "1986-03-24",
     "tipo": "Album",
+    "gravadora": "Parlophone",
     "duracao": "42:38",
     "faixas": [
       {
@@ -24140,6 +23795,7 @@
     "artista": "Pharoah Sanders",
     "lancamento": "1972",
     "tipo": "Album",
+    "gravadora": "impulse!",
     "duracao": "37:19",
     "faixas": [
       {
@@ -24215,6 +23871,7 @@
     "artista": "Pharoah Sanders",
     "lancamento": "1969",
     "tipo": "Album",
+    "gravadora": "impulse!",
     "duracao": "38:47",
     "faixas": [
       {
@@ -24299,6 +23956,7 @@
     "artista": "Phil Woods",
     "lancamento": "1961",
     "tipo": "Album",
+    "gravadora": "Candid",
     "duracao": "38:53",
     "faixas": [
       {
@@ -24388,6 +24046,7 @@
     "artista": "Philip Oakey & Giorgio Moroder",
     "lancamento": "1985-07-19",
     "tipo": "Album",
+    "gravadora": "Virgin",
     "duracao": null,
     "faixas": [
       {
@@ -24488,6 +24147,7 @@
     "artista": "Plaid",
     "lancamento": "1997-10-27",
     "tipo": "Album",
+    "gravadora": "Warp",
     "duracao": "68:57",
     "faixas": [
       {
@@ -24640,6 +24300,7 @@
     "artista": "Plastics",
     "lancamento": "1980",
     "tipo": "Album",
+    "gravadora": "INVITATION",
     "duracao": "42:59",
     "faixas": [
       {
@@ -24758,6 +24419,7 @@
     "artista": "Public Enemy",
     "lancamento": "1988-06-28",
     "tipo": "Album",
+    "gravadora": "Def Jam Recordings",
     "duracao": "57:58",
     "faixas": [
       {
@@ -24906,6 +24568,7 @@
     "artista": "Public Image Ltd.",
     "lancamento": "1979-11",
     "tipo": "Album",
+    "gravadora": "Virgin",
     "duracao": "60:31",
     "faixas": [
       {
@@ -25031,6 +24694,7 @@
     "artista": "Raekwon",
     "lancamento": "1995-08-01",
     "tipo": "Album",
+    "gravadora": "RCA",
     "duracao": "73:34",
     "faixas": [
       {
@@ -25192,6 +24856,7 @@
     "artista": "Robert Johnson",
     "lancamento": "1990-08-20",
     "tipo": "Album / Compilation",
+    "gravadora": "Columbia",
     "duracao": "107:16",
     "faixas": [
       {
@@ -25467,6 +25132,7 @@
     "artista": "Rory Gallagher",
     "lancamento": "1974",
     "tipo": "Album / Live",
+    "gravadora": "Polydor",
     "duracao": "77:49",
     "faixas": [
       {
@@ -25581,6 +25247,7 @@
     "artista": "Roy Buchanan",
     "lancamento": "1972-08-01",
     "tipo": "Album",
+    "gravadora": "Polydor",
     "duracao": "32:13",
     "faixas": [
       {
@@ -25678,6 +25345,7 @@
     "artista": "Roy Porter Sound Machine",
     "lancamento": "2007-01-07",
     "tipo": "Album",
+    "gravadora": "P‐VINE RECORDS",
     "duracao": "42:08",
     "faixas": [
       {
@@ -25754,6 +25422,7 @@
     "artista": "Run‐D.M.C.",
     "lancamento": "1986-11-25",
     "tipo": "Album",
+    "gravadora": "Profile",
     "duracao": "39:51",
     "faixas": [
       {
@@ -25869,6 +25538,7 @@
     "artista": "Ryuichi Sakamoto",
     "lancamento": "1978-10-25",
     "tipo": "Album",
+    "gravadora": "BETTER DAYS",
     "duracao": "45:39",
     "faixas": [
       {
@@ -25958,6 +25628,7 @@
     "artista": "Sacramentum",
     "lancamento": "1996",
     "tipo": "Album",
+    "gravadora": "Adipocere Records",
     "duracao": "46:04",
     "faixas": [
       {
@@ -26068,6 +25739,7 @@
     "artista": "Sarcófago",
     "lancamento": "1987-08",
     "tipo": "Album",
+    "gravadora": "Cogumelo Records",
     "duracao": "28:08",
     "faixas": [
       {
@@ -26180,6 +25852,7 @@
     "artista": "Satyricon",
     "lancamento": "1994-03",
     "tipo": "Album",
+    "gravadora": "Moonfog Productions",
     "duracao": "43:32",
     "faixas": [
       {
@@ -26278,6 +25951,7 @@
     "artista": "Scritti Politti",
     "lancamento": "1985-06-10",
     "tipo": "Album",
+    "gravadora": "Virgin",
     "duracao": "38:15",
     "faixas": [
       {
@@ -26389,6 +26063,7 @@
     "artista": "Shining",
     "lancamento": "2007-03-01",
     "tipo": "Album",
+    "gravadora": "Osmose Productions",
     "duracao": "42:36",
     "faixas": [
       {
@@ -26482,6 +26157,7 @@
     "artista": "Sigue Sigue Sputnik",
     "lancamento": "1986",
     "tipo": "Album",
+    "gravadora": "Parlophone",
     "duracao": "41:52",
     "faixas": [
       {
@@ -26581,6 +26257,7 @@
     "artista": "Siouxsie and the Banshees",
     "lancamento": "1981-06-06",
     "tipo": "Album",
+    "gravadora": "Polydor",
     "duracao": "41:10",
     "faixas": [
       {
@@ -26693,6 +26370,7 @@
     "artista": "Skip James",
     "lancamento": "1968",
     "tipo": "Album",
+    "gravadora": "Vanguard",
     "duracao": "49:37",
     "faixas": [
       {
@@ -26811,6 +26489,7 @@
     "artista": "Snoop Doggy Dogg",
     "lancamento": "1993-11-23",
     "tipo": "Album",
+    "gravadora": "Death Row Records",
     "duracao": "52:32",
     "faixas": [
       {
@@ -26969,6 +26648,7 @@
     "artista": "Sodom",
     "lancamento": "1986-05",
     "tipo": "Album",
+    "gravadora": "Restless Records",
     "duracao": "37:55",
     "faixas": [
       {
@@ -27064,6 +26744,7 @@
     "artista": "Soft Cell",
     "lancamento": "1981-11-23",
     "tipo": "Album",
+    "gravadora": "Vertigo",
     "duracao": null,
     "faixas": [
       {
@@ -27184,6 +26865,7 @@
     "artista": "Son House",
     "lancamento": "1992",
     "tipo": "Album",
+    "gravadora": "Altaya",
     "duracao": "52:55",
     "faixas": [
       {
@@ -27277,6 +26959,7 @@
     "artista": "Sonny Rollins",
     "lancamento": "1957-04-27",
     "tipo": "Album",
+    "gravadora": "Prestige",
     "duracao": "39:53",
     "faixas": [
       {
@@ -27370,6 +27053,7 @@
     "artista": "Squarepusher",
     "lancamento": "1997-04-16",
     "tipo": "Album",
+    "gravadora": "Warp",
     "duracao": "62:31",
     "faixas": [
       {
@@ -27501,6 +27185,7 @@
     "artista": "Stan Getz / João Gilberto featuring Antônio Carlos Jobim",
     "lancamento": "1964-03",
     "tipo": "Album",
+    "gravadora": "Verve",
     "duracao": "33:23",
     "faixas": [
       {
@@ -27605,6 +27290,7 @@
     "artista": "Stan Getz",
     "lancamento": "1967",
     "tipo": "Album",
+    "gravadora": "Verve",
     "duracao": "37:13",
     "faixas": [
       {
@@ -27694,6 +27380,7 @@
     "artista": "Stevie Ray Vaughan and Double Trouble",
     "lancamento": "1983-06-13",
     "tipo": "Album",
+    "gravadora": "Epic",
     "duracao": "38:51",
     "faixas": [
       {
@@ -27811,6 +27498,7 @@
     "artista": "Summoning",
     "lancamento": "1997-01-19",
     "tipo": "Album",
+    "gravadora": "Napalm Records",
     "duracao": "68:48",
     "faixas": [
       {
@@ -27907,6 +27595,7 @@
     "artista": "Sun Ra and His Astro Infinity Arkestra",
     "lancamento": "1969",
     "tipo": "Album",
+    "gravadora": "El Saturn Records",
     "duracao": "42:35",
     "faixas": [
       {
@@ -27991,6 +27680,7 @@
     "artista": "Sun Ra Arkestra",
     "lancamento": "1984",
     "tipo": "Album",
+    "gravadora": "Y Records",
     "duracao": "42:24",
     "faixas": [
       {
@@ -28066,6 +27756,7 @@
     "artista": "Sun Ra and the Arkestra",
     "lancamento": "1968",
     "tipo": "Album",
+    "gravadora": "Delmark Records",
     "duracao": "39:30",
     "faixas": [
       {
@@ -28175,6 +27866,7 @@
     "artista": "Supersax",
     "lancamento": "1991",
     "tipo": "Album",
+    "gravadora": null,
     "duracao": "37:18",
     "faixas": [
       {
@@ -28268,6 +27960,7 @@
     "artista": "Swell Maps",
     "lancamento": "1979-07-27",
     "tipo": "Album",
+    "gravadora": "Rough Trade",
     "duracao": "54:36",
     "faixas": [
       {
@@ -28418,167 +28111,99 @@
   },
   {
     "id": "t-bone-walker-t-bone-blues",
-    "titulo": "T-Bone Blues",
+    "titulo": "T‐Bone Blues",
     "artista": "T‐Bone Walker",
-    "lancamento": null,
-    "tipo": "Album / Compilation",
-    "duracao": "72:54",
+    "lancamento": "1959",
+    "tipo": "Album",
+    "gravadora": "Atlantic",
+    "duracao": "34:37",
     "faixas": [
       {
         "n": 1,
-        "titulo": "Misfortune Blues",
-        "duracao": "3:01"
+        "titulo": "Two Bones and a Pick",
+        "duracao": "2:47"
       },
       {
         "n": 2,
-        "titulo": "That's Better For Me",
-        "duracao": "2:39"
+        "titulo": "Mean Old World",
+        "duracao": "4:05"
       },
       {
         "n": 3,
-        "titulo": "I Got a Break Baby",
-        "duracao": "3:17"
+        "titulo": "T‐Bone Shuffle",
+        "duracao": "2:47"
       },
       {
         "n": 4,
-        "titulo": "Hyping Woman Blues",
-        "duracao": "2:49"
+        "titulo": "Stormy Monday Blues",
+        "duracao": "3:03"
       },
       {
         "n": 5,
-        "titulo": "That Old Feeling Is Gone",
-        "duracao": "2:54"
+        "titulo": "Blues for Marili",
+        "duracao": "4:18"
       },
       {
         "n": 6,
-        "titulo": "T-Bone Shuffle",
-        "duracao": "3:00"
+        "titulo": "T‐Bone Blues",
+        "duracao": "3:45"
       },
       {
         "n": 7,
-        "titulo": "Bobby Sox Baby",
-        "duracao": "2:40"
+        "titulo": "Shufflin’ the Blues",
+        "duracao": "3:20"
       },
       {
         "n": 8,
-        "titulo": "You're My Best Poker Hand",
-        "duracao": "2:56"
+        "titulo": "Evenin’",
+        "duracao": "2:37"
       },
       {
         "n": 9,
-        "titulo": "It's a Lowdown Dirty Deal",
-        "duracao": "2:55"
+        "titulo": "Play On Little Girl",
+        "duracao": "2:29"
       },
       {
         "n": 10,
-        "titulo": "Lonesome Woman Blues",
-        "duracao": "2:40"
+        "titulo": "Blues Rock",
+        "duracao": "2:41"
       },
       {
         "n": 11,
-        "titulo": "I Wish You Were Mine",
-        "duracao": "2:54"
-      },
-      {
-        "n": 12,
-        "titulo": "T-Bone Jumps Again",
-        "duracao": "2:43"
-      },
-      {
-        "n": 13,
-        "titulo": "I'm in an Awful Mood",
+        "titulo": "Papa Ain’t Salty",
         "duracao": "2:45"
-      },
-      {
-        "n": 14,
-        "titulo": "Call It Stormy Monday but Tuesday Just as Bad",
-        "duracao": "3:02"
-      },
-      {
-        "n": 15,
-        "titulo": "I'm Gonna Move You Out",
-        "duracao": "2:58"
-      },
-      {
-        "n": 16,
-        "titulo": "Midnight Blues",
-        "duracao": "2:45"
-      },
-      {
-        "n": 17,
-        "titulo": "T-Bone Blues",
-        "duracao": "3:17"
-      },
-      {
-        "n": 18,
-        "titulo": "Description Blues",
-        "duracao": "3:07"
-      },
-      {
-        "n": 19,
-        "titulo": "Long Skirt Baby Blues",
-        "duracao": "2:52"
-      },
-      {
-        "n": 20,
-        "titulo": "The Plain Old Down Home Blues",
-        "duracao": "3:06"
-      },
-      {
-        "n": 21,
-        "titulo": "Mean Old World",
-        "duracao": "2:54"
-      },
-      {
-        "n": 22,
-        "titulo": "Prison Blues",
-        "duracao": "2:50"
-      },
-      {
-        "n": 23,
-        "titulo": "She's the Non-sleepin'est Woman",
-        "duracao": "3:06"
-      },
-      {
-        "n": 24,
-        "titulo": "Don't Leave Me Baby",
-        "duracao": "2:49"
-      },
-      {
-        "n": 25,
-        "titulo": "I'm Still in Love With You",
-        "duracao": "2:55"
       }
     ],
     "links": {
       "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kQG39_Fu4ka5kZPWPwqwFc-kjNXbuC5Co"
     },
-    "capa": null,
+    "capa": "assets/img/capas/t-bone-walker-t-bone-blues.jpg",
     "musicbrainz": {
-      "releaseGroup": "d8196b72-61d0-3e20-9820-869c945fda18",
-      "release": "05731b3a-3617-4f64-9484-a3cff30413a5"
+      "releaseGroup": "fca91c11-50d7-3eb9-857c-a53ac043cf85",
+      "release": "1a56228e-90ef-4bac-a975-03a0e6464a72"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "blues"
     ],
     "generos": [
       "blues"
     ],
-    "linksVerificados": "2026-10-26",
-    "sobreVerificado": "2026-10-26",
+    "linksVerificados": "2026-10-27",
     "sobrePendente": "sem artigo na Wikipédia",
-    "destaqueVerificado": "2026-10-27",
+    "sobreVerificado": "2026-10-27",
     "destaque": {
-      "titulo": "I Wish You Were Mine",
-      "duracao": "2:54",
-      "links": {},
+      "titulo": "Two Bones and a Pick",
+      "duracao": "2:47",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=oT5-wcanEEg&list=OLAK5uy_kQG39_Fu4ka5kZPWPwqwFc-kjNXbuC5Co"
+      },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
         "youtubeMusic",
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "taake-nattestid-ser-porten-vid",
@@ -28586,6 +28211,7 @@
     "artista": "Taake",
     "lancamento": "1999-12-07",
     "tipo": "Album",
+    "gravadora": "Wounded Love Records",
     "duracao": "42:02",
     "faixas": [
       {
@@ -28671,6 +28297,7 @@
     "artista": "Taj Mahal",
     "lancamento": "1968",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": "32:58",
     "faixas": [
       {
@@ -28773,6 +28400,7 @@
     "artista": "Art Ensemble of Chicago",
     "lancamento": "1974",
     "tipo": "Album",
+    "gravadora": "Freedom",
     "duracao": "33:45",
     "faixas": [
       {
@@ -28842,6 +28470,7 @@
     "artista": "The Birthday Party",
     "lancamento": "1981-03-30",
     "tipo": "Album",
+    "gravadora": "4AD",
     "duracao": "34:29",
     "faixas": [
       {
@@ -28963,6 +28592,7 @@
     "artista": "Buggles",
     "lancamento": "1980-02-04",
     "tipo": "Album",
+    "gravadora": "Island",
     "duracao": null,
     "faixas": [
       {
@@ -29068,6 +28698,7 @@
     "artista": "The Butterfield Blues Band",
     "lancamento": "1966",
     "tipo": "Album",
+    "gravadora": "Elektra",
     "duracao": "45:06",
     "faixas": [
       {
@@ -29175,6 +28806,7 @@
     "artista": "The Dave Brubeck Quartet",
     "lancamento": "1959",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": "38:30",
     "faixas": [
       {
@@ -29281,6 +28913,7 @@
     "artista": "The Fall",
     "lancamento": "1982-03-08",
     "tipo": "Album",
+    "gravadora": "Kamera Records",
     "duracao": "60:06",
     "faixas": [
       {
@@ -29401,6 +29034,7 @@
     "artista": "The Flashbulb",
     "lancamento": "2005-02-01",
     "tipo": "Album",
+    "gravadora": "Sublight Records",
     "duracao": "71:49",
     "faixas": [
       {
@@ -29590,6 +29224,7 @@
     "artista": "The Future Sound of London",
     "lancamento": "1996-10-28",
     "tipo": "Album",
+    "gravadora": "Virgin",
     "duracao": null,
     "faixas": [
       {
@@ -29737,6 +29372,7 @@
     "artista": "Gil Evans",
     "lancamento": "1988",
     "tipo": "Album",
+    "gravadora": "BMG",
     "duracao": "63:16",
     "faixas": [
       {
@@ -29839,6 +29475,7 @@
     "artista": "The Human League",
     "lancamento": "1981-10-16",
     "tipo": "Album",
+    "gravadora": "Virgin",
     "duracao": "40:50",
     "faixas": [
       {
@@ -29954,6 +29591,7 @@
     "artista": "The Human League",
     "lancamento": "1979-10-01",
     "tipo": "Album",
+    "gravadora": "Virgin",
     "duracao": "42:23",
     "faixas": [
       {
@@ -30067,6 +29705,7 @@
     "artista": "The Miles Davis Quintet",
     "lancamento": null,
     "tipo": "EP",
+    "gravadora": "Metronome",
     "duracao": null,
     "faixas": [
       {
@@ -30117,6 +29756,7 @@
     "artista": "The Notorious B.I.G.",
     "lancamento": "1994-09-13",
     "tipo": "Album",
+    "gravadora": "Bad Boy Records",
     "duracao": "68:58",
     "faixas": [
       {
@@ -30257,6 +29897,7 @@
     "artista": "The Pharcyde",
     "lancamento": "1992-11-24",
     "tipo": "Album",
+    "gravadora": "Delicious Vinyl",
     "duracao": "57:40",
     "faixas": [
       {
@@ -30406,6 +30047,7 @@
     "artista": "The Pop Group",
     "lancamento": "1979-04-20",
     "tipo": "Album",
+    "gravadora": "Radar Records",
     "duracao": "40:27",
     "faixas": [
       {
@@ -30519,6 +30161,7 @@
     "artista": "The Roots",
     "lancamento": "1996-09-24",
     "tipo": "Album",
+    "gravadora": "Geffen",
     "duracao": "78:46",
     "faixas": [
       {
@@ -30688,6 +30331,7 @@
     "artista": "The Slits",
     "lancamento": "1979-09",
     "tipo": "Album",
+    "gravadora": "Island",
     "duracao": "31:46",
     "faixas": [
       {
@@ -30810,6 +30454,7 @@
     "artista": "Thelonious Monk",
     "lancamento": "1957",
     "tipo": "Album",
+    "gravadora": "Riverside",
     "duracao": "42:50",
     "faixas": [
       {
@@ -30906,6 +30551,7 @@
     "artista": "Thelonious Monk",
     "lancamento": "1951",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "24:48",
     "faixas": [
       {
@@ -31007,6 +30653,7 @@
     "artista": "This Heat",
     "lancamento": "1981",
     "tipo": "Album",
+    "gravadora": "Rough Trade",
     "duracao": null,
     "faixas": [
       {
@@ -31127,6 +30774,7 @@
     "artista": "Thomas Dolby",
     "lancamento": "1984-02",
     "tipo": "Album",
+    "gravadora": "Parlophone Odeon",
     "duracao": "37:25",
     "faixas": [
       {
@@ -31226,6 +30874,7 @@
     "artista": "Thomas Dolby",
     "lancamento": "1982",
     "tipo": "Album",
+    "gravadora": "EMI",
     "duracao": "40:51",
     "faixas": [
       {
@@ -31340,6 +30989,7 @@
     "artista": "Tommy Johnson",
     "lancamento": "2000",
     "tipo": "Album / Compilation",
+    "gravadora": "Document Records",
     "duracao": "57:17",
     "faixas": [
       {
@@ -31460,6 +31110,7 @@
     "artista": "Tormentor",
     "lancamento": "1988-08",
     "tipo": "Album",
+    "gravadora": null,
     "duracao": "39:28",
     "faixas": [
       {
@@ -31567,6 +31218,7 @@
     "artista": "Phillip Ranelin & Wendell Harrison",
     "lancamento": "1972",
     "tipo": "Album",
+    "gravadora": "Tribe",
     "duracao": null,
     "faixas": [
       {
@@ -31655,6 +31307,7 @@
     "artista": "Tubby Hayes Quartet",
     "lancamento": "1968",
     "tipo": "Album",
+    "gravadora": "Fontana",
     "duracao": "50:58",
     "faixas": [
       {
@@ -31734,6 +31387,7 @@
     "artista": "Tubeway Army",
     "lancamento": "1979-04",
     "tipo": "Album",
+    "gravadora": "Beggars Banquet",
     "duracao": "42:22",
     "faixas": [
       {
@@ -31856,6 +31510,7 @@
     "artista": "Ultravox",
     "lancamento": "1980-07-11",
     "tipo": "Album",
+    "gravadora": "Chrysalis",
     "duracao": "43:34",
     "faixas": [
       {
@@ -31966,6 +31621,7 @@
     "artista": "Ulver",
     "lancamento": "1995-02",
     "tipo": "Album",
+    "gravadora": "Head Not Found",
     "duracao": "34:18",
     "faixas": [
       {
@@ -32058,6 +31714,7 @@
     "artista": "Ved Buens Ende",
     "lancamento": "1995",
     "tipo": "Album",
+    "gravadora": "Misanthropy Records",
     "duracao": "57:13",
     "faixas": [
       {
@@ -32166,6 +31823,7 @@
     "artista": "Venetian Snares",
     "lancamento": "2004-05-10",
     "tipo": "Album",
+    "gravadora": "Planet Mu",
     "duracao": "63:11",
     "faixas": [
       {
@@ -32278,6 +31936,7 @@
     "artista": "Venetian Snares",
     "lancamento": "2005-03-14",
     "tipo": "Album",
+    "gravadora": "Planet Mu",
     "duracao": "46:46",
     "faixas": [
       {
@@ -32402,6 +32061,7 @@
     "artista": "Venom",
     "lancamento": "1982",
     "tipo": "Album",
+    "gravadora": "Neat Records",
     "duracao": "39:56",
     "faixas": [
       {
@@ -32524,6 +32184,7 @@
     "artista": "V.S.O.P.",
     "lancamento": "1977-10",
     "tipo": "Album / Live",
+    "gravadora": "Columbia",
     "duracao": "71:21",
     "faixas": [
       {
@@ -32612,6 +32273,7 @@
     "artista": "Wayne Shorter",
     "lancamento": "1967-10",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "40:40",
     "faixas": [
       {
@@ -32709,6 +32371,7 @@
     "artista": "Wayne Shorter",
     "lancamento": "1965",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "42:11",
     "faixas": [
       {
@@ -32810,6 +32473,7 @@
     "artista": "Weakling",
     "lancamento": "2000",
     "tipo": "Album",
+    "gravadora": "tUMULt",
     "duracao": "76:19",
     "faixas": [
       {
@@ -32892,6 +32556,7 @@
     "artista": "Weather Report",
     "lancamento": "1972-05",
     "tipo": "Album",
+    "gravadora": "Columbia",
     "duracao": "47:11",
     "faixas": [
       {
@@ -32989,58 +32654,63 @@
     "id": "weather-report-weather-report",
     "titulo": "Weather Report",
     "artista": "Weather Report",
-    "lancamento": "1991",
-    "tipo": "Album / Compilation",
-    "duracao": "47:42",
+    "lancamento": "1971-05",
+    "tipo": "Album",
+    "gravadora": "Columbia",
+    "duracao": "39:55",
     "faixas": [
       {
         "n": 1,
-        "titulo": "Black Market",
-        "duracao": "6:20"
+        "titulo": "Milky Way",
+        "duracao": "2:33"
       },
       {
         "n": 2,
-        "titulo": "Birdland",
-        "duracao": "5:59"
+        "titulo": "Umbrellas",
+        "duracao": "3:25"
       },
       {
         "n": 3,
-        "titulo": "Punk Jazz",
-        "duracao": "5:08"
+        "titulo": "Seventh Arrow",
+        "duracao": "5:21"
       },
       {
         "n": 4,
-        "titulo": "Plaza Real",
-        "duracao": "5:29"
+        "titulo": "Orange Lady",
+        "duracao": "8:42"
       },
       {
         "n": 5,
-        "titulo": "Badia/Boogie Woogie Waltz Medley",
-        "duracao": "9:36"
+        "titulo": "Morning Lake",
+        "duracao": "4:25"
       },
       {
         "n": 6,
-        "titulo": "Forlorn",
-        "duracao": "3:52"
+        "titulo": "Waterfall",
+        "duracao": "6:20"
       },
       {
         "n": 7,
-        "titulo": "Confians",
-        "duracao": "5:04"
+        "titulo": "Tears",
+        "duracao": "3:25"
       },
       {
         "n": 8,
-        "titulo": "China Blues",
-        "duracao": "6:14"
+        "titulo": "Eurydice",
+        "duracao": "5:45"
       }
     ],
     "links": {
+      "spotify": "https://open.spotify.com/album/6MBWaIBPJG7iAqJGIQvMkL",
+      "deezer": "https://www.deezer.com/album/115810",
+      "appleMusic": "https://music.apple.com/gb/album/193524961",
+      "tidal": "https://tidal.com/album/1875114",
       "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lQpzMcBhLgCI538zDttP7HX8JUhI0nLhk"
     },
     "capa": "assets/img/capas/weather-report-weather-report.jpg",
     "musicbrainz": {
-      "releaseGroup": "6750dc69-90e2-302b-bfd8-fc2ac4d886b9",
-      "release": "9b4c1ddd-0663-4eae-a172-495b1eb8b9c8"
+      "releaseGroup": "1172c4c3-d54b-3884-a728-a5ce55c6181b",
+      "release": "2dc73f72-dac5-4a67-9ec7-a6e6053d2d18"
     },
     "charts": [
       "jazz"
@@ -33048,78 +32718,109 @@
     "generos": [
       "jazz"
     ],
-    "linksVerificados": "2026-10-26",
-    "sobreVerificado": "2026-10-26",
-    "sobrePendente": "sem artigo na Wikipédia",
-    "destaqueVerificado": "2026-10-27",
+    "linksVerificados": "2026-10-27",
+    "sobre": "Weather Report é o álbum de estreia da banda americana de jazz fusion Weather Report, lançado em 12 de maio de 1971 pela Columbia Records. O álbum foi relançado pela Sony e remasterizado digitalmente por Vic Anesini em novembro de 1991, nos Sony Music Studios, em Nova York.",
+    "sobreFonte": {
+      "url": "https://en.wikipedia.org/wiki/Weather_Report_(1971_album)",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "reviews": [
+      {
+        "fonte": "AllMusic",
+        "nota": "5/5",
+        "estrelas": 5,
+        "url": "http://www.allmusic.com/album/weather-report-1971-mw0000719520",
+        "via": "https://en.wikipedia.org/wiki/Weather_Report_(1971_album)#Critical_reception"
+      },
+      {
+        "fonte": "The Penguin Guide to Jazz Recordings",
+        "nota": "3/4",
+        "estrelas": 4,
+        "url": null,
+        "via": "https://en.wikipedia.org/wiki/Weather_Report_(1971_album)#Critical_reception"
+      }
+    ],
+    "sobreVerificado": "2026-10-27",
     "destaque": {
-      "titulo": "Birdland",
-      "duracao": "5:59",
-      "links": {},
+      "titulo": "Orange Lady",
+      "duracao": "8:42",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=-T6GMElw6yM&list=OLAK5uy_lQpzMcBhLgCI538zDttP7HX8JUhI0nLhk",
+        "deezer": "https://www.deezer.com/track/1069639",
+        "spotify": "https://open.spotify.com/track/16O44FKPOQeMB5PF0JGyo3",
+        "appleMusic": "https://music.apple.com/br/album/orange-lady/193524961?i=193525268"
+      },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
         "youtubeMusic",
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "wes-montgomery-the-incredible-jazz-guitar-of-wes-montgomery",
     "titulo": "The Incredible Jazz Guitar of Wes Montgomery",
     "artista": "Wes Montgomery",
-    "lancamento": "2004-04-05",
-    "tipo": "Album / Live",
-    "duracao": "62:16",
+    "lancamento": "1960",
+    "tipo": "Album",
+    "gravadora": "Riverside",
+    "duracao": "44:18",
     "faixas": [
       {
         "n": 1,
-        "titulo": "Caravan",
-        "duracao": "8:33"
+        "titulo": "Airegin",
+        "duracao": "4:30"
       },
       {
         "n": 2,
-        "titulo": "'Round About Midnight",
-        "duracao": "10:03"
+        "titulo": "D-Natural Blues",
+        "duracao": "5:25"
       },
       {
         "n": 3,
-        "titulo": "Four on Six",
-        "duracao": "10:27"
+        "titulo": "Polka Dots and Moonbeams",
+        "duracao": "4:45"
       },
       {
         "n": 4,
-        "titulo": "Here's That Rainy Day",
-        "duracao": "7:20"
+        "titulo": "Four on Six",
+        "duracao": "6:17"
       },
       {
         "n": 5,
-        "titulo": "Twisted Blues",
-        "duracao": "5:10"
+        "titulo": "West Coast Blues",
+        "duracao": "7:27"
       },
       {
         "n": 6,
-        "titulo": "Four on Six",
-        "duracao": "6:12"
+        "titulo": "In Your Own Sweet Way",
+        "duracao": "4:56"
       },
       {
         "n": 7,
-        "titulo": "Here's That Rainy Day",
-        "duracao": "8:12"
+        "titulo": "Mr. Walker (Renie)",
+        "duracao": "4:35"
       },
       {
         "n": 8,
-        "titulo": "Blue Monk",
-        "duracao": "6:20"
+        "titulo": "Gone With the Wind",
+        "duracao": "6:23"
       }
     ],
     "links": {
+      "spotify": "https://open.spotify.com/album/0WZHSs8O3aVte1d0MOUZla",
+      "deezer": "https://www.deezer.com/album/716400581",
+      "appleMusic": "https://music.apple.com/gb/album/1794908400",
       "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nCTMta8OZ6YK6eAoHl6RNUL1tRrhv5_ZM"
     },
     "capa": "assets/img/capas/wes-montgomery-the-incredible-jazz-guitar-of-wes-montgomery.jpg",
     "musicbrainz": {
-      "releaseGroup": "92829cab-8dee-3e6b-97ad-22fd49c95ed5",
-      "release": "c6d2bb39-d4b4-4d2a-b2e0-9d5db50cff95"
+      "releaseGroup": "ba93a16f-97a6-3167-ba35-ddfccc75ceb7",
+      "release": "cb0596fc-0d8a-496b-95d8-89035284c990"
     },
     "charts": [
       "jazz"
@@ -33127,13 +32828,12 @@
     "generos": [
       "jazz"
     ],
-    "linksVerificados": "2026-10-26",
-    "sobre": "The Incredible Jazz Guitar of Wes Montgomery é um álbum do guitarrista de jazz americano Wes Montgomery. A maioria das faixas mostra duas técnicas que distinguem Montgomery: tocar com o polegar e o uso de oitavas. Em 2017, o álbum foi escolhido pela Biblioteca do Congresso para o National Recording Registry, como \"cultural, histórica ou esteticamente significativo\".",
+    "linksVerificados": "2026-10-27",
+    "sobre": "The Incredible Jazz Guitar of Wes Montgomery é um álbum do guitarrista estadunidense de jazz Wes Montgomery, lançado em 1960. A maioria das faixas deste álbum é considerada exemplo das duas técnicas mais distintas de Wes: a \"palhetada com polegar\" e o uso de oitavas.",
     "sobreFonte": {
-      "url": "https://en.wikipedia.org/wiki/The_Incredible_Jazz_Guitar_of_Wes_Montgomery",
-      "idioma": "en",
-      "licenca": "CC BY-SA 4.0",
-      "traduzido": true
+      "url": "https://pt.wikipedia.org/wiki/The_Incredible_Jazz_Guitar_of_Wes_Montgomery",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
     },
     "reviews": [
       {
@@ -33151,21 +32851,24 @@
         "via": "https://en.wikipedia.org/wiki/The_Incredible_Jazz_Guitar_of_Wes_Montgomery#Critical_reception"
       }
     ],
-    "sobreVerificado": "2026-10-26",
-    "destaqueVerificado": "2026-10-27",
+    "sobreVerificado": "2026-10-27",
     "destaque": {
       "titulo": "Four on Six",
-      "duracao": "6:15",
+      "duracao": "6:18",
       "links": {
         "youtubeMusic": "https://music.youtube.com/watch?v=MBM7R9IgoTg&list=OLAK5uy_nCTMta8OZ6YK6eAoHl6RNUL1tRrhv5_ZM",
-        "deezer": "https://www.deezer.com/track/517493782"
+        "deezer": "https://www.deezer.com/track/3243831201",
+        "spotify": "https://open.spotify.com/track/6M70ue8jryA41aeeIsEYWp",
+        "appleMusic": "https://music.apple.com/br/album/four-on-six-remastered-2025/1794908400?i=1794908481"
       },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
         "youtubeMusic",
-        "deezer"
+        "deezer",
+        "listenbrainz"
       ]
-    }
+    },
+    "destaqueVerificado": "2026-10-27"
   },
   {
     "id": "willie-dixon-the-big-three-trio",
@@ -33173,6 +32876,7 @@
     "artista": "Willie Dixon",
     "lancamento": "1990",
     "tipo": "Album / Compilation",
+    "gravadora": "CBS",
     "duracao": "56:14",
     "faixas": [
       {
@@ -33313,6 +33017,7 @@
     "artista": "Windir",
     "lancamento": "1999-10-11",
     "tipo": "Album",
+    "gravadora": "Head Not Found",
     "duracao": "46:12",
     "faixas": [
       {
@@ -33414,6 +33119,7 @@
     "artista": "Wipers",
     "lancamento": "1981-05-19",
     "tipo": "Album",
+    "gravadora": "zenorecords",
     "duracao": "30:40",
     "faixas": [
       {
@@ -33516,6 +33222,7 @@
     "artista": "Wire",
     "lancamento": "1978-10",
     "tipo": "Album",
+    "gravadora": "Harvest",
     "duracao": "42:25",
     "faixas": [
       {
@@ -33657,6 +33364,7 @@
     "artista": "Wolves in the Throne Room",
     "lancamento": "2007-09-25",
     "tipo": "Album",
+    "gravadora": "Southern Lord",
     "duracao": "46:21",
     "faixas": [
       {
@@ -33750,6 +33458,7 @@
     "artista": "Wu‐Tang Clan",
     "lancamento": "1993-11-09",
     "tipo": "Album",
+    "gravadora": "Loud Records",
     "duracao": "36:12",
     "faixas": [
       {
@@ -33866,6 +33575,7 @@
     "artista": "Wynton Marsalis",
     "lancamento": "2007-03-06",
     "tipo": "Album",
+    "gravadora": "Blue Note",
     "duracao": "58:26",
     "faixas": [
       {
@@ -33965,6 +33675,7 @@
     "artista": "Yazoo",
     "lancamento": "1982-08-23",
     "tipo": "Album",
+    "gravadora": "Mute",
     "duracao": "43:13",
     "faixas": [
       {
@@ -34084,6 +33795,7 @@
     "artista": "Yellow Magic Orchestra",
     "lancamento": "1979-09-25",
     "tipo": "Album",
+    "gravadora": "ALFA",
     "duracao": "32:03",
     "faixas": [
       {
@@ -34191,6 +33903,7 @@
     "artista": "Young Marble Giants",
     "lancamento": "1980",
     "tipo": "Album",
+    "gravadora": "Rough Trade",
     "duracao": null,
     "faixas": [
       {
@@ -34338,6 +34051,7 @@
     "artista": "Yusef Lateef",
     "lancamento": "1961-09-05",
     "tipo": "Album",
+    "gravadora": "Craft Recordings",
     "duracao": "39:53",
     "faixas": [
       {
@@ -34451,6 +34165,7 @@
     "artista": "μ‐Ziq",
     "lancamento": "1997-06-30",
     "tipo": "Album",
+    "gravadora": "Planet Mu",
     "duracao": "70:57",
     "faixas": [
       {

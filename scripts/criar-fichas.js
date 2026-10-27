@@ -71,9 +71,12 @@ async function buscarGrupo(artista, titulo) {
   const candidatos = [...vistos.values()].map((g) => {
     const { credito, tituloOk, artistaOk } = avaliar(g);
     // Preferência: artista certo acima de tudo, depois título exato (ou o do chart seguido de subtítulo),
-    // depois álbum (não single), depois o score da busca.
+    // depois álbum original — não coletânea/ao vivo com o mesmo nome (ex.: uma caixa "Blue Train" de
+    // 2008) — e com mais edições (o original costuma ter dezenas), depois o score da busca.
     const prefixo = !tituloOk && norm(g.title).startsWith(norm(titulo) + "-");
-    const pontos = (artistaOk ? 200 : 0) + (tituloOk ? 100 : prefixo ? 40 : 0) + (g["primary-type"] === "Album" ? 10 : 0) + g.score / 10;
+    const secundario = (g["secondary-types"] || []).length > 0;
+    const pontos = (artistaOk ? 200 : 0) + (tituloOk ? 100 : prefixo ? 40 : 0) + (g["primary-type"] === "Album" ? 10 : 0)
+      + (secundario ? 0 : 15) + Math.min(g.count || 0, 50) / 2 + g.score / 10;
     return { g, credito, tituloOk, artistaOk, pontos };
   });
   candidatos.sort((a, b) => b.pontos - a.pontos);
@@ -132,6 +135,20 @@ async function grupoCorrigido(mbid) {
   return { g, credito, tituloOk: true, artistaOk: true };
 }
 
+// Gravadora principal: entre as gravadoras das edições oficiais do primeiro ano de lançamento, a que
+// mais aparece no total das edições oficiais (sem "[no label]"). Assim fica o selo original
+// (ex.: Blue Note, não um selo de reedição) e não a distribuidora de uma prensagem regional.
+function gravadoraDe(versoes) {
+  const oficiais = versoes.filter((v) => v.status === "Official");
+  const nomes = (v) => [...new Set((v["label-info"] || []).map((l) => l.label?.name).filter((n) => n && !/^\[no label\]$/i.test(n)))];
+  const total = new Map();
+  for (const v of oficiais) for (const n of nomes(v)) total.set(n, (total.get(n) || 0) + 1);
+  const anos = oficiais.map((v) => v.date?.slice(0, 4)).filter(Boolean).sort();
+  const primeiras = anos.length ? oficiais.filter((v) => v.date?.startsWith(anos[0])) : oficiais;
+  const candidatas = [...new Set(primeiras.flatMap(nomes))];
+  return candidatas.sort((a, b) => total.get(b) - total.get(a))[0] || null;
+}
+
 async function criarFicha(id, artista, titulo) {
   if (correcoes[id] === null) return { id, titulo, artista, conferir: "não está no MusicBrainz (correcoes.json)" };
   const correcao = typeof correcoes[id] === "string" ? { releaseGroup: correcoes[id] } : correcoes[id];
@@ -143,7 +160,7 @@ async function criarFicha(id, artista, titulo) {
 
   // Todas as versões do álbum com seus links (os de streaming costumam estar nas edições digitais).
   const grupo = await mb(`release-group/${g.id}`, { inc: "url-rels" });
-  const versoes = (await mb("release", { "release-group": g.id, inc: "url-rels", limit: "100" }))?.releases || [];
+  const versoes = (await mb("release", { "release-group": g.id, inc: "url-rels labels", limit: "100" }))?.releases || [];
   // Faixas do release representativo: o oficial mais antigo.
   const oficiais = versoes.filter((r) => r.status === "Official").sort((a, b) => (a.date || "9999").localeCompare(b.date || "9999"));
   const escolhido = oficiais[0] || versoes[0];
@@ -164,6 +181,7 @@ async function criarFicha(id, artista, titulo) {
     artista: achado.credito,
     lancamento: g["first-release-date"] || null,
     tipo: [g["primary-type"], ...(g["secondary-types"] || [])].filter(Boolean).join(" / ") || null,
+    gravadora: gravadoraDe(versoes),
     duracao: totalMs ? mmss(totalMs) : null,
     faixas,
     links: { ...links(versoes.flatMap((v) => v.relations || [])), ...links(grupo?.relations) },

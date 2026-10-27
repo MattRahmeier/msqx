@@ -23,10 +23,10 @@ function albunsPorGenero(charts) {
 }
 
 // Um card por gênero, sem sublistas. Na ordem da árvore cada subgênero vem logo depois do
-// gênero de onde saiu; o card diz de qual ("de Bebop") quando não é filho direto do mestre.
-function cardGenero(no, porGenero, nomeDe) {
+// gênero de onde saiu. O card mostra só a década e quantos álbuns tem.
+function cardGenero(no, porGenero) {
   const n = porGenero.get(no.id)?.length;
-  const meta = [decada(no), no.nivel > 1 ? `de ${esc(nomeDe(no.pai))}` : "", n ? `${n} álbuns` : ""].filter(Boolean).join(" · ");
+  const meta = [decada(no), n ? `${n} álbuns` : ""].filter(Boolean).join(" · ");
   return `
     <li><a class="genero-card${n ? " com-lista" : ""}" href="#/recomendados/${no.id}">
       <span class="genero-nome">${esc(no.nome)}</span>
@@ -39,7 +39,6 @@ export async function render(el, [generoId]) {
   const porGenero = albunsPorGenero(charts);
   const arvore = arvoreOrdenada(gen.lista);
   const genero = gen.porId.get(generoId);
-  const nomeDe = (id) => gen.porId.get(id)?.nome || id;
 
   if (!genero) {
     el.innerHTML = `
@@ -49,7 +48,7 @@ export async function render(el, [generoId]) {
         <section class="mestre">
           <h2 class="mestre-nome"><a href="#/recomendados/${m.id}">${coroa}${esc(m.nome)}</a>
             <span class="genero-meta">${[decada(m), porGenero.get(m.id)?.length ? `${porGenero.get(m.id).length} álbuns` : ""].filter(Boolean).join(" · ")}</span></h2>
-          <ul class="generos">${descendentes(m).map((g) => cardGenero(g, porGenero, nomeDe)).join("")}</ul>
+          <ul class="generos">${descendentes(m).map((g) => cardGenero(g, porGenero)).join("")}</ul>
         </section>`).join("")}`;
     return;
   }
