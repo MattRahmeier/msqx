@@ -19695,7 +19695,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/78b00b36-8cb8-3ae5-86f9-04ed4bae3029"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "4.22/5",
+        "estrelas": 4,
+        "url": "https://rateyourmusic.com/release/comp/louis-armstrong/the-complete-hot-five-and-hot-seven-recordings/",
+        "votos": 693
+      }
+    ]
   },
   {
     "id": "m-new-york-london-paris-munich",
@@ -20480,7 +20489,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/06dd55a5-7611-4b54-b16d-812d1b6b1894"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.87/5",
+        "estrelas": 4,
+        "url": "https://rateyourmusic.com/release/album/mary-lou-williams/live-at-the-cookery/",
+        "votos": 43
+      }
+    ]
   },
   {
     "id": "masters-hammer-ritual",
@@ -28937,7 +28955,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/697605d3-85a4-3c16-818a-f5fd0af14f32"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.50/5",
+        "estrelas": 3.5,
+        "url": "https://rateyourmusic.com/release/album/supersax/supersax-plays-bird/",
+        "votos": 23
+      }
+    ]
   },
   {
     "id": "swell-maps-a-trip-to-marineville",
@@ -29197,7 +29224,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/fca91c11-50d7-3eb9-857c-a53ac043cf85"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.71/5",
+        "estrelas": 3.5,
+        "url": "https://rateyourmusic.com/release/album/t-bone-walker/t-bone-blues/",
+        "votos": 956
+      }
+    ]
   },
   {
     "id": "taake-nattestid-ser-porten-vid",
@@ -32206,7 +32242,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/5f859c5a-29f5-3661-bd0d-1954bbec90eb"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.82/5",
+        "estrelas": 4,
+        "url": "https://rateyourmusic.com/release/comp/tommy-johnson/complete-recorded-works-in-chronological-order-1928-1929/",
+        "votos": 317
+      }
+    ]
   },
   {
     "id": "tormentor-anno-domini",
@@ -32607,7 +32652,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/f4b250ba-a431-32aa-9114-2432869b8f7d"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.74/5",
+        "estrelas": 3.5,
+        "url": "https://rateyourmusic.com/release/album/the-tubby-hayes-quartet/mexican-green/",
+        "votos": 254
+      }
+    ]
   },
   {
     "id": "tubeway-army-replicas",

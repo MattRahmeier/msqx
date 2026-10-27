@@ -56,8 +56,8 @@
 - [x] Caixa lateral: "Faixa destaque" (média de popularidade no Deezer, no YouTube Music e no ListenBrainz, com links para a faixa) logo abaixo dos dados; os links do álbum ("Ouça o álbum") foram para depois da crítica. Fonte citada uma vez só.
 - [x] Todas as fichas com lançamento, duração, gravadora e faixas (`scripts/completar-fichas.js`; validador exige os quatro).
 - [x] Fichas sem lacunas: capas (busca de imagem quando preciso, com a fonte no rodapé), "sobre" em todas (Wikipédias em outros idiomas ou descrição montada com os dados), notas extras do Pitchfork e do Discogs.
-- [x] Notas do RYM (usuários) via Claude in Chrome para 10 dos 25 álbuns sem crítica (`data/albuns/notas-rym.json`, `scripts/aplicar-notas-rym.js`).
-- [ ] Notas para os 15 álbuns restantes (o RYM pediu verificação de segurança no meio da coleta).
+- [x] Notas do RYM (usuários) via Claude in Chrome para 16 dos 25 álbuns sem crítica (`data/albuns/notas-rym.json`, `scripts/aplicar-notas-rym.js`).
+- [ ] 9 álbuns seguem sem nota: 6 não têm a mesma edição no RYM (Statesboro Blues, Boss Bird!, Avalon Blues, So Many Roads ao vivo, The New York Sessions) e 4 têm média abaixo de 3,5 (Chet Baker Sextet, Carriers of Dust, Huge Chrome Cylinder Box Unfolding, Pile O' Meat).
 - [ ] Caixa lateral: tags.
 - [ ] "Gêneros similares" no fim da página do gênero.
 

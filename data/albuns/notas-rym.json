@@ -1,13 +1,122 @@
 [
- {"id":"ahmed-abdul-malik-jazz-sounds-of-africa","url":"https://rateyourmusic.com/release/comp/ahmed-abdul-malik/jazz-sounds-of-africa/","media":3.64,"votos":64},
- {"id":"big-bill-broonzy-the-young-big-bill-broonzy","url":"https://rateyourmusic.com/release/comp/big-bill-broonzy/the-young-big-bill-broonzy-1928-1935/","media":3.71,"votos":87},
- {"id":"blind-lemon-jefferson-complete-recorded-works-vol-1","url":"https://rateyourmusic.com/release/comp/blind-lemon-jefferson/complete-recorded-works-in-chronological-order-volume-1-1925-1926/","media":3.65,"votos":54},
- {"id":"chet-baker-chet-baker-sextet","url":"https://rateyourmusic.com/release/album/chet-baker-sextet/chet-baker-sextet/","media":3.39,"votos":157},
- {"id":"dizzy-gillespie-dizzy-gillespie-and-his-big-band-in-concert","url":"https://rateyourmusic.com/release/album/the-original-dizzy-gillespie-big-band/dizzy-gillespie-and-his-big-band-in-concert/","media":3.97,"votos":13},
- {"id":"elmore-james-the-sky-is-crying","url":"https://rateyourmusic.com/release/comp/elmore-james/the-sky-is-crying-1/","media":3.85,"votos":54},
- {"id":"freddie-king-blues-guitar-hero","url":"https://rateyourmusic.com/release/comp/freddie-king/blues-guitar-hero/","media":3.75,"votos":14},
- {"id":"jimmy-reed-the-best-of-the-vee-jay-years","url":"https://rateyourmusic.com/release/comp/jimmy-reed/the-best-of-the-vee-jay-years/","media":4.37,"votos":5},
- {"id":"john-lee-hooker-the-very-best-of-john-lee-hooker","url":"https://rateyourmusic.com/release/comp/john-lee-hooker/the-very-best-of-john-lee-hooker/","media":3.98,"votos":177},
- {"id":"lead-belly-where-did-you-sleep-last-night","url":"https://rateyourmusic.com/release/comp/lead-belly/where-did-you-sleep-last-night-lead-belly-legacy-vol-1/","media":3.90,"votos":483},
- {"id":"lonnie-johnson-steppin-on-the-blues","url":"https://rateyourmusic.com/release/comp/lonnie-johnson/steppin-on-the-blues/","media":3.89,"votos":168}
+ {
+  "id": "ahmed-abdul-malik-jazz-sounds-of-africa",
+  "url": "https://rateyourmusic.com/release/comp/ahmed-abdul-malik/jazz-sounds-of-africa/",
+  "media": 3.64,
+  "votos": 64
+ },
+ {
+  "id": "big-bill-broonzy-the-young-big-bill-broonzy",
+  "url": "https://rateyourmusic.com/release/comp/big-bill-broonzy/the-young-big-bill-broonzy-1928-1935/",
+  "media": 3.71,
+  "votos": 87
+ },
+ {
+  "id": "blind-lemon-jefferson-complete-recorded-works-vol-1",
+  "url": "https://rateyourmusic.com/release/comp/blind-lemon-jefferson/complete-recorded-works-in-chronological-order-volume-1-1925-1926/",
+  "media": 3.65,
+  "votos": 54
+ },
+ {
+  "id": "chet-baker-chet-baker-sextet",
+  "url": "https://rateyourmusic.com/release/album/chet-baker-sextet/chet-baker-sextet/",
+  "media": 3.39,
+  "votos": 157
+ },
+ {
+  "id": "dizzy-gillespie-dizzy-gillespie-and-his-big-band-in-concert",
+  "url": "https://rateyourmusic.com/release/album/the-original-dizzy-gillespie-big-band/dizzy-gillespie-and-his-big-band-in-concert/",
+  "media": 3.97,
+  "votos": 13
+ },
+ {
+  "id": "elmore-james-the-sky-is-crying",
+  "url": "https://rateyourmusic.com/release/comp/elmore-james/the-sky-is-crying-1/",
+  "media": 3.85,
+  "votos": 54
+ },
+ {
+  "id": "freddie-king-blues-guitar-hero",
+  "url": "https://rateyourmusic.com/release/comp/freddie-king/blues-guitar-hero/",
+  "media": 3.75,
+  "votos": 14
+ },
+ {
+  "id": "jimmy-reed-the-best-of-the-vee-jay-years",
+  "url": "https://rateyourmusic.com/release/comp/jimmy-reed/the-best-of-the-vee-jay-years/",
+  "media": 4.37,
+  "votos": 5
+ },
+ {
+  "id": "john-lee-hooker-the-very-best-of-john-lee-hooker",
+  "url": "https://rateyourmusic.com/release/comp/john-lee-hooker/the-very-best-of-john-lee-hooker/",
+  "media": 3.98,
+  "votos": 177
+ },
+ {
+  "id": "lead-belly-where-did-you-sleep-last-night",
+  "url": "https://rateyourmusic.com/release/comp/lead-belly/where-did-you-sleep-last-night-lead-belly-legacy-vol-1/",
+  "media": 3.9,
+  "votos": 483
+ },
+ {
+  "id": "lonnie-johnson-steppin-on-the-blues",
+  "url": "https://rateyourmusic.com/release/comp/lonnie-johnson/steppin-on-the-blues/",
+  "media": 3.89,
+  "votos": 168
+ },
+ {
+  "id": "louis-armstrong-the-complete-hot-five-and-hot-seven-recordings",
+  "url": "https://rateyourmusic.com/release/comp/louis-armstrong/the-complete-hot-five-and-hot-seven-recordings/",
+  "media": 4.22,
+  "votos": 693
+ },
+ {
+  "id": "mary-lou-williams-live-at-the-cookery",
+  "url": "https://rateyourmusic.com/release/album/mary-lou-williams/live-at-the-cookery/",
+  "media": 3.87,
+  "votos": 43
+ },
+ {
+  "id": "mirrorthrone-carriers-of-dust",
+  "url": "https://rateyourmusic.com/release/album/mirrorthrone/carriers-of-dust/",
+  "media": 3.33,
+  "votos": 501
+ },
+ {
+  "id": "supersax-supersax-plays-bird",
+  "url": "https://rateyourmusic.com/release/album/supersax/supersax-plays-bird/",
+  "media": 3.5,
+  "votos": 23
+ },
+ {
+  "id": "t-bone-walker-t-bone-blues",
+  "url": "https://rateyourmusic.com/release/album/t-bone-walker/t-bone-blues/",
+  "media": 3.71,
+  "votos": 956
+ },
+ {
+  "id": "tommy-johnson-complete-recorded-works",
+  "url": "https://rateyourmusic.com/release/comp/tommy-johnson/complete-recorded-works-in-chronological-order-1928-1929/",
+  "media": 3.82,
+  "votos": 317
+ },
+ {
+  "id": "tubby-hayes-mexican-green",
+  "url": "https://rateyourmusic.com/release/album/the-tubby-hayes-quartet/mexican-green/",
+  "media": 3.74,
+  "votos": 254
+ },
+ {
+  "id": "venetian-snares-huge-chrome-cylinder-box-unfolding",
+  "url": "https://rateyourmusic.com/release/album/venetian-snares/huge-chrome-cylinder-box-unfolding/",
+  "media": 3.49,
+  "votos": 1220
+ },
+ {
+  "id": "haunted-george-pile-o-meat",
+  "url": "https://rateyourmusic.com/release/album/haunted_george/pile_o_meat/",
+  "media": 3.29,
+  "votos": 44
+ }
 ]
