@@ -12,13 +12,21 @@ function comLinks(texto, links, rota) {
   return html + esc(texto.slice(pos));
 }
 
-// Crédito de um texto: paráfrase, cópia da Wikipédia ou tradução (com aviso e link para o original).
+// Crédito dos textos, numa citação só (mesmo quando o resumo e o "como soa" vêm de artigos
+// diferentes): "Fonte: Wikipédia" ou "Fonte: Wikipédia em inglês" (os dois links, se houver dois).
+// Texto traduzido ganha o aviso "Traduzido do inglês" na linha de cima; paráfrase, "Baseado em".
 // Também usado na caixa do álbum.
-export function creditoFonte(f) {
-  if (f.tipo === "parafrase") return `Baseado em: <a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.autor || new URL(f.url).hostname)}</a>`;
-  const link = `<a href="${esc(f.url)}" target="_blank" rel="noopener">Wikipédia${f.idioma === "en" ? " em inglês" : ""}</a>`;
-  const licenca = esc(f.licenca || "CC BY-SA 4.0");
-  return f.traduzido ? `Traduzido do inglês<br>Original: ${link} (${licenca})` : `Fonte: ${link} (${licenca})`;
+export function creditos(fontes) {
+  fontes = fontes.filter((f) => f?.url);
+  if (!fontes.length) return "";
+  const nome = (f) => (f.tipo === "parafrase" ? esc(f.autor || new URL(f.url).hostname) : `Wikipédia${f.idioma === "en" ? " em inglês" : ""}`);
+  const links = fontes.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${nome(f)}</a>`).join(" e ");
+  const wiki = fontes.filter((f) => f.tipo !== "parafrase");
+  const licenca = wiki.length ? ` (${esc(wiki[0].licenca || "CC BY-SA 4.0")})` : "";
+  const traduzidos = fontes.filter((f) => f.traduzido).length;
+  const aviso = traduzidos ? `${traduzidos < fontes.length ? "Em parte traduzido" : "Traduzido"} do inglês<br>` : "";
+  const rotulo = wiki.length < fontes.length ? "Baseado em" : traduzidos === fontes.length ? "Original" : "Fonte";
+  return `${aviso}${rotulo}: ${links}${licenca}`;
 }
 
 // Descrição contínua do gênero: o resumo seguido de "como soa" (som — os elementos que definem o
@@ -28,8 +36,8 @@ export function resumoGenero(genero, { rota = "cerebro" } = {}) {
   const partes = [[genero?.resumo, genero?.resumoLinks, genero?.resumoFonte], [genero?.som, genero?.somLinks, genero?.somFonte]].filter(([t]) => t);
   if (!partes.length) return "";
   const texto = partes.map(([t, l]) => comLinks(t, l, rota)).join(" ");
-  // Mesmo artigo nas duas partes: uma fonte só.
+  // Mesmo artigo nas duas partes: um link só.
   const fontes = [];
   for (const [, , f] of partes) if (f?.url && !fontes.some((x) => x.url.split("#")[0] === f.url.split("#")[0])) fontes.push(f);
-  return `<p class="resumo-genero">${texto}</p>${fontes.length ? `<p class="resumo-fonte">${fontes.map(creditoFonte).join("<br>")}</p>` : ""}`;
+  return `<p class="resumo-genero">${texto}</p>${fontes.length ? `<p class="resumo-fonte">${creditos(fontes)}</p>` : ""}`;
 }

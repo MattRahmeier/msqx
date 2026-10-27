@@ -309,6 +309,21 @@ body.com-painel { overflow: hidden; }
 .painel .plat:hover, .painel .plat:focus-visible { background: #000; color: var(--popup); border-color: #000; }
 
 .painel-secao { margin: 0 0 var(--esp-2); font-size: var(--t-xs); color: var(--popup-texto-suave); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; }
+.painel-destaque {
+  display: grid;
+  gap: 2px;
+  margin: 0 0 var(--esp-6);
+  padding: var(--esp-3) var(--esp-4);
+  border-radius: var(--raio);
+  background: rgba(0, 0, 0, 0.05);
+}
+.destaque-rotulo { font-size: var(--t-xs); color: var(--popup-texto-suave); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; }
+.destaque-linha { display: flex; align-items: center; justify-content: space-between; gap: var(--esp-3); flex-wrap: wrap; }
+.destaque-faixa { font-weight: 600; }
+.destaque-links .plat { width: 30px; height: 30px; }
+.destaque-links .plat .icone { width: 16px; height: 16px; }
+.destaque-dur { font-weight: 400; color: var(--popup-texto-suave); font-variant-numeric: tabular-nums; margin-left: var(--esp-1); }
+.destaque-criterio { font-size: var(--t-xs); color: var(--popup-texto-suave); }
 .painel-sobre { margin: 0; font-size: var(--t-sm); line-height: 1.6; }
 .painel-fonte + .painel-secao { margin-top: var(--esp-6); }
 

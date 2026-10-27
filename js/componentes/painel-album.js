@@ -1,14 +1,14 @@
 // Caixa lateral do álbum (especificacao.md, "Página do chart"): abre ao clicar na capa de um card.
-// Mostra data de lançamento, artista, duração, links de streaming, "Sobre este álbum" (Wikipédia)
-// e as notas da crítica em estrelas. A lista de faixas fica guardada na ficha, mas não aparece por
+// Mostra data de lançamento, artista, duração, a faixa destaque, "Sobre este álbum" (Wikipédia),
+// as notas da crítica em estrelas e, no fim, os links de streaming do álbum. A lista de faixas fica guardada na ficha, mas não aparece por
 // enquanto. Tags entram quando as fichas tiverem esse campo.
 // Uso: ligarPainel(elementoComCards, porId) — porId: Map id → ficha (dados.js, albuns()).
 import { esc, botoesStreaming, capaHtml } from "./card-album.js";
-import { creditoFonte } from "./resumo-genero.js";
+import { creditos } from "./resumo-genero.js";
 
-const MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
+const MESES = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
-// "1984-09-27" → "27 de setembro de 1984"; "1985-03" → "março de 1985"; "1985" → "1985".
+// "1984-09-27" → "27 de Setembro de 1984"; "1985-03" → "Março de 1985"; "1985" → "1985".
 function data(iso) {
   const [a, m, d] = (iso || "").split("-");
   if (!a) return null;
@@ -43,6 +43,22 @@ function review(r) {
     <span class="review-nota">${esc(r.nota)}</span></li>`;
 }
 
+// Faixa destaque (scripts/buscar-destaques.js): título, duração, o critério da escolha e os links
+// para ouvir a faixa, com os mesmos ícones dos botões de streaming.
+function destaque(d) {
+  const links = d.links && Object.keys(d.links).length
+    ? `<ul class="card-plataformas destaque-links" aria-label="Ouvir a faixa">${botoesStreaming({ titulo: d.titulo, links: d.links })}</ul>` : "";
+  return `
+    <div class="painel-destaque">
+      <span class="destaque-rotulo">Faixa destaque</span>
+      <div class="destaque-linha">
+        <span class="destaque-faixa">${esc(d.titulo)}${d.duracao ? ` <span class="destaque-dur">${esc(d.duracao)}</span>` : ""}</span>
+        ${links}
+      </div>
+      <span class="destaque-criterio">${esc(d.criterio.charAt(0).toUpperCase() + d.criterio.slice(1))}</span>
+    </div>`;
+}
+
 function conteudo(f) {
   const dados = [
     ["Lançamento", data(f.lancamento)],
@@ -56,15 +72,18 @@ function conteudo(f) {
     <h2 id="painel-titulo" class="painel-titulo">${esc(f.titulo)}</h2>
     <p class="painel-artista">${esc(f.artista)}</p>
     ${dados.length ? `<dl class="painel-dados">${dados.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
-    ${f.links && Object.keys(f.links).length ? `<ul class="painel-plataformas" aria-label="Ouvir">${botoesStreaming(f, { comNome: true })}</ul>` : ""}
+    ${f.destaque ? destaque(f.destaque) : ""}
     ${f.sobre ? `
       <h3 class="painel-secao">Sobre este álbum</h3>
       <p class="painel-sobre">${esc(f.sobre)}</p>
-      <p class="painel-fonte">${creditoFonte(f.sobreFonte)}</p>` : ""}
+      <p class="painel-fonte">${creditos([f.sobreFonte])}</p>` : ""}
     ${f.reviews?.length ? `
       <h3 class="painel-secao">O que a crítica disse</h3>
       <ul class="painel-reviews">${f.reviews.map(review).join("")}</ul>
-      <p class="painel-fonte">Notas reunidas na <a href="${esc(f.reviews[0].via)}" target="_blank" rel="noopener">Wikipédia</a>.</p>` : ""}
+      <p class="painel-fonte">Notas reunidas na <a href="${esc(f.reviews[0].via)}" target="_blank" rel="noopener">Wikipédia em inglês</a>.</p>` : ""}
+    ${f.links && Object.keys(f.links).length ? `
+      <h3 class="painel-secao">Ouça o álbum</h3>
+      <ul class="painel-plataformas" aria-label="Ouvir">${botoesStreaming(f, { comNome: true })}</ul>` : ""}
     ${f.conferir ? `<p class="painel-aviso">Dados ainda em revisão.</p>` : ""}
     ${f.musicbrainz?.releaseGroup ? `<p class="painel-fonte">Dados: <a href="https://musicbrainz.org/release-group/${esc(f.musicbrainz.releaseGroup)}" target="_blank" rel="noopener">MusicBrainz</a> · capa: Cover Art Archive</p>` : ""}`;
 }
