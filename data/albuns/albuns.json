@@ -396,7 +396,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/49f8201d-1ffe-332a-a321-dc3fa716a1d9"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.64/5",
+        "estrelas": 3.5,
+        "url": "https://rateyourmusic.com/release/comp/ahmed-abdul-malik/jazz-sounds-of-africa/",
+        "votos": 64
+      }
+    ]
   },
   {
     "id": "albert-king-born-under-a-bad-sign",
@@ -2803,7 +2812,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/9a6e02fc-7ba8-3ffa-be28-f7e1b3a65436"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.71/5",
+        "estrelas": 3.5,
+        "url": "https://rateyourmusic.com/release/comp/big-bill-broonzy/the-young-big-bill-broonzy-1928-1935/",
+        "votos": 87
+      }
+    ]
   },
   {
     "id": "black-dog-productions-bytes",
@@ -3522,7 +3540,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/5f637c42-addf-40a6-968a-fc8280064405"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.65/5",
+        "estrelas": 3.5,
+        "url": "https://rateyourmusic.com/release/comp/blind-lemon-jefferson/complete-recorded-works-in-chronological-order-volume-1-1925-1926/",
+        "votos": 54
+      }
+    ]
   },
   {
     "id": "blind-willie-mctell-statesboro-blues",
@@ -9317,7 +9344,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/fb054ed4-397f-3a19-9546-5bfa2f263715"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.97/5",
+        "estrelas": 4,
+        "url": "https://rateyourmusic.com/release/album/the-original-dizzy-gillespie-big-band/dizzy-gillespie-and-his-big-band-in-concert/",
+        "votos": 13
+      }
+    ]
   },
   {
     "id": "dj-shadow-endtroducing",
@@ -10636,7 +10672,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/61c10b5b-ec7f-4132-8be8-528525ad3cf2"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.85/5",
+        "estrelas": 4,
+        "url": "https://rateyourmusic.com/release/comp/elmore-james/the-sky-is-crying-1/",
+        "votos": 54
+      }
+    ]
   },
   {
     "id": "emperor-in-the-nightside-eclipse",
@@ -12000,7 +12045,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/9d1da16a-bd72-3154-b9c0-f3e78a8b7414"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.75/5",
+        "estrelas": 4,
+        "url": "https://rateyourmusic.com/release/comp/freddie-king/blues-guitar-hero/",
+        "votos": 14
+      }
+    ]
   },
   {
     "id": "freddie-king-lets-dance-and-hide-away",
@@ -15566,7 +15620,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/0e7cd56a-ab06-39e0-9409-e5ecadd76af8"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "4.37/5",
+        "estrelas": 4.5,
+        "url": "https://rateyourmusic.com/release/comp/jimmy-reed/the-best-of-the-vee-jay-years/",
+        "votos": 5
+      }
+    ]
   },
   {
     "id": "john-coltrane-a-love-supreme",
@@ -16636,7 +16699,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/c058bbdc-2cc5-453a-972f-4fdd0fdd0206"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.98/5",
+        "estrelas": 4,
+        "url": "https://rateyourmusic.com/release/comp/john-lee-hooker/the-very-best-of-john-lee-hooker/",
+        "votos": 177
+      }
+    ]
   },
   {
     "id": "john-mayall-blues-breakers-with-eric-clapton",
@@ -18223,7 +18295,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/452a5573-d496-3062-8ce2-c8e7afd399e4"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.90/5",
+        "estrelas": 4,
+        "url": "https://rateyourmusic.com/release/comp/lead-belly/where-did-you-sleep-last-night-lead-belly-legacy-vol-1/",
+        "votos": 483
+      }
+    ]
   },
   {
     "id": "lee-morgan-cornbread",
@@ -19087,7 +19168,16 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/fb51f244-1e6f-3895-9c22-daf36626d3e3"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Rate Your Music (usuários)",
+        "nota": "3.89/5",
+        "estrelas": 4,
+        "url": "https://rateyourmusic.com/release/comp/lonnie-johnson/steppin-on-the-blues/",
+        "votos": 168
+      }
+    ]
   },
   {
     "id": "louis-armstrong-the-complete-hot-five-and-hot-seven-recordings",
