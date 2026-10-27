@@ -57,7 +57,7 @@
 - [x] Todas as fichas com lançamento, duração, gravadora e faixas (`scripts/completar-fichas.js`; validador exige os quatro).
 - [x] Fichas sem lacunas: capas (busca de imagem quando preciso, com a fonte no rodapé), "sobre" em todas (Wikipédias em outros idiomas ou descrição montada com os dados), notas extras do Pitchfork e do Discogs.
 - [x] Notas do RYM (usuários) via Claude in Chrome para 16 dos 25 álbuns sem crítica (`data/albuns/notas-rym.json`, `scripts/aplicar-notas-rym.js`).
-- [ ] 9 álbuns seguem sem nota: 6 não têm a mesma edição no RYM (Statesboro Blues, Boss Bird!, Avalon Blues, So Many Roads ao vivo, The New York Sessions) e 4 têm média abaixo de 3,5 (Chet Baker Sextet, Carriers of Dust, Huge Chrome Cylinder Box Unfolding, Pile O' Meat).
+- [ ] 9 álbuns seguem sem nota: 5 não têm a mesma edição no RYM (Statesboro Blues, Boss Bird!, Avalon Blues, So Many Roads ao vivo, The New York Sessions) e 4 têm média abaixo de 3,5 (Chet Baker Sextet, Carriers of Dust, Huge Chrome Cylinder Box Unfolding, Pile O' Meat).
 - [ ] Caixa lateral: tags.
 - [ ] "Gêneros similares" no fim da página do gênero.
 
