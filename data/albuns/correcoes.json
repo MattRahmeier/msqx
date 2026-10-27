@@ -3,7 +3,17 @@
   "blind-lemon-jefferson-complete-recorded-works-vol-1": "5f637c42-addf-40a6-968a-fc8280064405",
   "blind-willie-mctell-statesboro-blues": "fb155200-4de2-4645-8ded-5fe5453f3030",
   "buddy-guy-and-junior-wells-buddy-guy-and-junior-wells-play-the-blues": "393fa734-a5a2-3362-b664-1e1cdc1466be",
+  "chet-baker-chet-baker-sextet": {
+    "releaseGroup": "f639b24d-fda1-3726-b02f-30e6774bbca7",
+    "lancamento": "1954-12",
+    "gravadora": "Pacific Jazz Records",
+    "fonte": "https://it.wikipedia.org/wiki/Chet_Baker_Sextet"
+  },
   "dizzy-gillespie-and-stan-getz-diz-and-getz": "810e0bfb-f502-3ad0-a345-e25eb4ac140e",
+  "dr-octagon-dr-octagonecologyst": {
+    "releaseGroup": "b38e21f6-8f76-3f87-a021-e91afad9e7e5",
+    "sobreArtigo": "en:Dr. Octagonecologyst"
+  },
   "elmore-james-the-sky-is-crying": {
     "releaseGroup": "61c10b5b-ec7f-4132-8be8-528525ad3cf2",
     "lancamento": "1965",
@@ -41,6 +51,12 @@
   },
   "the-miles-davis-quintet-steamin-with-the-miles-davis-quintet": "f0b72e4b-e2af-32e5-aa4a-5005deb2db17",
   "tommy-johnson-complete-recorded-works": "5f859c5a-29f5-3661-bd0d-1954bbec90eb",
+  "tormentor-anno-domini": {
+    "releaseGroup": "c5f3668a-91bb-3637-a445-2346034236c4",
+    "lancamento": "1995",
+    "gravadora": "Nocturnal Art Productions",
+    "fonte": "https://it.wikipedia.org/wiki/Anno_Domini_(Tormentor)"
+  },
   "tribe-a-message-from-the-tribe": "196ba501-f0b7-4dd8-9a11-afe46abd7ace",
   "tubby-hayes-and-clark-terry-the-new-york-sessions": null,
   "ulver-bergtatt": "c9e7b2fc-ec8a-3450-a22f-a79ddd67bd47"

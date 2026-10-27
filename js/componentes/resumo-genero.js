@@ -16,15 +16,19 @@ function comLinks(texto, links, rota) {
 // diferentes): "Fonte: Wikipédia" ou "Fonte: Wikipédia em inglês" (os dois links, se houver dois).
 // Texto traduzido ganha o aviso "Traduzido do inglês" na linha de cima; paráfrase, "Baseado em".
 // Também usado na caixa do álbum.
+// Nome do idioma da Wikipédia de origem ("Wikipédia em espanhol", "Traduzido do espanhol").
+const IDIOMAS = { en: "inglês", es: "espanhol", fr: "francês", de: "alemão", it: "italiano", nl: "holandês", sv: "sueco", no: "norueguês", fi: "finlandês", da: "dinamarquês", pl: "polonês", cs: "tcheco", hu: "húngaro", ru: "russo", uk: "ucraniano", ja: "japonês" };
+
 export function creditos(fontes) {
   fontes = fontes.filter((f) => f?.url);
   if (!fontes.length) return "";
-  const nome = (f) => (f.tipo === "parafrase" ? esc(f.autor || new URL(f.url).hostname) : `Wikipédia${f.idioma === "en" ? " em inglês" : ""}`);
+  const nome = (f) => (f.tipo === "parafrase" ? esc(f.autor || new URL(f.url).hostname) : `Wikipédia${IDIOMAS[f.idioma] ? ` em ${IDIOMAS[f.idioma]}` : ""}`);
   const links = fontes.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${nome(f)}</a>`).join(" e ");
   const wiki = fontes.filter((f) => f.tipo !== "parafrase");
   const licenca = wiki.length ? ` (${esc(wiki[0].licenca || "CC BY-SA 4.0")})` : "";
   const traduzidos = fontes.filter((f) => f.traduzido).length;
-  const aviso = traduzidos ? `${traduzidos < fontes.length ? "Em parte traduzido" : "Traduzido"} do inglês<br>` : "";
+  const origens = [...new Set(fontes.filter((f) => f.traduzido).map((f) => IDIOMAS[f.idioma] || "inglês"))].join(" e do ");
+  const aviso = traduzidos ? `${traduzidos < fontes.length ? "Em parte traduzido" : "Traduzido"} do ${origens}<br>` : "";
   const rotulo = wiki.length < fontes.length ? "Baseado em" : traduzidos === fontes.length ? "Original" : "Fonte";
   return `${aviso}${rotulo}: ${links}${licenca}`;
 }

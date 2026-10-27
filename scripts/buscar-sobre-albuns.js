@@ -49,13 +49,22 @@ const wiki = (lang, params) => pedir("wiki", `https://${lang}.wikipedia.org/w/ap
 const norm = (s) => (s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "");
 
 // --- artigo do álbum ---
+// Outras Wikipédias, na ordem em que são tentadas quando não há artigo em português nem em inglês
+// (o texto delas é traduzido depois, com scripts/aplicar-traducoes.js).
+const OUTROS = ["es", "fr", "de", "it", "nl", "sv", "no", "fi", "da", "pl", "cs", "hu", "ru", "uk", "ja"];
+const CORRECOES = (() => { try { return JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "albuns", "correcoes.json"), "utf8")); } catch { return {}; } })();
+
 async function artigos(ficha) {
+  // Artigo escolhido à mão em correcoes.json: { "sobreArtigo": "en:Dr. Octagonecologyst" }.
+  const manual = CORRECOES[ficha.id]?.sobreArtigo;
+  if (manual) { const [lang, ...t] = manual.split(":"); return { [lang]: t.join(":") }; }
   const rg = ficha.musicbrainz?.releaseGroup && await mb(`release-group/${ficha.musicbrainz.releaseGroup}?fmt=json&inc=url-rels`);
   const qid = rg?.relations?.find((r) => r.type === "wikidata")?.url?.resource.split("/").pop();
   if (qid) {
-    const w = await pedir("wiki", `https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=sitelinks&sitefilter=ptwiki|enwiki&ids=${qid}`, 400);
+    const w = await pedir("wiki", `https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=sitelinks&sitefilter=${["pt", "en", ...OUTROS].map((l) => l + "wiki").join("|")}&ids=${qid}`, 400);
     const s = w?.entities?.[qid]?.sitelinks || {};
-    if (s.ptwiki || s.enwiki) return { pt: s.ptwiki?.title, en: s.enwiki?.title };
+    const achados = Object.fromEntries(["pt", "en", ...OUTROS].filter((l) => s[l + "wiki"]).map((l) => [l, s[l + "wiki"].title]));
+    if (Object.keys(achados).length) return achados;
   }
   // Sem Wikidata: busca no inglês e confere o quadro do álbum e o artista.
   const busca = await wiki("en", { action: "query", list: "search", srlimit: "5", srsearch: `${ficha.titulo} ${ficha.artista} album` });
@@ -84,7 +93,7 @@ async function introducao(lang, titulo, album) {
   let texto = frases[0] || "";
   for (let i = 1; i < 3 && i < frases.length && (texto + " " + frases[i]).length <= MAX_SOBRE; i++) texto += " " + frases[i];
   // O texto é sobre o álbum se cita o título ou se a primeira frase fala de um álbum.
-  const sobreOAlbum = norm(texto).includes(norm(album)) || /\b(álbum|album|EP|compilação|compilation|coletânea)\b/i.test(frases[0] || "");
+  const sobreOAlbum = norm(texto).includes(norm(album)) || /\b(álbum|album|albumet|albumi|albumu|EP|LP|disco|disque|compilação|compilation|coletânea|Sampler)\b|アルバム|альбом/i.test(frases[0] || "");
   return texto.length >= 40 && sobreOAlbum ? { titulo: p.title, texto } : null;
 }
 
@@ -188,7 +197,7 @@ const urlDe = (lang, titulo) => `https://${lang}.wikipedia.org/wiki/${encodeURIC
 
     const art = await artigos(f);
     let intro = null;
-    for (const lang of ["pt", "en"]) {
+    for (const lang of ["pt", "en", ...OUTROS]) {
       const achado = art[lang] && await introducao(lang, art[lang], f.titulo);
       if (achado) { intro = { lang, ...achado }; break; }
     }
