@@ -5,7 +5,10 @@
 //   ANO pela GRAVADORA, com N faixas."
 // sobreFonte: { tipo: "dados", url: <release-group no MusicBrainz> } — o site credita "Descrição
 // montada com os dados do MusicBrainz".
-// Uso: node scripts/descrever-albuns.js
+// Ficha fora do MusicBrainz completada pelo Discogs (completar-discogs.js): url do Discogs e
+// nome: "Discogs".
+// Uso: node scripts/descrever-albuns.js [--refazer]   (--refazer: monta de novo as descrições
+// "dados" já existentes, depois que a ficha ganhou dados)
 
 const fs = require("fs");
 const path = require("path");
@@ -16,11 +19,13 @@ const fichas = JSON.parse(fs.readFileSync(ARQ, "utf8"));
 // Títulos que indicam coletânea mesmo sem a marca no MusicBrainz.
 const COLETANEA = /\b(complete|recordings|best of|greatest|collected|collection|anthology|very best|essential|years)\b/i;
 
+const refazer = process.argv.includes("--refazer");
+
 let feitos = 0;
 for (const f of fichas) {
-  if (f.sobre || !f.titulo || !f.artista) continue;
+  if ((f.sobre && !(refazer && f.sobreFonte?.tipo === "dados")) || !f.titulo || !f.artista) continue;
   const ano = f.lancamento?.slice(0, 4);
-  const gravadora = f.gravadora ? ` pela ${f.gravadora}` : "";
+  const gravadora = f.gravadora === "Lançamento independente" ? " de forma independente" : f.gravadora ? ` pela ${f.gravadora}` : "";
   const quando = ano ? ` em ${ano}` : "";
   const faixas = f.faixas?.length ? `, com ${f.faixas.length} faixas` : "";
   let texto;
@@ -34,7 +39,9 @@ for (const f of fichas) {
     texto = `${f.titulo} é um álbum de ${f.artista}, lançado${quando}${gravadora}${faixas}.`;
   }
   f.sobre = texto;
-  f.sobreFonte = { tipo: "dados", url: f.musicbrainz?.releaseGroup ? `https://musicbrainz.org/release-group/${f.musicbrainz.releaseGroup}` : null };
+  f.sobreFonte = f.musicbrainz?.releaseGroup ? { tipo: "dados", url: `https://musicbrainz.org/release-group/${f.musicbrainz.releaseGroup}` }
+    : f.discogs && Object.values(f.complementos || {}).includes("discogs") ? { tipo: "dados", url: f.discogs, nome: "Discogs" }
+    : { tipo: "dados", url: null };
   delete f.sobrePendente;
   feitos++;
   console.log(`${f.id}: ${texto}`);

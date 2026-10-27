@@ -2625,7 +2625,8 @@
       "capa": "deezer",
       "gravadora": "deezer",
       "duracao": "deezer",
-      "faixas": "deezer"
+      "faixas": "deezer",
+      "lancamento": "discogs"
     },
     "linksVerificados": "2026-10-27",
     "sobreVerificado": "2026-10-27",
@@ -2712,11 +2713,14 @@
       }
     ],
     "duracao": "83:29",
-    "sobre": "Serial Vendetta é um álbum de Altered Natives, lançado pela EYE4EYE RECORDINGS, com 13 faixas.",
+    "sobre": "Serial Vendetta é um álbum de Altered Natives, lançado em 2010 pela EYE4EYE RECORDINGS, com 13 faixas.",
     "sobreFonte": {
       "tipo": "dados",
-      "url": null
-    }
+      "url": "https://www.discogs.com/release/7515444",
+      "nome": "Discogs"
+    },
+    "lancamento": "2010-07-02",
+    "discogs": "https://www.discogs.com/release/7515444"
   },
   {
     "id": "alva-noto-xerrox-vol-2",
@@ -3426,10 +3430,198 @@
     "linksVerificados": "2026-10-27",
     "sobreVerificado": "2026-10-27",
     "destaqueVerificado": "2026-10-27",
-    "sobre": "Frictionalism 1994–2009 é um álbum de Anthony Shakir, lançado.",
+    "sobre": "Frictionalism 1994–2009 é um álbum de Anthony Shakir, lançado em 2010 pela Rush Hour, com 35 faixas.",
     "sobreFonte": {
       "tipo": "dados",
-      "url": null
+      "url": "https://www.discogs.com/release/2382671",
+      "nome": "Discogs"
+    },
+    "lancamento": "2010-01-26",
+    "gravadora": "Rush Hour",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Mood Swing",
+        "duracao": "6:07"
+      },
+      {
+        "n": 2,
+        "titulo": "Live For Friction",
+        "duracao": "6:58"
+      },
+      {
+        "n": 3,
+        "titulo": "Plugged In",
+        "duracao": "4:57"
+      },
+      {
+        "n": 4,
+        "titulo": "Here, There & Nowhere",
+        "duracao": "5:11"
+      },
+      {
+        "n": 5,
+        "titulo": "Arise",
+        "duracao": "8:02"
+      },
+      {
+        "n": 6,
+        "titulo": "The Floor Filler",
+        "duracao": "4:47"
+      },
+      {
+        "n": 7,
+        "titulo": "Happy To Be Here",
+        "duracao": "4:36"
+      },
+      {
+        "n": 8,
+        "titulo": "March Into Darkness",
+        "duracao": "7:12"
+      },
+      {
+        "n": 9,
+        "titulo": "Breathe Deeper",
+        "duracao": "9:08"
+      },
+      {
+        "n": 10,
+        "titulo": "Electron Rider",
+        "duracao": "7:29"
+      },
+      {
+        "n": 11,
+        "titulo": "Stereotype",
+        "duracao": "6:38"
+      },
+      {
+        "n": 12,
+        "titulo": "Detroit State Of Mind",
+        "duracao": "5:47"
+      },
+      {
+        "n": 13,
+        "titulo": "Fact Of The Matter",
+        "duracao": "5:18"
+      },
+      {
+        "n": 14,
+        "titulo": "Roaming",
+        "duracao": "6:58"
+      },
+      {
+        "n": 15,
+        "titulo": "One Beat (Just Won't Do)",
+        "duracao": "7:03"
+      },
+      {
+        "n": 16,
+        "titulo": "Mr. Gone Is Back Again",
+        "duracao": "7:48"
+      },
+      {
+        "n": 17,
+        "titulo": "Perseverence",
+        "duracao": "7:02"
+      },
+      {
+        "n": 18,
+        "titulo": "...Like A Dream",
+        "duracao": "4:20"
+      },
+      {
+        "n": 19,
+        "titulo": "My Computer Is An Optimist",
+        "duracao": "6:32"
+      },
+      {
+        "n": 20,
+        "titulo": "Simpatico",
+        "duracao": "6:48"
+      },
+      {
+        "n": 21,
+        "titulo": "Travelers",
+        "duracao": "5:55"
+      },
+      {
+        "n": 22,
+        "titulo": "Things Come & Go",
+        "duracao": "3:51"
+      },
+      {
+        "n": 23,
+        "titulo": "The Fake Left, Go Right Plan",
+        "duracao": "7:40"
+      },
+      {
+        "n": 24,
+        "titulo": "Assimilated",
+        "duracao": "7:59"
+      },
+      {
+        "n": 25,
+        "titulo": "Spectre",
+        "duracao": "8:45"
+      },
+      {
+        "n": 26,
+        "titulo": "The Other One",
+        "duracao": "6:31"
+      },
+      {
+        "n": 27,
+        "titulo": "For The Lamented",
+        "duracao": "7:20"
+      },
+      {
+        "n": 28,
+        "titulo": "Frictionalized",
+        "duracao": "5:29"
+      },
+      {
+        "n": 29,
+        "titulo": "Lay Back (In The Cut)",
+        "duracao": "5:04"
+      },
+      {
+        "n": 30,
+        "titulo": "Psychotic Tango",
+        "duracao": "5:22"
+      },
+      {
+        "n": 31,
+        "titulo": "Your Little Black Robot",
+        "duracao": "3:56"
+      },
+      {
+        "n": 32,
+        "titulo": "Frictional Beat No 5",
+        "duracao": "3:22"
+      },
+      {
+        "n": 33,
+        "titulo": "Frenchie",
+        "duracao": "3:19"
+      },
+      {
+        "n": 34,
+        "titulo": "Get A Feeling",
+        "duracao": "6:56"
+      },
+      {
+        "n": 35,
+        "titulo": "Flyswatter",
+        "duracao": "2:46"
+      }
+    ],
+    "duracao": "212:56",
+    "discogs": "https://www.discogs.com/release/2382671",
+    "complementos": {
+      "lancamento": "discogs",
+      "gravadora": "discogs",
+      "faixas": "discogs",
+      "duracao": "discogs"
     }
   },
   {
@@ -5539,10 +5731,83 @@
     "linksVerificados": "2026-10-27",
     "sobreVerificado": "2026-10-27",
     "destaqueVerificado": "2026-10-27",
-    "sobre": "Darkstorm Entwinded é um álbum de Ashtorath, lançado.",
+    "sobre": "Darkstorm Entwinded é um álbum de Ashtorath, lançado em 2007 pela NOTHingness REcords, com 12 faixas.",
     "sobreFonte": {
       "tipo": "dados",
-      "url": null
+      "url": "https://www.discogs.com/release/1783427",
+      "nome": "Discogs"
+    },
+    "lancamento": "2007",
+    "gravadora": "NOTHingness REcords",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "The Witching Hour Eternal (Intro)",
+        "duracao": "2:36"
+      },
+      {
+        "n": 2,
+        "titulo": "StormShard",
+        "duracao": "3:42"
+      },
+      {
+        "n": 3,
+        "titulo": "The Darkwood Forest",
+        "duracao": "6:03"
+      },
+      {
+        "n": 4,
+        "titulo": "Of Ebon Wings",
+        "duracao": "6:46"
+      },
+      {
+        "n": 5,
+        "titulo": "Understand",
+        "duracao": "1:10"
+      },
+      {
+        "n": 6,
+        "titulo": "Princess Of Death",
+        "duracao": "3:54"
+      },
+      {
+        "n": 7,
+        "titulo": "Hastings (Interlude)",
+        "duracao": "0:53"
+      },
+      {
+        "n": 8,
+        "titulo": "Throne Of Ellirith",
+        "duracao": "4:48"
+      },
+      {
+        "n": 9,
+        "titulo": "Graveyard Snow",
+        "duracao": "2:36"
+      },
+      {
+        "n": 10,
+        "titulo": "Within The Deep",
+        "duracao": "4:16"
+      },
+      {
+        "n": 11,
+        "titulo": "The Ashen Countess",
+        "duracao": "8:30"
+      },
+      {
+        "n": 12,
+        "titulo": "Vampiric Hymn Of Things To Come (Outro)",
+        "duracao": "3:08"
+      }
+    ],
+    "duracao": "48:22",
+    "discogs": "https://www.discogs.com/release/1783427",
+    "complementos": {
+      "lancamento": "discogs",
+      "gravadora": "discogs",
+      "faixas": "discogs",
+      "duracao": "discogs"
     }
   },
   {
@@ -16658,13 +16923,17 @@
     "complementos": {
       "gravadora": "deezer",
       "duracao": "deezer",
-      "faixas": "deezer"
+      "faixas": "deezer",
+      "lancamento": "discogs"
     },
-    "sobre": "Lady in Red é um álbum de Clueless, lançado pela L2s Recordings, com 3 faixas.",
+    "sobre": "Lady in Red é um álbum de Clueless, lançado em 2009 pela L2s Recordings, com 3 faixas.",
     "sobreFonte": {
       "tipo": "dados",
-      "url": null
-    }
+      "url": "https://www.discogs.com/release/2150520",
+      "nome": "Discogs"
+    },
+    "lancamento": "2009",
+    "discogs": "https://www.discogs.com/release/2150520"
   },
   {
     "id": "cluster-and-eno-cluster-and-eno",
@@ -21848,10 +22117,18 @@
     "linksVerificados": "2026-10-27",
     "sobreVerificado": "2026-10-27",
     "destaqueVerificado": "2026-10-27",
-    "sobre": "Future Perfect é um álbum de DJ Dara, lançado.",
+    "sobre": "Future Perfect é um álbum de DJ Dara, lançado em 2001 pela Moonshine Music.",
     "sobreFonte": {
       "tipo": "dados",
-      "url": null
+      "url": "https://www.discogs.com/release/6155302",
+      "nome": "Discogs"
+    },
+    "lancamento": "2001",
+    "gravadora": "Moonshine Music",
+    "discogs": "https://www.discogs.com/release/6155302",
+    "complementos": {
+      "lancamento": "discogs",
+      "gravadora": "discogs"
     }
   },
   {
@@ -29762,7 +30039,7 @@
     "artista": "Galaxian",
     "lancamento": "2010",
     "tipo": "Album",
-    "gravadora": null,
+    "gravadora": "Transient Force",
     "duracao": "45:56",
     "faixas": [
       {
@@ -29836,12 +30113,15 @@
       ]
     },
     "destaqueVerificado": "2026-10-27",
-    "sobre": "Repent é um álbum de Galaxian, lançado em 2010, com 9 faixas.",
+    "sobre": "Repent é um álbum de Galaxian, lançado em 2010 pela Transient Force, com 9 faixas.",
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/4d65b415-5b31-494c-8cbf-c3ae27af9bee"
     },
-    "discogs": "https://www.discogs.com/release/2579031"
+    "discogs": "https://www.discogs.com/release/2579031",
+    "complementos": {
+      "gravadora": "discogs"
+    }
   },
   {
     "id": "galaxy-2-galaxy-a-high-tech-jazz-compilation",
@@ -35366,7 +35646,7 @@
     "artista": "INTERNET CLUB",
     "lancamento": "2012-03-17",
     "tipo": "Album",
-    "gravadora": null,
+    "gravadora": "Lançamento independente",
     "duracao": "31:34",
     "faixas": [
       {
@@ -35456,12 +35736,15 @@
       ]
     },
     "destaqueVerificado": "2026-10-27",
-    "sobre": "Underwater Mirage é um álbum de INTERNET CLUB, lançado em 2012, com 12 faixas.",
+    "sobre": "Underwater Mirage é um álbum de INTERNET CLUB, lançado em 2012 de forma independente, com 12 faixas.",
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/a659576f-31dc-419d-81b1-f635f25ab4e8"
     },
-    "discogs": null
+    "discogs": "https://www.discogs.com/master/1640702",
+    "complementos": {
+      "gravadora": "discogs"
+    }
   },
   {
     "id": "isolee-we-are-monster",
@@ -52327,7 +52610,7 @@
     "artista": "Moëvöt",
     "lancamento": "1994",
     "tipo": "Other",
-    "gravadora": null,
+    "gravadora": "Lançamento independente",
     "duracao": null,
     "faixas": [
       {
@@ -52462,12 +52745,15 @@
     "linksVerificados": "2026-10-27",
     "sobreVerificado": "2026-10-27",
     "destaqueVerificado": "2026-10-27",
-    "sobre": "Ézléýfbdréhtr Vépréùb Zùérfl Màzàgvàtre Érbbédréà é um álbum de Moëvöt, lançado em 1994, com 23 faixas.",
+    "sobre": "Ézléýfbdréhtr Vépréùb Zùérfl Màzàgvàtre Érbbédréà é um álbum de Moëvöt, lançado em 1994 de forma independente, com 23 faixas.",
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/079e61dd-6967-3fb3-a02b-6a7e4cf7e324"
     },
-    "discogs": null
+    "discogs": "https://www.discogs.com/master/1280856",
+    "complementos": {
+      "gravadora": "discogs"
+    }
   },
   {
     "id": "monk-and-canatella-care-in-the-community",
@@ -77009,7 +77295,7 @@
     "artista": "Tony Humphries",
     "lancamento": "1997-03-25",
     "tipo": "Album / DJ-mix",
-    "gravadora": null,
+    "gravadora": "Bassline Records",
     "duracao": "74:40",
     "faixas": [
       {
@@ -77113,12 +77399,15 @@
       ]
     },
     "destaqueVerificado": "2026-10-27",
-    "sobre": "Take Home the Club é um álbum de Tony Humphries, lançado em 1997, com 15 faixas.",
+    "sobre": "Take Home the Club é um álbum de Tony Humphries, lançado em 1997 pela Bassline Records, com 15 faixas.",
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/801d7537-4213-4989-960d-6fc88ae158d9"
     },
-    "discogs": "https://www.discogs.com/release/10416115"
+    "discogs": "https://www.discogs.com/release/10416115",
+    "complementos": {
+      "gravadora": "discogs"
+    }
   },
   {
     "id": "tormentor-anno-domini",
@@ -79035,9 +79324,9 @@
     "id": "undiscovered-moons-of-saturn-lost-in-cosmos",
     "titulo": "Lost in Cosmos...",
     "artista": "Undiscovered Moons of Saturn",
-    "lancamento": null,
+    "lancamento": "2004",
     "tipo": "Album",
-    "gravadora": null,
+    "gravadora": "Nulll",
     "duracao": null,
     "faixas": [
       {
@@ -79106,12 +79395,16 @@
       ]
     },
     "destaqueVerificado": "2026-10-27",
-    "sobre": "Lost in Cosmos... é um álbum de Undiscovered Moons of Saturn, lançado, com 8 faixas.",
+    "sobre": "Lost in Cosmos... é um álbum de Undiscovered Moons of Saturn, lançado em 2004 pela Nulll, com 8 faixas.",
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/ab89169a-f31c-30ba-9b4e-d04898f92ef7"
     },
-    "discogs": null
+    "discogs": "https://www.discogs.com/release/4018114",
+    "complementos": {
+      "lancamento": "discogs",
+      "gravadora": "discogs"
+    }
   },
   {
     "id": "unkle-never-never-land",
@@ -81090,10 +81383,18 @@
     "linksVerificados": "2026-10-27",
     "sobreVerificado": "2026-10-27",
     "destaqueVerificado": "2026-10-27",
-    "sobre": "Transmissions Vol. 1 é um álbum de Various Artists, lançado.",
+    "sobre": "Transmissions Vol. 1 é um álbum de Various Artists, lançado em 2011 pela Black Box.",
     "sobreFonte": {
       "tipo": "dados",
-      "url": null
+      "url": "https://www.discogs.com/release/3036411",
+      "nome": "Discogs"
+    },
+    "discogs": "https://www.discogs.com/release/3036411",
+    "lancamento": "2011-06-27",
+    "gravadora": "Black Box",
+    "complementos": {
+      "lancamento": "discogs",
+      "gravadora": "discogs"
     }
   },
   {
@@ -83201,13 +83502,17 @@
     "complementos": {
       "gravadora": "deezer",
       "duracao": "deezer",
-      "faixas": "deezer"
+      "faixas": "deezer",
+      "lancamento": "discogs"
     },
-    "sobre": "Etymology of Maureen é um álbum de Whistla, lançado pela L2s Recordings, com 4 faixas.",
+    "sobre": "Etymology of Maureen é um álbum de Whistla, lançado em 2010 pela L2s Recordings, com 4 faixas.",
     "sobreFonte": {
       "tipo": "dados",
-      "url": null
-    }
+      "url": "https://www.discogs.com/release/2538484",
+      "nome": "Discogs"
+    },
+    "lancamento": "2010-10",
+    "discogs": "https://www.discogs.com/release/2538484"
   },
   {
     "id": "william-basinski-the-disintegration-loops",
