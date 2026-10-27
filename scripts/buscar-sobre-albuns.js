@@ -93,7 +93,7 @@ async function introducao(lang, titulo, album) {
   let texto = frases[0] || "";
   for (let i = 1; i < 3 && i < frases.length && (texto + " " + frases[i]).length <= MAX_SOBRE; i++) texto += " " + frases[i];
   // O texto é sobre o álbum se cita o título ou se a primeira frase fala de um álbum.
-  const sobreOAlbum = norm(texto).includes(norm(album)) || /\b(álbum|album|albumet|albumi|albumu|EP|LP|disco|disque|compilação|compilation|coletânea|Sampler)\b|アルバム|альбом/i.test(frases[0] || "");
+  const sobreOAlbum = norm(texto).includes(norm(album)) || /\b(álbuns|álbum|albums|album|albumet|albumi|albumu|EP|LP|disco|disque|compilação|compilation|coletânea|Sampler)\b|アルバム|альбом/i.test(frases[0] || "");
   return texto.length >= 40 && sobreOAlbum ? { titulo: p.title, texto } : null;
 }
 

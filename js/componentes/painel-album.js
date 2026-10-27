@@ -40,7 +40,7 @@ function review(r) {
   const nome = r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.fonte)}</a>` : esc(r.fonte);
   return `<li><span class="review-fonte">${nome}</span>
     <span class="estrelas" style="--nota:${r.estrelas}" role="img" aria-label="${estrelas} de 5 estrelas"></span>
-    <span class="review-nota">${esc(r.nota)}</span></li>`;
+    <span class="review-nota"${r.votos ? ` title="Média de ${r.votos} avaliações"` : ""}>${esc(r.nota)}</span></li>`;
 }
 
 // Faixa destaque (scripts/buscar-destaques.js): título, duração, o critério da escolha e os links
@@ -57,6 +57,25 @@ function destaque(d) {
       </div>
       ${links}
     </div>`;
+}
+
+// Nome do site de uma imagem (CDNs conhecidos viram o nome do serviço).
+const SITES = { "bcbits.com": "Bandcamp", "bandcamp.com": "Bandcamp", "dzcdn.net": "Deezer", "mzstatic.com": "Apple Music" };
+function nomeSite(url) {
+  const host = new URL(url).hostname.replace(/^www\./, "");
+  return Object.entries(SITES).find(([d]) => host === d || host.endsWith("." + d))?.[1] || host;
+}
+
+// Rodapé: de onde vêm os dados e a capa (Cover Art Archive, ou o site de onde ela foi tirada).
+function rodape(f) {
+  const dados = f.musicbrainz?.releaseGroup
+    ? `Dados: <a href="https://musicbrainz.org/release-group/${esc(f.musicbrainz.releaseGroup)}" target="_blank" rel="noopener">MusicBrainz</a>` : "";
+  let capa = "";
+  if (f.capaFonte) {
+    try { capa = `capa: <a href="${esc(f.capaFonte)}" target="_blank" rel="noopener">${esc(nomeSite(f.capaFonte))}</a>`; } catch { capa = ""; }
+  } else if (f.capa) capa = "capa: Cover Art Archive";
+  const partes = [dados, capa].filter(Boolean);
+  return partes.length ? `<p class="painel-fonte">${partes.join(" · ")}</p>` : "";
 }
 
 function conteudo(f) {
@@ -80,12 +99,12 @@ function conteudo(f) {
     ${f.reviews?.length ? `
       <h3 class="painel-secao">O que a crítica disse</h3>
       <ul class="painel-reviews">${f.reviews.map(review).join("")}</ul>
-      <p class="painel-fonte">Notas reunidas na <a href="${esc(f.reviews[0].via)}" target="_blank" rel="noopener">Wikipédia em inglês</a>.</p>` : ""}
+      ${f.reviews.some((r) => r.via) ? `<p class="painel-fonte">Notas da crítica reunidas na <a href="${esc(f.reviews.find((r) => r.via).via)}" target="_blank" rel="noopener">Wikipédia em inglês</a>.</p>` : ""}` : ""}
     ${f.links && Object.keys(f.links).length ? `
       <h3 class="painel-secao">Ouça o álbum</h3>
       <ul class="painel-plataformas" aria-label="Ouvir">${botoesStreaming(f, { comNome: true })}</ul>` : ""}
     ${f.conferir ? `<p class="painel-aviso">Dados ainda em revisão.</p>` : ""}
-    ${f.musicbrainz?.releaseGroup ? `<p class="painel-fonte">Dados: <a href="https://musicbrainz.org/release-group/${esc(f.musicbrainz.releaseGroup)}" target="_blank" rel="noopener">MusicBrainz</a> · capa: Cover Art Archive</p>` : ""}`;
+    ${rodape(f)}`;
 }
 
 export function abrirPainel(ficha, botao) {

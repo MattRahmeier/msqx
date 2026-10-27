@@ -10,6 +10,10 @@
     "fonte": "https://it.wikipedia.org/wiki/Chet_Baker_Sextet"
   },
   "dizzy-gillespie-and-stan-getz-diz-and-getz": "810e0bfb-f502-3ad0-a345-e25eb4ac140e",
+  "don-cherry-mu": {
+    "releaseGroup": "f70910ed-0e5b-33c8-a0e2-69829accbd6a",
+    "sobreArtigo": "en:Mu (album)"
+  },
   "dr-octagon-dr-octagonecologyst": {
     "releaseGroup": "b38e21f6-8f76-3f87-a021-e91afad9e7e5",
     "sobreArtigo": "en:Dr. Octagonecologyst"
@@ -35,6 +39,7 @@
   "madlib-shades-of-blue": "ce569c5b-b67b-3e0c-b4c0-04d916d13891",
   "mississippi-john-hurt-avalon-blues": "bfd3b16f-6808-3f2e-9c44-9a16400c5ab4",
   "orchestral-manoeuvres-in-the-dark-architecture-and-morality": "c31b767b-97f0-3cb1-8b09-233a64683997",
+  "otis-rush-so-many-roads": "4b3abe17-fe74-3ac8-955b-59e0d479d662",
   "peste-noire-la-sanie-des-siecles": "d0f13115-31d3-36fb-a2e6-8d4ec1e8d913",
   "rory-gallagher-irish-tour": "a512f8cf-7f54-3f18-aa34-be88cf6b1347",
   "ryuichi-sakamoto-the-thousand-knives-of-ryuichi-sakamoto": "e47e1a1f-5060-3ec2-9444-f93c2212ec49",
@@ -50,6 +55,10 @@
     "titulo": "Nattestid ser porten vid"
   },
   "the-miles-davis-quintet-steamin-with-the-miles-davis-quintet": "f0b72e4b-e2af-32e5-aa4a-5005deb2db17",
+  "thelonious-monk-genius-of-modern-music-vols-1-and-2": {
+    "releaseGroup": "4ef4f9b3-f1e1-35fa-a117-ca9004b2a80c",
+    "nota": "o chart pede Vols. 1 & 2; o usuário decidiu manter o Volume 1 como referência"
+  },
   "tommy-johnson-complete-recorded-works": "5f859c5a-29f5-3661-bd0d-1954bbec90eb",
   "tormentor-anno-domini": {
     "releaseGroup": "c5f3668a-91bb-3637-a445-2346034236c4",

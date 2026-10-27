@@ -55,6 +55,8 @@
 - [x] Textos em inglês (165 "sobre", 7 resumos e 55 "como soa") traduzidos para o português, com aviso de tradução e link para o original.
 - [x] Caixa lateral: "Faixa destaque" (média de popularidade no Deezer, no YouTube Music e no ListenBrainz, com links para a faixa) logo abaixo dos dados; os links do álbum ("Ouça o álbum") foram para depois da crítica. Fonte citada uma vez só.
 - [x] Todas as fichas com lançamento, duração, gravadora e faixas (`scripts/completar-fichas.js`; validador exige os quatro).
+- [x] Fichas sem lacunas: capas (busca de imagem quando preciso, com a fonte no rodapé), "sobre" em todas (Wikipédias em outros idiomas ou descrição montada com os dados), notas extras do Pitchfork e do Discogs.
+- [ ] Notas da crítica para os 25 álbuns que não têm nenhuma (sites restantes bloqueiam acesso automatizado).
 - [ ] Caixa lateral: tags.
 - [ ] "Gêneros similares" no fim da página do gênero.
 

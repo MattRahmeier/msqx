@@ -10,6 +10,8 @@ Site de curadoria musical ("segundo cérebro" de gêneros). Leia antes de trabal
 Conteúdo:
 - Resumos e descrições de gêneros/álbuns são sempre texto escrito por pessoas (Wikipédia ou outra fonte com licença livre, citada), nunca redigidos pelo Claude. Não copiar texto de sites com direitos reservados (RYM, AllMusic etc.); usar só como link.
 - Textos que só existem em inglês são traduzidos para o português com fidelidade (sem acrescentar nada) e marcados com `traduzido: true` na fonte; o site avisa "Traduzido do inglês" e mostra só o link para o original — o texto em inglês não é guardado (`scripts/aplicar-traducoes.js`).
+- Álbum sem artigo em nenhuma Wikipédia: descrição curta montada só com os dados da ficha (coletânea/ao vivo/álbum, artista, ano, gravadora, faixas), com `sobreFonte.tipo: "dados"` (`scripts/descrever-albuns.js`) — decisão do usuário.
+- Notas da crítica podem vir de outros sites (Pitchfork, Discogs…) — só a nota e o link, nunca o texto. Sites que bloqueiam acesso automatizado (Cloudflare) não são contornados.
 - Exceção: quando o usuário indica uma fonte sem licença livre (ex.: comentário do Reddit), reescrever os pontos principais com outras palavras, sem acrescentar informação que não está na fonte, e marcar `resumoFonte.tipo: "parafrase"`.
 
 Convenções:

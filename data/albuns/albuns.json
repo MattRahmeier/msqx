@@ -392,7 +392,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "Jazz Sounds of Africa é uma coletânea de Ahmed Abdul‐Malik que reúne gravações já lançadas do artista, publicada em 2003 pela Prestige, com 12 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/49f8201d-1ffe-332a-a321-dc3fa716a1d9"
+    }
   },
   {
     "id": "albert-king-born-under-a-bad-sign",
@@ -730,6 +734,13 @@
         "estrelas": 4.5,
         "url": "https://www.allmusic.com/album/forever-young-mw0000206620",
         "via": "https://en.wikipedia.org/wiki/Forever_Young_(Alphaville_album)#Critical_reception"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.13/5",
+        "estrelas": 4,
+        "url": "https://www.discogs.com/master/68304",
+        "votos": 1009
       }
     ],
     "sobreVerificado": "2026-10-26",
@@ -2056,7 +2067,16 @@
       "idioma": "es",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.44/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/111329",
+        "votos": 27
+      }
+    ]
   },
   {
     "id": "bathory-blood-fire-death",
@@ -2137,6 +2157,13 @@
       "licenca": "CC BY-SA 4.0"
     },
     "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.63/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/5803",
+        "votos": 405
+      },
       {
         "fonte": "AllMusic",
         "nota": "4/5",
@@ -2628,6 +2655,13 @@
         "estrelas": 4.5,
         "url": "https://www.allmusic.com/album/pleasure-victim-mw0000189222",
         "via": "https://en.wikipedia.org/wiki/Pleasure_Victim#Critical_reception"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.3/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/64878",
+        "votos": 108
       }
     ],
     "sobreVerificado": "2026-10-26",
@@ -2765,7 +2799,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "The Young Big Bill Broonzy 1928-1935 é uma coletânea de Big Bill Broonzy que reúne gravações já lançadas do artista, publicada em 1991 pela Yazoo Records, com 14 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/9a6e02fc-7ba8-3ffa-be28-f7e1b3a65436"
+    }
   },
   {
     "id": "black-dog-productions-bytes",
@@ -3293,6 +3331,13 @@
     },
     "reviews": [
       {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.45/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/7347",
+        "votos": 51
+      },
+      {
         "fonte": "Sputnikmusic",
         "nota": "4/5",
         "estrelas": 4,
@@ -3473,7 +3518,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "Complete Recorded Works in Chronological Order, Volume 1: 1925–1926 é uma coletânea de Blind Lemon Jefferson que reúne gravações já lançadas do artista, publicada em 1991 pela Document Records, com 23 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/5f637c42-addf-40a6-968a-fc8280064405"
+    }
   },
   {
     "id": "blind-willie-mctell-statesboro-blues",
@@ -3757,7 +3806,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "Statesboro Blues: Collected Recordings 1927-1950 é uma coletânea de Blind Willie McTell que reúne gravações já lançadas do artista, publicada em 2024 pela Acrobat, com 48 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/fb155200-4de2-4645-8ded-5fe5453f3030"
+    }
   },
   {
     "id": "boards-of-canada-music-has-the-right-to-children",
@@ -4237,7 +4290,20 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.34/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/238366",
+        "votos": 95
+      }
+    ],
+    "sobre": "Play the Blues é um álbum de Buddy Guy & Junior Wells, lançado em 1972 pela ATCO Records, com 10 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/393fa734-a5a2-3362-b664-1e1cdc1466be"
+    }
   },
   {
     "id": "buddy-guy-sweet-tea",
@@ -4415,6 +4481,13 @@
         "estrelas": 4.5,
         "url": "http://www.allmusic.com/album/hvis-lyset-tar-oss-mw0000626139",
         "via": "https://en.wikipedia.org/wiki/Hvis_lyset_tar_oss#Critical_reception"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.58/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/13440",
+        "votos": 292
       }
     ],
     "sobreVerificado": "2026-10-26",
@@ -6115,12 +6188,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/charlie-parker-boss-bird.jpg",
     "musicbrainz": {
       "releaseGroup": "9c3f5fec-4006-3a40-b7d3-5da75570fdc8",
       "release": "a03cab45-8d82-4c95-b93e-a56589cf9b67"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "jazz"
     ],
@@ -6139,7 +6211,15 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "capaFonte": "https://charlie-parkermnea.bandcamp.com/album/boss-bird",
+    "complementos": {
+      "capa": "busca de imagens (Bing)"
+    },
+    "sobre": "Boss Bird! é uma coletânea de Charlie Parker que reúne gravações já lançadas do artista, publicada em 1998 pela Official, com 32 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/9c3f5fec-4006-3a40-b7d3-5da75570fdc8"
+    }
   },
   {
     "id": "chet-baker-chet-baker-sextet",
@@ -6687,7 +6767,20 @@
         "deezer"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.5/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/269223",
+        "votos": 50
+      }
+    ],
+    "sobre": "Brown and Roach, Incorporated é um álbum de Clifford Brown & Max Roach Quintet, lançado em 1955 pela EmArcy, com 7 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/dc58f4ff-c913-3dfa-8b6b-ce05535669cf"
+    }
   },
   {
     "id": "clifford-brown-and-max-roach-study-in-brown",
@@ -7023,7 +7116,20 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.53/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/416244",
+        "votos": 127
+      }
+    ],
+    "sobre": "Melancholie² é um álbum de ColdWorld, lançado em 2008 pela Cold Dimensions, com 9 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/520a4be1-dab5-3ab6-afa8-0c826a2a108e"
+    }
   },
   {
     "id": "common-like-water-for-chocolate",
@@ -7265,7 +7371,20 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.23/5",
+        "estrelas": 4,
+        "url": "https://www.discogs.com/master/11900",
+        "votos": 141
+      }
+    ],
+    "sobre": "Cylobian Sunset é um álbum de Cylob, lançado em 1996 pela Rephlex, com 9 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/321978a4-4c80-3936-a50e-5439d2a0322c"
+    }
   },
   {
     "id": "darkthrone-transilvanian-hunger",
@@ -7351,6 +7470,13 @@
         "estrelas": 4.5,
         "url": "http://www.allmusic.com/album/transilvanian-hunger-mw0000368185",
         "via": "https://en.wikipedia.org/wiki/Transilvanian_Hunger#Critical_reception"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.57/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/5582",
+        "votos": 202
       }
     ],
     "sobreVerificado": "2026-10-26",
@@ -8546,7 +8672,16 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.17/5",
+        "estrelas": 4,
+        "url": "https://www.discogs.com/master/52741",
+        "votos": 343
+      }
+    ]
   },
   {
     "id": "dexter-gordon-go",
@@ -9178,7 +9313,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "Dizzy Gillespie and His Big Band in Concert é um álbum ao vivo de Dizzy Gillespie, lançado em 1957 pela GNP Crescendo Records, com 8 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/fb054ed4-397f-3a19-9546-5bfa2f263715"
+    }
   },
   {
     "id": "dj-shadow-endtroducing",
@@ -9315,64 +9454,84 @@
   },
   {
     "id": "don-cherry-mu",
-    "titulo": "MU",
-    "artista": "宮沢りえ",
-    "lancamento": "1989-11-21",
-    "tipo": "Album",
-    "gravadora": "CBS/Sony",
-    "duracao": "41:45",
+    "titulo": "Mu (First and Second Parts)",
+    "artista": "Don Cherry",
+    "lancamento": "1971",
+    "tipo": "Album / Compilation",
+    "gravadora": "BYG Records",
+    "duracao": "68:57",
     "faixas": [
       {
         "n": 1,
-        "titulo": "ごきげんなHEART",
-        "duracao": "5:08"
+        "titulo": "Brilliant Action",
+        "duracao": "8:50"
       },
       {
         "n": 2,
-        "titulo": "DREAM RUSH",
-        "duracao": "4:35"
+        "titulo": "Omejelo",
+        "duracao": "7:25"
       },
       {
         "n": 3,
-        "titulo": "A・B・CD",
-        "duracao": "4:34"
+        "titulo": "Total Vibration, Part 1",
+        "duracao": "3:00"
       },
       {
         "n": 4,
-        "titulo": "わたしは何?",
-        "duracao": "4:29"
+        "titulo": "Total Vibration, Part 2",
+        "duracao": "6:00"
       },
       {
         "n": 5,
-        "titulo": "夢みてごらんよ",
-        "duracao": "4:23"
+        "titulo": "Sun of the East",
+        "duracao": "7:30"
       },
       {
         "n": 6,
-        "titulo": "秘密がいっぱい",
-        "duracao": "5:14"
+        "titulo": "Terrestrial Beings",
+        "duracao": "4:40"
       },
       {
         "n": 7,
-        "titulo": "WAITING FOR YOU",
-        "duracao": "3:53"
+        "titulo": "The Mysticism of My Sound",
+        "duracao": "4:00"
       },
       {
         "n": 8,
-        "titulo": "SHOOTING STAR",
-        "duracao": "4:46"
+        "titulo": "Medley: a) Dollar Brand; b) Spontaneous Composing; c) Exert, Man on the Moon",
+        "duracao": "3:15"
       },
       {
         "n": 9,
-        "titulo": "MOST",
-        "duracao": "4:43"
+        "titulo": "Bamboo Night",
+        "duracao": "6:07"
+      },
+      {
+        "n": 10,
+        "titulo": "Teo-Teo Can",
+        "duracao": "6:30"
+      },
+      {
+        "n": 11,
+        "titulo": "Smiling Faces, Going Places",
+        "duracao": "5:00"
+      },
+      {
+        "n": 12,
+        "titulo": "Psycho Drama",
+        "duracao": "2:45"
+      },
+      {
+        "n": 13,
+        "titulo": "Medley: a) Theme: Albert Heath; b) Theme: Dollar Brand; c) Babyrest, Time For...",
+        "duracao": "3:55"
       }
     ],
     "links": {},
     "capa": "assets/img/capas/don-cherry-mu.jpg",
     "musicbrainz": {
-      "releaseGroup": "558ce6f3-2deb-4260-acc3-69c7c8e18e12",
-      "release": "7179cfde-a112-4553-9362-99aca4e0e828"
+      "releaseGroup": "f70910ed-0e5b-33c8-a0e2-69829accbd6a",
+      "release": "418f1926-c3f5-4e88-830c-f243e95b2290"
     },
     "charts": [
       "jazz"
@@ -9380,19 +9539,48 @@
     "generos": [
       "jazz"
     ],
-    "linksVerificados": "2026-10-26",
+    "linksVerificados": "2026-10-27",
     "sobreVerificado": "2026-10-27",
-    "destaqueVerificado": "2026-10-27",
     "destaque": {
-      "titulo": "DREAM RUSH",
-      "duracao": "4:35",
-      "links": {},
+      "titulo": "Brilliant Action",
+      "duracao": "8:44",
+      "links": {
+        "deezer": "https://www.deezer.com/track/111091738"
+      },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
+        "deezer",
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "destaqueVerificado": "2026-10-27",
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
+    },
+    "sobre": "Mu, First Part e Mu, Second Part são um par de álbuns de estúdio do músico de jazz americano Don Cherry. Os álbuns foram gravados numa única sessão, em 22 de agosto de 1969, no Studio Saravah, em Paris, com o baterista Ed Blackwell, e lançados pela BYG Records na série Actuel em 1969 (First Part) e 1970 (Second Part). Em 1971, a BYG lançou as duas partes juntas numa caixa.",
+    "sobreFonte": {
+      "url": "https://en.wikipedia.org/wiki/Mu_(album)",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "reviews": [
+      {
+        "fonte": "The Penguin Guide to Jazz",
+        "nota": "4/4",
+        "estrelas": 5,
+        "url": null,
+        "via": "https://en.wikipedia.org/wiki/Mu_(album)#Critical_reception"
+      },
+      {
+        "fonte": "AllMusic",
+        "nota": "4/5",
+        "estrelas": 4,
+        "url": "https://www.allmusic.com/album/mu-first-part-mu-second-part-mw0000014542",
+        "via": "https://en.wikipedia.org/wiki/Mu_(album)#Critical_reception"
+      }
+    ]
   },
   {
     "id": "dr-dre-the-chronic",
@@ -9793,7 +9981,16 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.51/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/29137",
+        "votos": 164
+      }
+    ]
   },
   {
     "id": "duke-ellington-charles-mingus-and-max-roach-money-jungle",
@@ -10435,7 +10632,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "The Sky Is Crying é um álbum de Elmore James, lançado em 1965 pela Sphere Sound Records, com 16 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/61c10b5b-ec7f-4132-8be8-528525ad3cf2"
+    }
   },
   {
     "id": "emperor-in-the-nightside-eclipse",
@@ -11065,6 +11266,13 @@
         "estrelas": 4.5,
         "url": null,
         "via": "https://en.wikipedia.org/wiki/1984_(For_the_Love_of_Big_Brother)#Critical_reception"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "3.7/5",
+        "estrelas": 3.5,
+        "url": "https://www.discogs.com/master/72184",
+        "votos": 218
       }
     ],
     "sobreVerificado": "2026-10-26",
@@ -11788,7 +11996,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "Blues Guitar Hero é uma coletânea de Freddie King que reúne gravações já lançadas do artista, publicada em 1993 pela Ace, com 24 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/9d1da16a-bd72-3154-b9c0-f3e78a8b7414"
+    }
   },
   {
     "id": "freddie-king-lets-dance-and-hide-away",
@@ -11891,7 +12103,20 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.5/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/431778",
+        "votos": 28
+      }
+    ],
+    "sobre": "Let's Hide Away and Dance Away with Freddie King é um álbum de Freddie King, lançado em 1961 pela King Records, com 12 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/c5e9cfff-c935-3dd6-8e0e-21062db7bac1"
+    }
   },
   {
     "id": "gang-of-four-entertainment",
@@ -12992,7 +13217,20 @@
         "deezer"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.68/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/15353",
+        "votos": 275
+      }
+    ],
+    "sobre": "Formless é um álbum de Gridlock, lançado em 2003 pela Hymen Records, com 10 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/b60da656-03bf-3f4c-8ba7-85b717f1248f"
+    }
   },
   {
     "id": "gris-il-etait-une-foret",
@@ -13060,7 +13298,20 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.47/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/195663",
+        "votos": 101
+      }
+    ],
+    "sobre": "Il était une forêt… é um álbum de Gris, lançado em 2007 pela Sepulchral Productions, com 6 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/6aae5c44-8a6b-391e-ac80-9460b2f07f27"
+    }
   },
   {
     "id": "gza-liquid-swords",
@@ -13624,7 +13875,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "Pile O' Meat é um álbum de 'Haunted' George, lançado em 2007 pela Hook or Crook Records, com 15 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/9b8fa477-8b1e-4593-8de8-9593f832391f"
+    }
   },
   {
     "id": "heaven-17-penthouse-and-pavement",
@@ -13839,7 +14094,16 @@
       "plataformas": [
         "listenbrainz"
       ]
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.27/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/12739",
+        "votos": 30
+      }
+    ]
   },
   {
     "id": "herbie-hancock-head-hunters",
@@ -14316,6 +14580,13 @@
         "estrelas": 4.5,
         "url": "http://www.allmusic.com/album/moanin-in-the-moonlight-mw0000313784",
         "via": "https://en.wikipedia.org/wiki/Moanin'_in_the_Moonlight#Critical_reception"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.3/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/103290",
+        "votos": 98
       }
     ],
     "sobreVerificado": "2026-10-26",
@@ -14551,6 +14822,13 @@
         "estrelas": 4.5,
         "url": null,
         "via": "https://en.wikipedia.org/wiki/Pure_Holocaust#Critical_reception"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.49/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/13076",
+        "votos": 419
       }
     ],
     "destaqueVerificado": "2026-10-27",
@@ -15284,7 +15562,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "The Best of the Vee-Jay Years é uma coletânea de Jimmy Reed que reúne gravações já lançadas do artista, publicada em 2007 pela Shout! Factory, com 18 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/0e7cd56a-ab06-39e0-9409-e5ecadd76af8"
+    }
   },
   {
     "id": "john-coltrane-a-love-supreme",
@@ -15344,6 +15626,13 @@
         "estrelas": 5,
         "url": null,
         "via": "https://en.wikipedia.org/wiki/A_Love_Supreme#Critical_reception"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.74/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/32287",
+        "votos": 78
       }
     ],
     "sobreVerificado": "2026-10-26",
@@ -16085,7 +16374,20 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.22/5",
+        "estrelas": 4,
+        "url": "https://www.discogs.com/master/319831",
+        "votos": 65
+      }
+    ],
+    "sobre": "The Best of Friends é uma coletânea de John Lee Hooker que reúne gravações já lançadas do artista, publicada em 1998 pela Pointblank Records, com 13 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/6f3f2d2d-e374-3ea7-9bdb-9b1584bf249d"
+    }
   },
   {
     "id": "john-lee-hooker-the-very-best-of-john-lee-hooker",
@@ -16330,7 +16632,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "The Very Best of John Lee Hooker é uma coletânea de John Lee Hooker que reúne gravações já lançadas do artista, publicada em 1996 pela Startel Entertainment, com 40 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/c058bbdc-2cc5-453a-972f-4fdd0fdd0206"
+    }
   },
   {
     "id": "john-mayall-blues-breakers-with-eric-clapton",
@@ -16548,6 +16854,13 @@
       "traduzido": true
     },
     "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.28/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/35795",
+        "votos": 169
+      },
       {
         "fonte": "AllMusic",
         "nota": "4/5",
@@ -17906,7 +18219,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "Where Did You Sleep Last Night: Lead Belly Legacy, Vol. 1 é uma coletânea de Lead Belly que reúne gravações já lançadas do artista, publicada em 1996 pela Smithsonian Folkways, com 34 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/452a5573-d496-3062-8ce2-c8e7afd399e4"
+    }
   },
   {
     "id": "lee-morgan-cornbread",
@@ -18071,7 +18388,20 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.69/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/298369",
+        "votos": 32
+      }
+    ],
+    "sobre": "Volume 2, Sextet é um álbum de Lee Morgan, lançado em 1957 pela Blue Note, com 6 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/d701c64b-3e9e-3fba-9175-3782a2f30e94"
+    }
   },
   {
     "id": "lee-morgan-search-for-the-new-land",
@@ -18346,6 +18676,13 @@
         "estrelas": 4,
         "url": null,
         "via": "https://en.wikipedia.org/wiki/World_Machine#Critical_reception"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "3.93/5",
+        "estrelas": 4,
+        "url": "https://www.discogs.com/master/85300",
+        "votos": 413
       }
     ],
     "sobreVerificado": "2026-10-26",
@@ -18573,6 +18910,13 @@
     },
     "reviews": [
       {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.73/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/461009",
+        "votos": 15
+      },
+      {
         "fonte": "The Penguin Guide to Blues Recordings",
         "nota": "3/4",
         "estrelas": 4,
@@ -18739,7 +19083,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "Steppin' on the Blues é uma coletânea de Lonnie Johnson que reúne gravações já lançadas do artista, publicada em 1990 pela Columbia, com 19 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/fb51f244-1e6f-3895-9c22-daf36626d3e3"
+    }
   },
   {
     "id": "louis-armstrong-the-complete-hot-five-and-hot-seven-recordings",
@@ -19253,7 +19601,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "The Complete Hot Five and Hot Seven Recordings é uma coletânea de Louis Armstrong que reúne gravações já lançadas do artista, publicada em 2000 pela Legacy, com 93 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/78b00b36-8cb8-3ae5-86f9-04ed4bae3029"
+    }
   },
   {
     "id": "m-new-york-london-paris-munich",
@@ -20034,7 +20386,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "Live at the Cookery é um álbum ao vivo de Mary Lou Williams, lançado em 1990 pela Chiaroscuro Records, com 12 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/06dd55a5-7611-4b54-b16d-812d1b6b1894"
+    }
   },
   {
     "id": "masters-hammer-ritual",
@@ -20141,7 +20497,16 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.68/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/110770",
+        "votos": 82
+      }
+    ]
   },
   {
     "id": "max-roach-we-insist-max-roachs-freedom-now-suite",
@@ -20211,7 +20576,20 @@
         "deezer"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.73/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/64368",
+        "votos": 74
+      }
+    ],
+    "sobre": "We Insist! Max Roach’s Freedom Now Suite é um álbum de Max Roach, lançado em 1961 pela Candid, com 5 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/74a22423-bc30-3f20-8339-bcee59483819"
+    }
   },
   {
     "id": "mayhem-de-mysteriis-dom-sathanas",
@@ -21663,7 +22041,11 @@
       ]
     },
     "destaqueVerificado": "2026-10-27",
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "Avalon Blues: The Complete 1928 OKeh Recordings é uma coletânea de Mississippi John Hurt que reúne gravações já lançadas do artista, publicada em 1996 pela Legacy, com 13 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/bfd3b16f-6808-3f2e-9c44-9a16400c5ab4"
+    }
   },
   {
     "id": "mobb-deep-the-infamous",
@@ -21896,7 +22278,20 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.03/5",
+        "estrelas": 4,
+        "url": "https://www.discogs.com/master/337732",
+        "votos": 38
+      }
+    ],
+    "sobre": "MJQ é um álbum de The Modern Jazz Quartet & The Milt Jackson Quintet, lançado em 1984 pela Prestige, com 8 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/1f8e11fe-7208-3943-8f7c-63a8ff138d40"
+    }
   },
   {
     "id": "mos-def-black-on-both-sides",
@@ -23348,89 +23743,68 @@
   },
   {
     "id": "otis-rush-so-many-roads",
-    "titulo": "So Many Roads",
-    "artista": "Albert King & Otis Rush",
-    "lancamento": "1992",
-    "tipo": "Album / Compilation",
-    "gravadora": "Charly R&B",
-    "duracao": "39:32",
+    "titulo": "So Many Roads: Live in Concert",
+    "artista": "Otis Rush",
+    "lancamento": "1978",
+    "tipo": "Album / Live",
+    "gravadora": "Delmark Records",
+    "duracao": "43:18",
     "faixas": [
       {
         "n": 1,
-        "titulo": "Bad Luck (Blues)",
-        "duracao": "3:02"
+        "titulo": "Will My Woman Be Home Tonight",
+        "duracao": "3:59"
       },
       {
         "n": 2,
-        "titulo": "(Be on Your) Merry Way",
-        "duracao": "2:52"
+        "titulo": "Every Day I Have the Blues",
+        "duracao": "3:30"
       },
       {
         "n": 3,
-        "titulo": "Murder",
-        "duracao": "2:56"
+        "titulo": "I Can't Quit You, Baby",
+        "duracao": "6:21"
       },
       {
         "n": 4,
-        "titulo": "Searching for a Woman",
-        "duracao": "3:04"
+        "titulo": "Crosscut Saw",
+        "duracao": "3:45"
       },
       {
         "n": 5,
-        "titulo": "California Blues",
-        "duracao": "2:47"
+        "titulo": "Looking Back",
+        "duracao": "4:26"
       },
       {
         "n": 6,
-        "titulo": "Wild Women",
-        "duracao": "2:39"
+        "titulo": "All Your Love I Miss Loving",
+        "duracao": "4:14"
       },
       {
         "n": 7,
-        "titulo": "Won't Be Hangin' Around No More",
-        "duracao": "2:56"
+        "titulo": "So Many Roads",
+        "duracao": "5:27"
       },
       {
         "n": 8,
-        "titulo": "Howlin' for My Darling",
-        "duracao": "3:04"
+        "titulo": "Gambler's Blues",
+        "duracao": "6:51"
       },
       {
         "n": 9,
-        "titulo": "So Many Roads, So Many Trains",
-        "duracao": "3:12"
-      },
-      {
-        "n": 10,
-        "titulo": "I'm Satisfied",
-        "duracao": "2:23"
-      },
-      {
-        "n": 11,
-        "titulo": "So Close",
-        "duracao": "2:47"
-      },
-      {
-        "n": 12,
-        "titulo": "All Your Love",
-        "duracao": "2:56"
-      },
-      {
-        "n": 13,
-        "titulo": "You Know My Love",
-        "duracao": "2:41"
-      },
-      {
-        "n": 14,
-        "titulo": "I Can't Stop Baby",
-        "duracao": "2:14"
+        "titulo": "Three Times a Fool",
+        "duracao": "4:45"
       }
     ],
-    "links": {},
+    "links": {
+      "deezer": "https://www.deezer.com/album/1020353",
+      "appleMusic": "https://music.apple.com/br/album/so-many-roads-live-in-concert/118755651",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_keAmWTl_Q44s-BHTWFXy-9rY5mXj4mS0Y"
+    },
     "capa": "assets/img/capas/otis-rush-so-many-roads.jpg",
     "musicbrainz": {
-      "releaseGroup": "cb1ebce1-61eb-3a8e-8ec3-f3e4da63e156",
-      "release": "8ec1e551-3d63-4c74-9b8f-abc729bba6f6"
+      "releaseGroup": "4b3abe17-fe74-3ac8-955b-59e0d479d662",
+      "release": "2e0ddaaf-b3de-4108-ae2a-d5d3b24986ab"
     },
     "charts": [
       "blues"
@@ -23438,19 +23812,29 @@
     "generos": [
       "blues"
     ],
-    "linksVerificados": "2026-10-26",
+    "linksVerificados": "2026-10-27",
     "sobreVerificado": "2026-10-27",
-    "destaqueVerificado": "2026-10-27",
     "destaque": {
-      "titulo": "Bad Luck",
-      "duracao": "3:02",
-      "links": {},
+      "titulo": "Will My Woman Be Home Tonight",
+      "duracao": "4:10",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=7IbvO5LbUXE&list=OLAK5uy_keAmWTl_Q44s-BHTWFXy-9rY5mXj4mS0Y",
+        "deezer": "https://www.deezer.com/track/11153276",
+        "appleMusic": "https://music.apple.com/br/album/will-my-woman-be-home-tonight-blue-guitar-live/118755651?i=118755514"
+      },
       "criterio": "A faixa mais popular do álbum nos streamings.",
       "plataformas": [
+        "youtubeMusic",
+        "deezer",
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "destaqueVerificado": "2026-10-27",
+    "sobre": "So Many Roads: Live in Concert é um álbum ao vivo de Otis Rush, lançado em 1978 pela Delmark Records, com 9 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/4b3abe17-fe74-3ac8-955b-59e0d479d662"
+    }
   },
   {
     "id": "outkast-stankonia",
@@ -23762,7 +24146,16 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.39/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/253562",
+        "votos": 38
+      }
+    ]
   },
   {
     "id": "pere-ubu-the-modern-dance",
@@ -23970,7 +24363,16 @@
       "plataformas": [
         "listenbrainz"
       ]
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.63/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/171533",
+        "votos": 118
+      }
+    ]
   },
   {
     "id": "pet-shop-boys-please",
@@ -24454,7 +24856,16 @@
     "complementos": {
       "duracao": "musicbrainz",
       "faixas": "musicbrainz"
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "3.8/5",
+        "estrelas": 4,
+        "url": "https://www.discogs.com/master/25873",
+        "votos": 105
+      }
+    ]
   },
   {
     "id": "plaid-not-for-threes",
@@ -24729,7 +25140,16 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.21/5",
+        "estrelas": 4,
+        "url": "https://www.discogs.com/master/144525",
+        "votos": 80
+      }
+    ]
   },
   {
     "id": "public-enemy-it-takes-a-nation-of-millions-to-hold-us-back",
@@ -25642,6 +26062,13 @@
         "estrelas": 4.5,
         "url": "https://www.allmusic.com/album/roy-buchanan-mw0000651166",
         "via": "https://en.wikipedia.org/wiki/Roy_Buchanan_(album)#Critical_reception"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.17/5",
+        "estrelas": 4,
+        "url": "https://www.discogs.com/master/173476",
+        "votos": 200
       }
     ],
     "sobreVerificado": "2026-10-26",
@@ -25741,7 +26168,20 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.68/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/217828",
+        "votos": 44
+      }
+    ],
+    "sobre": "Jessica é um álbum de Roy Porter Sound Machine, lançado em 2007 pela P‐VINE RECORDS, com 7 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/9a226617-882a-484f-8e1c-c0a1f485cc28"
+    }
   },
   {
     "id": "run-dmc-raising-hell",
@@ -25857,7 +26297,16 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.37/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/37401",
+        "votos": 608
+      }
+    ]
   },
   {
     "id": "ryuichi-sakamoto-the-thousand-knives-of-ryuichi-sakamoto",
@@ -25925,6 +26374,13 @@
       "traduzido": true
     },
     "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.45/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/47218",
+        "votos": 130
+      },
       {
         "fonte": "Pitchfork",
         "nota": "8.2/10",
@@ -26250,6 +26706,13 @@
     },
     "reviews": [
       {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.61/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/5899",
+        "votos": 111
+      },
+      {
         "fonte": "AllMusic",
         "nota": "4/5",
         "estrelas": 4,
@@ -26459,6 +26922,13 @@
     },
     "reviews": [
       {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.57/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/57285",
+        "votos": 197
+      },
+      {
         "fonte": "Sputnikmusic",
         "nota": "4/5",
         "estrelas": 4,
@@ -26565,6 +27035,13 @@
         "estrelas": 4.5,
         "url": null,
         "via": "https://en.wikipedia.org/wiki/Flaunt_It_(album)#Critical_reception"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.07/5",
+        "estrelas": 4,
+        "url": "https://www.discogs.com/master/61659",
+        "votos": 130
       }
     ],
     "sobreVerificado": "2026-10-26",
@@ -27078,7 +27555,16 @@
       "plataformas": [
         "listenbrainz"
       ]
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.31/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/12599",
+        "votos": 345
+      }
+    ]
   },
   {
     "id": "soft-cell-non-stop-erotic-cabaret",
@@ -27297,7 +27783,20 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.44/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/141387",
+        "votos": 36
+      }
+    ],
+    "sobre": "Father of the Delta Blues é um álbum de Son House, lançado em 1992 pela Altaya, com 11 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/848a0684-8ad6-3546-9b8e-8e88fd5ec70b"
+    }
   },
   {
     "id": "sonny-rollins-saxophone-colossus",
@@ -27926,6 +28425,13 @@
         "estrelas": 5,
         "url": "http://www.chroniclesofchaos.com/reviews/albums/2-323_summoning_dol_guldur.aspx",
         "via": "https://en.wikipedia.org/wiki/Dol_Guldur_(album)#Critical_reception"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.52/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/57183",
+        "votos": 197
       }
     ],
     "destaqueVerificado": "2026-10-27",
@@ -28109,7 +28615,20 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.56/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/143596",
+        "votos": 32
+      }
+    ],
+    "sobre": "Nuclear War é um álbum de Sun Ra Arkestra, lançado em 1984 pela Y Records, com 8 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/36e563da-c976-3164-8f46-4e6daa81b9a3"
+    }
   },
   {
     "id": "sun-ra-sound-of-joy",
@@ -28324,7 +28843,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "Supersax Plays Bird é um álbum de Supersax, lançado em 1973 pela Capitol, com 10 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/697605d3-85a4-3c16-818a-f5fd0af14f32"
+    }
   },
   {
     "id": "swell-maps-a-trip-to-marineville",
@@ -28580,7 +29103,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "T‐Bone Blues é um álbum de T‐Bone Walker, lançado em 1959 pela Atlantic, com 11 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/fca91c11-50d7-3eb9-857c-a53ac043cf85"
+    }
   },
   {
     "id": "taake-nattestid-ser-porten-vid",
@@ -28666,7 +29193,16 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.43/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/30011",
+        "votos": 170
+      }
+    ]
   },
   {
     "id": "taj-mahal-taj-mahal",
@@ -29608,7 +30144,16 @@
       "idioma": "es",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.72/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/1799167",
+        "votos": 106
+      }
+    ]
   },
   {
     "id": "the-future-sound-of-london-dead-cities",
@@ -30326,7 +30871,22 @@
         "deezer",
         "listenbrainz"
       ]
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Pitchfork",
+        "nota": "10/10",
+        "estrelas": 5,
+        "url": "https://pitchfork.com/reviews/albums/22952-ready-to-die/"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.53/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/57970",
+        "votos": 81
+      }
+    ]
   },
   {
     "id": "the-pharcyde-bizarre-ride-ii-the-pharcyde",
@@ -31042,7 +31602,6 @@
       "releaseGroup": "4ef4f9b3-f1e1-35fa-a117-ca9004b2a80c",
       "release": "1dd96446-9f54-428a-9939-e9c33208e754"
     },
-    "conferir": "MusicBrainz retornou \"Thelonious Monk — Genius of Modern Music, Volume 1\" para \"Thelonious Monk — Genius of Modern Music Vols. 1 & 2\"",
     "charts": [
       "jazz"
     ],
@@ -31553,7 +32112,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "Complete Recorded Works in Chronological Order: 1928–1929 é uma coletânea de Tommy Johnson que reúne gravações já lançadas do artista, publicada em 2000 pela Document Records, com 17 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/5f859c5a-29f5-3661-bd0d-1954bbec90eb"
+    }
   },
   {
     "id": "tormentor-anno-domini",
@@ -31674,7 +32237,16 @@
       "idioma": "it",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.87/5",
+        "estrelas": 5,
+        "url": "https://www.discogs.com/master/77377",
+        "votos": 15
+      }
+    ]
   },
   {
     "id": "tribe-a-message-from-the-tribe",
@@ -31747,7 +32319,20 @@
       "duracao": "musicbrainz",
       "faixas": "musicbrainz"
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.44/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/149606",
+        "votos": 34
+      }
+    ],
+    "sobre": "A Message From the Tribe é um álbum de Phillip Ranelin & Wendell Harrison, lançado em 1972 pela Tribe, com 8 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/196ba501-f0b7-4dd8-9a11-afe46abd7ace"
+    }
   },
   {
     "id": "tubby-hayes-and-clark-terry-the-new-york-sessions",
@@ -31841,7 +32426,11 @@
       "gravadora": "wikipedia",
       "capa": "deezer"
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "The New York Sessions é um álbum de Tubby Hayes & Clark Terry, lançado em 1961 pela Columbia, com 10 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": null
+    }
   },
   {
     "id": "tubby-hayes-mexican-green",
@@ -31924,7 +32513,11 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "sobre": "Mexican Green é um álbum de Tubby Hayes Quartet, lançado em 1968 pela Fontana, com 7 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/f4b250ba-a431-32aa-9114-2432869b8f7d"
+    }
   },
   {
     "id": "tubeway-army-replicas",
@@ -32339,6 +32932,13 @@
       "traduzido": true
     },
     "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.63/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/67496",
+        "votos": 112
+      },
       {
         "fonte": "AllMusic",
         "nota": "4/5",
@@ -33570,7 +34170,20 @@
         "listenbrainz"
       ]
     },
-    "sobrePendente": "sem artigo na Wikipédia"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.33/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/456301",
+        "votos": 12
+      }
+    ],
+    "sobre": "The Big Three Trio é uma coletânea de Willie Dixon que reúne gravações já lançadas do artista, publicada em 1990 pela CBS, com 21 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/7685fdcb-1576-3861-a779-4259c56ba152"
+    }
   },
   {
     "id": "windir-arntor",
@@ -33652,6 +34265,13 @@
         "estrelas": 4.5,
         "url": "http://www.allmusic.com/album/arntor-mw0000009551",
         "via": "https://en.wikipedia.org/wiki/Arntor#Critical_reception"
+      },
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.64/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/228899",
+        "votos": 118
       }
     ],
     "sobreVerificado": "2026-10-26",

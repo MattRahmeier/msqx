@@ -20,6 +20,9 @@ function comLinks(texto, links, rota) {
 const IDIOMAS = { en: "inglês", es: "espanhol", fr: "francês", de: "alemão", it: "italiano", nl: "holandês", sv: "sueco", no: "norueguês", fi: "finlandês", da: "dinamarquês", pl: "polonês", cs: "tcheco", hu: "húngaro", ru: "russo", uk: "ucraniano", ja: "japonês" };
 
 export function creditos(fontes) {
+  // Descrição montada com os dados da ficha (álbum sem artigo em nenhuma Wikipédia).
+  const dados = fontes.find((f) => f?.tipo === "dados");
+  if (dados) return dados.url ? `Descrição montada com os dados do <a href="${esc(dados.url)}" target="_blank" rel="noopener">MusicBrainz</a>` : "Descrição montada com os dados da ficha";
   fontes = fontes.filter((f) => f?.url);
   if (!fontes.length) return "";
   const nome = (f) => (f.tipo === "parafrase" ? esc(f.autor || new URL(f.url).hostname) : `Wikipédia${IDIOMAS[f.idioma] ? ` em ${IDIOMAS[f.idioma]}` : ""}`);
