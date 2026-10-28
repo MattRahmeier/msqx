@@ -1,0 +1,162 @@
+{
+  "id": "shoegaze",
+  "titulo": "\"lol shoegaze what's that\" a 100 artist starter kit",
+  "indice": "shoegaze",
+  "generos": [
+    "shoegaze"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/shoegaze.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "seleção de 16 dos 100 álbuns do chart (título e artista escritos sob cada capa); \"pos\" é linha-coluna",
+    "parcial": true,
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "The Jesus and Mary Chain",
+      "titulo": "Psychocandy",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "the-jesus-and-mary-chain-psychocandy"
+    },
+    {
+      "pos": "1-2",
+      "artista": "My Bloody Valentine",
+      "titulo": "Loveless",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "my-bloody-valentine-loveless"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Whirr",
+      "titulo": "Distressor",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "whirr-distressor"
+    },
+    {
+      "pos": "1-6",
+      "artista": "Loop",
+      "titulo": "Heaven's End",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "loop-heavens-end"
+    },
+    {
+      "pos": "1-8",
+      "artista": "Slowdive",
+      "titulo": "Souvlaki",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "slowdive-souvlaki"
+    },
+    {
+      "pos": "1-10",
+      "artista": "Chapterhouse",
+      "titulo": "Whirlpool",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "chapterhouse-whirlpool"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Pale Saints",
+      "titulo": "The Comforts of Madness",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "pale-saints-the-comforts-of-madness"
+    },
+    {
+      "pos": "2-8",
+      "artista": "Ride",
+      "titulo": "Nowhere",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "ride-nowhere"
+    },
+    {
+      "pos": "2-10",
+      "artista": "Curve",
+      "titulo": "Doppelgänger",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "curve-doppelganger"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Have a Nice Life",
+      "titulo": "Deathconsciousness",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "have-a-nice-life-deathconsciousness"
+    },
+    {
+      "pos": "4-9",
+      "artista": "Flying Saucer Attack",
+      "titulo": "Flying Saucer Attack",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "flying-saucer-attack-flying-saucer-attack"
+    },
+    {
+      "pos": "5-9",
+      "artista": "Catherine Wheel",
+      "titulo": "Ferment",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "catherine-wheel-ferment"
+    },
+    {
+      "pos": "6-1",
+      "artista": "Medicine",
+      "titulo": "Shot Forth Self Living",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "medicine-shot-forth-self-living"
+    },
+    {
+      "pos": "6-3",
+      "artista": "Lilys",
+      "titulo": "In the Presence of Nothing",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "lilys-in-the-presence-of-nothing"
+    },
+    {
+      "pos": "6-6",
+      "artista": "Swirlies",
+      "titulo": "Blonder Tongue Audio Baton",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "swirlies-blonder-tongue-audio-baton"
+    },
+    {
+      "pos": "7-3",
+      "artista": "Lush",
+      "titulo": "Split",
+      "generos": [
+        "shoegaze"
+      ],
+      "album": "lush-split"
+    }
+  ]
+}

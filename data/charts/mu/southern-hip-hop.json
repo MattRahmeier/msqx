@@ -1,0 +1,259 @@
+{
+  "id": "southern-hip-hop",
+  "titulo": "/mu/ essential Southern hip hop",
+  "indice": "southern-hip-hop",
+  "generos": [
+    "southern-hip-hop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/southern-hip-hop.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart (título e artista sob cada capa)",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Arrested Development",
+      "titulo": "3 Years, 5 Months & 2 Days in the Life Of...",
+      "album": "arrested-development-3-years-5-months-and-2-days-in-the-life-of"
+    },
+    {
+      "pos": "1-2",
+      "artista": "B.G.",
+      "titulo": "Chopper City in the Ghetto",
+      "album": "bg-chopper-city-in-the-ghetto"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Big K.R.I.T.",
+      "titulo": "K.R.I.T. Wuz Here",
+      "album": "big-krit-krit-wuz-here"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Big Moe",
+      "titulo": "City of Syrup",
+      "album": "big-moe-city-of-syrup"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Clipse",
+      "titulo": "Lord Willin’",
+      "album": "clipse-lord-willin"
+    },
+    {
+      "pos": "1-6",
+      "artista": "CunninLynguists",
+      "titulo": "A Piece of Strange",
+      "album": "cunninlynguists-a-piece-of-strange"
+    },
+    {
+      "pos": "1-7",
+      "artista": "Cyne",
+      "titulo": "Evolution Fight",
+      "album": "cyne-evolution-fight"
+    },
+    {
+      "pos": "1-8",
+      "artista": "Danny!",
+      "titulo": "Charm",
+      "album": "danny-charm"
+    },
+    {
+      "pos": "1-9",
+      "artista": "Devin the Dude",
+      "titulo": "Just Tryin’ ta Live",
+      "noChart": "Devin the Dude - Devin The Dude",
+      "conferir": "o chart dá o título \"Devin The Dude\"; a capa (Devin fumando) é a de Just Tryin’ ta Live",
+      "album": "devin-the-dude-just-tryin-ta-live"
+    },
+    {
+      "pos": "1-10",
+      "artista": "DJ Screw",
+      "titulo": "3 ’n the Mornin’ (Part Two)",
+      "album": "dj-screw-3-n-the-mornin-part-two"
+    },
+    {
+      "pos": "2-1",
+      "artista": "DJ Squeeky",
+      "titulo": "The Legacy",
+      "album": "dj-squeeky-the-legacy"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Eightball & MJG",
+      "titulo": "Comin’ Out Hard",
+      "album": "eightball-and-mjg-comin-out-hard"
+    },
+    {
+      "pos": "2-3",
+      "artista": "E.S.G.",
+      "titulo": "Ocean of Funk",
+      "album": "esg-ocean-of-funk"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Ganksta N-I-P",
+      "titulo": "The South Park Psycho",
+      "album": "ganksta-n-i-p-the-south-park-psycho"
+    },
+    {
+      "pos": "2-5",
+      "artista": "Geto Boys",
+      "titulo": "We Can’t Be Stopped",
+      "album": "geto-boys-we-cant-be-stopped"
+    },
+    {
+      "pos": "2-6",
+      "artista": "Goodie Mob",
+      "titulo": "Soul Food",
+      "album": "goodie-mob-soul-food"
+    },
+    {
+      "pos": "2-7",
+      "artista": "Gucci Mane",
+      "titulo": "Trap House",
+      "album": "gucci-mane-trap-house"
+    },
+    {
+      "pos": "2-8",
+      "artista": "Juvenile",
+      "titulo": "400 Degreez",
+      "album": "juvenile-400-degreez"
+    },
+    {
+      "pos": "2-9",
+      "artista": "Killer Mike",
+      "titulo": "R.A.P. Music",
+      "album": "killer-mike-rap-music"
+    },
+    {
+      "pos": "2-10",
+      "artista": "Kingpin Skinny Pimp",
+      "titulo": "King of da Playaz Ball",
+      "album": "kingpin-skinny-pimp-king-of-da-playaz-ball"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Koopsta Knicca",
+      "titulo": "Da Devil’s Playground: Underground Solo",
+      "album": "koopsta-knicca-da-devils-playground-underground-solo"
+    },
+    {
+      "pos": "3-2",
+      "artista": "K-Rino",
+      "titulo": "No Mercy",
+      "album": "k-rino-no-mercy"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Lil’ Keke",
+      "titulo": "Don’t Mess wit Texas",
+      "album": "lil-keke-dont-mess-wit-texas"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Lil Ugly Mane",
+      "titulo": "Mista Thug Isolation",
+      "album": "lil-ugly-mane-mista-thug-isolation"
+    },
+    {
+      "pos": "3-5",
+      "artista": "Lil Wayne",
+      "titulo": "Tha Carter II",
+      "album": "lil-wayne-tha-carter-ii"
+    },
+    {
+      "pos": "3-6",
+      "artista": "Little Brother",
+      "titulo": "The Listening",
+      "album": "little-brother-the-listening"
+    },
+    {
+      "pos": "3-7",
+      "artista": "Ludacris",
+      "titulo": "Word of Mouf",
+      "album": "ludacris-word-of-mouf"
+    },
+    {
+      "pos": "3-8",
+      "artista": "Master P",
+      "titulo": "Ice Cream Man",
+      "album": "master-p-ice-cream-man"
+    },
+    {
+      "pos": "3-9",
+      "artista": "Outkast",
+      "titulo": "ATLiens",
+      "album": "outkast-atliens"
+    },
+    {
+      "pos": "3-10",
+      "artista": "Point Blank",
+      "titulo": "Prone to Bad Dreams",
+      "album": "point-blank-prone-to-bad-dreams"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Project Pat",
+      "titulo": "Ghetty Green",
+      "album": "project-pat-ghetty-green"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Rick Ross",
+      "titulo": "Rich Forever",
+      "album": "rick-ross-rich-forever"
+    },
+    {
+      "pos": "4-3",
+      "artista": "Scarface",
+      "titulo": "The Diary",
+      "album": "scarface-the-diary"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Three 6 Mafia",
+      "titulo": "Mystic Stylez",
+      "album": "three-6-mafia-mystic-stylez"
+    },
+    {
+      "pos": "4-5",
+      "artista": "T.I.",
+      "titulo": "King",
+      "album": "ti-king"
+    },
+    {
+      "pos": "4-6",
+      "artista": "Tommy Wright III",
+      "titulo": "On the Run",
+      "album": "tommy-wright-iii-on-the-run"
+    },
+    {
+      "pos": "4-7",
+      "artista": "UGK",
+      "titulo": "Ridin’ Dirty",
+      "album": "ugk-ridin-dirty"
+    },
+    {
+      "pos": "4-8",
+      "artista": "Waka Flocka Flame",
+      "titulo": "Flockaveli",
+      "album": "waka-flocka-flame-flockaveli"
+    },
+    {
+      "pos": "4-9",
+      "artista": "Young Jeezy",
+      "titulo": "Let’s Get It: Thug Motivation 101",
+      "album": "young-jeezy-lets-get-it-thug-motivation-101"
+    },
+    {
+      "pos": "4-10",
+      "artista": "Z-Ro",
+      "titulo": "Let the Truth Be Told",
+      "album": "z-ro-let-the-truth-be-told"
+    }
+  ]
+}

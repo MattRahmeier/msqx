@@ -1,0 +1,283 @@
+{
+  "id": "west-coast-hip-hop",
+  "titulo": "/mu/ essential West Coast hip hop (not including Bay-Area)",
+  "indice": "west-coast-hip-hop",
+  "generos": [
+    "west-coast-hip-hop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/west-coast-hip-hop.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart (título e artista sob cada capa)",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "2nd II None",
+      "titulo": "2nd II None",
+      "album": "2nd-ii-none-2nd-ii-none"
+    },
+    {
+      "pos": "1-2",
+      "artista": "2Pac",
+      "titulo": "Strictly 4 My N.I.G.G.A.Z...",
+      "album": "2pac-strictly-4-my-niggaz"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Above the Law",
+      "titulo": "Livin’ Like Hustlers",
+      "album": "above-the-law-livin-like-hustlers"
+    },
+    {
+      "pos": "1-4",
+      "artista": "B.G. Knocc Out & Dresta",
+      "titulo": "Real Brothas",
+      "album": "bg-knocc-out-and-dresta-real-brothas"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Blackalicious",
+      "titulo": "Blazing Arrow",
+      "album": "blackalicious-blazing-arrow"
+    },
+    {
+      "pos": "1-6",
+      "artista": "Blu & Exile",
+      "titulo": "Below the Heavens",
+      "album": "blu-and-exile-below-the-heavens"
+    },
+    {
+      "pos": "1-7",
+      "artista": "Busdriver",
+      "titulo": "Temporary Forever",
+      "album": "busdriver-temporary-forever"
+    },
+    {
+      "pos": "1-8",
+      "artista": "Compton’s Most Wanted",
+      "titulo": "Music to Driveby",
+      "album": "comptons-most-wanted-music-to-driveby"
+    },
+    {
+      "pos": "1-9",
+      "artista": "Cypress Hill",
+      "titulo": "Cypress Hill",
+      "album": "cypress-hill-cypress-hill"
+    },
+    {
+      "pos": "1-10",
+      "artista": "Da Lench Mob",
+      "titulo": "Guerillas in tha Mist",
+      "album": "da-lench-mob-guerillas-in-tha-mist"
+    },
+    {
+      "pos": "1-11",
+      "artista": "Daz Dillinger",
+      "titulo": "Retaliation, Revenge and Get Back",
+      "album": "daz-dillinger-retaliation-revenge-and-get-back"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Dilated Peoples",
+      "titulo": "Expansion Team",
+      "album": "dilated-peoples-expansion-team"
+    },
+    {
+      "pos": "2-2",
+      "artista": "DJ Quik",
+      "titulo": "Quik Is the Name",
+      "album": "dj-quik-quik-is-the-name"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Dr. Dre",
+      "titulo": "The Chronic",
+      "album": "dr-dre-the-chronic"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Eazy-E",
+      "titulo": "Eazy-Duz-It",
+      "album": "eazy-e-eazy-duz-it"
+    },
+    {
+      "pos": "2-5",
+      "artista": "The Egyptian Lover",
+      "titulo": "On the Nile",
+      "album": "the-egyptian-lover-on-the-nile"
+    },
+    {
+      "pos": "2-6",
+      "artista": "Freestyle Fellowship",
+      "titulo": "Innercity Griots",
+      "album": "freestyle-fellowship-innercity-griots"
+    },
+    {
+      "pos": "2-7",
+      "artista": "Ice Cube",
+      "titulo": "Death Certificate",
+      "album": "ice-cube-death-certificate"
+    },
+    {
+      "pos": "2-8",
+      "artista": "Ice-T",
+      "titulo": "The Iceberg / Freedom of Speech... Just Watch What You Say!",
+      "noChart": "Ice-T - The Iceberg",
+      "album": "ice-t-the-iceberg-freedom-of-speech-just-watch-what-you-say"
+    },
+    {
+      "pos": "2-9",
+      "artista": "Jurassic 5",
+      "titulo": "Quality Control",
+      "album": "jurassic-5-quality-control"
+    },
+    {
+      "pos": "2-10",
+      "artista": "Kam",
+      "titulo": "Neva Again",
+      "album": "kam-neva-again"
+    },
+    {
+      "pos": "2-11",
+      "artista": "Kendrick Lamar",
+      "titulo": "good kid, m.A.A.d city",
+      "album": "kendrick-lamar-good-kid-maad-city"
+    },
+    {
+      "pos": "3-1",
+      "artista": "King Tee",
+      "titulo": "At Your Own Risk",
+      "album": "king-tee-at-your-own-risk"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Kurupt",
+      "titulo": "Tha Streetz Iz a Mutha",
+      "album": "kurupt-tha-streetz-iz-a-mutha"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Lil’ 1/2 Dead",
+      "titulo": "Steel on a Mission",
+      "album": "lil-1-2-dead-steel-on-a-mission"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Lootpack",
+      "titulo": "Soundpieces: Da Antidote!",
+      "album": "lootpack-soundpieces-da-antidote"
+    },
+    {
+      "pos": "3-5",
+      "artista": "Madlib",
+      "titulo": "Shades of Blue",
+      "album": "madlib-shades-of-blue"
+    },
+    {
+      "pos": "3-6",
+      "artista": "MC Eiht",
+      "titulo": "We Come Strapped",
+      "album": "mc-eiht-we-come-strapped"
+    },
+    {
+      "pos": "3-7",
+      "artista": "Nate Dogg",
+      "titulo": "G-Funk Classics, Vols. 1 & 2",
+      "album": "nate-dogg-g-funk-classics-vols-1-and-2"
+    },
+    {
+      "pos": "3-8",
+      "artista": "N.W.A",
+      "titulo": "Straight Outta Compton",
+      "album": "nwa-straight-outta-compton"
+    },
+    {
+      "pos": "3-9",
+      "artista": "People Under the Stairs",
+      "titulo": "O.S.T.",
+      "album": "people-under-the-stairs-ost"
+    },
+    {
+      "pos": "3-10",
+      "artista": "Quasimoto",
+      "titulo": "The Unseen",
+      "album": "quasimoto-the-unseen"
+    },
+    {
+      "pos": "3-11",
+      "artista": "Ras Kass",
+      "titulo": "Soul on Ice",
+      "album": "ras-kass-soul-on-ice"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Snoop Doggy Dogg",
+      "titulo": "Doggystyle",
+      "noChart": "Snoop Dogg - Doggystyle",
+      "album": "snoop-doggy-dogg-doggystyle"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Tha Dogg Pound",
+      "titulo": "Dogg Food",
+      "album": "tha-dogg-pound-dogg-food"
+    },
+    {
+      "pos": "4-3",
+      "artista": "Tha Alkaholiks",
+      "titulo": "Coast II Coast",
+      "album": "tha-alkaholiks-coast-ii-coast"
+    },
+    {
+      "pos": "4-4",
+      "artista": "The D.O.C.",
+      "titulo": "No One Can Do It Better",
+      "album": "the-doc-no-one-can-do-it-better"
+    },
+    {
+      "pos": "4-5",
+      "artista": "The Disposable Heroes of Hiphoprisy",
+      "titulo": "Hypocrisy Is the Greatest Luxury",
+      "album": "the-disposable-heroes-of-hiphoprisy-hypocrisy-is-the-greatest-luxury"
+    },
+    {
+      "pos": "4-6",
+      "artista": "The Game",
+      "titulo": "The Documentary",
+      "album": "the-game-the-documentary"
+    },
+    {
+      "pos": "4-7",
+      "artista": "The Pharcyde",
+      "titulo": "Bizarre Ride II the Pharcyde",
+      "album": "the-pharcyde-bizarre-ride-ii-the-pharcyde"
+    },
+    {
+      "pos": "4-8",
+      "artista": "Twinz",
+      "titulo": "Conversation",
+      "album": "twinz-conversation"
+    },
+    {
+      "pos": "4-9",
+      "artista": "Warren G",
+      "titulo": "Regulate... G Funk Era",
+      "album": "warren-g-regulate-g-funk-era"
+    },
+    {
+      "pos": "4-10",
+      "artista": "Westside Connection",
+      "titulo": "Bow Down",
+      "album": "westside-connection-bow-down"
+    },
+    {
+      "pos": "4-11",
+      "artista": "Why?",
+      "titulo": "Alopecia",
+      "album": "why-alopecia"
+    }
+  ]
+}

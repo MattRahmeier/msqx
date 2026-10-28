@@ -28,10 +28,11 @@ export async function chartsTranscritos() {
 // Ids de álbum de cada gênero (Map gênero → ids), na ordem dos charts. Usado pelo Guia de Gêneros e pelo TrackMap.
 export async function albunsPorGenero() {
   const mapa = new Map();
-  for (const c of await chartsTranscritos()) for (const g of c.generos) {
-    const ids = mapa.get(g) || mapa.set(g, []).get(g);
-    for (const a of c.albuns) if (a.album && !ids.includes(a.album)) ids.push(a.album);
-  }
+  const junta = (g, id) => { const ids = mapa.get(g) || mapa.set(g, []).get(g); if (!ids.includes(id)) ids.push(id); };
+  // Charts com listas por gênero dão "generos" em cada álbum; os demais valem para o chart inteiro.
+  for (const c of await chartsTranscritos()) for (const a of c.albuns) if (a.album) for (const g of a.generos || c.generos) junta(g, a.album);
+  // Depois dos charts, os estilos que o Wikidata e o MusicBrainz atribuem ao álbum (classificar-albuns.js).
+  for (const f of (await albuns()).lista) for (const g of f.estilos || []) junta(g, f.id);
   return mapa;
 }
 

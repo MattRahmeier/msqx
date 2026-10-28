@@ -8,7 +8,8 @@
 //             (estrelas >= 3.5); no empate, os veículos de VEICULOS vêm primeiro.
 // O artigo vem do Wikidata ligado ao release-group no MusicBrainz; sem ele, de uma busca na
 // Wikipédia em inglês conferida pelo quadro "Infobox album" e pelo nome do artista.
-// Uso: node scripts/buscar-sobre-albuns.js [--refazer id1,id2] [--limite N]
+// Uso: node scripts/buscar-sobre-albuns.js [--refazer id1,id2] [--limite N] [--ids id1,id2]
+//   --ids: só essas fichas.
 //   fichas já processadas (campo "sobreVerificado") são puladas.
 
 const fs = require("fs");
@@ -19,6 +20,7 @@ const UA = { "User-Agent": "Tracklore/0.1 (https://github.com/MattRahmeier/track
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 const arg = (nome) => { const i = process.argv.indexOf(nome); return i > -1 ? process.argv[i + 1] : null; };
 const limite = Number(arg("--limite")) || Infinity;
+const ids = arg("--ids") ? new Set(arg("--ids").split(",")) : null;
 const refazer = new Set((arg("--refazer") || "").split(",").filter(Boolean));
 const MAX_SOBRE = 550;
 
@@ -195,6 +197,7 @@ const urlDe = (lang, titulo) => `https://${lang}.wikipedia.org/wiki/${encodeURIC
   let feitos = 0;
   for (const f of fichas) {
     if (feitos >= limite) break;
+    if (ids && !ids.has(f.id)) continue;
     if (f.sobreVerificado && !refazer.has(f.id)) continue;
     if (!f.musicbrainz && !f.titulo) continue;
     for (const k of ["sobre", "sobreFonte", "reviews", "sobrePendente"]) delete f[k];

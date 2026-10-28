@@ -1,0 +1,257 @@
+{
+  "id": "modern-baroque-pop",
+  "titulo": "Modern Baroque Pop",
+  "indice": "modern-baroque-pop",
+  "generos": [
+    "baroque-pop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/modern-baroque-pop.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart (título e artista sob cada capa)",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "St. Vincent",
+      "titulo": "Actor",
+      "album": "st-vincent-actor"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Joanna Newsom",
+      "titulo": "Ys",
+      "album": "joanna-newsom-ys"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Arcade Fire",
+      "titulo": "Funeral",
+      "album": "arcade-fire-funeral"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Vampire Weekend",
+      "titulo": "Vampire Weekend",
+      "album": "vampire-weekend-vampire-weekend"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Foxygen",
+      "titulo": "We Are the 21st Century Ambassadors of Peace & Magic",
+      "album": "foxygen-we-are-the-21st-century-ambassadors-of-peace-and-magic"
+    },
+    {
+      "pos": "2-1",
+      "artista": "The National",
+      "titulo": "Trouble Will Find Me",
+      "album": "the-national-trouble-will-find-me"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Father John Misty",
+      "titulo": "I Love You, Honeybear",
+      "album": "father-john-misty-i-love-you-honeybear"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Ra Ra Riot",
+      "titulo": "The Rhumb Line",
+      "album": "ra-ra-riot-the-rhumb-line"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Bon Iver",
+      "titulo": "Bon Iver",
+      "album": "bon-iver-bon-iver"
+    },
+    {
+      "pos": "2-5",
+      "artista": "Sufjan Stevens",
+      "titulo": "Illinois",
+      "album": "sufjan-stevens-illinois"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Jacco Gardner",
+      "titulo": "Cabinet of Curiosities",
+      "album": "jacco-gardner-cabinet-of-curiosities"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Bat for Lashes",
+      "titulo": "The Haunted Man",
+      "album": "bat-for-lashes-the-haunted-man"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Julia Holter",
+      "titulo": "Have You in My Wilderness",
+      "album": "julia-holter-have-you-in-my-wilderness"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Fleet Foxes",
+      "titulo": "Fleet Foxes",
+      "album": "fleet-foxes-fleet-foxes"
+    },
+    {
+      "pos": "3-5",
+      "artista": "Beirut",
+      "titulo": "The Flying Club Cup",
+      "album": "beirut-the-flying-club-cup"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Local Natives",
+      "titulo": "Gorilla Manor",
+      "album": "local-natives-gorilla-manor"
+    },
+    {
+      "pos": "4-2",
+      "artista": "David Byrne & St. Vincent",
+      "titulo": "Love This Giant",
+      "album": "david-byrne-and-st-vincent-love-this-giant"
+    },
+    {
+      "pos": "4-3",
+      "artista": "Soap&Skin",
+      "titulo": "Lovetune for Vacuum",
+      "album": "soap-and-skin-lovetune-for-vacuum"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Chelsea Wolfe",
+      "titulo": "Pain Is Beauty",
+      "album": "chelsea-wolfe-pain-is-beauty"
+    },
+    {
+      "pos": "4-5",
+      "artista": "Fiona Apple",
+      "titulo": "When the Pawn...",
+      "album": "fiona-apple-when-the-pawn"
+    },
+    {
+      "pos": "5-1",
+      "artista": "PJ Harvey",
+      "titulo": "White Chalk",
+      "album": "pj-harvey-white-chalk"
+    },
+    {
+      "pos": "5-2",
+      "artista": "Feist",
+      "titulo": "Metals",
+      "album": "feist-metals"
+    },
+    {
+      "pos": "5-3",
+      "artista": "Natalie Prass",
+      "titulo": "Natalie Prass",
+      "album": "natalie-prass-natalie-prass"
+    },
+    {
+      "pos": "5-4",
+      "artista": "Brian Wilson",
+      "titulo": "Smile",
+      "album": "brian-wilson-smile"
+    },
+    {
+      "pos": "5-5",
+      "artista": "Jim O’Rourke",
+      "titulo": "Simple Songs",
+      "album": "jim-orourke-simple-songs"
+    },
+    {
+      "pos": "6-1",
+      "artista": "Jens Lekman",
+      "titulo": "Night Falls Over Kortedala",
+      "album": "jens-lekman-night-falls-over-kortedala"
+    },
+    {
+      "pos": "6-2",
+      "artista": "Radiohead",
+      "titulo": "A Moon Shaped Pool",
+      "album": "radiohead-a-moon-shaped-pool"
+    },
+    {
+      "pos": "6-3",
+      "artista": "Department of Eagles",
+      "titulo": "In Ear Park",
+      "album": "department-of-eagles-in-ear-park"
+    },
+    {
+      "pos": "6-4",
+      "artista": "Mercury Rev",
+      "titulo": "Deserter’s Songs",
+      "album": "mercury-rev-deserters-songs"
+    },
+    {
+      "pos": "6-5",
+      "artista": "Lambchop",
+      "titulo": "Mr. M",
+      "album": "lambchop-mr-m"
+    },
+    {
+      "pos": "7-1",
+      "artista": "Tindersticks",
+      "titulo": "Tindersticks",
+      "album": "tindersticks-tindersticks"
+    },
+    {
+      "pos": "7-2",
+      "artista": "Owen Pallett",
+      "titulo": "Heartland",
+      "album": "owen-pallett-heartland"
+    },
+    {
+      "pos": "7-3",
+      "artista": "Final Fantasy",
+      "titulo": "He Poos Clouds",
+      "album": "final-fantasy-he-poos-clouds"
+    },
+    {
+      "pos": "7-4",
+      "artista": "The Divine Comedy",
+      "titulo": "Absent Friends",
+      "album": "the-divine-comedy-absent-friends"
+    },
+    {
+      "pos": "7-5",
+      "artista": "Perfume Genius",
+      "titulo": "Too Bright",
+      "album": "perfume-genius-too-bright"
+    },
+    {
+      "pos": "8-1",
+      "artista": "Antony and the Johnsons",
+      "titulo": "The Crying Light",
+      "album": "antony-and-the-johnsons-the-crying-light"
+    },
+    {
+      "pos": "8-2",
+      "artista": "Charlotte Gainsbourg",
+      "titulo": "IRM",
+      "album": "charlotte-gainsbourg-irm"
+    },
+    {
+      "pos": "8-3",
+      "artista": "Andrew Bird",
+      "titulo": "Andrew Bird & the Mysterious Production of Eggs",
+      "album": "andrew-bird-andrew-bird-and-the-mysterious-production-of-eggs"
+    },
+    {
+      "pos": "8-4",
+      "artista": "Phosphorescent",
+      "titulo": "Muchacho",
+      "album": "phosphorescent-muchacho"
+    },
+    {
+      "pos": "8-5",
+      "artista": "Mutual Benefit",
+      "titulo": "Love’s Crushing Diamond",
+      "album": "mutual-benefit-loves-crushing-diamond"
+    }
+  ]
+}

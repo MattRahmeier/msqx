@@ -3,8 +3,10 @@
 // num gênero abre os subgêneros diretos (e de novo em cada subgênero) e o pop-up ao lado, com o resumo
 // (os gêneros citados navegam pelo mapa), as ligações e o botão "Ir para as recomendações".
 // Linhas: hierarquia (pai), origem (linhagem; entre gêneros fechados, vai para o ancestral visível) e
-// influência/similar (Musicmap e `similares`, só entre gêneros visíveis). Nós e linhas flutuam de leve
-// e se afastam do mouse; com "reduzir movimento" no sistema, ficam parados.
+// influência/similar (Musicmap e `similares`, só entre gêneros visíveis). Os subgêneros saem de dentro
+// do círculo do pai e se abrem num leque virado para fora do mapa, cada um com espaço para o nome
+// (um toque não cai no vizinho). Cor pela profundidade: mestre preto, subgêneros clareando até o
+// branco. Nós flutuam de leve (sem fugir do mouse); com "reduzir movimento" no sistema, ficam parados.
 // #/cerebro/<gênero> abre o mapa já nesse gênero; a URL acompanha o gênero aberto sem recarregar a vista.
 import { tituloPagina } from "../componentes/titulo.js";
 import { generos, albunsPorGenero } from "../dados.js";
@@ -22,6 +24,9 @@ const raio = (n) => {
   n.qtdSub ??= descendentes(n).length;
   return RAIOS[nivel] + CRESCE[nivel] * Math.sqrt(n.qtdSub);
 };
+// Espaço que o gênero ocupa: o círculo e, nos subgêneros, o nome escrito embaixo dele (cerca de 6,5 px
+// por letra). Os vizinhos nunca chegam mais perto que isso, para um toque não cair no gênero ao lado.
+const folga = (n) => Math.max(raio(n) + 14, n.nivel === 0 ? 0 : n.nome.length * 3.3 + 12);
 const PESO = { hierarquia: 4, guia: 3, origem: 2, influencia: 1, similar: 0 };
 const coroa = `<svg class="icone coroa" aria-hidden="true"><use href="#i-coroa"/></svg>`;
 const parado = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -58,6 +63,8 @@ export async function render(el, [generoId]) {
   const camadaNos = camada.select(".nos");
   const popup = el.querySelector(".genero-popup");
 
+  let escala = 1; // zoom atual do mapa
+  const raioToque = (d) => Math.min(folga(d) - 2, Math.max(raio(d) + 4, 22 / escala));
   const abertos = new Set();
   let atual = null;
   let visiveis = [];
@@ -68,17 +75,52 @@ export async function render(el, [generoId]) {
     const a = (i / mestres.length) * 2 * Math.PI - Math.PI / 2;
     return [m.id, { x: Math.cos(a) * 470, y: Math.sin(a) * 330 }];
   }));
-  for (const m of mestres) Object.assign(m, ancora.get(m.id));
-  const ancoraDe = (n) => { let m = n; while (pais.has(m.id)) m = pais.get(m.id); return ancora.get(m.id); };
+  for (const m of mestres) Object.assign(m, ancora.get(m.id), { alvo: ancora.get(m.id) });
+
+  // Leque dos subgêneros de um gênero aberto: um arco virado para fora do mapa (para longe do
+  // gênero de onde ele saiu, ou do centro no caso dos mestres), com espaço para o nome de cada um.
+  // Muitos subgêneros aumentam o raio do arco em vez de apertar os vizinhos.
+  const ARCO_MAX = Math.PI * 1.15;
+  function leque(p) {
+    const larguras = p.filhos.map((f) => 2 * folga(f) + 8);
+    const total = larguras.reduce((a, b) => a + b, 0);
+    const maior = Math.max(...p.filhos.map(folga));
+    const r = Math.max(folga(p) + maior + 36, total / ARCO_MAX);
+    let acc = -total / r / 2;
+    const angulos = larguras.map((l) => { const a = acc + l / r / 2; acc += l / r; return a; });
+    return { r, angulos, alcance: r + maior };
+  }
+
+  // Posição de destino de cada gênero visível. Os mestres ficam nas âncoras; o mestre aberto empurra
+  // os outros para fora do alcance do leque dele.
+  function calcularAlvos() {
+    const mestreAberto = mestres.find((m) => abertos.has(m.id));
+    const alcance = mestreAberto ? leque(mestreAberto).alcance : 0;
+    for (const m of mestres) {
+      const a = ancora.get(m.id);
+      m.alvo = a;
+      if (!mestreAberto || m === mestreAberto) continue;
+      const c = ancora.get(mestreAberto.id), dx = a.x - c.x, dy = a.y - c.y, d = Math.hypot(dx, dy) || 1;
+      const preciso = alcance + folga(m) + 40;
+      if (d < preciso) m.alvo = { x: c.x + (dx / d) * preciso, y: c.y + (dy / d) * preciso };
+    }
+    const abrir = (p, origem) => {
+      if (!abertos.has(p.id) || !p.filhos.length) return;
+      const { r, angulos } = leque(p);
+      const base = Math.atan2(p.alvo.y - origem.y, p.alvo.x - origem.x);
+      p.filhos.forEach((f, i) => {
+        f.alvo = { x: p.alvo.x + Math.cos(base + angulos[i]) * r, y: p.alvo.y + Math.sin(base + angulos[i]) * r };
+        abrir(f, p.alvo);
+      });
+    };
+    mestres.forEach((m) => abrir(m, { x: 0, y: 0 }));
+  }
 
   const simulacao = d3.forceSimulation()
-    .force("ligacao", d3.forceLink().id((d) => d.id)
-      .distance((l) => (l.tipo === "hierarquia" ? raio(l.source) + raio(l.target) + (l.target.nivel === 1 ? 64 : 40) : 220))
-      .strength((l) => (l.tipo === "hierarquia" ? 0.9 : l.tipo === "origem" ? 0.03 : 0)))
-    .force("carga", d3.forceManyBody().strength((d) => (d.nivel === 0 ? -1200 : -260)))
-    .force("colisao", d3.forceCollide((d) => raio(d) + (d.nivel === 0 ? 26 : 16)).strength(0.9))
-    .force("x", d3.forceX((d) => ancoraDe(d).x).strength((d) => (d.nivel === 0 ? 0.12 : 0.015)))
-    .force("y", d3.forceY((d) => ancoraDe(d).y).strength((d) => (d.nivel === 0 ? 0.12 : 0.015)))
+    .force("ligacao", d3.forceLink().id((d) => d.id).distance(220).strength(0))
+    .force("colisao", d3.forceCollide((d) => folga(d) + (d.nivel === 0 ? 26 : 4)).strength(0.8))
+    .force("x", d3.forceX((d) => d.alvo.x).strength((d) => (d.nivel === 0 ? 0.14 : 0.32)))
+    .force("y", d3.forceY((d) => d.alvo.y).strength((d) => (d.nivel === 0 ? 0.14 : 0.32)))
     .on("tick", () => parado && desenhar(0));
 
   // Gêneros visíveis: os mestres e os filhos de cada gênero aberto (que também esteja visível).
@@ -118,11 +160,14 @@ export async function render(el, [generoId]) {
 
   function atualizar() {
     visiveis = calcularVisiveis();
-    for (const n of visiveis) if (n.x === undefined) {
+    calcularAlvos();
+    // Subgênero que aparece nasce no centro do pai (por baixo dele) e sai em direção ao leque.
+    for (const n of visiveis) if (pais.has(n.id) && (n.saindo || !n.visivel)) {
       const p = pais.get(n.id);
-      n.x = p.x + (Math.random() - 0.5) * 30;
-      n.y = p.y + (Math.random() - 0.5) * 30;
+      Object.assign(n, { x: p.x, y: p.y, vx: 0, vy: 0, vx_: p.vx_ ?? p.x, vy_: p.vy_ ?? p.y, ex: 0, ey: 0 });
     }
+    const ids = new Set(visiveis.map((n) => n.id));
+    for (const n of nos.values()) { n.saindo = n.visivel && !ids.has(n.id); n.visivel = ids.has(n.id); }
     linhas = calcularLinhas(visiveis);
 
     camadaLinhas.selectAll("path").data(linhas, (l) => `${l.source.id ?? l.source}|${l.target.id ?? l.target}`)
@@ -131,8 +176,8 @@ export async function render(el, [generoId]) {
 
     camadaNos.selectAll("g.no").data(visiveis, (d) => d.id).join(
       (e) => {
-        const g = e.append("g")
-          .attr("class", (d) => `no nivel-${Math.min(d.nivel, 3)}`)
+        const g = e.insert("g", ":first-child")
+          .attr("class", (d) => `no nivel-${Math.min(d.nivel, 4)}`)
           .attr("tabindex", 0)
           .attr("role", "button")
           .attr("aria-label", (d) => d.nome)
@@ -140,8 +185,12 @@ export async function render(el, [generoId]) {
           .on("keydown", (ev, d) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); selecionar(d.id); } })
           .on("mouseenter focus", (ev, d) => realcar(d.id))
           .on("mouseleave blur", () => realcar(atual));
+        // Área de toque: o círculo, ampliada para uns 22 px de raio na tela quando o mapa está
+        // afastado (refeita a cada zoom), mas nunca além da folga: não invade o vizinho.
+        g.append("circle").attr("class", "toque").attr("r", (d) => raioToque(d));
         g.append("circle").attr("class", "anel").attr("r", (d) => raio(d) + 5);
-        g.append("circle").attr("class", "bola").attr("r", 0).transition().duration(350).attr("r", raio);
+        g.append("circle").attr("class", "bola").attr("r", (d) => (d.nivel === 0 ? raio(d) : raio(d) * 0.4))
+          .transition().duration(500).ease(d3.easeCubicOut).attr("r", raio);
         g.filter((d) => d.nivel === 0).append("use").attr("href", "#i-coroa").attr("class", "no-coroa")
           .attr("x", -11).attr("y", -36).attr("width", 22).attr("height", 22);
         g.append("text").attr("class", "no-nome").attr("text-anchor", "middle")
@@ -156,7 +205,8 @@ export async function render(el, [generoId]) {
         return g;
       },
       (u) => u,
-      (x) => x.transition().duration(200).style("opacity", 0).remove(),
+      // Ao fechar, o subgênero volta para dentro do pai e some.
+      (x) => x.style("pointer-events", "none").transition().duration(350).style("opacity", 0).remove(),
     )
       .classed("tem-filhos", (d) => d.filhos.length > 0)
       .classed("aberto", (d) => abertos.has(d.id))
@@ -181,24 +231,23 @@ export async function render(el, [generoId]) {
     camadaNos.selectAll("g.no").classed("perto", (d) => perto.has(d.id));
   }
 
-  // Desenho: posição da simulação + flutuação leve + afastamento do mouse.
+  // Desenho: posição da simulação + flutuação leve. Os gêneros não fogem do mouse (o alvo do clique
+  // fica parado); só as linhas se curvam para longe dele.
   let mouse = null;
   svg.on("pointermove", (ev) => { const [x, y] = d3.zoomTransform(svg.node()).invert(d3.pointer(ev, svg.node())); mouse = { x, y }; })
     .on("pointerleave", () => { mouse = null; });
   function desenhar(t) {
     for (const n of visiveis) {
-      const amp = parado ? 0 : n.nivel === 0 ? 2 : 3;
+      const amp = parado ? 0 : n.nivel === 0 ? 1.5 : 1.2;
       n.fase ??= Math.random() * 6.3;
-      let ex = 0, ey = 0;
-      if (mouse && !parado) {
-        const dx = n.x - mouse.x, dy = n.y - mouse.y, d = Math.hypot(dx, dy) || 1;
-        const alcance = raio(n) + 70;
-        if (d < alcance && n.id !== atual) { const f = ((alcance - d) / alcance) * 10; ex = (dx / d) * f; ey = (dy / d) * f; }
-      }
-      n.ex = (n.ex || 0) + (ex - (n.ex || 0)) * 0.12;
-      n.ey = (n.ey || 0) + (ey - (n.ey || 0)) * 0.12;
-      n.vx_ = n.x + Math.sin(t / 1400 + n.fase) * amp + n.ex;
-      n.vy_ = n.y + Math.cos(t / 1700 + n.fase * 1.3) * amp + n.ey;
+      n.vx_ = n.x + Math.sin(t / 1400 + n.fase) * amp;
+      n.vy_ = n.y + Math.cos(t / 1700 + n.fase * 1.3) * amp;
+    }
+    // Os que estão saindo deslizam de volta para o centro do pai.
+    for (const n of nos.values()) if (n.saindo) {
+      const p = pais.get(n.id);
+      n.vx_ += ((p.vx_ ?? p.x) - n.vx_) * 0.18;
+      n.vy_ += ((p.vy_ ?? p.y) - n.vy_) * 0.18;
     }
     camadaNos.selectAll("g.no").attr("transform", (d) => `translate(${d.vx_},${d.vy_})`);
     camadaLinhas.selectAll("path").attr("d", (l) => {
@@ -217,7 +266,11 @@ export async function render(el, [generoId]) {
   const relogio = parado ? null : d3.timer(desenhar);
 
   // Zoom e arraste do mapa; clicar no fundo fecha o pop-up.
-  const zoom = d3.zoom().scaleExtent([0.3, 2.5]).on("zoom", (ev) => camada.attr("transform", ev.transform));
+  const zoom = d3.zoom().scaleExtent([0.3, 2.5]).on("zoom", (ev) => {
+    camada.attr("transform", ev.transform);
+    escala = ev.transform.k;
+    camadaNos.selectAll("circle.toque").attr("r", raioToque);
+  });
   svg.call(zoom).on("dblclick.zoom", null).on("click", () => fecharPopup());
   const tamanho = () => svg.node().getBoundingClientRect();
   const larguraPopup = () => (popup.hidden || innerWidth <= 760 ? 0 : popup.getBoundingClientRect().width + 24);
@@ -226,15 +279,22 @@ export async function render(el, [generoId]) {
     const k = Math.min(width / 1250, height / 1000, 1.1);
     svg.call(zoom.transform, d3.zoomIdentity.translate(width / 2, height / 2 + 30).scale(k));
   }
+  // Enquadra o gênero e o leque dos subgêneros dele (pelas posições de destino, já conhecidas) no
+  // espaço livre ao lado do pop-up; no celular, na parte de cima, acima do pop-up.
   function centralizar(id) {
     const n = nos.get(id);
     const { width, height } = tamanho();
     const celular = innerWidth <= 760;
-    const k = Math.max(d3.zoomTransform(svg.node()).k, (n.nivel === 0 ? 0.8 : 1) * (celular ? 0.7 : 1));
+    const grupo = [n, ...(abertos.has(id) ? n.filhos : [])];
+    const x0 = Math.min(...grupo.map((g) => g.alvo.x - folga(g))), x1 = Math.max(...grupo.map((g) => g.alvo.x + folga(g)));
+    const y0 = Math.min(...grupo.map((g) => g.alvo.y - folga(g))), y1 = Math.max(...grupo.map((g) => g.alvo.y + folga(g) + 16));
+    const livreL = width - larguraPopup() - 32;
+    const livreA = (celular ? height * 0.5 : height) - 48;
+    const k = Math.max(celular ? 0.32 : 0.45, Math.min(livreL / (x1 - x0), livreA / (y1 - y0), celular ? 1.1 : 1.4));
     const cx = (width - larguraPopup()) / 2;
-    // No celular o pop-up cobre a parte de baixo: o gênero fica no meio do espaço que sobra em cima.
-    const cy = celular ? height * 0.38 / 2 + 24 : height / 2;
-    svg.transition().duration(650).call(zoom.transform, d3.zoomIdentity.translate(cx - n.x * k, cy - n.y * k).scale(k));
+    const cy = celular ? height * 0.5 / 2 + 24 : height / 2;
+    const mx = (x0 + x1) / 2, my = (y0 + y1) / 2;
+    svg.transition().duration(650).call(zoom.transform, d3.zoomIdentity.translate(cx - mx * k, cy - my * k).scale(k));
   }
 
   // Abre um gênero: fica aberto só o caminho até ele (os ramos de gêneros que deixaram de estar
@@ -261,7 +321,8 @@ export async function render(el, [generoId]) {
       ? new Set([n, ...descendentes(n)].flatMap((g) => porGenero.get(g.id) || [])).size
       : (porGenero.get(n.id) || []).length;
     const subs = descendentes(n).length;
-    const meta = [n.decada ? `anos ${n.decada}` : "", subs ? `${subs} ${subs === 1 ? "subgênero" : "subgêneros"}` : "", total ? `${total} álbuns` : ""].filter(Boolean).join(" · ");
+    const meta = [n.decada ? `anos ${n.decada}` : "", subs ? `${subs} ${subs === 1 ? "subgênero" : "subgêneros"}` : ""].filter(Boolean).join(" · ");
+    const albuns = `${total} ${total === 1 ? "álbum" : "álbuns"}`;
     const chips = (ids) => [...new Set(ids)].filter((i) => nos.has(i) && i !== n.id)
       .map((i) => `<li><a href="#/cerebro/${i}" data-genero="${i}">${esc(nomeDe(i))}</a></li>`).join("");
     const origens = chips(n.origens || []);
@@ -273,8 +334,9 @@ export async function render(el, [generoId]) {
       ${caminho.length ? `<nav class="popup-caminho" aria-label="Caminho">${caminho.map((p) => `<a href="#/cerebro/${p.id}" data-genero="${p.id}">${esc(p.nome)}</a>`).join(" › ")}</nav>` : ""}
       <h2 class="popup-titulo">${n.nivel === 0 ? coroa : ""}${esc(n.nome)}</h2>
       ${meta ? `<p class="popup-meta">${meta}</p>` : ""}
-      <a class="botao-recomendacoes" href="#/recomendados/${n.id}">
+      <a class="botao-recomendacoes" href="#/recomendados/${n.id}" aria-label="Ir para as recomendações: ${albuns}">
         <svg class="icone" aria-hidden="true"><use href="#i-recomendados"/></svg><span>Ir para as recomendações</span>
+        <span class="botao-contagem">${albuns}</span>
       </a>
       <div class="popup-resumo">${resumoGenero(n) || `<p class="resumo-genero">Resumo em preparação.</p>`}</div>
       ${filhos ? `<h3 class="painel-secao">Subgêneros</h3><ul class="popup-chips">${filhos}</ul>` : ""}

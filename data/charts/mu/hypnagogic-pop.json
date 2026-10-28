@@ -1,0 +1,115 @@
+{
+  "id": "hypnagogic-pop",
+  "titulo": "a beginner's guide to hypnagogic pop",
+  "indice": "hypnagogic-pop",
+  "generos": [
+    "hypnagogic-pop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/hypnagogic-pop.png",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "A primeira linha é o bloco \"ferraro-core\".",
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "James Ferraro",
+      "titulo": "Marble Surf",
+      "album": "james-ferraro-marble-surf"
+    },
+    {
+      "pos": "1-2",
+      "artista": "James Ferraro",
+      "titulo": "Last American Hero",
+      "album": "james-ferraro-last-american-hero"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Lamborghini Crystal",
+      "titulo": "1992 Cool Runnings",
+      "album": "lamborghini-crystal-1992-cool-runnings"
+    },
+    {
+      "pos": "1-4",
+      "artista": "The Skaters",
+      "titulo": "Physicalities of the Sensibilities of Ingrediantial Strairways",
+      "album": "the-skaters-physicalities-of-the-sensibilities-of-ingrediantial-strairways"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Pocahaunted",
+      "titulo": "Island Diamonds",
+      "album": "pocahaunted-island-diamonds"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Ducktails",
+      "titulo": "Ducktails",
+      "album": "ducktails-ducktails"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Ariel Pink",
+      "titulo": "The Doldrums",
+      "album": "ariel-pink-the-doldrums"
+    },
+    {
+      "pos": "2-4",
+      "artista": "John Maus",
+      "titulo": "We Must Become the Pitiless Censors of Ourselves",
+      "album": "john-maus-we-must-become-the-pitiless-censors-of-ourselves"
+    },
+    {
+      "pos": "3-1",
+      "artista": "LA Vampires & Matrix Metals",
+      "titulo": "So Unreal",
+      "noChart": "LA Vampires And Matrix Metals - So Unreal",
+      "album": "la-vampires-and-matrix-metals-so-unreal"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Skyramps",
+      "titulo": "Days of Thunder",
+      "album": "skyramps-days-of-thunder"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Matrix Metals",
+      "titulo": "Flamingo Breeze",
+      "album": "matrix-metals-flamingo-breeze"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Sun Araw",
+      "titulo": "On Patrol",
+      "album": "sun-araw-on-patrol"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Monopoly Child Star Searchers",
+      "titulo": "Bamboo for Two",
+      "album": "monopoly-child-star-searchers-bamboo-for-two"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Emeralds",
+      "titulo": "Does It Look Like I'm Here?",
+      "album": "emeralds-does-it-look-like-im-here"
+    },
+    {
+      "pos": "4-3",
+      "artista": "Rangers",
+      "titulo": "Suburban Tours",
+      "album": "rangers-suburban-tours"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Dolphins into the Future",
+      "titulo": "...On Sea-faring Isolation",
+      "album": "dolphins-into-the-future-on-sea-faring-isolation"
+    }
+  ]
+}

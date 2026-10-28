@@ -1,0 +1,236 @@
+{
+  "id": "grunge",
+  "titulo": "Essential Grunge",
+  "indice": "grunge",
+  "generos": [
+    "grunge"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/grunge.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "The Afghan Whigs",
+      "titulo": "Gentlemen",
+      "album": "the-afghan-whigs-gentlemen"
+    },
+    {
+      "pos": "A2",
+      "artista": "Alice in Chains",
+      "titulo": "Jar of Flies",
+      "album": "alice-in-chains-jar-of-flies"
+    },
+    {
+      "pos": "A3",
+      "artista": "Blood Circus",
+      "titulo": "Primal Rock Therapy",
+      "album": "blood-circus-primal-rock-therapy"
+    },
+    {
+      "pos": "A4",
+      "artista": "Brad",
+      "titulo": "Shame",
+      "album": "brad-shame"
+    },
+    {
+      "pos": "B1",
+      "artista": "Daisy Chainsaw",
+      "titulo": "Eleventeen",
+      "album": "daisy-chainsaw-eleventeen"
+    },
+    {
+      "pos": "B2",
+      "artista": "Failure",
+      "titulo": "Fantastic Planet",
+      "album": "failure-fantastic-planet"
+    },
+    {
+      "pos": "B3",
+      "artista": "Gravel",
+      "titulo": "No Stone Unturned",
+      "album": "gravel-no-stone-unturned"
+    },
+    {
+      "pos": "B4",
+      "artista": "Green River",
+      "titulo": "Dry as a Bone / Rehab Doll",
+      "noChart": "Green River - Dry as a Bone/Rehab Doll",
+      "album": "green-river-dry-as-a-bone-rehab-doll"
+    },
+    {
+      "pos": "C1",
+      "artista": "Gruntruck",
+      "titulo": "Push",
+      "album": "gruntruck-push"
+    },
+    {
+      "pos": "C2",
+      "artista": "Hammerbox",
+      "titulo": "Numb",
+      "album": "hammerbox-numb"
+    },
+    {
+      "pos": "C3",
+      "artista": "Hole",
+      "titulo": "Live Through This",
+      "album": "hole-live-through-this"
+    },
+    {
+      "pos": "C4",
+      "artista": "Janitor Joe",
+      "titulo": "Big Metal Birds",
+      "album": "janitor-joe-big-metal-birds"
+    },
+    {
+      "pos": "D1",
+      "artista": "L7",
+      "titulo": "Bricks Are Heavy",
+      "album": "l7-bricks-are-heavy"
+    },
+    {
+      "pos": "D2",
+      "artista": "Local H",
+      "titulo": "As Good as Dead",
+      "album": "local-h-as-good-as-dead"
+    },
+    {
+      "pos": "D3",
+      "artista": "Love Battery",
+      "titulo": "Dayglo",
+      "album": "love-battery-dayglo"
+    },
+    {
+      "pos": "D4",
+      "artista": "Melvins",
+      "titulo": "Houdini",
+      "album": "melvins-houdini"
+    },
+    {
+      "pos": "E1",
+      "artista": "Mother Love Bone",
+      "titulo": "Mother Love Bone",
+      "noChart": "Mother Love Bone - S/T",
+      "album": "mother-love-bone-mother-love-bone"
+    },
+    {
+      "pos": "E2",
+      "artista": "Mudhoney",
+      "titulo": "Superfuzz Bigmuff",
+      "album": "mudhoney-superfuzz-bigmuff"
+    },
+    {
+      "pos": "E3",
+      "artista": "Nirvana",
+      "titulo": "In Utero",
+      "album": "nirvana-in-utero"
+    },
+    {
+      "pos": "E4",
+      "artista": "Nudeswirl",
+      "titulo": "Nudeswirl",
+      "noChart": "Nudeswirl - S/T",
+      "album": "nudeswirl-nudeswirl"
+    },
+    {
+      "pos": "F1",
+      "artista": "Paw",
+      "titulo": "Dragline",
+      "album": "paw-dragline"
+    },
+    {
+      "pos": "F2",
+      "artista": "Pearl Jam",
+      "titulo": "Vitalogy",
+      "album": "pearl-jam-vitalogy"
+    },
+    {
+      "pos": "F3",
+      "artista": "Pile Up",
+      "titulo": "Norwalk",
+      "album": "pile-up-norwalk"
+    },
+    {
+      "pos": "F4",
+      "artista": "Pond",
+      "titulo": "The Practice of Joy Before Death",
+      "album": "pond-the-practice-of-joy-before-death"
+    },
+    {
+      "pos": "G1",
+      "artista": "Quorthon",
+      "titulo": "Purity of Essence",
+      "album": "quorthon-purity-of-essence"
+    },
+    {
+      "pos": "G2",
+      "artista": "Rein Sanction",
+      "titulo": "Mariposa",
+      "album": "rein-sanction-mariposa"
+    },
+    {
+      "pos": "G3",
+      "artista": "Screaming Trees",
+      "titulo": "Dust",
+      "album": "screaming-trees-dust"
+    },
+    {
+      "pos": "G4",
+      "artista": "Seaweed",
+      "titulo": "Weak",
+      "album": "seaweed-weak"
+    },
+    {
+      "pos": "H1",
+      "artista": "Skin Yard",
+      "titulo": "1000 Smiling Knuckles",
+      "album": "skin-yard-1000-smiling-knuckles"
+    },
+    {
+      "pos": "H2",
+      "artista": "Smile",
+      "titulo": "Maquee",
+      "album": "smile-maquee"
+    },
+    {
+      "pos": "H3",
+      "artista": "Soundgarden",
+      "titulo": "Superunknown",
+      "album": "soundgarden-superunknown"
+    },
+    {
+      "pos": "H4",
+      "artista": "Tad",
+      "titulo": "Inhaler",
+      "album": "tad-inhaler"
+    },
+    {
+      "pos": "I1",
+      "artista": "The Fluid",
+      "titulo": "Purplemetalflakemusic",
+      "album": "the-fluid-purplemetalflakemusic"
+    },
+    {
+      "pos": "I2",
+      "artista": "Truly",
+      "titulo": "Fast Stories... from Kid Coma",
+      "album": "truly-fast-stories-from-kid-coma"
+    },
+    {
+      "pos": "I3",
+      "artista": "U-Men",
+      "titulo": "Solid Action",
+      "album": "u-men-solid-action"
+    },
+    {
+      "pos": "I4",
+      "artista": "Veruca Salt",
+      "titulo": "American Thighs",
+      "album": "veruca-salt-american-thighs"
+    }
+  ]
+}

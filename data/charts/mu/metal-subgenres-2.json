@@ -1,0 +1,926 @@
+{
+  "id": "metal-subgenres-2",
+  "titulo": "What the fvck should I listen to? Vol. 3 (/meal/)",
+  "indice": "metal-subgenres-2",
+  "generos": [
+    "nwobhm",
+    "speed-metal",
+    "hard-rock",
+    "alternative-metal",
+    "nu-metal",
+    "industrial-metal",
+    "drone-metal",
+    "metalcore"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/metal-subgenres-2.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "seleção de 12 a 13 álbuns de cada lista escrita no chart (curadoria para o TrackMap); cada lista tem 20 álbuns",
+    "parcial": true,
+    "status": "revisar"
+  },
+  "nota": "O chart traz 50 listas de 20 (o último dígito do post escolhe o bloco). Só entraram as dos gêneros da árvore ainda sem álbuns. \"pos\" é o nome da lista no chart.",
+  "albuns": [
+    {
+      "pos": "NWOBHM:1",
+      "artista": "Angel Witch",
+      "titulo": "Angel Witch",
+      "generos": [
+        "nwobhm"
+      ],
+      "album": "angel-witch-angel-witch"
+    },
+    {
+      "pos": "NWOBHM:2",
+      "artista": "Diamond Head",
+      "titulo": "Lightning to the Nations",
+      "generos": [
+        "nwobhm"
+      ],
+      "album": "diamond-head-lightning-to-the-nations"
+    },
+    {
+      "pos": "NWOBHM:3",
+      "artista": "Iron Maiden",
+      "titulo": "Iron Maiden",
+      "generos": [
+        "nwobhm"
+      ],
+      "album": "iron-maiden-iron-maiden"
+    },
+    {
+      "pos": "NWOBHM:4",
+      "artista": "Saxon",
+      "titulo": "Wheels of Steel",
+      "generos": [
+        "nwobhm"
+      ],
+      "album": "saxon-wheels-of-steel"
+    },
+    {
+      "pos": "NWOBHM:5",
+      "artista": "Satan",
+      "titulo": "Court in the Act",
+      "generos": [
+        "nwobhm"
+      ],
+      "album": "satan-court-in-the-act"
+    },
+    {
+      "pos": "NWOBHM:6",
+      "artista": "Raven",
+      "titulo": "Rock Until You Drop",
+      "generos": [
+        "nwobhm"
+      ],
+      "album": "raven-rock-until-you-drop"
+    },
+    {
+      "pos": "NWOBHM:7",
+      "artista": "Tygers of Pan Tang",
+      "titulo": "Spellbound",
+      "generos": [
+        "nwobhm"
+      ],
+      "album": "tygers-of-pan-tang-spellbound"
+    },
+    {
+      "pos": "NWOBHM:8",
+      "artista": "Samson",
+      "titulo": "Head On",
+      "generos": [
+        "nwobhm"
+      ],
+      "album": "samson-head-on"
+    },
+    {
+      "pos": "NWOBHM:9",
+      "artista": "Holocaust",
+      "titulo": "The Nightcomers",
+      "generos": [
+        "nwobhm"
+      ],
+      "album": "holocaust-the-nightcomers"
+    },
+    {
+      "pos": "NWOBHM:10",
+      "artista": "Girlschool",
+      "titulo": "Hit and Run",
+      "generos": [
+        "nwobhm"
+      ],
+      "album": "girlschool-hit-and-run"
+    },
+    {
+      "pos": "NWOBHM:11",
+      "artista": "Tank",
+      "titulo": "Filth Hounds of Hades",
+      "generos": [
+        "nwobhm"
+      ],
+      "album": "tank-filth-hounds-of-hades"
+    },
+    {
+      "pos": "NWOBHM:12",
+      "artista": "Grim Reaper",
+      "titulo": "See You in Hell",
+      "generos": [
+        "nwobhm"
+      ],
+      "album": "grim-reaper-see-you-in-hell"
+    },
+    {
+      "pos": "NWOBHM:13",
+      "artista": "Witchfynde",
+      "titulo": "Give 'Em Hell",
+      "generos": [
+        "nwobhm"
+      ],
+      "album": "witchfynde-give-em-hell"
+    },
+    {
+      "pos": "Speed Metal:1",
+      "artista": "Agent Steel",
+      "titulo": "Skeptics Apocalypse",
+      "generos": [
+        "speed-metal"
+      ],
+      "album": "agent-steel-skeptics-apocalypse"
+    },
+    {
+      "pos": "Speed Metal:2",
+      "artista": "Exciter",
+      "titulo": "Heavy Metal Maniac",
+      "generos": [
+        "speed-metal"
+      ],
+      "album": "exciter-heavy-metal-maniac"
+    },
+    {
+      "pos": "Speed Metal:3",
+      "artista": "Motörhead",
+      "titulo": "Ace of Spades",
+      "generos": [
+        "speed-metal"
+      ],
+      "album": "motorhead-ace-of-spades"
+    },
+    {
+      "pos": "Speed Metal:4",
+      "artista": "Helstar",
+      "titulo": "Nosferatu",
+      "generos": [
+        "speed-metal"
+      ],
+      "album": "helstar-nosferatu"
+    },
+    {
+      "pos": "Speed Metal:5",
+      "artista": "Liege Lord",
+      "titulo": "Master Control",
+      "generos": [
+        "speed-metal"
+      ],
+      "album": "liege-lord-master-control"
+    },
+    {
+      "pos": "Speed Metal:6",
+      "artista": "Flotsam and Jetsam",
+      "titulo": "Doomsday for the Deceiver",
+      "generos": [
+        "speed-metal"
+      ],
+      "album": "flotsam-and-jetsam-doomsday-for-the-deceiver"
+    },
+    {
+      "pos": "Speed Metal:7",
+      "artista": "Paradox",
+      "titulo": "Heresy",
+      "generos": [
+        "speed-metal"
+      ],
+      "album": "paradox-heresy"
+    },
+    {
+      "pos": "Speed Metal:8",
+      "artista": "Racer X",
+      "titulo": "Street Lethal",
+      "generos": [
+        "speed-metal"
+      ],
+      "album": "racer-x-street-lethal"
+    },
+    {
+      "pos": "Speed Metal:9",
+      "artista": "Rage",
+      "titulo": "Black in Mind",
+      "generos": [
+        "speed-metal"
+      ],
+      "album": "rage-black-in-mind"
+    },
+    {
+      "pos": "Speed Metal:10",
+      "artista": "Viper",
+      "titulo": "Theatre of Fate",
+      "generos": [
+        "speed-metal"
+      ],
+      "album": "viper-theatre-of-fate"
+    },
+    {
+      "pos": "Speed Metal:11",
+      "artista": "Iron Angel",
+      "titulo": "Hellish Crossfire",
+      "generos": [
+        "speed-metal"
+      ],
+      "album": "iron-angel-hellish-crossfire"
+    },
+    {
+      "pos": "Speed Metal:12",
+      "artista": "Acid",
+      "titulo": "Maniac",
+      "generos": [
+        "speed-metal"
+      ],
+      "album": "acid-maniac"
+    },
+    {
+      "pos": "Speed Metal:13",
+      "artista": "Hallows Eve",
+      "titulo": "Tales of Terror",
+      "generos": [
+        "speed-metal"
+      ],
+      "album": "hallows-eve-tales-of-terror"
+    },
+    {
+      "pos": "Hard Rock:1",
+      "artista": "AC/DC",
+      "titulo": "Back in Black",
+      "generos": [
+        "hard-rock"
+      ],
+      "album": "ac-dc-back-in-black"
+    },
+    {
+      "pos": "Hard Rock:2",
+      "artista": "Aerosmith",
+      "titulo": "Rocks",
+      "generos": [
+        "hard-rock"
+      ],
+      "album": "aerosmith-rocks"
+    },
+    {
+      "pos": "Hard Rock:3",
+      "artista": "Alice Cooper",
+      "titulo": "Billion Dollar Babies",
+      "generos": [
+        "hard-rock"
+      ],
+      "album": "alice-cooper-billion-dollar-babies"
+    },
+    {
+      "pos": "Hard Rock:4",
+      "artista": "Bad Company",
+      "titulo": "Bad Company",
+      "generos": [
+        "hard-rock"
+      ],
+      "album": "bad-company-bad-company"
+    },
+    {
+      "pos": "Hard Rock:5",
+      "artista": "Blue Öyster Cult",
+      "titulo": "Secret Treaties",
+      "generos": [
+        "hard-rock"
+      ],
+      "album": "blue-oyster-cult-secret-treaties"
+    },
+    {
+      "pos": "Hard Rock:6",
+      "artista": "Deep Purple",
+      "titulo": "Deep Purple in Rock",
+      "generos": [
+        "hard-rock"
+      ],
+      "album": "deep-purple-deep-purple-in-rock"
+    },
+    {
+      "pos": "Hard Rock:7",
+      "artista": "Led Zeppelin",
+      "titulo": "Led Zeppelin",
+      "generos": [
+        "hard-rock"
+      ],
+      "album": "led-zeppelin-led-zeppelin"
+    },
+    {
+      "pos": "Hard Rock:8",
+      "artista": "Queen",
+      "titulo": "A Night at the Opera",
+      "generos": [
+        "hard-rock"
+      ],
+      "album": "queen-a-night-at-the-opera"
+    },
+    {
+      "pos": "Hard Rock:9",
+      "artista": "Rainbow",
+      "titulo": "Rising",
+      "generos": [
+        "hard-rock"
+      ],
+      "album": "rainbow-rising"
+    },
+    {
+      "pos": "Hard Rock:10",
+      "artista": "Thin Lizzy",
+      "titulo": "Jailbreak",
+      "generos": [
+        "hard-rock"
+      ],
+      "album": "thin-lizzy-jailbreak"
+    },
+    {
+      "pos": "Hard Rock:11",
+      "artista": "Van Halen",
+      "titulo": "Van Halen",
+      "generos": [
+        "hard-rock"
+      ],
+      "album": "van-halen-van-halen"
+    },
+    {
+      "pos": "Hard Rock:12",
+      "artista": "UFO",
+      "titulo": "Phenomenon",
+      "generos": [
+        "hard-rock"
+      ],
+      "album": "ufo-phenomenon"
+    },
+    {
+      "pos": "Hard Rock:13",
+      "artista": "Kiss",
+      "titulo": "Destroyer",
+      "generos": [
+        "hard-rock"
+      ],
+      "album": "kiss-destroyer"
+    },
+    {
+      "pos": "Alt Metal:1",
+      "artista": "Alice in Chains",
+      "titulo": "Dirt",
+      "generos": [
+        "alternative-metal"
+      ],
+      "album": "alice-in-chains-dirt"
+    },
+    {
+      "pos": "Alt Metal:2",
+      "artista": "Faith No More",
+      "titulo": "Angel Dust",
+      "generos": [
+        "alternative-metal"
+      ],
+      "album": "faith-no-more-angel-dust"
+    },
+    {
+      "pos": "Alt Metal:3",
+      "artista": "Helmet",
+      "titulo": "Meantime",
+      "generos": [
+        "alternative-metal"
+      ],
+      "album": "helmet-meantime"
+    },
+    {
+      "pos": "Alt Metal:4",
+      "artista": "Primus",
+      "titulo": "Sailing the Seas of Cheese",
+      "generos": [
+        "alternative-metal"
+      ],
+      "album": "primus-sailing-the-seas-of-cheese"
+    },
+    {
+      "pos": "Alt Metal:5",
+      "artista": "Queens of the Stone Age",
+      "titulo": "Songs for the Deaf",
+      "generos": [
+        "alternative-metal"
+      ],
+      "album": "queens-of-the-stone-age-songs-for-the-deaf"
+    },
+    {
+      "pos": "Alt Metal:6",
+      "artista": "Rage Against the Machine",
+      "titulo": "Rage Against the Machine",
+      "generos": [
+        "alternative-metal"
+      ],
+      "album": "rage-against-the-machine-rage-against-the-machine"
+    },
+    {
+      "pos": "Alt Metal:7",
+      "artista": "Soundgarden",
+      "titulo": "Superunknown",
+      "generos": [
+        "alternative-metal"
+      ],
+      "album": "soundgarden-superunknown"
+    },
+    {
+      "pos": "Alt Metal:8",
+      "artista": "Tool",
+      "titulo": "Lateralus",
+      "generos": [
+        "alternative-metal"
+      ],
+      "album": "tool-lateralus"
+    },
+    {
+      "pos": "Alt Metal:9",
+      "artista": "The God Machine",
+      "titulo": "Scenes from the Second Storey",
+      "generos": [
+        "alternative-metal"
+      ],
+      "album": "the-god-machine-scenes-from-the-second-storey"
+    },
+    {
+      "pos": "Alt Metal:10",
+      "artista": "Babes in Toyland",
+      "titulo": "Fontanelle",
+      "generos": [
+        "alternative-metal"
+      ],
+      "album": "babes-in-toyland-fontanelle"
+    },
+    {
+      "pos": "Alt Metal:11",
+      "artista": "Therapy?",
+      "titulo": "Troublegum",
+      "generos": [
+        "alternative-metal"
+      ],
+      "album": "therapy-troublegum"
+    },
+    {
+      "pos": "Alt Metal:12",
+      "artista": "Incubus",
+      "titulo": "Make Yourself",
+      "generos": [
+        "alternative-metal"
+      ],
+      "album": "incubus-make-yourself"
+    },
+    {
+      "pos": "Nu Metal:1",
+      "artista": "Korn",
+      "titulo": "Korn",
+      "generos": [
+        "nu-metal"
+      ],
+      "album": "korn-korn"
+    },
+    {
+      "pos": "Nu Metal:2",
+      "artista": "Deftones",
+      "titulo": "Around the Fur",
+      "generos": [
+        "nu-metal"
+      ],
+      "album": "deftones-around-the-fur"
+    },
+    {
+      "pos": "Nu Metal:3",
+      "artista": "Slipknot",
+      "titulo": "Slipknot",
+      "generos": [
+        "nu-metal"
+      ],
+      "album": "slipknot-slipknot"
+    },
+    {
+      "pos": "Nu Metal:4",
+      "artista": "Linkin Park",
+      "titulo": "Hybrid Theory",
+      "generos": [
+        "nu-metal"
+      ],
+      "album": "linkin-park-hybrid-theory"
+    },
+    {
+      "pos": "Nu Metal:5",
+      "artista": "System of a Down",
+      "titulo": "Toxicity",
+      "generos": [
+        "nu-metal"
+      ],
+      "album": "system-of-a-down-toxicity"
+    },
+    {
+      "pos": "Nu Metal:6",
+      "artista": "Limp Bizkit",
+      "titulo": "Chocolate Starfish and the Hot Dog Flavored Water",
+      "generos": [
+        "nu-metal"
+      ],
+      "album": "limp-bizkit-chocolate-starfish-and-the-hot-dog-flavored-water"
+    },
+    {
+      "pos": "Nu Metal:7",
+      "artista": "Coal Chamber",
+      "titulo": "Coal Chamber",
+      "generos": [
+        "nu-metal"
+      ],
+      "album": "coal-chamber-coal-chamber"
+    },
+    {
+      "pos": "Nu Metal:8",
+      "artista": "Disturbed",
+      "titulo": "The Sickness",
+      "generos": [
+        "nu-metal"
+      ],
+      "album": "disturbed-the-sickness"
+    },
+    {
+      "pos": "Nu Metal:9",
+      "artista": "Mudvayne",
+      "titulo": "L.D. 50",
+      "generos": [
+        "nu-metal"
+      ],
+      "album": "mudvayne-ld-50"
+    },
+    {
+      "pos": "Nu Metal:10",
+      "artista": "Ill Niño",
+      "titulo": "Revolution Revolución",
+      "generos": [
+        "nu-metal"
+      ],
+      "album": "ill-nino-revolution-revolucion"
+    },
+    {
+      "pos": "Nu Metal:11",
+      "artista": "Sevendust",
+      "titulo": "Home",
+      "generos": [
+        "nu-metal"
+      ],
+      "album": "sevendust-home"
+    },
+    {
+      "pos": "Nu Metal:12",
+      "artista": "Spineshank",
+      "titulo": "The Height of Callousness",
+      "generos": [
+        "nu-metal"
+      ],
+      "album": "spineshank-the-height-of-callousness"
+    },
+    {
+      "pos": "Industrial:1",
+      "artista": "Fear Factory",
+      "titulo": "Demanufacture",
+      "generos": [
+        "industrial-metal"
+      ],
+      "album": "fear-factory-demanufacture"
+    },
+    {
+      "pos": "Industrial:2",
+      "artista": "Godflesh",
+      "titulo": "Streetcleaner",
+      "generos": [
+        "industrial-metal"
+      ],
+      "album": "godflesh-streetcleaner"
+    },
+    {
+      "pos": "Industrial:3",
+      "artista": "Ministry",
+      "titulo": "Psalm 69",
+      "generos": [
+        "industrial-metal"
+      ],
+      "album": "ministry-psalm-69"
+    },
+    {
+      "pos": "Industrial:4",
+      "artista": "KMFDM",
+      "titulo": "Nihil",
+      "generos": [
+        "industrial-metal"
+      ],
+      "album": "kmfdm-nihil"
+    },
+    {
+      "pos": "Industrial:5",
+      "artista": "Marilyn Manson",
+      "titulo": "Antichrist Superstar",
+      "generos": [
+        "industrial-metal"
+      ],
+      "album": "marilyn-manson-antichrist-superstar"
+    },
+    {
+      "pos": "Industrial:6",
+      "artista": "Rammstein",
+      "titulo": "Mutter",
+      "generos": [
+        "industrial-metal"
+      ],
+      "album": "rammstein-mutter"
+    },
+    {
+      "pos": "Industrial:7",
+      "artista": "Nailbomb",
+      "titulo": "Point Blank",
+      "generos": [
+        "industrial-metal"
+      ],
+      "album": "nailbomb-point-blank"
+    },
+    {
+      "pos": "Industrial:8",
+      "artista": "Static-X",
+      "titulo": "Wisconsin Death Trip",
+      "generos": [
+        "industrial-metal"
+      ],
+      "album": "static-x-wisconsin-death-trip"
+    },
+    {
+      "pos": "Industrial:9",
+      "artista": "Strapping Young Lad",
+      "titulo": "City",
+      "generos": [
+        "industrial-metal"
+      ],
+      "album": "strapping-young-lad-city"
+    },
+    {
+      "pos": "Industrial:10",
+      "artista": "Rob Zombie",
+      "titulo": "Hellbilly Deluxe",
+      "generos": [
+        "industrial-metal"
+      ],
+      "album": "rob-zombie-hellbilly-deluxe"
+    },
+    {
+      "pos": "Industrial:11",
+      "artista": "Killing Joke",
+      "titulo": "Pandemonium",
+      "generos": [
+        "industrial-metal"
+      ],
+      "album": "killing-joke-pandemonium"
+    },
+    {
+      "pos": "Industrial:12",
+      "artista": "Scorn",
+      "titulo": "Vae Solis",
+      "generos": [
+        "industrial-metal"
+      ],
+      "album": "scorn-vae-solis"
+    },
+    {
+      "pos": "Drone:1",
+      "artista": "Earth",
+      "titulo": "Earth 2",
+      "generos": [
+        "drone-metal"
+      ],
+      "album": "earth-earth-2"
+    },
+    {
+      "pos": "Drone:2",
+      "artista": "Sunn O)))",
+      "titulo": "Black One",
+      "generos": [
+        "drone-metal"
+      ],
+      "album": "sunn-o-black-one"
+    },
+    {
+      "pos": "Drone:3",
+      "artista": "Khanate",
+      "titulo": "Khanate",
+      "generos": [
+        "drone-metal"
+      ],
+      "album": "khanate-khanate"
+    },
+    {
+      "pos": "Drone:4",
+      "artista": "Jesu",
+      "titulo": "Jesu",
+      "generos": [
+        "drone-metal"
+      ],
+      "album": "jesu-jesu"
+    },
+    {
+      "pos": "Drone:5",
+      "artista": "Nadja",
+      "titulo": "Radiance of Shadows",
+      "generos": [
+        "drone-metal"
+      ],
+      "album": "nadja-radiance-of-shadows"
+    },
+    {
+      "pos": "Drone:6",
+      "artista": "Bong",
+      "titulo": "Mana-Yood-Sushai",
+      "generos": [
+        "drone-metal"
+      ],
+      "album": "bong-mana-yood-sushai"
+    },
+    {
+      "pos": "Drone:7",
+      "artista": "Black Boned Angel",
+      "titulo": "Supereclipse",
+      "generos": [
+        "drone-metal"
+      ],
+      "album": "black-boned-angel-supereclipse"
+    },
+    {
+      "pos": "Drone:8",
+      "artista": "Moss",
+      "titulo": "Sub Templum",
+      "generos": [
+        "drone-metal"
+      ],
+      "album": "moss-sub-templum"
+    },
+    {
+      "pos": "Drone:9",
+      "artista": "The Body",
+      "titulo": "I Shall Die Here",
+      "generos": [
+        "drone-metal"
+      ],
+      "album": "the-body-i-shall-die-here"
+    },
+    {
+      "pos": "Drone:10",
+      "artista": "Menace Ruine",
+      "titulo": "The Die Is Cast",
+      "generos": [
+        "drone-metal"
+      ],
+      "album": "menace-ruine-the-die-is-cast"
+    },
+    {
+      "pos": "Drone:11",
+      "artista": "Teeth of Lions Rule the Divine",
+      "titulo": "Rampton",
+      "generos": [
+        "drone-metal"
+      ],
+      "album": "teeth-of-lions-rule-the-divine-rampton"
+    },
+    {
+      "pos": "Drone:12",
+      "artista": "Conan",
+      "titulo": "Horseback Battle Hammer",
+      "generos": [
+        "drone-metal"
+      ],
+      "album": "conan-horseback-battle-hammer"
+    },
+    {
+      "pos": "Metalcore:1",
+      "artista": "Botch",
+      "titulo": "We Are the Romans",
+      "generos": [
+        "metalcore"
+      ],
+      "album": "botch-we-are-the-romans"
+    },
+    {
+      "pos": "Metalcore:2",
+      "artista": "Converge",
+      "titulo": "Jane Doe",
+      "generos": [
+        "metalcore"
+      ],
+      "album": "converge-jane-doe"
+    },
+    {
+      "pos": "Metalcore:3",
+      "artista": "Cave In",
+      "titulo": "Until Your Heart Stops",
+      "generos": [
+        "metalcore"
+      ],
+      "album": "cave-in-until-your-heart-stops"
+    },
+    {
+      "pos": "Metalcore:4",
+      "artista": "Deadguy",
+      "titulo": "Fixation on a Co-Worker",
+      "generos": [
+        "metalcore"
+      ],
+      "album": "deadguy-fixation-on-a-co-worker"
+    },
+    {
+      "pos": "Metalcore:5",
+      "artista": "Norma Jean",
+      "titulo": "Bless the Martyr and Kiss the Child",
+      "generos": [
+        "metalcore"
+      ],
+      "album": "norma-jean-bless-the-martyr-and-kiss-the-child"
+    },
+    {
+      "pos": "Metalcore:6",
+      "artista": "The Dillinger Escape Plan",
+      "titulo": "Calculating Infinity",
+      "generos": [
+        "metalcore"
+      ],
+      "album": "the-dillinger-escape-plan-calculating-infinity"
+    },
+    {
+      "pos": "Metalcore:7",
+      "artista": "Zao",
+      "titulo": "Where Blood and Fire Bring Rest",
+      "generos": [
+        "metalcore"
+      ],
+      "album": "zao-where-blood-and-fire-bring-rest"
+    },
+    {
+      "pos": "Metalcore:8",
+      "artista": "Poison the Well",
+      "titulo": "The Opposite of December",
+      "generos": [
+        "metalcore"
+      ],
+      "album": "poison-the-well-the-opposite-of-december"
+    },
+    {
+      "pos": "Metalcore:9",
+      "artista": "Hopesfall",
+      "titulo": "The Satellite Years",
+      "generos": [
+        "metalcore"
+      ],
+      "album": "hopesfall-the-satellite-years"
+    },
+    {
+      "pos": "Metalcore:10",
+      "artista": "Integrity",
+      "titulo": "Those Who Fear Tomorrow",
+      "generos": [
+        "metalcore"
+      ],
+      "album": "integrity-those-who-fear-tomorrow"
+    },
+    {
+      "pos": "Metalcore:11",
+      "artista": "Unbroken",
+      "titulo": "Life. Love. Regret.",
+      "generos": [
+        "metalcore"
+      ],
+      "album": "unbroken-life-love-regret"
+    },
+    {
+      "pos": "Metalcore:12",
+      "artista": "Burst",
+      "titulo": "Lazarus Bird",
+      "generos": [
+        "metalcore"
+      ],
+      "album": "burst-lazarus-bird"
+    },
+    {
+      "pos": "Metalcore:13",
+      "artista": "Catharsis",
+      "titulo": "Passion",
+      "generos": [
+        "metalcore"
+      ],
+      "album": "catharsis-passion"
+    }
+  ]
+}

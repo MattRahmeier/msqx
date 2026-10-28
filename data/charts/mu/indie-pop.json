@@ -1,0 +1,303 @@
+{
+  "id": "indie-pop",
+  "titulo": "Essential Indie Pop",
+  "indice": "indie-pop",
+  "generos": [
+    "indie-pop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/indie-pop.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart (com ano)",
+    "status": "revisar"
+  },
+  "nota": "O chart avisa que só entraram artistas twee pop ou bandas de indie pop com influência twee.",
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Shop Assistants",
+      "titulo": "Will Anything Happen",
+      "ano": 1986,
+      "noChart": "Shop Assistants : Shop Assistants/Will Anything Happen",
+      "album": "shop-assistants-will-anything-happen"
+    },
+    {
+      "pos": "1-2",
+      "artista": "The Pastels",
+      "titulo": "Up for a Bit with The Pastels",
+      "ano": 1987,
+      "album": "the-pastels-up-for-a-bit-with-the-pastels"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Television Personalities",
+      "titulo": "And Don’t the Kids Just Love It",
+      "ano": 1981,
+      "album": "television-personalities-and-dont-the-kids-just-love-it"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Talulah Gosh",
+      "titulo": "Backwash",
+      "ano": 1996,
+      "album": "talulah-gosh-backwash"
+    },
+    {
+      "pos": "2-1",
+      "artista": "The Flatmates",
+      "titulo": "Love and Death 1986–1989",
+      "ano": 1989,
+      "album": "the-flatmates-love-and-death-1986-1989"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Dolly Mixture",
+      "titulo": "Demonstration Tapes",
+      "ano": 1983,
+      "album": "dolly-mixture-demonstration-tapes"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Beat Happening",
+      "titulo": "Jamboree",
+      "ano": 1988,
+      "album": "beat-happening-jamboree"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Marine Girls",
+      "titulo": "Lazy Ways / Beach Party",
+      "ano": 1997,
+      "album": "marine-girls-lazy-ways-beach-party"
+    },
+    {
+      "pos": "3-1",
+      "artista": "The Go-Betweens",
+      "titulo": "16 Lovers Lane",
+      "ano": 1988,
+      "album": "the-go-betweens-16-lovers-lane"
+    },
+    {
+      "pos": "3-2",
+      "artista": "St. Christopher",
+      "titulo": "All of a Tremble",
+      "ano": 1989,
+      "album": "st-christopher-all-of-a-tremble"
+    },
+    {
+      "pos": "3-3",
+      "artista": "The Orchids",
+      "titulo": "Unholy Soul",
+      "ano": 1991,
+      "album": "the-orchids-unholy-soul"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Razorcuts",
+      "titulo": "The World Keeps Turning",
+      "ano": 1989,
+      "album": "razorcuts-the-world-keeps-turning"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Brighter",
+      "titulo": "Singles 1989–1992",
+      "ano": 2003,
+      "album": "brighter-singles-1989-1992"
+    },
+    {
+      "pos": "4-2",
+      "artista": "The Sea Urchins",
+      "titulo": "Stardust",
+      "ano": 1992,
+      "album": "the-sea-urchins-stardust"
+    },
+    {
+      "pos": "4-3",
+      "artista": "The Charlottes",
+      "titulo": "Lovehappy",
+      "ano": 1989,
+      "album": "the-charlottes-lovehappy"
+    },
+    {
+      "pos": "4-4",
+      "artista": "BMX Bandits",
+      "titulo": "C86 Plus",
+      "ano": 1992,
+      "album": "bmx-bandits-c86-plus"
+    },
+    {
+      "pos": "5-1",
+      "artista": "Another Sunny Day",
+      "titulo": "London Weekend",
+      "ano": 1992,
+      "noChart": "Another Sunny Day : Anorak City (1992)",
+      "conferir": "o chart diz \"Anorak City\" (um single); a capa é a da coletânea London Weekend",
+      "album": "another-sunny-day-london-weekend"
+    },
+    {
+      "pos": "5-2",
+      "artista": "The Primitives",
+      "titulo": "Lovely",
+      "ano": 1988,
+      "album": "the-primitives-lovely"
+    },
+    {
+      "pos": "5-3",
+      "artista": "Heavenly",
+      "titulo": "Le Jardin de Heavenly",
+      "ano": 1992,
+      "album": "heavenly-le-jardin-de-heavenly"
+    },
+    {
+      "pos": "5-4",
+      "artista": "The Vaselines",
+      "titulo": "The Way of the Vaselines",
+      "ano": 1992,
+      "album": "the-vaselines-the-way-of-the-vaselines"
+    },
+    {
+      "pos": "6-1",
+      "artista": "Lois",
+      "titulo": "Butterfly Kiss",
+      "ano": 1992,
+      "album": "lois-butterfly-kiss"
+    },
+    {
+      "pos": "6-2",
+      "artista": "The Innocence Mission",
+      "titulo": "Glow",
+      "ano": 1995,
+      "album": "the-innocence-mission-glow"
+    },
+    {
+      "pos": "6-3",
+      "artista": "Cub",
+      "titulo": "Betti-Cola",
+      "ano": 1993,
+      "album": "cub-betti-cola"
+    },
+    {
+      "pos": "6-4",
+      "artista": "Northern Picture Library",
+      "titulo": "Alaska",
+      "ano": 1993,
+      "noChart": "Nothern Picture Library (1993)",
+      "conferir": "o chart não dá o título; a capa é a de Alaska",
+      "album": "northern-picture-library-alaska"
+    },
+    {
+      "pos": "7-1",
+      "artista": "Even As We Speak",
+      "titulo": "Feral Pop Frenzy",
+      "ano": 1993,
+      "album": "even-as-we-speak-feral-pop-frenzy"
+    },
+    {
+      "pos": "7-2",
+      "artista": "Tiger Trap",
+      "titulo": "Tiger Trap",
+      "ano": 1993,
+      "album": "tiger-trap-tiger-trap"
+    },
+    {
+      "pos": "7-3",
+      "artista": "Henry’s Dress",
+      "titulo": "Bust ’Em Green",
+      "ano": 1996,
+      "album": "henrys-dress-bust-em-green"
+    },
+    {
+      "pos": "7-4",
+      "artista": "The Softies",
+      "titulo": "It’s Love",
+      "ano": 1995,
+      "album": "the-softies-its-love"
+    },
+    {
+      "pos": "8-1",
+      "artista": "Black Tambourine",
+      "titulo": "Complete Recordings",
+      "ano": 1999,
+      "album": "black-tambourine-complete-recordings"
+    },
+    {
+      "pos": "8-2",
+      "artista": "Honeybunch",
+      "titulo": "Time Trials 1987–1995",
+      "ano": 1995,
+      "album": "honeybunch-time-trials-1987-1995"
+    },
+    {
+      "pos": "8-3",
+      "artista": "The Field Mice",
+      "titulo": "Where’d You Learn to Kiss That Way?",
+      "ano": 1998,
+      "album": "the-field-mice-whered-you-learn-to-kiss-that-way"
+    },
+    {
+      "pos": "8-4",
+      "artista": "Belle and Sebastian",
+      "titulo": "If You’re Feeling Sinister",
+      "ano": 1996,
+      "album": "belle-and-sebastian-if-youre-feeling-sinister"
+    },
+    {
+      "pos": "9-1",
+      "artista": "Tullycraft",
+      "titulo": "The Singles",
+      "ano": 1999,
+      "album": "tullycraft-the-singles"
+    },
+    {
+      "pos": "9-2",
+      "artista": "Wolfie",
+      "titulo": "Awful Mess Mystery",
+      "ano": 1999,
+      "album": "wolfie-awful-mess-mystery"
+    },
+    {
+      "pos": "9-3",
+      "artista": "Free Loan Investments",
+      "titulo": "Ever Been to Mexico?",
+      "ano": 2002,
+      "album": "free-loan-investments-ever-been-to-mexico"
+    },
+    {
+      "pos": "9-4",
+      "artista": "Acid House Kings",
+      "titulo": "Sing Along with the Acid House Kings",
+      "ano": 2005,
+      "album": "acid-house-kings-sing-along-with-the-acid-house-kings"
+    },
+    {
+      "pos": "10-1",
+      "artista": "Camera Obscura",
+      "titulo": "My Maudlin Career",
+      "ano": 2009,
+      "album": "camera-obscura-my-maudlin-career"
+    },
+    {
+      "pos": "10-2",
+      "artista": "Los Campesinos!",
+      "titulo": "Hold On Now, Youngster...",
+      "ano": 2006,
+      "album": "los-campesinos-hold-on-now-youngster"
+    },
+    {
+      "pos": "10-3",
+      "artista": "Suburban Kids with Biblical Names",
+      "titulo": "#3",
+      "ano": 2005,
+      "album": "suburban-kids-with-biblical-names-3"
+    },
+    {
+      "pos": "10-4",
+      "artista": "The Pains of Being Pure at Heart",
+      "titulo": "The Pains of Being Pure at Heart",
+      "ano": 2009,
+      "album": "the-pains-of-being-pure-at-heart-the-pains-of-being-pure-at-heart"
+    }
+  ]
+}

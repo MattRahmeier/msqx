@@ -1,0 +1,210 @@
+{
+  "id": "noise-rock",
+  "titulo": "/mu/'s Essential Noise Rock List",
+  "indice": "noise-rock",
+  "generos": [
+    "noise-rock"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/noise-rock.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-A",
+      "artista": "Boris",
+      "titulo": "Pink",
+      "album": "boris-pink"
+    },
+    {
+      "pos": "2-A",
+      "artista": "Lightning Bolt",
+      "titulo": "Wonderful Rainbow",
+      "album": "lightning-bolt-wonderful-rainbow"
+    },
+    {
+      "pos": "3-A",
+      "artista": "Part Chimp",
+      "titulo": "I Am Come",
+      "album": "part-chimp-i-am-come"
+    },
+    {
+      "pos": "4-A",
+      "artista": "Boredoms",
+      "titulo": "Vision Creation Newsun",
+      "album": "boredoms-vision-creation-newsun"
+    },
+    {
+      "pos": "5-A",
+      "artista": "The Jesus Lizard",
+      "titulo": "Goat",
+      "album": "the-jesus-lizard-goat"
+    },
+    {
+      "pos": "6-A",
+      "artista": "Melt-Banana",
+      "titulo": "Cell-Scape",
+      "album": "melt-banana-cell-scape"
+    },
+    {
+      "pos": "7-A",
+      "artista": "Rapeman",
+      "titulo": "Two Nuns and a Pack Mule",
+      "album": "rapeman-two-nuns-and-a-pack-mule"
+    },
+    {
+      "pos": "1-B",
+      "artista": "Scratch Acid",
+      "titulo": "The Greatest Gift",
+      "album": "scratch-acid-the-greatest-gift"
+    },
+    {
+      "pos": "2-B",
+      "artista": "Butthole Surfers",
+      "titulo": "Locust Abortion Technician",
+      "album": "butthole-surfers-locust-abortion-technician"
+    },
+    {
+      "pos": "3-B",
+      "artista": "Daisy Chainsaw",
+      "titulo": "Eleventeen",
+      "album": "daisy-chainsaw-eleventeen"
+    },
+    {
+      "pos": "4-B",
+      "artista": "Mclusky",
+      "titulo": "Mclusky Do Dallas",
+      "album": "mclusky-mclusky-do-dallas"
+    },
+    {
+      "pos": "5-B",
+      "artista": "Future of the Left",
+      "titulo": "Curses",
+      "album": "future-of-the-left-curses"
+    },
+    {
+      "pos": "6-B",
+      "artista": "Sonic Youth",
+      "titulo": "Sister",
+      "album": "sonic-youth-sister"
+    },
+    {
+      "pos": "7-B",
+      "artista": "No Age",
+      "titulo": "Nouns",
+      "album": "no-age-nouns"
+    },
+    {
+      "pos": "1-C",
+      "artista": "Health",
+      "titulo": "Health",
+      "noChart": "Health - s/t",
+      "album": "health-health"
+    },
+    {
+      "pos": "2-C",
+      "artista": "Ponytail",
+      "titulo": "Ice Cream Spiritual",
+      "album": "ponytail-ice-cream-spiritual"
+    },
+    {
+      "pos": "3-C",
+      "artista": "Big Black",
+      "titulo": "Songs About Fucking",
+      "album": "big-black-songs-about-fucking"
+    },
+    {
+      "pos": "4-C",
+      "artista": "Pregnant",
+      "titulo": "Liquidation on Swans",
+      "album": "pregnant-liquidation-on-swans"
+    },
+    {
+      "pos": "5-C",
+      "artista": "Ruins",
+      "titulo": "Hyderomastgroningem",
+      "album": "ruins-hyderomastgroningem"
+    },
+    {
+      "pos": "6-C",
+      "artista": "Hella",
+      "titulo": "Hold Your Horse Is",
+      "album": "hella-hold-your-horse-is"
+    },
+    {
+      "pos": "7-C",
+      "artista": "Swans",
+      "titulo": "Filth",
+      "album": "swans-filth"
+    },
+    {
+      "pos": "1-D",
+      "artista": "Shellac",
+      "titulo": "1000 Hurts",
+      "album": "shellac-1000-hurts"
+    },
+    {
+      "pos": "2-D",
+      "artista": "Daughters",
+      "titulo": "Hell Songs",
+      "album": "daughters-hell-songs"
+    },
+    {
+      "pos": "3-D",
+      "artista": "Marnie Stern",
+      "titulo": "This Is It and I Am It and You Are It and So Is That and He Is It and She Is It and It Is It and That Is That",
+      "album": "marnie-stern-this-is-it-and-i-am-it-and-you-are-it-and-so-is-that-and-he-is-it-and-she-is-it-and-it-is-it-and-that-is-that"
+    },
+    {
+      "pos": "4-D",
+      "artista": "Parts & Labor",
+      "titulo": "Mapmaker",
+      "album": "parts-and-labor-mapmaker"
+    },
+    {
+      "pos": "5-D",
+      "artista": "Swell Maps",
+      "titulo": "Jane from Occupied Europe",
+      "album": "swell-maps-jane-from-occupied-europe"
+    },
+    {
+      "pos": "6-D",
+      "artista": "Liars",
+      "titulo": "They Were Wrong, So We Drowned",
+      "album": "liars-they-were-wrong-so-we-drowned"
+    },
+    {
+      "pos": "7-D",
+      "artista": "Black Dice",
+      "titulo": "Beaches and Canyons",
+      "album": "black-dice-beaches-and-canyons"
+    },
+    {
+      "pos": "1-E",
+      "artista": "Chinese Stars",
+      "titulo": "Listen to Your Left Brain",
+      "album": "chinese-stars-listen-to-your-left-brain"
+    },
+    {
+      "pos": "2-E",
+      "artista": "Afrirampo",
+      "titulo": "A",
+      "album": "afrirampo-a"
+    },
+    {
+      "pos": "3-E",
+      "artista": "Unwound",
+      "titulo": "Fake Train",
+      "album": "unwound-fake-train"
+    },
+    {
+      "pos": "4-E",
+      "artista": "The Raveonettes",
+      "titulo": "Chain Gang of Love",
+      "album": "the-raveonettes-chain-gang-of-love"
+    }
+  ]
+}

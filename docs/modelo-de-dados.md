@@ -48,36 +48,40 @@ A hierarquia (`pai`) e a linhagem (`origens`) são independentes: o Metal é mes
 { "arquivo": "assets/img/generos/blues.jpg", "autor": "", "fonte": "https://unsplash.com/...", "licenca": "Unsplash License" }
 ```
 
-## `data/curadorias/` (Curadoria da Semana)
+## `data/curadorias/` (A Curadoria)
 
-Uma edição por arquivo, nomeado `AAAA-MM-DD-<autor>.json` (data de publicação). O site mostra a edição mais recente cuja data já chegou; as demais formam o arquivo. Para criar uma edição, copie `data/curadorias/_modelo.json` e acrescente o `id` em `data/curadorias/indice.json` (o GitHub Pages não lista pastas, então o site precisa desse índice):
+Uma edição por arquivo, nomeado `AAAA-MM-DD-<tema>.json` (data de publicação). Cada edição é um editorial sobre algumas faixas. O site mostra a edição mais recente cuja data já chegou; as demais formam o arquivo no fim da página (`#/curadoria/<id>` abre uma delas). Para criar uma edição, copie `data/curadorias/_modelo.json` e acrescente o `id` em `data/curadorias/indice.json` (o GitHub Pages não lista pastas, então o site precisa desse índice):
 
 ```json
-["2026-11-02-fulano-de-tal", "2026-11-09-ciclana"]
+["2026-10-28-introducoes-impactantes"]
 ```
 
 ```json
 {
-  "id": "2026-11-02-fulano-de-tal",
-  "publicacao": "2026-11-02",
-  "titulo": "Discos para ouvir de madrugada",
-  "texto": "Texto do autor. Parágrafos separados por linha em branco.",
-  "albuns": [
-    { "album": "my-bloody-valentine-loveless", "nota": "Frase opcional do autor sobre o disco." }
-  ],
-  "autor": {
-    "nome": "Fulano de Tal",
-    "foto": "assets/img/autores/fulano-de-tal.jpg",
-    "bio": "Bio curta, 2–3 frases.",
-    "redes": [
-      { "rede": "instagram", "url": "https://instagram.com/..." },
-      { "rede": "rym", "url": "https://rateyourmusic.com/~..." }
-    ]
-  }
+  "id": "2026-10-28-introducoes-impactantes",
+  "numero": 1,
+  "publicacao": "2026-10-28",
+  "titulo": "Músicas com Introduções Impactantes",
+  "autor": { "nome": "", "foto": "assets/img/autores/....jpg", "bio": "", "redes": [{ "rede": "instagram", "url": "" }] },
+  "faixas": [
+    {
+      "faixa": "Airport Lady",
+      "artista": "Toshiki Kadomatsu",
+      "albumTitulo": "After 5 Clash",
+      "album": "toshiki-kadomatsu-after-5-clash",
+      "texto": ["Parágrafo do autor.", "Outro parágrafo."],
+      "outras": ["Step into the Light", "After 5 Crash"],
+      "links": { "spotify": "https://open.spotify.com/track/...", "deezer": "...", "youtubeMusic": "...", "appleMusic": "..." }
+    }
+  ]
 }
 ```
 
-- `albuns` tem **exatamente 5** itens. `album` aponta para um ID de `data/albuns/`; se o disco ainda não existir lá, cadastrar a ficha dele (assim ele também entra na busca).
+- O texto é do autor, copiado como ele escreveu (no Notion, página TrackLore › Editoriais). Não é redigido pelo Claude; só se completa o que o próprio autor pedir no texto. Erros de digitação e ortografia são corrigidos quando o autor autoriza (edição #1: autorizado em 28/10/2026), sem mudar estilo nem conteúdo.
+- Marcação no `texto`: `_palavra_` vira itálico (estrangeirismos e neologismos, ex.: `_groove_`, `_slappado_`); `[rock progressivo](g:progressive-rock)` vira link para a página do gênero no Guia de Gêneros (só gêneros da árvore; os outros ficam em texto); `[Sea Breeze](a:toshiki-kadomatsu-sea-breeze)` vira o nome do disco em itálico que abre a ficha dele. Discos citados no texto que não são de nenhuma faixa entram em `citados: [{ "artista", "titulo", "album" }]` para `criar-fichas.js` criar as fichas.
+- `album` aponta para uma ficha de `data/albuns/`: `node scripts/criar-fichas.js` também cria as fichas dos discos das edições que não estão em nenhum chart. Tocar na capa do player abre essa ficha.
+- `links` são os links da faixa (não do álbum): `node scripts/curadoria-faixas.js` procura no Deezer, YouTube Music, Spotify, Apple Music e Qobuz pelo álbum da ficha. Sem links da faixa, o player mostra os do álbum. "Tocar aqui" embute o vídeo da faixa no YouTube (YouTube Music da faixa; sem ele, a busca de músicas do YouTube Music). Quando o disco não está no catálogo oficial, `video: { "url": "https://www.youtube.com/watch?v=…", "nota": "upload de fã…" }` define o vídeo, só com aprovação do usuário.
+- `autor` é opcional; sem ele, a edição não mostra assinatura.
 - `rede` usa um nome fixo (`instagram`, `x`, `bluesky`, `youtube`, `rym`, `lastfm`, `spotify`, `site`) para o site escolher o ícone.
 
 ## `data/charts/mu-essential-charts.json` (índice das Essential Charts)
@@ -127,6 +131,8 @@ Um arquivo por chart; `id` igual ao do índice. Os álbuns são copiados da imag
 - `noChart` guarda o texto original quando ele foi corrigido (erro de digitação, abreviação, título cortado). Só corrigimos o que é inequívoco.
 - `conferir` marca o que não deu para confirmar pela imagem; `titulo: null` quando o álbum não foi identificado. Nada é inventado.
 - Campos extras usados quando o chart traz a informação: `ano`, `subestilos` (ex.: cor da borda no chart de IDM), `inicio` (álbum de entrada recomendado).
+- `generos` em cada álbum (opcional): charts com listas por gênero (ex.: `metal-subgenres`, `post-punk-by-subgenre`) dizem o gênero de cada disco; sem o campo, vale o `generos` do chart.
+- `transcricao.parcial: true`: seleção de parte do chart (curadoria do TrackMap, 10 a 16 discos por gênero), não a transcrição completa; o `metodo` diz como foi escolhida.
 - `transcricao.status`: `revisar` até alguém conferir com a imagem; depois `conferido`.
 - Validação: `node scripts/validar-charts.js` (lista também os itens a conferir).
 - `data/charts/mu-transcritos.json` lista os ids dos charts transcritos, na ordem em que o Guia de Gêneros os mostra (o GitHub Pages não lista pastas). Acrescente o id ao transcrever um chart novo.
@@ -150,9 +156,13 @@ Um único arquivo com todas as fichas (a Pesquisa precisa de todas de uma vez). 
   "capa": "assets/img/capas/celtic-frost-to-mega-therion.jpg",
   "musicbrainz": { "releaseGroup": "f2f954cb-...", "release": "9af4c0d9-..." },
   "charts": ["black-metal"],
-  "generos": ["black-metal"]
+  "generos": ["black-metal"],
+  "estilos": ["doom-metal"],
+  "estilosFonte": { "doom-metal": "wikidata" }
 }
 ```
+
+- `estilos` / `estilosFonte`: gêneros da árvore que fontes abertas atribuem ao álbum além dos que vêm dos charts — o gênero (P136) do item do Wikidata e os gêneros mais votados do release-group no MusicBrainz (`node scripts/buscar-generos-albuns.js` coleta em `fontes/generos-albuns.json`; `node scripts/classificar-albuns.js` grava). Ancestrais de gêneros que o disco já tem ficam de fora. O site soma `generos` e `estilos` para pôr o disco nas listas dos gêneros e nas etiquetas de estilo dos cards.
 
 - **Fontes:** MusicBrainz (banco aberto, mantido por pessoas) para título, artista, data, tipo, faixas e links; Cover Art Archive para a capa (500 px).
 - Todas as fichas têm `lancamento`, `duracao`, `gravadora` e `faixas` (com duração) — o validador acusa o que faltar. Quando o MusicBrainz não tem o dado, `node scripts/completar-fichas.js` busca em outra edição do MusicBrainz, no Deezer ou no quadro do álbum na Wikipédia, e registra a origem em `complementos` (`{ "duracao": "deezer", "gravadora": "wikipedia" }`). O que ainda faltar, `node scripts/completar-discogs.js` busca no Discogs (link da ficha ou busca com o token pessoal na variável de ambiente `DISCOGS_TOKEN`, nunca gravado no projeto); origem `"discogs"`. Lançamento pelo próprio artista ("Not On Label … Self-released") vira a gravadora "Lançamento independente". Dados conferidos à mão ficam em `correcoes.json` (campos `lancamento`, `gravadora` e `fonte`).
@@ -173,6 +183,7 @@ Um único arquivo com todas as fichas (a Pesquisa precisa de todas de uma vez). 
 - Textos traduzidos: quando o original só existe em inglês, o texto (`resumo`, `som` ou `sobre`) é a tradução em português e a fonte ganha `traduzido: true` (com `idioma: "en"` e o link do original). O site mostra "Traduzido do inglês" e, na linha de baixo, "Original: Wikipédia em inglês". O texto em inglês não é guardado. Aplicar com `node scripts/aplicar-traducoes.js arquivo.json` (chaves `resumo:<gênero>`, `som:<gênero>`, `sobre:<álbum>`); buscar de novo um item traduzido traz o inglês de volta.
 - `destaque`: a faixa mais popular do álbum pela média de Deezer (`rank`), YouTube Music (reproduções) e ListenBrainz (audições reunidas de vários serviços de streaming); em cada plataforma a nota é o valor da faixa ÷ o maior do álbum ali. O site mostra só "A faixa mais popular do álbum nos streamings." `{ "titulo": "Dear Mama", "duracao": "4:40", "links": { "spotify": "…/track/…", "youtubeMusic": "…watch?v=…", "appleMusic": "…?i=…", "qobuz": "…/track/…", "deezer": "…/track/…" }, "criterio": "A faixa mais popular do álbum nos streamings.", "plataformas": ["youtubeMusic", "deezer", "listenbrainz"] }`. Só faixas da lista da ficha contam (evita faixas bônus). Os links de Spotify, Apple Music e Qobuz são procurados pelo título da faixa nos álbuns da ficha (`--links` refaz só essa parte); Tidal e Bandcamp não têm dados públicos das faixas. Ficaram de fora o Spotify (a API exige Premium) e Apple Music, Tidal e Qobuz (sem dados públicos de popularidade por faixa). Gerado por `node scripts/buscar-destaques.js` (`--refazer id`, `--todos`); `destaqueVerificado` guarda a data.
 - `reviews` também vêm de `node scripts/buscar-criticas-extras.js` (fichas com menos de duas notas): Pitchfork (`url` da resenha), Metacritic (Metascore de 0 a 100, `url` da página de críticas; confere artista, título e ano ±1) e Discogs (`"fonte": "Discogs (usuários)"`, média dos usuários com `votos` ≥ 10). Sem `via`: o crédito da Wikipédia só aparece quando alguma nota veio de lá.
+- `naoOficial`: `{ url, tipo: "album" | "faixa", titulo, canal }` — upload de fã no YouTube para fichas **sem nenhum link oficial** (`node scripts/buscar-nao-oficiais.js`, pedido do usuário em 28/10/2026): o álbum completo (título com artista e álbum, ≥ 60% da duração) ou, sem ele, uma faixa do álbum (o vídeo mais visto); versões ao vivo, covers e remixes ficam de fora. `null` quando nada foi achado. O site mostra o botão tracejado "Não oficial" só quando não há link oficial.
 - `discogs`: link do registro mestre do álbum no Discogs (`discogs.com/master/…`; sem mestre, o de uma edição), das ligações do release-group no MusicBrainz (`node scripts/buscar-discogs.js`). A caixa do álbum mostra o botão "Discogs" logo depois de "Ouça o álbum". `null` quando o MusicBrainz não tem o link.
 - Notas do RYM: coletadas pelo Claude in Chrome (sessão do usuário, ritmo humano) em `data/albuns/notas-rym.json` (`id`, `url`, `media`, `votos`) e gravadas por `node scripts/aplicar-notas-rym.js data/albuns/notas-rym.json` como `"fonte": "Rate Your Music (usuários)"`.
 - `sobreFonte.tipo: "dados"`: descrição curta montada só com os dados da ficha, para álbuns sem artigo em nenhuma Wikipédia (`node scripts/descrever-albuns.js`); o site credita "Descrição montada com os dados do MusicBrainz" — ou do Discogs (`sobreFonte.nome: "Discogs"`, url do Discogs) para fichas fora do MusicBrainz completadas por lá. `--refazer` remonta as descrições depois que a ficha ganha dados.

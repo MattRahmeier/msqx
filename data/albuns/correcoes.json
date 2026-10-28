@@ -101,5 +101,50 @@
   },
   "omar-s-fabric-45": {
     "sobreArtigo": false
+  },
+  "jay-chou-novembers-chopin": null,
+  "millionyoung-sundreamm": null,
+  "momoko-kikuchi-adventure": null,
+  "anri-wave": null,
+  "kiyotaka-sugiyama-and-omega-tribe-first-finale": null,
+  "makoto-matsushita-first-light": null,
+  "faces-prototype": null,
+  "bsbd-and-nacho-picasso-exalted": null,
+  "christie-front-drive-anthology": null,
+  "finkl-forever": null,
+  "ashra-new-age-of-earth": null,
+  "triple-six-mafia-smoked-out-loced-out": null,
+  "lil-gin-shake-junt": null,
+  "ganksta-n-i-p-the-south-park-psycho": null,
+  "eightball-and-mjg-comin-out-hard": null,
+  "takeshi-terauchi-and-the-bunnys-this-is-terauchi-bushi": null,
+  "the-avengers-vi-real-cool-hits": null,
+  "los-elasticos-entre-demonios-y-villanos": null,
+  "frank-sinatra-sinatra-59-live-in-australia": null,
+  "big-bad-voodoo-daddy-americana-deluxe": null,
+  "django-reinhardt-the-gypsy-genius": null,
+  "taskforce-music-from-the-corner-volume-1": null,
+  "jam-baxter-smack-out-mondays": null,
+  "lil-1-2-dead-steel-on-a-mission": null,
+  "the-desert-sessions-volumes-1-and-2": null,
+  "toshiki-kadomatsu-after-5-clash": {
+    "releaseGroup": "87ed1812-6269-4ed2-a087-724545c87889",
+    "titulo": "After 5 Clash"
+  },
+  "makoto-matsushita-quiet-skies": {
+    "releaseGroup": "434b2ce6-bb3e-4592-8fe2-102eb1f9f137",
+    "titulo": "Quiet Skies"
+  },
+  "toshiki-kadomatsu-sea-breeze": {
+    "releaseGroup": "97f66fb1-d54e-4143-8fa3-ad018b7f6cda",
+    "titulo": "Sea Breeze"
+  },
+  "toshiki-kadomatsu-on-the-city-shore": {
+    "releaseGroup": "ab35e241-e317-4bf8-b9c7-de5f9f4abb26",
+    "titulo": "On the City Shore"
+  },
+  "toshiki-kadomatsu-weekend-fly-to-the-sun": {
+    "releaseGroup": "1d82015d-d51e-4461-9bbf-b2c9bf3ffba4",
+    "titulo": "Weekend Fly to the Sun"
   }
 }

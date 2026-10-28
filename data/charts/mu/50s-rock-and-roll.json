@@ -1,0 +1,119 @@
+{
+  "id": "50s-rock-and-roll",
+  "titulo": "/mu/ Essential 50s Rock and Roll",
+  "indice": "50s-rock-and-roll",
+  "generos": [
+    "rock-and-roll"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/50s-rock-and-roll.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart, conferida com as capas",
+    "status": "revisar"
+  },
+  "nota": "A linha D são coletâneas.",
+  "albuns": [
+    {
+      "pos": "a1",
+      "artista": "Buddy Holly",
+      "titulo": "The \"Chirping\" Crickets",
+      "album": "buddy-holly-the-chirping-crickets"
+    },
+    {
+      "pos": "a2",
+      "artista": "Little Richard",
+      "titulo": "Here’s Little Richard",
+      "album": "little-richard-heres-little-richard"
+    },
+    {
+      "pos": "a3",
+      "artista": "Elvis Presley",
+      "titulo": "Elvis Presley",
+      "album": "elvis-presley-elvis-presley"
+    },
+    {
+      "pos": "a4",
+      "artista": "Carl Perkins",
+      "titulo": "Dance Album of Carl Perkins",
+      "noChart": "Carl Perkins - Dance Album",
+      "album": "carl-perkins-dance-album-of-carl-perkins"
+    },
+    {
+      "pos": "b1",
+      "artista": "Bill Haley & His Comets",
+      "titulo": "Rock Around the Clock",
+      "album": "bill-haley-and-his-comets-rock-around-the-clock"
+    },
+    {
+      "pos": "b2",
+      "artista": "Chuck Berry",
+      "titulo": "The Great Twenty-Eight",
+      "noChart": "Chuck Berry - The Great Twenty",
+      "album": "chuck-berry-the-great-twenty-eight"
+    },
+    {
+      "pos": "b3",
+      "artista": "Bo Diddley",
+      "titulo": "Bo Diddley",
+      "album": "bo-diddley-bo-diddley"
+    },
+    {
+      "pos": "b4",
+      "artista": "Jerry Lee Lewis",
+      "titulo": "Jerry Lee Lewis",
+      "album": "jerry-lee-lewis-jerry-lee-lewis"
+    },
+    {
+      "pos": "c1",
+      "artista": "Ritchie Valens",
+      "titulo": "Ritchie Valens",
+      "album": "ritchie-valens-ritchie-valens"
+    },
+    {
+      "pos": "c2",
+      "artista": "Frankie Lymon & the Teenagers",
+      "titulo": "The Teenagers Featuring Frankie Lymon",
+      "noChart": "Frankie Lymon & the Teenagers - Teenagers ft Frankie",
+      "album": "frankie-lymon-and-the-teenagers-the-teenagers-featuring-frankie-lymon"
+    },
+    {
+      "pos": "c3",
+      "artista": "The Coasters",
+      "titulo": "The Coasters",
+      "album": "the-coasters-the-coasters"
+    },
+    {
+      "pos": "c4",
+      "artista": "The Del-Vikings",
+      "titulo": "Come Go with the Del-Vikings",
+      "album": "the-del-vikings-come-go-with-the-del-vikings"
+    },
+    {
+      "pos": "d1",
+      "artista": "The Chantels",
+      "titulo": "The Best of the Chantels",
+      "album": "the-chantels-the-best-of-the-chantels"
+    },
+    {
+      "pos": "d2",
+      "artista": "Roy Orbison",
+      "titulo": "For the Lonely: A Roy Orbison Anthology, 1956–1965",
+      "noChart": "Roy Orbison - For the Lonely",
+      "album": "roy-orbison-for-the-lonely-a-roy-orbison-anthology-1956-1965"
+    },
+    {
+      "pos": "d3",
+      "artista": "The Chordettes",
+      "titulo": "25 All-Time Greatest Recordings",
+      "album": "the-chordettes-25-all-time-greatest-recordings"
+    },
+    {
+      "pos": "d4",
+      "artista": "The Crew-Cuts",
+      "titulo": "The Best of the Crew Cuts: The Mercury Years",
+      "noChart": "The Crew-Cuts - Best of the Crew Cuts: Mercury Years",
+      "album": "the-crew-cuts-the-best-of-the-crew-cuts-the-mercury-years"
+    }
+  ]
+}

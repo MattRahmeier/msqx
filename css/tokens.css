@@ -19,12 +19,13 @@
   /* Destaque único, discreto */
   --destaque: #e8e3d6;
 
-  /* Gêneros mestres no TrackMap: areia, chama atenção sem sair da paleta neutra */
-  --mestre: #cbbf9f;
-  --mestre-hover: #d8cdb0;
-  --mestre-borda: #e8e3d6;
-  --mestre-texto: #1d1b16;
-  --mestre-texto-suave: #4f4a3d;
+  /* Gêneros no TrackMap pela profundidade na árvore: o mestre em preto e cada nível de subgênero
+     mais claro, em passos largos até quase branco (níveis 0 a 4) */
+  --cinza-0: #000000;
+  --cinza-1: #3c3c3c;
+  --cinza-2: #727272;
+  --cinza-3: #a9a9a9;
+  --cinza-4: #e0e0e0;
 
   /* Linhas do cérebro (modelo-de-dados.md) */
   --linha-hierarquia: rgba(244, 244, 242, 0.28);

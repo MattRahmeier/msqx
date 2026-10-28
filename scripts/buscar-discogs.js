@@ -1,7 +1,7 @@
 // Preenche "discogs" nas fichas (data/albuns/albuns.json): o link do registro mestre do álbum no
 // Discogs (discogs.com/master/…), tirado das ligações do release-group no MusicBrainz. Sem
 // registro mestre ligado, usa o de uma edição (discogs.com/release/…).
-// Uso: node scripts/buscar-discogs.js [--todos]   (sem --todos, só fichas sem "discogs")
+// Uso: node scripts/buscar-discogs.js [--todos] [--ids id1,id2]   (sem --todos, só fichas sem "discogs")
 
 const fs = require("fs");
 const path = require("path");
@@ -10,6 +10,7 @@ const ARQ = path.join(__dirname, "..", "data", "albuns", "albuns.json");
 const UA = { "User-Agent": "Tracklore/0.1 (https://github.com/MattRahmeier/tracklore)", Accept: "application/json" };
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 const todos = process.argv.includes("--todos");
+const ids = process.argv.includes("--ids") ? new Set(process.argv[process.argv.indexOf("--ids") + 1].split(",")) : null; // só essas fichas
 
 async function mb(caminho) {
   await espera(1100);
@@ -28,6 +29,7 @@ async function mb(caminho) {
   const fichas = JSON.parse(fs.readFileSync(ARQ, "utf8"));
   let feitos = 0;
   for (const f of fichas) {
+    if (ids && !ids.has(f.id)) continue;
     if (!f.musicbrainz?.releaseGroup || (!todos && "discogs" in f)) continue;
     const rg = await mb(`release-group/${f.musicbrainz.releaseGroup}?fmt=json&inc=url-rels`);
     // Consulta que falhou não vira "sem Discogs": a ficha fica sem o campo e entra na próxima rodada.

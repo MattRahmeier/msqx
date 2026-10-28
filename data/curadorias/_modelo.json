@@ -1,21 +1,18 @@
 {
-  "id": "AAAA-MM-DD-nome-do-autor",
+  "id": "AAAA-MM-DD-tema-da-edicao",
+  "numero": 0,
   "publicacao": "AAAA-MM-DD",
   "titulo": "",
-  "texto": "",
-  "albuns": [
-    { "album": "", "nota": "" },
-    { "album": "", "nota": "" },
-    { "album": "", "nota": "" },
-    { "album": "", "nota": "" },
-    { "album": "", "nota": "" }
-  ],
-  "autor": {
-    "nome": "",
-    "foto": "assets/img/autores/nome-do-autor.jpg",
-    "bio": "",
-    "redes": [
-      { "rede": "instagram", "url": "" }
-    ]
-  }
+  "autor": { "nome": "", "foto": "assets/img/autores/nome-do-autor.jpg", "bio": "", "redes": [{ "rede": "instagram", "url": "" }] },
+  "faixas": [
+    {
+      "faixa": "",
+      "artista": "",
+      "albumTitulo": "",
+      "album": "artista-titulo-do-album",
+      "texto": ["primeiro parágrafo", "segundo parágrafo"],
+      "outras": [],
+      "links": {}
+    }
+  ]
 }

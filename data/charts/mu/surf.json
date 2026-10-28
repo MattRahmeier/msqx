@@ -1,0 +1,208 @@
+{
+  "id": "surf",
+  "titulo": "Surf Essentials (v3.1.2)",
+  "indice": "surf",
+  "generos": [
+    "surf-rock"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/surf.gif",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "Dois blocos: Classic (C) e Modern (M).",
+  "albuns": [
+    {
+      "pos": "C1",
+      "artista": "Dick Dale and His Del-Tones",
+      "titulo": "Surfers' Choice",
+      "noChart": "Dick Dale - Surfer's Choice",
+      "album": "dick-dale-and-his-del-tones-surfers-choice"
+    },
+    {
+      "pos": "C2",
+      "artista": "The Chantays",
+      "titulo": "Pipeline",
+      "album": "the-chantays-pipeline"
+    },
+    {
+      "pos": "C3",
+      "artista": "The Surfaris",
+      "titulo": "Wipe Out!",
+      "noChart": "The Surfaris - Wipe Out!",
+      "album": "the-surfaris-wipe-out"
+    },
+    {
+      "pos": "C4",
+      "artista": "The Ventures",
+      "titulo": "Walk Don't Run",
+      "album": "the-ventures-walk-dont-run"
+    },
+    {
+      "pos": "C5",
+      "artista": "The Beach Boys",
+      "titulo": "Surfin' U.S.A.",
+      "noChart": "The Beach Boys - Surfin' USA",
+      "album": "the-beach-boys-surfin-usa"
+    },
+    {
+      "pos": "C6",
+      "artista": "The Rivieras",
+      "titulo": "California Sun",
+      "album": "the-rivieras-california-sun"
+    },
+    {
+      "pos": "C7",
+      "artista": "The Trashmen",
+      "titulo": "Surfin' Bird",
+      "album": "the-trashmen-surfin-bird"
+    },
+    {
+      "pos": "C8",
+      "artista": "Link Wray",
+      "titulo": "Rumble!",
+      "noChart": "Link Wray - Rumble!",
+      "album": "link-wray-rumble"
+    },
+    {
+      "pos": "C9",
+      "artista": "Davie Allan & the Arrows",
+      "titulo": "Devil's Rumble: Anthology '64–'68",
+      "noChart": "Davie Allen & The Arrows - Anthology",
+      "album": "davie-allan-and-the-arrows-devils-rumble-anthology-64-68"
+    },
+    {
+      "pos": "C10",
+      "artista": "Takeshi Terauchi & The Bunnys",
+      "titulo": "This Is Terauchi Bushi",
+      "album": "takeshi-terauchi-and-the-bunnys-this-is-terauchi-bushi"
+    },
+    {
+      "pos": "C11",
+      "artista": "Eddie & the Showmen",
+      "titulo": "Squad Car",
+      "album": "eddie-and-the-showmen-squad-car"
+    },
+    {
+      "pos": "C12",
+      "artista": "The Belairs",
+      "titulo": "The Origins of Surf",
+      "album": "the-belairs-the-origins-of-surf"
+    },
+    {
+      "pos": "C13",
+      "artista": "The Centurians",
+      "titulo": "Surfers' Pajama Party",
+      "noChart": "The Centurians - Surfers Pajama Party",
+      "album": "the-centurians-surfers-pajama-party"
+    },
+    {
+      "pos": "C14",
+      "artista": "The Avengers VI",
+      "titulo": "Real Cool Hits",
+      "album": "the-avengers-vi-real-cool-hits"
+    },
+    {
+      "pos": "C15",
+      "artista": "The Lively Ones",
+      "titulo": "Surf Rider!",
+      "album": "the-lively-ones-surf-rider"
+    },
+    {
+      "pos": "M1",
+      "artista": "The Treblemakers",
+      "titulo": "Vs. the Doomsday Device",
+      "album": "the-treblemakers-vs-the-doomsday-device"
+    },
+    {
+      "pos": "M2",
+      "artista": "Monsters from Mars",
+      "titulo": "Play Some Surf",
+      "album": "monsters-from-mars-play-some-surf"
+    },
+    {
+      "pos": "M3",
+      "artista": "Agent Orange",
+      "titulo": "Living in Darkness",
+      "album": "agent-orange-living-in-darkness"
+    },
+    {
+      "pos": "M4",
+      "artista": "The Mermen",
+      "titulo": "A Glorious Lethal Euphoria",
+      "album": "the-mermen-a-glorious-lethal-euphoria"
+    },
+    {
+      "pos": "M5",
+      "artista": "Dead Kennedys",
+      "titulo": "Fresh Fruit for Rotting Vegetables",
+      "album": "dead-kennedys-fresh-fruit-for-rotting-vegetables"
+    },
+    {
+      "pos": "M6",
+      "artista": "Man or Astro-man?",
+      "titulo": "Destroy All Astromen!",
+      "album": "man-or-astro-man-destroy-all-astromen"
+    },
+    {
+      "pos": "M7",
+      "artista": "Lost Acapulco",
+      "titulo": "4",
+      "album": "lost-acapulco-4"
+    },
+    {
+      "pos": "M8",
+      "artista": "Sr. Bikini",
+      "titulo": "Surf Extremo",
+      "album": "sr-bikini-surf-extremo"
+    },
+    {
+      "pos": "M9",
+      "artista": "Los Elásticos",
+      "titulo": "Entre demonios y villanos",
+      "noChart": "Los Elasticos - Entre Demonios Y Villanos",
+      "album": "los-elasticos-entre-demonios-y-villanos"
+    },
+    {
+      "pos": "M10",
+      "artista": "Slacktone",
+      "titulo": "Warning: Reverb Instrumentals",
+      "noChart": "Slacktone - Warning Reverb Instrumentals",
+      "album": "slacktone-warning-reverb-instrumentals"
+    },
+    {
+      "pos": "M11",
+      "artista": "Laika & the Cosmonauts",
+      "titulo": "Surfs You Right",
+      "album": "laika-and-the-cosmonauts-surfs-you-right"
+    },
+    {
+      "pos": "M12",
+      "artista": "The Ghastly Ones",
+      "titulo": "A-Haunting We Will Go-Go",
+      "noChart": "Ghastly Ones - Target:Draculon",
+      "conferir": "o chart diz \"Target: Draculon\"; conferir",
+      "album": "the-ghastly-ones-a-haunting-we-will-go-go"
+    },
+    {
+      "pos": "M13",
+      "artista": "Satan's Pilgrims",
+      "titulo": "Soul Pilgrim",
+      "album": "satans-pilgrims-soul-pilgrim"
+    },
+    {
+      "pos": "M14",
+      "artista": "Ramonetures",
+      "titulo": "Ramonetures",
+      "album": "ramonetures-ramonetures"
+    },
+    {
+      "pos": "M15",
+      "artista": "The Surf Coasters",
+      "titulo": "Live",
+      "album": "the-surf-coasters-live"
+    }
+  ]
+}

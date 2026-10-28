@@ -1,0 +1,167 @@
+{
+  "id": "free-jazz-essentials",
+  "titulo": "Free Jazz Essentials",
+  "indice": "free-jazz-essentials",
+  "generos": [
+    "free-jazz"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/free-jazz-essentials.png",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Ornette Coleman",
+      "titulo": "The Shape of Jazz to Come",
+      "album": "ornette-coleman-the-shape-of-jazz-to-come"
+    },
+    {
+      "pos": "A2",
+      "artista": "Art Ensemble of Chicago",
+      "titulo": "Les Stances a Sophie",
+      "album": "art-ensemble-of-chicago-les-stances-a-sophie"
+    },
+    {
+      "pos": "A3",
+      "artista": "Naked City",
+      "titulo": "Torture Garden",
+      "album": "naked-city-torture-garden"
+    },
+    {
+      "pos": "A4",
+      "artista": "Albert Ayler",
+      "titulo": "Spiritual Unity",
+      "album": "albert-ayler-spiritual-unity"
+    },
+    {
+      "pos": "A5",
+      "artista": "Sun Ra",
+      "titulo": "Space Is the Place",
+      "album": "sun-ra-space-is-the-place"
+    },
+    {
+      "pos": "B1",
+      "artista": "John Zorn",
+      "titulo": "Naked City",
+      "album": "john-zorn-naked-city"
+    },
+    {
+      "pos": "B2",
+      "artista": "Anthony Braxton",
+      "titulo": "For Alto",
+      "album": "anthony-braxton-for-alto"
+    },
+    {
+      "pos": "B3",
+      "artista": "Cecil Taylor",
+      "titulo": "Unit Structures",
+      "album": "cecil-taylor-unit-structures"
+    },
+    {
+      "pos": "B4",
+      "artista": "Sam Rivers",
+      "titulo": "Contours",
+      "album": "sam-rivers-contours"
+    },
+    {
+      "pos": "B5",
+      "artista": "Dave Burrell",
+      "titulo": "After Love",
+      "album": "dave-burrell-after-love"
+    },
+    {
+      "pos": "C1",
+      "artista": "Charles Mingus",
+      "titulo": "The Black Saint and the Sinner Lady",
+      "album": "charles-mingus-the-black-saint-and-the-sinner-lady"
+    },
+    {
+      "pos": "C2",
+      "artista": "Pharoah Sanders",
+      "titulo": "Karma",
+      "album": "pharoah-sanders-karma"
+    },
+    {
+      "pos": "C3",
+      "artista": "Eric Dolphy",
+      "titulo": "Out to Lunch!",
+      "album": "eric-dolphy-out-to-lunch"
+    },
+    {
+      "pos": "C4",
+      "artista": "Alice Coltrane",
+      "titulo": "Journey in Satchidananda",
+      "album": "alice-coltrane-journey-in-satchidananda"
+    },
+    {
+      "pos": "C5",
+      "artista": "Don Cherry",
+      "titulo": "Brown Rice",
+      "album": "don-cherry-brown-rice"
+    },
+    {
+      "pos": "D1",
+      "artista": "Miles Davis",
+      "titulo": "On the Corner",
+      "album": "miles-davis-on-the-corner"
+    },
+    {
+      "pos": "D2",
+      "artista": "Masada",
+      "titulo": "Alef",
+      "album": "masada-alef"
+    },
+    {
+      "pos": "D3",
+      "artista": "John Coltrane",
+      "titulo": "A Love Supreme",
+      "album": "john-coltrane-a-love-supreme"
+    },
+    {
+      "pos": "D4",
+      "artista": "Larry Young",
+      "titulo": "Unity",
+      "album": "larry-young-unity"
+    },
+    {
+      "pos": "D5",
+      "artista": "Rahsaan Roland Kirk",
+      "titulo": "Blacknuss",
+      "album": "rahsaan-roland-kirk-blacknuss"
+    },
+    {
+      "pos": "E1",
+      "artista": "Gary Peacock",
+      "titulo": "Tales of Another",
+      "album": "gary-peacock-tales-of-another"
+    },
+    {
+      "pos": "E2",
+      "artista": "Sun Ra",
+      "titulo": "Jazz in Silhouette",
+      "album": "sun-ra-jazz-in-silhouette"
+    },
+    {
+      "pos": "E3",
+      "artista": "Cecil Taylor",
+      "titulo": "Conquistador!",
+      "album": "cecil-taylor-conquistador"
+    },
+    {
+      "pos": "E4",
+      "artista": "John Coltrane",
+      "titulo": "Om",
+      "album": "john-coltrane-om"
+    },
+    {
+      "pos": "E5",
+      "artista": "Andrew Hill",
+      "titulo": "Point of Departure",
+      "album": "andrew-hill-point-of-departure"
+    }
+  ]
+}

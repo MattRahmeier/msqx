@@ -1,0 +1,221 @@
+{
+  "id": "uk-hip-hop",
+  "titulo": "Essential UKHH (UK Hip Hop)",
+  "indice": "uk-hip-hop",
+  "generos": [
+    "hip-hop",
+    "grime"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/uk-hip-hop.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart (transcrição completa); \"pos\" é era-linha-coluna",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1-1",
+      "artista": "London Posse",
+      "titulo": "Gangster Chronicle",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "london-posse-gangster-chronicle"
+    },
+    {
+      "pos": "1-1-2",
+      "artista": "Demon Boyz",
+      "titulo": "Recognition",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "demon-boyz-recognition"
+    },
+    {
+      "pos": "2-1-1",
+      "artista": "Phi-Life Cypher",
+      "titulo": "Millennium Metaphors",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "phi-life-cypher-millennium-metaphors"
+    },
+    {
+      "pos": "2-1-2",
+      "artista": "Blak Twang",
+      "titulo": "19 Long Time",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "blak-twang-19-long-time"
+    },
+    {
+      "pos": "2-1-3",
+      "artista": "Jehst",
+      "titulo": "Return of the Drifter",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "jehst-return-of-the-drifter"
+    },
+    {
+      "pos": "2-1-4",
+      "artista": "Roots Manuva",
+      "titulo": "Run Come Save Me",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "roots-manuva-run-come-save-me"
+    },
+    {
+      "pos": "2-2-1",
+      "artista": "Taskforce",
+      "titulo": "Music from the Corner, Volume 1",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "taskforce-music-from-the-corner-volume-1"
+    },
+    {
+      "pos": "2-2-2",
+      "artista": "Braintax",
+      "titulo": "Biro Funk",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "braintax-biro-funk"
+    },
+    {
+      "pos": "2-2-3",
+      "artista": "Skinnyman",
+      "titulo": "Council Estate of Mind",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "skinnyman-council-estate-of-mind"
+    },
+    {
+      "pos": "2-2-4",
+      "artista": "Lewis Parker",
+      "titulo": "Masquerades & Silhouettes",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "lewis-parker-masquerades-and-silhouettes"
+    },
+    {
+      "pos": "3-1-1",
+      "artista": "Foreign Beggars",
+      "titulo": "Asylum Speakers",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "foreign-beggars-asylum-speakers"
+    },
+    {
+      "pos": "3-1-2",
+      "artista": "Dr. Syntax",
+      "titulo": "Self Taught",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "dr-syntax-self-taught"
+    },
+    {
+      "pos": "3-1-3",
+      "artista": "Rhyme Asylum",
+      "titulo": "State of Lunacy",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "rhyme-asylum-state-of-lunacy"
+    },
+    {
+      "pos": "3-1-4",
+      "artista": "Lowkey",
+      "titulo": "Dear Listener",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "lowkey-dear-listener"
+    },
+    {
+      "pos": "3-2-1",
+      "artista": "Akala",
+      "titulo": "Doublethink",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "akala-doublethink"
+    },
+    {
+      "pos": "3-2-2",
+      "artista": "Giggs",
+      "titulo": "Walk in da Park",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "giggs-walk-in-da-park"
+    },
+    {
+      "pos": "3-2-3",
+      "artista": "Jam Baxter",
+      "titulo": "Smack Out Mondays",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "jam-baxter-smack-out-mondays"
+    },
+    {
+      "pos": "3-2-4",
+      "artista": "Klashnekoff",
+      "titulo": "The Sagas Of...",
+      "generos": [
+        "hip-hop"
+      ],
+      "album": "klashnekoff-the-sagas-of"
+    },
+    {
+      "pos": "grime-1",
+      "artista": "Plan B",
+      "titulo": "Who Needs Actions When You Got Words",
+      "generos": [
+        "hip-hop",
+        "grime"
+      ],
+      "album": "plan-b-who-needs-actions-when-you-got-words"
+    },
+    {
+      "pos": "grime-2",
+      "artista": "Sway",
+      "titulo": "This Is My Demo",
+      "generos": [
+        "hip-hop",
+        "grime"
+      ],
+      "album": "sway-this-is-my-demo"
+    },
+    {
+      "pos": "grime-3",
+      "artista": "Dizzee Rascal",
+      "titulo": "Boy in da Corner",
+      "generos": [
+        "hip-hop",
+        "grime"
+      ],
+      "album": "dizzee-rascal-boy-in-da-corner"
+    },
+    {
+      "pos": "grime-4",
+      "artista": "Wiley",
+      "titulo": "Treddin' on Thin Ice",
+      "generos": [
+        "hip-hop",
+        "grime"
+      ],
+      "album": "wiley-treddin-on-thin-ice"
+    }
+  ],
+  "nota": "Três eras de UK hip hop e um bloco de grime (que entra também em grime)."
+}

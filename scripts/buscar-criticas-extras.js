@@ -10,7 +10,7 @@
 // Ficam só notas positivas (estrelas >= 3,5) e no máximo duas por ficha, junto com as que já existem.
 // Sites que bloqueiam acesso automatizado (AllMusic, RYM, Album of the Year, Metal Archives,
 // ProgArchives, Angry Metal Guy) não são consultados; o Wikidata não tem notas para estas fichas.
-// Uso: node scripts/buscar-criticas-extras.js [--so metacritic,discogs,pitchfork]
+// Uso: node scripts/buscar-criticas-extras.js [--so metacritic,discogs,pitchfork] [--ids id1,id2]
 
 const fs = require("fs");
 const path = require("path");
@@ -89,10 +89,12 @@ async function discogs(f) {
 
 const so = process.argv.includes("--so") ? process.argv[process.argv.indexOf("--so") + 1].split(",") : null;
 const fontes = [pitchfork, metacritic, discogs].filter((b) => !so || so.includes(b.name));
+// --ids a,b: só essas fichas (ex.: os discos de uma edição de A Curadoria).
+const ids = process.argv.includes("--ids") ? new Set(process.argv[process.argv.indexOf("--ids") + 1].split(",")) : null;
 
 (async () => {
   const fichas = JSON.parse(fs.readFileSync(ARQ, "utf8"));
-  const alvo = fichas.filter((f) => f.titulo && f.artista && (f.reviews?.length || 0) < 2);
+  const alvo = fichas.filter((f) => f.titulo && f.artista && (f.reviews?.length || 0) < 2 && (!ids || ids.has(f.id)));
   console.log(`${alvo.length} fichas com menos de duas notas.`);
   let feitos = 0;
   for (const f of alvo) {

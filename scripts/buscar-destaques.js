@@ -149,6 +149,23 @@ async function qobuzFaixa(f, alvo) {
   return null;
 }
 
+// Links de uma faixa qualquer do álbum da ficha (usado também pela curadoria, curadoria-faixas.js):
+// Deezer e YouTube Music pela lista de faixas do álbum; Spotify, Apple Music e Qobuz como acima.
+async function linksDeFaixa(f, titulo) {
+  const alvo = chave(titulo);
+  const links = {};
+  for (const [nome, buscar] of [["deezer", deezer], ["youtubeMusic", youtube]]) {
+    const t = (await buscar(f))?.find((x) => chave(x.titulo) === alvo && x.link);
+    if (t) links[nome] = t.link;
+  }
+  for (const [nome, buscar] of [["spotify", spotifyFaixa], ["appleMusic", appleFaixa], ["qobuz", qobuzFaixa]]) {
+    const link = await buscar(f, alvo);
+    if (link) links[nome] = link;
+  }
+  return links;
+}
+module.exports = { linksDeFaixa };
+
 async function linksDaFaixa(f) {
   const alvo = chave(f.destaque.titulo);
   for (const [nome, buscar] of [["spotify", spotifyFaixa], ["appleMusic", appleFaixa], ["qobuz", qobuzFaixa]]) {
@@ -158,7 +175,7 @@ async function linksDaFaixa(f) {
   }
 }
 
-(async () => {
+if (require.main === module) (async () => {
   const fichas = JSON.parse(fs.readFileSync(ARQ, "utf8"));
   const salvar = () => fs.writeFileSync(ARQ, JSON.stringify(fichas, null, 2) + "\n");
   const hoje = new Date().toISOString().slice(0, 10);

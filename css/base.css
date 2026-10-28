@@ -344,6 +344,7 @@ body.com-painel { overflow: hidden; }
 .painel-dados dd { margin: 0; font-size: var(--t-sm); font-weight: 500; }
 
 .painel-plataformas { list-style: none; margin: 0 0 var(--esp-6); padding: 0; display: flex; flex-wrap: wrap; gap: var(--esp-2); }
+.plat.nao-oficial { background: transparent; color: inherit; border: 1px dashed currentColor; }
 .plat-nome { width: auto; height: 36px; padding: 0 var(--esp-3) 0 var(--esp-2); border-radius: 18px; gap: var(--esp-2); display: inline-flex; font-size: var(--t-sm); font-weight: 500; text-decoration: none; }
 .painel .plat { background: var(--popup-texto); color: var(--popup); }
 .painel .plat:hover, .painel .plat:focus-visible { background: #000; color: var(--popup); border-color: #000; }
@@ -407,26 +408,28 @@ body.com-painel { overflow: hidden; }
 .linha.ativa.influencia, .linha.ativa.similar { stroke: rgba(244, 244, 242, 0.45); }
 
 .no { cursor: pointer; outline: none; transition: opacity var(--transicao); }
-.no .bola { fill: var(--superficie-2); stroke: var(--borda); stroke-width: 1.2; transition: fill var(--transicao), stroke var(--transicao); }
-.no .anel { fill: none; stroke: transparent; stroke-width: 1; stroke-dasharray: 2 4; transition: stroke var(--transicao); }
+/* Cinza pela profundidade: mestre preto, subgêneros clareando até quase branco */
+.no .toque { fill: transparent; }
+.no .bola { stroke: rgba(244, 244, 242, 0.28); stroke-width: 1.2; transition: stroke var(--transicao); }
+.no.nivel-0 .bola { fill: var(--cinza-0); stroke: var(--texto); stroke-width: 2; }
+.no.nivel-1 .bola { fill: var(--cinza-1); }
+.no.nivel-2 .bola { fill: var(--cinza-2); }
+.no.nivel-3 .bola { fill: var(--cinza-3); stroke: none; }
+.no.nivel-4 .bola { fill: var(--cinza-4); stroke: none; }
+.no .anel { fill: none; stroke: transparent; stroke-width: 1; stroke-dasharray: 2 4; pointer-events: none; transition: stroke var(--transicao); }
 .no.tem-filhos:not(.aberto) .anel { stroke: var(--texto-fraco); }
-.no.nivel-0 .bola { fill: var(--mestre); stroke: var(--mestre-borda); stroke-width: 2; }
 .no-nome { fill: var(--texto-suave); font-size: 12px; font-weight: 500; pointer-events: none; paint-order: stroke; stroke: var(--fundo); stroke-width: 4px; stroke-linejoin: round; }
-.no.nivel-0 .no-nome { fill: var(--mestre-texto); font-size: 17px; font-weight: 700; stroke: none; }
-.no-contagem { fill: var(--texto-fraco); font-size: 10px; font-weight: 500; pointer-events: none; paint-order: stroke; stroke: var(--fundo); stroke-width: 4px; stroke-linejoin: round; }
-.no.nivel-0 .no-contagem { fill: var(--mestre-texto-suave); font-size: 11px; stroke: none; }
-.no:not(.nivel-0) .no-contagem { fill: var(--texto); font-size: 12px; font-weight: 700; stroke: none; }
-.no.atual:not(.nivel-0) .no-contagem { fill: var(--popup-texto); }
-.no.nivel-2 .no-nome, .no.nivel-3 .no-nome { font-size: 11px; }
-.no-coroa { color: var(--mestre-texto); fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; pointer-events: none; }
-.no:hover .bola, .no:focus-visible .bola { stroke: var(--texto); }
-.no.nivel-0:hover .bola, .no.nivel-0:focus-visible .bola { fill: var(--mestre-hover); }
+.no.nivel-0 .no-nome { fill: var(--texto); font-size: 17px; font-weight: 700; stroke: none; }
+.no-contagem { font-size: 12px; font-weight: 700; pointer-events: none; fill: var(--texto); }
+.no.nivel-0 .no-contagem { fill: var(--texto-suave); font-size: 11px; font-weight: 500; }
+.no.nivel-3 .no-contagem, .no.nivel-4 .no-contagem { fill: var(--popup-texto); }
+.no.nivel-2 .no-nome, .no.nivel-3 .no-nome, .no.nivel-4 .no-nome { font-size: 11px; }
+.no-coroa { color: var(--texto); fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; pointer-events: none; }
+.no:hover .bola, .no:focus-visible .bola { stroke: var(--texto); stroke-width: 2; }
 .no:hover .no-nome, .no:focus-visible .no-nome { fill: var(--texto); }
-.no.atual .bola { fill: var(--popup); stroke: var(--popup); }
-.no.atual.nivel-0 .no-nome { fill: var(--popup-texto); }
-.no.atual.nivel-0 .no-contagem { fill: var(--popup-texto-suave); }
-.no.atual.nivel-0 .bola { stroke: var(--texto); stroke-width: 3; }
-.no.atual .no-coroa { color: var(--popup-texto); }
+/* Gênero aberto: anel cheio em volta, sem mudar o cinza do nível */
+.no.atual .anel { stroke: var(--texto); stroke-width: 2.5; stroke-dasharray: none; }
+.no.atual .no-nome { fill: var(--texto); font-weight: 700; }
 .mapa-svg.com-foco .no:not(.perto) { opacity: 0.45; }
 
 .mapa-legenda { position: absolute; left: var(--esp-6); bottom: var(--esp-4); padding: var(--esp-2) var(--esp-3); border-radius: var(--raio); background: rgba(20, 20, 20, 0.82); backdrop-filter: blur(6px); z-index: 2; list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--esp-2) var(--esp-4); font-size: var(--t-xs); color: var(--texto-fraco); pointer-events: none; }
@@ -467,6 +470,7 @@ body.com-painel { overflow: hidden; }
   transition: background var(--transicao);
 }
 .botao-recomendacoes .icone { width: 20px; height: 20px; }
+.botao-contagem { margin-left: var(--esp-1); padding: 1px var(--esp-2); border-radius: 999px; background: rgba(239, 236, 229, 0.16); font-weight: 500; font-variant-numeric: tabular-nums; }
 .botao-recomendacoes:hover, .botao-recomendacoes:focus-visible { background: #000; }
 .popup-resumo .resumo-genero { margin: 0; color: var(--popup-texto); font-size: var(--t-sm); line-height: 1.6; }
 .popup-resumo .resumo-fonte { margin: var(--esp-2) 0 var(--esp-6); font-size: var(--t-xs); color: var(--popup-texto-suave); }
@@ -542,7 +546,7 @@ body.com-painel { overflow: hidden; }
   .genero-popup {
     inset: auto 0 0 0;
     width: auto;
-    max-height: 62%;
+    max-height: 50%;
     border-radius: var(--raio-lg) var(--raio-lg) 0 0;
     padding: var(--esp-6) var(--esp-4);
     transform: translateY(32px);
@@ -551,4 +555,95 @@ body.com-painel { overflow: hidden; }
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
+}
+
+/* ---------- A Curadoria (js/vistas/curadoria.js) ---------- */
+.curadoria { max-width: 960px; }
+.curadoria-cabeca { margin: 0 0 var(--esp-6); }
+.curadoria-edicao { margin: 0; font-size: var(--t-xs); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--texto-fraco); }
+.curadoria-titulo { margin: var(--esp-1) 0 0; font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 700; letter-spacing: -0.02em; line-height: 1.15; text-wrap: balance; }
+.curadoria-autor { margin: var(--esp-2) 0 0; color: var(--texto-suave); }
+/* Lista das faixas no topo, como uma playlist do Spotify */
+.playlist { margin: 0 0 var(--esp-8); }
+.playlist-ouvir { display: flex; flex-wrap: wrap; gap: var(--esp-2); margin: 0 0 var(--esp-4); }
+.playlist-cabeca, .playlist-faixas button { display: grid; grid-template-columns: 32px minmax(0, 1.6fr) minmax(0, 1fr) 56px; align-items: center; gap: var(--esp-4); padding: 0 var(--esp-3); }
+.playlist-cabeca { padding-bottom: var(--esp-2); border-bottom: 1px solid var(--borda); font-size: var(--t-xs); letter-spacing: 0.06em; text-transform: uppercase; color: var(--texto-fraco); }
+.playlist-cabeca span:first-child, .playlist-n { text-align: center; }
+.playlist-cabeca span:last-child, .playlist-duracao { text-align: right; }
+.playlist-faixas { list-style: none; margin: var(--esp-2) 0 0; padding: 0; }
+.playlist-faixas button { width: 100%; min-height: 56px; border: 0; border-radius: var(--raio); background: none; color: var(--texto-suave); font: inherit; font-size: var(--t-sm); text-align: left; cursor: pointer; transition: background var(--transicao); }
+.playlist-faixas button:hover, .playlist-faixas button:focus-visible { background: var(--superficie-2); outline: none; }
+.playlist-n { color: var(--texto-fraco); font-variant-numeric: tabular-nums; }
+.playlist-titulo { display: flex; align-items: center; gap: var(--esp-3); min-width: 0; }
+.playlist-titulo img, .playlist-sem-capa { flex: none; width: 40px; height: 40px; border-radius: 4px; object-fit: cover; background: var(--superficie-2); }
+.playlist-titulo > span { display: flex; flex-direction: column; min-width: 0; }
+.playlist-titulo strong { color: var(--texto); font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.playlist-titulo strong + span, .playlist-album { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.playlist-titulo strong + span { font-size: var(--t-xs); }
+.playlist-duracao { font-variant-numeric: tabular-nums; color: var(--texto-fraco); }
+.curadoria-faixa { scroll-margin-top: 72px; margin: 0 0 var(--esp-8); padding-bottom: var(--esp-8); border-bottom: 1px solid var(--borda); }
+.curadoria-faixa:last-child { border-bottom: 0; }
+
+/* Player compacto: capa + faixa, artista, gêneros e ações. No computador a capa ocupa a altura toda
+   do quadro (sem sobra embaixo); no celular, a capa vem em cima. */
+.player { display: flex; overflow: hidden; border-radius: var(--raio-lg); background: linear-gradient(135deg, var(--superficie-2), var(--superficie)); border: 1px solid var(--borda); }
+.player-capa { flex: none; display: block; width: clamp(150px, 20vw, 196px); align-self: stretch; min-height: clamp(150px, 20vw, 196px); padding: 0; border: 0; background: var(--superficie-2); cursor: pointer; }
+.player-capa img { width: 100%; height: 100%; object-fit: cover; display: block; transition: filter var(--transicao); }
+.player-capa:hover img, .player-capa:focus-visible img { filter: brightness(1.08); }
+.player-capa:focus-visible { outline: 2px solid var(--texto); outline-offset: -2px; }
+.player-info { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: var(--esp-3) var(--esp-4); }
+.player-numero { margin: 0; font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.1em; color: var(--texto-fraco); font-variant-numeric: tabular-nums; }
+.player-faixa { margin: 0; font-size: clamp(1.15rem, 2.2vw, 1.5rem); font-weight: 700; letter-spacing: -0.015em; line-height: 1.15; text-wrap: balance; outline: none; }
+.player-album { margin: 0; font-size: var(--t-sm); color: var(--texto-suave); }
+.player-album span { color: var(--texto); }
+.player-album .player-duracao { color: var(--texto-fraco); font-variant-numeric: tabular-nums; }
+.player-generos { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 6px; }
+.player-generos a { display: inline-block; padding: 1px var(--esp-2); border: 1px solid var(--borda); border-radius: 999px; font-size: 0.6875rem; color: var(--texto-suave); text-decoration: none; transition: background var(--transicao), color var(--transicao); }
+.player-generos a:hover, .player-generos a:focus-visible { background: var(--texto); color: var(--fundo); border-color: var(--texto); }
+.player-acoes { display: flex; flex-wrap: wrap; align-items: center; gap: var(--esp-2); margin-top: 2px; }
+.player-links { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.player-tocar { display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 var(--esp-3) 0 var(--esp-2); border: 0; border-radius: 999px; background: var(--texto); color: var(--fundo); font: inherit; font-size: var(--t-sm); font-weight: 600; cursor: pointer; }
+.player-tocar .icone { width: 18px; height: 18px; fill: currentColor; stroke: none; }
+.player-tocar:hover, .player-tocar:focus-visible { background: var(--destaque); }
+.player-tocar[aria-pressed="true"] { background: var(--superficie-2); color: var(--texto); box-shadow: inset 0 0 0 1px var(--borda); }
+.player-embutido { margin-top: var(--esp-2); }
+.player-embutido iframe { display: block; width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0; border-radius: var(--raio-lg); }
+.player-abrir { display: block; width: fit-content; margin: var(--esp-1) 0 0 auto; font-size: var(--t-sm); color: var(--texto-suave); }
+
+.curadoria-texto { margin: var(--esp-6) 0 0; font-size: 0.9375rem; line-height: 1.7; color: var(--texto); text-align: justify; hyphens: auto; }
+.curadoria-texto p { margin: 0 0 var(--esp-4); }
+.curadoria-texto em { font-style: italic; }
+.curadoria-genero { color: inherit; text-decoration: underline; text-decoration-color: var(--texto-fraco); text-underline-offset: 3px; transition: text-decoration-color var(--transicao); }
+.curadoria-genero:hover, .curadoria-genero:focus-visible { text-decoration-color: var(--texto); }
+/* Nome de disco citado no texto: itálico, abre a ficha do álbum */
+.curadoria-disco { padding: 0; border: 0; background: none; color: inherit; font: inherit; font-style: italic; text-decoration: underline dotted; text-decoration-color: var(--texto-fraco); text-underline-offset: 3px; cursor: pointer; }
+.curadoria-disco:hover, .curadoria-disco:focus-visible { text-decoration-style: solid; text-decoration-color: var(--texto); outline: none; }
+.curadoria-outras { color: var(--texto-suave); font-size: var(--t-sm); }
+.curadoria-outras strong { color: var(--texto); font-weight: 600; }
+/* Bio do autor: caixa de cantos retos (não se confunde com o player nem com os cards) e foto retangular
+   ocupando a altura toda da caixa */
+.autor { display: flex; align-items: stretch; overflow: hidden; margin: var(--esp-8) 0 0; border-radius: 0; background: var(--superficie); border: 1px solid var(--borda); }
+.autor-foto { flex: none; display: block; width: 168px; min-height: 224px; object-fit: cover; object-position: center 30%; border-radius: 0; filter: grayscale(0.15); }
+.autor-texto { min-width: 0; align-self: center; padding: var(--esp-6); }
+.autor-rotulo { margin: 0; font-size: var(--t-xs); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--texto-fraco); }
+.autor-nome { margin: var(--esp-1) 0 var(--esp-2); font-size: var(--t-lg); font-weight: 700; }
+.autor-bio { margin: 0; max-width: 65ch; font-size: 0.9375rem; line-height: 1.65; color: var(--texto-suave); }
+.autor-redes { list-style: none; margin: var(--esp-3) 0 0; padding: 0; display: flex; gap: var(--esp-2); }
+.autor-redes a { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--borda); color: var(--texto); transition: background var(--transicao), color var(--transicao); }
+.autor-redes a:hover, .autor-redes a:focus-visible { background: var(--texto); color: var(--fundo); }
+.autor-redes .icone { width: 20px; height: 20px; }
+.curadoria-arquivo ul { list-style: none; margin: 0; padding: 0; }
+.curadoria-arquivo a { display: flex; justify-content: space-between; gap: var(--esp-4); padding: var(--esp-3) 0; border-bottom: 1px solid var(--borda); color: var(--texto); text-decoration: none; }
+.curadoria-arquivo a span { color: var(--texto-fraco); font-size: var(--t-sm); }
+
+@media (max-width: 760px) {
+  .player { flex-direction: column; }
+  .player-capa { width: 100%; min-height: 0; aspect-ratio: 1; }
+  .player-info { padding: var(--esp-3) var(--esp-4) var(--esp-4); }
+  .curadoria-texto { font-size: 0.875rem; text-align: left; }
+  .playlist-cabeca, .playlist-faixas button { grid-template-columns: 24px minmax(0, 1fr) 44px; gap: var(--esp-3); padding: 0 var(--esp-2); }
+  .playlist-cabeca span:nth-child(3), .playlist-album { display: none; }
+  .autor { flex-direction: column; }
+  .autor-foto { width: 100%; min-height: 0; aspect-ratio: 4 / 3; }
+  .autor-texto { padding: var(--esp-4); }
 }

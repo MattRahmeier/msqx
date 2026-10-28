@@ -3,7 +3,7 @@
 // as notas da crítica em estrelas, os links de streaming do álbum e o registro mestre no Discogs. A lista de faixas fica guardada na ficha, mas não aparece por
 // enquanto. Tags entram quando as fichas tiverem esse campo.
 // Uso: ligarPainel(elementoComCards, porId) — porId: Map id → ficha (dados.js, albuns()).
-import { esc, botoesStreaming, capaHtml } from "./card-album.js";
+import { esc, botoesStreaming, capaHtml, temOndeOuvir } from "./card-album.js";
 import { creditos } from "./resumo-genero.js";
 
 const MESES = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
@@ -101,7 +101,7 @@ function conteudo(f) {
       <h3 class="painel-secao">O que a crítica disse</h3>
       <ul class="painel-reviews">${f.reviews.map(review).join("")}</ul>
       ${f.reviews.some((r) => r.via) ? `<p class="painel-fonte">Notas da crítica reunidas na <a href="${esc(f.reviews.find((r) => r.via).via)}" target="_blank" rel="noopener">Wikipédia em inglês</a>.</p>` : ""}` : ""}
-    ${f.links && Object.keys(f.links).length ? `
+    ${temOndeOuvir(f) ? `
       <h3 class="painel-secao">Ouça o álbum</h3>
       <ul class="painel-plataformas" aria-label="Ouvir">${botoesStreaming(f, { comNome: true })}</ul>` : ""}
     ${f.discogs ? `

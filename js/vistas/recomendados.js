@@ -54,8 +54,9 @@ export async function render(el, [generoId]) {
   // Álbuns do próprio gênero e, no mestre, os de cada subgênero (na ordem da árvore, sem repetir).
   const ids = [...(porGenero.get(genero.id) || [])];
   if (genero.mestre) for (const sub of descendentes(no)) for (const id of porGenero.get(sub.id) || []) if (!ids.includes(id)) ids.push(id);
-  // Botões: os gêneros em que o disco está (pelos charts), menos o desta página.
-  const etiquetas = (ficha) => [...new Set(ficha.generos || [])].filter((g) => g !== genero.id && gen.porId.has(g))
+  // Botões: os gêneros em que o disco está (pelos charts e pelos estilos do Wikidata/MusicBrainz),
+  // menos o desta página.
+  const etiquetas = (ficha) => [...new Set([...(ficha.generos || []), ...(ficha.estilos || [])])].filter((g) => g !== genero.id && gen.porId.has(g))
     .map((g) => ({ texto: gen.porId.get(g).nome, href: `#/recomendados/${g}` }));
   const fichas = ids.map((id) => porId.get(id)).filter(Boolean).map((ficha) => ({ ficha, etiquetas: etiquetas(ficha) }));
 

@@ -1,0 +1,237 @@
+{
+  "id": "krautrock",
+  "titulo": "/mu/ Essential Kosmische Musik",
+  "indice": "krautrock",
+  "generos": [
+    "krautrock"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/krautrock.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "Linhas 6 e 7: \"Essential Post-krautrock Electronic\".",
+  "albuns": [
+    {
+      "pos": "1A",
+      "artista": "A.R. & Machines",
+      "titulo": "Die grüne Reise",
+      "noChart": "A.R. & Machines - Die Grune Reise",
+      "album": "ar-and-machines-die-grune-reise"
+    },
+    {
+      "pos": "1B",
+      "artista": "Agitation Free",
+      "titulo": "Malesch",
+      "album": "agitation-free-malesch"
+    },
+    {
+      "pos": "1C",
+      "artista": "Amon Düül II",
+      "titulo": "Phallus Dei",
+      "album": "amon-duul-ii-phallus-dei"
+    },
+    {
+      "pos": "1D",
+      "artista": "Ash Ra Tempel",
+      "titulo": "Ash Ra Tempel",
+      "noChart": "Ash Ra Tempel - [S-T]",
+      "album": "ash-ra-tempel-ash-ra-tempel"
+    },
+    {
+      "pos": "1E",
+      "artista": "Between",
+      "titulo": "And the Waters Opened",
+      "album": "between-and-the-waters-opened"
+    },
+    {
+      "pos": "2A",
+      "artista": "Brainticket",
+      "titulo": "Celestial Ocean",
+      "album": "brainticket-celestial-ocean"
+    },
+    {
+      "pos": "2B",
+      "artista": "Can",
+      "titulo": "Tago Mago",
+      "album": "can-tago-mago"
+    },
+    {
+      "pos": "2C",
+      "artista": "Cluster",
+      "titulo": "Cluster II",
+      "album": "cluster-cluster-ii"
+    },
+    {
+      "pos": "2D",
+      "artista": "Deuter",
+      "titulo": "D",
+      "album": "deuter-d"
+    },
+    {
+      "pos": "2E",
+      "artista": "Dom",
+      "titulo": "Edge of Time",
+      "album": "dom-edge-of-time"
+    },
+    {
+      "pos": "3A",
+      "artista": "Drum Circus",
+      "titulo": "Magic Theatre",
+      "album": "drum-circus-magic-theatre"
+    },
+    {
+      "pos": "3B",
+      "artista": "Dzyan",
+      "titulo": "Electric Silence",
+      "album": "dzyan-electric-silence"
+    },
+    {
+      "pos": "3C",
+      "artista": "Faust",
+      "titulo": "Faust IV",
+      "album": "faust-faust-iv"
+    },
+    {
+      "pos": "3D",
+      "artista": "Gila",
+      "titulo": "Free Electric Sound",
+      "album": "gila-free-electric-sound"
+    },
+    {
+      "pos": "3E",
+      "artista": "Golem",
+      "titulo": "Orion Awakes",
+      "album": "golem-orion-awakes"
+    },
+    {
+      "pos": "4A",
+      "artista": "Guru Guru",
+      "titulo": "Dance of the Flames",
+      "album": "guru-guru-dance-of-the-flames"
+    },
+    {
+      "pos": "4B",
+      "artista": "La Düsseldorf",
+      "titulo": "La Düsseldorf",
+      "noChart": "La Düsseldorf - [S-T]",
+      "album": "la-dusseldorf-la-dusseldorf"
+    },
+    {
+      "pos": "4C",
+      "artista": "Manuel Göttsching",
+      "titulo": "Inventions for Electric Guitar",
+      "album": "manuel-gottsching-inventions-for-electric-guitar"
+    },
+    {
+      "pos": "4D",
+      "artista": "Neu!",
+      "titulo": "Neu!",
+      "noChart": "Neu! - [S-T]",
+      "album": "neu-neu"
+    },
+    {
+      "pos": "4E",
+      "artista": "Popol Vuh",
+      "titulo": "Hosianna Mantra",
+      "album": "popol-vuh-hosianna-mantra"
+    },
+    {
+      "pos": "5A",
+      "artista": "Rufus Zuphall",
+      "titulo": "Weiß der Teufel",
+      "noChart": "Rufus Zuphall - Weiss der Teufel",
+      "album": "rufus-zuphall-wei-der-teufel"
+    },
+    {
+      "pos": "5B",
+      "artista": "Silberbart",
+      "titulo": "4 Times Sound Razing",
+      "album": "silberbart-4-times-sound-razing"
+    },
+    {
+      "pos": "5C",
+      "artista": "The Cosmic Jokers",
+      "titulo": "The Cosmic Jokers",
+      "noChart": "The Cosmic Jokers - [S-T]",
+      "album": "the-cosmic-jokers-the-cosmic-jokers"
+    },
+    {
+      "pos": "5D",
+      "artista": "Xhol Caravan",
+      "titulo": "Electrip",
+      "album": "xhol-caravan-electrip"
+    },
+    {
+      "pos": "5E",
+      "artista": "Yatha Sidhra",
+      "titulo": "A Meditation Mass",
+      "album": "yatha-sidhra-a-meditation-mass"
+    },
+    {
+      "pos": "6A",
+      "artista": "Ashra",
+      "titulo": "New Age of Earth",
+      "album": "ashra-new-age-of-earth"
+    },
+    {
+      "pos": "6B",
+      "artista": "Conrad Schnitzler",
+      "titulo": "Ballet Statique",
+      "album": "conrad-schnitzler-ballet-statique"
+    },
+    {
+      "pos": "6C",
+      "artista": "Edgar Froese",
+      "titulo": "Epsilon in Malaysian Pale",
+      "noChart": "Edgar Froese - Epslion in Malaysian Pale",
+      "album": "edgar-froese-epsilon-in-malaysian-pale"
+    },
+    {
+      "pos": "6D",
+      "artista": "Galactic Explorers",
+      "titulo": "Epitaph for Venus",
+      "album": "galactic-explorers-epitaph-for-venus"
+    },
+    {
+      "pos": "6E",
+      "artista": "Harmonia",
+      "titulo": "Musik von Harmonia",
+      "noChart": "Harmonia - Musik Von",
+      "album": "harmonia-musik-von-harmonia"
+    },
+    {
+      "pos": "7A",
+      "artista": "Igor Wakhévitch",
+      "titulo": "Hathor",
+      "noChart": "Igor Wakhevitch - Hathor",
+      "album": "igor-wakhevitch-hathor"
+    },
+    {
+      "pos": "7B",
+      "artista": "Klaus Schulze",
+      "titulo": "Mirage",
+      "album": "klaus-schulze-mirage"
+    },
+    {
+      "pos": "7C",
+      "artista": "Kraftwerk",
+      "titulo": "The Man-Machine",
+      "album": "kraftwerk-the-man-machine"
+    },
+    {
+      "pos": "7D",
+      "artista": "Tangerine Dream",
+      "titulo": "Rubycon",
+      "album": "tangerine-dream-rubycon"
+    },
+    {
+      "pos": "7E",
+      "artista": "Zanov",
+      "titulo": "Green Ray",
+      "album": "zanov-green-ray"
+    }
+  ]
+}

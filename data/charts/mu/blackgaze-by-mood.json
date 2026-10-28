@@ -1,0 +1,144 @@
+{
+  "id": "blackgaze-by-mood",
+  "titulo": "The Blackgaze Depression Guide (2016)",
+  "indice": "blackgaze-by-mood",
+  "generos": [
+    "blackgaze"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/blackgaze-by-mood.png",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "seleção do chart (título e artista escritos sob cada capa); \"pos\" é a faixa de humor do chart",
+    "parcial": true,
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "Happy:1",
+      "artista": "Deafheaven",
+      "titulo": "Sunbather",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "deafheaven-sunbather"
+    },
+    {
+      "pos": "Happy:2",
+      "artista": "Violet Cold",
+      "titulo": "Desperate Dreams",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "violet-cold-desperate-dreams"
+    },
+    {
+      "pos": "Happy:3",
+      "artista": "Skyforest",
+      "titulo": "Unity",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "skyforest-unity"
+    },
+    {
+      "pos": "Happy:4",
+      "artista": "Botanist",
+      "titulo": "VI: Flora",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "botanist-vi-flora"
+    },
+    {
+      "pos": "Neutral",
+      "artista": "Falloch",
+      "titulo": "This Island, Our Funeral",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "falloch-this-island-our-funeral"
+    },
+    {
+      "pos": "Melancholic:1",
+      "artista": "Alcest",
+      "titulo": "Écailles de lune",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "alcest-ecailles-de-lune"
+    },
+    {
+      "pos": "Melancholic:2",
+      "artista": "Cold Body Radiation",
+      "titulo": "The Great White Emptiness",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "cold-body-radiation-the-great-white-emptiness"
+    },
+    {
+      "pos": "Melancholic:3",
+      "artista": "Lantlôs",
+      "titulo": ".neon",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "lantlos-neon"
+    },
+    {
+      "pos": "Melancholic:4",
+      "artista": "So Hideous",
+      "titulo": "Laurestine",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "so-hideous-laurestine"
+    },
+    {
+      "pos": "Melancholic:5",
+      "artista": "Harakiri for the Sky",
+      "titulo": "Harakiri for the Sky",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "harakiri-for-the-sky-harakiri-for-the-sky"
+    },
+    {
+      "pos": "Depressive:1",
+      "artista": "Amesoeurs",
+      "titulo": "Ruines humaines",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "amesoeurs-ruines-humaines"
+    },
+    {
+      "pos": "Depressive:2",
+      "artista": "Woods of Desolation",
+      "titulo": "Torn Beyond Reason",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "woods-of-desolation-torn-beyond-reason"
+    },
+    {
+      "pos": "Suicide Inducing:1",
+      "artista": "Ghost Bath",
+      "titulo": "Moonlover",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "ghost-bath-moonlover"
+    },
+    {
+      "pos": "Suicide Inducing:2",
+      "artista": "Austere",
+      "titulo": "To Lay Like Old Ashes",
+      "generos": [
+        "blackgaze"
+      ],
+      "album": "austere-to-lay-like-old-ashes"
+    }
+  ]
+}

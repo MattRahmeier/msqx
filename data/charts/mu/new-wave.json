@@ -1,0 +1,290 @@
+{
+  "id": "new-wave",
+  "titulo": "/mu/'s Essential New Wave",
+  "indice": "new-wave",
+  "generos": [
+    "new-wave"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/new-wave.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Devo",
+      "titulo": "Q: Are We Not Men? A: We Are Devo!",
+      "album": "devo-q-are-we-not-men-a-we-are-devo"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Devo",
+      "titulo": "Freedom of Choice",
+      "album": "devo-freedom-of-choice"
+    },
+    {
+      "pos": "1-3",
+      "artista": "The Cars",
+      "titulo": "The Cars",
+      "album": "the-cars-the-cars"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Talking Heads",
+      "titulo": "Remain in Light",
+      "album": "talking-heads-remain-in-light"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Talking Heads",
+      "titulo": "Talking Heads: 77",
+      "album": "talking-heads-talking-heads-77"
+    },
+    {
+      "pos": "2-1",
+      "artista": "New Order",
+      "titulo": "Power, Corruption & Lies",
+      "album": "new-order-power-corruption-and-lies"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Duran Duran",
+      "titulo": "Rio",
+      "album": "duran-duran-rio"
+    },
+    {
+      "pos": "2-3",
+      "artista": "The B-52's",
+      "titulo": "The B-52's",
+      "album": "the-b-52s-the-b-52s"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Elvis Costello & The Attractions",
+      "titulo": "This Year's Model",
+      "album": "elvis-costello-and-the-attractions-this-years-model"
+    },
+    {
+      "pos": "2-5",
+      "artista": "Joe Jackson",
+      "titulo": "Look Sharp!",
+      "album": "joe-jackson-look-sharp"
+    },
+    {
+      "pos": "3-1",
+      "artista": "XTC",
+      "titulo": "Black Sea",
+      "album": "xtc-black-sea"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Adam and the Ants",
+      "titulo": "Prince Charming",
+      "album": "adam-and-the-ants-prince-charming"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Tom Tom Club",
+      "titulo": "Tom Tom Club",
+      "album": "tom-tom-club-tom-tom-club"
+    },
+    {
+      "pos": "3-4",
+      "artista": "The Go-Go's",
+      "titulo": "Beauty and the Beat",
+      "noChart": "Go-Go's - Beauty and the Beat",
+      "album": "the-go-gos-beauty-and-the-beat"
+    },
+    {
+      "pos": "3-5",
+      "artista": "David Bowie",
+      "titulo": "Scary Monsters (and Super Creeps)",
+      "album": "david-bowie-scary-monsters-and-super-creeps"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Oingo Boingo",
+      "titulo": "Dead Man's Party",
+      "album": "oingo-boingo-dead-mans-party"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Missing Persons",
+      "titulo": "Spring Session M",
+      "album": "missing-persons-spring-session-m"
+    },
+    {
+      "pos": "4-3",
+      "artista": "P-Model",
+      "titulo": "In a Model Room",
+      "noChart": "P-MODEL - In a Model Room",
+      "album": "p-model-in-a-model-room"
+    },
+    {
+      "pos": "4-4",
+      "artista": "The Police",
+      "titulo": "Synchronicity",
+      "album": "the-police-synchronicity"
+    },
+    {
+      "pos": "4-5",
+      "artista": "Talk Talk",
+      "titulo": "The Colour of Spring",
+      "album": "talk-talk-the-colour-of-spring"
+    },
+    {
+      "pos": "5-1",
+      "artista": "Gary Numan",
+      "titulo": "The Pleasure Principle",
+      "album": "gary-numan-the-pleasure-principle"
+    },
+    {
+      "pos": "5-2",
+      "artista": "The Psychedelic Furs",
+      "titulo": "Talk Talk Talk",
+      "album": "the-psychedelic-furs-talk-talk-talk"
+    },
+    {
+      "pos": "5-3",
+      "artista": "Peter Gabriel",
+      "titulo": "So",
+      "album": "peter-gabriel-so"
+    },
+    {
+      "pos": "5-4",
+      "artista": "The The",
+      "titulo": "Soul Mining",
+      "album": "the-the-soul-mining"
+    },
+    {
+      "pos": "5-5",
+      "artista": "Frankie Goes to Hollywood",
+      "titulo": "Welcome to the Pleasuredome",
+      "album": "frankie-goes-to-hollywood-welcome-to-the-pleasuredome"
+    },
+    {
+      "pos": "6-1",
+      "artista": "Wall of Voodoo",
+      "titulo": "Call of the West",
+      "album": "wall-of-voodoo-call-of-the-west"
+    },
+    {
+      "pos": "6-2",
+      "artista": "Japan",
+      "titulo": "Tin Drum",
+      "album": "japan-tin-drum"
+    },
+    {
+      "pos": "6-3",
+      "artista": "Wang Chung",
+      "titulo": "Points on the Curve",
+      "album": "wang-chung-points-on-the-curve"
+    },
+    {
+      "pos": "6-4",
+      "artista": "Simple Minds",
+      "titulo": "New Gold Dream (81–82–83–84)",
+      "album": "simple-minds-new-gold-dream-81-82-83-84"
+    },
+    {
+      "pos": "6-5",
+      "artista": "The Style Council",
+      "titulo": "Café Bleu",
+      "noChart": "Style Council - Café Bleu",
+      "album": "the-style-council-cafe-bleu"
+    },
+    {
+      "pos": "7-1",
+      "artista": "Dead or Alive",
+      "titulo": "Youthquake",
+      "album": "dead-or-alive-youthquake"
+    },
+    {
+      "pos": "7-2",
+      "artista": "a-ha",
+      "titulo": "Hunting High and Low",
+      "album": "a-ha-hunting-high-and-low"
+    },
+    {
+      "pos": "7-3",
+      "artista": "Squeeze",
+      "titulo": "Cool for Cats",
+      "album": "squeeze-cool-for-cats"
+    },
+    {
+      "pos": "7-4",
+      "artista": "Prefab Sprout",
+      "titulo": "Steve McQueen",
+      "album": "prefab-sprout-steve-mcqueen"
+    },
+    {
+      "pos": "7-5",
+      "artista": "Scritti Politti",
+      "titulo": "Cupid & Psyche 85",
+      "album": "scritti-politti-cupid-and-psyche-85"
+    },
+    {
+      "pos": "8-1",
+      "artista": "Billy Idol",
+      "titulo": "Billy Idol",
+      "album": "billy-idol-billy-idol"
+    },
+    {
+      "pos": "8-2",
+      "artista": "INXS",
+      "titulo": "Kick",
+      "album": "inxs-kick"
+    },
+    {
+      "pos": "8-3",
+      "artista": "Thomas Dolby",
+      "titulo": "The Flat Earth",
+      "album": "thomas-dolby-the-flat-earth"
+    },
+    {
+      "pos": "8-4",
+      "artista": "Tears for Fears",
+      "titulo": "The Hurting",
+      "album": "tears-for-fears-the-hurting"
+    },
+    {
+      "pos": "8-5",
+      "artista": "Killing Joke",
+      "titulo": "Night Time",
+      "album": "killing-joke-night-time"
+    },
+    {
+      "pos": "9-1",
+      "artista": "Rational Youth",
+      "titulo": "Cold War Night Life",
+      "album": "rational-youth-cold-war-night-life"
+    },
+    {
+      "pos": "9-2",
+      "artista": "Split Enz",
+      "titulo": "Time and Tide",
+      "album": "split-enz-time-and-tide"
+    },
+    {
+      "pos": "9-3",
+      "artista": "Television",
+      "titulo": "Marquee Moon",
+      "album": "television-marquee-moon"
+    },
+    {
+      "pos": "9-4",
+      "artista": "Men at Work",
+      "titulo": "Business as Usual",
+      "album": "men-at-work-business-as-usual"
+    },
+    {
+      "pos": "9-5",
+      "artista": "Pearl Harbor and the Explosions",
+      "titulo": "Pearl Harbor and the Explosions",
+      "album": "pearl-harbor-and-the-explosions-pearl-harbor-and-the-explosions"
+    }
+  ]
+}

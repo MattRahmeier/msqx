@@ -1,0 +1,198 @@
+{
+  "id": "emo",
+  "titulo": "/mu/ Essential Emo",
+  "indice": "emo",
+  "generos": [
+    "emo"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/emo.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Cap'n Jazz",
+      "titulo": "Analphabetapolothology",
+      "album": "capn-jazz-analphabetapolothology"
+    },
+    {
+      "pos": "A2",
+      "artista": "American Football",
+      "titulo": "American Football",
+      "album": "american-football-american-football"
+    },
+    {
+      "pos": "A3",
+      "artista": "Saetia",
+      "titulo": "A Retrospective",
+      "album": "saetia-a-retrospective"
+    },
+    {
+      "pos": "A4",
+      "artista": "Snowing",
+      "titulo": "Fuck Your Emotional Bullshit",
+      "album": "snowing-fuck-your-emotional-bullshit"
+    },
+    {
+      "pos": "A5",
+      "artista": "I Would Set Myself on Fire for You",
+      "titulo": "Believes in Patterns",
+      "album": "i-would-set-myself-on-fire-for-you-believes-in-patterns"
+    },
+    {
+      "pos": "B1",
+      "artista": "Orchid",
+      "titulo": "Chaos Is Me",
+      "album": "orchid-chaos-is-me"
+    },
+    {
+      "pos": "B2",
+      "artista": "Taking Back Sunday",
+      "titulo": "Tell All Your Friends",
+      "album": "taking-back-sunday-tell-all-your-friends"
+    },
+    {
+      "pos": "B3",
+      "artista": "Rites of Spring",
+      "titulo": "End on End",
+      "album": "rites-of-spring-end-on-end"
+    },
+    {
+      "pos": "B4",
+      "artista": "Mineral",
+      "titulo": "The Power of Failing",
+      "album": "mineral-the-power-of-failing"
+    },
+    {
+      "pos": "B5",
+      "artista": "Sunny Day Real Estate",
+      "titulo": "Diary",
+      "album": "sunny-day-real-estate-diary"
+    },
+    {
+      "pos": "C1",
+      "artista": "Cross My Heart",
+      "titulo": "Temporary Contemporary",
+      "album": "cross-my-heart-temporary-contemporary"
+    },
+    {
+      "pos": "C2",
+      "artista": "Pg. 99",
+      "titulo": "Document #8",
+      "album": "pg-99-document-8"
+    },
+    {
+      "pos": "C3",
+      "artista": "Hot Cross",
+      "titulo": "A New Set of Lungs",
+      "noChart": "Hot Cross - A N",
+      "album": "hot-cross-a-new-set-of-lungs"
+    },
+    {
+      "pos": "C4",
+      "artista": "The Get Up Kids",
+      "titulo": "Something to Write Home About",
+      "album": "the-get-up-kids-something-to-write-home-about"
+    },
+    {
+      "pos": "C5",
+      "artista": "Mineral",
+      "titulo": "EndSerenading",
+      "album": "mineral-endserenading"
+    },
+    {
+      "pos": "D1",
+      "artista": "Jawbreaker",
+      "titulo": "24 Hour Revenge Therapy",
+      "album": "jawbreaker-24-hour-revenge-therapy"
+    },
+    {
+      "pos": "D2",
+      "artista": "Texas Is the Reason",
+      "titulo": "Texas Is the Reason",
+      "album": "texas-is-the-reason-texas-is-the-reason"
+    },
+    {
+      "pos": "D3",
+      "artista": "Suis La Lune",
+      "titulo": "Heir",
+      "album": "suis-la-lune-heir"
+    },
+    {
+      "pos": "D4",
+      "artista": "Algernon Cadwallader",
+      "titulo": "Some Kind of Cadwallader",
+      "album": "algernon-cadwallader-some-kind-of-cadwallader"
+    },
+    {
+      "pos": "D5",
+      "artista": "Funeral Diner",
+      "titulo": "The Underdark",
+      "album": "funeral-diner-the-underdark"
+    },
+    {
+      "pos": "E1",
+      "artista": "Envy",
+      "titulo": "Insomniac Doze",
+      "album": "envy-insomniac-doze"
+    },
+    {
+      "pos": "E2",
+      "artista": "Brand New",
+      "titulo": "Deja Entendu",
+      "album": "brand-new-deja-entendu"
+    },
+    {
+      "pos": "E3",
+      "artista": "Circle Takes the Square",
+      "titulo": "As the Roots Undo",
+      "album": "circle-takes-the-square-as-the-roots-undo"
+    },
+    {
+      "pos": "E4",
+      "artista": "City of Caterpillar",
+      "titulo": "City of Caterpillar",
+      "album": "city-of-caterpillar-city-of-caterpillar"
+    },
+    {
+      "pos": "E5",
+      "artista": "Embrace",
+      "titulo": "Embrace",
+      "album": "embrace-embrace"
+    },
+    {
+      "pos": "F1",
+      "artista": "Christie Front Drive",
+      "titulo": "Anthology",
+      "album": "christie-front-drive-anthology"
+    },
+    {
+      "pos": "F2",
+      "artista": "The Promise Ring",
+      "titulo": "Nothing Feels Good",
+      "album": "the-promise-ring-nothing-feels-good"
+    },
+    {
+      "pos": "F3",
+      "artista": "Boys Life",
+      "titulo": "Departures and Landfalls",
+      "album": "boys-life-departures-and-landfalls"
+    },
+    {
+      "pos": "F4",
+      "artista": "The Gloria Record",
+      "titulo": "A Lull in Traffic",
+      "album": "the-gloria-record-a-lull-in-traffic"
+    },
+    {
+      "pos": "F5",
+      "artista": "Joshua Fit for Battle",
+      "titulo": "To Bring Our Own End",
+      "album": "joshua-fit-for-battle-to-bring-our-own-end"
+    }
+  ]
+}

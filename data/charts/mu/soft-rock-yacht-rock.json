@@ -1,0 +1,176 @@
+{
+  "id": "soft-rock-yacht-rock",
+  "titulo": "Essential Soft Rock/Yacht Rock",
+  "indice": "soft-rock-yacht-rock",
+  "generos": [
+    "soft-rock",
+    "yacht-rock"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/soft-rock-yacht-rock.jpeg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "O chart separa Yacht Rock (Y) e Soft Rock (S); yacht rock é um subgênero do soft rock, então os dois blocos entram em soft rock.",
+  "albuns": [
+    {
+      "pos": "Y1",
+      "artista": "Christopher Cross",
+      "titulo": "Christopher Cross",
+      "generos": [
+        "yacht-rock",
+        "soft-rock"
+      ],
+      "album": "christopher-cross-christopher-cross"
+    },
+    {
+      "pos": "Y2",
+      "artista": "Loggins and Messina",
+      "titulo": "Full Sail",
+      "generos": [
+        "yacht-rock",
+        "soft-rock"
+      ],
+      "album": "loggins-and-messina-full-sail"
+    },
+    {
+      "pos": "Y3",
+      "artista": "Boz Scaggs",
+      "titulo": "Silk Degrees",
+      "generos": [
+        "yacht-rock",
+        "soft-rock"
+      ],
+      "album": "boz-scaggs-silk-degrees"
+    },
+    {
+      "pos": "Y4",
+      "artista": "Little River Band",
+      "titulo": "Sleeper Catcher",
+      "generos": [
+        "yacht-rock",
+        "soft-rock"
+      ],
+      "noChart": "Little River Band: Sleeper Catcher",
+      "album": "little-river-band-sleeper-catcher"
+    },
+    {
+      "pos": "Y5",
+      "artista": "George Benson",
+      "titulo": "Breezin’",
+      "generos": [
+        "yacht-rock",
+        "soft-rock"
+      ],
+      "noChart": "George Benson: Breezin",
+      "album": "george-benson-breezin"
+    },
+    {
+      "pos": "Y6",
+      "artista": "Barry Manilow",
+      "titulo": "Even Now",
+      "generos": [
+        "yacht-rock",
+        "soft-rock"
+      ],
+      "album": "barry-manilow-even-now"
+    },
+    {
+      "pos": "Y7",
+      "artista": "Carpenters",
+      "titulo": "Ticket to Ride",
+      "generos": [
+        "yacht-rock",
+        "soft-rock"
+      ],
+      "album": "carpenters-ticket-to-ride"
+    },
+    {
+      "pos": "Y8",
+      "artista": "The Doobie Brothers",
+      "titulo": "Minute by Minute",
+      "generos": [
+        "yacht-rock",
+        "soft-rock"
+      ],
+      "album": "the-doobie-brothers-minute-by-minute"
+    },
+    {
+      "pos": "S1",
+      "artista": "Fleetwood Mac",
+      "titulo": "Rumours",
+      "generos": [
+        "soft-rock"
+      ],
+      "album": "fleetwood-mac-rumours"
+    },
+    {
+      "pos": "S2",
+      "artista": "Steely Dan",
+      "titulo": "Aja",
+      "generos": [
+        "soft-rock"
+      ],
+      "album": "steely-dan-aja"
+    },
+    {
+      "pos": "S3",
+      "artista": "Carpenters",
+      "titulo": "The Singles 1969–1973",
+      "noChart": "Carpenters: Greatest Hits",
+      "generos": [
+        "soft-rock"
+      ],
+      "conferir": "o chart diz \"Greatest Hits\"; a capa (logotipo em fundo bege) é a de The Singles 1969–1973",
+      "album": "carpenters-the-singles-1969-1973"
+    },
+    {
+      "pos": "S4",
+      "artista": "Toto",
+      "titulo": "Toto IV",
+      "noChart": "Toto: IV",
+      "generos": [
+        "soft-rock"
+      ],
+      "album": "toto-toto-iv"
+    },
+    {
+      "pos": "S5",
+      "artista": "Eagles",
+      "titulo": "Hotel California",
+      "generos": [
+        "soft-rock"
+      ],
+      "album": "eagles-hotel-california"
+    },
+    {
+      "pos": "S6",
+      "artista": "Michael McDonald",
+      "titulo": "If That’s What It Takes",
+      "generos": [
+        "soft-rock"
+      ],
+      "album": "michael-mcdonald-if-thats-what-it-takes"
+    },
+    {
+      "pos": "S7",
+      "artista": "Air Supply",
+      "titulo": "Lost in Love",
+      "generos": [
+        "soft-rock"
+      ],
+      "album": "air-supply-lost-in-love"
+    },
+    {
+      "pos": "S8",
+      "artista": "Asia",
+      "titulo": "Asia",
+      "generos": [
+        "soft-rock"
+      ],
+      "album": "asia-asia"
+    }
+  ]
+}

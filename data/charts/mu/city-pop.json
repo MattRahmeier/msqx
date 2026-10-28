@@ -1,0 +1,201 @@
+{
+  "id": "city-pop",
+  "titulo": "City Pop",
+  "indice": "city-pop",
+  "generos": [
+    "city-pop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/city-pop.png",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Mariya Takeuchi",
+      "titulo": "Variety",
+      "album": "mariya-takeuchi-variety"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Mariya Takeuchi",
+      "titulo": "Request",
+      "album": "mariya-takeuchi-request"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Mariya Takeuchi",
+      "titulo": "Love Songs",
+      "album": "mariya-takeuchi-love-songs"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Takako Mamiya",
+      "titulo": "Love Trip",
+      "album": "takako-mamiya-love-trip"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Seaside Lovers",
+      "titulo": "Memories in Beach House",
+      "album": "seaside-lovers-memories-in-beach-house"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Anri",
+      "titulo": "Timely!!",
+      "album": "anri-timely"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Taeko Ohnuki",
+      "titulo": "Sunshower",
+      "album": "taeko-ohnuki-sunshower"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Junko Ohashi",
+      "titulo": "Magical",
+      "noChart": "Junko Ohashi/Yoshinori Monta - Magical",
+      "album": "junko-ohashi-magical"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Miki Asakura",
+      "titulo": "Hip City",
+      "album": "miki-asakura-hip-city"
+    },
+    {
+      "pos": "2-5",
+      "artista": "Tatsuro Yamashita",
+      "titulo": "Come Along",
+      "album": "tatsuro-yamashita-come-along"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Tatsuro Yamashita",
+      "titulo": "Come Along II",
+      "album": "tatsuro-yamashita-come-along-ii"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Tatsuro Yamashita",
+      "titulo": "Big Wave",
+      "album": "tatsuro-yamashita-big-wave"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Haruomi Hosono, Shigeru Suzuki & Tatsuro Yamashita",
+      "titulo": "Pacific",
+      "album": "haruomi-hosono-shigeru-suzuki-and-tatsuro-yamashita-pacific"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Tatsuro Yamashita",
+      "titulo": "For You",
+      "album": "tatsuro-yamashita-for-you"
+    },
+    {
+      "pos": "3-5",
+      "artista": "Momoko Kikuchi",
+      "titulo": "Adventure",
+      "noChart": "Kikuchi Momoko - Adventure",
+      "album": "momoko-kikuchi-adventure"
+    },
+    {
+      "pos": "4-1",
+      "artista": "So Nice",
+      "titulo": "Love",
+      "album": "so-nice-love"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Katsumi Horii Project",
+      "titulo": "Hot Is Cool",
+      "noChart": "Horii Katsumi Project - Hot Is Cool",
+      "album": "katsumi-horii-project-hot-is-cool"
+    },
+    {
+      "pos": "4-3",
+      "artista": "Kiyotaka Sugiyama & Omega Tribe",
+      "titulo": "Aqua City",
+      "album": "kiyotaka-sugiyama-and-omega-tribe-aqua-city"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Kiyotaka Sugiyama & Omega Tribe",
+      "titulo": "First Finale",
+      "album": "kiyotaka-sugiyama-and-omega-tribe-first-finale"
+    },
+    {
+      "pos": "4-5",
+      "artista": "Miki Matsubara",
+      "titulo": "Pocket Park",
+      "album": "miki-matsubara-pocket-park"
+    },
+    {
+      "pos": "5-1",
+      "artista": "Narumin & Etsu",
+      "titulo": "Thru Traffic",
+      "album": "narumin-and-etsu-thru-traffic"
+    },
+    {
+      "pos": "5-2",
+      "artista": "Anri",
+      "titulo": "Wave",
+      "album": "anri-wave"
+    },
+    {
+      "pos": "5-3",
+      "artista": "Casiopea",
+      "titulo": "Mint Jams",
+      "album": "casiopea-mint-jams"
+    },
+    {
+      "pos": "5-4",
+      "artista": "Casiopea",
+      "titulo": "Super Flight",
+      "album": "casiopea-super-flight"
+    },
+    {
+      "pos": "5-5",
+      "artista": "Motoyoshi Iwasaki & Windy",
+      "titulo": "Heart Wash",
+      "noChart": "Motoyoshi Iwasaki & WINDY - Heart Wash",
+      "album": "motoyoshi-iwasaki-and-windy-heart-wash"
+    },
+    {
+      "pos": "6-1",
+      "artista": "Tony",
+      "titulo": "Blue Gray",
+      "album": "tony-blue-gray"
+    },
+    {
+      "pos": "6-2",
+      "artista": "Haruko Kuwana",
+      "titulo": "Million Stars",
+      "album": "haruko-kuwana-million-stars"
+    },
+    {
+      "pos": "6-3",
+      "artista": "Kiyotaka Sugiyama",
+      "titulo": "Beyond...",
+      "album": "kiyotaka-sugiyama-beyond"
+    },
+    {
+      "pos": "6-4",
+      "artista": "Noriki",
+      "titulo": "Noriki",
+      "album": "noriki-noriki"
+    },
+    {
+      "pos": "6-5",
+      "artista": "Makoto Matsushita",
+      "titulo": "First Light",
+      "album": "makoto-matsushita-first-light"
+    }
+  ]
+}

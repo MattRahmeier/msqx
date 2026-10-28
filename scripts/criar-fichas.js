@@ -1,6 +1,6 @@
 // Cria as fichas de álbum (data/albuns/albuns.json) a partir dos charts transcritos em data/charts/mu/.
 // Fontes: MusicBrainz (metadados, faixas, links de streaming) e Cover Art Archive (capas).
-// Uso: node scripts/criar-fichas.js [--limite N] [--refazer id1,id2]
+// Uso: node scripts/criar-fichas.js [--limite N] [--refazer id1,id2] [--paralelo N (padrão 6)]
 //   Fichas já criadas são mantidas (o script retoma de onde parou); --refazer força a busca de novo.
 //   Também grava em cada álbum dos charts o campo "album" com o id da ficha.
 
@@ -17,6 +17,7 @@ const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const arg = (nome) => { const i = process.argv.indexOf(nome); return i > -1 ? process.argv[i + 1] : null; };
 const limite = Number(arg("--limite")) || Infinity;
+const paralelo = Number(arg("--paralelo")) || 6;
 const refazer = new Set((arg("--refazer") || "").split(",").filter(Boolean));
 
 const kebab = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
@@ -24,15 +25,16 @@ const kebab = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerC
 // Comparação tolerante: sem acento, caixa, pontuação, "the" inicial e "&"/"and".
 const norm = (s) => kebab(s || "").replace(/^the-/, "").replace(/-and-/g, "-");
 
-let ultima = 0;
+// Um pedido por segundo no máximo, contado pelo início de cada pedido: com várias fichas em paralelo
+// (--paralelo), a demora das respostas não trava a fila.
+let proximo = 0;
+const vez = async () => { const t = Math.max(Date.now(), proximo); proximo = t + 1100; await espera(t - Date.now()); };
 async function mb(caminho, params) {
-  const agora = Date.now();
-  if (agora - ultima < 1100) await espera(1100 - (agora - ultima));
-  ultima = Date.now();
   const url = `${MB}/${caminho}?` + new URLSearchParams({ fmt: "json", ...params });
   for (let t = 0; t < 4; t++) {
+    await vez();
     try {
-      const r = await fetch(url, { headers: UA });
+      const r = await fetch(url, { headers: UA, signal: AbortSignal.timeout(30000) });
       if (r.ok) return r.json();
       if (r.status === 404) return null;
     } catch { /* rede instável: tenta de novo */ }
@@ -217,25 +219,38 @@ async function criarFicha(id, artista, titulo) {
       a.album = id;
       const p = pedidos.get(id) || { id, artista: a.artista, titulo: a.titulo, charts: new Set(), generos: new Set() };
       p.charts.add(dados.id);
-      dados.generos.forEach((x) => p.generos.add(x));
+      // Charts com listas por gênero (ex.: metal-subgenres) dão "generos" em cada álbum.
+      (a.generos || dados.generos).forEach((x) => p.generos.add(x));
       pedidos.set(id, p);
+    }
+  }
+  // Discos das edições de A Curadoria (data/curadorias/) que não estão em nenhum chart.
+  const PASTA_CURADORIAS = path.join(RAIZ, "data", "curadorias");
+  for (const arq of fs.readdirSync(PASTA_CURADORIAS).filter((f) => f.endsWith(".json") && !f.startsWith("_") && f !== "indice.json")) {
+    const edicao = JSON.parse(fs.readFileSync(path.join(PASTA_CURADORIAS, arq), "utf8"));
+    // Os discos das faixas e os citados no texto ("citados": [{ artista, titulo, album }]).
+    const discos = [...(edicao.faixas || []).map((t) => ({ album: t.album, artista: t.artista, titulo: t.albumTitulo })), ...(edicao.citados || [])];
+    for (const t of discos) {
+      if (t.album && !pedidos.has(t.album)) pedidos.set(t.album, { id: t.album, artista: t.artista, titulo: t.titulo, charts: new Set(), generos: new Set() });
     }
   }
 
   let feitos = 0;
-  for (const p of pedidos.values()) {
-    if (feitos >= limite) break;
-    if (fichas.has(p.id) && !refazer.has(p.id)) continue;
-    try {
-      const f = await criarFicha(p.id, p.artista, p.titulo);
-      fichas.set(p.id, f);
-      feitos++;
-      console.log(`${f.conferir ? "?" : "✓"} ${p.id}${f.conferir ? `  (${f.conferir})` : ""}`);
-      if (feitos % 10 === 0) salvar();
-    } catch (e) {
-      console.log(`✗ ${p.id}: ${e.message}`);
+  const fila = [...pedidos.values()].filter((p) => !fichas.has(p.id) || refazer.has(p.id)).slice(0, limite);
+  const trabalhador = async () => {
+    for (let p; (p = fila.shift());) {
+      try {
+        const f = await criarFicha(p.id, p.artista, p.titulo);
+        fichas.set(p.id, f);
+        feitos++;
+        console.log(`${f.conferir ? "?" : "✓"} ${p.id}${f.conferir ? `  (${f.conferir})` : ""}`);
+        if (feitos % 10 === 0) salvar();
+      } catch (e) {
+        console.log(`✗ ${p.id}: ${e.message}`);
+      }
     }
-  }
+  };
+  await Promise.all(Array.from({ length: paralelo }, trabalhador));
 
   // Charts e gêneros de cada ficha (recalculados sempre, a partir dos charts).
   for (const p of pedidos.values()) {

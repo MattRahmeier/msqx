@@ -1,0 +1,470 @@
+{
+  "id": "post-punk-by-subgenre",
+  "titulo": "Post-Punk (by subgenre)",
+  "indice": "post-punk-by-subgenre",
+  "generos": [
+    "post-punk",
+    "new-wave",
+    "gothic-rock"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/post-punk-by-subgenre.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart, com o subgênero de cada linha",
+    "status": "revisar"
+  },
+  "nota": "Cada linha é um subgênero (campo \"subestilos\"); New Wave e Goth Rock entram também nesses gêneros da árvore.",
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Joy Division",
+      "titulo": "Unknown Pleasures",
+      "subestilos": [
+        "Early Post-Punk"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "joy-division-unknown-pleasures"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Wire",
+      "titulo": "Pink Flag",
+      "subestilos": [
+        "Early Post-Punk"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "wire-pink-flag"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Gang of Four",
+      "titulo": "Entertainment!",
+      "subestilos": [
+        "Early Post-Punk"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "gang-of-four-entertainment"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Mission of Burma",
+      "titulo": "Vs.",
+      "subestilos": [
+        "Early Post-Punk"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "mission-of-burma-vs"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Swell Maps",
+      "titulo": "A Trip to Marineville",
+      "subestilos": [
+        "Early Post-Punk"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "swell-maps-a-trip-to-marineville"
+    },
+    {
+      "pos": "1-6",
+      "artista": "Magazine",
+      "titulo": "Real Life",
+      "subestilos": [
+        "Early Post-Punk"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "magazine-real-life"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Pere Ubu",
+      "titulo": "The Modern Dance",
+      "subestilos": [
+        "Experimental Post-Punk"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "pere-ubu-the-modern-dance"
+    },
+    {
+      "pos": "2-2",
+      "artista": "The Pop Group",
+      "titulo": "Y",
+      "subestilos": [
+        "Experimental Post-Punk"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "the-pop-group-y"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Dome",
+      "titulo": "Dome",
+      "subestilos": [
+        "Experimental Post-Punk"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "dome-dome"
+    },
+    {
+      "pos": "2-4",
+      "artista": "This Heat",
+      "titulo": "Deceit",
+      "subestilos": [
+        "Experimental Post-Punk"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "this-heat-deceit"
+    },
+    {
+      "pos": "2-5",
+      "artista": "Alternative TV",
+      "titulo": "The Image Has Cracked",
+      "subestilos": [
+        "Experimental Post-Punk"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "alternative-tv-the-image-has-cracked"
+    },
+    {
+      "pos": "2-6",
+      "artista": "Ludus",
+      "titulo": "The Visit",
+      "subestilos": [
+        "Experimental Post-Punk"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "noChart": "Ludus - The Visit/Seduction",
+      "album": "ludus-the-visit"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Talking Heads",
+      "titulo": "Remain in Light",
+      "subestilos": [
+        "New Wave"
+      ],
+      "generos": [
+        "new-wave",
+        "post-punk"
+      ],
+      "album": "talking-heads-remain-in-light"
+    },
+    {
+      "pos": "3-2",
+      "artista": "The Slits",
+      "titulo": "Cut",
+      "subestilos": [
+        "New Wave"
+      ],
+      "generos": [
+        "new-wave",
+        "post-punk"
+      ],
+      "album": "the-slits-cut"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Devo",
+      "titulo": "Q: Are We Not Men? A: We Are Devo!",
+      "subestilos": [
+        "New Wave"
+      ],
+      "generos": [
+        "new-wave",
+        "post-punk"
+      ],
+      "album": "devo-q-are-we-not-men-a-we-are-devo"
+    },
+    {
+      "pos": "3-4",
+      "artista": "The The",
+      "titulo": "Soul Mining",
+      "subestilos": [
+        "New Wave"
+      ],
+      "generos": [
+        "new-wave",
+        "post-punk"
+      ],
+      "album": "the-the-soul-mining"
+    },
+    {
+      "pos": "3-5",
+      "artista": "The B-52’s",
+      "titulo": "The B-52’s",
+      "subestilos": [
+        "New Wave"
+      ],
+      "generos": [
+        "new-wave",
+        "post-punk"
+      ],
+      "album": "the-b-52s-the-b-52s"
+    },
+    {
+      "pos": "3-6",
+      "artista": "XTC",
+      "titulo": "Drums and Wires",
+      "subestilos": [
+        "New Wave"
+      ],
+      "generos": [
+        "new-wave",
+        "post-punk"
+      ],
+      "album": "xtc-drums-and-wires"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Various Artists",
+      "titulo": "No New York",
+      "subestilos": [
+        "No Wave"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "noChart": "James Chance & The Contortions - No New York",
+      "conferir": "No New York é a coletânea produzida por Brian Eno; o chart credita James Chance & The Contortions",
+      "album": "various-artists-no-new-york"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Glenn Branca",
+      "titulo": "The Ascension",
+      "subestilos": [
+        "No Wave"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "glenn-branca-the-ascension"
+    },
+    {
+      "pos": "4-3",
+      "artista": "The Contortions",
+      "titulo": "Buy",
+      "subestilos": [
+        "No Wave"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "noChart": "James Chance & The Contortions - Buy",
+      "album": "the-contortions-buy"
+    },
+    {
+      "pos": "4-4",
+      "artista": "DNA",
+      "titulo": "DNA on DNA",
+      "subestilos": [
+        "No Wave"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "dna-dna-on-dna"
+    },
+    {
+      "pos": "4-5",
+      "artista": "Liquid Liquid",
+      "titulo": "Liquid Liquid",
+      "subestilos": [
+        "No Wave"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "liquid-liquid-liquid-liquid"
+    },
+    {
+      "pos": "4-6",
+      "artista": "Blurt",
+      "titulo": "Blurt + Singles",
+      "subestilos": [
+        "No Wave"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "blurt-blurt-singles"
+    },
+    {
+      "pos": "5-1",
+      "artista": "Kas Product",
+      "titulo": "Try Out",
+      "subestilos": [
+        "Cold Wave"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "kas-product-try-out"
+    },
+    {
+      "pos": "5-2",
+      "artista": "Trisomie 21",
+      "titulo": "Passions divisées",
+      "subestilos": [
+        "Cold Wave"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "noChart": "Trisomie 21 - Passions Divisées",
+      "album": "trisomie-21-passions-divisees"
+    },
+    {
+      "pos": "5-3",
+      "artista": "Mary Goes Round",
+      "titulo": "70 Suns in the Sky",
+      "subestilos": [
+        "Cold Wave"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "mary-goes-round-70-suns-in-the-sky"
+    },
+    {
+      "pos": "5-4",
+      "artista": "Opera Multi Steel",
+      "titulo": "Cathédrale + Rien",
+      "subestilos": [
+        "Cold Wave"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "noChart": "OPERA MULTI STEEL - Cathedrale + Rien",
+      "album": "opera-multi-steel-cathedrale-rien"
+    },
+    {
+      "pos": "5-5",
+      "artista": "Little Nemo",
+      "titulo": "Turquoise Fields",
+      "subestilos": [
+        "Cold Wave"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "little-nemo-turquoise-fields"
+    },
+    {
+      "pos": "5-6",
+      "artista": "Asylum Party",
+      "titulo": "Borderline",
+      "subestilos": [
+        "Cold Wave"
+      ],
+      "generos": [
+        "post-punk"
+      ],
+      "album": "asylum-party-borderline"
+    },
+    {
+      "pos": "6-1",
+      "artista": "The Cure",
+      "titulo": "Pornography",
+      "subestilos": [
+        "Goth Rock"
+      ],
+      "generos": [
+        "gothic-rock",
+        "post-punk"
+      ],
+      "album": "the-cure-pornography"
+    },
+    {
+      "pos": "6-2",
+      "artista": "Bauhaus",
+      "titulo": "In the Flat Field",
+      "subestilos": [
+        "Goth Rock"
+      ],
+      "generos": [
+        "gothic-rock",
+        "post-punk"
+      ],
+      "album": "bauhaus-in-the-flat-field"
+    },
+    {
+      "pos": "6-3",
+      "artista": "The Birthday Party",
+      "titulo": "Prayers on Fire",
+      "subestilos": [
+        "Goth Rock"
+      ],
+      "generos": [
+        "gothic-rock",
+        "post-punk"
+      ],
+      "album": "the-birthday-party-prayers-on-fire"
+    },
+    {
+      "pos": "6-4",
+      "artista": "The Damned",
+      "titulo": "Strawberries",
+      "subestilos": [
+        "Goth Rock"
+      ],
+      "generos": [
+        "gothic-rock",
+        "post-punk"
+      ],
+      "album": "the-damned-strawberries"
+    },
+    {
+      "pos": "6-5",
+      "artista": "Killing Joke",
+      "titulo": "Killing Joke",
+      "subestilos": [
+        "Goth Rock"
+      ],
+      "generos": [
+        "gothic-rock",
+        "post-punk"
+      ],
+      "album": "killing-joke-killing-joke"
+    },
+    {
+      "pos": "6-6",
+      "artista": "Siouxsie and the Banshees",
+      "titulo": "The Scream",
+      "subestilos": [
+        "Goth Rock"
+      ],
+      "generos": [
+        "gothic-rock",
+        "post-punk"
+      ],
+      "album": "siouxsie-and-the-banshees-the-scream"
+    }
+  ]
+}

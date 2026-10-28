@@ -1,0 +1,148 @@
+{
+  "id": "2026-10-28-introducoes-impactantes",
+  "numero": 1,
+  "publicacao": "2026-10-28",
+  "titulo": "5 Músicas com Introduções INCRÍVEIS",
+  "autor": {
+    "nome": "Mathias Rahmeier",
+    "foto": "assets/img/autores/mathias-rahmeier.jpg",
+    "bio": "Viciado incondicionalmente em música e saber mais sobre elas. Mathias estuda música e mantém sua biblioteca desde os 14 anos de idade. Hoje com muita informação para repassar decidiu criar o TrackLore para que todo mundo pudesse descobrir música de forma espontânea.",
+    "redes": [
+      {
+        "rede": "instagram",
+        "url": "https://www.instagram.com/mathiasrahmeier/"
+      },
+      {
+        "rede": "github",
+        "url": "https://github.com/MattRahmeier"
+      }
+    ]
+  },
+  "faixas": [
+    {
+      "faixa": "Airport Lady",
+      "artista": "Toshiki Kadomatsu",
+      "albumTitulo": "After 5 Clash",
+      "album": "toshiki-kadomatsu-after-5-clash",
+      "texto": [
+        "Toshiki Kadomatsu é um mestre em fazer introduções cinematográficas para suas músicas.",
+        "Em 85 Kadomatsu começa uma transição de um clima costeiro, do oceano pacífico, de viagens por paisagens paradisíacas que perpassava seus álbuns anteriores ([Weekend Fly to the Sun](a:toshiki-kadomatsu-weekend-fly-to-the-sun), [Sea Breeze](a:toshiki-kadomatsu-sea-breeze) e [On the City Shore](a:toshiki-kadomatsu-on-the-city-shore)) e começou a construir em cima de uma atmosfera mais urbana, contemporânea e exótica. Muito influenciado por artistas contemporâneos da cena do [City Pop](g:city-pop), suas músicas agora te colocavam no papel de um recém-enriquecido trabalhador assalariado no auge da bolha econômica japonesa.",
+        "Nesse disco, muito da estética, das letras e da construção do som acompanha esse personagem descolado. Um trabalhador com dinheiro pra gastar que tenta encontrar a felicidade onde antes só podia sonhar. Agora ele se divertia em arranha-céus, fazia viagens de negócio, se apaixonava na noite, conhecia mulheres exóticas na noite. O som é perfeitamente representante dessa visão _Yuppie_, arranjos maximalistas, plágios internacionais (com escalas japonesas para dar uma variada) e _grooves_ que têm cheiro de tabaco e _whisky_.",
+        "Airport Lady é incrível por passar essa visão de um dia corrido onde com um vislumbre, Kadomatsu se apaixona por uma mulher que só conseguiu olhar de relance. Ela está apressada, assim como ele, precisa estar em lugares e precisa chegar rápido, tempo é dinheiro. Com uma introdução cinematográfica que começa com os sons de um avião partindo, um _jingle_ sonoro introdutório que parece uma cena de plano aberto, mostrando o aeroporto movimentado, e a mudança brusca para uma linha de baixo _slap_ acompanhado de metais que retratam perfeitamente o momento que a flecha do cupido atinge o coração do nosso personagem.",
+        "Com isso o _setup_ está pronto, ele está apaixonado e o resto da música acompanha nosso ‘herói’ lidando com sua paixão, escrevendo versos de amor para sua musa."
+      ],
+      "outras": [
+        "Step into the Light",
+        "After 5 Crash"
+      ],
+      "links": {
+        "spotify": "https://open.spotify.com/track/4w27tex4iTUM41sbMhuCct"
+      },
+      "video": {
+        "url": "https://www.youtube.com/watch?v=fLxQtcrzTlA",
+        "nota": "upload de fã (o disco não está no catálogo oficial do YouTube); escolhido pelo usuário"
+      }
+    },
+    {
+      "faixa": "Views from Fire Mountain",
+      "artista": "Makoto Matsushita",
+      "albumTitulo": "Quiet Skies",
+      "album": "makoto-matsushita-quiet-skies",
+      "texto": [
+        "Makoto Matsushita é um dos exemplos mais incríveis de evolução musical e mudança no próprio estilo de som. Ao contrário de Kadomatsu, Matsushita preferiu evoluir seu som, deixar para trás o _AOR_ e o [City Pop](g:city-pop) para começar a compor suítes atmosféricas, músicas longas com estruturas musicais distintas dentro delas mesmas. [Quiet Skies](a:makoto-matsushita-quiet-skies) é um dos discos mais contemplativos e meditativos da história do [rock](g:rock)/_aor_/funk/[city pop](g:city-pop)/[jazz fusion](g:jazz-fusion) ou qualquer que seja o gênero desse disco tão transcendental.",
+        "Esse disco tem quase como um tema descrever paisagens. Seja do nascer do sol e da esperança renovada em Sight of the Dawn, a volta à sua casa em Going Home e é claro: Views from Fire Mountain que narra, sonoramente, a nossa viagem montanha acima.",
+        "A introdução é bem longa, é quase a música toda. Tudo começa com um baixo _fretless_ sendo _slappado_ que aos poucos recebe a companhia de um sintetizador e se harmonizam quando um som de bateria tímido começa a acompanhar. Instrumentos vão se juntando, como se representassem o som das árvores, dos animais, da água pelas quais nós, como ouvintes e convidados dessa viagem vamos passando. Até que finalmente chegamos ao pico aos 2:30 e a música começa a crescer, crescer, crescer até explodir. Temos agora uma visão privilegiada de tudo, da natureza, das pessoas, da vida."
+      ],
+      "outras": [
+        "Lucky Guy",
+        "Sight of the Dawn"
+      ],
+      "links": {
+        "deezer": "https://www.deezer.com/track/755432712",
+        "spotify": "https://open.spotify.com/track/42lm6VjUJglkOMO27gf6re",
+        "appleMusic": "https://music.apple.com/br/album/views-from-fire-mountain-2019-remastered/1478424645?i=1478424647",
+        "youtubeMusic": "https://music.youtube.com/watch?v=s1Vefb1aehk"
+      }
+    },
+    {
+      "faixa": "Behind the Lines",
+      "artista": "Genesis",
+      "albumTitulo": "Duke",
+      "album": "genesis-duke",
+      "texto": [
+        "Quando [Duke](a:genesis-duke) saiu, já fazia alguns anos que o Genesis aparentava ter largado para trás a fase de [rock progressivo](g:progressive-rock) e teatral que os trouxe à fama. No entanto, estruturas técnicas como as medidas de tempo, as mudanças repentinas na intensidade, a textura sonora e até as letras ainda demonstravam essa conexão à onda progressiva dos anos 70.",
+        "A primeira faixa inteira é uma intro e mostra o quanto o [prog](g:progressive-rock) ainda corria nas veias do Genesis. Uma introdução explosiva liderada por uma parede de som cheia de textura criadas pelo tecladista Tony Banks, uma performance lendária de bateria por Phil Collins, cheia de polirritmos, notas fantasmas, mudanças bruscas no tempo que vão de 4/4, 3/4 a 2/4 e um trabalho de pratos tão preciso que o faz parecer uma máquina. Steve Hackett surge de surpresa e lança um crescendo em forma de solo e abre espaço para a voz de Phil Collins contar a história de Albert.",
+        "O disco, que não tem pausa entre faixas, é um deleite e aberto magistralmente. Para muita gente essa foi a última vez que veriam o “Genesis Prog” “das antigas”. Eu tendo a discordar, acho que sempre foram músicos progressivos, com capacidade técnica além do esperado, sempre se pondo como vanguarda da música."
+      ],
+      "outras": [
+        "Man of Our Times",
+        "Turn It On Again"
+      ],
+      "links": {
+        "deezer": "https://www.deezer.com/track/14640435",
+        "youtubeMusic": "https://music.youtube.com/watch?v=WHnQyGmX2Kc&list=OLAK5uy_nXeD3lxnYj_wNyRN8t0twcD4dQfegYbYY",
+        "spotify": "https://open.spotify.com/track/3nLiohDYekV7OxHf7Jcj58"
+      }
+    },
+    {
+      "faixa": "Don’t Stop ’Til You Get Enough",
+      "artista": "Michael Jackson",
+      "albumTitulo": "Off the Wall",
+      "album": "michael-jackson-off-the-wall",
+      "texto": [
+        "Essa não é nem a minha música favorita de Michael Jackson, nem de longe. Mas esse é meu disco favorito.",
+        "Mas não só isso: [Off the Wall](a:michael-jackson-off-the-wall), por mais que não seja o primeiro disco a fazer sucesso com Michael Jackson, ou ser o primeiro disco dele como artista solo, mas esse é o primeiro que ele abandona o som Motown para criar seu próprio som. Cheio de artistas de peso como Quincy Jones na produção, Rod Temperton (autor de Rock With You e da faixa-título), Stevie Wonder e Paul McCartney entre os compositores e o percussionista brasileiro Paulinho da Costa, Off the Wall é um marco do _R&B_, do [Pop](g:pop) e da música em geral.",
+        "E por que não começar uma música com um monólogo sensual (que parece que ele tá falando da Força do Star Wars) acompanhado de uma linha de baixo sintetizada e uma explosão de energia. É simples, é efetivo, te deixa interessado, faz com que você queira colocar a orelha na caixa de som para ouvir melhor e ser levado pelo “_Wuuuh_” que viria a se tornar marca registrada.",
+        "Pode parecer algo primitivo pras megaproduções sonoras e visuais que Michael Jackson se envolveria depois, mas é um começo sólido que faz qualquer um pedir mais."
+      ],
+      "outras": [
+        "Off the Wall",
+        "Rock With You"
+      ],
+      "links": {
+        "deezer": "https://www.deezer.com/track/15586296",
+        "youtubeMusic": "https://music.youtube.com/watch?v=yURRmWtbTbo&list=OLAK5uy_kcoRvXuX8AWWr5W2HyOPnwp4i11UfdryY",
+        "spotify": "https://open.spotify.com/track/46eu3SBuFCXWsPT39Yg3tJ",
+        "appleMusic": "https://music.apple.com/br/album/dont-stop-til-you-get-enough/186166282?i=186166292"
+      }
+    },
+    {
+      "faixa": "Won’t Get Fooled Again",
+      "artista": "The Who",
+      "albumTitulo": "Who’s Next",
+      "album": "the-who-whos-next",
+      "texto": [
+        "Esse álbum começou com algo extremamente grandioso. Era pra ser um projeto multimídia que seria um filme, uma série de shows e um álbum musical. No fim das contas tudo que sobrou foi o disco [Who’s Next](a:the-who-whos-next) e um Pete Townshend tendo um ataque de nervos.",
+        "Ainda assim, temos uma obra incrível. Um disco que acabou saindo da ideia de ser um álbum conceitual (que conta uma só história) e se torna uma mistura dessas ideias com uma crítica à vida cotidiana nos anos 70 e reflete um pouco dos temas e pensamento da época. A busca por identidade, a luta anti-autoritária e a desilusão dos jovens com o sistema.",
+        "Com um _strum_ na guitarra e uma linha de sintetizador, Won’t Get Fooled Again introduz a música pouco a pouco, te absorvendo na mente do personagem. Há um vazio, uma raiva ascendente que está prestes a explodir e aos poucos ele marcha, junto à bateria de Keith Moon, para fazer alguma coisa. Ele finalmente cai nas ruas e luta pelos seus direitos."
+      ],
+      "outras": [
+        "Baba O’Riley",
+        "Behind Blue Eyes"
+      ],
+      "links": {
+        "deezer": "https://www.deezer.com/track/2444537305",
+        "youtubeMusic": "https://music.youtube.com/watch?v=U4wDOI_dFfc&list=OLAK5uy_lhXxzMEgoGbPzobcXcvaSxrbO9uLy-uww",
+        "spotify": "https://open.spotify.com/track/4Ke1gkrPvW9MOKvVQEtc8d",
+        "appleMusic": "https://music.apple.com/br/album/wont-get-fooled-again-remastered-2022/1698563957?i=1698564382"
+      }
+    }
+  ],
+  "citados": [
+    {
+      "artista": "Toshiki Kadomatsu",
+      "titulo": "Weekend Fly to the Sun",
+      "album": "toshiki-kadomatsu-weekend-fly-to-the-sun"
+    },
+    {
+      "artista": "Toshiki Kadomatsu",
+      "titulo": "Sea Breeze",
+      "album": "toshiki-kadomatsu-sea-breeze"
+    },
+    {
+      "artista": "Toshiki Kadomatsu",
+      "titulo": "On the City Shore",
+      "album": "toshiki-kadomatsu-on-the-city-shore"
+    }
+  ]
+}

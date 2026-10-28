@@ -1,0 +1,187 @@
+{
+  "id": "k-pop",
+  "titulo": "Essential K-Pop",
+  "indice": "k-pop",
+  "generos": [
+    "k-pop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/k-pop.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Lee Hyori",
+      "titulo": "Stylish...E",
+      "noChart": "Lee Hyori - Stylish",
+      "album": "lee-hyori-stylishe"
+    },
+    {
+      "pos": "A2",
+      "artista": "H.O.T.",
+      "titulo": "We Hate All Kinds of Violence",
+      "album": "hot-we-hate-all-kinds-of-violence"
+    },
+    {
+      "pos": "A3",
+      "artista": "Girls' Generation",
+      "titulo": "Baby Baby",
+      "noChart": "SNSD - Baby Baby (1st album repackage)",
+      "album": "girls-generation-baby-baby"
+    },
+    {
+      "pos": "A4",
+      "artista": "Kara",
+      "titulo": "Honey",
+      "album": "kara-honey"
+    },
+    {
+      "pos": "B1",
+      "artista": "T-ara",
+      "titulo": "Absolute First Album",
+      "album": "t-ara-absolute-first-album"
+    },
+    {
+      "pos": "B2",
+      "artista": "SeeYa",
+      "titulo": "The First Mind",
+      "noChart": "SeeYa - First Mind",
+      "album": "seeya-the-first-mind"
+    },
+    {
+      "pos": "B3",
+      "artista": "Super Junior",
+      "titulo": "Sorry, Sorry",
+      "album": "super-junior-sorry-sorry"
+    },
+    {
+      "pos": "B4",
+      "artista": "2PM",
+      "titulo": "2:00PM Time for Change",
+      "noChart": "2PM - Time To Change",
+      "album": "2pm-2-00pm-time-for-change"
+    },
+    {
+      "pos": "C1",
+      "artista": "Big Bang",
+      "titulo": "Remember",
+      "album": "big-bang-remember"
+    },
+    {
+      "pos": "C2",
+      "artista": "Brown Eyed Girls",
+      "titulo": "Sound G",
+      "noChart": "BEG - Sound G",
+      "album": "brown-eyed-girls-sound-g"
+    },
+    {
+      "pos": "C3",
+      "artista": "2AM",
+      "titulo": "Saint O'Clock",
+      "noChart": "2AM - 1st Mini Album",
+      "conferir": "o chart diz \"1st Mini Album\"; conferir o título",
+      "album": "2am-saint-oclock"
+    },
+    {
+      "pos": "C4",
+      "artista": "2NE1",
+      "titulo": "2NE1",
+      "noChart": "2ne1 - S/T",
+      "album": "2ne1-2ne1"
+    },
+    {
+      "pos": "D1",
+      "artista": "Wonder Girls",
+      "titulo": "The Wonder Years",
+      "album": "wonder-girls-the-wonder-years"
+    },
+    {
+      "pos": "D2",
+      "artista": "BoA",
+      "titulo": "BoA",
+      "noChart": "BoA - S/T",
+      "album": "boa-boa"
+    },
+    {
+      "pos": "D3",
+      "artista": "Rain",
+      "titulo": "Rainism",
+      "album": "rain-rainism"
+    },
+    {
+      "pos": "D4",
+      "artista": "TVXQ",
+      "titulo": "\"O\"-Jung.Ban.Hap.",
+      "album": "tvxq-o-jungbanhap"
+    },
+    {
+      "pos": "E1",
+      "artista": "g.o.d",
+      "titulo": "Chapter 3",
+      "noChart": "g.o.d - Chapter 3 Lies",
+      "album": "god-chapter-3"
+    },
+    {
+      "pos": "E2",
+      "artista": "4Minute",
+      "titulo": "For Muzik",
+      "album": "4minute-for-muzik"
+    },
+    {
+      "pos": "E3",
+      "artista": "Kara",
+      "titulo": "Revolution",
+      "album": "kara-revolution"
+    },
+    {
+      "pos": "E4",
+      "artista": "Davichi",
+      "titulo": "Davichi in Wonderland",
+      "album": "davichi-davichi-in-wonderland"
+    },
+    {
+      "pos": "F1",
+      "artista": "Epik High",
+      "titulo": "Pieces, Part One",
+      "noChart": "Epik High - Pieces Part One",
+      "album": "epik-high-pieces-part-one"
+    },
+    {
+      "pos": "F2",
+      "artista": "Outsider",
+      "titulo": "Maestro",
+      "noChart": "Outsider - Maestro",
+      "album": "outsider-maestro"
+    },
+    {
+      "pos": "F3",
+      "artista": "Shinee",
+      "titulo": "Amigo",
+      "album": "shinee-amigo"
+    },
+    {
+      "pos": "F4",
+      "artista": "CNBlue",
+      "titulo": "Bluetory",
+      "album": "cnblue-bluetory"
+    },
+    {
+      "pos": "G1",
+      "artista": "S.E.S.",
+      "titulo": "Friend",
+      "noChart": "SES - Friend",
+      "album": "ses-friend"
+    },
+    {
+      "pos": "G2",
+      "artista": "Fin.K.L",
+      "titulo": "Forever",
+      "noChart": "Finkl - Forever",
+      "album": "finkl-forever"
+    }
+  ]
+}

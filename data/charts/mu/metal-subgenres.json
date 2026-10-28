@@ -1,0 +1,1007 @@
+{
+  "id": "metal-subgenres",
+  "titulo": "What the fuck should I listen to? (/meal/)",
+  "indice": "metal-subgenres",
+  "generos": [
+    "doom-metal",
+    "death-metal",
+    "gothic-metal",
+    "grindcore",
+    "melodic-death-metal",
+    "thrash-metal",
+    "stoner-metal",
+    "sludge-metal"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/metal-subgenres.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "seleção de 12 a 15 álbuns de cada lista escrita no chart (curadoria para o TrackMap); a lista completa tem ~100 por gênero",
+    "parcial": true,
+    "status": "revisar"
+  },
+  "nota": "O chart traz 10 listas (o último dígito do post escolhe o gênero). Funeral doom e black metal ficaram de fora: funeral doom não está na árvore e black metal já tem chart próprio. \"pos\" é o dígito do gênero no chart; \"generos\" de cada álbum vem da lista onde ele está.",
+  "albuns": [
+    {
+      "pos": "0:1",
+      "artista": "Black Sabbath",
+      "titulo": "Black Sabbath",
+      "generos": [
+        "doom-metal"
+      ],
+      "album": "black-sabbath-black-sabbath"
+    },
+    {
+      "pos": "0:2",
+      "artista": "Candlemass",
+      "titulo": "Epicus Doomicus Metallicus",
+      "generos": [
+        "doom-metal"
+      ],
+      "album": "candlemass-epicus-doomicus-metallicus"
+    },
+    {
+      "pos": "0:3",
+      "artista": "Candlemass",
+      "titulo": "Nightfall",
+      "generos": [
+        "doom-metal"
+      ],
+      "album": "candlemass-nightfall"
+    },
+    {
+      "pos": "0:4",
+      "artista": "Saint Vitus",
+      "titulo": "Born Too Late",
+      "generos": [
+        "doom-metal"
+      ],
+      "album": "saint-vitus-born-too-late"
+    },
+    {
+      "pos": "0:5",
+      "artista": "Pentagram",
+      "titulo": "Pentagram",
+      "generos": [
+        "doom-metal"
+      ],
+      "album": "pentagram-pentagram"
+    },
+    {
+      "pos": "0:6",
+      "artista": "Pentagram",
+      "titulo": "Day of Reckoning",
+      "generos": [
+        "doom-metal"
+      ],
+      "album": "pentagram-day-of-reckoning"
+    },
+    {
+      "pos": "0:7",
+      "artista": "Trouble",
+      "titulo": "Psalm 9",
+      "generos": [
+        "doom-metal"
+      ],
+      "album": "trouble-psalm-9"
+    },
+    {
+      "pos": "0:8",
+      "artista": "Solitude Aeturnus",
+      "titulo": "Into the Depths of Sorrow",
+      "generos": [
+        "doom-metal"
+      ],
+      "album": "solitude-aeturnus-into-the-depths-of-sorrow"
+    },
+    {
+      "pos": "0:9",
+      "artista": "Reverend Bizarre",
+      "titulo": "In the Rectory of the Bizarre Reverend",
+      "generos": [
+        "doom-metal"
+      ],
+      "album": "reverend-bizarre-in-the-rectory-of-the-bizarre-reverend"
+    },
+    {
+      "pos": "0:10",
+      "artista": "Pallbearer",
+      "titulo": "Sorrow and Extinction",
+      "generos": [
+        "doom-metal"
+      ],
+      "album": "pallbearer-sorrow-and-extinction"
+    },
+    {
+      "pos": "0:11",
+      "artista": "The Obsessed",
+      "titulo": "The Obsessed",
+      "generos": [
+        "doom-metal"
+      ],
+      "album": "the-obsessed-the-obsessed"
+    },
+    {
+      "pos": "0:12",
+      "artista": "Pagan Altar",
+      "titulo": "Pagan Altar",
+      "generos": [
+        "doom-metal"
+      ],
+      "album": "pagan-altar-pagan-altar"
+    },
+    {
+      "pos": "0:13",
+      "artista": "Count Raven",
+      "titulo": "Destruction of the Void",
+      "generos": [
+        "doom-metal"
+      ],
+      "album": "count-raven-destruction-of-the-void"
+    },
+    {
+      "pos": "1:1",
+      "artista": "Death",
+      "titulo": "Scream Bloody Gore",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "death-scream-bloody-gore"
+    },
+    {
+      "pos": "1:2",
+      "artista": "Death",
+      "titulo": "Human",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "death-human"
+    },
+    {
+      "pos": "1:3",
+      "artista": "Death",
+      "titulo": "Symbolic",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "death-symbolic"
+    },
+    {
+      "pos": "1:4",
+      "artista": "Morbid Angel",
+      "titulo": "Altars of Madness",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "morbid-angel-altars-of-madness"
+    },
+    {
+      "pos": "1:5",
+      "artista": "Morbid Angel",
+      "titulo": "Blessed Are the Sick",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "morbid-angel-blessed-are-the-sick"
+    },
+    {
+      "pos": "1:6",
+      "artista": "Obituary",
+      "titulo": "Cause of Death",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "obituary-cause-of-death"
+    },
+    {
+      "pos": "1:7",
+      "artista": "Cannibal Corpse",
+      "titulo": "Tomb of the Mutilated",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "cannibal-corpse-tomb-of-the-mutilated"
+    },
+    {
+      "pos": "1:8",
+      "artista": "Gorguts",
+      "titulo": "The Erosion of Sanity",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "gorguts-the-erosion-of-sanity"
+    },
+    {
+      "pos": "1:9",
+      "artista": "Incantation",
+      "titulo": "Onward to Golgotha",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "incantation-onward-to-golgotha"
+    },
+    {
+      "pos": "1:10",
+      "artista": "Suffocation",
+      "titulo": "Effigy of the Forgotten",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "suffocation-effigy-of-the-forgotten"
+    },
+    {
+      "pos": "1:11",
+      "artista": "Autopsy",
+      "titulo": "Mental Funeral",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "autopsy-mental-funeral"
+    },
+    {
+      "pos": "1:12",
+      "artista": "Entombed",
+      "titulo": "Left Hand Path",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "entombed-left-hand-path"
+    },
+    {
+      "pos": "1:13",
+      "artista": "Dismember",
+      "titulo": "Like an Ever Flowing Stream",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "dismember-like-an-ever-flowing-stream"
+    },
+    {
+      "pos": "1:14",
+      "artista": "Bolt Thrower",
+      "titulo": "Realm of Chaos",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "bolt-thrower-realm-of-chaos"
+    },
+    {
+      "pos": "1:15",
+      "artista": "Atheist",
+      "titulo": "Unquestionable Presence",
+      "generos": [
+        "death-metal"
+      ],
+      "album": "atheist-unquestionable-presence"
+    },
+    {
+      "pos": "4:1",
+      "artista": "Paradise Lost",
+      "titulo": "Draconian Times",
+      "generos": [
+        "gothic-metal"
+      ],
+      "album": "paradise-lost-draconian-times"
+    },
+    {
+      "pos": "4:2",
+      "artista": "Paradise Lost",
+      "titulo": "Icon",
+      "generos": [
+        "gothic-metal"
+      ],
+      "album": "paradise-lost-icon"
+    },
+    {
+      "pos": "4:3",
+      "artista": "Type O Negative",
+      "titulo": "Bloody Kisses",
+      "generos": [
+        "gothic-metal"
+      ],
+      "album": "type-o-negative-bloody-kisses"
+    },
+    {
+      "pos": "4:4",
+      "artista": "Type O Negative",
+      "titulo": "October Rust",
+      "generos": [
+        "gothic-metal"
+      ],
+      "album": "type-o-negative-october-rust"
+    },
+    {
+      "pos": "4:5",
+      "artista": "Moonspell",
+      "titulo": "Irreligious",
+      "generos": [
+        "gothic-metal"
+      ],
+      "album": "moonspell-irreligious"
+    },
+    {
+      "pos": "4:6",
+      "artista": "Theatre of Tragedy",
+      "titulo": "Velvet Darkness They Fear",
+      "generos": [
+        "gothic-metal"
+      ],
+      "album": "theatre-of-tragedy-velvet-darkness-they-fear"
+    },
+    {
+      "pos": "4:7",
+      "artista": "Theatre of Tragedy",
+      "titulo": "Aégis",
+      "generos": [
+        "gothic-metal"
+      ],
+      "album": "theatre-of-tragedy-aegis"
+    },
+    {
+      "pos": "4:8",
+      "artista": "Tiamat",
+      "titulo": "Wildhoney",
+      "generos": [
+        "gothic-metal"
+      ],
+      "album": "tiamat-wildhoney"
+    },
+    {
+      "pos": "4:9",
+      "artista": "The Gathering",
+      "titulo": "Mandylion",
+      "generos": [
+        "gothic-metal"
+      ],
+      "album": "the-gathering-mandylion"
+    },
+    {
+      "pos": "4:10",
+      "artista": "Lacuna Coil",
+      "titulo": "Comalies",
+      "generos": [
+        "gothic-metal"
+      ],
+      "album": "lacuna-coil-comalies"
+    },
+    {
+      "pos": "4:11",
+      "artista": "My Dying Bride",
+      "titulo": "Like Gods of the Sun",
+      "generos": [
+        "gothic-metal"
+      ],
+      "album": "my-dying-bride-like-gods-of-the-sun"
+    },
+    {
+      "pos": "4:12",
+      "artista": "Katatonia",
+      "titulo": "Discouraged Ones",
+      "generos": [
+        "gothic-metal"
+      ],
+      "album": "katatonia-discouraged-ones"
+    },
+    {
+      "pos": "4:13",
+      "artista": "Draconian",
+      "titulo": "Turning Season Within",
+      "generos": [
+        "gothic-metal"
+      ],
+      "album": "draconian-turning-season-within"
+    },
+    {
+      "pos": "5:1",
+      "artista": "Napalm Death",
+      "titulo": "Scum",
+      "generos": [
+        "grindcore"
+      ],
+      "album": "napalm-death-scum"
+    },
+    {
+      "pos": "5:2",
+      "artista": "Repulsion",
+      "titulo": "Horrified",
+      "generos": [
+        "grindcore"
+      ],
+      "album": "repulsion-horrified"
+    },
+    {
+      "pos": "5:3",
+      "artista": "Terrorizer",
+      "titulo": "World Downfall",
+      "generos": [
+        "grindcore"
+      ],
+      "album": "terrorizer-world-downfall"
+    },
+    {
+      "pos": "5:4",
+      "artista": "Carcass",
+      "titulo": "Reek of Putrefaction",
+      "generos": [
+        "grindcore"
+      ],
+      "album": "carcass-reek-of-putrefaction"
+    },
+    {
+      "pos": "5:5",
+      "artista": "Carcass",
+      "titulo": "Symphonies of Sickness",
+      "generos": [
+        "grindcore"
+      ],
+      "album": "carcass-symphonies-of-sickness"
+    },
+    {
+      "pos": "5:6",
+      "artista": "Pig Destroyer",
+      "titulo": "Prowler in the Yard",
+      "generos": [
+        "grindcore"
+      ],
+      "album": "pig-destroyer-prowler-in-the-yard"
+    },
+    {
+      "pos": "5:7",
+      "artista": "Assück",
+      "titulo": "Misery Index",
+      "generos": [
+        "grindcore"
+      ],
+      "album": "assuck-misery-index"
+    },
+    {
+      "pos": "5:8",
+      "artista": "Brutal Truth",
+      "titulo": "Extreme Conditions Demand Extreme Responses",
+      "generos": [
+        "grindcore"
+      ],
+      "album": "brutal-truth-extreme-conditions-demand-extreme-responses"
+    },
+    {
+      "pos": "5:9",
+      "artista": "Discordance Axis",
+      "titulo": "The Inalienable Dreamless",
+      "generos": [
+        "grindcore"
+      ],
+      "album": "discordance-axis-the-inalienable-dreamless"
+    },
+    {
+      "pos": "5:10",
+      "artista": "Nasum",
+      "titulo": "Human 2.0",
+      "generos": [
+        "grindcore"
+      ],
+      "album": "nasum-human-20"
+    },
+    {
+      "pos": "5:11",
+      "artista": "Insect Warfare",
+      "titulo": "World Extermination",
+      "generos": [
+        "grindcore"
+      ],
+      "album": "insect-warfare-world-extermination"
+    },
+    {
+      "pos": "5:12",
+      "artista": "Gridlink",
+      "titulo": "Amber Gray",
+      "generos": [
+        "grindcore"
+      ],
+      "album": "gridlink-amber-gray"
+    },
+    {
+      "pos": "5:13",
+      "artista": "Rotten Sound",
+      "titulo": "Exit",
+      "generos": [
+        "grindcore"
+      ],
+      "album": "rotten-sound-exit"
+    },
+    {
+      "pos": "6:1",
+      "artista": "At the Gates",
+      "titulo": "Slaughter of the Soul",
+      "generos": [
+        "melodic-death-metal"
+      ],
+      "album": "at-the-gates-slaughter-of-the-soul"
+    },
+    {
+      "pos": "6:2",
+      "artista": "In Flames",
+      "titulo": "The Jester Race",
+      "generos": [
+        "melodic-death-metal"
+      ],
+      "album": "in-flames-the-jester-race"
+    },
+    {
+      "pos": "6:3",
+      "artista": "In Flames",
+      "titulo": "Colony",
+      "generos": [
+        "melodic-death-metal"
+      ],
+      "album": "in-flames-colony"
+    },
+    {
+      "pos": "6:4",
+      "artista": "Dark Tranquillity",
+      "titulo": "The Gallery",
+      "generos": [
+        "melodic-death-metal"
+      ],
+      "album": "dark-tranquillity-the-gallery"
+    },
+    {
+      "pos": "6:5",
+      "artista": "Dark Tranquillity",
+      "titulo": "Damage Done",
+      "generos": [
+        "melodic-death-metal"
+      ],
+      "album": "dark-tranquillity-damage-done"
+    },
+    {
+      "pos": "6:6",
+      "artista": "Carcass",
+      "titulo": "Heartwork",
+      "generos": [
+        "melodic-death-metal"
+      ],
+      "album": "carcass-heartwork"
+    },
+    {
+      "pos": "6:7",
+      "artista": "Insomnium",
+      "titulo": "Above the Weeping World",
+      "generos": [
+        "melodic-death-metal"
+      ],
+      "album": "insomnium-above-the-weeping-world"
+    },
+    {
+      "pos": "6:8",
+      "artista": "Amorphis",
+      "titulo": "Tales from the Thousand Lakes",
+      "generos": [
+        "melodic-death-metal"
+      ],
+      "album": "amorphis-tales-from-the-thousand-lakes"
+    },
+    {
+      "pos": "6:9",
+      "artista": "Arch Enemy",
+      "titulo": "Burning Bridges",
+      "generos": [
+        "melodic-death-metal"
+      ],
+      "album": "arch-enemy-burning-bridges"
+    },
+    {
+      "pos": "6:10",
+      "artista": "Edge of Sanity",
+      "titulo": "Crimson",
+      "generos": [
+        "melodic-death-metal"
+      ],
+      "album": "edge-of-sanity-crimson"
+    },
+    {
+      "pos": "6:11",
+      "artista": "Omnium Gatherum",
+      "titulo": "New World Shadows",
+      "generos": [
+        "melodic-death-metal"
+      ],
+      "album": "omnium-gatherum-new-world-shadows"
+    },
+    {
+      "pos": "6:12",
+      "artista": "Be’lakor",
+      "titulo": "Stone’s Reach",
+      "generos": [
+        "melodic-death-metal"
+      ],
+      "album": "belakor-stones-reach"
+    },
+    {
+      "pos": "6:13",
+      "artista": "Children of Bodom",
+      "titulo": "Follow the Reaper",
+      "generos": [
+        "melodic-death-metal"
+      ],
+      "album": "children-of-bodom-follow-the-reaper"
+    },
+    {
+      "pos": "7:1",
+      "artista": "Metallica",
+      "titulo": "Kill ’Em All",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "metallica-kill-em-all"
+    },
+    {
+      "pos": "7:2",
+      "artista": "Metallica",
+      "titulo": "Ride the Lightning",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "metallica-ride-the-lightning"
+    },
+    {
+      "pos": "7:3",
+      "artista": "Metallica",
+      "titulo": "Master of Puppets",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "metallica-master-of-puppets"
+    },
+    {
+      "pos": "7:4",
+      "artista": "Slayer",
+      "titulo": "Reign in Blood",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "slayer-reign-in-blood"
+    },
+    {
+      "pos": "7:5",
+      "artista": "Slayer",
+      "titulo": "Hell Awaits",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "slayer-hell-awaits"
+    },
+    {
+      "pos": "7:6",
+      "artista": "Megadeth",
+      "titulo": "Peace Sells... but Who’s Buying?",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "megadeth-peace-sells-but-whos-buying"
+    },
+    {
+      "pos": "7:7",
+      "artista": "Kreator",
+      "titulo": "Pleasure to Kill",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "kreator-pleasure-to-kill"
+    },
+    {
+      "pos": "7:8",
+      "artista": "Dark Angel",
+      "titulo": "Darkness Descends",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "dark-angel-darkness-descends"
+    },
+    {
+      "pos": "7:9",
+      "artista": "Exodus",
+      "titulo": "Bonded by Blood",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "exodus-bonded-by-blood"
+    },
+    {
+      "pos": "7:10",
+      "artista": "Sepultura",
+      "titulo": "Beneath the Remains",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "sepultura-beneath-the-remains"
+    },
+    {
+      "pos": "7:11",
+      "artista": "Coroner",
+      "titulo": "No More Color",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "coroner-no-more-color"
+    },
+    {
+      "pos": "7:12",
+      "artista": "Vektor",
+      "titulo": "Black Future",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "vektor-black-future"
+    },
+    {
+      "pos": "7:13",
+      "artista": "Voivod",
+      "titulo": "Dimension Hatröss",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "voivod-dimension-hatross"
+    },
+    {
+      "pos": "7:14",
+      "artista": "Testament",
+      "titulo": "The Legacy",
+      "generos": [
+        "thrash-metal"
+      ],
+      "album": "testament-the-legacy"
+    },
+    {
+      "pos": "8:1",
+      "artista": "Sleep",
+      "titulo": "Dopesmoker",
+      "generos": [
+        "stoner-metal"
+      ],
+      "album": "sleep-dopesmoker"
+    },
+    {
+      "pos": "8:2",
+      "artista": "Sleep",
+      "titulo": "Sleep’s Holy Mountain",
+      "generos": [
+        "stoner-metal"
+      ],
+      "album": "sleep-sleeps-holy-mountain"
+    },
+    {
+      "pos": "8:3",
+      "artista": "Kyuss",
+      "titulo": "Blues for the Red Sun",
+      "generos": [
+        "stoner-metal"
+      ],
+      "album": "kyuss-blues-for-the-red-sun"
+    },
+    {
+      "pos": "8:4",
+      "artista": "Kyuss",
+      "titulo": "Welcome to Sky Valley",
+      "generos": [
+        "stoner-metal"
+      ],
+      "album": "kyuss-welcome-to-sky-valley"
+    },
+    {
+      "pos": "8:5",
+      "artista": "Electric Wizard",
+      "titulo": "Dopethrone",
+      "generos": [
+        "stoner-metal"
+      ],
+      "album": "electric-wizard-dopethrone"
+    },
+    {
+      "pos": "8:6",
+      "artista": "Electric Wizard",
+      "titulo": "Come My Fanatics...",
+      "generos": [
+        "stoner-metal"
+      ],
+      "album": "electric-wizard-come-my-fanatics"
+    },
+    {
+      "pos": "8:7",
+      "artista": "Om",
+      "titulo": "Pilgrimage",
+      "generos": [
+        "stoner-metal"
+      ],
+      "album": "om-pilgrimage"
+    },
+    {
+      "pos": "8:8",
+      "artista": "High on Fire",
+      "titulo": "Surrounded by Thieves",
+      "generos": [
+        "stoner-metal"
+      ],
+      "album": "high-on-fire-surrounded-by-thieves"
+    },
+    {
+      "pos": "8:9",
+      "artista": "Cathedral",
+      "titulo": "The Ethereal Mirror",
+      "generos": [
+        "stoner-metal"
+      ],
+      "album": "cathedral-the-ethereal-mirror"
+    },
+    {
+      "pos": "8:10",
+      "artista": "Church of Misery",
+      "titulo": "Master of Brutality",
+      "generos": [
+        "stoner-metal"
+      ],
+      "album": "church-of-misery-master-of-brutality"
+    },
+    {
+      "pos": "8:11",
+      "artista": "YOB",
+      "titulo": "The Illusion of Motion",
+      "generos": [
+        "stoner-metal"
+      ],
+      "album": "yob-the-illusion-of-motion"
+    },
+    {
+      "pos": "8:12",
+      "artista": "Goatsnake",
+      "titulo": "Flower of Disease",
+      "generos": [
+        "stoner-metal"
+      ],
+      "album": "goatsnake-flower-of-disease"
+    },
+    {
+      "pos": "8:13",
+      "artista": "Weedeater",
+      "titulo": "God Luck and Good Speed",
+      "generos": [
+        "stoner-metal"
+      ],
+      "album": "weedeater-god-luck-and-good-speed"
+    },
+    {
+      "pos": "9:1",
+      "artista": "Eyehategod",
+      "titulo": "Take as Needed for Pain",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "eyehategod-take-as-needed-for-pain"
+    },
+    {
+      "pos": "9:2",
+      "artista": "Eyehategod",
+      "titulo": "Dopesick",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "eyehategod-dopesick"
+    },
+    {
+      "pos": "9:3",
+      "artista": "Crowbar",
+      "titulo": "Odd Fellows Rest",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "crowbar-odd-fellows-rest"
+    },
+    {
+      "pos": "9:4",
+      "artista": "Neurosis",
+      "titulo": "Through Silver in Blood",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "neurosis-through-silver-in-blood"
+    },
+    {
+      "pos": "9:5",
+      "artista": "Neurosis",
+      "titulo": "Times of Grace",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "neurosis-times-of-grace"
+    },
+    {
+      "pos": "9:6",
+      "artista": "Isis",
+      "titulo": "Oceanic",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "isis-oceanic"
+    },
+    {
+      "pos": "9:7",
+      "artista": "Isis",
+      "titulo": "Panopticon",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "isis-panopticon"
+    },
+    {
+      "pos": "9:8",
+      "artista": "Mastodon",
+      "titulo": "Remission",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "mastodon-remission"
+    },
+    {
+      "pos": "9:9",
+      "artista": "Mastodon",
+      "titulo": "Leviathan",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "mastodon-leviathan"
+    },
+    {
+      "pos": "9:10",
+      "artista": "Melvins",
+      "titulo": "Houdini",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "melvins-houdini"
+    },
+    {
+      "pos": "9:11",
+      "artista": "Acid Bath",
+      "titulo": "When the Kite String Pops",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "acid-bath-when-the-kite-string-pops"
+    },
+    {
+      "pos": "9:12",
+      "artista": "Down",
+      "titulo": "NOLA",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "down-nola"
+    },
+    {
+      "pos": "9:13",
+      "artista": "Cult of Luna",
+      "titulo": "Salvation",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "cult-of-luna-salvation"
+    },
+    {
+      "pos": "9:14",
+      "artista": "Baroness",
+      "titulo": "Red Album",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "baroness-red-album"
+    },
+    {
+      "pos": "9:15",
+      "artista": "Thou",
+      "titulo": "Heathen",
+      "generos": [
+        "sludge-metal"
+      ],
+      "album": "thou-heathen"
+    }
+  ]
+}

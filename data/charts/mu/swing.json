@@ -1,0 +1,115 @@
+{
+  "id": "swing",
+  "titulo": "/mu/ Essential Swing",
+  "indice": "swing",
+  "generos": [
+    "swing"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/swing.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "Inclui discos do revival do swing dos anos 1990 (Squirrel Nut Zippers, Cherry Poppin' Daddies, Big Bad Voodoo Daddy, Brian Setzer Orchestra, Royal Crown Revue).",
+  "albuns": [
+    {
+      "pos": "Ai",
+      "artista": "Squirrel Nut Zippers",
+      "titulo": "Hot",
+      "album": "squirrel-nut-zippers-hot"
+    },
+    {
+      "pos": "Aii",
+      "artista": "Frank Sinatra",
+      "titulo": "Songs for Swingin' Lovers!",
+      "album": "frank-sinatra-songs-for-swingin-lovers"
+    },
+    {
+      "pos": "Aiii",
+      "artista": "Count Basie",
+      "titulo": "The Complete Atomic Basie",
+      "album": "count-basie-the-complete-atomic-basie"
+    },
+    {
+      "pos": "Aiv",
+      "artista": "Frank Sinatra",
+      "titulo": "Sinatra '59: Live in Australia",
+      "noChart": "Frank Sinatra/Red Norvo Quintet - Live in 59",
+      "album": "frank-sinatra-sinatra-59-live-in-australia"
+    },
+    {
+      "pos": "Av",
+      "artista": "Cherry Poppin' Daddies",
+      "titulo": "Zoot Suit Riot",
+      "album": "cherry-poppin-daddies-zoot-suit-riot"
+    },
+    {
+      "pos": "Bi",
+      "artista": "Andrew Bird's Bowl of Fire",
+      "titulo": "Thrills",
+      "noChart": "Andre Bird's Bowl of Fire - Thrills",
+      "album": "andrew-birds-bowl-of-fire-thrills"
+    },
+    {
+      "pos": "Bii",
+      "artista": "Louis Prima",
+      "titulo": "The Wildest!",
+      "album": "louis-prima-the-wildest"
+    },
+    {
+      "pos": "Biii",
+      "artista": "Joe Jackson",
+      "titulo": "Joe Jackson's Jumpin' Jive",
+      "noChart": "Joe Jackson - Jumpin' Jive",
+      "album": "joe-jackson-joe-jacksons-jumpin-jive"
+    },
+    {
+      "pos": "Biv",
+      "artista": "Big Bad Voodoo Daddy",
+      "titulo": "Americana Deluxe",
+      "noChart": "Big Voodoo Daddy - Americana Deluxe",
+      "album": "big-bad-voodoo-daddy-americana-deluxe"
+    },
+    {
+      "pos": "Bv",
+      "artista": "The Brian Setzer Orchestra",
+      "titulo": "The Dirty Boogie",
+      "album": "the-brian-setzer-orchestra-the-dirty-boogie"
+    },
+    {
+      "pos": "Ci",
+      "artista": "Gene Krupa",
+      "titulo": "Drummer Man",
+      "noChart": "Gene Krupa Big Band - Drummer Man",
+      "album": "gene-krupa-drummer-man"
+    },
+    {
+      "pos": "Cii",
+      "artista": "Royal Crown Revue",
+      "titulo": "Mugzy's Move",
+      "album": "royal-crown-revue-mugzys-move"
+    },
+    {
+      "pos": "Ciii",
+      "artista": "Benny Goodman",
+      "titulo": "The Famous 1938 Carnegie Hall Jazz Concert",
+      "noChart": "Benny Goodman - Carnegie Hall Jazz Concert",
+      "album": "benny-goodman-the-famous-1938-carnegie-hall-jazz-concert"
+    },
+    {
+      "pos": "Civ",
+      "artista": "Django Reinhardt",
+      "titulo": "The Gypsy Genius",
+      "noChart": "Djanjo Reinhardt - The Gypsy Genius",
+      "album": "django-reinhardt-the-gypsy-genius"
+    },
+    {
+      "pos": "Cv",
+      "artista": "Charles Mingus",
+      "titulo": "Blues & Roots",
+      "album": "charles-mingus-blues-and-roots"
+    }
+  ]
+}

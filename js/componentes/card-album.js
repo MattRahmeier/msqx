@@ -42,8 +42,20 @@ if (typeof document !== "undefined") {
 export const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
 // Botões de streaming. `comNome`: mostra o nome da plataforma ao lado do ícone (caixa lateral).
+// Sem nenhum link oficial, o botão "Não oficial" leva ao upload de fã no YouTube (ficha.naoOficial,
+// scripts/buscar-nao-oficiais.js): o álbum completo ou, sem ele, uma faixa do álbum.
+export const temOndeOuvir = (ficha) => Object.keys(ficha.links || {}).length > 0 || Boolean(ficha.naoOficial?.url);
+function botaoNaoOficial(ficha) {
+  const n = ficha.naoOficial;
+  const rotulo = n.tipo === "album" ? "Não oficial: álbum completo no YouTube" : "Não oficial: uma faixa do álbum no YouTube";
+  return `<li><a class="plat plat-nome nao-oficial" href="${esc(n.url)}" target="_blank" rel="noopener"
+    aria-label="${rotulo}: ${esc(ficha.titulo)}" title="${rotulo} (upload de fã)">
+    <svg class="icone" aria-hidden="true"><use href="#i-youtube-music"/></svg><span>Não oficial</span></a></li>`;
+}
+
 export function botoesStreaming(ficha, { comNome = false } = {}) {
   const links = ficha.links || {};
+  if (!Object.keys(links).length && ficha.naoOficial?.url) return botaoNaoOficial(ficha);
   return PLATAFORMAS.filter((p) => links[p.id]).map((p) => {
     const rotulo = `Ouvir no ${p.nome}`;
     return `<li><a class="plat${comNome ? " plat-nome" : ""}" href="${esc(links[p.id])}" target="_blank" rel="noopener"
@@ -58,7 +70,7 @@ export function capaHtml(ficha, { lazy = true } = {}) {
     : `<span class="card-sem-capa" aria-hidden="true">${esc(ficha.titulo).slice(0, 1)}</span>`;
 }
 
-// `nota`: frase opcional (ex.: do autor da Curadoria da Semana). `etiquetas`: [{ texto, href }] —
+// `nota`: frase opcional (ex.: do autor de A Curadoria). `etiquetas`: [{ texto, href }] —
 // botões pequenos embaixo do card (os outros gêneros em que o disco está).
 export function cardAlbum(ficha, { nota, etiquetas = [] } = {}) {
   const ano = ficha.lancamento?.slice(0, 4);
@@ -78,7 +90,7 @@ export function cardAlbum(ficha, { nota, etiquetas = [] } = {}) {
         <h3 class="card-titulo" title="${esc(ficha.titulo)}">${esc(ficha.titulo)}</h3>
         <p class="card-artista">${esc(ficha.artista)}${ano ? ` <span>· ${ano}</span>` : ""}</p>
       </div>
-      ${ficha.links && Object.keys(ficha.links).length ? `<ul class="card-plataformas" aria-label="Ouvir">${botoesStreaming(ficha)}</ul>` : ""}
+      ${temOndeOuvir(ficha) ? `<ul class="card-plataformas" aria-label="Ouvir">${botoesStreaming(ficha)}</ul>` : ""}
       ${nota ? `<p class="card-nota">${esc(nota)}</p>` : ""}
       ${etiquetas.length ? `<div class="card-etiquetas">${etiquetas.map((e) => `<a class="card-etiqueta" href="${esc(e.href)}">${esc(e.texto)}</a>`).join("")}</div>` : ""}
     </article>`;

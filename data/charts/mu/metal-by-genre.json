@@ -1,0 +1,291 @@
+{
+  "id": "metal-by-genre",
+  "titulo": "Metal (By Genre)",
+  "indice": "metal-by-genre",
+  "generos": [
+    "heavy-metal",
+    "power-metal",
+    "progressive-metal"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/metal-by-genre.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "seleção das colunas heavy metal, power metal e progressive (lista escrita no chart, com artista, título, país e ano)",
+    "parcial": true,
+    "status": "revisar"
+  },
+  "nota": "O chart tem 10 colunas de 10 álbuns; thrash, black, death, doom/sludge, melodic death e grindcore já vêm de metal-subgenres e folk/pagan não está na árvore. \"pos\" é a coluna.",
+  "albuns": [
+    {
+      "pos": "heavy-metal:1",
+      "artista": "Ghost",
+      "titulo": "Opus Eponymous",
+      "generos": [
+        "heavy-metal"
+      ],
+      "album": "ghost-opus-eponymous"
+    },
+    {
+      "pos": "heavy-metal:2",
+      "artista": "Mercyful Fate",
+      "titulo": "Melissa",
+      "generos": [
+        "heavy-metal"
+      ],
+      "album": "mercyful-fate-melissa"
+    },
+    {
+      "pos": "heavy-metal:3",
+      "artista": "Slough Feg",
+      "titulo": "Traveller",
+      "generos": [
+        "heavy-metal"
+      ],
+      "album": "slough-feg-traveller"
+    },
+    {
+      "pos": "heavy-metal:4",
+      "artista": "Iron Maiden",
+      "titulo": "Powerslave",
+      "generos": [
+        "heavy-metal"
+      ],
+      "album": "iron-maiden-powerslave"
+    },
+    {
+      "pos": "heavy-metal:5",
+      "artista": "Judas Priest",
+      "titulo": "Screaming for Vengeance",
+      "generos": [
+        "heavy-metal"
+      ],
+      "album": "judas-priest-screaming-for-vengeance"
+    },
+    {
+      "pos": "heavy-metal:6",
+      "artista": "Manilla Road",
+      "titulo": "Crystal Logic",
+      "generos": [
+        "heavy-metal"
+      ],
+      "album": "manilla-road-crystal-logic"
+    },
+    {
+      "pos": "heavy-metal:7",
+      "artista": "Satan",
+      "titulo": "Court in the Act",
+      "generos": [
+        "heavy-metal"
+      ],
+      "album": "satan-court-in-the-act"
+    },
+    {
+      "pos": "heavy-metal:8",
+      "artista": "Helstar",
+      "titulo": "Nosferatu",
+      "generos": [
+        "heavy-metal"
+      ],
+      "album": "helstar-nosferatu"
+    },
+    {
+      "pos": "heavy-metal:9",
+      "artista": "Black Sabbath",
+      "titulo": "Paranoid",
+      "generos": [
+        "heavy-metal"
+      ],
+      "album": "black-sabbath-paranoid"
+    },
+    {
+      "pos": "heavy-metal:10",
+      "artista": "Dio",
+      "titulo": "Holy Diver",
+      "generos": [
+        "heavy-metal"
+      ],
+      "album": "dio-holy-diver"
+    },
+    {
+      "pos": "power-metal:1",
+      "artista": "Kamelot",
+      "titulo": "The Black Halo",
+      "generos": [
+        "power-metal"
+      ],
+      "album": "kamelot-the-black-halo"
+    },
+    {
+      "pos": "power-metal:2",
+      "artista": "Iced Earth",
+      "titulo": "Horror Show",
+      "generos": [
+        "power-metal"
+      ],
+      "album": "iced-earth-horror-show"
+    },
+    {
+      "pos": "power-metal:3",
+      "artista": "Evergrey",
+      "titulo": "Recreation Day",
+      "generos": [
+        "power-metal"
+      ],
+      "album": "evergrey-recreation-day"
+    },
+    {
+      "pos": "power-metal:4",
+      "artista": "Hibria",
+      "titulo": "Defying the Rules",
+      "generos": [
+        "power-metal"
+      ],
+      "album": "hibria-defying-the-rules"
+    },
+    {
+      "pos": "power-metal:5",
+      "artista": "Lost Horizon",
+      "titulo": "A Flame to the Ground Beneath",
+      "generos": [
+        "power-metal"
+      ],
+      "album": "lost-horizon-a-flame-to-the-ground-beneath"
+    },
+    {
+      "pos": "power-metal:6",
+      "artista": "Helloween",
+      "titulo": "Keeper of the Seven Keys Part II",
+      "generos": [
+        "power-metal"
+      ],
+      "album": "helloween-keeper-of-the-seven-keys-part-ii"
+    },
+    {
+      "pos": "power-metal:7",
+      "artista": "Blind Guardian",
+      "titulo": "Imaginations from the Other Side",
+      "generos": [
+        "power-metal"
+      ],
+      "album": "blind-guardian-imaginations-from-the-other-side"
+    },
+    {
+      "pos": "power-metal:8",
+      "artista": "Avantasia",
+      "titulo": "The Metal Opera",
+      "generos": [
+        "power-metal"
+      ],
+      "album": "avantasia-the-metal-opera"
+    },
+    {
+      "pos": "power-metal:9",
+      "artista": "Running Wild",
+      "titulo": "Black Hand Inn",
+      "generos": [
+        "power-metal"
+      ],
+      "album": "running-wild-black-hand-inn"
+    },
+    {
+      "pos": "power-metal:10",
+      "artista": "Gamma Ray",
+      "titulo": "Land of the Free",
+      "generos": [
+        "power-metal"
+      ],
+      "album": "gamma-ray-land-of-the-free"
+    },
+    {
+      "pos": "progressive:1",
+      "artista": "Fates Warning",
+      "titulo": "Awaken the Guardian",
+      "generos": [
+        "progressive-metal"
+      ],
+      "album": "fates-warning-awaken-the-guardian"
+    },
+    {
+      "pos": "progressive:2",
+      "artista": "maudlin of the Well",
+      "titulo": "Bath",
+      "generos": [
+        "progressive-metal"
+      ],
+      "album": "maudlin-of-the-well-bath"
+    },
+    {
+      "pos": "progressive:3",
+      "artista": "Dream Theater",
+      "titulo": "Images and Words",
+      "generos": [
+        "progressive-metal"
+      ],
+      "album": "dream-theater-images-and-words"
+    },
+    {
+      "pos": "progressive:4",
+      "artista": "Pain of Salvation",
+      "titulo": "Remedy Lane",
+      "generos": [
+        "progressive-metal"
+      ],
+      "album": "pain-of-salvation-remedy-lane"
+    },
+    {
+      "pos": "progressive:5",
+      "artista": "Devin Townsend",
+      "titulo": "Ocean Machine: Biomech",
+      "generos": [
+        "progressive-metal"
+      ],
+      "album": "devin-townsend-ocean-machine-biomech"
+    },
+    {
+      "pos": "progressive:6",
+      "artista": "Ne Obliviscaris",
+      "titulo": "The Aurora Veil",
+      "generos": [
+        "progressive-metal"
+      ],
+      "album": "ne-obliviscaris-the-aurora-veil"
+    },
+    {
+      "pos": "progressive:7",
+      "artista": "Orphaned Land",
+      "titulo": "Mabool",
+      "generos": [
+        "progressive-metal"
+      ],
+      "album": "orphaned-land-mabool"
+    },
+    {
+      "pos": "progressive:8",
+      "artista": "Arcturus",
+      "titulo": "The Sham Mirrors",
+      "generos": [
+        "progressive-metal"
+      ],
+      "album": "arcturus-the-sham-mirrors"
+    },
+    {
+      "pos": "progressive:9",
+      "artista": "Subterranean Masquerade",
+      "titulo": "Suspended Animation Dreams",
+      "generos": [
+        "progressive-metal"
+      ],
+      "album": "subterranean-masquerade-suspended-animation-dreams"
+    },
+    {
+      "pos": "progressive:10",
+      "artista": "Opeth",
+      "titulo": "Still Life",
+      "generos": [
+        "progressive-metal"
+      ],
+      "album": "opeth-still-life"
+    }
+  ]
+}

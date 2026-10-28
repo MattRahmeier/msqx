@@ -1,7 +1,7 @@
 // Página inicial: marca e as quatro áreas do site, na mesma ordem da barra lateral.
 
 const OPCOES = [
-  { rota: "curadoria", icone: "i-curadoria", nome: "Curadoria da Semana", desc: "Cinco discos escolhidos por um autor convidado, toda semana." },
+  { rota: "curadoria", icone: "i-curadoria", nome: "A Curadoria", desc: "Editoriais sobre faixas escolhidas a dedo e os discos de onde elas vêm." },
   { rota: "cerebro", icone: "i-cerebro", nome: "TrackMap", desc: "O mapa dos gêneros: de onde cada estilo veio e no que se ramificou." },
   { rota: "recomendados", icone: "i-recomendados", nome: "Guia de Gêneros", desc: "Conheça cada gênero musical com uma lista de álbuns escolhidos a dedo." },
   { rota: "busca", icone: "i-busca", nome: "Pesquisa", desc: "Álbuns, artistas e faixas por nome, gênero, data ou vibe." },

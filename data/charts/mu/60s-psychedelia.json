@@ -1,0 +1,397 @@
+{
+  "id": "60s-psychedelia",
+  "titulo": "/mu/ Essential ’60s Psychedelia",
+  "indice": "60s-psychedelia",
+  "generos": [
+    "psychedelic-rock"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/60s-psychedelia.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart (artista e título sob cada capa)",
+    "status": "revisar"
+  },
+  "nota": "As linhas do chart: álbuns de entrada, experimentais, pesados, folk e outros (campo \"subestilos\" nas quatro primeiras).",
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Pink Floyd",
+      "titulo": "The Piper at the Gates of Dawn",
+      "subestilos": [
+        "entrada"
+      ],
+      "album": "pink-floyd-the-piper-at-the-gates-of-dawn"
+    },
+    {
+      "pos": "1-2",
+      "artista": "The Doors",
+      "titulo": "The Doors",
+      "subestilos": [
+        "entrada"
+      ],
+      "album": "the-doors-the-doors"
+    },
+    {
+      "pos": "1-3",
+      "artista": "The Jimi Hendrix Experience",
+      "titulo": "Electric Ladyland",
+      "subestilos": [
+        "entrada"
+      ],
+      "album": "the-jimi-hendrix-experience-electric-ladyland"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Jefferson Airplane",
+      "titulo": "After Bathing at Baxter’s",
+      "subestilos": [
+        "entrada"
+      ],
+      "album": "jefferson-airplane-after-bathing-at-baxters"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Cream",
+      "titulo": "Disraeli Gears",
+      "subestilos": [
+        "entrada"
+      ],
+      "album": "cream-disraeli-gears"
+    },
+    {
+      "pos": "1-6",
+      "artista": "Love",
+      "titulo": "Forever Changes",
+      "subestilos": [
+        "entrada"
+      ],
+      "album": "love-forever-changes"
+    },
+    {
+      "pos": "1-7",
+      "artista": "The Zombies",
+      "titulo": "Odessey and Oracle",
+      "subestilos": [
+        "entrada"
+      ],
+      "album": "the-zombies-odessey-and-oracle"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Amon Düül II",
+      "titulo": "Phallus Dei",
+      "subestilos": [
+        "experimentais"
+      ],
+      "album": "amon-duul-ii-phallus-dei"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Can",
+      "titulo": "Monster Movie",
+      "subestilos": [
+        "experimentais"
+      ],
+      "album": "can-monster-movie"
+    },
+    {
+      "pos": "2-3",
+      "artista": "The Red Krayola",
+      "titulo": "The Parable of Arable Land",
+      "subestilos": [
+        "experimentais"
+      ],
+      "album": "the-red-krayola-the-parable-of-arable-land"
+    },
+    {
+      "pos": "2-4",
+      "artista": "The United States of America",
+      "titulo": "The United States of America",
+      "subestilos": [
+        "experimentais"
+      ],
+      "album": "the-united-states-of-america-the-united-states-of-america"
+    },
+    {
+      "pos": "2-5",
+      "artista": "The Orkustra",
+      "titulo": "Adventures in Experimental Electric Orchestra From the San Francisco Psychedelic Underground",
+      "subestilos": [
+        "experimentais"
+      ],
+      "album": "the-orkustra-adventures-in-experimental-electric-orchestra-from-the-san-francisco-psychedelic-underground"
+    },
+    {
+      "pos": "2-6",
+      "artista": "Pink Floyd",
+      "titulo": "A Saucerful of Secrets",
+      "subestilos": [
+        "experimentais"
+      ],
+      "album": "pink-floyd-a-saucerful-of-secrets"
+    },
+    {
+      "pos": "2-7",
+      "artista": "Amon Düül",
+      "titulo": "Paradieswärts Düül",
+      "subestilos": [
+        "experimentais"
+      ],
+      "album": "amon-duul-paradieswarts-duul"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Parson Sound",
+      "titulo": "Parson Sound",
+      "subestilos": [
+        "pesados"
+      ],
+      "album": "parson-sound-parson-sound"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Blue Cheer",
+      "titulo": "Vincebus Eruptum",
+      "subestilos": [
+        "pesados"
+      ],
+      "album": "blue-cheer-vincebus-eruptum"
+    },
+    {
+      "pos": "3-3",
+      "artista": "High Tide",
+      "titulo": "Sea Shanties",
+      "subestilos": [
+        "pesados"
+      ],
+      "album": "high-tide-sea-shanties"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Baby Grandmothers",
+      "titulo": "Baby Grandmothers",
+      "subestilos": [
+        "pesados"
+      ],
+      "album": "baby-grandmothers-baby-grandmothers"
+    },
+    {
+      "pos": "3-5",
+      "artista": "Iron Butterfly",
+      "titulo": "In-A-Gadda-Da-Vida",
+      "subestilos": [
+        "pesados"
+      ],
+      "album": "iron-butterfly-in-a-gadda-da-vida"
+    },
+    {
+      "pos": "3-6",
+      "artista": "Yuya Uchida & The Flowers",
+      "titulo": "Challenge!",
+      "subestilos": [
+        "pesados"
+      ],
+      "album": "yuya-uchida-and-the-flowers-challenge"
+    },
+    {
+      "pos": "3-7",
+      "artista": "Angus MacLise",
+      "titulo": "The Invasion of Thunderbolt Pagoda",
+      "subestilos": [
+        "pesados"
+      ],
+      "album": "angus-maclise-the-invasion-of-thunderbolt-pagoda"
+    },
+    {
+      "pos": "4-1",
+      "artista": "The Incredible String Band",
+      "titulo": "The 5000 Spirits or the Layers of the Onion",
+      "subestilos": [
+        "folk"
+      ],
+      "album": "the-incredible-string-band-the-5000-spirits-or-the-layers-of-the-onion"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Dr. Strangely Strange",
+      "titulo": "Kip of the Serenes",
+      "subestilos": [
+        "folk"
+      ],
+      "album": "dr-strangely-strange-kip-of-the-serenes"
+    },
+    {
+      "pos": "4-3",
+      "artista": "Donovan",
+      "titulo": "Sunshine Superman",
+      "subestilos": [
+        "folk"
+      ],
+      "album": "donovan-sunshine-superman"
+    },
+    {
+      "pos": "4-4",
+      "artista": "George Harrison",
+      "titulo": "Wonderwall Music",
+      "subestilos": [
+        "folk"
+      ],
+      "album": "george-harrison-wonderwall-music"
+    },
+    {
+      "pos": "4-5",
+      "artista": "Third Ear Band",
+      "titulo": "Alchemy",
+      "subestilos": [
+        "folk"
+      ],
+      "album": "third-ear-band-alchemy"
+    },
+    {
+      "pos": "4-6",
+      "artista": "The Orient Express",
+      "titulo": "The Orient Express",
+      "subestilos": [
+        "folk"
+      ],
+      "album": "the-orient-express-the-orient-express"
+    },
+    {
+      "pos": "4-7",
+      "artista": "Pearls Before Swine",
+      "titulo": "Balaklava",
+      "subestilos": [
+        "folk"
+      ],
+      "album": "pearls-before-swine-balaklava"
+    },
+    {
+      "pos": "5-1",
+      "artista": "The West Coast Pop Art Experimental Band",
+      "titulo": "Part One",
+      "album": "the-west-coast-pop-art-experimental-band-part-one"
+    },
+    {
+      "pos": "5-2",
+      "artista": "13th Floor Elevators",
+      "titulo": "Easter Everywhere",
+      "album": "13th-floor-elevators-easter-everywhere"
+    },
+    {
+      "pos": "5-3",
+      "artista": "Tomorrow",
+      "titulo": "Tomorrow",
+      "album": "tomorrow-tomorrow"
+    },
+    {
+      "pos": "5-4",
+      "artista": "Quicksilver Messenger Service",
+      "titulo": "Happy Trails",
+      "album": "quicksilver-messenger-service-happy-trails"
+    },
+    {
+      "pos": "5-5",
+      "artista": "H.P. Lovecraft",
+      "titulo": "H.P. Lovecraft",
+      "noChart": "H.P. Lovecraft I",
+      "album": "hp-lovecraft-hp-lovecraft"
+    },
+    {
+      "pos": "5-6",
+      "artista": "The Beatles",
+      "titulo": "Magical Mystery Tour",
+      "album": "the-beatles-magical-mystery-tour"
+    },
+    {
+      "pos": "5-7",
+      "artista": "The Electric Prunes",
+      "titulo": "The Electric Prunes",
+      "album": "the-electric-prunes-the-electric-prunes"
+    },
+    {
+      "pos": "6-1",
+      "artista": "Nirvana",
+      "titulo": "The Story of Simon Simopath",
+      "album": "nirvana-the-story-of-simon-simopath"
+    },
+    {
+      "pos": "6-2",
+      "artista": "Blues Magoos",
+      "titulo": "Psychedelic Lollipop",
+      "album": "blues-magoos-psychedelic-lollipop"
+    },
+    {
+      "pos": "6-3",
+      "artista": "The Nice",
+      "titulo": "The Thoughts of Emerlist Davjack",
+      "album": "the-nice-the-thoughts-of-emerlist-davjack"
+    },
+    {
+      "pos": "6-4",
+      "artista": "The Crazy World of Arthur Brown",
+      "titulo": "The Crazy World of Arthur Brown",
+      "album": "the-crazy-world-of-arthur-brown-the-crazy-world-of-arthur-brown"
+    },
+    {
+      "pos": "6-5",
+      "artista": "The Chocolate Watchband",
+      "titulo": "The Inner Mystique",
+      "album": "the-chocolate-watchband-the-inner-mystique"
+    },
+    {
+      "pos": "6-6",
+      "artista": "The Byrds",
+      "titulo": "Fifth Dimension",
+      "album": "the-byrds-fifth-dimension"
+    },
+    {
+      "pos": "6-7",
+      "artista": "Country Joe & the Fish",
+      "titulo": "Electric Music for the Mind and Body",
+      "album": "country-joe-and-the-fish-electric-music-for-the-mind-and-body"
+    },
+    {
+      "pos": "7-1",
+      "artista": "The Pretty Things",
+      "titulo": "S.F. Sorrow",
+      "album": "the-pretty-things-sf-sorrow"
+    },
+    {
+      "pos": "7-2",
+      "artista": "Strawberry Alarm Clock",
+      "titulo": "Incense and Peppermints",
+      "album": "strawberry-alarm-clock-incense-and-peppermints"
+    },
+    {
+      "pos": "7-3",
+      "artista": "The Jimi Hendrix Experience",
+      "titulo": "Are You Experienced",
+      "album": "the-jimi-hendrix-experience-are-you-experienced"
+    },
+    {
+      "pos": "7-4",
+      "artista": "Moby Grape",
+      "titulo": "Moby Grape",
+      "album": "moby-grape-moby-grape"
+    },
+    {
+      "pos": "7-5",
+      "artista": "Kaleidoscope",
+      "titulo": "Tangerine Dream",
+      "album": "kaleidoscope-tangerine-dream"
+    },
+    {
+      "pos": "7-6",
+      "artista": "The Incredible String Band",
+      "titulo": "The Hangman’s Beautiful Daughter",
+      "album": "the-incredible-string-band-the-hangmans-beautiful-daughter"
+    },
+    {
+      "pos": "7-7",
+      "artista": "Grateful Dead",
+      "titulo": "Anthem of the Sun",
+      "album": "grateful-dead-anthem-of-the-sun"
+    }
+  ]
+}

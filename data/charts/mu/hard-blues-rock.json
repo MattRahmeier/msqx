@@ -1,0 +1,277 @@
+{
+  "id": "hard-blues-rock",
+  "titulo": "Essential Hard/Blues Rock",
+  "indice": "hard-blues-rock",
+  "generos": [
+    "blues-rock"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/hard-blues-rock.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart (artista, título e ano sob cada capa)",
+    "status": "revisar"
+  },
+  "nota": "O chart traz textos próprios e links de download; nada disso é guardado.",
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Felt",
+      "titulo": "Felt",
+      "ano": 1971,
+      "album": "felt-felt"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Blind Faith",
+      "titulo": "Blind Faith",
+      "ano": 1969,
+      "album": "blind-faith-blind-faith"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Corpus",
+      "titulo": "Creation a Child",
+      "ano": 1970,
+      "noChart": "Corpus - Creaton a Child",
+      "album": "corpus-creation-a-child"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Led Zeppelin",
+      "titulo": "Led Zeppelin II",
+      "ano": 1969,
+      "album": "led-zeppelin-led-zeppelin-ii"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Mountain",
+      "titulo": "Climbing!",
+      "ano": 1970,
+      "noChart": "Mountain - Climbing",
+      "album": "mountain-climbing"
+    },
+    {
+      "pos": "1-6",
+      "artista": "Bloodrock",
+      "titulo": "Bloodrock",
+      "ano": 1970,
+      "noChart": "Blood Rock - Blood Rock",
+      "album": "bloodrock-bloodrock"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Black Sabbath",
+      "titulo": "Black Sabbath",
+      "ano": 1970,
+      "album": "black-sabbath-black-sabbath"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Dust",
+      "titulo": "Dust",
+      "ano": 1971,
+      "album": "dust-dust"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Epitaph",
+      "titulo": "Epitaph",
+      "ano": 1971,
+      "album": "epitaph-epitaph"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Jeronimo",
+      "titulo": "Time Ride",
+      "ano": 1972,
+      "album": "jeronimo-time-ride"
+    },
+    {
+      "pos": "2-5",
+      "artista": "Power of Zeus",
+      "titulo": "The Gospel According to Zeus",
+      "ano": 1970,
+      "noChart": "Power of Zues - Gospel According to Zeus",
+      "album": "power-of-zeus-the-gospel-according-to-zeus"
+    },
+    {
+      "pos": "2-6",
+      "artista": "Buffalo",
+      "titulo": "Volcanic Rock",
+      "ano": 1973,
+      "album": "buffalo-volcanic-rock"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Toad",
+      "titulo": "Toad",
+      "ano": 1971,
+      "album": "toad-toad"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Janus",
+      "titulo": "Gravedigger",
+      "ano": 1972,
+      "album": "janus-gravedigger"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Sir Lord Baltimore",
+      "titulo": "Kingdom Come",
+      "ano": 1970,
+      "album": "sir-lord-baltimore-kingdom-come"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Lucifer’s Friend",
+      "titulo": "Lucifer’s Friend",
+      "ano": 1971,
+      "noChart": "Lucifers Friend - Lucifers Friend",
+      "album": "lucifers-friend-lucifers-friend"
+    },
+    {
+      "pos": "3-5",
+      "artista": "Bakerloo",
+      "titulo": "Bakerloo",
+      "ano": 1969,
+      "album": "bakerloo-bakerloo"
+    },
+    {
+      "pos": "3-6",
+      "artista": "Warhorse",
+      "titulo": "Warhorse",
+      "ano": 1970,
+      "album": "warhorse-warhorse"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Atomic Rooster",
+      "titulo": "Death Walks Behind You",
+      "ano": 1970,
+      "album": "atomic-rooster-death-walks-behind-you"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Bang",
+      "titulo": "Bang",
+      "ano": 1971,
+      "noChart": "Bang - Bang!",
+      "album": "bang-bang"
+    },
+    {
+      "pos": "4-3",
+      "artista": "Budgie",
+      "titulo": "Never Turn Your Back on a Friend",
+      "ano": 1973,
+      "album": "budgie-never-turn-your-back-on-a-friend"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Fuse",
+      "titulo": "Fuse",
+      "ano": 1969,
+      "album": "fuse-fuse"
+    },
+    {
+      "pos": "4-5",
+      "artista": "Yesterday’s Children",
+      "titulo": "Yesterday’s Children",
+      "ano": 1969,
+      "album": "yesterdays-children-yesterdays-children"
+    },
+    {
+      "pos": "4-6",
+      "artista": "Captain Beyond",
+      "titulo": "Captain Beyond",
+      "ano": 1972,
+      "album": "captain-beyond-captain-beyond"
+    },
+    {
+      "pos": "5-1",
+      "artista": "T2",
+      "titulo": "It’ll All Work Out in Boomland",
+      "ano": 1970,
+      "noChart": "T.2. - It’ll All Work Out in Boomland",
+      "album": "t2-itll-all-work-out-in-boomland"
+    },
+    {
+      "pos": "5-2",
+      "artista": "Jerusalem",
+      "titulo": "Jerusalem",
+      "ano": 1972,
+      "album": "jerusalem-jerusalem"
+    },
+    {
+      "pos": "5-3",
+      "artista": "Cactus",
+      "titulo": "Cactus",
+      "ano": 1970,
+      "album": "cactus-cactus"
+    },
+    {
+      "pos": "5-4",
+      "artista": "Suck",
+      "titulo": "Time to Suck",
+      "ano": 1970,
+      "album": "suck-time-to-suck"
+    },
+    {
+      "pos": "5-5",
+      "artista": "Gun",
+      "titulo": "Gun",
+      "ano": 1968,
+      "album": "gun-gun"
+    },
+    {
+      "pos": "5-6",
+      "artista": "Pan",
+      "titulo": "Pan",
+      "ano": 1970,
+      "album": "pan-pan"
+    },
+    {
+      "pos": "6-1",
+      "artista": "Rainbow",
+      "titulo": "Ritchie Blackmore’s Rainbow",
+      "ano": 1975,
+      "album": "rainbow-ritchie-blackmores-rainbow"
+    },
+    {
+      "pos": "6-2",
+      "artista": "The Human Instinct",
+      "titulo": "Stoned Guitar",
+      "ano": 1970,
+      "album": "the-human-instinct-stoned-guitar"
+    },
+    {
+      "pos": "6-3",
+      "artista": "Blues Creation",
+      "titulo": "Demon & Eleven Children",
+      "ano": 1971,
+      "album": "blues-creation-demon-and-eleven-children"
+    },
+    {
+      "pos": "6-4",
+      "artista": "Black Cat Bones",
+      "titulo": "Barbed Wire Sandwich",
+      "ano": 1969,
+      "album": "black-cat-bones-barbed-wire-sandwich"
+    },
+    {
+      "pos": "6-5",
+      "artista": "Road",
+      "titulo": "Road",
+      "ano": 1972,
+      "album": "road-road"
+    },
+    {
+      "pos": "6-6",
+      "artista": "Too Much",
+      "titulo": "Too Much",
+      "ano": 1971,
+      "album": "too-much-too-much"
+    }
+  ]
+}

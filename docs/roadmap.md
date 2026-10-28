@@ -37,15 +37,18 @@
 
 ## Fase 3 — Visão de Cérebro (TrackMap)
 - [x] Ligações de influência do Musicmap (`scripts/buscar-musicmap.js`, mapa à mão em `data/generos/musicmap-mapa.json`): 134 gêneros mapeados, 148 influências novas além de origens e similares.
-- [x] Grafo D3 (`js/vistas/cerebro.js`): começa com os 7 mestres ligados pela linha-guia da linhagem (só as origens dos próprios mestres); clicar abre os subgêneros diretos (de novo em cada um; clicar no gênero aberto recolhe); só fica aberto o caminho até o gênero clicado, e fechar o pop-up volta aos mestres. Mestres em cor de areia; círculos crescem com o número de subgêneros contidos, que aparece dentro ("X subgêneros" nos mestres, só o número nos subgêneros). Linhas de subgênero, origem (vai até o ancestral visível) e influência/similar; flutuação leve e afastamento do mouse (parado com "reduzir movimento"); zoom e arraste.
-- [x] Pop-up do gênero (off-white, à direita; no celular sobe de baixo): caminho, nome (coroa no mestre), década, subgêneros e álbuns, botão **"Ir para as recomendações"** (`#/recomendados/<gênero>`), resumo com fonte, chips de subgêneros, "Vem de" e "Ligado a".
+- [x] Grafo D3 (`js/vistas/cerebro.js`): começa com os 7 mestres ligados pela linha-guia da linhagem (só as origens dos próprios mestres); clicar abre os subgêneros diretos (de novo em cada um; clicar no gênero aberto recolhe); só fica aberto o caminho até o gênero clicado, e fechar o pop-up volta aos mestres. Subgêneros saem de dentro do círculo do pai num leque virado para fora do mapa (posições fixas, com espaço para o nome; o mestre aberto empurra os vizinhos; o enquadramento mostra o leque inteiro); os gêneros não fogem do mouse e a área de toque tem no mínimo ~22 px na tela sem invadir o vizinho (28/10/2026). Cor pela profundidade: mestre preto, subgêneros em cinzas cada vez mais claros até quase branco; o gênero aberto ganha um anel. Círculos crescem com o número de subgêneros contidos, que aparece dentro ("X subgêneros" nos mestres, só o número nos subgêneros). Linhas de subgênero, origem (vai até o ancestral visível) e influência/similar; flutuação leve e afastamento do mouse (parado com "reduzir movimento"); zoom e arraste.
+- [x] Pop-up do gênero (off-white, à direita; no celular sobe de baixo): caminho, nome (coroa no mestre), década, subgêneros e álbuns, botão **"Ir para as recomendações"** com o número de álbuns do gênero (`#/recomendados/<gênero>`), resumo com fonte, chips de subgêneros, "Vem de" e "Ligado a".
 - [x] Links de gênero dentro do resumo (e os chips) navegam até o gênero citado: centraliza, expande e abre o pop-up, sem recarregar a vista; `#/cerebro/<gênero>` abre direto no gênero.
+- [ ] Pelo menos 10 álbuns em cada gênero do mapa (28/10/2026): charts de rock, pop, metal, hip-hop e jazz transcritos ou selecionados (seleções marcadas com `transcricao.parcial`); subgêneros sem chart próprio recebem os discos pelos estilos do Wikidata/MusicBrainz (`classificar-albuns.js`). Etiquetas de estilo nos cards somam charts e estilos.
 - [ ] "Mais informações": playlist e álbuns essenciais dentro do pop-up.
 - [ ] Busca de gênero no mapa; links "Saiba mais" (RYM, Musicmap) conferidos.
 
-## Fase 4 — Curadoria da Semana
-- [ ] Página logo após o cérebro: texto, 5 álbuns (cards com streaming), bio e foto do autor, ícones de redes sociais.
-- [ ] Carregar a edição mais recente por data de `data/curadorias/` + arquivo de edições anteriores.
+## Fase 4 — A Curadoria (antes "Curadoria da Semana"; renomeada em 28/10/2026)
+- [x] Edições em formato de editorial sobre faixas: atalhos para cada faixa, "player" com a capa (abre a ficha), nome da faixa, links para ouvir em outra aba e "Tocar aqui" (player do Spotify/YouTube embutido), e o texto do autor. Horizontal no computador, vertical no celular.
+- [x] Edição #1 "Músicas com Introduções Impactantes" (editorial do Notion, 28/10/2026).
+- [x] Carregar a edição mais recente por data de `data/curadorias/` + arquivo de edições anteriores.
+- [ ] Bio, foto e redes do autor (campo `autor`, opcional).
 - [ ] Validação simples da edição (5 álbuns, IDs existentes, redes conhecidas) num script em `scripts/`.
 - [ ] Primeira edição de exemplo para testar o layout; a real vem de um autor convidado.
 

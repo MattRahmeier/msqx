@@ -1,0 +1,140 @@
+{
+  "id": "cloud-rap",
+  "titulo": "Essential Cloud Rap Albums",
+  "indice": "cloud-rap",
+  "generos": [
+    "cloud-rap"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/cloud-rap.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "cLOUDDEAD",
+      "titulo": "cLOUDDEAD",
+      "noChart": "cLOUDDEAD - s/t",
+      "album": "clouddead-clouddead"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Lil B",
+      "titulo": "Rain in England",
+      "album": "lil-b-rain-in-england"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Clams Casino",
+      "titulo": "Rainforest",
+      "album": "clams-casino-rainforest"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Viper",
+      "titulo": "You'll Cowards Don't Even Smoke Crack",
+      "album": "viper-youll-cowards-dont-even-smoke-crack"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Bones",
+      "titulo": "Garbage",
+      "album": "bones-garbage"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Yung Lean",
+      "titulo": "Unknown Memory",
+      "album": "yung-lean-unknown-memory"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Cities Aviv",
+      "titulo": "Come to Life",
+      "album": "cities-aviv-come-to-life"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Faces",
+      "titulo": "Prototype",
+      "album": "faces-prototype"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Suicideyear",
+      "titulo": "Japan",
+      "album": "suicideyear-japan"
+    },
+    {
+      "pos": "2-5",
+      "artista": "Main Attrakionz",
+      "titulo": "808s & Dark Grapes II",
+      "album": "main-attrakionz-808s-and-dark-grapes-ii"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Night Lovell",
+      "titulo": "Concept Vague",
+      "album": "night-lovell-concept-vague"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Eric Dingus",
+      "titulo": "Ethereal Depression",
+      "album": "eric-dingus-ethereal-depression"
+    },
+    {
+      "pos": "3-3",
+      "artista": "A$AP Rocky",
+      "titulo": "Live.Love.A$AP",
+      "noChart": "A$ap Rocky - Live.Love.A$ap",
+      "album": "a-ap-rocky-livelovea-ap"
+    },
+    {
+      "pos": "3-4",
+      "artista": "BSBD & Nacho Picasso",
+      "titulo": "Exalted",
+      "noChart": "BSBD x Nacho Picasso - Exalted",
+      "album": "bsbd-and-nacho-picasso-exalted"
+    },
+    {
+      "pos": "3-5",
+      "artista": "Ethel Wulf",
+      "titulo": "Damare Shizukani",
+      "album": "ethel-wulf-damare-shizukani"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Antwon",
+      "titulo": "End of Earth",
+      "album": "antwon-end-of-earth"
+    },
+    {
+      "pos": "4-2",
+      "artista": "SpaceGhostPurrp",
+      "titulo": "NASA",
+      "album": "spaceghostpurrp-nasa"
+    },
+    {
+      "pos": "4-3",
+      "artista": "$uicideboy$",
+      "titulo": "Gray/Grey",
+      "album": "uicideboy-gray-grey"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Thaiboy Digital",
+      "titulo": "Tiger",
+      "album": "thaiboy-digital-tiger"
+    },
+    {
+      "pos": "4-5",
+      "artista": "Evian Christ",
+      "titulo": "Kings and Them",
+      "album": "evian-christ-kings-and-them"
+    }
+  ]
+}

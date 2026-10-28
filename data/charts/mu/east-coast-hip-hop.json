@@ -1,0 +1,314 @@
+{
+  "id": "east-coast-hip-hop",
+  "titulo": "/mu/ essential East-Coast hip-hop",
+  "indice": "east-coast-hip-hop",
+  "generos": [
+    "east-coast-hip-hop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/east-coast-hip-hop.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Grandmaster Flash and the Furious Five",
+      "titulo": "The Message",
+      "noChart": "Grandmaster Flash - The Message",
+      "album": "grandmaster-flash-and-the-furious-five-the-message"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Nas",
+      "titulo": "Illmatic",
+      "album": "nas-illmatic"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Jay-Z",
+      "titulo": "Reasonable Doubt",
+      "album": "jay-z-reasonable-doubt"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Eric B. & Rakim",
+      "titulo": "Paid in Full",
+      "album": "eric-b-and-rakim-paid-in-full"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Public Enemy",
+      "titulo": "It Takes a Nation of Millions to Hold Us Back",
+      "album": "public-enemy-it-takes-a-nation-of-millions-to-hold-us-back"
+    },
+    {
+      "pos": "1-6",
+      "artista": "Boogie Down Productions",
+      "titulo": "By All Means Necessary",
+      "album": "boogie-down-productions-by-all-means-necessary"
+    },
+    {
+      "pos": "1-7",
+      "artista": "Mobb Deep",
+      "titulo": "The Infamous",
+      "album": "mobb-deep-the-infamous"
+    },
+    {
+      "pos": "2-1",
+      "artista": "The Notorious B.I.G.",
+      "titulo": "Ready to Die",
+      "noChart": "Notorious B.I.G. - Ready to Die",
+      "album": "the-notorious-big-ready-to-die"
+    },
+    {
+      "pos": "2-2",
+      "artista": "The Roots",
+      "titulo": "Illadelph Halflife",
+      "album": "the-roots-illadelph-halflife"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Cannibal Ox",
+      "titulo": "The Cold Vein",
+      "album": "cannibal-ox-the-cold-vein"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Fugees",
+      "titulo": "The Score",
+      "album": "fugees-the-score"
+    },
+    {
+      "pos": "2-5",
+      "artista": "Ultramagnetic MC’s",
+      "titulo": "Critical Beatdown",
+      "album": "ultramagnetic-mcs-critical-beatdown"
+    },
+    {
+      "pos": "2-6",
+      "artista": "Slick Rick",
+      "titulo": "The Great Adventures of Slick Rick",
+      "album": "slick-rick-the-great-adventures-of-slick-rick"
+    },
+    {
+      "pos": "2-7",
+      "artista": "Wu-Tang Clan",
+      "titulo": "Enter the Wu-Tang (36 Chambers)",
+      "album": "wu-tang-clan-enter-the-wu-tang-36-chambers"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Black Moon",
+      "titulo": "Enta da Stage",
+      "album": "black-moon-enta-da-stage"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Big L",
+      "titulo": "Lifestylez ov da Poor & Dangerous",
+      "album": "big-l-lifestylez-ov-da-poor-and-dangerous"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Black Star",
+      "titulo": "Mos Def & Talib Kweli Are Black Star",
+      "album": "black-star-mos-def-and-talib-kweli-are-black-star"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Organized Konfusion",
+      "titulo": "Stress: The Extinction Agenda",
+      "album": "organized-konfusion-stress-the-extinction-agenda"
+    },
+    {
+      "pos": "3-5",
+      "artista": "A Tribe Called Quest",
+      "titulo": "Midnight Marauders",
+      "album": "a-tribe-called-quest-midnight-marauders"
+    },
+    {
+      "pos": "3-6",
+      "artista": "Jeru the Damaja",
+      "titulo": "The Sun Rises in the East",
+      "album": "jeru-the-damaja-the-sun-rises-in-the-east"
+    },
+    {
+      "pos": "3-7",
+      "artista": "De La Soul",
+      "titulo": "3 Feet High and Rising",
+      "album": "de-la-soul-3-feet-high-and-rising"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Run-D.M.C.",
+      "titulo": "Raising Hell",
+      "album": "run-dmc-raising-hell"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Kool G Rap & DJ Polo",
+      "titulo": "Road to the Riches",
+      "album": "kool-g-rap-and-dj-polo-road-to-the-riches"
+    },
+    {
+      "pos": "4-3",
+      "artista": "Gang Starr",
+      "titulo": "Step in the Arena",
+      "album": "gang-starr-step-in-the-arena"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Cormega",
+      "titulo": "The Realness",
+      "album": "cormega-the-realness"
+    },
+    {
+      "pos": "4-5",
+      "artista": "Pete Rock & C.L. Smooth",
+      "titulo": "The Main Ingredient",
+      "album": "pete-rock-and-cl-smooth-the-main-ingredient"
+    },
+    {
+      "pos": "4-6",
+      "artista": "LL Cool J",
+      "titulo": "Radio",
+      "album": "ll-cool-j-radio"
+    },
+    {
+      "pos": "4-7",
+      "artista": "Cam’ron",
+      "titulo": "Purple Haze",
+      "album": "camron-purple-haze"
+    },
+    {
+      "pos": "5-1",
+      "artista": "Kool G Rap",
+      "titulo": "4,5,6",
+      "album": "kool-g-rap-4-5-6"
+    },
+    {
+      "pos": "5-2",
+      "artista": "KRS-One",
+      "titulo": "Return of the Boom Bap",
+      "album": "krs-one-return-of-the-boom-bap"
+    },
+    {
+      "pos": "5-3",
+      "artista": "O.C.",
+      "titulo": "Word...Life",
+      "album": "oc-wordlife"
+    },
+    {
+      "pos": "5-4",
+      "artista": "Beastie Boys",
+      "titulo": "Licensed to Ill",
+      "album": "beastie-boys-licensed-to-ill"
+    },
+    {
+      "pos": "5-5",
+      "artista": "Big Daddy Kane",
+      "titulo": "Long Live the Kane",
+      "album": "big-daddy-kane-long-live-the-kane"
+    },
+    {
+      "pos": "5-6",
+      "artista": "EPMD",
+      "titulo": "Strictly Business",
+      "album": "epmd-strictly-business"
+    },
+    {
+      "pos": "5-7",
+      "artista": "AZ",
+      "titulo": "Doe or Die",
+      "album": "az-doe-or-die"
+    },
+    {
+      "pos": "6-1",
+      "artista": "Redman",
+      "titulo": "Muddy Waters",
+      "album": "redman-muddy-waters"
+    },
+    {
+      "pos": "6-2",
+      "artista": "DMX",
+      "titulo": "It’s Dark and Hell Is Hot",
+      "album": "dmx-its-dark-and-hell-is-hot"
+    },
+    {
+      "pos": "6-3",
+      "artista": "Jungle Brothers",
+      "titulo": "Straight Out the Jungle",
+      "album": "jungle-brothers-straight-out-the-jungle"
+    },
+    {
+      "pos": "6-4",
+      "artista": "Busta Rhymes",
+      "titulo": "Extinction Level Event: The Final World Front",
+      "album": "busta-rhymes-extinction-level-event-the-final-world-front"
+    },
+    {
+      "pos": "6-5",
+      "artista": "Saul Williams",
+      "titulo": "Amethyst Rock Star",
+      "album": "saul-williams-amethyst-rock-star"
+    },
+    {
+      "pos": "6-6",
+      "artista": "El-P",
+      "titulo": "I’ll Sleep When You’re Dead",
+      "album": "el-p-ill-sleep-when-youre-dead"
+    },
+    {
+      "pos": "6-7",
+      "artista": "MF Doom",
+      "titulo": "Operation: Doomsday",
+      "album": "mf-doom-operation-doomsday"
+    },
+    {
+      "pos": "7-1",
+      "artista": "Raekwon",
+      "titulo": "Only Built 4 Cuban Linx...",
+      "album": "raekwon-only-built-4-cuban-linx"
+    },
+    {
+      "pos": "7-2",
+      "artista": "Ol’ Dirty Bastard",
+      "titulo": "Return to the 36 Chambers: The Dirty Version",
+      "album": "ol-dirty-bastard-return-to-the-36-chambers-the-dirty-version"
+    },
+    {
+      "pos": "7-3",
+      "artista": "Gravediggaz",
+      "titulo": "6 Feet Deep",
+      "album": "gravediggaz-6-feet-deep"
+    },
+    {
+      "pos": "7-4",
+      "artista": "Ghostface Killah",
+      "titulo": "Ironman",
+      "album": "ghostface-killah-ironman"
+    },
+    {
+      "pos": "7-5",
+      "artista": "GZA",
+      "titulo": "Liquid Swords",
+      "noChart": "GZA/Genius - Liquid Swords",
+      "album": "gza-liquid-swords"
+    },
+    {
+      "pos": "7-6",
+      "artista": "Method Man",
+      "titulo": "Tical",
+      "album": "method-man-tical"
+    },
+    {
+      "pos": "7-7",
+      "artista": "50 Cent",
+      "titulo": "Get Rich or Die Tryin’",
+      "album": "50-cent-get-rich-or-die-tryin"
+    }
+  ]
+}

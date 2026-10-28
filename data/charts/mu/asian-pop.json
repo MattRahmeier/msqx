@@ -1,0 +1,343 @@
+{
+  "id": "asian-pop",
+  "titulo": "/mu/'s Essential Asian Pop Album List",
+  "indice": "asian-pop",
+  "generos": [
+    "k-pop",
+    "j-pop",
+    "pop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/asian-pop.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart (transcrição completa); \"pos\" é bloco-número (K = coreano, J = japonês, C = chinês)",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "K-1",
+      "artista": "Girls' Generation",
+      "titulo": "Baby Baby",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "girls-generation-baby-baby"
+    },
+    {
+      "pos": "K-2",
+      "artista": "Girls' Generation",
+      "titulo": "Run Devil Run",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "girls-generation-run-devil-run"
+    },
+    {
+      "pos": "K-3",
+      "artista": "T-ara",
+      "titulo": "Absolute First Album",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "t-ara-absolute-first-album"
+    },
+    {
+      "pos": "K-4",
+      "artista": "Brown Eyed Girls",
+      "titulo": "Sound G",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "brown-eyed-girls-sound-g"
+    },
+    {
+      "pos": "K-5",
+      "artista": "BoA",
+      "titulo": "BoA",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "boa-boa"
+    },
+    {
+      "pos": "K-6",
+      "artista": "Wonder Girls",
+      "titulo": "The Wonder Years",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "wonder-girls-the-wonder-years"
+    },
+    {
+      "pos": "K-7",
+      "artista": "Kara",
+      "titulo": "Revolution",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "kara-revolution"
+    },
+    {
+      "pos": "K-8",
+      "artista": "Lee Hyori",
+      "titulo": "It's Hyorish",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "lee-hyori-its-hyorish"
+    },
+    {
+      "pos": "K-9",
+      "artista": "Girls' Generation",
+      "titulo": "Gee",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "girls-generation-gee"
+    },
+    {
+      "pos": "K-10",
+      "artista": "Wonder Girls",
+      "titulo": "The Wonder Years: Trilogy",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "wonder-girls-the-wonder-years-trilogy"
+    },
+    {
+      "pos": "K-11",
+      "artista": "4Minute",
+      "titulo": "For Muzik",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "4minute-for-muzik"
+    },
+    {
+      "pos": "K-12",
+      "artista": "2NE1",
+      "titulo": "2NE1",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "2ne1-2ne1"
+    },
+    {
+      "pos": "K-13",
+      "artista": "Big Bang",
+      "titulo": "Bigbang Vol.1: Since 2007",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "big-bang-bigbang-vol1-since-2007"
+    },
+    {
+      "pos": "K-14",
+      "artista": "Big Bang",
+      "titulo": "Remember",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "big-bang-remember"
+    },
+    {
+      "pos": "K-15",
+      "artista": "Shinee",
+      "titulo": "The Shinee World",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "shinee-the-shinee-world"
+    },
+    {
+      "pos": "K-16",
+      "artista": "2PM",
+      "titulo": "1:59PM",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "2pm-1-59pm"
+    },
+    {
+      "pos": "K-17",
+      "artista": "Epik High",
+      "titulo": "Map of the Human Soul",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "epik-high-map-of-the-human-soul"
+    },
+    {
+      "pos": "K-18",
+      "artista": "Epik High",
+      "titulo": "Epilogue",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "epik-high-epilogue"
+    },
+    {
+      "pos": "K-19",
+      "artista": "Super Junior",
+      "titulo": "Don't Don",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "super-junior-dont-don"
+    },
+    {
+      "pos": "K-20",
+      "artista": "Super Junior",
+      "titulo": "Sorry, Sorry",
+      "generos": [
+        "k-pop"
+      ],
+      "album": "super-junior-sorry-sorry"
+    },
+    {
+      "pos": "J-1",
+      "artista": "Ayumi Hamasaki",
+      "titulo": "A Complete: All Singles",
+      "generos": [
+        "j-pop"
+      ],
+      "album": "ayumi-hamasaki-a-complete-all-singles"
+    },
+    {
+      "pos": "J-2",
+      "artista": "Nana Mizuki",
+      "titulo": "Ultimate Diamond",
+      "generos": [
+        "j-pop"
+      ],
+      "album": "nana-mizuki-ultimate-diamond"
+    },
+    {
+      "pos": "J-3",
+      "artista": "Ai Otsuka",
+      "titulo": "Love Cook",
+      "generos": [
+        "j-pop"
+      ],
+      "album": "ai-otsuka-love-cook"
+    },
+    {
+      "pos": "J-4",
+      "artista": "Kotoko",
+      "titulo": "Hane",
+      "generos": [
+        "j-pop"
+      ],
+      "album": "kotoko-hane"
+    },
+    {
+      "pos": "J-5",
+      "artista": "Perfume",
+      "titulo": "Game",
+      "generos": [
+        "j-pop"
+      ],
+      "album": "perfume-game"
+    },
+    {
+      "pos": "J-6",
+      "artista": "Hikaru Utada",
+      "titulo": "Heart Station",
+      "generos": [
+        "j-pop"
+      ],
+      "album": "hikaru-utada-heart-station"
+    },
+    {
+      "pos": "J-7",
+      "artista": "Kumi Koda",
+      "titulo": "Trick",
+      "generos": [
+        "j-pop"
+      ],
+      "album": "kumi-koda-trick"
+    },
+    {
+      "pos": "J-8",
+      "artista": "Namie Amuro",
+      "titulo": "Past<Future",
+      "generos": [
+        "j-pop"
+      ],
+      "album": "namie-amuro-past-future"
+    },
+    {
+      "pos": "J-9",
+      "artista": "Morning Musume",
+      "titulo": "All Singles Complete: 10th Anniversary",
+      "generos": [
+        "j-pop"
+      ],
+      "album": "morning-musume-all-singles-complete-10th-anniversary"
+    },
+    {
+      "pos": "J-10",
+      "artista": "YUI",
+      "titulo": "Can't Buy My Love",
+      "generos": [
+        "j-pop"
+      ],
+      "album": "yui-cant-buy-my-love"
+    },
+    {
+      "pos": "J-11",
+      "artista": "Maaya Sakamoto",
+      "titulo": "Kazeyomi",
+      "generos": [
+        "j-pop"
+      ],
+      "album": "maaya-sakamoto-kazeyomi"
+    },
+    {
+      "pos": "J-12",
+      "artista": "Arashi",
+      "titulo": "All the Best! 1999–2009",
+      "generos": [
+        "j-pop"
+      ],
+      "album": "arashi-all-the-best-1999-2009"
+    },
+    {
+      "pos": "C-1",
+      "artista": "S.H.E",
+      "titulo": "Together",
+      "generos": [
+        "pop"
+      ],
+      "album": "she-together"
+    },
+    {
+      "pos": "C-2",
+      "artista": "Jolin Tsai",
+      "titulo": "Butterfly",
+      "generos": [
+        "pop"
+      ],
+      "album": "jolin-tsai-butterfly"
+    },
+    {
+      "pos": "C-3",
+      "artista": "Jay Chou",
+      "titulo": "November's Chopin",
+      "generos": [
+        "pop"
+      ],
+      "album": "jay-chou-novembers-chopin"
+    },
+    {
+      "pos": "C-4",
+      "artista": "Rainie Yang",
+      "titulo": "Rainie & Love...?",
+      "generos": [
+        "pop"
+      ],
+      "album": "rainie-yang-rainie-and-love"
+    }
+  ]
+}

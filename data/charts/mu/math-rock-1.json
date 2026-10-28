@@ -1,0 +1,247 @@
+{
+  "id": "math-rock-1",
+  "titulo": "/mu/s esential math rock",
+  "indice": "math-rock-1",
+  "generos": [
+    "math-rock"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/math-rock-1.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "O chart cita um trecho da Wikipédia sobre o estilo; o texto não é guardado aqui.",
+  "albuns": [
+    {
+      "pos": "1A",
+      "artista": "Dazzling Killmen",
+      "titulo": "Face of Collapse",
+      "noChart": "Dazzling Killmen - Face of Colapse",
+      "album": "dazzling-killmen-face-of-collapse"
+    },
+    {
+      "pos": "1B",
+      "artista": "Shellac",
+      "titulo": "At Action Park",
+      "album": "shellac-at-action-park"
+    },
+    {
+      "pos": "1C",
+      "artista": "Chavez",
+      "titulo": "Better Days Will Haunt You",
+      "album": "chavez-better-days-will-haunt-you"
+    },
+    {
+      "pos": "1D",
+      "artista": "Drive Like Jehu",
+      "titulo": "Yank Crime",
+      "album": "drive-like-jehu-yank-crime"
+    },
+    {
+      "pos": "1E",
+      "artista": "Hoover",
+      "titulo": "The Lurid Traversal of Route 7",
+      "album": "hoover-the-lurid-traversal-of-route-7"
+    },
+    {
+      "pos": "2A",
+      "artista": "Rodan",
+      "titulo": "Rusty",
+      "album": "rodan-rusty"
+    },
+    {
+      "pos": "2B",
+      "artista": "Youthmovie Soundtrack Strategies",
+      "titulo": "Good Nature",
+      "album": "youthmovie-soundtrack-strategies-good-nature"
+    },
+    {
+      "pos": "2C",
+      "artista": "Adebisi Shank",
+      "titulo": "This Is the Album of a Band Called Adebisi Shank",
+      "noChart": "Adebisi Shank - The Album of Adebisi Shank",
+      "album": "adebisi-shank-this-is-the-album-of-a-band-called-adebisi-shank"
+    },
+    {
+      "pos": "2D",
+      "artista": "Piglet",
+      "titulo": "Lava Land",
+      "album": "piglet-lava-land"
+    },
+    {
+      "pos": "2E",
+      "artista": "By the End of Tonight",
+      "titulo": "...In a Letter to the Sandbox",
+      "album": "by-the-end-of-tonight-in-a-letter-to-the-sandbox"
+    },
+    {
+      "pos": "3A",
+      "artista": "Don Caballero",
+      "titulo": "What Burns Never Returns",
+      "album": "don-caballero-what-burns-never-returns"
+    },
+    {
+      "pos": "3B",
+      "artista": "Polvo",
+      "titulo": "Today's Active Lifestyles",
+      "album": "polvo-todays-active-lifestyles"
+    },
+    {
+      "pos": "3C",
+      "artista": "Dartz!",
+      "titulo": "This Is My Ship",
+      "album": "dartz-this-is-my-ship"
+    },
+    {
+      "pos": "3D",
+      "artista": "June of 44",
+      "titulo": "Four Great Points",
+      "album": "june-of-44-four-great-points"
+    },
+    {
+      "pos": "3E",
+      "artista": "Minus the Bear",
+      "titulo": "Highly Refined Pirates",
+      "album": "minus-the-bear-highly-refined-pirates"
+    },
+    {
+      "pos": "4A",
+      "artista": "Battles",
+      "titulo": "Mirrored",
+      "album": "battles-mirrored"
+    },
+    {
+      "pos": "4B",
+      "artista": "American Football",
+      "titulo": "American Football",
+      "noChart": "American Football - s/t",
+      "album": "american-football-american-football"
+    },
+    {
+      "pos": "4C",
+      "artista": "LITE",
+      "titulo": "Phantasia",
+      "album": "lite-phantasia"
+    },
+    {
+      "pos": "4D",
+      "artista": "Slint",
+      "titulo": "Spiderland",
+      "album": "slint-spiderland"
+    },
+    {
+      "pos": "4E",
+      "artista": "Lightning Bolt",
+      "titulo": "Wonderful Rainbow",
+      "album": "lightning-bolt-wonderful-rainbow"
+    },
+    {
+      "pos": "5A",
+      "artista": "Sleeping People",
+      "titulo": "Growing",
+      "album": "sleeping-people-growing"
+    },
+    {
+      "pos": "5B",
+      "artista": "Ahleuchatistas",
+      "titulo": "What You Will",
+      "album": "ahleuchatistas-what-you-will"
+    },
+    {
+      "pos": "5C",
+      "artista": "Tera Melos",
+      "titulo": "Tera Melos",
+      "noChart": "Tera Melos - s/t",
+      "album": "tera-melos-tera-melos"
+    },
+    {
+      "pos": "5D",
+      "artista": "Zazen Boys",
+      "titulo": "Zazen Boys 4",
+      "album": "zazen-boys-zazen-boys-4"
+    },
+    {
+      "pos": "5E",
+      "artista": "Look Mexico",
+      "titulo": "This Is Animal Music",
+      "album": "look-mexico-this-is-animal-music"
+    },
+    {
+      "pos": "6A",
+      "artista": "Cinemechanica",
+      "titulo": "The Martial Arts",
+      "album": "cinemechanica-the-martial-arts"
+    },
+    {
+      "pos": "6B",
+      "artista": "Foals",
+      "titulo": "Antidotes",
+      "album": "foals-antidotes"
+    },
+    {
+      "pos": "6C",
+      "artista": "We Versus the Shark",
+      "titulo": "Ruin Everything!",
+      "album": "we-versus-the-shark-ruin-everything"
+    },
+    {
+      "pos": "6D",
+      "artista": "toe",
+      "titulo": "The Book About My Idle Plot on a Vague Anxiety",
+      "noChart": "toe - The Book About my Idle Plot...",
+      "album": "toe-the-book-about-my-idle-plot-on-a-vague-anxiety"
+    },
+    {
+      "pos": "6E",
+      "artista": "Giraffes? Giraffes!",
+      "titulo": "More Skin with Milk-Mouth",
+      "noChart": "Giraffes? Girafes! - More skin With Milk-Mouth",
+      "album": "giraffes-giraffes-more-skin-with-milk-mouth"
+    },
+    {
+      "pos": "7A",
+      "artista": "Faraquet",
+      "titulo": "The View from This Tower",
+      "album": "faraquet-the-view-from-this-tower"
+    },
+    {
+      "pos": "7B",
+      "artista": "Meet Me in St. Louis",
+      "titulo": "Variations on Swing",
+      "album": "meet-me-in-st-louis-variations-on-swing"
+    },
+    {
+      "pos": "7C",
+      "artista": "You Slut!",
+      "titulo": "Critical Meat",
+      "album": "you-slut-critical-meat"
+    },
+    {
+      "pos": "7D",
+      "artista": "Yowie",
+      "titulo": "Cryptooology",
+      "album": "yowie-cryptooology"
+    },
+    {
+      "pos": "7E",
+      "artista": "Bastro",
+      "titulo": "Sing the Troubled Beast",
+      "album": "bastro-sing-the-troubled-beast"
+    },
+    {
+      "pos": "7F",
+      "artista": "Planets",
+      "titulo": "Planets",
+      "noChart": "Planets - s/t",
+      "album": "planets-planets"
+    },
+    {
+      "pos": "7G",
+      "artista": "Hella",
+      "titulo": "Hold Your Horse Is",
+      "album": "hella-hold-your-horse-is"
+    }
+  ]
+}

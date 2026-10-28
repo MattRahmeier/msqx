@@ -1,0 +1,307 @@
+{
+  "id": "art-pop",
+  "titulo": "Essential Art Pop",
+  "indice": "art-pop",
+  "generos": [
+    "art-pop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/art-pop.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart (título e artista sob cada capa)",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Stereolab",
+      "titulo": "Dots and Loops",
+      "album": "stereolab-dots-and-loops"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Fever Ray",
+      "titulo": "Fever Ray",
+      "album": "fever-ray-fever-ray"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Kate Bush",
+      "titulo": "Hounds of Love",
+      "album": "kate-bush-hounds-of-love"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Cornelius",
+      "titulo": "Fantasma",
+      "album": "cornelius-fantasma"
+    },
+    {
+      "pos": "1-5",
+      "artista": "School Food Punishment",
+      "titulo": "school food is good food",
+      "album": "school-food-punishment-school-food-is-good-food"
+    },
+    {
+      "pos": "1-6",
+      "artista": "The Residents",
+      "titulo": "Duck Stab / Buster & Glen",
+      "album": "the-residents-duck-stab-buster-and-glen"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Brian Eno",
+      "titulo": "Here Come the Warm Jets",
+      "album": "brian-eno-here-come-the-warm-jets"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Laurie Anderson",
+      "titulo": "Big Science",
+      "album": "laurie-anderson-big-science"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Peter Gabriel",
+      "titulo": "So",
+      "album": "peter-gabriel-so"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Björk",
+      "titulo": "Homogenic",
+      "album": "bjork-homogenic"
+    },
+    {
+      "pos": "2-5",
+      "artista": "St. Vincent",
+      "titulo": "Actor",
+      "album": "st-vincent-actor"
+    },
+    {
+      "pos": "2-6",
+      "artista": "The Fiery Furnaces",
+      "titulo": "Bitter Tea",
+      "album": "the-fiery-furnaces-bitter-tea"
+    },
+    {
+      "pos": "3-1",
+      "artista": "The Olivia Tremor Control",
+      "titulo": "Black Foliage",
+      "album": "the-olivia-tremor-control-black-foliage"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Cibo Matto",
+      "titulo": "Viva! La Woman",
+      "album": "cibo-matto-viva-la-woman"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Cocteau Twins",
+      "titulo": "Treasure",
+      "album": "cocteau-twins-treasure"
+    },
+    {
+      "pos": "3-4",
+      "artista": "The Magnetic Fields",
+      "titulo": "The Charm of the Highway Strip",
+      "album": "the-magnetic-fields-the-charm-of-the-highway-strip"
+    },
+    {
+      "pos": "3-5",
+      "artista": "Fiona Apple",
+      "titulo": "The Idler Wheel Is Wiser Than the Driver of the Screw and Whipping Cords Will Serve You More Than Ropes Will Ever Do",
+      "album": "fiona-apple-the-idler-wheel-is-wiser-than-the-driver-of-the-screw-and-whipping-cords-will-serve-you-more-than-ropes-will-ever-do"
+    },
+    {
+      "pos": "3-6",
+      "artista": "Noriko Tujiko",
+      "titulo": "From Tokyo to Naiagara",
+      "noChart": "Tujiko Noriko - From Tokyo To Naiagara",
+      "album": "noriko-tujiko-from-tokyo-to-naiagara"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Talking Heads",
+      "titulo": "Remain in Light",
+      "album": "talking-heads-remain-in-light"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Arthur Russell",
+      "titulo": "Another Thought",
+      "album": "arthur-russell-another-thought"
+    },
+    {
+      "pos": "4-3",
+      "artista": "Mark Hollis",
+      "titulo": "Mark Hollis",
+      "album": "mark-hollis-mark-hollis"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Shugo Tokumaru",
+      "titulo": "Port Entropy",
+      "album": "shugo-tokumaru-port-entropy"
+    },
+    {
+      "pos": "4-5",
+      "artista": "Sparks",
+      "titulo": "Kimono My House",
+      "album": "sparks-kimono-my-house"
+    },
+    {
+      "pos": "4-6",
+      "artista": "The Flaming Lips",
+      "titulo": "The Soft Bulletin",
+      "album": "the-flaming-lips-the-soft-bulletin"
+    },
+    {
+      "pos": "5-1",
+      "artista": "Solex",
+      "titulo": "Low Kick and Hard Bop",
+      "album": "solex-low-kick-and-hard-bop"
+    },
+    {
+      "pos": "5-2",
+      "artista": "Laika",
+      "titulo": "Sounds of the Satellites",
+      "album": "laika-sounds-of-the-satellites"
+    },
+    {
+      "pos": "5-3",
+      "artista": "The Velvet Underground",
+      "titulo": "The Velvet Underground",
+      "album": "the-velvet-underground-the-velvet-underground"
+    },
+    {
+      "pos": "5-4",
+      "artista": "David Bowie",
+      "titulo": "Low",
+      "album": "david-bowie-low"
+    },
+    {
+      "pos": "5-5",
+      "artista": "Serge Gainsbourg",
+      "titulo": "Histoire de Melody Nelson",
+      "album": "serge-gainsbourg-histoire-de-melody-nelson"
+    },
+    {
+      "pos": "5-6",
+      "artista": "Van Dyke Parks",
+      "titulo": "Song Cycle",
+      "album": "van-dyke-parks-song-cycle"
+    },
+    {
+      "pos": "6-1",
+      "artista": "The Beach Boys",
+      "titulo": "Pet Sounds",
+      "album": "the-beach-boys-pet-sounds"
+    },
+    {
+      "pos": "6-2",
+      "artista": "Animal Collective",
+      "titulo": "Strawberry Jam",
+      "album": "animal-collective-strawberry-jam"
+    },
+    {
+      "pos": "6-3",
+      "artista": "Panda Bear",
+      "titulo": "Person Pitch",
+      "album": "panda-bear-person-pitch"
+    },
+    {
+      "pos": "6-4",
+      "artista": "Pizzicato Five",
+      "titulo": "Happy End of the World",
+      "album": "pizzicato-five-happy-end-of-the-world"
+    },
+    {
+      "pos": "6-5",
+      "artista": "Flipper’s Guitar",
+      "titulo": "Three Cheers for Our Side",
+      "album": "flippers-guitar-three-cheers-for-our-side"
+    },
+    {
+      "pos": "6-6",
+      "artista": "Sufjan Stevens",
+      "titulo": "The Age of Adz",
+      "album": "sufjan-stevens-the-age-of-adz"
+    },
+    {
+      "pos": "7-1",
+      "artista": "Scott Walker",
+      "titulo": "Scott 4",
+      "album": "scott-walker-scott-4"
+    },
+    {
+      "pos": "7-2",
+      "artista": "Nico",
+      "titulo": "Chelsea Girl",
+      "album": "nico-chelsea-girl"
+    },
+    {
+      "pos": "7-3",
+      "artista": "Janelle Monáe",
+      "titulo": "The ArchAndroid",
+      "album": "janelle-monae-the-archandroid"
+    },
+    {
+      "pos": "7-4",
+      "artista": "Talk Talk",
+      "titulo": "The Colour of Spring",
+      "album": "talk-talk-the-colour-of-spring"
+    },
+    {
+      "pos": "7-5",
+      "artista": "Sweet Trip",
+      "titulo": "Velocity : Design : Comfort",
+      "album": "sweet-trip-velocity-design-comfort"
+    },
+    {
+      "pos": "7-6",
+      "artista": "David Sylvian",
+      "titulo": "Secrets of the Beehive",
+      "album": "david-sylvian-secrets-of-the-beehive"
+    },
+    {
+      "pos": "8-1",
+      "artista": "Paul McCartney",
+      "titulo": "Ram",
+      "noChart": "Paul McCartney - Ram",
+      "album": "paul-mccartney-ram"
+    },
+    {
+      "pos": "8-2",
+      "artista": "John Cale",
+      "titulo": "Paris 1919",
+      "album": "john-cale-paris-1919"
+    },
+    {
+      "pos": "8-3",
+      "artista": "Kraftwerk",
+      "titulo": "Autobahn",
+      "album": "kraftwerk-autobahn"
+    },
+    {
+      "pos": "8-4",
+      "artista": "Shiina Ringo",
+      "titulo": "Kuraki Zamen Kuri no Hana",
+      "album": "shiina-ringo-kuraki-zamen-kuri-no-hana"
+    },
+    {
+      "pos": "8-5",
+      "artista": "Jim O’Rourke",
+      "titulo": "Eureka",
+      "album": "jim-orourke-eureka"
+    },
+    {
+      "pos": "8-6",
+      "artista": "XTC",
+      "titulo": "English Settlement",
+      "album": "xtc-english-settlement"
+    }
+  ]
+}

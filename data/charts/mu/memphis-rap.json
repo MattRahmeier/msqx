@@ -1,0 +1,153 @@
+{
+  "id": "memphis-rap",
+  "titulo": "A Brief Introduction to Memphis Hip Hop (2018)",
+  "indice": "memphis-rap",
+  "generos": [
+    "memphis-rap"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/memphis-rap.png",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "seleção de 15 fitas do chart (título e artista escritos sob cada capa); \"pos\" é o bloco do produtor no chart. O chart traz textos próprios e um link de download; nada disso é guardado",
+    "parcial": true,
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "dj-paul-juicy-j:1",
+      "artista": "DJ Paul",
+      "titulo": "Volume 16: Da Summa of '94",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "dj-paul-volume-16-da-summa-of-94"
+    },
+    {
+      "pos": "dj-paul-juicy-j:2",
+      "artista": "Juicy J",
+      "titulo": "Volume 9MM: It's On",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "juicy-j-volume-9mm-its-on"
+    },
+    {
+      "pos": "dj-paul-juicy-j:3",
+      "artista": "Triple Six Mafia",
+      "titulo": "Smoked Out, Loced Out",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "triple-six-mafia-smoked-out-loced-out"
+    },
+    {
+      "pos": "dj-paul-juicy-j:4",
+      "artista": "Koopsta Knicca",
+      "titulo": "Da Devil's Playground",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "koopsta-knicca-da-devils-playground"
+    },
+    {
+      "pos": "dj-paul-juicy-j:5",
+      "artista": "Lil Fly",
+      "titulo": "From da Darkness of da Kut",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "lil-fly-from-da-darkness-of-da-kut"
+    },
+    {
+      "pos": "dj-zirk:1",
+      "artista": "DJ Zirk",
+      "titulo": "Nuttin But Killaz",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "dj-zirk-nuttin-but-killaz"
+    },
+    {
+      "pos": "dj-zirk:2",
+      "artista": "Mr. Tinimaine",
+      "titulo": "19 Tini 5",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "mr-tinimaine-19-tini-5"
+    },
+    {
+      "pos": "tommy-wright-iii:1",
+      "artista": "Tommy Wright III",
+      "titulo": "On the Run",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "tommy-wright-iii-on-the-run"
+    },
+    {
+      "pos": "tommy-wright-iii:2",
+      "artista": "N.O.D.",
+      "titulo": "Niggaz of Destruction",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "nod-niggaz-of-destruction"
+    },
+    {
+      "pos": "tommy-wright-iii:3",
+      "artista": "Ten Wanted Men",
+      "titulo": "Wanted: Dead or Alive",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "ten-wanted-men-wanted-dead-or-alive"
+    },
+    {
+      "pos": "blackout:1",
+      "artista": "Blackout",
+      "titulo": "Dreamworld",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "blackout-dreamworld"
+    },
+    {
+      "pos": "blackout:2",
+      "artista": "Lil Slim",
+      "titulo": "Robbery's My Specialty",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "lil-slim-robberys-my-specialty"
+    },
+    {
+      "pos": "dj-sound:1",
+      "artista": "DJ Sound",
+      "titulo": "Volume 10: Hatred",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "dj-sound-volume-10-hatred"
+    },
+    {
+      "pos": "shawty-pimp:1",
+      "artista": "Shawty Pimp",
+      "titulo": "H.A.N.",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "shawty-pimp-han"
+    },
+    {
+      "pos": "skinny-pimp:1",
+      "artista": "Lil Gin",
+      "titulo": "Shake Junt",
+      "generos": [
+        "memphis-rap"
+      ],
+      "album": "lil-gin-shake-junt"
+    }
+  ]
+}

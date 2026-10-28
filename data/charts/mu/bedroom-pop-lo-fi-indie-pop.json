@@ -1,0 +1,144 @@
+{
+  "id": "bedroom-pop-lo-fi-indie-pop",
+  "titulo": "bedroom style pop \\ lo-fi guide",
+  "indice": "bedroom-pop-lo-fi-indie-pop",
+  "generos": [
+    "bedroom-pop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/bedroom-pop-lo-fi-indie-pop.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "seleção de 14 álbuns do chart (título e artista escritos sob cada capa, em letra pequena); \"pos\" é o bloco do chart",
+    "parcial": true,
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "start:1",
+      "artista": "Teen Suicide",
+      "titulo": "I Will Be My Own Hell Because There Is a Devil Inside My Body",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "teen-suicide-i-will-be-my-own-hell-because-there-is-a-devil-inside-my-body"
+    },
+    {
+      "pos": "start:2",
+      "artista": "Teen Suicide",
+      "titulo": "Waste Yrself",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "teen-suicide-waste-yrself"
+    },
+    {
+      "pos": "start:3",
+      "artista": "Starry Cat",
+      "titulo": "Starry Cat",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "starry-cat-starry-cat"
+    },
+    {
+      "pos": "start:4",
+      "artista": "Julia Brown",
+      "titulo": "To Be Close to You",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "julia-brown-to-be-close-to-you"
+    },
+    {
+      "pos": "start:5",
+      "artista": "Car Seat Headrest",
+      "titulo": "Twin Fantasy",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "car-seat-headrest-twin-fantasy"
+    },
+    {
+      "pos": "start:7",
+      "artista": "Ghost Orchard",
+      "titulo": "Poppy",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "ghost-orchard-poppy"
+    },
+    {
+      "pos": "start:8",
+      "artista": "Salvia Palth",
+      "titulo": "Melanchole",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "salvia-palth-melanchole"
+    },
+    {
+      "pos": "start:9",
+      "artista": "Elvis Depressedly",
+      "titulo": "Holo Pleasures",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "elvis-depressedly-holo-pleasures"
+    },
+    {
+      "pos": "start:12",
+      "artista": "Fog Lake",
+      "titulo": "Inference (III)",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "fog-lake-inference-iii"
+    },
+    {
+      "pos": "acustico:2",
+      "artista": "Infinity Crush",
+      "titulo": "When We're Snow",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "infinity-crush-when-were-snow"
+    },
+    {
+      "pos": "acustico:3",
+      "artista": "Flatsound",
+      "titulo": "Sleep",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "flatsound-sleep"
+    },
+    {
+      "pos": "acustico:7",
+      "artista": "Cyberbully Mom Club",
+      "titulo": "Outdoor Activities",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "cyberbully-mom-club-outdoor-activities"
+    },
+    {
+      "pos": "pesado:2",
+      "artista": "Nouns",
+      "titulo": "Still Bummed",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "nouns-still-bummed"
+    },
+    {
+      "pos": "pesado:4",
+      "artista": "Surf Curse",
+      "titulo": "Buds",
+      "generos": [
+        "bedroom-pop"
+      ],
+      "album": "surf-curse-buds"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "stoner-rock",
+  "titulo": "/mu/'s Essential Stoner Rock (v1.0, 2012)",
+  "indice": "stoner-rock",
+  "generos": [
+    "stoner-rock"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/stoner-rock.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "O chart traz um texto próprio sobre o estilo; não é guardado aqui.",
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Sleep",
+      "titulo": "Sleep's Holy Mountain",
+      "noChart": "Sleep - Holy Mountain",
+      "album": "sleep-sleeps-holy-mountain"
+    },
+    {
+      "pos": "B1",
+      "artista": "Electric Wizard",
+      "titulo": "Dopethrone",
+      "album": "electric-wizard-dopethrone"
+    },
+    {
+      "pos": "C1",
+      "artista": "Om",
+      "titulo": "Pilgrimage",
+      "album": "om-pilgrimage"
+    },
+    {
+      "pos": "D1",
+      "artista": "High on Fire",
+      "titulo": "Surrounded by Thieves",
+      "album": "high-on-fire-surrounded-by-thieves"
+    },
+    {
+      "pos": "E1",
+      "artista": "The Kings of Frog Island",
+      "titulo": "II",
+      "album": "the-kings-of-frog-island-ii"
+    },
+    {
+      "pos": "F1",
+      "artista": "Mars Red Sky",
+      "titulo": "Mars Red Sky",
+      "album": "mars-red-sky-mars-red-sky"
+    },
+    {
+      "pos": "A2",
+      "artista": "Bongzilla",
+      "titulo": "Amerijuanican",
+      "album": "bongzilla-amerijuanican"
+    },
+    {
+      "pos": "B2",
+      "artista": "Belzebong",
+      "titulo": "Sonic Scapes and Weedy Grooves",
+      "noChart": "Belzebong - Sonic Scapes & Weedy Grooves",
+      "album": "belzebong-sonic-scapes-and-weedy-grooves"
+    },
+    {
+      "pos": "C2",
+      "artista": "Yawning Man",
+      "titulo": "Rock Formations",
+      "album": "yawning-man-rock-formations"
+    },
+    {
+      "pos": "D2",
+      "artista": "Ten East",
+      "titulo": "Extraterrestrial Highway",
+      "album": "ten-east-extraterrestrial-highway"
+    },
+    {
+      "pos": "E2",
+      "artista": "Wooden Shjips",
+      "titulo": "West",
+      "album": "wooden-shjips-west"
+    },
+    {
+      "pos": "F2",
+      "artista": "Weird Owl",
+      "titulo": "Nuclear Psychology",
+      "album": "weird-owl-nuclear-psychology"
+    },
+    {
+      "pos": "A3",
+      "artista": "The Heavy Eyes",
+      "titulo": "Heavy Eyes",
+      "album": "the-heavy-eyes-heavy-eyes"
+    },
+    {
+      "pos": "B3",
+      "artista": "Quest for Fire",
+      "titulo": "Lights from Paradise",
+      "album": "quest-for-fire-lights-from-paradise"
+    },
+    {
+      "pos": "C3",
+      "artista": "Kyuss",
+      "titulo": "Welcome to Sky Valley",
+      "album": "kyuss-welcome-to-sky-valley"
+    },
+    {
+      "pos": "D3",
+      "artista": "Black Sabbath",
+      "titulo": "Master of Reality",
+      "album": "black-sabbath-master-of-reality"
+    },
+    {
+      "pos": "E3",
+      "artista": "Dead Meadow",
+      "titulo": "Dead Meadow",
+      "album": "dead-meadow-dead-meadow"
+    },
+    {
+      "pos": "F3",
+      "artista": "Earth",
+      "titulo": "Pentastar: In the Style of Demons",
+      "album": "earth-pentastar-in-the-style-of-demons"
+    },
+    {
+      "pos": "A4",
+      "artista": "Fatso Jetson",
+      "titulo": "Flames for All",
+      "album": "fatso-jetson-flames-for-all"
+    },
+    {
+      "pos": "B4",
+      "artista": "Freedom Hawk",
+      "titulo": "Freedom Hawk",
+      "album": "freedom-hawk-freedom-hawk"
+    },
+    {
+      "pos": "C4",
+      "artista": "Fu Manchu",
+      "titulo": "Eatin' Dust",
+      "album": "fu-manchu-eatin-dust"
+    },
+    {
+      "pos": "D4",
+      "artista": "Clutch",
+      "titulo": "Robot Hive/Exodus",
+      "album": "clutch-robot-hive-exodus"
+    },
+    {
+      "pos": "E4",
+      "artista": "The Desert Sessions",
+      "titulo": "Volumes 1 & 2",
+      "album": "the-desert-sessions-volumes-1-and-2"
+    },
+    {
+      "pos": "F4",
+      "artista": "Ché",
+      "titulo": "Sounds of Liberation",
+      "noChart": "Che - Sounds of Liberation",
+      "album": "che-sounds-of-liberation"
+    }
+  ]
+}

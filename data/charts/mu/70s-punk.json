@@ -1,0 +1,152 @@
+{
+  "id": "70s-punk",
+  "titulo": "/mu/'s Essential 70's Punk List",
+  "indice": "70s-punk",
+  "generos": [
+    "punk-rock"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/70s-punk.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1",
+      "artista": "Ramones",
+      "titulo": "Ramones",
+      "noChart": "The Ramones - s/t",
+      "album": "ramones-ramones"
+    },
+    {
+      "pos": "2",
+      "artista": "Sex Pistols",
+      "titulo": "Never Mind the Bollocks, Here's the Sex Pistols",
+      "noChart": "The Sex Pistols - Never Mind the Bollocks",
+      "album": "sex-pistols-never-mind-the-bollocks-heres-the-sex-pistols"
+    },
+    {
+      "pos": "3",
+      "artista": "Crass",
+      "titulo": "The Feeding of the 5000",
+      "album": "crass-the-feeding-of-the-5000"
+    },
+    {
+      "pos": "4",
+      "artista": "Sham 69",
+      "titulo": "Tell Us the Truth",
+      "noChart": "Sham 69 - Tell us the truth/That's Life",
+      "album": "sham-69-tell-us-the-truth"
+    },
+    {
+      "pos": "5",
+      "artista": "The Cramps",
+      "titulo": "Gravest Hits",
+      "album": "the-cramps-gravest-hits"
+    },
+    {
+      "pos": "6",
+      "artista": "Germs",
+      "titulo": "(GI)",
+      "noChart": "The Germs - (GI)",
+      "album": "germs-gi"
+    },
+    {
+      "pos": "7",
+      "artista": "X-Ray Spex",
+      "titulo": "Germfree Adolescents",
+      "noChart": "X-Ray Spex - Germ-free Adolescents",
+      "album": "x-ray-spex-germfree-adolescents"
+    },
+    {
+      "pos": "8",
+      "artista": "Middle Class",
+      "titulo": "Out of Vogue",
+      "album": "middle-class-out-of-vogue"
+    },
+    {
+      "pos": "9",
+      "artista": "The Adverts",
+      "titulo": "Crossing the Red Sea with the Adverts",
+      "album": "the-adverts-crossing-the-red-sea-with-the-adverts"
+    },
+    {
+      "pos": "10",
+      "artista": "The Damned",
+      "titulo": "Damned Damned Damned",
+      "album": "the-damned-damned-damned-damned"
+    },
+    {
+      "pos": "11",
+      "artista": "Buzzcocks",
+      "titulo": "Singles Going Steady",
+      "noChart": "The Buzzcocks - Singles Going Steady",
+      "album": "buzzcocks-singles-going-steady"
+    },
+    {
+      "pos": "12",
+      "artista": "Misfits",
+      "titulo": "Static Age",
+      "noChart": "The Misfits - Static Age",
+      "album": "misfits-static-age"
+    },
+    {
+      "pos": "13",
+      "artista": "Stiff Little Fingers",
+      "titulo": "Inflammable Material",
+      "album": "stiff-little-fingers-inflammable-material"
+    },
+    {
+      "pos": "14",
+      "artista": "Wire",
+      "titulo": "Pink Flag",
+      "album": "wire-pink-flag"
+    },
+    {
+      "pos": "15",
+      "artista": "The Clash",
+      "titulo": "The Clash",
+      "noChart": "The Clash - s/t",
+      "album": "the-clash-the-clash"
+    },
+    {
+      "pos": "16",
+      "artista": "The Clash",
+      "titulo": "London Calling",
+      "album": "the-clash-london-calling"
+    },
+    {
+      "pos": "17",
+      "artista": "The Saints",
+      "titulo": "(I'm) Stranded",
+      "album": "the-saints-im-stranded"
+    },
+    {
+      "pos": "18",
+      "artista": "The Screamers",
+      "titulo": "In a Better World",
+      "album": "the-screamers-in-a-better-world"
+    },
+    {
+      "pos": "19",
+      "artista": "The Undertones",
+      "titulo": "The Undertones",
+      "noChart": "The Undertones - s/t",
+      "album": "the-undertones-the-undertones"
+    },
+    {
+      "pos": "20",
+      "artista": "The Stranglers",
+      "titulo": "Rattus Norvegicus",
+      "album": "the-stranglers-rattus-norvegicus"
+    },
+    {
+      "pos": "21",
+      "artista": "The Jam",
+      "titulo": "In the City",
+      "album": "the-jam-in-the-city"
+    }
+  ]
+}

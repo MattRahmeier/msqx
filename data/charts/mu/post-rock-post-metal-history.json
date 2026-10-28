@@ -1,0 +1,235 @@
+{
+  "id": "post-rock-post-metal-history",
+  "titulo": "A brief history of post rock and post metal",
+  "indice": "post-rock-post-metal-history",
+  "generos": [
+    "post-rock",
+    "post-metal"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/post-rock-post-metal-history.png",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "seleção da linha do tempo do chart (título, artista e ano escritos sob cada capa); \"pos\" é o ano no chart",
+    "parcial": true,
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1988",
+      "artista": "Talk Talk",
+      "titulo": "Spirit of Eden",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "talk-talk-spirit-of-eden"
+    },
+    {
+      "pos": "1991:1",
+      "artista": "Talk Talk",
+      "titulo": "Laughing Stock",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "talk-talk-laughing-stock"
+    },
+    {
+      "pos": "1991:2",
+      "artista": "Slint",
+      "titulo": "Spiderland",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "slint-spiderland"
+    },
+    {
+      "pos": "1994:1",
+      "artista": "Rodan",
+      "titulo": "Rusty",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "rodan-rusty"
+    },
+    {
+      "pos": "1994:2",
+      "artista": "Bark Psychosis",
+      "titulo": "Hex",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "bark-psychosis-hex"
+    },
+    {
+      "pos": "1996:1",
+      "artista": "Tortoise",
+      "titulo": "Millions Now Living Will Never Die",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "tortoise-millions-now-living-will-never-die"
+    },
+    {
+      "pos": "1996:2",
+      "artista": "Swans",
+      "titulo": "Soundtracks for the Blind",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "swans-soundtracks-for-the-blind"
+    },
+    {
+      "pos": "1997:1",
+      "artista": "Labradford",
+      "titulo": "Mi Media Naranja",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "labradford-mi-media-naranja"
+    },
+    {
+      "pos": "1997:2",
+      "artista": "Mogwai",
+      "titulo": "Mogwai Young Team",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "mogwai-mogwai-young-team"
+    },
+    {
+      "pos": "1997:3",
+      "artista": "Godspeed You! Black Emperor",
+      "titulo": "F♯ A♯ ∞",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "godspeed-you-black-emperor-f-a"
+    },
+    {
+      "pos": "1998",
+      "artista": "Do Make Say Think",
+      "titulo": "Do Make Say Think",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "do-make-say-think-do-make-say-think"
+    },
+    {
+      "pos": "1999",
+      "artista": "Sigur Rós",
+      "titulo": "Ágætis byrjun",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "sigur-ros-ag-tis-byrjun"
+    },
+    {
+      "pos": "2001",
+      "artista": "Stars of the Lid",
+      "titulo": "The Tired Sounds of Stars of the Lid",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "stars-of-the-lid-the-tired-sounds-of-stars-of-the-lid"
+    },
+    {
+      "pos": "2003",
+      "artista": "Explosions in the Sky",
+      "titulo": "The Earth Is Not a Cold Dead Place",
+      "generos": [
+        "post-rock"
+      ],
+      "album": "explosions-in-the-sky-the-earth-is-not-a-cold-dead-place"
+    },
+    {
+      "pos": "1991:3",
+      "artista": "Godflesh",
+      "titulo": "Pure",
+      "generos": [
+        "post-metal"
+      ],
+      "album": "godflesh-pure"
+    },
+    {
+      "pos": "1991:4",
+      "artista": "Earth",
+      "titulo": "Extra-Capsular Extraction",
+      "generos": [
+        "post-metal"
+      ],
+      "album": "earth-extra-capsular-extraction"
+    },
+    {
+      "pos": "1991:5",
+      "artista": "Melvins",
+      "titulo": "Bullhead",
+      "generos": [
+        "post-metal"
+      ],
+      "album": "melvins-bullhead"
+    },
+    {
+      "pos": "1992",
+      "artista": "Neurosis",
+      "titulo": "Souls at Zero",
+      "generos": [
+        "post-metal"
+      ],
+      "album": "neurosis-souls-at-zero"
+    },
+    {
+      "pos": "2002",
+      "artista": "Isis",
+      "titulo": "Oceanic",
+      "generos": [
+        "post-metal"
+      ],
+      "album": "isis-oceanic"
+    },
+    {
+      "pos": "2006:1",
+      "artista": "Russian Circles",
+      "titulo": "Enter",
+      "generos": [
+        "post-metal"
+      ],
+      "album": "russian-circles-enter"
+    },
+    {
+      "pos": "2007:1",
+      "artista": "Jesu",
+      "titulo": "Conqueror",
+      "generos": [
+        "post-metal"
+      ],
+      "album": "jesu-conqueror"
+    },
+    {
+      "pos": "2007:2",
+      "artista": "Alcest",
+      "titulo": "Souvenirs d'un autre monde",
+      "generos": [
+        "post-metal"
+      ],
+      "album": "alcest-souvenirs-dun-autre-monde"
+    },
+    {
+      "pos": "2006:2",
+      "artista": "Cult of Luna",
+      "titulo": "Somewhere Along the Highway",
+      "generos": [
+        "post-metal"
+      ],
+      "album": "cult-of-luna-somewhere-along-the-highway"
+    },
+    {
+      "pos": "2009",
+      "artista": "Pelican",
+      "titulo": "What We All Come to Need",
+      "generos": [
+        "post-metal"
+      ],
+      "album": "pelican-what-we-all-come-to-need"
+    }
+  ]
+}

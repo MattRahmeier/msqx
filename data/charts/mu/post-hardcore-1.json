@@ -1,0 +1,145 @@
+{
+  "id": "post-hardcore-1",
+  "titulo": "/mu/ essential post-hardcore",
+  "indice": "post-hardcore-1",
+  "generos": [
+    "post-hardcore"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/post-hardcore-1.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-A",
+      "artista": "Moss Icon",
+      "titulo": "Complete Discography",
+      "noChart": "Moss Icon - Discography",
+      "album": "moss-icon-complete-discography"
+    },
+    {
+      "pos": "1-B",
+      "artista": "Indian Summer",
+      "titulo": "Science 1994",
+      "album": "indian-summer-science-1994"
+    },
+    {
+      "pos": "1-C",
+      "artista": "Black Eyes",
+      "titulo": "Black Eyes",
+      "noChart": "Black Eyes - ST",
+      "album": "black-eyes-black-eyes"
+    },
+    {
+      "pos": "1-D",
+      "artista": "Fugazi",
+      "titulo": "13 Songs",
+      "album": "fugazi-13-songs"
+    },
+    {
+      "pos": "2-A",
+      "artista": "At the Drive-In",
+      "titulo": "Relationship of Command",
+      "album": "at-the-drive-in-relationship-of-command"
+    },
+    {
+      "pos": "2-B",
+      "artista": "Refused",
+      "titulo": "The Shape of Punk to Come",
+      "noChart": "Refused - Shape of Punk to Come",
+      "album": "refused-the-shape-of-punk-to-come"
+    },
+    {
+      "pos": "2-C",
+      "artista": "Hüsker Dü",
+      "titulo": "Zen Arcade",
+      "noChart": "Husker Du - Zen Arcade",
+      "album": "husker-du-zen-arcade"
+    },
+    {
+      "pos": "2-D",
+      "artista": "Drive Like Jehu",
+      "titulo": "Yank Crime",
+      "album": "drive-like-jehu-yank-crime"
+    },
+    {
+      "pos": "3-A",
+      "artista": "The Nation of Ulysses",
+      "titulo": "Plays Pretty for Baby",
+      "noChart": "Nation of Ulysses - Plays Pretty for Baby",
+      "album": "the-nation-of-ulysses-plays-pretty-for-baby"
+    },
+    {
+      "pos": "3-B",
+      "artista": "NoMeansNo",
+      "titulo": "Wrong",
+      "noChart": "NomeansNo - Wong",
+      "album": "nomeansno-wrong"
+    },
+    {
+      "pos": "3-C",
+      "artista": "City of Caterpillar",
+      "titulo": "City of Caterpillar",
+      "noChart": "City of Caterpillar - ST",
+      "album": "city-of-caterpillar-city-of-caterpillar"
+    },
+    {
+      "pos": "3-D",
+      "artista": "Rites of Spring",
+      "titulo": "End on End",
+      "album": "rites-of-spring-end-on-end"
+    },
+    {
+      "pos": "4-A",
+      "artista": "The Dismemberment Plan",
+      "titulo": "The Dismemberment Plan Is Terrified",
+      "album": "the-dismemberment-plan-the-dismemberment-plan-is-terrified"
+    },
+    {
+      "pos": "4-B",
+      "artista": "The Gospel",
+      "titulo": "The Moon Is a Dead World",
+      "noChart": "Gospel - The Moon is a Dead World",
+      "album": "the-gospel-the-moon-is-a-dead-world"
+    },
+    {
+      "pos": "4-C",
+      "artista": "Big Black",
+      "titulo": "Atomizer",
+      "album": "big-black-atomizer"
+    },
+    {
+      "pos": "4-D",
+      "artista": "Unwound",
+      "titulo": "Repetition",
+      "album": "unwound-repetition"
+    },
+    {
+      "pos": "5-A",
+      "artista": "Shellac",
+      "titulo": "At Action Park",
+      "album": "shellac-at-action-park"
+    },
+    {
+      "pos": "5-B",
+      "artista": "Off Minor",
+      "titulo": "The Heat Death of the Universe",
+      "album": "off-minor-the-heat-death-of-the-universe"
+    },
+    {
+      "pos": "5-C",
+      "artista": "June of 44",
+      "titulo": "Four Great Points",
+      "album": "june-of-44-four-great-points"
+    },
+    {
+      "pos": "5-D",
+      "artista": "Rodan",
+      "titulo": "Rusty",
+      "album": "rodan-rusty"
+    }
+  ]
+}

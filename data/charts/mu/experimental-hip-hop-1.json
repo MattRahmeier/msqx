@@ -1,0 +1,171 @@
+{
+  "id": "experimental-hip-hop-1",
+  "titulo": "Essential Experimental Hip-Hop",
+  "indice": "experimental-hip-hop-1",
+  "generos": [
+    "experimental-hip-hop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/experimental-hip-hop-1.png",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Death Grips",
+      "titulo": "Exmilitary",
+      "album": "death-grips-exmilitary"
+    },
+    {
+      "pos": "A2",
+      "artista": "Why?",
+      "titulo": "Alopecia",
+      "album": "why-alopecia"
+    },
+    {
+      "pos": "A3",
+      "artista": "Cannibal Ox",
+      "titulo": "The Cold Vein",
+      "album": "cannibal-ox-the-cold-vein"
+    },
+    {
+      "pos": "A4",
+      "artista": "Shabazz Palaces",
+      "titulo": "Black Up",
+      "album": "shabazz-palaces-black-up"
+    },
+    {
+      "pos": "A5",
+      "artista": "P.O.S",
+      "titulo": "Never Better",
+      "noChart": "P.O.S. - Never Better",
+      "album": "pos-never-better"
+    },
+    {
+      "pos": "B1",
+      "artista": "cLOUDDEAD",
+      "titulo": "cLOUDDEAD",
+      "album": "clouddead-clouddead"
+    },
+    {
+      "pos": "B2",
+      "artista": "Dälek",
+      "titulo": "Absence",
+      "album": "dalek-absence"
+    },
+    {
+      "pos": "B3",
+      "artista": "Viktor Vaughn",
+      "titulo": "Vaudeville Villain",
+      "album": "viktor-vaughn-vaudeville-villain"
+    },
+    {
+      "pos": "B4",
+      "artista": "Divine Styler",
+      "titulo": "Spiral Walls Containing Autumns of Light",
+      "album": "divine-styler-spiral-walls-containing-autumns-of-light"
+    },
+    {
+      "pos": "B5",
+      "artista": "King Geedorah",
+      "titulo": "Take Me to Your Leader",
+      "album": "king-geedorah-take-me-to-your-leader"
+    },
+    {
+      "pos": "C1",
+      "artista": "Dr. Octagon",
+      "titulo": "Dr. Octagonecologyst",
+      "album": "dr-octagon-dr-octagonecologyst"
+    },
+    {
+      "pos": "C2",
+      "artista": "Deep Puddle Dynamics",
+      "titulo": "The Taste of Rain... Why Kneel?",
+      "album": "deep-puddle-dynamics-the-taste-of-rain-why-kneel"
+    },
+    {
+      "pos": "C3",
+      "artista": "Shahmen",
+      "titulo": "Enter the Circle",
+      "album": "shahmen-enter-the-circle"
+    },
+    {
+      "pos": "C4",
+      "artista": "K-the-I???",
+      "titulo": "Yesterday, Today & Tomorrow",
+      "noChart": "K-the-I - Yesterday, Today and Tomorrow",
+      "album": "k-the-i-yesterday-today-and-tomorrow"
+    },
+    {
+      "pos": "C5",
+      "artista": "Sole",
+      "titulo": "Selling Live Water",
+      "album": "sole-selling-live-water"
+    },
+    {
+      "pos": "D1",
+      "artista": "The Constructus Corporation",
+      "titulo": "The Ziggurat",
+      "album": "the-constructus-corporation-the-ziggurat"
+    },
+    {
+      "pos": "D2",
+      "artista": "Kill the Vultures",
+      "titulo": "Kill the Vultures",
+      "album": "kill-the-vultures-kill-the-vultures"
+    },
+    {
+      "pos": "D3",
+      "artista": "Company Flow",
+      "titulo": "Funcrusher Plus",
+      "album": "company-flow-funcrusher-plus"
+    },
+    {
+      "pos": "D4",
+      "artista": "Food for Animals",
+      "titulo": "Belly",
+      "album": "food-for-animals-belly"
+    },
+    {
+      "pos": "D5",
+      "artista": "Quasimoto",
+      "titulo": "The Unseen",
+      "album": "quasimoto-the-unseen"
+    },
+    {
+      "pos": "E1",
+      "artista": "Saul Williams",
+      "titulo": "Amethyst Rock Star",
+      "album": "saul-williams-amethyst-rock-star"
+    },
+    {
+      "pos": "E2",
+      "artista": "Beastie Boys",
+      "titulo": "Paul's Boutique",
+      "album": "beastie-boys-pauls-boutique"
+    },
+    {
+      "pos": "E3",
+      "artista": "De La Soul",
+      "titulo": "3 Feet High and Rising",
+      "noChart": "De La Soul - 3 Foot High and Rising",
+      "album": "de-la-soul-3-feet-high-and-rising"
+    },
+    {
+      "pos": "E4",
+      "artista": "Themselves",
+      "titulo": "The No Music",
+      "album": "themselves-the-no-music"
+    },
+    {
+      "pos": "E5",
+      "artista": "Eyedea & Abilities",
+      "titulo": "By the Throat",
+      "noChart": "Eyedea and Abilities - By the Throat",
+      "album": "eyedea-and-abilities-by-the-throat"
+    }
+  ]
+}

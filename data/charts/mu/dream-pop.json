@@ -1,0 +1,114 @@
+{
+  "id": "dream-pop",
+  "titulo": "/mu/ essential dream pop 2020 -ver",
+  "indice": "dream-pop",
+  "generos": [
+    "dream-pop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/dream-pop.png",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Cocteau Twins",
+      "titulo": "Treasure",
+      "album": "cocteau-twins-treasure"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Julee Cruise",
+      "titulo": "Floating into the Night",
+      "album": "julee-cruise-floating-into-the-night"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Beach House",
+      "titulo": "Teen Dream",
+      "album": "beach-house-teen-dream"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Cocteau Twins",
+      "titulo": "Heaven or Las Vegas",
+      "noChart": "Cocteau Twins - Heaven Or Las Vegas (Remastered)",
+      "album": "cocteau-twins-heaven-or-las-vegas"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Beach House",
+      "titulo": "Bloom",
+      "album": "beach-house-bloom"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Mazzy Star",
+      "titulo": "So Tonight That I Might See",
+      "album": "mazzy-star-so-tonight-that-i-might-see"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Broadcast",
+      "titulo": "Tender Buttons",
+      "album": "broadcast-tender-buttons"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Grouper",
+      "titulo": "Dragging a Dead Deer Up a Hill",
+      "album": "grouper-dragging-a-dead-deer-up-a-hill"
+    },
+    {
+      "pos": "3-1",
+      "artista": "This Mortal Coil",
+      "titulo": "It'll End in Tears",
+      "album": "this-mortal-coil-itll-end-in-tears"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Melody's Echo Chamber",
+      "titulo": "Melody's Echo Chamber",
+      "album": "melodys-echo-chamber-melodys-echo-chamber"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Lush",
+      "titulo": "Gala",
+      "album": "lush-gala"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Chromatics",
+      "titulo": "Kill for Love",
+      "album": "chromatics-kill-for-love"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Low",
+      "titulo": "I Could Live in Hope",
+      "album": "low-i-could-live-in-hope"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Grouper",
+      "titulo": "Ruins",
+      "album": "grouper-ruins"
+    },
+    {
+      "pos": "4-3",
+      "artista": "The Sundays",
+      "titulo": "Reading, Writing and Arithmetic",
+      "album": "the-sundays-reading-writing-and-arithmetic"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Weyes Blood",
+      "titulo": "Titanic Rising",
+      "album": "weyes-blood-titanic-rising"
+    }
+  ]
+}

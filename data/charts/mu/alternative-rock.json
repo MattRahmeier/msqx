@@ -1,0 +1,312 @@
+{
+  "id": "alternative-rock",
+  "titulo": "Essential /mu/ Alternative Rock (v1.1)",
+  "indice": "alternative-rock",
+  "generos": [
+    "alternative-rock"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/alternative-rock.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "capas identificadas pela imagem (o chart não tem lista escrita); capas não identificadas ficaram com título nulo",
+    "status": "revisar"
+  },
+  "nota": "Três blocos: 80s, 90s e 00s Alternative Rock (\"pos\" começa com 80, 90 ou 00). Seis capas não identificadas pela imagem ficaram de fora (80-2, 80-12, 90-15, 00-8, 00-12, 00-13).",
+  "albuns": [
+    {
+      "pos": "80-1",
+      "artista": "The Replacements",
+      "titulo": "Let It Be",
+      "album": "the-replacements-let-it-be"
+    },
+    {
+      "pos": "80-3",
+      "artista": "R.E.M.",
+      "titulo": "Murmur",
+      "album": "rem-murmur"
+    },
+    {
+      "pos": "80-4",
+      "artista": "The Feelies",
+      "titulo": "Crazy Rhythms",
+      "album": "the-feelies-crazy-rhythms"
+    },
+    {
+      "pos": "80-5",
+      "artista": "Hüsker Dü",
+      "titulo": "Zen Arcade",
+      "album": "husker-du-zen-arcade"
+    },
+    {
+      "pos": "80-6",
+      "artista": "Siouxsie and the Banshees",
+      "titulo": "Tinderbox",
+      "album": "siouxsie-and-the-banshees-tinderbox"
+    },
+    {
+      "pos": "80-7",
+      "artista": "The Cure",
+      "titulo": "Kiss Me, Kiss Me, Kiss Me",
+      "album": "the-cure-kiss-me-kiss-me-kiss-me"
+    },
+    {
+      "pos": "80-8",
+      "artista": "The Jesus and Mary Chain",
+      "titulo": "Psychocandy",
+      "album": "the-jesus-and-mary-chain-psychocandy"
+    },
+    {
+      "pos": "80-9",
+      "artista": "Pixies",
+      "titulo": "Doolittle",
+      "album": "pixies-doolittle"
+    },
+    {
+      "pos": "80-10",
+      "artista": "The Smiths",
+      "titulo": "The Queen Is Dead",
+      "album": "the-smiths-the-queen-is-dead"
+    },
+    {
+      "pos": "80-11",
+      "artista": "Minutemen",
+      "titulo": "Double Nickels on the Dime",
+      "album": "minutemen-double-nickels-on-the-dime"
+    },
+    {
+      "pos": "80-13",
+      "artista": "Sonic Youth",
+      "titulo": "Daydream Nation",
+      "album": "sonic-youth-daydream-nation"
+    },
+    {
+      "pos": "80-14",
+      "artista": "Big Black",
+      "titulo": "Songs About Fucking",
+      "album": "big-black-songs-about-fucking"
+    },
+    {
+      "pos": "80-15",
+      "artista": "Dinosaur Jr.",
+      "titulo": "You're Living All Over Me",
+      "album": "dinosaur-jr-youre-living-all-over-me"
+    },
+    {
+      "pos": "90-1",
+      "artista": "Radiohead",
+      "titulo": "OK Computer",
+      "album": "radiohead-ok-computer"
+    },
+    {
+      "pos": "90-2",
+      "artista": "The Smashing Pumpkins",
+      "titulo": "Siamese Dream",
+      "album": "the-smashing-pumpkins-siamese-dream"
+    },
+    {
+      "pos": "90-3",
+      "artista": "Yo La Tengo",
+      "titulo": "I Can Hear the Heart Beating as One",
+      "album": "yo-la-tengo-i-can-hear-the-heart-beating-as-one"
+    },
+    {
+      "pos": "90-4",
+      "artista": "The Jesus Lizard",
+      "titulo": "Goat",
+      "album": "the-jesus-lizard-goat"
+    },
+    {
+      "pos": "90-5",
+      "artista": "Primal Scream",
+      "titulo": "Screamadelica",
+      "album": "primal-scream-screamadelica"
+    },
+    {
+      "pos": "90-6",
+      "artista": "Teenage Fanclub",
+      "titulo": "Bandwagonesque",
+      "album": "teenage-fanclub-bandwagonesque"
+    },
+    {
+      "pos": "90-7",
+      "artista": "Jane's Addiction",
+      "titulo": "Ritual de lo habitual",
+      "album": "janes-addiction-ritual-de-lo-habitual"
+    },
+    {
+      "pos": "90-8",
+      "artista": "Sonic Youth",
+      "titulo": "Dirty",
+      "album": "sonic-youth-dirty"
+    },
+    {
+      "pos": "90-9",
+      "artista": "Built to Spill",
+      "titulo": "Perfect from Now On",
+      "album": "built-to-spill-perfect-from-now-on"
+    },
+    {
+      "pos": "90-10",
+      "artista": "Pavement",
+      "titulo": "Crooked Rain, Crooked Rain",
+      "album": "pavement-crooked-rain-crooked-rain"
+    },
+    {
+      "pos": "90-11",
+      "artista": "Morrissey",
+      "titulo": "Vauxhall and I",
+      "album": "morrissey-vauxhall-and-i"
+    },
+    {
+      "pos": "90-12",
+      "artista": "Modest Mouse",
+      "titulo": "The Lonesome Crowded West",
+      "album": "modest-mouse-the-lonesome-crowded-west"
+    },
+    {
+      "pos": "90-13",
+      "artista": "R.E.M.",
+      "titulo": "Automatic for the People",
+      "album": "rem-automatic-for-the-people"
+    },
+    {
+      "pos": "90-14",
+      "artista": "Manic Street Preachers",
+      "titulo": "The Holy Bible",
+      "album": "manic-street-preachers-the-holy-bible"
+    },
+    {
+      "pos": "90-16",
+      "artista": "Wilco",
+      "titulo": "Summerteeth",
+      "album": "wilco-summerteeth"
+    },
+    {
+      "pos": "90-17",
+      "artista": "PJ Harvey",
+      "titulo": "Rid of Me",
+      "album": "pj-harvey-rid-of-me"
+    },
+    {
+      "pos": "90-18",
+      "artista": "Beck",
+      "titulo": "Odelay",
+      "album": "beck-odelay"
+    },
+    {
+      "pos": "90-19",
+      "artista": "The Flaming Lips",
+      "titulo": "The Soft Bulletin",
+      "album": "the-flaming-lips-the-soft-bulletin"
+    },
+    {
+      "pos": "90-20",
+      "artista": "Weezer",
+      "titulo": "Pinkerton",
+      "album": "weezer-pinkerton"
+    },
+    {
+      "pos": "90-21",
+      "artista": "Blur",
+      "titulo": "Blur",
+      "album": "blur-blur"
+    },
+    {
+      "pos": "90-22",
+      "artista": "The Breeders",
+      "titulo": "Last Splash",
+      "album": "the-breeders-last-splash"
+    },
+    {
+      "pos": "90-23",
+      "artista": "Nirvana",
+      "titulo": "In Utero",
+      "album": "nirvana-in-utero"
+    },
+    {
+      "pos": "90-24",
+      "artista": "The Stone Roses",
+      "titulo": "The Stone Roses",
+      "album": "the-stone-roses-the-stone-roses"
+    },
+    {
+      "pos": "90-25",
+      "artista": "Pulp",
+      "titulo": "Different Class",
+      "album": "pulp-different-class"
+    },
+    {
+      "pos": "00-1",
+      "artista": "Broken Social Scene",
+      "titulo": "You Forgot It in People",
+      "album": "broken-social-scene-you-forgot-it-in-people"
+    },
+    {
+      "pos": "00-2",
+      "artista": "Wilco",
+      "titulo": "Yankee Hotel Foxtrot",
+      "album": "wilco-yankee-hotel-foxtrot"
+    },
+    {
+      "pos": "00-3",
+      "artista": "The White Stripes",
+      "titulo": "White Blood Cells",
+      "album": "the-white-stripes-white-blood-cells"
+    },
+    {
+      "pos": "00-4",
+      "artista": "Modest Mouse",
+      "titulo": "The Moon & Antarctica",
+      "album": "modest-mouse-the-moon-and-antarctica"
+    },
+    {
+      "pos": "00-5",
+      "artista": "The Flaming Lips",
+      "titulo": "Yoshimi Battles the Pink Robots",
+      "album": "the-flaming-lips-yoshimi-battles-the-pink-robots"
+    },
+    {
+      "pos": "00-6",
+      "artista": "Primal Scream",
+      "titulo": "XTRMNTR",
+      "album": "primal-scream-xtrmntr"
+    },
+    {
+      "pos": "00-7",
+      "artista": "Radiohead",
+      "titulo": "Kid A",
+      "album": "radiohead-kid-a"
+    },
+    {
+      "pos": "00-9",
+      "artista": "Interpol",
+      "titulo": "Turn On the Bright Lights",
+      "album": "interpol-turn-on-the-bright-lights"
+    },
+    {
+      "pos": "00-10",
+      "artista": "The Strokes",
+      "titulo": "Is This It",
+      "album": "the-strokes-is-this-it"
+    },
+    {
+      "pos": "00-11",
+      "artista": "Nick Cave and the Bad Seeds",
+      "titulo": "Dig, Lazarus, Dig!!!",
+      "album": "nick-cave-and-the-bad-seeds-dig-lazarus-dig"
+    },
+    {
+      "pos": "00-14",
+      "artista": "Gorillaz",
+      "titulo": "Gorillaz",
+      "album": "gorillaz-gorillaz"
+    },
+    {
+      "pos": "00-15",
+      "artista": "Franz Ferdinand",
+      "titulo": "Franz Ferdinand",
+      "album": "franz-ferdinand-franz-ferdinand"
+    }
+  ]
+}

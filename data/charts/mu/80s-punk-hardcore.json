@@ -1,0 +1,259 @@
+{
+  "id": "80s-punk-hardcore",
+  "titulo": "/mu/'s essential 80's punk/hardcore",
+  "indice": "80s-punk-hardcore",
+  "generos": [
+    "hardcore-punk"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/80s-punk-hardcore.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Black Flag",
+      "titulo": "The First Four Years",
+      "album": "black-flag-the-first-four-years"
+    },
+    {
+      "pos": "A2",
+      "artista": "Black Flag",
+      "titulo": "Damaged",
+      "album": "black-flag-damaged"
+    },
+    {
+      "pos": "A3",
+      "artista": "Black Flag",
+      "titulo": "My War",
+      "album": "black-flag-my-war"
+    },
+    {
+      "pos": "A4",
+      "artista": "Fang",
+      "titulo": "Landshark! / Where the Wild Things Are",
+      "noChart": "Fang – Landshark/Where the Wild Things Are",
+      "album": "fang-landshark-where-the-wild-things-are"
+    },
+    {
+      "pos": "A5",
+      "artista": "Bad Brains",
+      "titulo": "Bad Brains",
+      "noChart": "Bad Brains – s/t",
+      "album": "bad-brains-bad-brains"
+    },
+    {
+      "pos": "A6",
+      "artista": "Adolescents",
+      "titulo": "Adolescents",
+      "noChart": "Adolescents – s/t",
+      "album": "adolescents-adolescents"
+    },
+    {
+      "pos": "A7",
+      "artista": "Void / The Faith",
+      "titulo": "Faith / Void Split",
+      "noChart": "Void / The Faith – s/t split",
+      "album": "void-the-faith-faith-void-split"
+    },
+    {
+      "pos": "A8",
+      "artista": "The Dead Milkmen",
+      "titulo": "Big Lizard in My Backyard",
+      "noChart": "Dead Milkmen – Big Lizard in My Backyard",
+      "album": "the-dead-milkmen-big-lizard-in-my-backyard"
+    },
+    {
+      "pos": "B1",
+      "artista": "Cro-Mags",
+      "titulo": "The Age of Quarrel",
+      "album": "cro-mags-the-age-of-quarrel"
+    },
+    {
+      "pos": "B2",
+      "artista": "Minor Threat",
+      "titulo": "Complete Discography",
+      "album": "minor-threat-complete-discography"
+    },
+    {
+      "pos": "B3",
+      "artista": "Dead Kennedys",
+      "titulo": "Fresh Fruit for Rotting Vegetables",
+      "noChart": "Dead Kennedys – Fresh Fruit for Rotten Vegetables",
+      "album": "dead-kennedys-fresh-fruit-for-rotting-vegetables"
+    },
+    {
+      "pos": "B4",
+      "artista": "Dead Kennedys",
+      "titulo": "Plastic Surgery Disasters",
+      "album": "dead-kennedys-plastic-surgery-disasters"
+    },
+    {
+      "pos": "B5",
+      "artista": "Circle Jerks",
+      "titulo": "Group Sex",
+      "album": "circle-jerks-group-sex"
+    },
+    {
+      "pos": "B6",
+      "artista": "Minutemen",
+      "titulo": "The Politics of Time",
+      "album": "minutemen-the-politics-of-time"
+    },
+    {
+      "pos": "B7",
+      "artista": "Bad Religion",
+      "titulo": "Suffer",
+      "album": "bad-religion-suffer"
+    },
+    {
+      "pos": "B8",
+      "artista": "Bad Religion",
+      "titulo": "No Control",
+      "album": "bad-religion-no-control"
+    },
+    {
+      "pos": "C1",
+      "artista": "Agent Orange",
+      "titulo": "Living in Darkness",
+      "album": "agent-orange-living-in-darkness"
+    },
+    {
+      "pos": "C2",
+      "artista": "The Adicts",
+      "titulo": "Songs of Praise",
+      "album": "the-adicts-songs-of-praise"
+    },
+    {
+      "pos": "C3",
+      "artista": "Hüsker Dü",
+      "titulo": "Everything Falls Apart and More",
+      "noChart": "Husker Du – Everything Falls Apart and More",
+      "album": "husker-du-everything-falls-apart-and-more"
+    },
+    {
+      "pos": "C4",
+      "artista": "Hüsker Dü",
+      "titulo": "Zen Arcade",
+      "noChart": "Husker Du – Zen Arcade",
+      "album": "husker-du-zen-arcade"
+    },
+    {
+      "pos": "C5",
+      "artista": "Subhumans",
+      "titulo": "The Day the Country Died",
+      "album": "subhumans-the-day-the-country-died"
+    },
+    {
+      "pos": "C6",
+      "artista": "Fear",
+      "titulo": "The Record",
+      "noChart": "FEAR – The Record",
+      "album": "fear-the-record"
+    },
+    {
+      "pos": "C7",
+      "artista": "X",
+      "titulo": "Los Angeles",
+      "album": "x-los-angeles"
+    },
+    {
+      "pos": "C8",
+      "artista": "Agnostic Front",
+      "titulo": "Victim in Pain",
+      "album": "agnostic-front-victim-in-pain"
+    },
+    {
+      "pos": "D1",
+      "artista": "Misfits",
+      "titulo": "Earth A.D.",
+      "noChart": "The Misfits – Earth AD",
+      "album": "misfits-earth-ad"
+    },
+    {
+      "pos": "D2",
+      "artista": "Descendents",
+      "titulo": "Milo Goes to College",
+      "noChart": "The Descendents – Milo Goes to College",
+      "album": "descendents-milo-goes-to-college"
+    },
+    {
+      "pos": "D3",
+      "artista": "Social Distortion",
+      "titulo": "Mommy's Little Monster",
+      "album": "social-distortion-mommys-little-monster"
+    },
+    {
+      "pos": "D4",
+      "artista": "The Gun Club",
+      "titulo": "Fire of Love",
+      "album": "the-gun-club-fire-of-love"
+    },
+    {
+      "pos": "D5",
+      "artista": "Neurosis",
+      "titulo": "Pain of Mind",
+      "album": "neurosis-pain-of-mind"
+    },
+    {
+      "pos": "D6",
+      "artista": "Negative Approach",
+      "titulo": "Negative Approach",
+      "noChart": "Negative Approach – s/t",
+      "album": "negative-approach-negative-approach"
+    },
+    {
+      "pos": "D7",
+      "artista": "Discharge",
+      "titulo": "Why",
+      "album": "discharge-why"
+    },
+    {
+      "pos": "D8",
+      "artista": "Poison Idea",
+      "titulo": "Pick Your King",
+      "album": "poison-idea-pick-your-king"
+    },
+    {
+      "pos": "E1",
+      "artista": "Melvins",
+      "titulo": "Mangled Demos from 1983",
+      "noChart": "Melvins – Mangled Demos",
+      "album": "melvins-mangled-demos-from-1983"
+    },
+    {
+      "pos": "E2",
+      "artista": "Meat Puppets",
+      "titulo": "Meat Puppets",
+      "noChart": "Meat Puppets – s/t",
+      "album": "meat-puppets-meat-puppets"
+    },
+    {
+      "pos": "E3",
+      "artista": "Screeching Weasel",
+      "titulo": "Boogadaboogadaboogada!",
+      "album": "screeching-weasel-boogadaboogadaboogada"
+    },
+    {
+      "pos": "E4",
+      "artista": "Rites of Spring",
+      "titulo": "End on End",
+      "album": "rites-of-spring-end-on-end"
+    },
+    {
+      "pos": "E5",
+      "artista": "Dag Nasty",
+      "titulo": "Can I Say",
+      "album": "dag-nasty-can-i-say"
+    },
+    {
+      "pos": "E6",
+      "artista": "Minutemen",
+      "titulo": "Double Nickels on the Dime",
+      "album": "minutemen-double-nickels-on-the-dime"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "britpop",
+  "titulo": "/mu/ Essential Britpop",
+  "indice": "britpop",
+  "generos": [
+    "britpop"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/britpop.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "O chart tem três blocos: Britpop, Pré-Britpop e Pós-Britpop (\"pos\" começa com B, PRE ou POS).",
+  "albuns": [
+    {
+      "pos": "B1",
+      "artista": "Blur",
+      "titulo": "Modern Life Is Rubbish",
+      "album": "blur-modern-life-is-rubbish"
+    },
+    {
+      "pos": "B2",
+      "artista": "Blur",
+      "titulo": "Parklife",
+      "album": "blur-parklife"
+    },
+    {
+      "pos": "B3",
+      "artista": "Pulp",
+      "titulo": "His 'n' Hers",
+      "noChart": "Pulp - His N Hers",
+      "album": "pulp-his-n-hers"
+    },
+    {
+      "pos": "B4",
+      "artista": "Pulp",
+      "titulo": "Different Class",
+      "album": "pulp-different-class"
+    },
+    {
+      "pos": "B5",
+      "artista": "Supergrass",
+      "titulo": "I Should Coco",
+      "album": "supergrass-i-should-coco"
+    },
+    {
+      "pos": "B6",
+      "artista": "Suede",
+      "titulo": "Suede",
+      "album": "suede-suede"
+    },
+    {
+      "pos": "B7",
+      "artista": "Suede",
+      "titulo": "Coming Up",
+      "album": "suede-coming-up"
+    },
+    {
+      "pos": "B8",
+      "artista": "Suede",
+      "titulo": "Dog Man Star",
+      "album": "suede-dog-man-star"
+    },
+    {
+      "pos": "B9",
+      "artista": "The Verve",
+      "titulo": "Urban Hymns",
+      "album": "the-verve-urban-hymns"
+    },
+    {
+      "pos": "B10",
+      "artista": "Cast",
+      "titulo": "All Change",
+      "album": "cast-all-change"
+    },
+    {
+      "pos": "B11",
+      "artista": "Oasis",
+      "titulo": "Definitely Maybe",
+      "album": "oasis-definitely-maybe"
+    },
+    {
+      "pos": "B12",
+      "artista": "Oasis",
+      "titulo": "(What's the Story) Morning Glory?",
+      "album": "oasis-whats-the-story-morning-glory"
+    },
+    {
+      "pos": "B13",
+      "artista": "Oasis",
+      "titulo": "The Masterplan",
+      "album": "oasis-the-masterplan"
+    },
+    {
+      "pos": "B14",
+      "artista": "The La's",
+      "titulo": "The La's",
+      "album": "the-las-the-las"
+    },
+    {
+      "pos": "B15",
+      "artista": "Elastica",
+      "titulo": "Elastica",
+      "album": "elastica-elastica"
+    },
+    {
+      "pos": "B16",
+      "artista": "The Charlatans",
+      "titulo": "Up to Our Hips",
+      "album": "the-charlatans-up-to-our-hips"
+    },
+    {
+      "pos": "B17",
+      "artista": "Ocean Colour Scene",
+      "titulo": "Moseley Shoals",
+      "noChart": "Ocean Colour Scene - Mosely Shoals",
+      "album": "ocean-colour-scene-moseley-shoals"
+    },
+    {
+      "pos": "B18",
+      "artista": "Manic Street Preachers",
+      "titulo": "Everything Must Go",
+      "album": "manic-street-preachers-everything-must-go"
+    },
+    {
+      "pos": "B19",
+      "artista": "Ash",
+      "titulo": "1977",
+      "album": "ash-1977"
+    },
+    {
+      "pos": "PRE1",
+      "artista": "Happy Mondays",
+      "titulo": "Pills 'n' Thrills and Bellyaches",
+      "noChart": "Happy Mondays - Pills N Thrills and Bellyaches",
+      "album": "happy-mondays-pills-n-thrills-and-bellyaches"
+    },
+    {
+      "pos": "PRE2",
+      "artista": "The Stone Roses",
+      "titulo": "The Stone Roses",
+      "album": "the-stone-roses-the-stone-roses"
+    },
+    {
+      "pos": "PRE3",
+      "artista": "XTC",
+      "titulo": "Skylarking",
+      "album": "xtc-skylarking"
+    },
+    {
+      "pos": "PRE4",
+      "artista": "The Verve",
+      "titulo": "A Northern Soul",
+      "album": "the-verve-a-northern-soul"
+    },
+    {
+      "pos": "PRE5",
+      "artista": "The Smiths",
+      "titulo": "The Queen Is Dead",
+      "album": "the-smiths-the-queen-is-dead"
+    },
+    {
+      "pos": "PRE6",
+      "artista": "Primal Scream",
+      "titulo": "Screamadelica",
+      "album": "primal-scream-screamadelica"
+    },
+    {
+      "pos": "PRE7",
+      "artista": "Radiohead",
+      "titulo": "The Bends",
+      "album": "radiohead-the-bends"
+    },
+    {
+      "pos": "POS1",
+      "artista": "Blur",
+      "titulo": "Blur",
+      "album": "blur-blur"
+    },
+    {
+      "pos": "POS2",
+      "artista": "Blur",
+      "titulo": "13",
+      "album": "blur-13"
+    },
+    {
+      "pos": "POS3",
+      "artista": "Coldplay",
+      "titulo": "Parachutes",
+      "album": "coldplay-parachutes"
+    },
+    {
+      "pos": "POS4",
+      "artista": "Travis",
+      "titulo": "The Man Who",
+      "album": "travis-the-man-who"
+    },
+    {
+      "pos": "POS5",
+      "artista": "Pulp",
+      "titulo": "This Is Hardcore",
+      "album": "pulp-this-is-hardcore"
+    },
+    {
+      "pos": "POS6",
+      "artista": "Catatonia",
+      "titulo": "International Velvet",
+      "album": "catatonia-international-velvet"
+    },
+    {
+      "pos": "POS7",
+      "artista": "Graham Coxon",
+      "titulo": "The Sky Is Too High",
+      "album": "graham-coxon-the-sky-is-too-high"
+    }
+  ]
+}

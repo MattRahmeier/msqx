@@ -1,0 +1,168 @@
+{
+  "id": "chillwave-1",
+  "titulo": "/mu/ Essential Chillwave",
+  "indice": "chillwave-1",
+  "generos": [
+    "chillwave"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/chillwave-1.jpg",
+  "transcricao": {
+    "data": "2026-10-28",
+    "metodo": "lista escrita no próprio chart",
+    "status": "revisar"
+  },
+  "nota": "Linhas: a paradigmas, b clássicos, c haze, d progressive/downtempo, e experimental. O texto do chart sobre o estilo não é guardado.",
+  "albuns": [
+    {
+      "pos": "a1",
+      "artista": "Neon Indian",
+      "titulo": "Psychic Chasms",
+      "album": "neon-indian-psychic-chasms"
+    },
+    {
+      "pos": "a2",
+      "artista": "Toro y Moi",
+      "titulo": "Causers of This",
+      "album": "toro-y-moi-causers-of-this"
+    },
+    {
+      "pos": "a3",
+      "artista": "Washed Out",
+      "titulo": "Life of Leisure",
+      "album": "washed-out-life-of-leisure"
+    },
+    {
+      "pos": "a4",
+      "artista": "Small Black",
+      "titulo": "Small Black",
+      "album": "small-black-small-black"
+    },
+    {
+      "pos": "a5",
+      "artista": "Brothertiger",
+      "titulo": "Golden Years",
+      "album": "brothertiger-golden-years"
+    },
+    {
+      "pos": "b1",
+      "artista": "Com Truise",
+      "titulo": "Cyanide Sisters",
+      "album": "com-truise-cyanide-sisters"
+    },
+    {
+      "pos": "b2",
+      "artista": "Millionyoung",
+      "titulo": "Sundreamm",
+      "album": "millionyoung-sundreamm"
+    },
+    {
+      "pos": "b3",
+      "artista": "Memory Cassette",
+      "titulo": "Call & Response",
+      "album": "memory-cassette-call-and-response"
+    },
+    {
+      "pos": "b4",
+      "artista": "Casa del Mirto",
+      "titulo": "1979",
+      "album": "casa-del-mirto-1979"
+    },
+    {
+      "pos": "b5",
+      "artista": "Painted Palms",
+      "titulo": "Canopy",
+      "album": "painted-palms-canopy"
+    },
+    {
+      "pos": "c1",
+      "artista": "Panda Bear",
+      "titulo": "Person Pitch",
+      "album": "panda-bear-person-pitch"
+    },
+    {
+      "pos": "c2",
+      "artista": "Blackbird Blackbird",
+      "titulo": "Summer Heart",
+      "album": "blackbird-blackbird-summer-heart"
+    },
+    {
+      "pos": "c3",
+      "artista": "Dreams",
+      "titulo": "Forgotten Thoughts",
+      "album": "dreams-forgotten-thoughts"
+    },
+    {
+      "pos": "c4",
+      "artista": "Slow Magic",
+      "titulo": "▲",
+      "album": "slow-magic"
+    },
+    {
+      "pos": "c5",
+      "artista": "Mathemagic",
+      "titulo": "Mathemagic",
+      "album": "mathemagic-mathemagic"
+    },
+    {
+      "pos": "d1",
+      "artista": "Memory Tapes",
+      "titulo": "Seek Magic",
+      "album": "memory-tapes-seek-magic"
+    },
+    {
+      "pos": "d2",
+      "artista": "Gold Panda",
+      "titulo": "Lucky Shiner",
+      "album": "gold-panda-lucky-shiner"
+    },
+    {
+      "pos": "d3",
+      "artista": "Tropics",
+      "titulo": "Nautical Clamor",
+      "album": "tropics-nautical-clamor"
+    },
+    {
+      "pos": "d4",
+      "artista": "Coyote Clean Up",
+      "titulo": "Double Trouble Doo Doo Bubble",
+      "album": "coyote-clean-up-double-trouble-doo-doo-bubble"
+    },
+    {
+      "pos": "d5",
+      "artista": "Memoryhouse",
+      "titulo": "The Years",
+      "album": "memoryhouse-the-years"
+    },
+    {
+      "pos": "e1",
+      "artista": "Ssaliva",
+      "titulo": "Thought Has Wings",
+      "album": "ssaliva-thought-has-wings"
+    },
+    {
+      "pos": "e2",
+      "artista": "Teams",
+      "titulo": "Dxys Xff",
+      "album": "teams-dxys-xff"
+    },
+    {
+      "pos": "e3",
+      "artista": "Giraffage",
+      "titulo": "Comfort",
+      "album": "giraffage-comfort"
+    },
+    {
+      "pos": "e4",
+      "artista": "Sun Glitters",
+      "titulo": "Everything Could Be Fine",
+      "album": "sun-glitters-everything-could-be-fine"
+    },
+    {
+      "pos": "e5",
+      "artista": "Games",
+      "titulo": "That We Can Play",
+      "album": "games-that-we-can-play"
+    }
+  ]
+}
