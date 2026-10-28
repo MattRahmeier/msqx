@@ -1,6 +1,6 @@
 # Monta em build/artifact/ uma cópia do site para publicar como Artifact privado no claude.ai (acesso
 # pelo celular e pelo notebook com a conta do Claude). O Artifact aceita no máximo 511 arquivos e
-# 16 MB por arquivo, então as 692 capas viram miniaturas de 300 px empacotadas em poucos JSON (data
+# 16 MB por arquivo, então as capas viram miniaturas de 260 px empacotadas em 8 JSON (data
 # URIs), que o js/dados.js da cópia transforma em blob URLs ao carregar os álbuns. O index.html perde
 # doctype/html/head/body (o Artifact põe o seu esqueleto). O site original não muda.
 # Uso: python scripts/empacotar-artifact.py   (precisa do Pillow)
@@ -11,7 +11,7 @@ from PIL import Image
 
 RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "build" / "artifact"
-LADO, QUALIDADE, PACOTES = 300, 74, 4
+LADO, QUALIDADE, PACOTES = 260, 72, 8
 # Arquivos de data/ que o site não lê (só os scripts).
 FORA = {"correcoes.json", "notas-rym.json", "musicmap-mapa.json", "_modelo.json", ".gitkeep"}
 
@@ -19,7 +19,7 @@ if SAIDA.exists():
     shutil.rmtree(SAIDA)
 SAIDA.mkdir(parents=True)
 
-for pasta in ("css", "js", "data"):
+for pasta in ("css", "js", "data", "assets/img/autores"):
     for arq in (RAIZ / pasta).rglob("*"):
         if arq.is_file() and arq.name not in FORA:
             destino = SAIDA / arq.relative_to(RAIZ)
