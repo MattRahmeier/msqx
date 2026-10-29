@@ -261933,7 +261933,7 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/wu-wenguang-china-music-of-the-qin.jpg",
     "musicbrainz": {
       "releaseGroup": "982c0941-5e1f-44f9-943e-588137fa7e95",
       "release": "c501a333-b5ff-4249-8b80-d7ecaebe5d3f"
@@ -261969,7 +261969,8 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/982c0941-5e1f-44f9-943e-588137fa7e95"
-    }
+    },
+    "capaFonte": "imagem enviada pelo usuário"
   },
   {
     "id": "wynton-marsalis-from-the-plantation-to-the-penitentiary",
