@@ -41,7 +41,7 @@ export async function render(el, [generoId]) {
       ${arvore.map((m) => `
         <section class="mestre">
           <h2 class="mestre-nome"><a href="#/recomendados/${m.id}">${coroa}${esc(m.nome)}</a>
-            <span class="genero-meta">${[decada(m), totalMestre(m, porGenero) ? `${totalMestre(m, porGenero)} álbuns` : ""].filter(Boolean).join(" · ")}</span></h2>
+            ${totalMestre(m, porGenero) ? `<span class="genero-meta">· ${totalMestre(m, porGenero)} álbuns</span>` : ""}</h2>
           <ul class="generos">${descendentes(m).map((g) => cardGenero(g, porGenero)).join("")}</ul>
         </section>`).join("")}`;
     return;
