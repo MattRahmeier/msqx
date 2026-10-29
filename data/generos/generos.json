@@ -7031,7 +7031,13 @@
       "https://en.wikipedia.org/wiki/World_music"
     ],
     "similares": [],
-    "somArtigo": false
+    "somArtigo": false,
+    "influencias": [
+      "blues",
+      "jazz",
+      "rock",
+      "hip-hop"
+    ]
   },
   {
     "id": "afrobeat",
