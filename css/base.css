@@ -66,7 +66,6 @@ a { color: inherit; }
   font-weight: 700;
   letter-spacing: -0.02em;
 }
-.marca-sigla svg { width: 100%; height: 100%; display: block; }
 .marca-texto { font-size: var(--t-md); color: var(--texto-suave); }
 .marca-texto b { color: var(--texto); font-weight: 700; }
 
