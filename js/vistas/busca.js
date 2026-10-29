@@ -1,6 +1,6 @@
 // Pesquisa (Ache o Seu Som!) — Fase 6 (roadmap.md). Busca única por nome do álbum, artista e gênero,
-// com os resultados mudando a cada tecla. Cada palavra digitada estreita a busca e pode cair em um
-// campo diferente: "shoegaze 1991", "radiohead kid", "slowdive souvlaki".
+// com os resultados mudando a cada tecla. Cada palavra (ou, com vírgulas, cada parte: "banda, álbum,
+// gênero") estreita a busca e pode cair em um campo diferente: "radiohead kid", "slowdive, shoegaze".
 // #/busca/<termo> guarda o termo no endereço (sem recarregar a página a cada tecla).
 // Para os descritores (vindos dos descriptors do RYM) basta juntar mais um campo em `campos()`.
 import { tituloPagina } from "../componentes/titulo.js";
@@ -43,12 +43,15 @@ export async function render(el, [termoInicial = ""]) {
 
   el.innerHTML = `
     ${tituloPagina("Pesquisa")}
-    <p class="vista-sub">Procure por álbum, artista ou gênero. Combine palavras para afinar: <em>shoegaze 1991</em>, <em>radiohead kid</em>.</p>
     <form class="busca-campo" role="search" onsubmit="return false">
       <svg class="icone" aria-hidden="true"><use href="#i-busca"/></svg>
       <input type="search" id="busca-termo" name="q" placeholder="O que você quer ouvir?" autocomplete="off" spellcheck="false"
         aria-label="Pesquisar álbuns, artistas e gêneros" aria-controls="busca-resultados" value="${esc(termoInicial)}">
     </form>
+    <details class="busca-dica">
+      <summary>Como refinar a pesquisa</summary>
+      <p>Combine palavras com vírgula (,) para refinar sua pesquisa: <em>banda, álbum, gênero</em>.</p>
+    </details>
     <p class="busca-contagem" role="status" aria-live="polite"></p>
     <div id="busca-resultados" class="busca-resultados"></div>`;
 
@@ -69,7 +72,8 @@ export async function render(el, [termoInicial = ""]) {
   function buscar() {
     const termo = campo.value;
     history.replaceState(null, "", `#/busca${termo.trim() ? `/${encodeURIComponent(termo.trim())}` : ""}`);
-    const palavras = normalizar(termo).split(" ").filter(Boolean);
+    // Com vírgula, cada parte é um termo inteiro ("pink floyd, 1973"); sem vírgula, cada palavra.
+    const palavras = (termo.includes(",") ? termo.split(",").map(normalizar) : normalizar(termo).split(" ")).filter(Boolean);
 
     if (!palavras.length) {
       achados = [];
