@@ -31,7 +31,7 @@ const totalMestre = (m, porGenero) => new Set([m, ...descendentes(m)].flatMap((g
 
 export async function render(el, [generoId]) {
   const [porGenero, gen] = await Promise.all([albunsPorGenero(), generos()]);
-  const arvore = arvoreOrdenada(gen.lista);
+  const arvore = arvoreOrdenada(gen.lista, { guia: true });
   const genero = gen.porId.get(generoId);
 
   if (!genero) {
