@@ -49,7 +49,7 @@ a { color: inherit; }
   align-items: center;
   gap: var(--esp-3);
   height: 40px;
-  padding: 0 var(--esp-1);
+  padding: 0 var(--esp-2);
   text-decoration: none;
   white-space: nowrap;
 }
@@ -66,6 +66,7 @@ a { color: inherit; }
   font-weight: 700;
   letter-spacing: -0.02em;
 }
+.marca-sigla svg { width: 100%; height: 100%; display: block; }
 .marca-texto { font-size: var(--t-md); color: var(--texto-suave); }
 .marca-texto b { color: var(--texto); font-weight: 700; }
 
@@ -84,6 +85,8 @@ a { color: inherit; }
   white-space: nowrap;
   transition: background var(--transicao), color var(--transicao);
 }
+.menu a .icone { width: 24px; height: 24px; }
+/* Logo e ícones no mesmo eixo: com a barra fechada, todos centrados no trilho de 64 px */
 .menu a:hover { color: var(--texto); background: var(--superficie-2); }
 .menu a[aria-current="page"] { color: var(--texto); background: var(--superficie-2); }
 

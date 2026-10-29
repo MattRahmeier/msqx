@@ -19,7 +19,7 @@ if SAIDA.exists():
     shutil.rmtree(SAIDA)
 SAIDA.mkdir(parents=True)
 
-for pasta in ("css", "js", "data", "assets/img/autores"):
+for pasta in ("css", "js", "data", "assets/img/autores", "assets/icones"):
     for arq in (RAIZ / pasta).rglob("*"):
         if arq.is_file() and arq.name not in FORA:
             destino = SAIDA / arq.relative_to(RAIZ)
