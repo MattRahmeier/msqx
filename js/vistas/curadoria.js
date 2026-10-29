@@ -51,6 +51,35 @@ function autorHtml(a) {
     </aside>`;
 }
 
+// Guia ao lado (abaixo, no celular): o histórico de tudo o que já saiu em A Curadoria, separado por
+// tipo ("tipo" da edição: editorial, entrevista ou noticia; sem ele, editorial). O que está aberto
+// fica marcado; os tipos ainda sem publicações aparecem como "em breve".
+const TIPOS = {
+  editorial: { um: "Editorial", varios: "Editoriais" },
+  entrevista: { um: "Entrevista", varios: "Entrevistas" },
+  noticia: { um: "Notícia", varios: "Notícias" },
+};
+function arquivoHtml(publicadas, atual, porId) {
+  const grupo = (tipo) => publicadas.filter((e) => (e.tipo || "editorial") === tipo);
+  const item = (e) => {
+    const capa = porId.get(e.faixas?.[0]?.album)?.capa;
+    return `<li><a href="#/curadoria/${esc(e.id)}"${e === atual ? ' aria-current="page"' : ""}>
+      ${capa ? `<img src="${esc(capa)}" alt="" loading="lazy">` : `<span class="arquivo-sem-capa"></span>`}
+      <span><strong>${esc(e.titulo)}</strong><span>#${e.numero} · ${data(e.publicacao)}</span></span></a></li>`;
+  };
+  return `
+    <aside class="curadoria-arquivo" aria-label="Histórico de A Curadoria">
+      <h2 class="arquivo-titulo">Histórico</h2>
+      ${Object.entries(TIPOS).map(([tipo, t]) => {
+        const lista = grupo(tipo);
+        return `<section class="arquivo-grupo">
+          <h3>${t.varios} <span>${lista.length}</span></h3>
+          ${lista.length ? `<ul>${lista.map(item).join("")}</ul>` : `<p class="arquivo-vazio">Em breve.</p>`}
+        </section>`;
+      }).join("")}
+    </aside>`;
+}
+
 const ICONE_TOCAR = `<svg class="icone" aria-hidden="true" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg>`;
 const ICONE_FECHAR = `<svg class="icone" aria-hidden="true" viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="1.5"/></svg>`;
 
@@ -122,20 +151,23 @@ export async function render(el, [edicaoId]) {
     el.innerHTML = `${tituloPagina("A Curadoria")}<p class="vista-sub">Nenhuma edição publicada ainda.</p>`;
     return;
   }
-  const anteriores = publicadas.filter((e) => e !== edicao);
   el.innerHTML = `
-    ${tituloPagina("A Curadoria")}
-    <article class="curadoria">
-      <header class="curadoria-cabeca">
-        <p class="curadoria-edicao">Edição #${edicao.numero} · ${data(edicao.publicacao)}</p>
-        <h2 class="curadoria-titulo">${esc(edicao.titulo)}</h2>
-        ${edicao.autor?.nome ? `<p class="curadoria-autor">por ${esc(edicao.autor.nome)}</p>` : ""}
-      </header>
-      ${playlistHtml(edicao, porId)}
-      ${edicao.faixas.map((t, i) => faixaHtml(t, i, porId.get(t.album), gen, porId)).join("")}
-      ${autorHtml(edicao.autor)}
-    </article>
-    ${anteriores.length ? `<section class="curadoria-arquivo"><h2 class="painel-secao">Edições anteriores</h2><ul>${anteriores.map((e) => `<li><a href="#/curadoria/${esc(e.id)}">#${e.numero} · ${esc(e.titulo)} <span>${data(e.publicacao)}</span></a></li>`).join("")}</ul></section>` : ""}`;
+    <div class="curadoria-pagina">
+      ${tituloPagina("A Curadoria")}
+      <div class="curadoria-colunas">
+        <article class="curadoria">
+          <header class="curadoria-cabeca">
+            <p class="curadoria-edicao">${esc(TIPOS[edicao.tipo || "editorial"].um)} #${edicao.numero} · ${data(edicao.publicacao)}</p>
+            <h2 class="curadoria-titulo">${esc(edicao.titulo)}</h2>
+            ${edicao.autor?.nome ? `<p class="curadoria-autor">por ${esc(edicao.autor.nome)}</p>` : ""}
+          </header>
+          ${playlistHtml(edicao, porId)}
+          ${edicao.faixas.map((t, i) => faixaHtml(t, i, porId.get(t.album), gen, porId)).join("")}
+          ${autorHtml(edicao.autor)}
+        </article>
+        ${arquivoHtml(publicadas, edicao, porId)}
+      </div>
+    </div>`;
 
   const artigo = el.querySelector(".curadoria");
   ligarPainel(artigo, porId);

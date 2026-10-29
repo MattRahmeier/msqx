@@ -39,7 +39,7 @@ export function creditos(fontes) {
 // Descrição contínua do gênero: o resumo seguido de "como soa" (som — os elementos que definem o
 // som, da seção de características da Wikipédia), num só parágrafo, com as fontes embaixo.
 // `rota`: área para onde os links levam (padrão: o TrackMap).
-export function resumoGenero(genero, { rota = "cerebro" } = {}) {
+export function resumoGenero(genero, { rota = "trackmap" } = {}) {
   const partes = [[genero?.resumo, genero?.resumoLinks, genero?.resumoFonte], [genero?.som, genero?.somLinks, genero?.somFonte]].filter(([t]) => t);
   if (!partes.length) return "";
   const texto = partes.map(([t, l]) => comLinks(t, l, rota)).join(" ");

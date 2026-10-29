@@ -3,7 +3,7 @@
 
 const ROTAS = {
   inicio: () => import("./vistas/inicio.js"),
-  cerebro: () => import("./vistas/cerebro.js"),
+  trackmap: () => import("./vistas/cerebro.js"),
   curadoria: () => import("./vistas/curadoria.js"),
   recomendados: () => import("./vistas/recomendados.js"),
   busca: () => import("./vistas/busca.js"),
@@ -13,8 +13,10 @@ const PADRAO = "inicio";
 const conteudo = document.getElementById("conteudo");
 
 async function navegar() {
-  // #/cerebro/heavy-metal → rota "cerebro", parâmetros ["heavy-metal"]
+  // #/trackmap/heavy-metal → rota "trackmap", parâmetros ["heavy-metal"]
   const [rota, ...parametros] = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
+  // Endereços antigos do TrackMap (#/cerebro/…) continuam funcionando.
+  if (rota === "cerebro") return void location.replace(`#/${["trackmap", ...parametros].join("/")}`);
   if (!ROTAS[rota]) return void (location.hash = `#/${PADRAO}`);
 
   for (const a of document.querySelectorAll("[data-rota]")) {

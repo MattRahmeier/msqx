@@ -59,6 +59,7 @@ Uma edição por arquivo, nomeado `AAAA-MM-DD-<tema>.json` (data de publicação
 ```json
 {
   "id": "2026-10-28-introducoes-impactantes",
+  "tipo": "editorial",
   "numero": 1,
   "publicacao": "2026-10-28",
   "titulo": "Músicas com Introduções Impactantes",
@@ -82,6 +83,7 @@ Uma edição por arquivo, nomeado `AAAA-MM-DD-<tema>.json` (data de publicação
 - `album` aponta para uma ficha de `data/albuns/`: `node scripts/criar-fichas.js` também cria as fichas dos discos das edições que não estão em nenhum chart. Tocar na capa do player abre essa ficha.
 - `links` são os links da faixa (não do álbum): `node scripts/curadoria-faixas.js` procura no Deezer, YouTube Music, Spotify, Apple Music e Qobuz pelo álbum da ficha. Sem links da faixa, o player mostra os do álbum. "Tocar aqui" embute o vídeo da faixa no YouTube (YouTube Music da faixa; sem ele, a busca de músicas do YouTube Music). Quando o disco não está no catálogo oficial, `video: { "url": "https://www.youtube.com/watch?v=…", "nota": "upload de fã…" }` define o vídeo, só com aprovação do usuário.
 - `autor` é opcional; sem ele, a edição não mostra assinatura.
+- `tipo`: `editorial` (padrão), `entrevista` ou `noticia` — separa as publicações no "Histórico" ao lado da página.
 - `rede` usa um nome fixo (`instagram`, `x`, `bluesky`, `youtube`, `rym`, `lastfm`, `spotify`, `site`) para o site escolher o ícone.
 
 ## `data/charts/mu-essential-charts.json` (índice das Essential Charts)

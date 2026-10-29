@@ -30,21 +30,22 @@
 ## Fase 2 — Base do site
 - [x] Nome do site: **Tracklore**; área do grafo: **TrackMap** (renomeados em 26/10/2026).
 - [x] Seta de voltar à esquerda do título de cada página (`js/componentes/titulo.js`). Nas páginas de gênero do Guia: ← volta ao gênero mestre e ↑ sobe para o gênero logo acima.
-- [x] Esqueleto: `index.html`, barra lateral (vira navegação inferior no celular), tokens em `css/tokens.css`, rotas por hash em `js/app.js` (`#/cerebro`, `#/curadoria`, `#/recomendados`, `#/busca`; parâmetros extras, ex. `#/cerebro/heavy-metal`), carregamento de dados em `js/dados.js`, uma vista por área em `js/vistas/`.
+- [x] Esqueleto: `index.html`, barra lateral (vira navegação inferior no celular), tokens em `css/tokens.css`, rotas por hash em `js/app.js` (`#/trackmap`, `#/curadoria`, `#/recomendados`, `#/busca`; parâmetros extras, ex. `#/trackmap/heavy-metal`), carregamento de dados em `js/dados.js`, uma vista por área em `js/vistas/`.
 - [ ] Layout final com tema escuro refinado.
 - [x] Ícones das plataformas (sprite em `index.html`: Spotify, YouTube, Qobuz, Apple Music, Deezer, Tidal, Bandcamp).
 - [x] Componente de card de álbum (`js/componentes/card-album.js`): capa, título, artista · ano e botões só para links diretos conferidos (ícone do YouTube Music para a playlist do álbum). Em uso nas páginas de gênero do Guia de Gêneros.
 
-## Fase 3 — Visão de Cérebro (TrackMap)
+## Fase 3 — Visão de Cérebro (TrackMap; endereço `#/trackmap` desde 28/10/2026, `#/cerebro` redireciona)
 - [x] Ligações de influência do Musicmap (`scripts/buscar-musicmap.js`, mapa à mão em `data/generos/musicmap-mapa.json`): 134 gêneros mapeados, 148 influências novas além de origens e similares.
 - [x] Grafo D3 (`js/vistas/cerebro.js`): começa com os 7 mestres ligados pela linha-guia da linhagem (só as origens dos próprios mestres); clicar abre os subgêneros diretos (de novo em cada um; clicar no gênero aberto recolhe); só fica aberto o caminho até o gênero clicado, e fechar o pop-up volta aos mestres. Subgêneros saem de dentro do círculo do pai num leque virado para fora do mapa (posições fixas, com espaço para o nome; o mestre aberto empurra os vizinhos; o enquadramento mostra o leque inteiro); os gêneros não fogem do mouse e a área de toque tem no mínimo ~22 px na tela sem invadir o vizinho (28/10/2026). Cor pela profundidade: mestre preto, subgêneros em cinzas cada vez mais claros até quase branco; o gênero aberto ganha um anel. Círculos crescem com o número de subgêneros contidos, que aparece dentro ("X subgêneros" nos mestres, só o número nos subgêneros). Linhas de subgênero, origem (vai até o ancestral visível) e influência/similar; flutuação leve e afastamento do mouse (parado com "reduzir movimento"); zoom e arraste.
 - [x] Pop-up do gênero (off-white, à direita; no celular sobe de baixo): caminho, nome (coroa no mestre), década, subgêneros e álbuns, botão **"Ir para as recomendações"** com o número de álbuns do gênero (`#/recomendados/<gênero>`), resumo com fonte, chips de subgêneros, "Vem de" e "Ligado a".
-- [x] Links de gênero dentro do resumo (e os chips) navegam até o gênero citado: centraliza, expande e abre o pop-up, sem recarregar a vista; `#/cerebro/<gênero>` abre direto no gênero.
+- [x] Links de gênero dentro do resumo (e os chips) navegam até o gênero citado: centraliza, expande e abre o pop-up, sem recarregar a vista; `#/trackmap/<gênero>` abre direto no gênero.
 - [ ] Pelo menos 10 álbuns em cada gênero do mapa (28/10/2026): charts de rock, pop, metal, hip-hop e jazz transcritos ou selecionados (seleções marcadas com `transcricao.parcial`); subgêneros sem chart próprio recebem os discos pelos estilos do Wikidata/MusicBrainz (`classificar-albuns.js`). Etiquetas de estilo nos cards somam charts e estilos.
 - [ ] "Mais informações": playlist e álbuns essenciais dentro do pop-up.
 - [ ] Busca de gênero no mapa; links "Saiba mais" (RYM, Musicmap) conferidos.
 
 ## Fase 4 — A Curadoria (antes "Curadoria da Semana"; renomeada em 28/10/2026)
+- [x] Página centralizada em duas colunas: o texto e, à direita, o "Histórico" (editoriais, entrevistas e notícias, pelo campo `tipo` da edição; fixo ao rolar). Abaixo de 1100 px, o histórico vai para baixo do texto.
 - [x] Edições em formato de editorial sobre faixas: atalhos para cada faixa, "player" com a capa (abre a ficha), nome da faixa, links para ouvir em outra aba e "Tocar aqui" (player do Spotify/YouTube embutido), e o texto do autor. Horizontal no computador, vertical no celular.
 - [x] Edição #1 "Músicas com Introduções Impactantes" (editorial do Notion, 28/10/2026).
 - [x] Carregar a edição mais recente por data de `data/curadorias/` + arquivo de edições anteriores.

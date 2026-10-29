@@ -95,7 +95,10 @@ a { color: inherit; }
 .topo-mobile { display: none; }
 
 /* Conteúdo */
-main { margin-left: var(--largura-trilho); min-width: 0; padding: var(--esp-8); outline: none; }
+/* O conteúdo começa depois da largura da barra ABERTA (ela se abre por cima ao passar o mouse e nunca
+   cobre o texto); em telas largas a sobra da direita fica igual à da esquerda, centralizando a página. */
+main { --recuo: calc(var(--largura-barra) - var(--largura-trilho) + var(--esp-6)); margin-left: var(--largura-trilho); min-width: 0; padding: var(--esp-8) var(--esp-8) var(--esp-8) var(--recuo); outline: none; }
+@media (min-width: 1280px) { main { padding-right: var(--recuo); } }
 
 .vista-titulo { display: flex; align-items: center; gap: var(--esp-3); font-size: var(--t-xl); font-weight: 700; margin: 0 0 var(--esp-2); letter-spacing: -0.02em; }
 
@@ -390,8 +393,9 @@ body.com-painel { overflow: hidden; }
 
 /* TrackMap (js/vistas/cerebro.js): o mapa ocupa a área toda; título e legenda flutuam por cima,
    o pop-up do gênero fica à direita sem cobrir o resto do mapa (no celular, sobe de baixo). */
-.mapa { position: relative; height: 100dvh; margin: calc(-1 * var(--esp-8)); overflow: hidden; }
-.mapa-topo { position: absolute; top: var(--esp-6); left: var(--esp-6); z-index: 2; pointer-events: none; padding: var(--esp-2) var(--esp-4) var(--esp-3); border-radius: var(--raio-lg); background: rgba(20, 20, 20, 0.82); backdrop-filter: blur(6px); }
+.mapa { position: relative; height: 100dvh; margin: calc(-1 * var(--esp-8)); margin-left: calc(-1 * var(--recuo)); overflow: hidden; }
+@media (min-width: 1280px) { .mapa { margin-right: calc(-1 * var(--recuo)); } }
+.mapa-topo { position: absolute; top: var(--esp-6); left: var(--recuo); z-index: 2; pointer-events: none; padding: var(--esp-2) var(--esp-4) var(--esp-3); border-radius: var(--raio-lg); background: rgba(20, 20, 20, 0.82); backdrop-filter: blur(6px); }
 .mapa-topo > * { pointer-events: auto; }
 .mapa-topo .vista-sub { margin: 0; font-size: var(--t-sm); }
 .mapa-svg { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
@@ -432,7 +436,7 @@ body.com-painel { overflow: hidden; }
 .no.atual .no-nome { fill: var(--texto); font-weight: 700; }
 .mapa-svg.com-foco .no:not(.perto) { opacity: 0.45; }
 
-.mapa-legenda { position: absolute; left: var(--esp-6); bottom: var(--esp-4); padding: var(--esp-2) var(--esp-3); border-radius: var(--raio); background: rgba(20, 20, 20, 0.82); backdrop-filter: blur(6px); z-index: 2; list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--esp-2) var(--esp-4); font-size: var(--t-xs); color: var(--texto-fraco); pointer-events: none; }
+.mapa-legenda { position: absolute; left: var(--recuo); bottom: var(--esp-4); padding: var(--esp-2) var(--esp-3); border-radius: var(--raio); background: rgba(20, 20, 20, 0.82); backdrop-filter: blur(6px); z-index: 2; list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--esp-2) var(--esp-4); font-size: var(--t-xs); color: var(--texto-fraco); pointer-events: none; }
 .mapa-legenda li { display: flex; align-items: center; gap: var(--esp-2); }
 .mapa-legenda svg { width: 28px; height: 8px; overflow: visible; }
 .mapa-legenda .linha { opacity: 1; animation: none; }
@@ -558,7 +562,10 @@ body.com-painel { overflow: hidden; }
 }
 
 /* ---------- A Curadoria (js/vistas/curadoria.js) ---------- */
-.curadoria { max-width: 960px; }
+.curadoria-pagina { max-width: 1240px; margin: 0 auto; }
+/* Duas colunas: o texto e, à direita, o histórico (fixo ao rolar); no celular, um embaixo do outro */
+.curadoria-colunas { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: var(--esp-8); align-items: start; }
+.curadoria { min-width: 0; max-width: 860px; }
 .curadoria-cabeca { margin: 0 0 var(--esp-6); }
 .curadoria-edicao { margin: 0; font-size: var(--t-xs); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--texto-fraco); }
 .curadoria-titulo { margin: var(--esp-1) 0 0; font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 700; letter-spacing: -0.02em; line-height: 1.15; text-wrap: balance; }
@@ -632,9 +639,25 @@ body.com-painel { overflow: hidden; }
 .autor-redes a { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--borda); color: var(--texto); transition: background var(--transicao), color var(--transicao); }
 .autor-redes a:hover, .autor-redes a:focus-visible { background: var(--texto); color: var(--fundo); }
 .autor-redes .icone { width: 20px; height: 20px; }
-.curadoria-arquivo ul { list-style: none; margin: 0; padding: 0; }
-.curadoria-arquivo a { display: flex; justify-content: space-between; gap: var(--esp-4); padding: var(--esp-3) 0; border-bottom: 1px solid var(--borda); color: var(--texto); text-decoration: none; }
-.curadoria-arquivo a span { color: var(--texto-fraco); font-size: var(--t-sm); }
+.curadoria-arquivo { position: sticky; top: var(--esp-6); padding: var(--esp-4); border: 1px solid var(--borda); background: var(--superficie); max-height: calc(100vh - 2 * var(--esp-6)); overflow-y: auto; }
+.arquivo-titulo { margin: 0 0 var(--esp-3); font-size: var(--t-xs); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--texto-fraco); }
+.arquivo-grupo + .arquivo-grupo { margin-top: var(--esp-4); padding-top: var(--esp-4); border-top: 1px solid var(--borda); }
+.arquivo-grupo h3 { display: flex; justify-content: space-between; margin: 0 0 var(--esp-2); font-size: var(--t-sm); font-weight: 700; }
+.arquivo-grupo h3 span { color: var(--texto-fraco); font-weight: 500; font-variant-numeric: tabular-nums; }
+.curadoria-arquivo ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.curadoria-arquivo a { display: flex; align-items: center; gap: var(--esp-3); padding: var(--esp-2); border-radius: var(--raio); color: var(--texto-suave); text-decoration: none; transition: background var(--transicao); }
+.curadoria-arquivo a:hover, .curadoria-arquivo a:focus-visible { background: var(--superficie-2); }
+.curadoria-arquivo a[aria-current="page"] { background: var(--superficie-2); color: var(--texto); }
+.curadoria-arquivo img, .arquivo-sem-capa { flex: none; width: 44px; height: 44px; object-fit: cover; border-radius: 4px; background: var(--superficie-2); }
+.curadoria-arquivo a > span { display: flex; flex-direction: column; min-width: 0; }
+.curadoria-arquivo strong { font-size: var(--t-sm); font-weight: 600; color: var(--texto); line-height: 1.3; }
+.curadoria-arquivo a > span > span { font-size: var(--t-xs); color: var(--texto-fraco); }
+.arquivo-vazio { margin: 0; padding: var(--esp-1) var(--esp-2); font-size: var(--t-sm); color: var(--texto-fraco); }
+@media (max-width: 1100px) {
+  .curadoria-colunas { grid-template-columns: minmax(0, 1fr); }
+  .curadoria { max-width: none; }
+  .curadoria-arquivo { position: static; max-height: none; }
+}
 
 @media (max-width: 760px) {
   .player { flex-direction: column; }

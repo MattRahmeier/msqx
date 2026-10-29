@@ -7,7 +7,7 @@
 // do círculo do pai e se abrem num leque virado para fora do mapa, cada um com espaço para o nome
 // (um toque não cai no vizinho). Cor pela profundidade: mestre preto, subgêneros clareando até o
 // branco. Nós flutuam de leve (sem fugir do mouse); com "reduzir movimento" no sistema, ficam parados.
-// #/cerebro/<gênero> abre o mapa já nesse gênero; a URL acompanha o gênero aberto sem recarregar a vista.
+// #/trackmap/<gênero> abre o mapa já nesse gênero; a URL acompanha o gênero aberto sem recarregar a vista.
 import { tituloPagina } from "../componentes/titulo.js";
 import { generos, albunsPorGenero } from "../dados.js";
 import { esc } from "../componentes/card-album.js";
@@ -274,10 +274,12 @@ export async function render(el, [generoId]) {
   svg.call(zoom).on("dblclick.zoom", null).on("click", () => fecharPopup());
   const tamanho = () => svg.node().getBoundingClientRect();
   const larguraPopup = () => (popup.hidden || innerWidth <= 760 ? 0 : popup.getBoundingClientRect().width + 24);
-  function enquadrar() {
+  // Visão geral: todos os mestres no quadro (com transição quando volta de um gênero aberto).
+  function enquadrar(animar = false) {
     const { width, height } = tamanho();
     const k = Math.min(width / 1250, height / 1000, 1.1);
-    svg.call(zoom.transform, d3.zoomIdentity.translate(width / 2, height / 2 + 30).scale(k));
+    const alvo = d3.zoomIdentity.translate(width / 2, height / 2 + 30).scale(k);
+    (animar && !parado ? svg.transition().duration(650) : svg).call(zoom.transform, alvo);
   }
   // Enquadra o gênero e o leque dos subgêneros dele (pelas posições de destino, já conhecidas) no
   // espaço livre ao lado do pop-up; no celular, na parte de cima, acima do pop-up.
@@ -304,13 +306,15 @@ export async function render(el, [generoId]) {
     const n = nos.get(id);
     if (!n) return;
     const recolher = alternar && atual === id && abertos.has(id);
+    // Desclicar o gênero mestre aberto volta à visão geral (fecha tudo e reenquadra o mapa).
+    if (recolher && n.nivel === 0) return fecharPopup();
     abertos.clear();
     for (let p = pais.get(id); p; p = pais.get(p.id)) abertos.add(p.id);
     if (n.filhos.length && !recolher) abertos.add(id);
     atual = id;
     atualizar();
     mostrarPopup(n);
-    history.replaceState(null, "", `#/cerebro/${id}`);
+    history.replaceState(null, "", `#/trackmap/${id}`);
     requestAnimationFrame(() => centralizar(id));
   }
 
@@ -324,14 +328,14 @@ export async function render(el, [generoId]) {
     const meta = [n.decada ? `anos ${n.decada}` : "", subs ? `${subs} ${subs === 1 ? "subgênero" : "subgêneros"}` : ""].filter(Boolean).join(" · ");
     const albuns = `${total} ${total === 1 ? "álbum" : "álbuns"}`;
     const chips = (ids) => [...new Set(ids)].filter((i) => nos.has(i) && i !== n.id)
-      .map((i) => `<li><a href="#/cerebro/${i}" data-genero="${i}">${esc(nomeDe(i))}</a></li>`).join("");
+      .map((i) => `<li><a href="#/trackmap/${i}" data-genero="${i}">${esc(nomeDe(i))}</a></li>`).join("");
     const origens = chips(n.origens || []);
     const ligados = chips([...(n.influencias || []), ...(n.similares || [])].filter((i) => !(n.origens || []).includes(i)));
     const filhos = chips(n.filhos.map((f) => f.id));
 
     popup.innerHTML = `
       <button type="button" class="painel-fechar" data-fechar aria-label="Fechar">×</button>
-      ${caminho.length ? `<nav class="popup-caminho" aria-label="Caminho">${caminho.map((p) => `<a href="#/cerebro/${p.id}" data-genero="${p.id}">${esc(p.nome)}</a>`).join(" › ")}</nav>` : ""}
+      ${caminho.length ? `<nav class="popup-caminho" aria-label="Caminho">${caminho.map((p) => `<a href="#/trackmap/${p.id}" data-genero="${p.id}">${esc(p.nome)}</a>`).join(" › ")}</nav>` : ""}
       <h2 class="popup-titulo">${n.nivel === 0 ? coroa : ""}${esc(n.nome)}</h2>
       ${meta ? `<p class="popup-meta">${meta}</p>` : ""}
       <a class="botao-recomendacoes" href="#/recomendados/${n.id}" aria-label="Ir para as recomendações: ${albuns}">
@@ -355,13 +359,14 @@ export async function render(el, [generoId]) {
     atual = null;
     abertos.clear(); // sem gênero clicado, o mapa volta aos mestres
     atualizar();
-    history.replaceState(null, "", "#/cerebro");
+    history.replaceState(null, "", "#/trackmap");
+    enquadrar(true);
   }
 
   // Links dentro do pop-up (caminho, chips e gêneros citados no resumo) navegam pelo mapa.
   popup.addEventListener("click", (e) => {
     if (e.target.closest("[data-fechar]")) return fecharPopup();
-    const a = e.target.closest('a[href^="#/cerebro/"]');
+    const a = e.target.closest('a[href^="#/trackmap/"]');
     if (!a) return;
     e.preventDefault();
     selecionar(a.dataset.genero || a.getAttribute("href").split("/")[2], { alternar: false });
@@ -371,7 +376,7 @@ export async function render(el, [generoId]) {
 
   // Ao sair da vista, para a animação e solta os ouvintes globais.
   const sair = () => {
-    if (location.hash.startsWith("#/cerebro")) return;
+    if (location.hash.startsWith("#/trackmap")) return;
     relogio?.stop();
     simulacao.stop();
     document.removeEventListener("keydown", tecla);
