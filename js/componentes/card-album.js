@@ -73,14 +73,15 @@ export function capaHtml(ficha, { lazy = true } = {}) {
 // `nota`: frase opcional (ex.: do autor de A Curadoria). `etiquetas`: [{ texto, href }] —
 // botões pequenos embaixo do card (os outros gêneros em que o disco está).
 // `editoriais`: edições de A Curadoria que citam o disco → marca laranja no canto da capa.
-export function cardAlbum(ficha, { nota, etiquetas = [], editoriais = [] } = {}) {
+// `destaque`: disco em destaque no gênero (emDestaque no chart) → etiqueta "Em destaque" sobre o título.
+export function cardAlbum(ficha, { nota, etiquetas = [], editoriais = [], destaque = false } = {}) {
   const ano = ficha.lancamento?.slice(0, 4);
   const capa = ficha.id
     ? `<button type="button" class="card-capa" data-album="${esc(ficha.id)}" aria-label="Detalhes de ${esc(ficha.titulo)}" aria-haspopup="dialog">${capaHtml(ficha)}</button>`
     : `<div class="card-capa">${capaHtml(ficha)}</div>`;
   const nome = `${ficha.artista} - ${ficha.titulo}`;
   return `
-    <article class="card-album">
+    <article class="card-album${destaque ? " em-destaque" : ""}">
       <div class="card-capa-area">
         ${capa}
         ${editoriais.length ? `<span class="selo-editorial" role="img" aria-label="Citado no nosso editorial: ${esc(editoriais.map((e) => e.titulo).join("; "))}" title="Citado no nosso editorial: ${esc(editoriais.map((e) => e.titulo).join("; "))}"><svg class="icone" aria-hidden="true"><use href="#i-editorial"/></svg></span>` : ""}
@@ -89,6 +90,7 @@ export function cardAlbum(ficha, { nota, etiquetas = [], editoriais = [] } = {})
         </button>
       </div>
       <div class="card-info">
+        ${destaque ? `<p class="card-destaque">Em destaque</p>` : ""}
         <h3 class="card-titulo" title="${esc(ficha.titulo)}">${esc(ficha.titulo)}</h3>
         <p class="card-artista">${esc(ficha.artista)}${ano ? ` <span>· ${ano}</span>` : ""}</p>
       </div>

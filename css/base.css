@@ -234,6 +234,8 @@ button.card-capa:focus-visible { outline: 2px solid var(--texto); outline-offset
 .card-capa img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .card-sem-capa { width: 100%; height: 100%; display: grid; place-items: center; font-size: 3rem; font-weight: 700; color: var(--texto-fraco); }
 .card-info { min-width: 0; }
+.card-destaque { display: inline-block; margin: 0 0 var(--esp-1); padding: 2px var(--esp-2); border-radius: 999px; background: var(--destaque); color: var(--popup-texto); font-size: var(--t-xs); font-weight: 700; letter-spacing: 0.02em; }
+.em-destaque .card-capa img { box-shadow: 0 0 0 2px var(--destaque); }
 .card-titulo { margin: 0; font-size: var(--t-sm); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card-artista { margin: 0; font-size: var(--t-sm); color: var(--texto-suave); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card-artista span { color: var(--texto-fraco); }

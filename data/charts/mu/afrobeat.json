@@ -1,0 +1,53 @@
+{
+  "id": "afrobeat",
+  "titulo": "Essential Afrobeat",
+  "indice": "afrobeat",
+  "generos": [
+    "afrobeat"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/afrobeat.jpg",
+  "transcricao": {
+    "data": "2026-10-29",
+    "metodo": "seleção de 5 discos das seções Foundations do chart (artista, título e ano escritos sob cada capa); \"pos\" é a seção e a ordem no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "F1",
+      "artista": "Fela Kuti",
+      "titulo": "Zombie",
+      "ano": 1977,
+      "album": "fela-kuti-zombie"
+    },
+    {
+      "pos": "F3",
+      "artista": "Fela Kuti",
+      "titulo": "Gentleman",
+      "ano": 1973,
+      "album": "fela-kuti-gentleman"
+    },
+    {
+      "pos": "F4",
+      "artista": "Fela Kuti",
+      "titulo": "Coffin for Head of State",
+      "ano": 1981,
+      "album": "fela-kuti-coffin-for-head-of-state"
+    },
+    {
+      "pos": "F5",
+      "artista": "Fela Kuti",
+      "titulo": "Expensive Shit",
+      "ano": 1975,
+      "album": "fela-kuti-expensive-shit"
+    },
+    {
+      "pos": "F8",
+      "artista": "Tony Allen & the Afro Messengers",
+      "titulo": "No Discrimination",
+      "ano": 1979,
+      "album": "tony-allen-and-the-afro-messengers-no-discrimination"
+    }
+  ]
+}

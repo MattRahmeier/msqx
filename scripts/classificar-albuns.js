@@ -37,6 +37,11 @@ const APELIDOS = {
   "glam": "glam-rock", "glam rock": "glam-rock", "glitter rock": "glam-rock", "indie": "indie-rock",
   "electro-pop": "electropop", "jpop": "j-pop", "kpop": "k-pop", "shibuya kei": "shibuya-kei",
   "acid house": "acid-house", "electro swing": "electro-swing", "microhouse": "minimal-techno",
+  "classical": "musica-classica", "western classical": "musica-classica", "art music": "musica-classica",
+  "renaissance": "musica-renascentista", "baroque": "musica-barroca", "classical period": "periodo-classico",
+  "romantic": "romantismo", "romantic classical": "romantismo", "romanticism": "romantismo", "impressionism": "impressionismo",
+  "modern classical": "musica-moderna", "20th century classical": "musica-moderna", "modernism": "musica-moderna",
+  "choral": "musica-coral", "choir": "musica-coral", "chamber": "musica-de-camara", "symphony": "sinfonia", "concerto": "concerto",
 };
 
 (async () => {

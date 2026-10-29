@@ -5,7 +5,7 @@
 // estar em vários gêneros; cada card tem botões para os outros gêneros em que ele está.
 // Clicar na capa abre a caixa lateral do álbum. As fotos dos gêneros ainda virão.
 import { tituloPagina } from "../componentes/titulo.js";
-import { albunsPorGenero, albuns, generos, citacoesEditoriais } from "../dados.js";
+import { albunsPorGenero, albuns, generos, citacoesEditoriais, destaquesPorGenero } from "../dados.js";
 import { cardAlbum, esc } from "../componentes/card-album.js";
 import { ligarPainel } from "../componentes/painel-album.js";
 import { resumoGenero } from "../componentes/resumo-genero.js";
@@ -50,15 +50,18 @@ export async function render(el, [generoId]) {
   const no = [...arvore, ...arvore.flatMap(descendentes)].find((g) => g.id === genero.id);
   const caminho = [];
   for (let g = genero; g; g = gen.porId.get(g.pai)) caminho.unshift(g);
-  const [{ porId }, citados] = await Promise.all([albuns(), citacoesEditoriais()]);
+  const [{ porId }, citados, destaques] = await Promise.all([albuns(), citacoesEditoriais(), destaquesPorGenero()]);
   // Álbuns do próprio gênero e, no mestre, os de cada subgênero (na ordem da árvore, sem repetir).
   const ids = [...(porGenero.get(genero.id) || [])];
   if (genero.mestre) for (const sub of descendentes(no)) for (const id of porGenero.get(sub.id) || []) if (!ids.includes(id)) ids.push(id);
+  // Discos em destaque no gênero (ou, no mestre, em algum subgênero) vêm primeiro.
+  const emDestaque = new Set([genero, ...(genero.mestre ? descendentes(no) : [])].flatMap((g) => [...(destaques.get(g.id) || [])]));
+  ids.sort((a, b) => emDestaque.has(b) - emDestaque.has(a));
   // Botões: os gêneros em que o disco está (pelos charts e pelos estilos do Wikidata/MusicBrainz),
   // menos o desta página.
   const etiquetas = (ficha) => [...new Set([...(ficha.generos || []), ...(ficha.estilos || [])])].filter((g) => g !== genero.id && gen.porId.has(g))
     .map((g) => ({ texto: gen.porId.get(g).nome, href: `#/recomendados/${g}` }));
-  const fichas = ids.map((id) => porId.get(id)).filter(Boolean).map((ficha) => ({ ficha, etiquetas: etiquetas(ficha), editoriais: citados.get(ficha.id) || [] }));
+  const fichas = ids.map((id) => porId.get(id)).filter(Boolean).map((ficha) => ({ ficha, etiquetas: etiquetas(ficha), editoriais: citados.get(ficha.id) || [], destaque: emDestaque.has(ficha.id) }));
 
   el.innerHTML = `
     <nav class="voltar" aria-label="Caminho"><a href="#/recomendados">Guia de Gêneros</a>${caminho.slice(0, -1).map((g) => ` › <a href="#/recomendados/${g.id}">${esc(g.nome)}</a>`).join("")}</nav>
@@ -71,7 +74,7 @@ export async function render(el, [generoId]) {
       <ul class="chips">${descendentes(no).map((f) => `<li><a href="#/recomendados/${f.id}">${esc(f.nome)}</a></li>`).join("")}</ul>` : ""}
     ${fichas.length ? `
       <h2 class="secao-titulo">Álbuns essenciais</h2>
-      <div class="grade-albuns">${fichas.map((i) => cardAlbum(i.ficha, { etiquetas: i.etiquetas, editoriais: i.editoriais })).join("")}</div>
+      <div class="grade-albuns">${fichas.map((i) => cardAlbum(i.ficha, { etiquetas: i.etiquetas, editoriais: i.editoriais, destaque: i.destaque })).join("")}</div>
       <p class="disclaimer">Listas curadas por usuários da internet. Podem não refletir a totalidade do gênero, mas são um bom ponto de partida.</p>`
     : `<p class="aviso">A lista de álbuns deste gênero ainda está sendo montada.</p>`}`;
   if (fichas.length) ligarPainel(el.querySelector(".grade-albuns"), porId);

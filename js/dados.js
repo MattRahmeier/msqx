@@ -36,6 +36,15 @@ export async function albunsPorGenero() {
   return mapa;
 }
 
+// Discos marcados com "emDestaque" nos charts: Map gênero → Set de ids. A página do gênero os mostra
+// primeiro, com a etiqueta "Em destaque".
+export async function destaquesPorGenero() {
+  const mapa = new Map();
+  for (const c of await chartsTranscritos()) for (const a of c.albuns) if (a.emDestaque && a.album)
+    for (const g of a.generos || c.generos) (mapa.get(g) || mapa.set(g, new Set()).get(g)).add(a.album);
+  return mapa;
+}
+
 export async function albuns() {
   const lista = await carregar("data/albuns/albuns.json");
   return { lista, porId: new Map(lista.map((a) => [a.id, a])) };

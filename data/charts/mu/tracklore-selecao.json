@@ -1,0 +1,679 @@
+{
+  "id": "tracklore-selecao",
+  "titulo": "Seleção do Tracklore",
+  "indice": null,
+  "generos": [
+    "bebop",
+    "dixieland-revival",
+    "chicago-jazz",
+    "boogie-woogie",
+    "electro-swing",
+    "teen-pop",
+    "hyperpop",
+    "drill",
+    "uk-drill",
+    "musica-indiana",
+    "musica-tradicional-chinesa",
+    "musica-arabe",
+    "musica-dos-povos-originarios"
+  ],
+  "fonte": "Tracklore",
+  "transcricao": {
+    "data": "2026-10-29",
+    "metodo": "curadoria do Tracklore para gêneros sem chart do /mu/: discos de artistas citados no artigo da Wikipédia sobre o gênero (o artigo de cada disco está em \"fonte\")",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "bebop-1",
+      "generos": [
+        "bebop"
+      ],
+      "artista": "The Quintet",
+      "titulo": "Jazz at Massey Hall",
+      "fonte": "https://en.wikipedia.org/wiki/Bebop",
+      "album": "the-quintet-jazz-at-massey-hall"
+    },
+    {
+      "pos": "bebop-2",
+      "generos": [
+        "bebop"
+      ],
+      "artista": "Charlie Parker & Dizzy Gillespie",
+      "titulo": "Bird and Diz",
+      "fonte": "https://en.wikipedia.org/wiki/Bebop",
+      "album": "charlie-parker-and-dizzy-gillespie-bird-and-diz"
+    },
+    {
+      "pos": "bebop-3",
+      "generos": [
+        "bebop"
+      ],
+      "artista": "Thelonious Monk",
+      "titulo": "Genius of Modern Music, Volume 1",
+      "fonte": "https://en.wikipedia.org/wiki/Bebop",
+      "album": "thelonious-monk-genius-of-modern-music-volume-1"
+    },
+    {
+      "pos": "bebop-4",
+      "generos": [
+        "bebop"
+      ],
+      "artista": "Bud Powell",
+      "titulo": "The Amazing Bud Powell",
+      "fonte": "https://en.wikipedia.org/wiki/Bebop",
+      "album": "bud-powell-the-amazing-bud-powell"
+    },
+    {
+      "pos": "bebop-5",
+      "generos": [
+        "bebop"
+      ],
+      "artista": "Dizzy Gillespie",
+      "titulo": "Groovin' High",
+      "fonte": "https://en.wikipedia.org/wiki/Bebop",
+      "album": "dizzy-gillespie-groovin-high"
+    },
+    {
+      "pos": "dixie-1",
+      "generos": [
+        "dixieland-revival"
+      ],
+      "artista": "Turk Murphy",
+      "titulo": "Barrelhouse Jazz",
+      "fonte": "https://en.wikipedia.org/wiki/Dixieland",
+      "album": "turk-murphy-barrelhouse-jazz"
+    },
+    {
+      "pos": "dixie-2",
+      "generos": [
+        "dixieland-revival"
+      ],
+      "artista": "Kid Ory's Creole Jazz Band",
+      "titulo": "Kid Ory's Creole Jazz Band 1954",
+      "fonte": "https://en.wikipedia.org/wiki/Dixieland",
+      "album": "kid-orys-creole-jazz-band-kid-orys-creole-jazz-band-1954"
+    },
+    {
+      "pos": "dixie-3",
+      "generos": [
+        "dixieland-revival"
+      ],
+      "artista": "Eddie Condon",
+      "titulo": "Jammin' at Condon's",
+      "fonte": "https://en.wikipedia.org/wiki/Dixieland",
+      "album": "eddie-condon-jammin-at-condons"
+    },
+    {
+      "pos": "dixie-4",
+      "generos": [
+        "dixieland-revival"
+      ],
+      "artista": "The Dukes of Dixieland",
+      "titulo": "You Have to Hear It to Believe It",
+      "fonte": "https://en.wikipedia.org/wiki/Dixieland",
+      "album": "the-dukes-of-dixieland-you-have-to-hear-it-to-believe-it"
+    },
+    {
+      "pos": "dixie-5",
+      "generos": [
+        "dixieland-revival"
+      ],
+      "artista": "Pete Fountain",
+      "titulo": "Pete Fountain's New Orleans",
+      "fonte": "https://en.wikipedia.org/wiki/Dixieland",
+      "album": "pete-fountain-pete-fountains-new-orleans"
+    },
+    {
+      "pos": "chicago-1",
+      "generos": [
+        "chicago-jazz"
+      ],
+      "artista": "King Oliver's Creole Jazz Band",
+      "titulo": "The Complete King Oliver's Creole Jazz Band 1923",
+      "fonte": "https://en.wikipedia.org/wiki/Chicago_jazz",
+      "album": "king-olivers-creole-jazz-band-the-complete-king-olivers-creole-jazz-band-1923"
+    },
+    {
+      "pos": "chicago-2",
+      "generos": [
+        "chicago-jazz"
+      ],
+      "artista": "Louis Armstrong",
+      "titulo": "The Complete Hot Five and Hot Seven Recordings",
+      "fonte": "https://en.wikipedia.org/wiki/Chicago_jazz",
+      "album": "louis-armstrong-the-complete-hot-five-and-hot-seven-recordings"
+    },
+    {
+      "pos": "chicago-3",
+      "generos": [
+        "chicago-jazz"
+      ],
+      "artista": "Jelly Roll Morton",
+      "titulo": "Birth of the Hot",
+      "fonte": "https://en.wikipedia.org/wiki/Chicago_jazz",
+      "album": "jelly-roll-morton-birth-of-the-hot"
+    },
+    {
+      "pos": "chicago-4",
+      "generos": [
+        "chicago-jazz"
+      ],
+      "artista": "Bix Beiderbecke",
+      "titulo": "Singin' the Blues",
+      "fonte": "https://en.wikipedia.org/wiki/Chicago_jazz",
+      "album": "bix-beiderbecke-singin-the-blues"
+    },
+    {
+      "pos": "chicago-5",
+      "generos": [
+        "chicago-jazz"
+      ],
+      "artista": "Jimmie Noone",
+      "titulo": "Apex Blues",
+      "fonte": "https://en.wikipedia.org/wiki/Chicago_jazz",
+      "album": "jimmie-noone-apex-blues"
+    },
+    {
+      "pos": "boogie-1",
+      "generos": [
+        "boogie-woogie"
+      ],
+      "artista": "Albert Ammons",
+      "titulo": "Boogie Woogie Stomp",
+      "fonte": "https://en.wikipedia.org/wiki/Boogie-woogie",
+      "album": "albert-ammons-boogie-woogie-stomp"
+    },
+    {
+      "pos": "boogie-2",
+      "generos": [
+        "boogie-woogie"
+      ],
+      "artista": "Pete Johnson",
+      "titulo": "Boogie Woogie Mood 1940-1944",
+      "fonte": "https://en.wikipedia.org/wiki/Boogie-woogie",
+      "album": "pete-johnson-boogie-woogie-mood-1940-1944"
+    },
+    {
+      "pos": "boogie-3",
+      "generos": [
+        "boogie-woogie"
+      ],
+      "artista": "Meade Lux Lewis",
+      "titulo": "The Best of Meade Lux Lewis: Honky Tonk Train Blues",
+      "fonte": "https://en.wikipedia.org/wiki/Boogie-woogie",
+      "album": "meade-lux-lewis-the-best-of-meade-lux-lewis-honky-tonk-train-blues"
+    },
+    {
+      "pos": "boogie-4",
+      "generos": [
+        "boogie-woogie"
+      ],
+      "artista": "Jimmy Yancey",
+      "titulo": "Jimmy Yancey, Vol. 1 (1939-1940)",
+      "fonte": "https://en.wikipedia.org/wiki/Boogie-woogie",
+      "album": "jimmy-yancey-jimmy-yancey-vol-1-1939-1940"
+    },
+    {
+      "pos": "boogie-5",
+      "generos": [
+        "boogie-woogie"
+      ],
+      "artista": "Joe Turner",
+      "titulo": "The Boss of the Blues Sings Kansas City Jazz",
+      "fonte": "https://en.wikipedia.org/wiki/Boogie-woogie",
+      "album": "joe-turner-the-boss-of-the-blues-sings-kansas-city-jazz"
+    },
+    {
+      "pos": "eswing-1",
+      "generos": [
+        "electro-swing"
+      ],
+      "artista": "Caravan Palace",
+      "titulo": "Caravan Palace",
+      "fonte": "https://en.wikipedia.org/wiki/Electro_swing",
+      "album": "caravan-palace-caravan-palace"
+    },
+    {
+      "pos": "eswing-2",
+      "generos": [
+        "electro-swing"
+      ],
+      "artista": "Caravan Palace",
+      "titulo": "Panic",
+      "fonte": "https://en.wikipedia.org/wiki/Electro_swing",
+      "album": "caravan-palace-panic"
+    },
+    {
+      "pos": "eswing-3",
+      "generos": [
+        "electro-swing"
+      ],
+      "artista": "Caravan Palace",
+      "titulo": "<I°_°I>",
+      "fonte": "https://en.wikipedia.org/wiki/Electro_swing",
+      "album": "caravan-palace-i-i"
+    },
+    {
+      "pos": "eswing-4",
+      "generos": [
+        "electro-swing"
+      ],
+      "artista": "Parov Stelar",
+      "titulo": "Coco",
+      "fonte": "https://en.wikipedia.org/wiki/Electro_swing",
+      "album": "parov-stelar-coco"
+    },
+    {
+      "pos": "eswing-5",
+      "generos": [
+        "electro-swing"
+      ],
+      "artista": "Parov Stelar",
+      "titulo": "The Princess",
+      "fonte": "https://en.wikipedia.org/wiki/Electro_swing",
+      "album": "parov-stelar-the-princess"
+    },
+    {
+      "pos": "teen-1",
+      "generos": [
+        "teen-pop"
+      ],
+      "artista": "Britney Spears",
+      "titulo": "...Baby One More Time",
+      "fonte": "https://en.wikipedia.org/wiki/Teen_pop",
+      "album": "britney-spears-baby-one-more-time"
+    },
+    {
+      "pos": "teen-2",
+      "generos": [
+        "teen-pop"
+      ],
+      "artista": "Backstreet Boys",
+      "titulo": "Millennium",
+      "fonte": "https://en.wikipedia.org/wiki/Teen_pop",
+      "album": "backstreet-boys-millennium"
+    },
+    {
+      "pos": "teen-3",
+      "generos": [
+        "teen-pop"
+      ],
+      "artista": "*NSYNC",
+      "titulo": "No Strings Attached",
+      "fonte": "https://en.wikipedia.org/wiki/Teen_pop",
+      "album": "nsync-no-strings-attached"
+    },
+    {
+      "pos": "teen-4",
+      "generos": [
+        "teen-pop"
+      ],
+      "artista": "Christina Aguilera",
+      "titulo": "Christina Aguilera",
+      "fonte": "https://en.wikipedia.org/wiki/Teen_pop",
+      "album": "christina-aguilera-christina-aguilera"
+    },
+    {
+      "pos": "teen-5",
+      "generos": [
+        "teen-pop"
+      ],
+      "artista": "Hilary Duff",
+      "titulo": "Metamorphosis",
+      "fonte": "https://en.wikipedia.org/wiki/Teen_pop",
+      "album": "hilary-duff-metamorphosis"
+    },
+    {
+      "pos": "hyper-1",
+      "generos": [
+        "hyperpop"
+      ],
+      "artista": "100 gecs",
+      "titulo": "1000 gecs",
+      "fonte": "https://en.wikipedia.org/wiki/Hyperpop",
+      "album": "100-gecs-1000-gecs"
+    },
+    {
+      "pos": "hyper-2",
+      "generos": [
+        "hyperpop"
+      ],
+      "artista": "SOPHIE",
+      "titulo": "Oil of Every Pearl's Un-Insides",
+      "fonte": "https://en.wikipedia.org/wiki/Hyperpop",
+      "album": "sophie-oil-of-every-pearls-un-insides"
+    },
+    {
+      "pos": "hyper-3",
+      "generos": [
+        "hyperpop"
+      ],
+      "artista": "Charli XCX",
+      "titulo": "Pop 2",
+      "fonte": "https://en.wikipedia.org/wiki/Hyperpop",
+      "album": "charli-xcx-pop-2"
+    },
+    {
+      "pos": "hyper-4",
+      "generos": [
+        "hyperpop"
+      ],
+      "artista": "Charli XCX",
+      "titulo": "How I'm Feeling Now",
+      "fonte": "https://en.wikipedia.org/wiki/Hyperpop",
+      "album": "charli-xcx-how-im-feeling-now"
+    },
+    {
+      "pos": "hyper-5",
+      "generos": [
+        "hyperpop"
+      ],
+      "artista": "Dorian Electra",
+      "titulo": "Flamboyant",
+      "fonte": "https://en.wikipedia.org/wiki/Hyperpop",
+      "album": "dorian-electra-flamboyant"
+    },
+    {
+      "pos": "drill-1",
+      "generos": [
+        "drill"
+      ],
+      "artista": "Chief Keef",
+      "titulo": "Finally Rich",
+      "fonte": "https://en.wikipedia.org/wiki/Drill_music",
+      "album": "chief-keef-finally-rich"
+    },
+    {
+      "pos": "drill-2",
+      "generos": [
+        "drill"
+      ],
+      "artista": "Lil Durk",
+      "titulo": "Remember My Name",
+      "fonte": "https://en.wikipedia.org/wiki/Drill_music",
+      "album": "lil-durk-remember-my-name"
+    },
+    {
+      "pos": "drill-3",
+      "generos": [
+        "drill"
+      ],
+      "artista": "G Herbo",
+      "titulo": "Humble Beast",
+      "fonte": "https://en.wikipedia.org/wiki/Drill_music",
+      "album": "g-herbo-humble-beast"
+    },
+    {
+      "pos": "drill-4",
+      "generos": [
+        "drill"
+      ],
+      "artista": "King Von",
+      "titulo": "Welcome to O'Block",
+      "fonte": "https://en.wikipedia.org/wiki/Drill_music",
+      "album": "king-von-welcome-to-oblock"
+    },
+    {
+      "pos": "drill-5",
+      "generos": [
+        "drill"
+      ],
+      "artista": "Pop Smoke",
+      "titulo": "Meet the Woo",
+      "fonte": "https://en.wikipedia.org/wiki/Brooklyn_drill",
+      "album": "pop-smoke-meet-the-woo"
+    },
+    {
+      "pos": "ukdrill-1",
+      "generos": [
+        "uk-drill"
+      ],
+      "artista": "Headie One",
+      "titulo": "Edna",
+      "fonte": "https://en.wikipedia.org/wiki/UK_drill",
+      "album": "headie-one-edna"
+    },
+    {
+      "pos": "ukdrill-2",
+      "generos": [
+        "uk-drill"
+      ],
+      "artista": "Digga D",
+      "titulo": "Made in the Pyrex",
+      "fonte": "https://en.wikipedia.org/wiki/UK_drill",
+      "album": "digga-d-made-in-the-pyrex"
+    },
+    {
+      "pos": "ukdrill-3",
+      "generos": [
+        "uk-drill"
+      ],
+      "artista": "Loski",
+      "titulo": "Music, Trial & Trauma: A Drill Story",
+      "fonte": "https://en.wikipedia.org/wiki/UK_drill",
+      "album": "loski-music-trial-and-trauma-a-drill-story"
+    },
+    {
+      "pos": "ukdrill-4",
+      "generos": [
+        "uk-drill"
+      ],
+      "artista": "Unknown T",
+      "titulo": "Rise Above Hate",
+      "fonte": "https://en.wikipedia.org/wiki/UK_drill",
+      "album": "unknown-t-rise-above-hate"
+    },
+    {
+      "pos": "ukdrill-5",
+      "generos": [
+        "uk-drill"
+      ],
+      "artista": "Central Cee",
+      "titulo": "23",
+      "fonte": "https://en.wikipedia.org/wiki/UK_drill",
+      "album": "central-cee-23"
+    },
+    {
+      "pos": "indiana-1",
+      "generos": [
+        "musica-indiana"
+      ],
+      "artista": "Ravi Shankar",
+      "titulo": "The Sounds of India",
+      "fonte": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+      "emDestaque": true,
+      "album": "ravi-shankar-the-sounds-of-india"
+    },
+    {
+      "pos": "indiana-2",
+      "generos": [
+        "musica-indiana"
+      ],
+      "artista": "Ravi Shankar",
+      "titulo": "Three Classical Ragas",
+      "fonte": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+      "album": "ravi-shankar-three-classical-ragas"
+    },
+    {
+      "pos": "indiana-3",
+      "generos": [
+        "musica-indiana"
+      ],
+      "artista": "Ali Akbar Khan",
+      "titulo": "Music of India: Morning and Evening Ragas",
+      "fonte": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+      "album": "ali-akbar-khan-music-of-india-morning-and-evening-ragas"
+    },
+    {
+      "pos": "indiana-4",
+      "generos": [
+        "musica-indiana"
+      ],
+      "artista": "Shivkumar Sharma, Brij Bhushan Kabra & Hariprasad Chaurasia",
+      "titulo": "Call of the Valley",
+      "fonte": "https://en.wikipedia.org/wiki/Call_of_the_Valley",
+      "album": "shivkumar-sharma-brij-bhushan-kabra-and-hariprasad-chaurasia-call-of-the-valley"
+    },
+    {
+      "pos": "indiana-5",
+      "generos": [
+        "musica-indiana"
+      ],
+      "artista": "Bismillah Khan",
+      "titulo": "Raga Todi • Mishra Thumri",
+      "fonte": "https://en.wikipedia.org/wiki/Hindustani_classical_music",
+      "album": "bismillah-khan-raga-todi-mishra-thumri"
+    },
+    {
+      "pos": "chinesa-1",
+      "generos": [
+        "musica-tradicional-chinesa"
+      ],
+      "artista": "Li Xiangting",
+      "titulo": "Chine: L'art du qin",
+      "fonte": "https://en.wikipedia.org/wiki/Guqin",
+      "album": "li-xiangting-chine-lart-du-qin"
+    },
+    {
+      "pos": "chinesa-2",
+      "generos": [
+        "musica-tradicional-chinesa"
+      ],
+      "artista": "Wu Wenguang",
+      "titulo": "China: Music of the Qin",
+      "fonte": "https://en.wikipedia.org/wiki/Guqin",
+      "album": "wu-wenguang-china-music-of-the-qin"
+    },
+    {
+      "pos": "chinesa-3",
+      "generos": [
+        "musica-tradicional-chinesa"
+      ],
+      "artista": "Lin Youren",
+      "titulo": "Music for the Qin Zither",
+      "fonte": "https://en.wikipedia.org/wiki/Guqin",
+      "album": "lin-youren-music-for-the-qin-zither"
+    },
+    {
+      "pos": "chinesa-4",
+      "generos": [
+        "musica-tradicional-chinesa"
+      ],
+      "artista": "Liu Fang",
+      "titulo": "The Soul of Pipa 1",
+      "fonte": "https://en.wikipedia.org/wiki/Pipa",
+      "album": "liu-fang-the-soul-of-pipa-1"
+    },
+    {
+      "pos": "chinesa-5",
+      "generos": [
+        "musica-tradicional-chinesa"
+      ],
+      "artista": "Wu Man",
+      "titulo": "Elegant Pipa Classics",
+      "fonte": "https://en.wikipedia.org/wiki/Pipa",
+      "album": "wu-man-elegant-pipa-classics"
+    },
+    {
+      "pos": "arabe-1",
+      "generos": [
+        "musica-arabe"
+      ],
+      "artista": "Umm Kulthum",
+      "titulo": "Enta Omri",
+      "fonte": "https://en.wikipedia.org/wiki/Arabic_music",
+      "album": "umm-kulthum-enta-omri"
+    },
+    {
+      "pos": "arabe-2",
+      "generos": [
+        "musica-arabe"
+      ],
+      "artista": "Umm Kulthum",
+      "titulo": "Alf Leila wa Leila",
+      "fonte": "https://en.wikipedia.org/wiki/Arabic_music",
+      "album": "umm-kulthum-alf-leila-wa-leila"
+    },
+    {
+      "pos": "arabe-3",
+      "generos": [
+        "musica-arabe"
+      ],
+      "artista": "Fairuz",
+      "titulo": "Jisr El Qamar",
+      "fonte": "https://en.wikipedia.org/wiki/Arabic_music",
+      "album": "fairuz-jisr-el-qamar"
+    },
+    {
+      "pos": "arabe-4",
+      "generos": [
+        "musica-arabe"
+      ],
+      "artista": "Munir Bashir",
+      "titulo": "Babylon Mood",
+      "fonte": "https://en.wikipedia.org/wiki/Arabic_music",
+      "album": "munir-bashir-babylon-mood"
+    },
+    {
+      "pos": "arabe-5",
+      "generos": [
+        "musica-arabe"
+      ],
+      "artista": "Mohammed Abdel Wahab",
+      "titulo": "Cairo By Night",
+      "fonte": "https://en.wikipedia.org/wiki/Arabic_music",
+      "album": "mohammed-abdel-wahab-cairo-by-night"
+    },
+    {
+      "pos": "originarios-1",
+      "generos": [
+        "musica-dos-povos-originarios"
+      ],
+      "artista": "R. Carlos Nakai",
+      "titulo": "Canyon Trilogy",
+      "fonte": "https://en.wikipedia.org/wiki/Native_American_music",
+      "album": "r-carlos-nakai-canyon-trilogy"
+    },
+    {
+      "pos": "originarios-2",
+      "generos": [
+        "musica-dos-povos-originarios"
+      ],
+      "artista": "Marlui Miranda",
+      "titulo": "Ihu: Todos os sons",
+      "fonte": "https://en.wikipedia.org/wiki/Indigenous_music",
+      "album": "marlui-miranda-ihu-todos-os-sons"
+    },
+    {
+      "pos": "originarios-3",
+      "generos": [
+        "musica-dos-povos-originarios"
+      ],
+      "artista": "Various Artists",
+      "titulo": "Music of the Sioux and the Navajo",
+      "fonte": "https://en.wikipedia.org/wiki/Native_American_music",
+      "album": "various-artists-music-of-the-sioux-and-the-navajo"
+    },
+    {
+      "pos": "originarios-4",
+      "generos": [
+        "musica-dos-povos-originarios"
+      ],
+      "artista": "Various Artists",
+      "titulo": "Songs of the Inuit",
+      "fonte": "https://en.wikipedia.org/wiki/Inuit_music",
+      "album": "various-artists-songs-of-the-inuit"
+    },
+    {
+      "pos": "originarios-5",
+      "generos": [
+        "musica-dos-povos-originarios"
+      ],
+      "artista": "Various Artists",
+      "titulo": "Anthology of Central and South American Indian Music",
+      "fonte": "https://en.wikipedia.org/wiki/Indigenous_music",
+      "album": "various-artists-anthology-of-central-and-south-american-indian-music"
+    }
+  ]
+}

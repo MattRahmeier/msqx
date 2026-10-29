@@ -1,0 +1,239 @@
+{
+  "id": "classical-general",
+  "titulo": "essential /mu/ classical",
+  "indice": "classical-general",
+  "generos": [
+    "musica-classica"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/classical-general.jpg",
+  "transcricao": {
+    "data": "2026-10-29",
+    "metodo": "seleção de 20 das 35 gravações do chart (compositor no alto, obra e intérpretes sob cada capa); \"pos\" é linha-coluna; subgêneros de cada disco (até 5) pela época do compositor e pela forma da obra (curadoria do Tracklore)",
+    "status": "revisar",
+    "parcial": true
+  },
+  "nota": "Cada disco é uma gravação específica: o artista é o compositor (ou o intérprete, quando o disco junta compositores) e \"interpretes\" traz quem toca, como no chart.",
+  "albuns": [
+    {
+      "pos": "1-1",
+      "generos": [
+        "musica-barroca",
+        "musica-coral"
+      ],
+      "artista": "Johann Sebastian Bach",
+      "titulo": "Mass in B minor",
+      "interpretes": "Masaaki Suzuki / Bach Collegium Japan",
+      "album": "johann-sebastian-bach-mass-in-b-minor"
+    },
+    {
+      "pos": "1-2",
+      "generos": [
+        "musica-barroca"
+      ],
+      "artista": "Glenn Gould",
+      "titulo": "Goldberg Variations",
+      "interpretes": "Glenn Gould",
+      "noChart": "Bach — Goldberg-Variationen",
+      "album": "glenn-gould-goldberg-variations"
+    },
+    {
+      "pos": "1-3",
+      "generos": [
+        "musica-moderna"
+      ],
+      "artista": "Béla Bartók",
+      "titulo": "Concerto for Orchestra / Music for Strings, Percussion and Celesta",
+      "interpretes": "Ferenc Fricsay / Radio-Symphonie-Orchester Berlin / RIAS-Symphonie-Orchester Berlin",
+      "album": "bela-bartok-concerto-for-orchestra-music-for-strings-percussion-and-celesta"
+    },
+    {
+      "pos": "1-4",
+      "generos": [
+        "periodo-classico",
+        "romantismo",
+        "sinfonia",
+        "musica-coral"
+      ],
+      "artista": "Ludwig van Beethoven",
+      "titulo": "Symphony No. 9",
+      "interpretes": "Arturo Toscanini / NBC Symphony Orchestra / Robert Shaw Chorale",
+      "album": "ludwig-van-beethoven-symphony-no-9"
+    },
+    {
+      "pos": "1-5",
+      "generos": [
+        "periodo-classico",
+        "concerto"
+      ],
+      "artista": "Ludwig van Beethoven & Wolfgang Amadeus Mozart",
+      "titulo": "Piano Concertos",
+      "interpretes": "Leon Fleisher / George Szell / Cleveland Orchestra",
+      "album": "ludwig-van-beethoven-and-wolfgang-amadeus-mozart-piano-concertos"
+    },
+    {
+      "pos": "2-2",
+      "generos": [
+        "romantismo",
+        "sinfonia"
+      ],
+      "artista": "Anton Bruckner",
+      "titulo": "Symphony No. 7",
+      "interpretes": "Heinz Rögner / Rundfunk-Sinfonieorchester Berlin",
+      "album": "anton-bruckner-symphony-no-7"
+    },
+    {
+      "pos": "2-3",
+      "generos": [
+        "romantismo"
+      ],
+      "artista": "Frédéric Chopin",
+      "titulo": "Etudes, Op. 25 / Piano Sonata No. 2 / Berceuse",
+      "interpretes": "Maurizio Pollini",
+      "album": "frederic-chopin-etudes-op-25-piano-sonata-no-2-berceuse"
+    },
+    {
+      "pos": "2-4",
+      "generos": [
+        "impressionismo"
+      ],
+      "artista": "Claude Debussy",
+      "titulo": "Piano Music",
+      "interpretes": "Claudio Arrau",
+      "album": "claude-debussy-piano-music"
+    },
+    {
+      "pos": "2-5",
+      "generos": [
+        "musica-renascentista",
+        "musica-coral"
+      ],
+      "artista": "Josquin des Prez",
+      "titulo": "Missa Pange Lingua / Motets",
+      "interpretes": "Bernard Fabre-Garrus / A Sei Voci",
+      "album": "josquin-des-prez-missa-pange-lingua-motets"
+    },
+    {
+      "pos": "3-2",
+      "generos": [
+        "musica-barroca",
+        "musica-coral"
+      ],
+      "artista": "Georg Friedrich Händel",
+      "titulo": "Dixit Dominus",
+      "interpretes": "Marc Minkowski / Les Musiciens du Louvre",
+      "album": "georg-friedrich-handel-dixit-dominus"
+    },
+    {
+      "pos": "3-5",
+      "generos": [
+        "periodo-classico",
+        "opera"
+      ],
+      "artista": "Wolfgang Amadeus Mozart",
+      "titulo": "Le nozze di Figaro",
+      "interpretes": "Erich Kleiber / Wiener Philharmoniker",
+      "album": "wolfgang-amadeus-mozart-le-nozze-di-figaro"
+    },
+    {
+      "pos": "4-1",
+      "generos": [
+        "periodo-classico",
+        "sinfonia"
+      ],
+      "artista": "Wolfgang Amadeus Mozart",
+      "titulo": "Symphonies Nos. 40 & 41",
+      "interpretes": "Nikolaus Harnoncourt / Royal Concertgebouw Orchestra",
+      "album": "wolfgang-amadeus-mozart-symphonies-nos-40-and-41"
+    },
+    {
+      "pos": "4-2",
+      "generos": [
+        "romantismo"
+      ],
+      "artista": "Modest Mussorgsky",
+      "titulo": "Night on Bare Mountain / Pictures at an Exhibition",
+      "interpretes": "René Leibowitz / Royal Philharmonic Orchestra",
+      "album": "modest-mussorgsky-night-on-bare-mountain-pictures-at-an-exhibition"
+    },
+    {
+      "pos": "4-4",
+      "generos": [
+        "romantismo",
+        "concerto"
+      ],
+      "artista": "Martha Argerich",
+      "titulo": "Rachmaninov: Piano Concerto No. 3 / Tchaikovsky: Piano Concerto No. 1",
+      "interpretes": "Martha Argerich / Kirill Kondrashin / Riccardo Chailly / Radio-Symphonie-Orchester Berlin",
+      "noChart": "Rachmaninoff & Tchaikovsky — Piano Concerto No. 3 / Piano Concerto No. 1",
+      "album": "martha-argerich-rachmaninov-piano-concerto-no-3-tchaikovsky-piano-concerto-no-1"
+    },
+    {
+      "pos": "5-1",
+      "generos": [
+        "romantismo"
+      ],
+      "artista": "Sviatoslav Richter",
+      "titulo": "Schubert: Wanderer Fantasy / Schumann: Fantasy in C major / Papillons",
+      "interpretes": "Sviatoslav Richter",
+      "noChart": "Schubert & Schumann — Wanderer Fantasy / Fantasy in C major / Papillons",
+      "album": "sviatoslav-richter-schubert-wanderer-fantasy-schumann-fantasy-in-c-major-papillons"
+    },
+    {
+      "pos": "5-2",
+      "generos": [
+        "periodo-classico",
+        "musica-de-camara"
+      ],
+      "artista": "Joseph Haydn",
+      "titulo": "String Quartets Op. 76, 77 & 103",
+      "interpretes": "Amadeus Quartet",
+      "album": "joseph-haydn-string-quartets-op-76-77-and-103"
+    },
+    {
+      "pos": "5-5",
+      "generos": [
+        "musica-moderna"
+      ],
+      "artista": "Igor Stravinsky",
+      "titulo": "The Rite of Spring",
+      "interpretes": "Valery Gergiev / Kirov Orchestra",
+      "noChart": "Stravinsky & Scriabin — Le Sacre du Printemps / Le Poème de l'extase",
+      "album": "igor-stravinsky-the-rite-of-spring"
+    },
+    {
+      "pos": "6-2",
+      "generos": [
+        "romantismo",
+        "sinfonia"
+      ],
+      "artista": "Pyotr Ilyich Tchaikovsky",
+      "titulo": "Symphonies Nos. 4–6",
+      "interpretes": "Evgeny Mravinsky / Leningrad Philharmonic Orchestra",
+      "album": "pyotr-ilyich-tchaikovsky-symphonies-nos-4-6"
+    },
+    {
+      "pos": "6-3",
+      "generos": [
+        "romantismo",
+        "opera"
+      ],
+      "artista": "Giuseppe Verdi",
+      "titulo": "Otello",
+      "interpretes": "Carlos Kleiber / Orchestra e coro del Teatro alla Scala",
+      "album": "giuseppe-verdi-otello"
+    },
+    {
+      "pos": "6-4",
+      "generos": [
+        "musica-barroca",
+        "concerto"
+      ],
+      "artista": "Antonio Vivaldi",
+      "titulo": "The Four Seasons",
+      "interpretes": "Alice Harnoncourt / Nikolaus Harnoncourt / Concentus Musicus Wien",
+      "album": "antonio-vivaldi-il-cimento-dellarmonia-e-dellinventione",
+      "noChart": "Vivaldi — Il cimento dell'armonia e dell'inventione"
+    }
+  ]
+}

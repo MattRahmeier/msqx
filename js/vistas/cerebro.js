@@ -22,8 +22,14 @@ const CRESCE = [4, 4.5, 4, 3.5];
 const raio = (n) => {
   const nivel = Math.min(n.nivel, 3);
   n.qtdSub ??= descendentes(n).length;
-  return RAIOS[nivel] + CRESCE[nivel] * Math.sqrt(n.qtdSub);
+  const r = RAIOS[nivel] + CRESCE[nivel] * Math.sqrt(n.qtdSub);
+  // Mestre: o círculo cresce, se preciso, até a linha mais longa do nome caber dentro dele.
+  // Com o nome em duas linhas, o círculo tem pelo menos 70 de raio para coroa, nome e contagem não se tocarem.
+  return nivel === 0 ? Math.max(r, 8 + Math.max(...linhasNome(n).map((l) => l.length)) * 3.8, linhasNome(n).length > 1 ? 70 : 0) : r;
 };
+// Nome do mestre dentro do círculo: nomes compostos longos vão em duas linhas ("Música" / "Clássica").
+const linhasNome = (n) => (n.nivel === 0 && n.nome.length > 10 && n.nome.includes(" ")
+  ? [n.nome.slice(0, n.nome.lastIndexOf(" ")), n.nome.slice(n.nome.lastIndexOf(" ") + 1)] : [n.nome]);
 // Espaço que o gênero ocupa: o círculo e, nos subgêneros, o nome escrito embaixo dele (cerca de 6,5 px
 // por letra). Os vizinhos nunca chegam mais perto que isso, para um toque não cair no gênero ao lado.
 const folga = (n) => Math.max(raio(n) + 14, n.nivel === 0 ? 0 : n.nome.length * 3.3 + 12);
@@ -192,14 +198,16 @@ export async function render(el, [generoId]) {
         g.append("circle").attr("class", "bola").attr("r", (d) => (d.nivel === 0 ? raio(d) : raio(d) * 0.4))
           .transition().duration(500).ease(d3.easeCubicOut).attr("r", raio);
         g.filter((d) => d.nivel === 0).append("use").attr("href", "#i-coroa").attr("class", "no-coroa")
-          .attr("x", -11).attr("y", -36).attr("width", 22).attr("height", 22);
+          .attr("x", -11).attr("y", (d) => (linhasNome(d).length > 1 ? -50 : -36)).attr("width", 22).attr("height", 22);
+        // O deslocamento vai no primeiro tspan: o dy de um tspan substitui o do <text>.
+        const topoNome = (d) => (d.nivel === 0 ? (linhasNome(d).length > 1 ? -6 : 6) : raio(d) + 14);
         g.append("text").attr("class", "no-nome").attr("text-anchor", "middle")
-          .attr("dy", (d) => (d.nivel === 0 ? 6 : raio(d) + 14))
-          .text((d) => d.nome);
+          .selectAll("tspan").data((d) => linhasNome(d).map((l, i) => ({ l, dy: i ? 16 : topoNome(d) }))).join("tspan")
+          .attr("x", 0).attr("dy", (t) => t.dy).text((t) => t.l);
         // Quantos subgêneros há abaixo do gênero (todos os níveis), dentro do círculo: "X subgêneros"
         // nos mestres; só o número nos subgêneros, que são menores.
         g.filter((d) => d.filhos.length > 0).append("text").attr("class", "no-contagem").attr("text-anchor", "middle")
-          .attr("dy", (d) => (d.nivel === 0 ? 26 : "0.35em"))
+          .attr("dy", (d) => (d.nivel === 0 ? (linhasNome(d).length > 1 ? 38 : 26) : "0.35em"))
           .text((d) => { const n = descendentes(d).length; return d.nivel === 0 ? `${n} ${n === 1 ? "subgênero" : "subgêneros"}` : n; })
           .append("title").text((d) => { const n = descendentes(d).length; return `${n} ${n === 1 ? "subgênero" : "subgêneros"}`; });
         return g;

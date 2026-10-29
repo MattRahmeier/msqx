@@ -21,9 +21,9 @@ function emCadeia(irmaos, indice) {
   return saida;
 }
 
-// Mestres em ordem de linhagem: Blues → Jazz; Blues → Rock → Metal; Pop; Eletrônica → Hip Hop.
+// Mestres em ordem de linhagem: Música Clássica; Blues → Jazz; Blues → Rock → Metal; Pop; Eletrônica → Hip Hop; World Music.
 // Mestres novos que não estiverem aqui vão para o fim.
-const ORDEM_MESTRES = ["blues", "jazz", "rock", "metal", "pop", "eletronica", "hip-hop"];
+const ORDEM_MESTRES = ["musica-classica", "blues", "jazz", "rock", "metal", "pop", "eletronica", "hip-hop", "world-music"];
 const posMestre = (g) => (ORDEM_MESTRES.includes(g.id) ? ORDEM_MESTRES.indexOf(g.id) : ORDEM_MESTRES.length);
 
 // Devolve os mestres em ordem, cada nó com `filhos` (também ordenados) e `nivel`.

@@ -152,8 +152,8 @@
       "delta-blues",
       "electric-blues"
     ],
-    "somPendente": "artigo sem trecho sobre o som",
-    "musicmap": "blu04"
+    "musicmap": "blu04",
+    "somPendente": "artigo sem trecho sobre o som"
   },
   {
     "id": "boogie-woogie",
@@ -676,6 +676,11 @@
       "licenca": "CC BY-SA 4.0"
     },
     "somLinks": [
+      {
+        "de": 231,
+        "ate": 245,
+        "genero": "musica-indiana"
+      },
       {
         "de": 340,
         "ate": 344,
@@ -2089,6 +2094,11 @@
         "de": 63,
         "ate": 67,
         "genero": "rock"
+      },
+      {
+        "de": 93,
+        "ate": 108,
+        "genero": "musica-classica"
       }
     ],
     "fontes": [
@@ -2111,6 +2121,11 @@
         "de": 55,
         "ate": 59,
         "genero": "rock"
+      },
+      {
+        "de": 66,
+        "ate": 81,
+        "genero": "musica-classica"
       }
     ],
     "musicmap": "pop04"
@@ -3048,8 +3063,8 @@
       "stoner-rock",
       "sludge-metal"
     ],
-    "somPendente": "trecho compartilhado com \"stoner-rock\" (Stoner rock)",
-    "musicmap": "met10"
+    "musicmap": "met10",
+    "somPendente": "trecho compartilhado com \"stoner-rock\" (Stoner rock)"
   },
   {
     "id": "sludge-metal",
@@ -3297,6 +3312,11 @@
         "de": 95,
         "ate": 106,
         "genero": "speed-metal"
+      },
+      {
+        "de": 145,
+        "ate": 160,
+        "genero": "musica-classica"
       }
     ],
     "fontes": [
@@ -5059,14 +5079,14 @@
       "g-funk",
       "east-coast-hip-hop"
     ],
-    "somPendente": "artigo sem trecho sobre o som",
     "musicmap": "rap04",
     "influencias": [
       "southern-hip-hop",
       "experimental-hip-hop",
       "conscious-hip-hop",
       "jazz-rap"
-    ]
+    ],
+    "somPendente": "artigo sem trecho sobre o som"
   },
   {
     "id": "gangsta-rap",
@@ -5535,11 +5555,11 @@
       "jazz-rap",
       "boom-bap"
     ],
-    "somPendente": "artigo sem trecho sobre o som",
     "musicmap": "rap06",
     "influencias": [
       "west-coast-hip-hop"
-    ]
+    ],
+    "somPendente": "artigo sem trecho sobre o som"
   },
   {
     "id": "jazz-rap",
@@ -5809,11 +5829,11 @@
       "chicago-jazz",
       "dixieland-revival"
     ],
-    "somPendente": "artigo sem trecho sobre o som",
     "musicmap": "jaz01",
     "influencias": [
       "delta-blues"
-    ]
+    ],
+    "somPendente": "artigo sem trecho sobre o som"
   },
   {
     "id": "chicago-jazz",
@@ -5834,11 +5854,11 @@
       "new-orleans-jazz",
       "swing"
     ],
-    "somPendente": "artigo sem trecho sobre o som",
     "musicmap": "jaz02",
     "influencias": [
       "electric-blues"
-    ]
+    ],
+    "somPendente": "artigo sem trecho sobre o som"
   },
   {
     "id": "swing",
@@ -5921,8 +5941,8 @@
       "new-orleans-jazz",
       "swing"
     ],
-    "somPendente": "artigo sem trecho sobre o som",
-    "musicmap": "jaz05"
+    "musicmap": "jaz05",
+    "somPendente": "artigo sem trecho sobre o som"
   },
   {
     "id": "bebop",
@@ -5986,6 +6006,11 @@
       "licenca": "CC BY-SA 4.0"
     },
     "resumoLinks": [
+      {
+        "de": 151,
+        "ate": 166,
+        "genero": "musica-classica"
+      },
       {
         "de": 170,
         "ate": 174,
@@ -6605,5 +6630,544 @@
       }
     ],
     "musicmap": "jaz17"
+  },
+  {
+    "id": "musica-classica",
+    "nome": "Música Clássica",
+    "pai": null,
+    "mestre": true,
+    "origens": [],
+    "resumo": "Música de concerto, chamada popularmente de música clássica ou música erudita, é a principal variedade de música produzida ou enraizada nas tradições da música secular e litúrgica ocidental.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_cl%C3%A1ssica",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 10,
+        "ate": 18,
+        "genero": "concerto"
+      }
+    ],
+    "resumoArtigo": "pt:Música clássica",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Classical_music"
+    ],
+    "similares": [],
+    "somArtigo": "en:Classical music#Characteristics",
+    "influencias": [
+      "blues",
+      "jazz",
+      "rock",
+      "metal",
+      "pop",
+      "eletronica",
+      "hip-hop"
+    ],
+    "somPendente": "artigo sem trecho sobre o som"
+  },
+  {
+    "id": "musica-renascentista",
+    "nome": "Música Renascentista",
+    "pai": "musica-classica",
+    "mestre": false,
+    "decada": 1400,
+    "origens": [
+      "musica-medieval"
+    ],
+    "resumo": "Música renascentista refere-se à música europeia escrita durante a Renascença, o período que abrangeu, aproximadamente, os anos de 1400 a 1600.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_renascentista",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Música renascentista",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Renaissance_music"
+    ],
+    "similares": [
+      "musica-barroca"
+    ],
+    "som": "A música foi se libertando cada vez mais das restrições medievais, e passou a ser permitida mais variedade de extensão, ritmo, harmonia, forma e notação. Versões precursoras de muitos instrumentos modernos conhecidos (entre eles o violino, o violão, o alaúde e os instrumentos de teclado) se desenvolveram em novas formas durante o Renascimento.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Renaissance_music",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    }
+  },
+  {
+    "id": "musica-barroca",
+    "nome": "Música Barroca",
+    "pai": "musica-classica",
+    "mestre": false,
+    "decada": 1600,
+    "origens": [
+      "musica-renascentista"
+    ],
+    "resumo": "Música barroca é toda música ocidental correlacionada com a época cultural homónima na Europa, que vai desde o surgimento da ópera por Claudio Monteverdi, no século XVII, até à morte de Johann Sebastian Bach, em 1750.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_barroca",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 125,
+        "ate": 130,
+        "genero": "opera"
+      }
+    ],
+    "resumoArtigo": "pt:Música barroca",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Baroque_music"
+    ],
+    "similares": [
+      "periodo-classico"
+    ],
+    "som": "Uma compreensão mais científica do som e da altura levou a inovações como o temperamento igual e a modulação.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music#Characteristics",
+      "idioma": "en",
+      "secao": "Characteristics",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    }
+  },
+  {
+    "id": "periodo-classico",
+    "nome": "Período Clássico",
+    "pai": "musica-classica",
+    "mestre": false,
+    "decada": 1730,
+    "origens": [
+      "musica-barroca"
+    ],
+    "resumo": "O período clássico foi uma era da música clássica entre aproximadamente 1730 e 1820.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Per%C3%ADodo_Cl%C3%A1ssico_(m%C3%BAsica)",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 34,
+        "ate": 49,
+        "genero": "musica-classica"
+      }
+    ],
+    "resumoArtigo": "pt:Período Clássico (música)",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Classical_period_(music)"
+    ],
+    "similares": [
+      "romantismo"
+    ],
+    "som": "O cravo foi substituído como instrumento de teclado principal pelo piano. Os principais tipos de música instrumental foram sonata, trio, quarteto de cordas, quinteto, sinfonia (executado por uma orquestra) e o concerto solo, que apresentava um músico virtuoso tocando uma obra solo para violino, piano, flauta ou outro instrumento, acompanhado por uma orquestra.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Per%C3%ADodo_Cl%C3%A1ssico_(m%C3%BAsica)",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "somLinks": [
+      {
+        "de": 167,
+        "ate": 175,
+        "genero": "sinfonia"
+      },
+      {
+        "de": 210,
+        "ate": 218,
+        "genero": "concerto"
+      }
+    ]
+  },
+  {
+    "id": "romantismo",
+    "nome": "Romantismo",
+    "pai": "musica-classica",
+    "mestre": false,
+    "decada": 1810,
+    "origens": [
+      "periodo-classico"
+    ],
+    "resumo": "A música do romantismo é aquela composta segundo os princípios da estética do romantismo, predominante durante o século XIX. Na história da música, corresponde ao período que seguiu ao classicismo.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_do_romantismo",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Música do romantismo",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Romantic_music"
+    ],
+    "similares": [
+      "impressionismo"
+    ],
+    "somPendente": "artigo sem trecho sobre o som"
+  },
+  {
+    "id": "impressionismo",
+    "nome": "Impressionismo",
+    "pai": "musica-classica",
+    "mestre": false,
+    "decada": 1890,
+    "origens": [
+      "romantismo"
+    ],
+    "resumo": "Impressionismo na música foi um movimento na música erudita que se desenvolveu principalmente na França, a partir da segunda metade do século XIX, prosseguindo até meados do século XX. Assim como o seu homólogo e precursor nas artes visuais, o impressionismo musical se caracteriza sobretudo pela sugestão e atmosfera, em lugar da forte emoção ou da ilustração de narrativas (como em música de programa), típicos da música romântica.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Impressionismo_na_m%C3%BAsica",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Impressionismo na música",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Impressionism_in_music"
+    ],
+    "similares": [
+      "musica-moderna"
+    ],
+    "som": "A dissonância dos acordes não era resolvida, mas usada como timbre.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Impressionism_in_music#Characteristics",
+      "idioma": "en",
+      "secao": "Characteristics",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    }
+  },
+  {
+    "id": "musica-moderna",
+    "nome": "Música Moderna",
+    "pai": "musica-classica",
+    "mestre": false,
+    "decada": 1900,
+    "origens": [
+      "romantismo"
+    ],
+    "resumo": "Música moderna é o conjunto de tendências musicais que surgiram durante o período da primeira metade do século XX (conhecido como modernismo), após o romantismo, e que possuem caráter quase exclusivamente experimental.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_moderna",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 150,
+        "ate": 160,
+        "genero": "romantismo"
+      }
+    ],
+    "resumoArtigo": "pt:Música moderna",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Modernism_(music)"
+    ],
+    "similares": [
+      "impressionismo"
+    ],
+    "som": "Na música, o modernismo é uma postura estética subjacente ao período de mudança e desenvolvimento da linguagem musical ocorrido por volta da virada do século XX, um período de reações diversas, que desafiaram e reinterpretaram categorias musicais mais antigas, de inovações que levaram a novas formas de organizar e abordar aspectos da música como harmonia, melodia, som e ritmo, e de mudanças nas visões de mundo estéticas, em estreita relação com o período mais amplo e identificável do modernismo nas artes da época.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Modernism_(music)",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    }
+  },
+  {
+    "id": "opera",
+    "nome": "Ópera",
+    "pai": "musica-classica",
+    "mestre": false,
+    "decada": 1600,
+    "origens": [],
+    "resumo": "Ópera (em italiano: significa obra, em latim, plural de \"opus\", obra) é um gênero artístico teatral que consiste em um drama encenado acompanhada de música, ou seja, composição dramática em que se combinam música instrumental e canto, com presença ou não de diálogo falado.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/%C3%93pera",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Ópera",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Opera"
+    ],
+    "similares": [
+      "musica-coral"
+    ],
+    "som": "Na ópera tradicional de números, os cantores usam dois estilos de canto: o recitativo, um estilo próximo da fala, e as árias, independentes. A popularidade da ópera continuou pela era do verismo na Itália e pela ópera francesa contemporânea até Giacomo Puccini e Richard Strauss, no começo do século XX.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Opera",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    }
+  },
+  {
+    "id": "musica-coral",
+    "nome": "Música Coral",
+    "pai": "musica-classica",
+    "mestre": false,
+    "origens": [],
+    "resumo": "Um coro (ou coral) é um grupo de cantores distribuídos por naipes segundo a tessitura de suas vozes.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Coro_(m%C3%BAsica)",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Coro (música)",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Choral_music"
+    ],
+    "similares": [
+      "opera"
+    ],
+    "som": "Na música ocidental, um coro misto (de vozes adultas, masculinas e femininas) compõe-se de quatro naipes: Sopranos, Contraltos, Tenores e Baixos; incluindo, algumas vezes, as vozes intermediárias: Mezzo-soprano e Barítono, mais frequentemente ditas 2.º Soprano e 2.º Tenor (ou 1.º Baixo), respectivamente, quando compõem um coro. O termo coro pode também referir-se a um subconjunto de um determinado conjunto; assim, fala-se do \"coro de sopros\", \"coro de trombones\" de uma orquestra, ou de diferentes \"coros\" de vozes ou instrumentos em uma composição policoral.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Coro_(m%C3%BAsica)",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "sinfonia",
+    "nome": "Sinfonia",
+    "pai": "musica-classica",
+    "mestre": false,
+    "decada": 1730,
+    "origens": [],
+    "resumo": "Uma sinfonia é uma composição musical extensa da música clássica ocidental, na maioria das vezes para orquestra.",
+    "resumoFonte": {
+      "url": "https://en.wikipedia.org/wiki/Symphony",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "resumoLinks": [
+      {
+        "de": 49,
+        "ate": 64,
+        "genero": "musica-classica"
+      }
+    ],
+    "resumoArtigo": "en:Symphony",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Symphony"
+    ],
+    "similares": [
+      "concerto"
+    ],
+    "som": "As sinfonias são quase sempre escritas para uma orquestra formada por uma seção de cordas (violino, viola, violoncelo e contrabaixo), metais, madeiras e instrumentos de percussão, que somam ao todo cerca de 30 a 100 músicos.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Symphony",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    }
+  },
+  {
+    "id": "concerto",
+    "nome": "Concerto",
+    "pai": "musica-classica",
+    "mestre": false,
+    "decada": 1600,
+    "origens": [],
+    "resumo": "Concerto é uma composição musical escrita para um ou mais instrumentos solistas, cujo acompanhamento pode ser feito por uma orquestra ou um piano.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Concerto",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Concerto",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Concerto"
+    ],
+    "similares": [
+      "sinfonia"
+    ],
+    "somArtigo": false
+  },
+  {
+    "id": "musica-de-camara",
+    "nome": "Música de Câmara",
+    "pai": "musica-classica",
+    "mestre": false,
+    "decada": 1600,
+    "origens": [],
+    "resumo": "Música de câmara é a música erudita composta para um pequeno grupo de instrumentos ou vozes que tradicionalmente podiam acomodar-se nas câmaras de um palácio.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_de_c%C3%A2mara",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Música de câmara",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chamber_music"
+    ],
+    "similares": [
+      "concerto"
+    ],
+    "som": "Nesta categoria geralmente não está incluída a música para instrumento solo, entretanto, é comum incluir obras para piano solo, dependendo da ambientação. Sua composição é destinada a um pequeno número de instrumentos ou vozes - geralmente, até o máximo de dez.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_de_c%C3%A2mara",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "world-music",
+    "nome": "World Music",
+    "pai": null,
+    "mestre": true,
+    "origens": [],
+    "resumo": "Música do Mundo ou world music refere-se à música tradicional de uma cultura criada e tocada por músicos relacionados a essa cultura.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_do_Mundo",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Música do Mundo",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/World_music"
+    ],
+    "similares": [],
+    "somArtigo": false
+  },
+  {
+    "id": "afrobeat",
+    "nome": "Afrobeat",
+    "pai": "world-music",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "jazz"
+    ],
+    "resumo": "Afrobeat é uma combinação de música iorubá, jazz, highlife, funk e ritmos, fundido com percussão africana e estilos vocais, popularizado na África na década de 1970.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Afrobeat",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 44,
+        "ate": 48,
+        "genero": "jazz"
+      }
+    ],
+    "resumoArtigo": "pt:Afrobeat",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Afrobeat"
+    ],
+    "similares": [
+      "jazz-fusion"
+    ],
+    "som": "O principal criador do Afrobeat e artista nigeriano exclusivo de longa data foi o multi-instrumentista e líder de banda Fela Kuti, que cunhou o termo Afrobeat, moldado a estrutura musical, e também o contexto político do gênero na Nigéria. Vocais tendem a ser cantadas em iorubá e pidgin inglês, como por Kuti, que disse, em perfeito inglês, considerar estas como sendo as mais entendidas em todas as línguas das fronteiras da África.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Afrobeat",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "musica-tradicional-chinesa",
+    "nome": "Música Tradicional Chinesa",
+    "pai": "world-music",
+    "mestre": false,
+    "origens": [],
+    "resumo": "A música chinesa evoluiu desde os tempos antigos, sob a influência das doutrinas religiosas, filosóficas e ideológicas.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_da_China",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Música da China",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Music_of_China"
+    ],
+    "similares": [],
+    "som": "Alguns instrumentos tradicionais são: vários tipos de flauta, o sheng, o gongo, sinos e o erhu.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_da_China",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "musica-dos-povos-originarios",
+    "nome": "Música dos Povos Originários",
+    "pai": "world-music",
+    "mestre": false,
+    "origens": [],
+    "resumo": "Música indígena é um termo para a música tradicional dos povos indígenas do mundo, isto é, a música de um grupo étnico \"original\" que habita uma região geográfica ao lado de imigrantes mais recentes, que podem ser mais numerosos.",
+    "resumoFonte": {
+      "url": "https://en.wikipedia.org/wiki/Indigenous_music",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "resumoArtigo": "en:Indigenous music",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Indigenous_music"
+    ],
+    "similares": [],
+    "somPendente": "artigo sem trecho sobre o som"
+  },
+  {
+    "id": "musica-arabe",
+    "nome": "Música Árabe",
+    "pai": "world-music",
+    "mestre": false,
+    "origens": [],
+    "resumo": "Música árabe (árabe: الموسيقى العربية – ALA-LC: al-mūsīqā al-‘Arabiyyah) é como é chamada a música produzida nos países de língua árabe.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_%C3%A1rabe",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Música árabe",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Arabic_music"
+    ],
+    "similares": [],
+    "som": "A música árabe põe muita ênfase nos vocais, explorando a voz humana ao máximo e deixando o instrumental num segundo plano. A música árabe é caracterizada por uma ênfase na melodia e ritmo, em oposição à harmonia.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_%C3%A1rabe#Caracter%C3%ADsticas",
+      "idioma": "pt",
+      "secao": "Características",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "musica-indiana",
+    "nome": "Música Indiana",
+    "pai": "world-music",
+    "mestre": false,
+    "origens": [],
+    "resumo": "Música clássica indiana é um gênero de música da ásia meridional, que possui duas grandes vertentes: a tradição do norte da Índia chamada de hindustani, e a do sul da Índia chamada de carnática; que eram iguais até o século XVI, quando entrou em crise o domínio muçulmano sobre o subcontinente indiano, separando-se e evoluindo para formas levemente distintas (os sistemas contêm mais características em comum do que diferenças).",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_cl%C3%A1ssica_indiana",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 0,
+        "ate": 15,
+        "genero": "musica-classica"
+      }
+    ],
+    "resumoArtigo": "pt:Música clássica indiana",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hindustani_classical_music"
+    ],
+    "similares": [],
+    "som": "Durante uma apresentação, a primeira svar de cada ciclo deve ser executada simultaneamente pelo percussionista e o cantor, embora entre uma retomada e outra eles possam explorar os ritmos de maneira relativamente livre, utilizando-se inclusive de sincopação e deslocamento de acentuação. Não é incomum que músicos se desafiem em meio às apresentações, com o percussionista tendo que improvisar novos ritmos conforme novidades trazidas pelos demais instrumentistas, mas sem nunca violar os princípios do tala.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_cl%C3%A1ssica_indiana#Caracter%C3%ADsticas",
+      "idioma": "pt",
+      "secao": "Características",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

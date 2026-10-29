@@ -17,7 +17,9 @@ for (const arquivo of fs.readdirSync(PASTA).filter((f) => f.endsWith(".json")).s
   const c = JSON.parse(fs.readFileSync(path.join(PASTA, arquivo), "utf8"));
   const nome = arquivo.replace(/\.json$/, "");
   if (c.id !== nome) erros.push(`${arquivo}: "id" deve ser "${nome}"`);
-  if (!indice.has(c.indice)) erros.push(`${c.id}: "indice" "${c.indice}" não está em mu-essential-charts.json`);
+  // "indice": null só nas listas que não vêm de um chart do /mu/ (ex.: tracklore-selecao), com a fonte de cada disco.
+  if (c.indice === null) { for (const a of c.albuns || []) if (!a.fonte) erros.push(`${c.id} ${a.pos}: lista sem chart precisa de "fonte" em cada disco`); }
+  else if (!indice.has(c.indice)) erros.push(`${c.id}: "indice" "${c.indice}" não está em mu-essential-charts.json`);
   for (const g of c.generos || []) if (!generos.has(g)) erros.push(`${c.id}: gênero "${g}" não existe`);
   if (!c.albuns?.length) erros.push(`${c.id}: sem álbuns`);
 
