@@ -193,6 +193,8 @@ const urlDe = (lang, titulo) => `https://${lang}.wikipedia.org/wiki/${encodeURIC
 (async () => {
   const fichas = JSON.parse(fs.readFileSync(ARQ, "utf8"));
   const salvar = () => fs.writeFileSync(ARQ, JSON.stringify(fichas, null, 2) + "\n");
+  // Interrompido (Ctrl+C ou fim de prazo): grava o que já foi feito antes de sair.
+  process.on("SIGINT", () => { salvar(); process.exit(0); });
   const hoje = new Date().toISOString().slice(0, 10);
   let feitos = 0;
   for (const f of fichas) {
