@@ -680,3 +680,24 @@ body.com-painel { overflow: hidden; }
   .autor-foto { width: 100%; min-height: 0; aspect-ratio: 4 / 3; }
   .autor-texto { padding: var(--esp-4); }
 }
+
+/* Pesquisa (js/vistas/busca.js) */
+.busca-campo { position: relative; max-width: 640px; margin: 0 0 var(--esp-3); }
+.busca-campo .icone { position: absolute; left: var(--esp-4); top: 50%; transform: translateY(-50%); width: 20px; height: 20px; color: var(--texto-fraco); pointer-events: none; }
+.busca-campo input { width: 100%; box-sizing: border-box; font: inherit; font-size: var(--t-md); color: var(--texto); background: var(--superficie); border: 1px solid var(--borda); border-radius: 999px; padding: var(--esp-3) var(--esp-4) var(--esp-3) 48px; outline: none; transition: border-color var(--transicao), background var(--transicao); }
+.busca-campo input::placeholder { color: var(--texto-fraco); }
+.busca-campo input:focus { border-color: var(--texto-suave); background: var(--superficie-2); }
+.busca-campo input::-webkit-search-cancel-button { filter: invert(1) opacity(0.5); cursor: pointer; }
+.busca-contagem { min-height: 1.2em; margin: 0 0 var(--esp-6); color: var(--texto-fraco); font-size: var(--t-sm); }
+.busca-secao { margin-bottom: var(--esp-8); }
+.busca-secao .chips { margin-bottom: 0; }
+.chip-n { color: var(--texto-fraco); font-size: var(--t-xs); margin-left: 2px; }
+.busca-artistas { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--esp-2); }
+.busca-artista { display: grid; grid-template-columns: 44px 1fr; grid-template-rows: auto auto; column-gap: var(--esp-3); align-items: center; width: 100%; text-align: left; font: inherit; color: var(--texto); background: none; border: 1px solid transparent; border-radius: var(--raio); padding: var(--esp-2); cursor: pointer; transition: background var(--transicao); }
+.busca-artista:hover, .busca-artista:focus-visible { background: var(--superficie); border-color: var(--borda); }
+.busca-artista-capa { grid-row: span 2; width: 44px; height: 44px; border-radius: 50%; overflow: hidden; background: var(--superficie-2); display: grid; place-items: center; }
+.busca-artista-capa img { width: 100%; height: 100%; object-fit: cover; }
+.busca-artista-nome { font-weight: 600; font-size: var(--t-sm); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.busca-artista-n { color: var(--texto-fraco); font-size: var(--t-xs); }
+.busca-mais { display: block; margin: var(--esp-6) auto 0; font: inherit; font-size: var(--t-sm); color: var(--texto); background: none; border: 1px solid var(--borda); border-radius: 999px; padding: var(--esp-2) var(--esp-6); cursor: pointer; }
+.busca-mais:hover { border-color: var(--texto-fraco); }

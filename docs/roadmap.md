@@ -74,7 +74,8 @@
 - [ ] "Gêneros similares" no fim da página do gênero.
 
 ## Fase 6 — Ache o Seu Som!
-- [ ] Índice de busca no cliente; filtros álbum/artista/faixa.
+- [x] Índice de busca no cliente: álbum, artista, gênero e ano, com resultados a cada tecla (`js/vistas/busca.js`).
+- [ ] Descritores (a partir dos descriptors do RYM) como mais um campo da busca.
 - [ ] Copiar "Artista – Álbum", seleção múltipla, exportar .txt / clipboard.
 
 ## Fase 7 — Mobile e polimento
