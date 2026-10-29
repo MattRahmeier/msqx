@@ -7156,13 +7156,6 @@
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
     },
-    "resumoLinks": [
-      {
-        "de": 0,
-        "ate": 15,
-        "genero": "musica-classica"
-      }
-    ],
     "resumoArtigo": "pt:Música clássica indiana",
     "fontes": [
       "https://en.wikipedia.org/wiki/Hindustani_classical_music"
@@ -7174,6 +7167,10 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "nomesAlternativos": [
+      "Música clássica indiana",
+      "música hindustani"
+    ]
   }
 ]

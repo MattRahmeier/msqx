@@ -35,5 +35,12 @@ async function navegar() {
   conteudo.focus({ preventScroll: true });
 }
 
+// Regra do site: todo link para fora (streaming, YouTube, Discogs, Wikipédia…) abre em outra aba,
+// mesmo que o HTML que o criou tenha esquecido o target.
+document.addEventListener("click", (e) => {
+  const a = e.target.closest("a[href]");
+  if (a && /^https?:$/.test(a.protocol) && a.origin !== location.origin) { a.target = "_blank"; a.rel = "noopener"; }
+}, true);
+
 window.addEventListener("hashchange", navegar);
 navegar();

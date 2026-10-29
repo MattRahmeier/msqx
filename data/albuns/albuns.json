@@ -10522,14 +10522,17 @@
       "lancamento": "discogs",
       "gravadora": "discogs",
       "faixas": "discogs",
-      "duracao": "discogs"
+      "duracao": "discogs",
+      "capa": "discogs"
     },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=OnDb25dKneI",
       "tipo": "faixa",
       "titulo": "Anthony Shakir - The Other One",
       "canal": "Space Musicorum"
-    }
+    },
+    "capa": "assets/img/capas/anthony-shakir-frictionalism-1994-2009.jpg",
+    "capaFonte": "https://i.discogs.com/u0fv2SO4FZ9arq9fdotCe08OnRcu6bqElRjofYvvqPw/rs:fit/g:sm/q:90/h:333/w:333/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODI2/NzEtMTI4MDc4MDEz/NC5qcGVn.jpeg"
   },
   {
     "id": "anton-bruckner-symphony-no-7",
@@ -14632,14 +14635,17 @@
       "lancamento": "discogs",
       "gravadora": "discogs",
       "faixas": "discogs",
-      "duracao": "discogs"
+      "duracao": "discogs",
+      "capa": "discogs"
     },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=k7a0GcPtHCE",
       "tipo": "faixa",
       "titulo": "Storm Shard by Ashtorath",
       "canal": "Azeur"
-    }
+    },
+    "capa": "assets/img/capas/ashtorath-darkstorm-entwinded.jpg",
+    "capaFonte": "https://i.discogs.com/ZX-EyiRv49_Qy9Jf69NakHusKfSnwGo9e7Lh1OiVWMM/rs:fit/g:sm/q:90/h:250/w:250/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODM0/MjctMTI0MzA0Njcx/OC5qcGVn.jpeg"
   },
   {
     "id": "asia-asia",
@@ -27936,12 +27942,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/blood-circus-primal-rock-therapy.jpg",
     "musicbrainz": {
       "releaseGroup": "07f860a4-c382-4849-a93e-1ba8c7005717",
       "release": "20ba742e-7cce-4ee2-a985-3dd799c03b91"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "grunge"
     ],
@@ -27973,7 +27978,11 @@
       "traduzido": true
     },
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/366928"
+    "discogs": "https://www.discogs.com/master/366928",
+    "capaFonte": "https://i.discogs.com/3PZN70WrAkYDd4O6B13zMNjkha-W5x3dR9ERBuVPfOs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNzU4/NTktMTQ0Mjc1NTU3/MS0yOTk3LmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    }
   },
   {
     "id": "bloodrock-bloodrock",
@@ -66262,14 +66271,17 @@
     "discogs": "https://www.discogs.com/release/6155302",
     "complementos": {
       "lancamento": "discogs",
-      "gravadora": "discogs"
+      "gravadora": "discogs",
+      "capa": "discogs"
     },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=kesPlDlP248",
       "tipo": "album",
       "titulo": "Future Perfect - A Drum & Bass Mix (Mixed by DJ Dara) [Moonshine Music] {2001}",
       "canal": "DJ Hugo Rodrigues"
-    }
+    },
+    "capa": "assets/img/capas/dj-dara-future-perfect.jpg",
+    "capaFonte": "https://i.discogs.com/11IZQ0JSOC30vjv_sjSJvEzfAltqHMEYuQnJcmAB1fk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxNTUz/MDItMTQxMjQ1Nzk4/NS02ODE3LmpwZWc.jpeg"
   },
   {
     "id": "dj-ez-pure-garage-ii",
@@ -68030,12 +68042,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/dj-zirk-nuttin-but-killaz.jpg",
     "musicbrainz": {
       "releaseGroup": "c5534d47-28b9-49b7-890b-e0570ef39bdf",
       "release": "6894a9b5-694d-45f6-a310-ae220b9c7688"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "memphis-rap"
     ],
@@ -68065,7 +68076,11 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/c5534d47-28b9-49b7-890b-e0570ef39bdf"
     },
-    "discogs": null
+    "discogs": null,
+    "capaFonte": "https://i.discogs.com/-CQjuTIT-72Vsfri767vM8oq-FtzPDrKkKvbbBLL_Nk/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2OTA4/ODctMTMzMjE0Njkw/Mi5qcGVn.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    }
   },
   {
     "id": "django-reinhardt-the-gypsy-genius",
@@ -70884,12 +70899,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/dreams-forgotten-thoughts.jpg",
     "musicbrainz": {
       "releaseGroup": "ec344292-dfe0-4126-9e8e-4ba319e8b103",
       "release": "70d981f8-df71-423e-8882-d7d02c829f4e"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "chillwave-1"
     ],
@@ -70914,7 +70928,11 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/ec344292-dfe0-4126-9e8e-4ba319e8b103"
     },
-    "discogs": null
+    "discogs": null,
+    "capaFonte": "https://i.discogs.com/p6VLlprhJcdcuUlFLz2HxZmXFzG37dRwBzI8FiQKkaM/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyMjkw/MDgtMTQxNDI2MzA2/Ni0xOTY3LmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    }
   },
   {
     "id": "drexciya-harnessed-the-storm",
@@ -73153,12 +73171,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/eddie-and-the-showmen-squad-car.jpg",
     "musicbrainz": {
       "releaseGroup": "2afdbef5-964a-478d-88e2-f8316c07bae9",
       "release": "4ec39aa3-a8a3-4de3-aded-36a5f57187aa"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "surf"
     ],
@@ -73188,7 +73205,11 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/2afdbef5-964a-478d-88e2-f8316c07bae9"
     },
-    "discogs": null
+    "discogs": null,
+    "capaFonte": "https://i.discogs.com/WO-bNFegvcupu0Ii3dkg0ABtQLTolRTdDDfmQVYKMk0/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMjU3/NTkyLTE3MjEzMzcz/NzktNDAxNC5qcGVn.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    }
   },
   {
     "id": "eddie-condon-jammin-at-condons",
@@ -88684,12 +88705,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/galaxian-repent.jpg",
     "musicbrainz": {
       "releaseGroup": "4d65b415-5b31-494c-8cbf-c3ae27af9bee",
       "release": "b38f8e15-8986-40f6-b3fd-ffa2e7891237"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "electro"
     ],
@@ -88715,14 +88735,16 @@
     },
     "discogs": "https://www.discogs.com/release/2579031",
     "complementos": {
-      "gravadora": "discogs"
+      "gravadora": "discogs",
+      "capa": "discogs"
     },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=tk0BUw_WAc4",
       "tipo": "faixa",
       "titulo": "GALAXIAN - REPENT EP [LTD 12\" VINYL LKT 2020X] PROMO",
       "canal": "Galaxian"
-    }
+    },
+    "capaFonte": "https://i.discogs.com/GMHDqt_GfKxxGSVtThyD7z5w8LBWOV9CmCXy1MatDms/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1Nzkw/MzEtMTI5MTQxNzI1/Ni5qcGVn.jpeg"
   },
   {
     "id": "galaxy-2-galaxy-a-high-tech-jazz-compilation",
@@ -94927,12 +94949,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/gravel-no-stone-unturned.jpg",
     "musicbrainz": {
       "releaseGroup": "81c1af96-499b-30c4-94d6-8cf3a6662d6b",
       "release": "3d150e16-ff61-4616-858b-c9da9ed37276"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "grunge"
     ],
@@ -94962,7 +94983,11 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/81c1af96-499b-30c4-94d6-8cf3a6662d6b"
     },
-    "discogs": null
+    "discogs": null,
+    "capaFonte": "https://i.discogs.com/__AOt1ss9GqX52jcW8FL7YIN4tZRxOhP3keghHmRVcE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNDg1/NTctMTMyNjUwMzM5/OC5qcGVn.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    }
   },
   {
     "id": "green-river-dry-as-a-bone-rehab-doll",
@@ -99834,12 +99859,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/henrys-dress-bust-em-green.jpg",
     "musicbrainz": {
       "releaseGroup": "50a15fb4-c529-3171-8248-6b5cf3dce90a",
       "release": "5882db2c-3aa2-4345-a647-1fa7f6899d0b"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "indie-pop"
     ],
@@ -99875,6 +99899,10 @@
     ],
     "estilosFonte": {
       "indie-rock": "musicbrainz"
+    },
+    "capaFonte": "https://i.discogs.com/3G8Nj7WCeUoq5ZJhW6IuI7Euw0eB7Wn73uy74I0aE7g/rs:fit/g:sm/q:90/h:600/w:586/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxMDgx/NS0xNTkxMjA0NTg4/LTk0ODUuanBlZw.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -101550,12 +101578,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/honeybunch-time-trials-1987-1995.jpg",
     "musicbrainz": {
       "releaseGroup": "89b91f0a-ba9d-393e-b521-e01fea27a62c",
       "release": "d39e611b-9c8a-4699-a7ff-52b282f8a1a3"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "indie-pop"
     ],
@@ -101585,7 +101612,11 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/89b91f0a-ba9d-393e-b521-e01fea27a62c"
     },
-    "discogs": null
+    "discogs": null,
+    "capaFonte": "https://i.discogs.com/H9OW8XPDg6tKY8D-fgyvznQZt3kO6ESNWCwhM5CPehk/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODk3/OTAtMTc4MTgzNjE5/Ny01NTQ5LmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    }
   },
   {
     "id": "hoover-the-lurid-traversal-of-route-7",
@@ -115290,12 +115321,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/jolin-tsai-butterfly.jpg",
     "musicbrainz": {
       "releaseGroup": "40014bda-fa6f-4913-a1a9-0c60c6ba803e",
       "release": "06498c70-cd7f-455e-9f64-afadc03b3d9c"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "asian-pop"
     ],
@@ -115333,6 +115363,10 @@
     ],
     "estilosFonte": {
       "j-pop": "musicbrainz"
+    },
+    "capaFonte": "https://i.discogs.com/-8T2J5XK-LkNhYCgz7stWhrkmdc5Uviym6MZE_BxxmM/rs:fit/g:sm/q:90/h:437/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4MzQz/OTAtMTM3Njk1MjAw/MC03OTAyLmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -122396,12 +122430,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/king-olivers-creole-jazz-band-the-complete-king-olivers-creole-jazz-band-1923.jpg",
     "musicbrainz": {
       "releaseGroup": "d28e6b45-325a-43c5-bb65-dcaa4d924197",
       "release": "d90c9aad-759f-448d-878f-3074eb139ef1"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "tracklore-selecao"
     ],
@@ -122431,6 +122464,10 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/d28e6b45-325a-43c5-bb65-dcaa4d924197"
+    },
+    "capaFonte": "https://i.discogs.com/iqxa0OULR-3muPgNi8PaWCJHL1nZ_xlpsmD18xPmgN0/rs:fit/g:sm/q:90/h:470/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4NDgx/MDktMTQyNzkwNTIx/Ni0zNzA3LmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -126742,12 +126779,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/la-vampires-and-matrix-metals-so-unreal.jpg",
     "musicbrainz": {
       "releaseGroup": "c0f61d3e-9a73-413d-a80f-b47e83931c27",
       "release": "63cd9043-b6aa-4daa-9354-ad10bccb8061"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "hypnagogic-pop"
     ],
@@ -126785,6 +126821,10 @@
     "estilosFonte": {
       "electro": "musicbrainz",
       "new-wave": "musicbrainz"
+    },
+    "capaFonte": "https://i.discogs.com/eQ7bvl8jy-anX9FmeK-N2dtpVGYvHQCZ7lNW9fJc8K8/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NTY4/OTAtMTI5MTY4MTIy/Mi5qcGVn.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -127550,12 +127590,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/lamborghini-crystal-1992-cool-runnings.jpg",
     "musicbrainz": {
       "releaseGroup": "5a12cddc-8aa1-46c0-b46c-3b3d8e6e7986",
       "release": "87b5181c-d77a-4715-b31e-aa72b1a4a5da"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "hypnagogic-pop"
     ],
@@ -127593,6 +127632,10 @@
     "estilosFonte": {
       "eletronica": "musicbrainz",
       "rock": "musicbrainz"
+    },
+    "capaFonte": "https://i.discogs.com/IZ5GG7qouLyxT2Jj-5GOq67t803mGwC8A-s49eeOG2w/rs:fit/g:sm/q:90/h:600/w:397/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkwODcz/OS0xNDg4NDk3Njcy/LTQ3MjkuanBlZw.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -141607,12 +141650,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/mariya-takeuchi-love-songs.jpg",
     "musicbrainz": {
       "releaseGroup": "8d69a2f1-6514-3689-a7d1-2dcd1737bb04",
       "release": "25c73a26-ca1c-40be-b7e6-a4b1f9cd1792"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "city-pop"
     ],
@@ -141637,7 +141679,11 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/8d69a2f1-6514-3689-a7d1-2dcd1737bb04"
     },
-    "discogs": null
+    "discogs": null,
+    "capaFonte": "https://i.discogs.com/DBPrbhH82FHNV5uez2A06OoCnUM4lhPLc1wn84vJgQg/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Njky/MDgtMTc1MTk0Nzc5/NS04ODQ1LmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    }
   },
   {
     "id": "mariya-takeuchi-request",
@@ -146576,12 +146622,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/melchior-productions-no-disco-future.jpg",
     "musicbrainz": {
       "releaseGroup": "ce8a561c-9914-3883-a321-edee8cf92026",
       "release": "3e53d697-b6ac-4bb0-93ed-813b84a38c4a"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "minimal-techno-microhouse"
     ],
@@ -146611,6 +146656,10 @@
       "tipo": "faixa",
       "titulo": "Melchior Productions Ltd. - Water Soul",
       "canal": "Lazlo Kovac"
+    },
+    "capaFonte": "https://i.discogs.com/3PYBfV0BLcTvRenteNNVdNiUbSHIaEOPT0UehnSj53s/rs:fit/g:sm/q:90/h:537/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNjY3/MzItMTU3NDU1NzMx/My04Njg4LmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -149360,12 +149409,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/middle-class-out-of-vogue.jpg",
     "musicbrainz": {
       "releaseGroup": "d7d7ca32-e1e8-3164-a3e5-8a0326c278e7",
       "release": "db9e3c38-c30b-4594-927d-4680deec5e7b"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "70s-punk"
     ],
@@ -149406,6 +149454,10 @@
     ],
     "estilosFonte": {
       "hardcore-punk": "musicbrainz"
+    },
+    "capaFonte": "https://i.discogs.com/1QxnMVd8z4usSZj2ajyNjt6e5OKrVSBD-rjidPohm4Q/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwODY4/My0xNTM2NzMzMDk4/LTk0MTIuanBlZw.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -154397,12 +154449,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/moevot-ezleyfbdrehtr-vepreub-zuerfl-mazagvatre-erbbedrea.jpg",
     "musicbrainz": {
       "releaseGroup": "079e61dd-6967-3fb3-a02b-6a7e4cf7e324",
       "release": "37b0839e-877a-4983-a4ff-2c8d15bbad12"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "dark-ambient-general"
     ],
@@ -154419,9 +154470,11 @@
     },
     "discogs": "https://www.discogs.com/master/1280856",
     "complementos": {
-      "gravadora": "discogs"
+      "gravadora": "discogs",
+      "capa": "discogs"
     },
-    "naoOficial": null
+    "naoOficial": null,
+    "capaFonte": "https://i.discogs.com/qCQfQ5oVMidLeZpH43wUI68kAi-oygPM-oEdaf0TX-w/rs:fit/g:sm/q:90/h:600/w:366/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5MDI5/NTItMTY3OTcwMDU0/NS0yNDY3LmpwZWc.jpeg"
   },
   {
     "id": "mogwai-mogwai-young-team",
@@ -157229,12 +157282,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/motoyoshi-iwasaki-and-windy-heart-wash.jpg",
     "musicbrainz": {
       "releaseGroup": "732075ac-30cf-417f-a7e5-9ef7bda6ef25",
       "release": "a98e0645-cab2-45b9-bbb5-03b9727e7805"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "city-pop"
     ],
@@ -157270,6 +157322,10 @@
     ],
     "estilosFonte": {
       "rock": "musicbrainz"
+    },
+    "capaFonte": "https://i.discogs.com/n5mnbMkJEofP7xGBSNuGBIvEh7cT3An3FBA5KuqduGw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyOTE5/OTY4LTE1NDQ1NDE1/MDYtNzAxMi5qcGVn.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -163753,12 +163809,11 @@
       }
     ],
     "links": {},
-    "capa": null,
     "musicbrainz": {
       "releaseGroup": "9f43f969-fdd9-4f84-b526-51aed5b16f5e",
       "release": "4c25eda8-3d91-4882-944a-1d061018006c"
     },
-    "conferir": "MusicBrainz retornou \"Noriko Tujiko — NORIKO\" para \"Noriko Tujiko — From Tokyo to Naiagara\"; sem capa no Cover Art Archive",
+    "conferir": "MusicBrainz retornou \"Noriko Tujiko — NORIKO\" para \"Noriko Tujiko — From Tokyo to Naiagara\"",
     "charts": [
       "art-pop"
     ],
@@ -174242,12 +174297,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/pete-johnson-boogie-woogie-mood-1940-1944.jpg",
     "musicbrainz": {
       "releaseGroup": "3ab8b4a3-c95f-464d-a722-b793d890b80e",
       "release": "d3094fe3-27c1-4890-9d49-3d3fcee6a160"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "tracklore-selecao"
     ],
@@ -174268,6 +174322,10 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/3ab8b4a3-c95f-464d-a722-b793d890b80e"
+    },
+    "capaFonte": "https://i.discogs.com/RuddF5eGgou3-6URZAjStF_t_ROlDeNjkalkRFVpGUA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwMTcw/NzItMTQ5Nzk0Nzk2/Mi03MDA1LnBuZw.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -196008,12 +196066,12 @@
     "links": {
       "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mtreYMrI_KmBrNNV-_GAYBdxJ6B17sYgE"
     },
-    "capa": null,
+    "capa": "assets/img/capas/sentinels-love-rhythm.jpg",
     "musicbrainz": {
       "releaseGroup": "7fd55c13-f168-4741-a0ea-f68b0ed48933",
       "release": "d82b3b96-10f5-454b-8ebd-7d1ce97e056e"
     },
-    "conferir": "MusicBrainz retornou \"Sentinels — Love Rhythm / Synaesthesia\" para \"Sentinels — Love Rhythm\"; sem capa no Cover Art Archive",
+    "conferir": "MusicBrainz retornou \"Sentinels — Love Rhythm / Synaesthesia\" para \"Sentinels — Love Rhythm\"",
     "charts": [
       "garage"
     ],
@@ -196046,6 +196104,10 @@
     ],
     "estilosFonte": {
       "dubstep": "musicbrainz"
+    },
+    "capaFonte": "https://i.discogs.com/YkJfH8pnxa9Cy2T4VGNMKW4kegsS62w3-rKHoMh5Wzk/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1Mzg0/MzQtMTQwOTg3NTEz/Ny05MTY3LmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -216494,12 +216556,10 @@
       }
     ],
     "links": {},
-    "capa": null,
     "musicbrainz": {
       "releaseGroup": "4bc1f4b3-726b-3452-9669-eee006131ad6",
       "release": "162d3f5e-525b-42aa-8ec8-dec5a377a85f"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "city-pop"
     ],
@@ -216848,12 +216908,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/tatsuro-yamashita-for-you.jpg",
     "musicbrainz": {
       "releaseGroup": "72490254-53de-4b5f-a71c-552ed444a949",
       "release": "fee84ced-dca3-4ab7-9786-ad160db9a200"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "city-pop"
     ],
@@ -216886,6 +216945,10 @@
     ],
     "estilosFonte": {
       "j-pop": "wikidata"
+    },
+    "capaFonte": "https://i.discogs.com/89NIpTkkt8TZ1VxSDxvjbienMDRg-CYZiAVjXnjp5OA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNzkz/NzQtMTcwNTc3NzA3/My0yNTcyLmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -222472,12 +222535,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/the-charlottes-lovehappy.jpg",
     "musicbrainz": {
       "releaseGroup": "71764990-8025-329c-a9b1-9deafa1b8de1",
       "release": "17a7d57a-e28a-4d32-a9a5-1dab0ae9bde4"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "indie-pop"
     ],
@@ -222515,6 +222577,10 @@
     "estilosFonte": {
       "indie-rock": "musicbrainz",
       "shoegaze": "musicbrainz"
+    },
+    "capaFonte": "https://i.discogs.com/-9y6pJJYziN0XX3rvQF6XAEdsBMCPQs5_auCxUDQADY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODcz/MS0xNzY3MTAxMDQz/LTgwODkuanBlZw.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -247064,12 +247130,12 @@
     "links": {
       "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k_o7u_pWiFLBzlNW1P69U6cI7ULpuKrmQ"
     },
-    "capa": null,
+    "capa": "assets/img/capas/trouble-psalm-9.jpg",
     "musicbrainz": {
       "releaseGroup": "20846efe-75de-4a51-8f0f-1f5a142108b5",
       "release": "1915784a-ed1c-4b16-a9cf-3dfdd1282c55"
     },
-    "conferir": "MusicBrainz retornou \"Trouble — Psalm 9 / The Skull\" para \"Trouble — Psalm 9\"; sem capa no Cover Art Archive",
+    "conferir": "MusicBrainz retornou \"Trouble — Psalm 9 / The Skull\" para \"Trouble — Psalm 9\"",
     "charts": [
       "metal-subgenres"
     ],
@@ -247102,6 +247168,10 @@
     ],
     "estilosFonte": {
       "heavy-metal": "musicbrainz"
+    },
+    "capaFonte": "https://i.discogs.com/YDtJVwQaDaOU9kOVB3WgWO42fhRiJeO-GML7MeTGm1g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MzEw/ODAtMTI3NzIxMjc4/MC5qcGVn.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -250531,12 +250601,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/undiscovered-moons-of-saturn-lost-in-cosmos.jpg",
     "musicbrainz": {
       "releaseGroup": "ab89169a-f31c-30ba-9b4e-d04898f92ef7",
       "release": "9c87848d-26f5-4002-af42-0a2463b21c5a"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "dark-ambient-general"
     ],
@@ -250563,14 +250632,16 @@
     "discogs": "https://www.discogs.com/release/4018114",
     "complementos": {
       "lancamento": "discogs",
-      "gravadora": "discogs"
+      "gravadora": "discogs",
+      "capa": "discogs"
     },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=MVQRfZV-y_c",
       "tipo": "album",
       "titulo": "Undiscovered Moons of Saturn - Lost in Cosmos album trailer",
       "canal": "SwampkultProductions"
-    }
+    },
+    "capaFonte": "https://i.discogs.com/GKLi-iYYXu9108vqZAWYwoSslCQnZ_h5efH2TDZfn2c/rs:fit/g:sm/q:90/h:250/w:250/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwMTgx/MTQtMTM1MjUwMjg0/OS05MjM5LmpwZWc.jpeg"
   },
   {
     "id": "univers-zero-1313",
@@ -252866,12 +252937,11 @@
       }
     ],
     "links": {},
-    "capa": null,
+    "capa": "assets/img/capas/various-artists-ayia-napa-discovered.jpg",
     "musicbrainz": {
       "releaseGroup": "7926bfd1-f5c8-3d44-9b61-4f381fddb9e7",
       "release": "b1f6c915-7bb6-4f32-ab7f-dc52562243a3"
     },
-    "conferir": "sem capa no Cover Art Archive",
     "charts": [
       "garage"
     ],
@@ -252904,6 +252974,10 @@
     "estilosFonte": {
       "house": "musicbrainz",
       "trance": "musicbrainz"
+    },
+    "capaFonte": "https://i.discogs.com/phjivQmUIMmJOydZKAKYkEuaDeqcjjr6CMtDaJZUWMU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5MDM3/Ny0xMjAzMzA1MjA2/LmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
     }
   },
   {
@@ -254236,9 +254310,12 @@
     "gravadora": "Black Box",
     "complementos": {
       "lancamento": "discogs",
-      "gravadora": "discogs"
+      "gravadora": "discogs",
+      "capa": "discogs"
     },
-    "naoOficial": null
+    "naoOficial": null,
+    "capa": "assets/img/capas/various-artists-transmissions-vol-1.jpg",
+    "capaFonte": "https://i.discogs.com/GRyn1wm7U0k73cgA-mZV-lo43HAgVrfQAICheYQ5keY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMzY0/MTEtMTMxMjc0ODk1/MS5qcGVn.jpeg"
   },
   {
     "id": "various-artists-warrior-dubz",
@@ -258946,7 +259023,8 @@
       "gravadora": "deezer",
       "duracao": "deezer",
       "faixas": "deezer",
-      "lancamento": "discogs"
+      "lancamento": "discogs",
+      "capa": "discogs"
     },
     "sobre": "Etymology of Maureen é um álbum de Whistla, lançado em 2010 pela L2s Recordings, com 4 faixas.",
     "sobreFonte": {
@@ -258961,7 +259039,9 @@
       "tipo": "faixa",
       "titulo": "Whistla - Larry",
       "canal": "JustAnotherSwiveller"
-    }
+    },
+    "capa": "assets/img/capas/whistla-etymology-of-maureen.jpg",
+    "capaFonte": "https://i.discogs.com/1zELQ1F4HjSDZHTOybD5uLf2kchQRdWraVP-WHP_nHY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1Mzg0/ODQtMTMyNzc5MTUw/OS5qcGVn.jpeg"
   },
   {
     "id": "why-alopecia",
