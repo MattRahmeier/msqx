@@ -43,15 +43,17 @@ export async function render(el, [termoInicial = ""]) {
 
   el.innerHTML = `
     ${tituloPagina("Pesquisa")}
-    <form class="busca-campo" role="search" onsubmit="return false">
-      <svg class="icone" aria-hidden="true"><use href="#i-busca"/></svg>
-      <input type="search" id="busca-termo" name="q" placeholder="O que você quer ouvir?" autocomplete="off" spellcheck="false"
-        aria-label="Pesquisar álbuns, artistas e gêneros" aria-controls="busca-resultados" value="${esc(termoInicial)}">
-    </form>
-    <details class="busca-dica">
-      <summary>Como refinar a pesquisa</summary>
-      <p>Combine palavras com vírgula (,) para refinar sua pesquisa: <em>banda, álbum, gênero</em>.</p>
-    </details>
+    <div class="busca-linha">
+      <form class="busca-campo" role="search" onsubmit="return false">
+        <svg class="icone" aria-hidden="true"><use href="#i-busca"/></svg>
+        <input type="search" id="busca-termo" name="q" placeholder="O que você quer ouvir?" autocomplete="off" spellcheck="false"
+          aria-label="Pesquisar álbuns, artistas e gêneros" aria-controls="busca-resultados" value="${esc(termoInicial)}">
+      </form>
+      <details class="busca-dica">
+        <summary aria-label="Como refinar a pesquisa" title="Como refinar a pesquisa"><span aria-hidden="true">i</span></summary>
+        <p class="busca-dica-caixa">Combine palavras com vírgula (,) para refinar sua pesquisa: <em>banda, álbum, gênero</em>.</p>
+      </details>
+    </div>
     <p class="busca-contagem" role="status" aria-live="polite"></p>
     <div id="busca-resultados" class="busca-resultados"></div>`;
 
@@ -141,6 +143,12 @@ export async function render(el, [termoInicial = ""]) {
           <section class="busca-secao"><h2 class="secao-titulo">Álbuns</h2>
           <div class="grade-albuns">${cards(0, mostrando)}</div>${botaoMais()}</section>` : ""}`;
   }
+
+  // A caixa de informação fecha ao tocar fora dela ou com Esc.
+  const dica = el.querySelector(".busca-dica");
+  const fecharDica = (e) => { if (!el.isConnected) return document.removeEventListener("click", fecharDica); if (dica.open && !dica.contains(e.target)) dica.open = false; };
+  document.addEventListener("click", fecharDica);
+  dica.addEventListener("keydown", (e) => { if (e.key === "Escape") { dica.open = false; dica.querySelector("summary").focus(); } });
 
   let espera;
   campo.addEventListener("input", () => { clearTimeout(espera); espera = setTimeout(buscar, 90); });

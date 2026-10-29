@@ -682,7 +682,7 @@ body.com-painel { overflow: hidden; }
 }
 
 /* Pesquisa (js/vistas/busca.js) */
-.busca-campo { position: relative; max-width: 640px; margin: var(--esp-4) 0 var(--esp-2); }
+.busca-campo { position: relative; max-width: 640px; }
 .busca-campo .icone { position: absolute; left: var(--esp-4); top: 50%; transform: translateY(-50%); width: 20px; height: 20px; color: var(--texto-fraco); pointer-events: none; }
 .busca-campo input { width: 100%; box-sizing: border-box; font: inherit; font-size: var(--t-md); color: var(--texto); background: var(--superficie); border: 1px solid var(--borda); border-radius: 999px; padding: var(--esp-3) var(--esp-4) var(--esp-3) 48px; outline: none; transition: border-color var(--transicao), background var(--transicao); }
 .busca-campo input::placeholder { color: var(--texto-fraco); }
@@ -701,10 +701,10 @@ body.com-painel { overflow: hidden; }
 .busca-artista-n { color: var(--texto-fraco); font-size: var(--t-xs); }
 .busca-mais { display: block; margin: var(--esp-6) auto 0; font: inherit; font-size: var(--t-sm); color: var(--texto); background: none; border: 1px solid var(--borda); border-radius: 999px; padding: var(--esp-2) var(--esp-6); cursor: pointer; }
 .busca-mais:hover { border-color: var(--texto-fraco); }
-.busca-dica { max-width: 640px; margin: 0 0 var(--esp-2); font-size: var(--t-sm); color: var(--texto-suave); }
-.busca-dica summary { display: inline-flex; align-items: center; gap: var(--esp-1); cursor: pointer; color: var(--texto-fraco); list-style: none; padding: var(--esp-1) 0; }
+.busca-linha { display: flex; align-items: center; gap: var(--esp-2); max-width: 640px; margin: var(--esp-4) 0 var(--esp-2); }
+.busca-linha .busca-campo { flex: 1; margin: 0; }
+.busca-dica { position: relative; flex: none; }
+.busca-dica summary { list-style: none; display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; border: 1.5px solid var(--texto-fraco); color: var(--texto-fraco); font: 700 var(--t-sm)/1 Georgia, "Times New Roman", serif; cursor: pointer; transition: color var(--transicao), border-color var(--transicao); }
 .busca-dica summary::-webkit-details-marker { display: none; }
-.busca-dica summary::before { content: "›"; display: inline-block; width: 1em; text-align: center; transition: transform var(--transicao); }
-.busca-dica[open] summary::before { transform: rotate(90deg); }
-.busca-dica summary:hover { color: var(--texto-suave); }
-.busca-dica p { margin: var(--esp-1) 0 var(--esp-2) calc(1em + var(--esp-1)); }
+.busca-dica summary:hover, .busca-dica[open] summary { color: var(--texto); border-color: var(--texto); }
+.busca-dica-caixa { position: absolute; right: 0; top: calc(100% + var(--esp-2)); z-index: 20; width: min(280px, calc(100vw - 32px)); margin: 0; padding: var(--esp-3) var(--esp-4); background: var(--popup); color: var(--popup-texto); border-radius: var(--raio); box-shadow: var(--sombra-popup); font-size: var(--t-sm); line-height: 1.45; }
