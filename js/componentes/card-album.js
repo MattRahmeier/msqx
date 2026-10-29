@@ -42,26 +42,28 @@ if (typeof document !== "undefined") {
 export const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
 // Botões de streaming. `comNome`: mostra o nome da plataforma ao lado do ícone (caixa lateral).
-// Sem nenhum link oficial, o botão "Não oficial" leva ao upload de fã no YouTube (ficha.naoOficial,
+// Fora dos streamings populares (Spotify, YouTube Music, Apple Music, Deezer), o botão não oficial —
+// círculo vermelho com o logo do YouTube — leva ao upload de fã (ficha.naoOficial,
 // scripts/buscar-nao-oficiais.js): o álbum completo ou, sem ele, uma faixa do álbum.
 export const temOndeOuvir = (ficha) => Object.keys(ficha.links || {}).length > 0 || Boolean(ficha.naoOficial?.url);
 function botaoNaoOficial(ficha) {
   const n = ficha.naoOficial;
   const rotulo = n.tipo === "album" ? "Não oficial: álbum completo no YouTube" : "Não oficial: uma faixa do álbum no YouTube";
-  return `<li><a class="plat plat-nome nao-oficial" href="${esc(n.url)}" target="_blank" rel="noopener"
+  return `<li><a class="plat nao-oficial" href="${esc(n.url)}" target="_blank" rel="noopener"
     aria-label="${rotulo}: ${esc(ficha.titulo)}" title="${rotulo} (upload de fã)">
-    <svg class="icone" aria-hidden="true"><use href="#i-youtube-music"/></svg><span>Não oficial</span></a></li>`;
+    <svg class="icone" aria-hidden="true"><use href="#i-youtube"/></svg></a></li>`;
 }
+const POPULARES = ["spotify", "youtubeMusic", "appleMusic", "deezer"];
 
 export function botoesStreaming(ficha, { comNome = false } = {}) {
   const links = ficha.links || {};
-  if (!Object.keys(links).length && ficha.naoOficial?.url) return botaoNaoOficial(ficha);
+  const naoOficial = ficha.naoOficial?.url && !POPULARES.some((p) => links[p]) ? botaoNaoOficial(ficha) : "";
   return PLATAFORMAS.filter((p) => links[p.id]).map((p) => {
     const rotulo = `Ouvir no ${p.nome}`;
     return `<li><a class="plat${comNome ? " plat-nome" : ""}" href="${esc(links[p.id])}" target="_blank" rel="noopener"
       aria-label="${rotulo}: ${esc(ficha.titulo)}" title="${rotulo}">
       <svg class="icone" aria-hidden="true"><use href="#i-${p.icone || p.id}"/></svg>${comNome ? `<span>${p.nome}</span>` : ""}</a></li>`;
-  }).join("");
+  }).join("") + naoOficial;
 }
 
 export function capaHtml(ficha, { lazy = true } = {}) {

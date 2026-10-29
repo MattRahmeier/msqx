@@ -1,4 +1,6 @@
-// Link não oficial para fichas sem nenhum link oficial de streaming (data/albuns/albuns.json): um
+// Link não oficial para fichas fora dos streamings populares — Spotify, YouTube Music, Apple Music e
+// Deezer (data/albuns/albuns.json; pedido do usuário em 29/10/2026) —, mesmo que tenham Bandcamp,
+// Tidal ou Qobuz: um
 // upload de fã no YouTube, achado pela busca de vídeos do YouTube Music. Pedido do usuário
 // (28/10/2026): "se não achou links oficiais, coloque um botão 'Não oficial' com o que tiver".
 //   1. o álbum completo: título do vídeo com o artista e o título do álbum, e pelo menos 60% da duração
@@ -7,7 +9,7 @@
 //      vídeo mais visto).
 // Versões ao vivo, covers e remixes ficam de fora (salvo em álbum ao vivo).
 // Grava ficha.naoOficial = { url, tipo: "album" | "faixa", titulo, canal }. O site mostra o botão
-// "Não oficial" só quando a ficha não tem link oficial.
+// não oficial (círculo vermelho do YouTube) só quando a ficha não está em nenhum streaming popular.
 // Uso: node scripts/buscar-nao-oficiais.js [--ids id1,id2] [--refazer]
 
 const fs = require("fs");
@@ -40,10 +42,13 @@ async function videos(consulta) {
   } catch { return []; }
 }
 
+const POPULARES = ["spotify", "youtubeMusic", "appleMusic", "deezer"];
+const foraDosPopulares = (f) => !POPULARES.some((p) => f.links?.[p]);
+
 (async () => {
   const fichas = JSON.parse(fs.readFileSync(ARQ, "utf8"));
-  const alvo = fichas.filter((f) => f.titulo && f.artista && !Object.keys(f.links || {}).length && (refazer || !("naoOficial" in f)) && (!ids || ids.has(f.id)));
-  console.log(`${alvo.length} fichas sem link oficial`);
+  const alvo = fichas.filter((f) => f.titulo && f.artista && foraDosPopulares(f) && (refazer || !("naoOficial" in f)) && (!ids || ids.has(f.id)));
+  console.log(`${alvo.length} fichas fora dos streamings populares`);
   let feitos = 0;
   for (const f of alvo) {
     const artista = norm(f.artista.split(/,| & | and | e /)[0]);

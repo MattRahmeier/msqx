@@ -8673,7 +8673,13 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/3aac9e59-8ed6-3b5b-856e-a7d8ec0a511e"
     },
-    "discogs": "https://www.discogs.com/master/999751"
+    "discogs": "https://www.discogs.com/master/999751",
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=Agnd5ruJbto",
+      "tipo": "album",
+      "titulo": "Amon - El Khela (full album)",
+      "canal": "ka1eidoscopic 2"
+    }
   },
   {
     "id": "amon-tobin-out-from-out-where",
@@ -13412,7 +13418,13 @@
       }
     ],
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/47679"
+    "discogs": "https://www.discogs.com/master/47679",
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=4NMDbnyigO8",
+      "tipo": "faixa",
+      "titulo": "Art Ensemble of Chicago - Thème de Céline",
+      "canal": "shu77natsu88"
+    }
   },
   {
     "id": "art-pepper-art-pepper-meets-the-rhythm-section",
@@ -14949,7 +14961,13 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/0d8d91eb-7279-4edc-a6d4-43884fde6b4c"
     },
-    "discogs": "https://www.discogs.com/release/3138105"
+    "discogs": "https://www.discogs.com/release/3138105",
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=uwvEcEfHa8w",
+      "tipo": "faixa",
+      "titulo": "Astral & Shit - Heroin",
+      "canal": "mnemonic letter"
+    }
   },
   {
     "id": "astral-projection-trust-in-trance",
@@ -52703,6 +52721,12 @@
     "estilosFonte": {
       "house": "musicbrainz",
       "rock": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=J_PG99dtGHo",
+      "tipo": "faixa",
+      "titulo": "COYOTE CLEAN UP: DUMBER BY THE DAY / I KNOW DUDE",
+      "canal": "MrNONSENSE"
     }
   },
   {
@@ -69144,7 +69168,8 @@
     ],
     "estilosFonte": {
       "ambient": "musicbrainz"
-    }
+    },
+    "naoOficial": null
   },
   {
     "id": "don-caballero-what-burns-never-returns",
@@ -77468,6 +77493,12 @@
     ],
     "estilosFonte": {
       "eletronica": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=J7KhGe0OUdU",
+      "tipo": "faixa",
+      "titulo": "Eric dingus - Daydreaming",
+      "canal": "Pureblvck"
     }
   },
   {
@@ -95194,6 +95225,12 @@
     ],
     "estilosFonte": {
       "rock": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=IOHo5gG4ejk",
+      "tipo": "album",
+      "titulo": "Gridlink – Amber Gray [2008]",
+      "canal": "𝐌𝐔𝐙𝐈𝐊𝐊𝐄𝐑𝐀𝐙⛓️"
     }
   },
   {
@@ -95511,6 +95548,12 @@
     ],
     "estilosFonte": {
       "rock": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=v5uMofCFHLA",
+      "tipo": "album",
+      "titulo": "Gris - Il Était une Forêt... (Full Album)",
+      "canal": "Atmospheric Black Metal Music"
     }
   },
   {
@@ -101398,7 +101441,13 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/06047168-0db0-440a-ac19-fb246c041799"
     },
-    "discogs": null
+    "discogs": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=iIavIxrtFV4",
+      "tipo": "album",
+      "titulo": "骨架的 : Holograms",
+      "canal": "Vapor Memory"
+    }
   },
   {
     "id": "honeybunch-time-trials-1987-1995",
@@ -102216,7 +102265,13 @@
       "traduzido": true
     },
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/244370"
+    "discogs": "https://www.discogs.com/master/244370",
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=rwEH0gGYv1M",
+      "tipo": "album",
+      "titulo": "Hot Cross - A New Set of Lungs [full EP]",
+      "canal": "ayobmedz"
+    }
   },
   {
     "id": "hot-we-hate-all-kinds-of-violence",
@@ -105305,6 +105360,12 @@
     ],
     "estilosFonte": {
       "emo": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=hehXM4h-_lY",
+      "tipo": "faixa",
+      "titulo": "Indian Summer - Aren't You Angel",
+      "canal": "parto matron"
     }
   },
   {
@@ -106291,6 +106352,12 @@
     ],
     "estilosFonte": {
       "hypnagogic-pop": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=z03tp_1ftgk",
+      "tipo": "faixa",
+      "titulo": "Internet Club - At Last Alone / Lonely Internet Nights (VHS MV)",
+      "canal": "[PATRYK FILMS]"
     }
   },
   {
@@ -106397,6 +106464,12 @@
     "discogs": "https://www.discogs.com/master/1640702",
     "complementos": {
       "gravadora": "discogs"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=nNfxH25rnOY",
+      "tipo": "album",
+      "titulo": "INTERNET CLUB: UNDERWATER MIRAGE [Visual Album]",
+      "canal": "◮Virtual"
     }
   },
   {
@@ -108121,6 +108194,12 @@
     ],
     "estilosFonte": {
       "eletronica": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=VSz42s-v59I",
+      "tipo": "faixa",
+      "titulo": "Jaga Jazzist - Midget",
+      "canal": "vcramon"
     }
   },
   {
@@ -125443,7 +125522,13 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/e1e63d8e-c7b7-4079-8cca-2b30d0e8ee5d"
     },
-    "discogs": "https://www.discogs.com/master/97316"
+    "discogs": "https://www.discogs.com/master/97316",
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=emIZNS3O5ac",
+      "tipo": "faixa",
+      "titulo": "Kromestar - Pass the Light",
+      "canal": "UKFduckstep"
+    }
   },
   {
     "id": "krs-one-return-of-the-boom-bap",
@@ -128106,6 +128191,12 @@
     ],
     "estilosFonte": {
       "ambient": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=pD2jikaLHPg",
+      "tipo": "album",
+      "titulo": "Laserdisc Visions - New Dreams Ltd. (Full Cassette Rip)",
+      "canal": "TheClayKinderSurprise"
     }
   },
   {
@@ -146088,6 +146179,12 @@
     "estilosFonte": {
       "ambient": "musicbrainz",
       "pop": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=x5HERUw8W8M",
+      "tipo": "album",
+      "titulo": "mediafired : The Pathway Through Whatever",
+      "canal": "Vapor Memory"
     }
   },
   {
@@ -178193,7 +178290,13 @@
       "traduzido": true
     },
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/49589"
+    "discogs": "https://www.discogs.com/master/49589",
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=3h0WoiNaI-E",
+      "tipo": "album",
+      "titulo": "Poison Idea - Pick Your King (1983) Full EP",
+      "canal": "Not Here"
+    }
   },
   {
     "id": "poison-the-well-the-opposite-of-december",
@@ -179782,6 +179885,12 @@
     ],
     "estilosFonte": {
       "pop": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=FgmqVoTc3M8",
+      "tipo": "album",
+      "titulo": "Pregnant - Liquidation On Swans (Full Album)",
+      "canal": "Yrzbateno"
     }
   },
   {
@@ -191951,7 +192060,13 @@
       }
     ],
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/release/1313836"
+    "discogs": "https://www.discogs.com/release/1313836",
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=PXeSdFowgmA",
+      "tipo": "faixa",
+      "titulo": "Saetia - The Burden of Reflecting",
+      "canal": "notanikeaboy"
+    }
   },
   {
     "id": "saint-etienne-foxbase-alpha",
@@ -217395,6 +217510,12 @@
     ],
     "estilosFonte": {
       "indie-rock": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=V2KSoCXDQPo",
+      "tipo": "album",
+      "titulo": "teen suicide - waste yrself (Full Album)",
+      "canal": "you doin okay, boo?"
     }
   },
   {
@@ -217589,7 +217710,13 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/70b89bfa-f1bc-3fa8-b9df-972089b47f7f"
     },
-    "discogs": "https://www.discogs.com/master/12982"
+    "discogs": "https://www.discogs.com/master/12982",
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=5grUbypMBCE",
+      "tipo": "faixa",
+      "titulo": "Teeth of Lions Rule The Divine - He Who Accepts All That Is Offered (Feel Bad Hit Of The Winter)",
+      "canal": "Damjan Stojanovski"
+    }
   },
   {
     "id": "telemetrik-my-lightyear",
@@ -233288,7 +233415,13 @@
       }
     ],
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/63148"
+    "discogs": "https://www.discogs.com/master/63148",
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=7HEirtvoLzo",
+      "tipo": "faixa",
+      "titulo": "The Olivia Tremor Control - Grass Canons",
+      "canal": "ultimomento"
+    }
   },
   {
     "id": "the-orb-the-orbs-adventures-beyond-the-ultraworld",
@@ -234114,6 +234247,12 @@
       "garage-rock": "musicbrainz",
       "indie-rock": "musicbrainz",
       "new-wave": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=GXaI3UuakJs",
+      "tipo": "faixa",
+      "titulo": "The Pastels   Baby Honey",
+      "canal": "mudonthedoor"
     }
   },
   {
@@ -244508,6 +244647,12 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/44436bbc-69d3-3050-b929-1eda2006170e"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=tsCgaxzANNg",
+      "tipo": "faixa",
+      "titulo": "Tony Allen & the Afro Messengers - No Discrimination [1979]",
+      "canal": "[ Eye Tunz ] [HD]"
     }
   },
   {
@@ -246828,6 +246973,12 @@
     "estilosFonte": {
       "ambient": "musicbrainz",
       "jazz": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=6xZOdkpinOk",
+      "tipo": "faixa",
+      "titulo": "Tropics - Sophomore",
+      "canal": "KRIPTO DEPRESIJA"
     }
   },
   {
@@ -250969,7 +251120,13 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/153a6e63-be88-4ee3-a023-ac4354a80924"
     },
-    "discogs": null
+    "discogs": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=KOXvetAqULw",
+      "tipo": "album",
+      "titulo": "Helios - Unomia (IDM) (2004)",
+      "canal": "Kosmik Dstroyer"
+    }
   },
   {
     "id": "untold-gonna-work-out-fine",
@@ -253000,7 +253157,8 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/ba116c71-2b1a-4002-8792-bd6b100024a9"
     },
-    "discogs": "https://www.discogs.com/master/1790583"
+    "discogs": "https://www.discogs.com/master/1790583",
+    "naoOficial": null
   },
   {
     "id": "various-artists-grime-2",
@@ -253862,7 +254020,8 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/be1e28cc-0183-3495-8930-e9ff0820a41b"
     },
-    "discogs": "https://www.discogs.com/release/962132"
+    "discogs": "https://www.discogs.com/release/962132",
+    "naoOficial": null
   },
   {
     "id": "various-artists-tectonic-plates-vol-1",
@@ -256010,6 +256169,12 @@
     "estilosFonte": {
       "smooth-jazz": "musicbrainz",
       "soft-rock": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=gRfMp_xXrXg",
+      "tipo": "album",
+      "titulo": "情報デスクVIRTUAL : 札幌コンテンポラリー [FULL VISUAL ALBUM]",
+      "canal": "Helios the vaporwave elf"
     }
   },
   {
