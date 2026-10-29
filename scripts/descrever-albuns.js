@@ -24,6 +24,9 @@ const refazer = process.argv.includes("--refazer");
 let feitos = 0;
 for (const f of fichas) {
   if ((f.sobre && !(refazer && f.sobreFonte?.tipo === "dados")) || !f.titulo || !f.artista) continue;
+  // Só fichas já procuradas na Wikipédia (buscar-sobre-albuns.js): sem isso, um álbum com artigo
+  // ganharia uma descrição montada antes de o texto dele ser buscado.
+  if (!f.sobreVerificado) continue;
   const ano = f.lancamento?.slice(0, 4);
   const gravadora = f.gravadora === "Lançamento independente" ? " de forma independente" : f.gravadora ? ` pela ${f.gravadora}` : "";
   const quando = ano ? ` em ${ano}` : "";

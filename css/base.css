@@ -237,6 +237,14 @@ button.card-capa:focus-visible { outline: 2px solid var(--texto); outline-offset
 .card-artista span { color: var(--texto-fraco); }
 /* Botão de copiar "Artista - Álbum" sobre a capa: cinza translúcido, mais visível no hover */
 .card-capa-area { position: relative; }
+.selo-editorial { position: absolute; top: var(--esp-2); left: var(--esp-2); z-index: 1; display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--editorial); color: var(--editorial-texto); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45); pointer-events: auto; }
+.selo-editorial .icone { width: 16px; height: 16px; stroke-width: 2.2; }
+.painel-editoriais { list-style: none; margin: 0 0 var(--esp-6); padding: 0; display: grid; gap: var(--esp-2); }
+.painel-editoriais a { display: grid; grid-template-columns: auto 1fr; column-gap: var(--esp-3); align-items: center; padding: var(--esp-3); border-radius: var(--raio); background: rgba(255, 122, 26, 0.12); color: var(--popup-texto); text-decoration: none; }
+.painel-editoriais a:hover, .painel-editoriais a:focus-visible { background: rgba(255, 122, 26, 0.22); }
+.painel-editoriais .icone { grid-row: span 2; width: 28px; height: 28px; padding: 5px; border-radius: 50%; background: var(--editorial); color: var(--editorial-texto); }
+.painel-editoriais span { font-weight: 600; font-size: var(--t-sm); }
+.painel-editoriais small { color: var(--popup-texto-suave); font-size: var(--t-xs); }
 .copiar-nome {
   position: absolute;
   top: 8px;

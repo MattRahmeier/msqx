@@ -41,6 +41,23 @@ export async function albuns() {
   return { lista, porId: new Map(lista.map((a) => [a.id, a])) };
 }
 
+// Discos citados em A Curadoria: Map id da ficha → [{ id, titulo, numero }] das edições já publicadas
+// em que o disco aparece (como álbum de uma faixa ou em "citados"). Usado pela marca laranja dos cards
+// e pela seção "Citado no editorial" da ficha.
+let citacoes;
+export function citacoesEditoriais() {
+  citacoes ??= curadorias().then((edicoes) => {
+    const mapa = new Map();
+    const hoje = new Date().toISOString().slice(0, 10);
+    for (const e of edicoes.filter((x) => x.publicacao <= hoje)) {
+      const ids = new Set([...(e.faixas || []).map((t) => t.album), ...(e.citados || []).map((c) => c.album)].filter(Boolean));
+      for (const id of ids) (mapa.get(id) || mapa.set(id, []).get(id)).push({ id: e.id, titulo: e.titulo, numero: e.numero });
+    }
+    return mapa;
+  });
+  return citacoes;
+}
+
 export async function curadorias() {
   const ids = await carregar("data/curadorias/indice.json");
   return Promise.all(ids.map((id) => carregar(`data/curadorias/${id}.json`)));

@@ -5,6 +5,10 @@
 // Uso: ligarPainel(elementoComCards, porId) — porId: Map id → ficha (dados.js, albuns()).
 import { esc, botoesStreaming, capaHtml, temOndeOuvir } from "./card-album.js";
 import { creditos } from "./resumo-genero.js";
+import { citacoesEditoriais } from "../dados.js";
+
+// Edições de A Curadoria que citam cada disco (carregadas uma vez).
+const citados = await citacoesEditoriais();
 
 const MESES = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
@@ -97,6 +101,9 @@ function conteudo(f) {
       <h3 class="painel-secao">Sobre este álbum</h3>
       <p class="painel-sobre">${esc(f.sobre)}</p>
       <p class="painel-fonte">${creditos([f.sobreFonte])}</p>` : ""}
+    ${citados.get(f.id)?.length ? `
+      <h3 class="painel-secao">Citado no editorial</h3>
+      <ul class="painel-editoriais">${citados.get(f.id).map((e) => `<li><a href="#/curadoria/${esc(e.id)}"><svg class="icone" aria-hidden="true"><use href="#i-editorial"/></svg><span>${esc(e.titulo)}</span><small>Editorial #${e.numero}</small></a></li>`).join("")}</ul>` : ""}
     ${f.reviews?.length ? `
       <h3 class="painel-secao">O que a crítica disse</h3>
       <ul class="painel-reviews">${f.reviews.map(review).join("")}</ul>

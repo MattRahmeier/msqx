@@ -75930,7 +75930,31 @@
     "estilosFonte": {
       "progressive-rock": "wikidata",
       "soft-rock": "musicbrainz"
-    }
+    },
+    "sobre": "Duke é o décimo álbum de estúdio da banda inglesa de rock Genesis, lançado nos Estados Unidos em 24 de março de 1980 e no Reino Unido em 28 de março pela Charisma Records. O álbum veio depois de um período de inatividade da banda no início de 1979. Phil Collins se mudou para Vancouver, no Canadá, numa tentativa de salvar seu primeiro casamento, que estava ruindo, enquanto Tony Banks e Mike Rutherford gravavam álbuns solo.",
+    "sobreFonte": {
+      "url": "https://en.wikipedia.org/wiki/Duke_(album)",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "reviews": [
+      {
+        "fonte": "Record Mirror",
+        "nota": "5/5",
+        "estrelas": 5,
+        "url": null,
+        "via": "https://en.wikipedia.org/wiki/Duke_(album)#Critical_reception"
+      },
+      {
+        "fonte": "AllMusic",
+        "nota": "4/5",
+        "estrelas": 4,
+        "url": null,
+        "via": "https://en.wikipedia.org/wiki/Duke_(album)#Critical_reception"
+      }
+    ],
+    "sobreVerificado": "2026-10-29"
   },
   {
     "id": "george-benson-breezin",
@@ -117645,6 +117669,21 @@
       "eletronica": "musicbrainz",
       "jazz-fusion": "musicbrainz",
       "progressive-rock": "musicbrainz"
+    },
+    "sobreVerificado": "2026-10-29",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.74/5",
+        "estrelas": 5,
+        "url": "https://www.discogs.com/master/949005",
+        "votos": 31
+      }
+    ],
+    "sobre": "Quiet Skies é um álbum de Makoto Matsushita, lançado em 1983 pela MOON RECORDS, com 6 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/434b2ce6-bb3e-4592-8fe2-102eb1f9f137"
     }
   },
   {
@@ -124668,7 +124707,30 @@
     ],
     "estilosFonte": {
       "pop": "wikidata"
-    }
+    },
+    "sobre": "Off the Wall é o quinto álbum de estúdio do artista musical estadunidense Michael Jackson, lançado em 10 de agosto de 1979 através da Epic Records. Foi o primeiro álbum de Jackson lançado pela Epic e o primeiro produzido por Quincy Jones, que ele conheceu enquanto trabalhava no filme The Wiz (1978). Vários críticos observaram que Off the Wall foi criado a partir de elementos disco, pop, funk, R&B, soft rock e baladas da Broadway.",
+    "sobreFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Off_the_Wall",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "reviews": [
+      {
+        "fonte": "Rolling Stone",
+        "nota": "5/5",
+        "estrelas": 5,
+        "url": null,
+        "via": "https://en.wikipedia.org/wiki/Off_the_Wall#Critical_reception"
+      },
+      {
+        "fonte": "Christgau's Record Guide",
+        "nota": "A",
+        "estrelas": 5,
+        "url": "https://www.robertchristgau.com/get_chap.php?k=J&bk=70",
+        "via": "https://en.wikipedia.org/wiki/Off_the_Wall#Critical_reception"
+      }
+    ],
+    "sobreVerificado": "2026-10-29"
   },
   {
     "id": "michael-mayer-immer",
@@ -202153,7 +202215,30 @@
     ],
     "estilosFonte": {
       "hard-rock": "wikidata"
-    }
+    },
+    "sobre": "Who's Next é o quinto álbum de estúdio da banda The Who, lançado em 14 de agosto de 1971. É considerado um dos melhores álbuns de estúdio da banda, entrando inclusive para a lista dos 200 álbuns definitivos no Rock and Roll Hall of Fame. Em 2003 o canal de TV VH1 classificou Who’s Next como o 13° “Melhor Álbum de Todos os Tempos”.",
+    "sobreFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Who's_Next",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "reviews": [
+      {
+        "fonte": "AllMusic",
+        "nota": "5/5",
+        "estrelas": 5,
+        "url": null,
+        "via": "https://en.wikipedia.org/wiki/Who's_Next#Critical_reception"
+      },
+      {
+        "fonte": "The Rolling Stone Album Guide",
+        "nota": "5/5",
+        "estrelas": 5,
+        "url": null,
+        "via": "https://en.wikipedia.org/wiki/Who's_Next#Critical_reception"
+      }
+    ],
+    "sobreVerificado": "2026-10-29"
   },
   {
     "id": "the-zombies-odessey-and-oracle",
@@ -206842,6 +206927,21 @@
     ],
     "estilosFonte": {
       "city-pop": "musicbrainz"
+    },
+    "sobreVerificado": "2026-10-29",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.74/5",
+        "estrelas": 5,
+        "url": "https://www.discogs.com/master/429089",
+        "votos": 225
+      }
+    ],
+    "sobre": "After 5 Clash é um álbum de Toshiki Kadomatsu, lançado em 1984 pela air RECORDS, com 10 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/87ed1812-6269-4ed2-a087-724545c87889"
     }
   },
   {
@@ -206928,6 +207028,21 @@
       "tipo": "faixa",
       "titulo": "Off shore-Toshiki Kadomatsu",
       "canal": "Marcelo Castillo"
+    },
+    "sobreVerificado": "2026-10-29",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.54/5",
+        "estrelas": 5,
+        "url": "https://www.discogs.com/master/984342",
+        "votos": 114
+      }
+    ],
+    "sobre": "On the City Shore é um álbum de Toshiki Kadomatsu, lançado em 1983 pela air RECORDS, com 10 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/ab35e241-e317-4bf8-b9c7-de5f9f4abb26"
     }
   },
   {
@@ -207013,7 +207128,24 @@
       "tipo": "faixa",
       "titulo": "Still I'm In Love With You － 角松敏生 / Toshiki Kadomatsu《歌詞付き》",
       "canal": "green7coralreef / KittyCat7Yuri《green7coralreef31》"
-    }
+    },
+    "sobre": "SEA BREEZE é o primeiro álbum de estúdio de Toshiki Kadomatsu, lançado em 21 de junho de 1981.",
+    "sobreFonte": {
+      "url": "https://ja.wikipedia.org/wiki/SEA_BREEZE",
+      "idioma": "ja",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "sobreVerificado": "2026-10-29",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.32/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/547279",
+        "votos": 50
+      }
+    ]
   },
   {
     "id": "toshiki-kadomatsu-weekend-fly-to-the-sun",
@@ -207096,6 +207228,21 @@
       "tipo": "album",
       "titulo": "WEEKEND FLY TO THE SUN - 角松敏生 (Toshiki Kadomatsu)",
       "canal": "midi0ut"
+    },
+    "sobreVerificado": "2026-10-29",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.49/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/459086",
+        "votos": 87
+      }
+    ],
+    "sobre": "Weekend Fly to the Sun é um álbum de Toshiki Kadomatsu, lançado em 1982 pela RCA, com 8 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/1d82015d-d51e-4461-9bbf-b2c9bf3ffba4"
     }
   },
   {

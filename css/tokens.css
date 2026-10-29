@@ -32,6 +32,10 @@
   --linha-origem: rgba(232, 227, 214, 0.55);
   --linha-similar: rgba(244, 244, 242, 0.10);
 
+  /* Marca de disco citado em A Curadoria: laranja, a única cor quente do site */
+  --editorial: #ff7a1a;
+  --editorial-texto: #1a0d00;
+
   /* Tipografia */
   --fonte: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --t-xs: 0.75rem;

@@ -72,7 +72,8 @@ export function capaHtml(ficha, { lazy = true } = {}) {
 
 // `nota`: frase opcional (ex.: do autor de A Curadoria). `etiquetas`: [{ texto, href }] —
 // botões pequenos embaixo do card (os outros gêneros em que o disco está).
-export function cardAlbum(ficha, { nota, etiquetas = [] } = {}) {
+// `editoriais`: edições de A Curadoria que citam o disco → marca laranja no canto da capa.
+export function cardAlbum(ficha, { nota, etiquetas = [], editoriais = [] } = {}) {
   const ano = ficha.lancamento?.slice(0, 4);
   const capa = ficha.id
     ? `<button type="button" class="card-capa" data-album="${esc(ficha.id)}" aria-label="Detalhes de ${esc(ficha.titulo)}" aria-haspopup="dialog">${capaHtml(ficha)}</button>`
@@ -82,6 +83,7 @@ export function cardAlbum(ficha, { nota, etiquetas = [] } = {}) {
     <article class="card-album">
       <div class="card-capa-area">
         ${capa}
+        ${editoriais.length ? `<span class="selo-editorial" role="img" aria-label="Citado no nosso editorial: ${esc(editoriais.map((e) => e.titulo).join("; "))}" title="Citado no nosso editorial: ${esc(editoriais.map((e) => e.titulo).join("; "))}"><svg class="icone" aria-hidden="true"><use href="#i-editorial"/></svg></span>` : ""}
         <button type="button" class="copiar-nome" data-copiar="${esc(nome)}" aria-label="Copiar ${esc(nome)}" title="Copiar “${esc(nome)}”">
           <svg class="icone" aria-hidden="true"><use href="#i-copiar"/></svg>
         </button>
