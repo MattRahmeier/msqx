@@ -10997,6 +10997,115 @@
     "discogs": "https://www.discogs.com/master/1003552"
   },
   {
+    "id": "apati-morgondagen-installd-i-brist-pa-intresse",
+    "titulo": "Morgondagen inställd i brist på intresse",
+    "artista": "Apati",
+    "lancamento": "2010-06-27",
+    "tipo": "Album",
+    "gravadora": "Total Holocaust Records",
+    "duracao": "56:46",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Intro",
+        "duracao": "1:51"
+      },
+      {
+        "n": 2,
+        "titulo": "Kemisk kärlek",
+        "duracao": "7:05"
+      },
+      {
+        "n": 3,
+        "titulo": "Lämna mig ifred",
+        "duracao": "6:47"
+      },
+      {
+        "n": 4,
+        "titulo": "Jag älskar dig",
+        "duracao": "4:58"
+      },
+      {
+        "n": 5,
+        "titulo": "Syndafloden",
+        "duracao": "7:10"
+      },
+      {
+        "n": 6,
+        "titulo": "Ctrl+Z",
+        "duracao": "4:46"
+      },
+      {
+        "n": 7,
+        "titulo": "I förträngda minnens sällskap",
+        "duracao": "5:30"
+      },
+      {
+        "n": 8,
+        "titulo": "Allt är sig likt",
+        "duracao": "4:54"
+      },
+      {
+        "n": 9,
+        "titulo": "Total avsaknad utav glädje",
+        "duracao": "5:16"
+      },
+      {
+        "n": 10,
+        "titulo": "Morgondagen",
+        "duracao": "8:29"
+      }
+    ],
+    "links": {
+      "bandcamp": "https://artofpropaganda.bandcamp.com/album/morgondagen-inst-lld-i-brist-p-intresse",
+      "deezer": "https://www.deezer.com/album/694656",
+      "appleMusic": "https://music.apple.com/br/album/morgondagen-inst%C3%A4lld-i-brist-p%C3%A5-intresse/401044955",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nK9R3PH1c_UEMc4JZp4tY-u9Kmds4KWiU"
+    },
+    "capa": "assets/img/capas/apati-morgondagen-installd-i-brist-pa-intresse.jpg",
+    "musicbrainz": {
+      "releaseGroup": "592a3fe5-c4e4-459f-ac76-70247f76de7c",
+      "release": "2814e21a-7cf3-4f6e-976f-25c4cc423aff"
+    },
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Morgondagen",
+      "duracao": "8:29",
+      "links": {
+        "deezer": "https://www.deezer.com/track/7530850",
+        "appleMusic": "https://music.apple.com/br/album/morgondagen/401044955?i=401045055"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/606487",
+    "sobreVerificado": "2026-10-30",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.59/5",
+        "estrelas": 5,
+        "url": "https://www.discogs.com/master/606487",
+        "votos": 29
+      }
+    ],
+    "sobre": "Morgondagen inställd i brist på intresse é um álbum de Apati, lançado em 2010 pela Total Holocaust Records, com 10 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/592a3fe5-c4e4-459f-ac76-70247f76de7c"
+    }
+  },
+  {
     "id": "aphex-twin-i-care-because-you-do",
     "titulo": "…I Care Because You Do",
     "artista": "Aphex Twin",
@@ -16013,12 +16122,24 @@
       "release": "92c34ee4-6b01-44e8-b63f-00197cf20ef5"
     },
     "charts": [
-      "blackgaze-by-mood"
+      "blackgaze-by-mood",
+      "tracklore-selecao"
     ],
     "generos": [
-      "blackgaze"
+      "blackgaze",
+      "depressive-suicidal-black-metal"
     ],
-    "linksVerificados": "2026-10-28",
+    "linksVerificados": "2026-10-30",
+    "destaqueVerificado": "2026-10-30",
+    "sobre": "To Lay Like Old Ashes é o segundo álbum de estúdio da banda australiana de black metal Austere. Foi lançado em fevereiro de 2009 pela Eisenwald Tonschmiede. O álbum também saiu numa edição limitada em digipak de 300 cópias.",
+    "sobreFonte": {
+      "url": "https://da.wikipedia.org/wiki/To_Lay_Like_Old_Ashes",
+      "idioma": "da",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "sobreVerificado": "2026-10-29",
+    "discogs": "https://www.discogs.com/master/218863",
     "destaque": {
       "titulo": "This Dreadful Emptiness",
       "duracao": "9:04",
@@ -16034,16 +16155,15 @@
         "listenbrainz"
       ]
     },
-    "destaqueVerificado": "2026-10-28",
-    "sobre": "To Lay Like Old Ashes é o segundo álbum de estúdio da banda australiana de black metal Austere. Foi lançado em fevereiro de 2009 pela Eisenwald Tonschmiede. O álbum também saiu numa edição limitada em digipak de 300 cópias.",
-    "sobreFonte": {
-      "url": "https://da.wikipedia.org/wiki/To_Lay_Like_Old_Ashes",
-      "idioma": "da",
-      "licenca": "CC BY-SA 4.0",
-      "traduzido": true
-    },
-    "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/218863"
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.41/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/218863",
+        "votos": 79
+      }
+    ]
   },
   {
     "id": "autechre-amber",
@@ -21964,6 +22084,106 @@
     "estilosFonte": {
       "new-wave": "wikidata"
     }
+  },
+  {
+    "id": "bethlehem-bethlehem",
+    "titulo": "Bethlehem",
+    "artista": "Bethlehem",
+    "lancamento": "2016-12-02",
+    "tipo": "Album",
+    "gravadora": "Prophecy Productions",
+    "duracao": "50:53",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Fickselbomber Panzerplauze",
+        "duracao": "4:10"
+      },
+      {
+        "n": 2,
+        "titulo": "Kalt' Ritt in leicht faltiger Leere",
+        "duracao": "5:25"
+      },
+      {
+        "n": 3,
+        "titulo": "Kynokephale Freuden im Sumpfleben",
+        "duracao": "5:18"
+      },
+      {
+        "n": 4,
+        "titulo": "Die Dunkelheit darbt",
+        "duracao": "3:17"
+      },
+      {
+        "n": 5,
+        "titulo": "Gängel Gängel Gang",
+        "duracao": "4:37"
+      },
+      {
+        "n": 6,
+        "titulo": "Arg tot frohlockt kein Kind",
+        "duracao": "5:10"
+      },
+      {
+        "n": 7,
+        "titulo": "Verderbnisheilung in sterbend' Mahr",
+        "duracao": "5:41"
+      },
+      {
+        "n": 8,
+        "titulo": "Wahn schmiedet Sarg",
+        "duracao": "5:34"
+      },
+      {
+        "n": 9,
+        "titulo": "Verdammnis straft gezügeltes Aas",
+        "duracao": "5:13"
+      },
+      {
+        "n": 10,
+        "titulo": "Kein Mampf mit Kutzenzangen",
+        "duracao": "6:28"
+      }
+    ],
+    "links": {
+      "bandcamp": "https://bethlehem.bandcamp.com/album/bethlehem",
+      "deezer": "https://www.deezer.com/album/1022757621",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nEi4PJE4YM1EGl7cceh9JVeQHJC2BgoIg"
+    },
+    "capa": "assets/img/capas/bethlehem-bethlehem.jpg",
+    "musicbrainz": {
+      "releaseGroup": "edba8090-cee3-4348-87bf-77a825d66d62",
+      "release": "58e2eaba-6234-4dc2-8bec-0777b428e43f"
+    },
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Kalt' Ritt in leicht faltiger Leere",
+      "duracao": "5:25",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=It0GkmqmSLA&list=OLAK5uy_nEi4PJE4YM1EGl7cceh9JVeQHJC2BgoIg"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/1098920",
+    "sobre": "Bethlehem è l'ottavo album in studio del gruppo metal tedesco Bethlehem, pubblicato nel 2016.",
+    "sobreFonte": {
+      "url": "https://it.wikipedia.org/wiki/Bethlehem_(album)",
+      "idioma": "it",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "sobreVerificado": "2026-10-30"
   },
   {
     "id": "between-and-the-waters-opened",
@@ -48854,6 +49074,72 @@
     }
   },
   {
+    "id": "clonazepam-o-tempo-nao-cura-nada",
+    "titulo": "Estar perto não é físico",
+    "artista": "Angustifolia / Clonazepam",
+    "lancamento": "2021-02-12",
+    "tipo": "EP",
+    "gravadora": null,
+    "duracao": "22:06",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "O tempo não cura nada",
+        "duracao": "5:53"
+      },
+      {
+        "n": 2,
+        "titulo": "Dissolução",
+        "duracao": "5:35"
+      },
+      {
+        "n": 3,
+        "titulo": "Geheimnis",
+        "duracao": "4:37"
+      },
+      {
+        "n": 4,
+        "titulo": "Chove toda vez que eu sinto saudade",
+        "duracao": "6:01"
+      }
+    ],
+    "links": {
+      "bandcamp": "https://clonazepam.bandcamp.com/album/estar-perto-n-o-f-sico-split",
+      "spotify": "https://open.spotify.com/album/0sBNOfaqUNfr4fsYYTXcPx"
+    },
+    "capa": "assets/img/capas/clonazepam-o-tempo-nao-cura-nada.jpg",
+    "musicbrainz": {
+      "releaseGroup": "6e15fa47-4e81-430c-b02b-fddd58ce1c51",
+      "release": "ac8db248-8010-4ebc-a3f8-58a2f81fcbf1"
+    },
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "O tempo não cura nada",
+      "duracao": "5:53",
+      "links": {
+        "spotify": "https://open.spotify.com/track/4XC0GteIuR8zJ9VTK7CsMr"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": null,
+    "sobreVerificado": "2026-10-30",
+    "sobre": "Estar perto não é físico é um EP de Angustifolia / Clonazepam, lançado em 2021, com 4 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/6e15fa47-4e81-430c-b02b-fddd58ce1c51"
+    }
+  },
+  {
     "id": "closer-musik-after-love",
     "titulo": "After Love",
     "artista": "Closer Musik",
@@ -52723,6 +53009,12 @@
       "url": "https://musicbrainz.org/release-group/10471370-fb42-43a3-a09c-5ca41f57d7b8"
     },
     "discogs": "https://www.discogs.com/master/684472",
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=J_PG99dtGHo",
+      "tipo": "faixa",
+      "titulo": "COYOTE CLEAN UP: DUMBER BY THE DAY / I KNOW DUDE",
+      "canal": "MrNONSENSE"
+    },
     "estilos": [
       "house",
       "rock"
@@ -52730,12 +53022,6 @@
     "estilosFonte": {
       "house": "musicbrainz",
       "rock": "musicbrainz"
-    },
-    "naoOficial": {
-      "url": "https://www.youtube.com/watch?v=J_PG99dtGHo",
-      "tipo": "faixa",
-      "titulo": "COYOTE CLEAN UP: DUMBER BY THE DAY / I KNOW DUDE",
-      "canal": "MrNONSENSE"
     }
   },
   {
@@ -69178,13 +69464,13 @@
       "url": "https://musicbrainz.org/release-group/fb853cb0-b413-41dd-a502-99b7037d44aa"
     },
     "discogs": "https://www.discogs.com/master/471553",
+    "naoOficial": null,
     "estilos": [
       "ambient"
     ],
     "estilosFonte": {
       "ambient": "musicbrainz"
-    },
-    "naoOficial": null
+    }
   },
   {
     "id": "don-caballero-what-burns-never-returns",
@@ -77509,17 +77795,17 @@
       "url": "https://musicbrainz.org/release-group/89870545-501d-4780-99d4-45941baa8ee0"
     },
     "discogs": null,
-    "estilos": [
-      "eletronica"
-    ],
-    "estilosFonte": {
-      "eletronica": "musicbrainz"
-    },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=J7KhGe0OUdU",
       "tipo": "faixa",
       "titulo": "Eric dingus - Daydreaming",
       "canal": "Pureblvck"
+    },
+    "estilos": [
+      "eletronica"
+    ],
+    "estilosFonte": {
+      "eletronica": "musicbrainz"
     }
   },
   {
@@ -88168,6 +88454,122 @@
     "discogs": "https://www.discogs.com/master/322470"
   },
   {
+    "id": "funesto-depressivos-hinos-suicidas",
+    "titulo": "Depressivos Hinos Suicidas",
+    "artista": "Funesto",
+    "conferir": "não está no MusicBrainz (correcoes.json)",
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "gravadora": "funesto",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Depressivo Suicidio",
+        "duracao": "6:16"
+      },
+      {
+        "n": 2,
+        "titulo": "Meus Gritos não são Ouvidos",
+        "duracao": "6:07"
+      },
+      {
+        "n": 3,
+        "titulo": "Sobre Meu Sangue",
+        "duracao": "6:12"
+      },
+      {
+        "n": 4,
+        "titulo": "Auto Destrutiva",
+        "duracao": "5:15"
+      },
+      {
+        "n": 5,
+        "titulo": "Meu Ultimo Dia",
+        "duracao": "4:01"
+      },
+      {
+        "n": 6,
+        "titulo": "Eterna solidão",
+        "duracao": "3:28"
+      },
+      {
+        "n": 7,
+        "titulo": "Caminho Funesto",
+        "duracao": "4:36"
+      },
+      {
+        "n": 8,
+        "titulo": "Todos Os Caminhos Te Levam a Morte",
+        "duracao": "5:12"
+      },
+      {
+        "n": 9,
+        "titulo": "Lembranças De Um Passado Obscuro",
+        "duracao": "5:39"
+      },
+      {
+        "n": 10,
+        "titulo": "Lâminas Que Me Cortam",
+        "duracao": "3:59"
+      },
+      {
+        "n": 11,
+        "titulo": "Trauma",
+        "duracao": "5:57"
+      },
+      {
+        "n": 12,
+        "titulo": "Meu Corpo Sem Vida (Bonus Track)",
+        "duracao": "12:26"
+      },
+      {
+        "n": 13,
+        "titulo": "O Triste Fim Na Escuridao (Bonus Track)",
+        "duracao": "4:51"
+      }
+    ],
+    "duracao": "73:59",
+    "complementos": {
+      "gravadora": "deezer",
+      "duracao": "deezer",
+      "faixas": "deezer",
+      "capa": "deezer"
+    },
+    "links": {
+      "deezer": "https://www.deezer.com/album/72071012",
+      "appleMusic": "https://music.apple.com/br/album/depressivos-hinos-suicidas/1551923716",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l4rwnuf9n1pEQFSlmqldk9CCr-IC1SVWg"
+    },
+    "capa": "assets/img/capas/funesto-depressivos-hinos-suicidas.jpg",
+    "capaFonte": "https://cdn-images.dzcdn.net/images/cover/c2a4f23680056794def6f92c7f935d83/500x500-000000-80-0-0.jpg",
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "O Triste Fim Na Escuridao",
+      "duracao": "4:51",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=f83e_SRVWUE&list=OLAK5uy_l4rwnuf9n1pEQFSlmqldk9CCr-IC1SVWg",
+        "deezer": "https://www.deezer.com/track/548735872",
+        "appleMusic": "https://music.apple.com/br/album/o-triste-fim-na-escuridao-bonus-track/1551923716?i=1551923729"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "deezer"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "sobreVerificado": "2026-10-30",
+    "sobre": "Depressivos Hinos Suicidas é um álbum de Funesto, lançado pela funesto, com 13 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": null
+    }
+  },
+  {
     "id": "fuse-fuse",
     "titulo": "Fuse",
     "artista": "Fuse",
@@ -95245,17 +95647,17 @@
       "url": "https://musicbrainz.org/release-group/a93ebec3-f466-3151-80b7-ad7393acd388"
     },
     "discogs": "https://www.discogs.com/master/651529",
-    "estilos": [
-      "rock"
-    ],
-    "estilosFonte": {
-      "rock": "musicbrainz"
-    },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=IOHo5gG4ejk",
       "tipo": "album",
       "titulo": "Gridlink – Amber Gray [2008]",
       "canal": "𝐌𝐔𝐙𝐈𝐊𝐊𝐄𝐑𝐀𝐙⛓️"
+    },
+    "estilos": [
+      "rock"
+    ],
+    "estilosFonte": {
+      "rock": "musicbrainz"
     }
   },
   {
@@ -95568,17 +95970,17 @@
       "url": "https://musicbrainz.org/release-group/6aae5c44-8a6b-391e-ac80-9460b2f07f27"
     },
     "discogs": "https://www.discogs.com/master/195663",
-    "estilos": [
-      "rock"
-    ],
-    "estilosFonte": {
-      "rock": "musicbrainz"
-    },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=v5uMofCFHLA",
       "tipo": "album",
       "titulo": "Gris - Il Était une Forêt... (Full Album)",
       "canal": "Atmospheric Black Metal Music"
+    },
+    "estilos": [
+      "rock"
+    ],
+    "estilosFonte": {
+      "rock": "musicbrainz"
     }
   },
   {
@@ -99894,15 +100296,15 @@
       "url": "https://musicbrainz.org/release-group/50a15fb4-c529-3171-8248-6b5cf3dce90a"
     },
     "discogs": "https://www.discogs.com/master/139506",
+    "capaFonte": "https://i.discogs.com/3G8Nj7WCeUoq5ZJhW6IuI7Euw0eB7Wn73uy74I0aE7g/rs:fit/g:sm/q:90/h:600/w:586/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxMDgx/NS0xNTkxMjA0NTg4/LTk0ODUuanBlZw.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    },
     "estilos": [
       "indie-rock"
     ],
     "estilosFonte": {
       "indie-rock": "musicbrainz"
-    },
-    "capaFonte": "https://i.discogs.com/3G8Nj7WCeUoq5ZJhW6IuI7Euw0eB7Wn73uy74I0aE7g/rs:fit/g:sm/q:90/h:600/w:586/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxMDgx/NS0xNTkxMjA0NTg4/LTk0ODUuanBlZw.jpeg",
-    "complementos": {
-      "capa": "discogs"
     }
   },
   {
@@ -105386,17 +105788,17 @@
       "url": "https://musicbrainz.org/release-group/f56153b0-4901-3f4e-9abd-1e07d61c4b9a"
     },
     "discogs": "https://www.discogs.com/master/126996",
-    "estilos": [
-      "emo"
-    ],
-    "estilosFonte": {
-      "emo": "musicbrainz"
-    },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=hehXM4h-_lY",
       "tipo": "faixa",
       "titulo": "Indian Summer - Aren't You Angel",
       "canal": "parto matron"
+    },
+    "estilos": [
+      "emo"
+    ],
+    "estilosFonte": {
+      "emo": "musicbrainz"
     }
   },
   {
@@ -106378,17 +106780,17 @@
       "url": "https://musicbrainz.org/release-group/32255dc8-a650-4125-8322-22ffaf2e53c8"
     },
     "discogs": null,
-    "estilos": [
-      "hypnagogic-pop"
-    ],
-    "estilosFonte": {
-      "hypnagogic-pop": "musicbrainz"
-    },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=z03tp_1ftgk",
       "tipo": "faixa",
       "titulo": "Internet Club - At Last Alone / Lonely Internet Nights (VHS MV)",
       "canal": "[PATRYK FILMS]"
+    },
+    "estilos": [
+      "hypnagogic-pop"
+    ],
+    "estilosFonte": {
+      "hypnagogic-pop": "musicbrainz"
     }
   },
   {
@@ -108220,17 +108622,17 @@
     ],
     "sobreVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/master/84338",
-    "estilos": [
-      "eletronica"
-    ],
-    "estilosFonte": {
-      "eletronica": "musicbrainz"
-    },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=VSz42s-v59I",
       "tipo": "faixa",
       "titulo": "Jaga Jazzist - Midget",
       "canal": "vcramon"
+    },
+    "estilos": [
+      "eletronica"
+    ],
+    "estilosFonte": {
+      "eletronica": "musicbrainz"
     }
   },
   {
@@ -115358,15 +115760,15 @@
       "traduzido": true
     },
     "discogs": null,
+    "capaFonte": "https://i.discogs.com/-8T2J5XK-LkNhYCgz7stWhrkmdc5Uviym6MZE_BxxmM/rs:fit/g:sm/q:90/h:437/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4MzQz/OTAtMTM3Njk1MjAw/MC03OTAyLmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    },
     "estilos": [
       "j-pop"
     ],
     "estilosFonte": {
       "j-pop": "musicbrainz"
-    },
-    "capaFonte": "https://i.discogs.com/-8T2J5XK-LkNhYCgz7stWhrkmdc5Uviym6MZE_BxxmM/rs:fit/g:sm/q:90/h:437/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4MzQz/OTAtMTM3Njk1MjAw/MC03OTAyLmpwZWc.jpeg",
-    "complementos": {
-      "capa": "discogs"
     }
   },
   {
@@ -126814,6 +127216,10 @@
       "url": "https://musicbrainz.org/release-group/c0f61d3e-9a73-413d-a80f-b47e83931c27"
     },
     "discogs": "https://www.discogs.com/master/351436",
+    "capaFonte": "https://i.discogs.com/eQ7bvl8jy-anX9FmeK-N2dtpVGYvHQCZ7lNW9fJc8K8/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NTY4/OTAtMTI5MTY4MTIy/Mi5qcGVn.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    },
     "estilos": [
       "electro",
       "new-wave"
@@ -126821,10 +127227,6 @@
     "estilosFonte": {
       "electro": "musicbrainz",
       "new-wave": "musicbrainz"
-    },
-    "capaFonte": "https://i.discogs.com/eQ7bvl8jy-anX9FmeK-N2dtpVGYvHQCZ7lNW9fJc8K8/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NTY4/OTAtMTI5MTY4MTIy/Mi5qcGVn.jpeg",
-    "complementos": {
-      "capa": "discogs"
     }
   },
   {
@@ -127625,6 +128027,10 @@
       "url": "https://musicbrainz.org/release-group/5a12cddc-8aa1-46c0-b46c-3b3d8e6e7986"
     },
     "discogs": "https://www.discogs.com/release/908739",
+    "capaFonte": "https://i.discogs.com/IZ5GG7qouLyxT2Jj-5GOq67t803mGwC8A-s49eeOG2w/rs:fit/g:sm/q:90/h:600/w:397/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkwODcz/OS0xNDg4NDk3Njcy/LTQ3MjkuanBlZw.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    },
     "estilos": [
       "eletronica",
       "rock"
@@ -127632,10 +128038,6 @@
     "estilosFonte": {
       "eletronica": "musicbrainz",
       "rock": "musicbrainz"
-    },
-    "capaFonte": "https://i.discogs.com/IZ5GG7qouLyxT2Jj-5GOq67t803mGwC8A-s49eeOG2w/rs:fit/g:sm/q:90/h:600/w:397/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkwODcz/OS0xNDg4NDk3Njcy/LTQ3MjkuanBlZw.jpeg",
-    "complementos": {
-      "capa": "discogs"
     }
   },
   {
@@ -128229,17 +128631,17 @@
       "url": "https://musicbrainz.org/release-group/2f2fc180-fee6-41f3-a623-b24470e038df"
     },
     "discogs": "https://www.discogs.com/master/585775",
-    "estilos": [
-      "ambient"
-    ],
-    "estilosFonte": {
-      "ambient": "musicbrainz"
-    },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=pD2jikaLHPg",
       "tipo": "album",
       "titulo": "Laserdisc Visions - New Dreams Ltd. (Full Cassette Rip)",
       "canal": "TheClayKinderSurprise"
+    },
+    "estilos": [
+      "ambient"
+    ],
+    "estilosFonte": {
+      "ambient": "musicbrainz"
     }
   },
   {
@@ -142410,16 +142812,16 @@
       "titulo": "Marlui Miranda - Kworo Kango",
       "canal": "Irandi Holanda"
     },
+    "sobre": "Ihu: Todos os sons é um álbum de Marlui Miranda, lançado em 1995 pela Pau Brasil, com 17 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/6b12e5e9-1f8b-3202-8451-032bcf7b4636"
+    },
     "estilos": [
       "musica-classica"
     ],
     "estilosFonte": {
       "musica-classica": "musicbrainz"
-    },
-    "sobre": "Ihu: Todos os sons é um álbum de Marlui Miranda, lançado em 1995 pela Pau Brasil, com 17 faixas.",
-    "sobreFonte": {
-      "tipo": "dados",
-      "url": "https://musicbrainz.org/release-group/6b12e5e9-1f8b-3202-8451-032bcf7b4636"
     }
   },
   {
@@ -146218,6 +146620,12 @@
       "url": "https://musicbrainz.org/release-group/a87aee4b-f72a-4a47-b283-7402f825ace6"
     },
     "discogs": "https://www.discogs.com/release/3750599",
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=x5HERUw8W8M",
+      "tipo": "album",
+      "titulo": "mediafired : The Pathway Through Whatever",
+      "canal": "Vapor Memory"
+    },
     "estilos": [
       "ambient",
       "pop"
@@ -146225,12 +146633,6 @@
     "estilosFonte": {
       "ambient": "musicbrainz",
       "pop": "musicbrainz"
-    },
-    "naoOficial": {
-      "url": "https://www.youtube.com/watch?v=x5HERUw8W8M",
-      "tipo": "album",
-      "titulo": "mediafired : The Pathway Through Whatever",
-      "canal": "Vapor Memory"
     }
   },
   {
@@ -149449,15 +149851,15 @@
     },
     "sobreVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/master/43025",
+    "capaFonte": "https://i.discogs.com/1QxnMVd8z4usSZj2ajyNjt6e5OKrVSBD-rjidPohm4Q/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwODY4/My0xNTM2NzMzMDk4/LTk0MTIuanBlZw.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    },
     "estilos": [
       "hardcore-punk"
     ],
     "estilosFonte": {
       "hardcore-punk": "musicbrainz"
-    },
-    "capaFonte": "https://i.discogs.com/1QxnMVd8z4usSZj2ajyNjt6e5OKrVSBD-rjidPohm4Q/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwODY4/My0xNTM2NzMzMDk4/LTk0MTIuanBlZw.jpeg",
-    "complementos": {
-      "capa": "discogs"
     }
   },
   {
@@ -154657,16 +155059,16 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/release/2560669",
     "sobreVerificado": "2026-10-29",
+    "sobre": "Cairo By Night é um álbum de Mohammed Abdel Wahab, lançado em 1974 pela Voice of Stars, com 4 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/a5ced8b4-3d37-4ef1-a092-0acf2f7bf2cd"
+    },
     "estilos": [
       "musica-classica"
     ],
     "estilosFonte": {
       "musica-classica": "musicbrainz"
-    },
-    "sobre": "Cairo By Night é um álbum de Mohammed Abdel Wahab, lançado em 1974 pela Voice of Stars, com 4 faixas.",
-    "sobreFonte": {
-      "tipo": "dados",
-      "url": "https://musicbrainz.org/release-group/a5ced8b4-3d37-4ef1-a092-0acf2f7bf2cd"
     }
   },
   {
@@ -157317,15 +157719,15 @@
       "url": "https://musicbrainz.org/release-group/732075ac-30cf-417f-a7e5-9ef7bda6ef25"
     },
     "discogs": "https://www.discogs.com/release/12919968",
+    "capaFonte": "https://i.discogs.com/n5mnbMkJEofP7xGBSNuGBIvEh7cT3An3FBA5KuqduGw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyOTE5/OTY4LTE1NDQ1NDE1/MDYtNzAxMi5qcGVn.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    },
     "estilos": [
       "rock"
     ],
     "estilosFonte": {
       "rock": "musicbrainz"
-    },
-    "capaFonte": "https://i.discogs.com/n5mnbMkJEofP7xGBSNuGBIvEh7cT3An3FBA5KuqduGw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyOTE5/OTY4LTE1NDQ1NDE1/MDYtNzAxMi5qcGVn.jpeg",
-    "complementos": {
-      "capa": "discogs"
     }
   },
   {
@@ -171120,6 +171522,11 @@
         "votos": 73
       }
     ],
+    "sobre": "Coco é um álbum de Parov Stelar, lançado em 2009 pela Etage Noir Recordings, com 14 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/e51ec0d8-a168-418b-ad09-3595fbf3dc5c"
+    },
     "estilos": [
       "nu-jazz",
       "trip-hop"
@@ -171127,11 +171534,6 @@
     "estilosFonte": {
       "nu-jazz": "musicbrainz",
       "trip-hop": "musicbrainz"
-    },
-    "sobre": "Coco é um álbum de Parov Stelar, lançado em 2009 pela Etage Noir Recordings, com 14 faixas.",
-    "sobreFonte": {
-      "tipo": "dados",
-      "url": "https://musicbrainz.org/release-group/e51ec0d8-a168-418b-ad09-3595fbf3dc5c"
     }
   },
   {
@@ -171331,16 +171733,16 @@
         "votos": 49
       }
     ],
+    "sobre": "The Princess é um álbum de Parov Stelar, lançado em 2012 pela Etage Noir Recordings, com 28 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/c7afde31-7b13-43de-8f0c-784b736cf6be"
+    },
     "estilos": [
       "nu-jazz"
     ],
     "estilosFonte": {
       "nu-jazz": "musicbrainz"
-    },
-    "sobre": "The Princess é um álbum de Parov Stelar, lançado em 2012 pela Etage Noir Recordings, com 28 faixas.",
-    "sobreFonte": {
-      "tipo": "dados",
-      "url": "https://musicbrainz.org/release-group/c7afde31-7b13-43de-8f0c-784b736cf6be"
     }
   },
   {
@@ -178959,18 +179361,6 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": null,
     "sobreVerificado": "2026-10-29",
-    "estilos": [
-      "eletronica",
-      "east-coast-hip-hop",
-      "gangsta-rap",
-      "uk-drill"
-    ],
-    "estilosFonte": {
-      "eletronica": "wikidata",
-      "east-coast-hip-hop": "musicbrainz",
-      "gangsta-rap": "musicbrainz",
-      "uk-drill": "musicbrainz"
-    },
     "sobre": "Meet the Woo (também chamada de Meet the Woo, Vol. 1) é a mixtape de estreia do rapper americano Pop Smoke. Foi lançada pela Victor Victor Worldwide e pela Republic Records em 26 de julho de 2019. Meet the Woo é um disco de drill e grime.",
     "sobreFonte": {
       "url": "https://en.wikipedia.org/wiki/Meet_the_Woo",
@@ -178986,7 +179376,19 @@
         "url": "https://pitchfork.com/reviews/albums/pop-smoke-meet-the-woo/",
         "via": "https://en.wikipedia.org/wiki/Meet_the_Woo#Critical_reception"
       }
-    ]
+    ],
+    "estilos": [
+      "eletronica",
+      "east-coast-hip-hop",
+      "gangsta-rap",
+      "uk-drill"
+    ],
+    "estilosFonte": {
+      "eletronica": "wikidata",
+      "east-coast-hip-hop": "musicbrainz",
+      "gangsta-rap": "musicbrainz",
+      "uk-drill": "musicbrainz"
+    }
   },
   {
     "id": "popol-vuh-hosianna-mantra",
@@ -179938,17 +180340,17 @@
       "url": "https://musicbrainz.org/release-group/7feb5247-4d32-4cb7-b824-40f164768c35"
     },
     "discogs": null,
-    "estilos": [
-      "pop"
-    ],
-    "estilosFonte": {
-      "pop": "musicbrainz"
-    },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=FgmqVoTc3M8",
       "tipo": "album",
       "titulo": "Pregnant - Liquidation On Swans (Full Album)",
       "canal": "Yrzbateno"
+    },
+    "estilos": [
+      "pop"
+    ],
+    "estilosFonte": {
+      "pop": "musicbrainz"
     }
   },
   {
@@ -180773,6 +181175,118 @@
       "url": "https://musicbrainz.org/release-group/a2b1ec04-b5b5-3eec-90f5-00882c3df725"
     },
     "discogs": "https://www.discogs.com/master/18670"
+  },
+  {
+    "id": "psychonaut-4-dipsomania",
+    "titulo": "Dipsomania",
+    "artista": "Psychonaut 4",
+    "lancamento": "2015-04-25",
+    "tipo": "Album",
+    "gravadora": "Talheim Records",
+    "duracao": "67:46",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Intro",
+        "duracao": "2:08"
+      },
+      {
+        "n": 2,
+        "titulo": "Beware the Silence",
+        "duracao": "5:11"
+      },
+      {
+        "n": 3,
+        "titulo": "Personal Forest",
+        "duracao": "4:15"
+      },
+      {
+        "n": 4,
+        "titulo": "Don't Leave the Room",
+        "duracao": "5:55"
+      },
+      {
+        "n": 5,
+        "titulo": "Pain Dealer",
+        "duracao": "7:03"
+      },
+      {
+        "n": 6,
+        "titulo": "Alcoholism",
+        "duracao": "7:41"
+      },
+      {
+        "n": 7,
+        "titulo": "Suicide Is Legal",
+        "duracao": "6:29"
+      },
+      {
+        "n": 8,
+        "titulo": "We Will Never Find the Cure",
+        "duracao": "5:35"
+      },
+      {
+        "n": 9,
+        "titulo": "How Much for the Hope",
+        "duracao": "7:30"
+      },
+      {
+        "n": 10,
+        "titulo": "Moldy",
+        "duracao": "6:37"
+      },
+      {
+        "n": 11,
+        "titulo": "Eyes of a Homeless Dog",
+        "duracao": "5:06"
+      },
+      {
+        "n": 12,
+        "titulo": "Personal Forest (S.D. Ramirez version)",
+        "duracao": "4:16"
+      }
+    ],
+    "links": {
+      "deezer": "https://www.deezer.com/album/69375892",
+      "appleMusic": "https://music.apple.com/br/album/dipsomania/1418597189",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nFJonEeJk6r_9BeJJ9Wu25wkbSntmQG3k"
+    },
+    "capa": "assets/img/capas/psychonaut-4-dipsomania.jpg",
+    "musicbrainz": {
+      "releaseGroup": "a37697eb-176b-4242-95fc-27de66342463",
+      "release": "4b9af532-ef7e-42ab-8b26-c466327cb5e0"
+    },
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Personal Forest",
+      "duracao": "4:14",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=pvkx7O92pWI&list=OLAK5uy_nFJonEeJk6r_9BeJJ9Wu25wkbSntmQG3k",
+        "deezer": "https://www.deezer.com/track/533935872",
+        "appleMusic": "https://music.apple.com/br/album/personal-forest/1418597189?i=1418597546"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/1694624",
+    "sobre": "Dipsomania è il secondo album in studio dei Psychonaut 4. È stato pubblicato dalla Talheim Records il 23 aprile 2015, in edizione limitata digipak da 1000 copie e 500 vinili.",
+    "sobreFonte": {
+      "url": "https://it.wikipedia.org/wiki/Dipsomania_(Psychonaut_4)",
+      "idioma": "it",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "sobreVerificado": "2026-10-30"
   },
   {
     "id": "public-enemy-it-takes-a-nation-of-millions-to-hold-us-back",
@@ -196099,15 +196613,15 @@
       "url": "https://musicbrainz.org/release-group/7fd55c13-f168-4741-a0ea-f68b0ed48933"
     },
     "discogs": "https://www.discogs.com/release/2538434",
+    "capaFonte": "https://i.discogs.com/YkJfH8pnxa9Cy2T4VGNMKW4kegsS62w3-rKHoMh5Wzk/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1Mzg0/MzQtMTQwOTg3NTEz/Ny05MTY3LmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    },
     "estilos": [
       "dubstep"
     ],
     "estilosFonte": {
       "dubstep": "musicbrainz"
-    },
-    "capaFonte": "https://i.discogs.com/YkJfH8pnxa9Cy2T4VGNMKW4kegsS62w3-rKHoMh5Wzk/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1Mzg0/MzQtMTQwOTg3NTEz/Ny05MTY3LmpwZWc.jpeg",
-    "complementos": {
-      "capa": "discogs"
     }
   },
   {
@@ -205160,6 +205674,63 @@
     "estilosFonte": {
       "bubblegum-pop": "wikidata",
       "ambient": "wikidata"
+    }
+  },
+  {
+    "id": "sorgmodig-inner",
+    "titulo": "Inner",
+    "artista": "Sørgmodig",
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "gravadora": "Sørgmodig",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Inner",
+        "duracao": "2:11"
+      }
+    ],
+    "duracao": "2:11",
+    "complementos": {
+      "gravadora": "deezer",
+      "duracao": "deezer",
+      "faixas": "deezer",
+      "capa": "spotify",
+      "ficha": "spotify"
+    },
+    "lancamento": "2026-01-15",
+    "tipo": "Single",
+    "capa": "assets/img/capas/sorgmodig-inner.jpg",
+    "capaFonte": "https://open.spotify.com/album/6n7LZ36gxApaPmvnMQnmta",
+    "links": {
+      "spotify": "https://open.spotify.com/album/6n7LZ36gxApaPmvnMQnmta",
+      "deezer": "https://www.deezer.com/album/894855142",
+      "appleMusic": "https://music.apple.com/br/album/inner-single/1868051235"
+    },
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Inner",
+      "duracao": "2:11",
+      "links": {
+        "deezer": "https://www.deezer.com/track/3766601892",
+        "spotify": "https://open.spotify.com/track/0xVLBivEWZApSkemlGOJ7T",
+        "appleMusic": "https://music.apple.com/br/album/inner/1868051235?i=1868051236"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "deezer"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "sobreVerificado": "2026-10-30",
+    "sobre": "Inner é um álbum de Sørgmodig, lançado em 2026 pela Sørgmodig, com 1 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": null
     }
   },
   {
@@ -216940,15 +217511,15 @@
       "traduzido": true
     },
     "discogs": null,
+    "capaFonte": "https://i.discogs.com/89NIpTkkt8TZ1VxSDxvjbienMDRg-CYZiAVjXnjp5OA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNzkz/NzQtMTcwNTc3NzA3/My0yNTcyLmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    },
     "estilos": [
       "j-pop"
     ],
     "estilosFonte": {
       "j-pop": "wikidata"
-    },
-    "capaFonte": "https://i.discogs.com/89NIpTkkt8TZ1VxSDxvjbienMDRg-CYZiAVjXnjp5OA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNzkz/NzQtMTcwNTc3NzA3/My0yNTcyLmpwZWc.jpeg",
-    "complementos": {
-      "capa": "discogs"
     }
   },
   {
@@ -217568,17 +218139,17 @@
       "url": "https://musicbrainz.org/release-group/21a48455-3576-4370-94aa-7cb78b5e5026"
     },
     "discogs": "https://www.discogs.com/master/3362227",
-    "estilos": [
-      "indie-rock"
-    ],
-    "estilosFonte": {
-      "indie-rock": "musicbrainz"
-    },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=V2KSoCXDQPo",
       "tipo": "album",
       "titulo": "teen suicide - waste yrself (Full Album)",
       "canal": "you doin okay, boo?"
+    },
+    "estilos": [
+      "indie-rock"
+    ],
+    "estilosFonte": {
+      "indie-rock": "musicbrainz"
     }
   },
   {
@@ -222570,6 +223141,10 @@
       "url": "https://musicbrainz.org/release-group/71764990-8025-329c-a9b1-9deafa1b8de1"
     },
     "discogs": "https://www.discogs.com/master/28005",
+    "capaFonte": "https://i.discogs.com/-9y6pJJYziN0XX3rvQF6XAEdsBMCPQs5_auCxUDQADY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODcz/MS0xNzY3MTAxMDQz/LTgwODkuanBlZw.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    },
     "estilos": [
       "indie-rock",
       "shoegaze"
@@ -222577,10 +223152,6 @@
     "estilosFonte": {
       "indie-rock": "musicbrainz",
       "shoegaze": "musicbrainz"
-    },
-    "capaFonte": "https://i.discogs.com/-9y6pJJYziN0XX3rvQF6XAEdsBMCPQs5_auCxUDQADY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODcz/MS0xNzY3MTAxMDQz/LTgwODkuanBlZw.jpeg",
-    "complementos": {
-      "capa": "discogs"
     }
   },
   {
@@ -234304,6 +234875,12 @@
     ],
     "sobreVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/master/5763",
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=GXaI3UuakJs",
+      "tipo": "faixa",
+      "titulo": "The Pastels   Baby Honey",
+      "canal": "mudonthedoor"
+    },
     "estilos": [
       "garage-rock",
       "indie-rock",
@@ -234313,12 +234890,6 @@
       "garage-rock": "musicbrainz",
       "indie-rock": "musicbrainz",
       "new-wave": "musicbrainz"
-    },
-    "naoOficial": {
-      "url": "https://www.youtube.com/watch?v=GXaI3UuakJs",
-      "tipo": "faixa",
-      "titulo": "The Pastels   Baby Honey",
-      "canal": "mudonthedoor"
     }
   },
   {
@@ -242841,6 +243412,98 @@
     }
   },
   {
+    "id": "thy-light-suici-de-pression",
+    "titulo": "Suici.De.pression",
+    "artista": "Thy Light",
+    "lancamento": "2007",
+    "tipo": "Album / Demo",
+    "gravadora": "Ruin Productions",
+    "duracao": "45:31",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Suici.De.pression (Introduction to My End)",
+        "duracao": "3:47"
+      },
+      {
+        "n": 2,
+        "titulo": "In My Last Mourning...",
+        "duracao": "11:00"
+      },
+      {
+        "n": 3,
+        "titulo": "A Crawling Worm in a World of Lies",
+        "duracao": "7:00"
+      },
+      {
+        "n": 4,
+        "titulo": "I Am the Bitter Taste of Gall",
+        "duracao": "10:44"
+      },
+      {
+        "n": 5,
+        "titulo": "...and I Finally Reach My End",
+        "duracao": "13:00"
+      }
+    ],
+    "links": {
+      "bandcamp": "https://pestproductions.bandcamp.com/album/suici-de-pression",
+      "deezer": "https://www.deezer.com/album/40487651",
+      "appleMusic": "https://music.apple.com/br/album/suici-de-pression/1360647922",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mSaVsXBXs-9yBM60oGhSc3cmTM4PETVms"
+    },
+    "capa": "assets/img/capas/thy-light-suici-de-pression.jpg",
+    "musicbrainz": {
+      "releaseGroup": "ffe6ba6e-8041-37bb-ad7c-70daa76ba97c",
+      "release": "18bdab40-95ae-4735-a847-034874f35cde"
+    },
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Suici.De.pression",
+      "duracao": "3:47",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=c2wSg-CCIUU&list=OLAK5uy_mSaVsXBXs-9yBM60oGhSc3cmTM4PETVms",
+        "deezer": "https://www.deezer.com/track/353425171",
+        "appleMusic": "https://music.apple.com/br/album/suici-de-pression-introduction-to-my-end/1360647922?i=1360647923"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/437736",
+    "sobreVerificado": "2026-10-30",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.64/5",
+        "estrelas": 5,
+        "url": "https://www.discogs.com/master/437736",
+        "votos": 22
+      }
+    ],
+    "estilos": [
+      "rock"
+    ],
+    "estilosFonte": {
+      "rock": "musicbrainz"
+    },
+    "sobre": "Suici.De.pression é um álbum de Thy Light, lançado em 2007 pela Ruin Productions, com 5 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/ffe6ba6e-8041-37bb-ad7c-70daa76ba97c"
+    }
+  },
+  {
     "id": "ti-king",
     "titulo": "King",
     "artista": "T.I.",
@@ -247032,6 +247695,12 @@
       "url": "https://musicbrainz.org/release-group/0eee3a9b-56a6-48d7-a35b-1e726070714a"
     },
     "discogs": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=6xZOdkpinOk",
+      "tipo": "faixa",
+      "titulo": "Tropics - Sophomore",
+      "canal": "KRIPTO DEPRESIJA"
+    },
     "estilos": [
       "ambient",
       "jazz"
@@ -247039,12 +247708,6 @@
     "estilosFonte": {
       "ambient": "musicbrainz",
       "jazz": "musicbrainz"
-    },
-    "naoOficial": {
-      "url": "https://www.youtube.com/watch?v=6xZOdkpinOk",
-      "tipo": "faixa",
-      "titulo": "Tropics - Sophomore",
-      "canal": "KRIPTO DEPRESIJA"
     }
   },
   {
@@ -247163,15 +247826,15 @@
       "url": "https://musicbrainz.org/release-group/20846efe-75de-4a51-8f0f-1f5a142108b5"
     },
     "discogs": "https://www.discogs.com/master/280903",
+    "capaFonte": "https://i.discogs.com/YDtJVwQaDaOU9kOVB3WgWO42fhRiJeO-GML7MeTGm1g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MzEw/ODAtMTI3NzIxMjc4/MC5qcGVn.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    },
     "estilos": [
       "heavy-metal"
     ],
     "estilosFonte": {
       "heavy-metal": "musicbrainz"
-    },
-    "capaFonte": "https://i.discogs.com/YDtJVwQaDaOU9kOVB3WgWO42fhRiJeO-GML7MeTGm1g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MzEw/ODAtMTI3NzIxMjc4/MC5qcGVn.jpeg",
-    "complementos": {
-      "capa": "discogs"
     }
   },
   {
@@ -251128,16 +251791,16 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": null,
     "sobreVerificado": "2026-10-29",
+    "sobre": "Rise Above Hate é um álbum de Unknown T, lançado em 2020 pela Island, com 16 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/abbca649-5a7f-4001-9cca-f5ee428580bf"
+    },
     "estilos": [
       "gangsta-rap"
     ],
     "estilosFonte": {
       "gangsta-rap": "musicbrainz"
-    },
-    "sobre": "Rise Above Hate é um álbum de Unknown T, lançado em 2020 pela Island, com 16 faixas.",
-    "sobreFonte": {
-      "tipo": "dados",
-      "url": "https://musicbrainz.org/release-group/abbca649-5a7f-4001-9cca-f5ee428580bf"
     }
   },
   {
@@ -252967,6 +253630,10 @@
     },
     "discogs": "https://www.discogs.com/release/990377",
     "naoOficial": null,
+    "capaFonte": "https://i.discogs.com/phjivQmUIMmJOydZKAKYkEuaDeqcjjr6CMtDaJZUWMU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5MDM3/Ny0xMjAzMzA1MjA2/LmpwZWc.jpeg",
+    "complementos": {
+      "capa": "discogs"
+    },
     "estilos": [
       "house",
       "trance"
@@ -252974,10 +253641,6 @@
     "estilosFonte": {
       "house": "musicbrainz",
       "trance": "musicbrainz"
-    },
-    "capaFonte": "https://i.discogs.com/phjivQmUIMmJOydZKAKYkEuaDeqcjjr6CMtDaJZUWMU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5MDM3/Ny0xMjAzMzA1MjA2/LmpwZWc.jpeg",
-    "complementos": {
-      "capa": "discogs"
     }
   },
   {
@@ -256239,6 +256902,12 @@
       "url": "https://musicbrainz.org/release-group/a5745ad9-1358-4de9-98db-6b61e5d98a59"
     },
     "discogs": "https://www.discogs.com/master/510316",
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=gRfMp_xXrXg",
+      "tipo": "album",
+      "titulo": "情報デスクVIRTUAL : 札幌コンテンポラリー [FULL VISUAL ALBUM]",
+      "canal": "Helios the vaporwave elf"
+    },
     "estilos": [
       "smooth-jazz",
       "soft-rock"
@@ -256246,12 +256915,6 @@
     "estilosFonte": {
       "smooth-jazz": "musicbrainz",
       "soft-rock": "musicbrainz"
-    },
-    "naoOficial": {
-      "url": "https://www.youtube.com/watch?v=gRfMp_xXrXg",
-      "tipo": "album",
-      "titulo": "情報デスクVIRTUAL : 札幌コンテンポラリー [FULL VISUAL ALBUM]",
-      "canal": "Helios the vaporwave elf"
     }
   },
   {
@@ -262204,18 +262867,18 @@
     "discogs": "https://www.discogs.com/release/1383499",
     "sobreVerificado": "2026-10-29",
     "naoOficial": null,
-    "estilos": [
-      "musica-classica"
-    ],
-    "estilosFonte": {
-      "musica-classica": "musicbrainz"
-    },
     "sobre": "China - Music Of The Qin é um álbum de Wu Wenguang, lançado em 1992 pela JVC, com 6 faixas.",
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/982c0941-5e1f-44f9-943e-588137fa7e95"
     },
-    "capaFonte": "imagem enviada pelo usuário"
+    "capaFonte": "imagem enviada pelo usuário",
+    "estilos": [
+      "musica-classica"
+    ],
+    "estilosFonte": {
+      "musica-classica": "musicbrainz"
+    }
   },
   {
     "id": "wynton-marsalis-from-the-plantation-to-the-penitentiary",
@@ -262674,6 +263337,108 @@
     ],
     "sobreVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/master/53941"
+  },
+  {
+    "id": "xasthur-to-violate-the-oblivious",
+    "titulo": "To Violate the Oblivious",
+    "artista": "Xasthur",
+    "lancamento": "2004-07",
+    "tipo": "Album",
+    "gravadora": "Total Holocaust Records",
+    "duracao": "54:11",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Intro",
+        "duracao": "2:00"
+      },
+      {
+        "n": 2,
+        "titulo": "Xasthur Within",
+        "duracao": "6:11"
+      },
+      {
+        "n": 3,
+        "titulo": "Dreams Blacker Than Death",
+        "duracao": "5:19"
+      },
+      {
+        "n": 4,
+        "titulo": "Screaming at Forgotten Fears",
+        "duracao": "8:16"
+      },
+      {
+        "n": 5,
+        "titulo": "Consumed by a Dark Paranoïa",
+        "duracao": "3:33"
+      },
+      {
+        "n": 6,
+        "titulo": "Marked by Shadows",
+        "duracao": "6:40"
+      },
+      {
+        "n": 7,
+        "titulo": "Apparitional Void of Failure",
+        "duracao": "4:34"
+      },
+      {
+        "n": 8,
+        "titulo": "A Gate Through Bloodstained Mirrors",
+        "duracao": "12:02"
+      },
+      {
+        "n": 9,
+        "titulo": "Walker of Dissonant Worlds",
+        "duracao": "5:36"
+      }
+    ],
+    "links": {},
+    "capa": "assets/img/capas/xasthur-to-violate-the-oblivious.jpg",
+    "musicbrainz": {
+      "releaseGroup": "85706499-1cd0-3db5-b97a-76b9f00315b2",
+      "release": "ff46f9a3-de18-4c5c-a3f0-38fdb764b31e"
+    },
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Screaming at Forgotten Fears",
+      "duracao": "8:16",
+      "links": {},
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/48191",
+    "sobre": "To Violate the Oblivious is a 2004 album by the American one-man black metal act Xasthur. After the original release on Swedish Total Holocaust Records, a re-mastered US pressing was released on Moribund Records in 2005 (featuring one bonus track). The same year, a limited double-vinyl edition was released on German label Perverted Taste (with yet another bonus track).",
+    "sobreFonte": {
+      "url": "https://en.wikipedia.org/wiki/To_Violate_the_Oblivious",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "sobreVerificado": "2026-10-30",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.41/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/48191",
+        "votos": 34
+      }
+    ],
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=6YedXRq3Pbo",
+      "tipo": "faixa",
+      "titulo": "Xasthur - Screaming at Forgotten Fears",
+      "canal": "Amaelwen"
+    }
   },
   {
     "id": "xhol-caravan-electrip",

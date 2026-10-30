@@ -1,0 +1,107 @@
+{
+  "id": "2026-10-29-dsbm-essenciais",
+  "tipo": "editorial",
+  "numero": 2,
+  "publicacao": "2026-10-29",
+  "titulo": "5 álbuns de DSBM essenciais",
+  "formato": "albuns",
+  "autor": {
+    "nome": "Henrique Cruz"
+  },
+  "introducao": [
+    "O DSBM (Depressive Suicidal Black Metal) é um subgênero do [Black Metal](g:black-metal) que teve início em meados dos anos 90 em regiões da Europa, como a Alemanha e a Suécia.",
+    "O gênero apresenta características do Atmospheric Black Metal, porém com uma atmosfera mais sombria e mórbida, apresentando _riffs_ repetitivos, muitas das vezes lentos e introspectivos.",
+    "A música é marcada por vocais ríspidos, agonizantes e até chorando, representando a dor, amargura e angústia do artista, e as letras discorrem sobre temas como a morte, o niilismo, a falta de esperança e a melancolia.",
+    "Uma característica que distingue o DSBM de outros gêneros é o fato da grande maioria das bandas serem compostas apenas por um integrante, fazendo com que a essência da música seja crua e sincera, proporcionando uma sensação de catarse ao ouvinte."
+  ],
+  "faixas": [
+    {
+      "posicao": 1,
+      "artista": "Thy Light",
+      "albumTitulo": "Suici.De.Pression",
+      "album": "thy-light-suici-de-pression",
+      "texto": [
+        "Orgulho nacional, Thy Light é por muitos (e por mim) considerada a melhor banda de DSBM, tanto em termos de performance, quanto produção e nível de profundeza das letras. Thy Light apresenta uma atmosfera única ao ouvinte, com músicas longas, solos de guitarra melódicos e sentimentais, e letras sobre nostalgia e depressão. Uma experiência única não só para amantes do gênero, quanto à música em geral."
+      ]
+    },
+    {
+      "posicao": 2,
+      "artista": "Xasthur",
+      "albumTitulo": "To Violate the Oblivious",
+      "album": "xasthur-to-violate-the-oblivious",
+      "texto": [
+        "Se é impossível fazer uma lista de DSBM sem incluir Bethlehem, o mesmo pode ser dito de Xasthur, sendo consideravelmente a banda de maior sucesso do gênero. Criada em 1995 por Malefic (Scott Conner), a _one-man band_ conta com um documentário na Vice, onde sua vida é acompanhada de forma crua. As letras abordam temas como depressão profunda, isolamento, misantropia e projeção astral, e as músicas são marcadas por _riffs_ angustiantes e hipnotizantes."
+      ]
+    },
+    {
+      "posicao": 3,
+      "artista": "Psychonaut 4",
+      "albumTitulo": "Dipsomania",
+      "album": "psychonaut-4-dipsomania",
+      "texto": [
+        "Em um caos pós-soviético, a banda canta sobre temas como depressão, alcoolismo e vício em substâncias entorpecentes em geral, fundada em 2010, a banda conta com sucesso internacional, além de algumas passagens pelo Brasil, sendo a mais recente neste ano (2026)."
+      ]
+    },
+    {
+      "posicao": 4,
+      "artista": "Bethlehem",
+      "albumTitulo": "Bethlehem",
+      "album": "bethlehem-bethlehem",
+      "texto": [
+        "É impossível fazer uma lista de álbuns de DSBM sem mencionar Bethlehem, que é considerados por muitos os precursores do gênero. Fundada na segunda metade dos anos 90, a banda nasce da revolta e tristeza da periferia e pobreza na Alemanha, com vocais totalmente característicos e perturbadores, além de um timbre extremamente frio na guitarra."
+      ]
+    },
+    {
+      "posicao": 5,
+      "artista": "Apati",
+      "albumTitulo": "Morgondagen inställd i brist på intresse",
+      "album": "apati-morgondagen-installd-i-brist-pa-intresse",
+      "texto": [
+        "Apati é uma das bandas que mais se destacaram no mundo do [DSBM](g:depressive-suicidal-black-metal) e do Narcotic Rock, apresentando letras sobre o cotidiano frio e melancólico que pessoas com quadros depressivos lidam no dia-a-dia no frio gélido da Suécia."
+      ]
+    },
+    {
+      "grupo": "Mençõs honrosas",
+      "artista": "Clonazepam",
+      "faixa": "O Tempo Não Cura Nada",
+      "albumTitulo": "Estar Perto Não É Físico",
+      "album": "clonazepam-o-tempo-nao-cura-nada",
+      "links": {
+        "spotify": "https://open.spotify.com/track/4XC0GteIuR8zJ9VTK7CsMr"
+      },
+      "texto": [
+        "Projeto solo, angustiante, cru e urbano, uma _one-man band_ feita por Alisson. Pouco se sabe sobre ela, dado que a mesma já é falecida. Que descanse em paz. Seu legado nunca será esquecido."
+      ]
+    },
+    {
+      "grupo": "Mençõs honrosas",
+      "artista": "Sørgmodig",
+      "albumTitulo": "Inner",
+      "album": "sorgmodig-inner",
+      "links": {
+        "spotify": "https://open.spotify.com/track/0xVLBivEWZApSkemlGOJ7T"
+      },
+      "texto": [
+        "Meu projeto de DSBM (Henrique Cruz), o _single_ mais recente, lançado em janeiro de 2026. O projeto foi criado em 2019, é instrumental e apresenta melodias calmas, introspectivas e existenciais, onde o ouvinte consegue se imaginar em cenários florestais nórdicos."
+      ]
+    },
+    {
+      "grupo": "Mençõs honrosas",
+      "artista": "Austere",
+      "albumTitulo": "To Lay Like Old Ashes",
+      "album": "austere-to-lay-like-old-ashes",
+      "texto": [
+        "A primeira banda de DSBM que ouvi. Relativamente famosa no nicho, traz temas como desespero existencial, perda e a dor da existência humana. Vocais chorados e desesperançosos, com _riffs_ crus e atmosféricos."
+      ]
+    },
+    {
+      "grupo": "Mençõs honrosas",
+      "artista": "Funesto",
+      "albumTitulo": "Depressivos Hinos Suicidas",
+      "album": "funesto-depressivos-hinos-suicidas",
+      "texto": [
+        "Banda capixaba de DSBM, formada apenas por uma pessoa (Sérgio França), provavelmente a banda mais mórbida e crua que existe no gênero, com temas explícitos e extremamente sinceros e chocantes para o ouvinte. Bom para ouvir num dia cinza para lamentar a perda de um parente, relacionamento, trabalho, etc"
+      ]
+    }
+  ]
+}

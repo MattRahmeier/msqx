@@ -2,10 +2,11 @@
 // busca nas APIs públicas do Deezer e do iTunes (Apple Music), aceitando só resultados com o
 // mesmo título e o mesmo artista. Depois rode scripts/verificar-links.js --refazer <ids> (confere
 // os links e procura o YouTube Music) e scripts/buscar-destaques.js --refazer <ids>.
-// Uso: node scripts/completar-links.js        (imprime os ids alterados no fim)
+// Uso: node scripts/completar-links.js [--ids id1,id2]   (imprime os ids alterados no fim)
 
 const fs = require("fs");
 const path = require("path");
+const ids = process.argv.includes("--ids") ? new Set(process.argv[process.argv.indexOf("--ids") + 1].split(",")) : null;
 
 const RAIZ = path.join(__dirname, "..");
 const ARQ = path.join(RAIZ, "data", "albuns", "albuns.json");
@@ -47,7 +48,7 @@ async function itunes(f) {
   const fichas = JSON.parse(fs.readFileSync(ARQ, "utf8"));
   const alterados = [];
   for (const f of fichas) {
-    if (!f.titulo || !f.artista) continue;
+    if (!f.titulo || !f.artista || (ids && !ids.has(f.id))) continue;
     const temCapa = f.capa && fs.existsSync(path.join(RAIZ, f.capa));
     const faltaDeezer = !f.links?.deezer, faltaApple = !f.links?.appleMusic;
     if (temCapa && !faltaDeezer && !faltaApple) continue;

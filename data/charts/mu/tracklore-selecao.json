@@ -15,12 +15,13 @@
     "musica-indiana",
     "musica-tradicional-chinesa",
     "musica-arabe",
-    "musica-dos-povos-originarios"
+    "musica-dos-povos-originarios",
+    "depressive-suicidal-black-metal"
   ],
   "fonte": "Tracklore",
   "transcricao": {
     "data": "2026-10-29",
-    "metodo": "curadoria do Tracklore para gêneros sem chart do /mu/: discos de artistas citados no artigo da Wikipédia sobre o gênero (o artigo de cada disco está em \"fonte\")",
+    "metodo": "curadoria do Tracklore para gêneros sem chart do /mu/: discos de artistas citados no artigo da Wikipédia sobre o gênero (o artigo de cada disco está em \"fonte\"); DSBM: os discos do editorial #2 de A Curadoria (Henrique Cruz)",
     "status": "revisar"
   },
   "albuns": [
@@ -674,6 +675,96 @@
       "titulo": "Anthology of Central and South American Indian Music",
       "fonte": "https://en.wikipedia.org/wiki/Indigenous_music",
       "album": "various-artists-anthology-of-central-and-south-american-indian-music"
+    },
+    {
+      "pos": "depressive-suicidal-black-metal-1",
+      "generos": [
+        "depressive-suicidal-black-metal"
+      ],
+      "artista": "Apati",
+      "titulo": "Morgondagen inställd i brist på intresse",
+      "fonte": "https://claude.ai/artifact/UqPXB59ENfXze9UmNSRdhJ#/curadoria/2026-10-29-dsbm-essenciais",
+      "album": "apati-morgondagen-installd-i-brist-pa-intresse"
+    },
+    {
+      "pos": "depressive-suicidal-black-metal-2",
+      "generos": [
+        "depressive-suicidal-black-metal"
+      ],
+      "artista": "Bethlehem",
+      "titulo": "Bethlehem",
+      "fonte": "https://claude.ai/artifact/UqPXB59ENfXze9UmNSRdhJ#/curadoria/2026-10-29-dsbm-essenciais",
+      "album": "bethlehem-bethlehem"
+    },
+    {
+      "pos": "depressive-suicidal-black-metal-3",
+      "generos": [
+        "depressive-suicidal-black-metal"
+      ],
+      "artista": "Psychonaut 4",
+      "titulo": "Dipsomania",
+      "fonte": "https://claude.ai/artifact/UqPXB59ENfXze9UmNSRdhJ#/curadoria/2026-10-29-dsbm-essenciais",
+      "album": "psychonaut-4-dipsomania"
+    },
+    {
+      "pos": "depressive-suicidal-black-metal-4",
+      "generos": [
+        "depressive-suicidal-black-metal"
+      ],
+      "artista": "Xasthur",
+      "titulo": "To Violate the Oblivious",
+      "fonte": "https://claude.ai/artifact/UqPXB59ENfXze9UmNSRdhJ#/curadoria/2026-10-29-dsbm-essenciais",
+      "album": "xasthur-to-violate-the-oblivious"
+    },
+    {
+      "pos": "depressive-suicidal-black-metal-5",
+      "generos": [
+        "depressive-suicidal-black-metal"
+      ],
+      "artista": "Thy Light",
+      "titulo": "Suici.De.Pression",
+      "fonte": "https://claude.ai/artifact/UqPXB59ENfXze9UmNSRdhJ#/curadoria/2026-10-29-dsbm-essenciais",
+      "album": "thy-light-suici-de-pression"
+    },
+    {
+      "pos": "depressive-suicidal-black-metal-6",
+      "generos": [
+        "depressive-suicidal-black-metal"
+      ],
+      "artista": "Angustifolia & Clonazepam",
+      "titulo": "Estar Perto Não É Físico",
+      "fonte": "https://claude.ai/artifact/UqPXB59ENfXze9UmNSRdhJ#/curadoria/2026-10-29-dsbm-essenciais",
+      "album": "clonazepam-o-tempo-nao-cura-nada"
+    },
+    {
+      "pos": "depressive-suicidal-black-metal-7",
+      "generos": [
+        "depressive-suicidal-black-metal"
+      ],
+      "artista": "Sørgmodig",
+      "titulo": "Inner",
+      "fonte": "https://claude.ai/artifact/UqPXB59ENfXze9UmNSRdhJ#/curadoria/2026-10-29-dsbm-essenciais",
+      "album": "sorgmodig-inner"
+    },
+    {
+      "pos": "depressive-suicidal-black-metal-8",
+      "generos": [
+        "depressive-suicidal-black-metal"
+      ],
+      "artista": "Austere",
+      "titulo": "To Lay Like Old Ashes",
+      "fonte": "https://claude.ai/artifact/UqPXB59ENfXze9UmNSRdhJ#/curadoria/2026-10-29-dsbm-essenciais",
+      "album": "austere-to-lay-like-old-ashes"
+    },
+    {
+      "pos": "depressive-suicidal-black-metal-9",
+      "generos": [
+        "depressive-suicidal-black-metal"
+      ],
+      "artista": "Funesto",
+      "titulo": "Depressivos Hinos Suicidas",
+      "fonte": "https://claude.ai/artifact/UqPXB59ENfXze9UmNSRdhJ#/curadoria/2026-10-29-dsbm-essenciais",
+      "album": "funesto-depressivos-hinos-suicidas"
     }
   ]
 }

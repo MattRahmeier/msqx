@@ -604,6 +604,16 @@ body.com-painel { overflow: hidden; }
 .playlist-duracao { font-variant-numeric: tabular-nums; color: var(--texto-fraco); }
 .curadoria-faixa { scroll-margin-top: 72px; margin: 0 0 var(--esp-8); padding-bottom: var(--esp-8); border-bottom: 1px solid var(--borda); }
 .curadoria-faixa:last-child { border-bottom: 0; }
+/* Seções de uma edição de álbuns (ex.: menções honrosas) */
+.curadoria-grupo { margin: 0 0 var(--esp-6); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; color: var(--texto-fraco); }
+.playlist-grupo { display: flex; align-items: center; gap: var(--esp-2); margin: var(--esp-4) 0 var(--esp-1); padding: 0 var(--esp-3); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.06em; color: var(--texto-fraco); }
+.curadoria-grupo { display: flex; align-items: center; gap: var(--esp-2); }
+/* Louro de honra: menções honrosas */
+.louro { width: 18px; height: 18px; color: var(--texto); flex: none; vertical-align: middle; }
+.playlist-n .louro { width: 16px; height: 16px; }
+.player-numero .louro { width: 20px; height: 20px; }
+.visualmente-oculto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.curadoria-intro { margin: var(--esp-6) 0 var(--esp-8); }
 
 /* Player compacto: capa + faixa, artista, gêneros e ações. No computador a capa ocupa a altura toda
    do quadro (sem sobra embaixo); no celular, a capa vem em cima. */

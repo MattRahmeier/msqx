@@ -83,7 +83,15 @@ function arquivoHtml(publicadas, atual, porId) {
 const ICONE_TOCAR = `<svg class="icone" aria-hidden="true" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg>`;
 const ICONE_FECHAR = `<svg class="icone" aria-hidden="true" viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="1.5"/></svg>`;
 
-const duracaoDe = (t, ficha) => ficha?.faixas?.find((x) => x.titulo.toLowerCase().replace(/[’']/g, "'") === t.faixa.toLowerCase().replace(/[’']/g, "'"))?.duracao;
+const duracaoDe = (t, ficha) => (t.faixa ? ficha?.faixas?.find((x) => x.titulo.toLowerCase().replace(/[’']/g, "'") === t.faixa.toLowerCase().replace(/[’']/g, "'"))?.duracao : ficha?.duracao);
+
+// Edições de álbuns ("formato": "albuns"): cada item é um disco, sem "faixa". "posicao" é o número
+// dado pelo autor (ex.: uma contagem de 5 a 1); "grupo" abre uma seção (ex.: menções honrosas), e
+// os itens dela ficam sem número, com o louro de honra no lugar.
+const tituloDe = (t) => t.faixa || t.albumTitulo;
+const numeroDe = (t, i) => (t.grupo ? "" : String(t.posicao ?? i + 1));
+const LOURO = `<svg class="icone louro" aria-hidden="true"><use href="#i-louro"/></svg>`;
+const abreGrupo = (faixas, i) => faixas[i].grupo && faixas[i].grupo !== faixas[i - 1]?.grupo;
 
 // Lista das faixas no topo, como uma playlist: número, capa pequena, faixa e artista, álbum e
 // duração. Tocar numa linha rola até a faixa. Acima, os links da playlist da edição (Spotify e
@@ -93,14 +101,14 @@ function playlistHtml(edicao, porId) {
   return `
     <section class="playlist" aria-label="Faixas desta edição">
       ${servicos.length ? `<div class="playlist-ouvir">${servicos.map(([k, nome, icone]) => `<a class="plat plat-nome" href="${esc(edicao.playlists[k])}" target="_blank" rel="noopener"><svg class="icone" aria-hidden="true"><use href="#i-${icone}"/></svg><span>Playlist no ${nome}</span></a>`).join("")}</div>` : ""}
-      <div class="playlist-cabeca" aria-hidden="true"><span>#</span><span>Título</span><span>Álbum</span><span>Duração</span></div>
+      <div class="playlist-cabeca" aria-hidden="true"><span>#</span><span>${edicao.formato === "albuns" ? "Álbum" : "Título"}</span><span>${edicao.formato === "albuns" ? "Ano" : "Álbum"}</span><span>Duração</span></div>
       <ol class="playlist-faixas">
         ${edicao.faixas.map((t, i) => {
           const f = porId.get(t.album);
-          return `<li><button type="button" data-salto="${i + 1}" aria-label="Ir para ${esc(t.faixa)}, de ${esc(t.artista)}">
-            <span class="playlist-n">${i + 1}</span>
-            <span class="playlist-titulo">${f?.capa ? `<img src="${esc(f.capa)}" alt="" loading="lazy">` : `<span class="playlist-sem-capa"></span>`}<span><strong>${esc(t.faixa)}</strong><span>${esc(t.artista)}</span></span></span>
-            <span class="playlist-album">${esc(t.albumTitulo)}</span>
+          return `${abreGrupo(edicao.faixas, i) ? `<li class="playlist-grupo">${LOURO}${esc(t.grupo)}</li>` : ""}<li><button type="button" data-salto="${i + 1}" aria-label="Ir para ${esc(tituloDe(t))}, de ${esc(t.artista)}">
+            <span class="playlist-n">${numeroDe(t, i) || LOURO}</span>
+            <span class="playlist-titulo">${f?.capa ? `<img src="${esc(f.capa)}" alt="" loading="lazy">` : `<span class="playlist-sem-capa"></span>`}<span><strong>${esc(tituloDe(t))}</strong><span>${esc(t.artista)}</span></span></span>
+            <span class="playlist-album">${t.faixa ? esc(t.albumTitulo) : esc(f?.lancamento?.slice(0, 4) || "")}</span>
             <span class="playlist-duracao">${esc(duracaoDe(t, f) || "")}</span>
           </button></li>`;
         }).join("")}
@@ -108,7 +116,7 @@ function playlistHtml(edicao, porId) {
     </section>`;
 }
 
-function faixaHtml(t, i, ficha, gen, porId) {
+function faixaHtml(t, i, ficha, gen, porId, faixas) {
   const links = Object.keys(t.links || {}).length ? t.links : ficha?.links || {};
   const ano = ficha?.lancamento?.slice(0, 4);
   const duracao = duracaoDe(t, ficha);
@@ -118,18 +126,18 @@ function faixaHtml(t, i, ficha, gen, porId) {
   const tocar = videoDe(links, t.video);
   // Gêneros do álbum (dos charts e dos estilos do Wikidata/MusicBrainz), com link para o Guia de Gêneros.
   const generosDoAlbum = [...new Set([...(ficha?.generos || []), ...(ficha?.estilos || [])])].filter((g) => gen.porId.has(g));
-  return `
+  return `${abreGrupo(faixas, i) ? `<h2 class="curadoria-grupo">${LOURO}${esc(t.grupo)}</h2>` : ""}
     <section class="curadoria-faixa" id="faixa-${i + 1}" aria-labelledby="faixa-${i + 1}-titulo">
       <div class="player">
         ${capa}
         <div class="player-info">
-          <p class="player-numero">${String(i + 1).padStart(2, "0")}</p>
-          <h3 class="player-faixa" id="faixa-${i + 1}-titulo">${esc(t.faixa)}</h3>
-          <p class="player-album">${esc(t.artista)} · <span>${esc(t.albumTitulo)}${ano ? ` (${ano})` : ""}</span>${duracao ? ` · <span class="player-duracao">${esc(duracao)}</span>` : ""}</p>
+          <p class="player-numero">${numeroDe(t, i) ? numeroDe(t, i).padStart(2, "0") : `${LOURO}<span class="visualmente-oculto">${esc(t.grupo)}</span>`}</p>
+          <h3 class="player-faixa" id="faixa-${i + 1}-titulo">${esc(tituloDe(t))}</h3>
+          <p class="player-album">${esc(t.artista)}${t.faixa ? ` · <span>${esc(t.albumTitulo)}${ano ? ` (${ano})` : ""}</span>` : ano ? ` · <span>${ano}</span>` : ""}${duracao ? ` · <span class="player-duracao">${esc(duracao)}</span>` : ""}</p>
           ${generosDoAlbum.length ? `<ul class="player-generos" aria-label="Gêneros do álbum">${generosDoAlbum.map((g) => `<li><a href="#/recomendados/${g}">${esc(gen.porId.get(g).nome)}</a></li>`).join("")}</ul>` : ""}
           <div class="player-acoes">
             ${tocar ? `<button type="button" class="player-tocar" data-tocar="${i}" aria-pressed="false">${ICONE_TOCAR}<span>Tocar aqui</span></button>` : ""}
-            ${Object.keys(links).length ? `<ul class="player-links" aria-label="Ouvir ${esc(t.faixa)}">${botoesStreaming({ links, titulo: t.faixa })}</ul>` : ""}
+            ${Object.keys(links).length ? `<ul class="player-links" aria-label="Ouvir ${esc(tituloDe(t))}">${botoesStreaming({ links, titulo: tituloDe(t) })}</ul>` : ""}
           </div>
         </div>
       </div>
@@ -161,8 +169,9 @@ export async function render(el, [edicaoId]) {
             <h2 class="curadoria-titulo">${esc(edicao.titulo)}</h2>
             ${edicao.autor?.nome ? `<p class="curadoria-autor">por ${esc(edicao.autor.nome)}</p>` : ""}
           </header>
+          ${edicao.introducao?.length ? `<div class="curadoria-texto curadoria-intro">${edicao.introducao.map((p) => `<p>${formatar(p, gen, porId)}</p>`).join("")}</div>` : ""}
           ${playlistHtml(edicao, porId)}
-          ${edicao.faixas.map((t, i) => faixaHtml(t, i, porId.get(t.album), gen, porId)).join("")}
+          ${edicao.faixas.map((t, i) => faixaHtml(t, i, porId.get(t.album), gen, porId, edicao.faixas)).join("")}
           ${autorHtml(edicao.autor)}
         </article>
         ${arquivoHtml(publicadas, edicao, porId)}

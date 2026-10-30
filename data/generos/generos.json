@@ -3623,6 +3623,55 @@
     "musicmap": "met11"
   },
   {
+    "id": "depressive-suicidal-black-metal",
+    "nome": "Depressive Suicidal Black Metal",
+    "pai": "black-metal",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "black-metal"
+    ],
+    "resumo": "Depressive suicidal black metal (ou black metal depressivo, também conhecido pela sigla DSBM) é o estilo mais depressivo do black metal.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Depressive_suicidal_black_metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 124,
+        "ate": 135,
+        "genero": "black-metal"
+      }
+    ],
+    "resumoArtigo": "pt:Depressive suicidal black metal",
+    "nomesAlternativos": [
+      "DSBM",
+      "black metal depressivo",
+      "depressive black metal"
+    ],
+    "somArtigo": "pt:Depressive suicidal black metal",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Depressive_suicidal_black_metal"
+    ],
+    "som": "Assim como acontece no black metal, suas características incluem gravações agressivas e cruas (lo-fi) e ênfase na atmosfera, porém, muito mais sombria, melancólica e profunda, uma melodia quase que inerte, entretanto, impactante. Suas letras abordam temas como suicídio, sofrimento, dor, automutilação, desespero, depressão, entre outros temas sentimentais.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Depressive_suicidal_black_metal",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "somLinks": [
+      {
+        "de": 23,
+        "ate": 34,
+        "genero": "black-metal"
+      }
+    ],
+    "similares": [
+      "dark-ambient"
+    ]
+  },
+  {
     "id": "post-metal",
     "nome": "Post-Metal",
     "nomesAlternativos": [
