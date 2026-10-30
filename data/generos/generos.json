@@ -4456,6 +4456,74 @@
     ]
   },
   {
+    "id": "tech-house",
+    "nome": "Tech House",
+    "pai": "house",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "house",
+      "techno"
+    ],
+    "resumo": "Tech house é um subgênero da house music que combina características estilísticas do techno com house.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Tech_house",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 29,
+        "ate": 40,
+        "genero": "house"
+      },
+      {
+        "de": 85,
+        "ate": 91,
+        "genero": "techno"
+      }
+    ],
+    "resumoArtigo": "pt:Tech house",
+    "somArtigo": "en:Tech house#Musical structure",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tech_house"
+    ],
+    "similares": [
+      "minimal-techno",
+      "deep-house"
+    ],
+    "som": "No entanto, elementos do 'som' da house, como sons realistas de jazz (na deep house) e bumbos retumbantes, são substituídos por elementos do techno, como bumbos mais curtos, mais graves, mais escuros e muitas vezes distorcidos, hi-hats menores e mais rápidos, caixas mais ruidosas e melodias de sintetizador mais sintéticas ou com som ácido, vindas do TB-303, incluindo ruídos eletrônicos crus de osciladores de onda dente de serra e quadrada distorcidos. Alguns produtores também acrescentam vocais e elementos soul (David Chambers), e na mesma medida sons eletrônicos crus em sua música.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Tech_house#Musical_structure",
+      "idioma": "en",
+      "secao": "Musical structure",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 34,
+        "ate": 39,
+        "genero": "house"
+      },
+      {
+        "de": 64,
+        "ate": 68,
+        "genero": "jazz"
+      },
+      {
+        "de": 73,
+        "ate": 83,
+        "genero": "deep-house"
+      },
+      {
+        "de": 141,
+        "ate": 147,
+        "genero": "techno"
+      }
+    ]
+  },
+  {
     "id": "techno",
     "nome": "Techno",
     "pai": "eletronica",

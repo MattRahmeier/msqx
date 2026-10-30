@@ -16,7 +16,8 @@
     "musica-tradicional-chinesa",
     "musica-arabe",
     "musica-dos-povos-originarios",
-    "depressive-suicidal-black-metal"
+    "depressive-suicidal-black-metal",
+    "tech-house"
   ],
   "fonte": "Tracklore",
   "transcricao": {
@@ -765,6 +766,86 @@
       "titulo": "Depressivos Hinos Suicidas",
       "fonte": "https://claude.ai/artifact/UqPXB59ENfXze9UmNSRdhJ#/curadoria/2026-10-29-dsbm-essenciais",
       "album": "funesto-depressivos-hinos-suicidas"
+    },
+    {
+      "pos": "tech-house-1",
+      "generos": [
+        "tech-house"
+      ],
+      "artista": "Layo & Bushwacka!",
+      "titulo": "Night Works",
+      "fonte": "https://en.wikipedia.org/wiki/Tech_house",
+      "album": "layo-and-bushwacka-night-works"
+    },
+    {
+      "pos": "tech-house-2",
+      "generos": [
+        "tech-house"
+      ],
+      "artista": "Charles Webster",
+      "titulo": "Born on the 24th of July",
+      "fonte": "https://en.wikipedia.org/wiki/Tech_house",
+      "album": "charles-webster-born-on-the-24th-of-july"
+    },
+    {
+      "pos": "tech-house-3",
+      "generos": [
+        "tech-house"
+      ],
+      "artista": "Herbert",
+      "titulo": "Around the House",
+      "fonte": "https://en.wikipedia.org/wiki/Tech_house",
+      "album": "herbert-around-the-house"
+    },
+    {
+      "pos": "tech-house-4",
+      "generos": [
+        "tech-house"
+      ],
+      "artista": "Terry Francis",
+      "titulo": "Dubtown",
+      "fonte": "https://en.wikipedia.org/wiki/Tech_house",
+      "album": "terry-francis-dubtown"
+    },
+    {
+      "pos": "tech-house-5",
+      "generos": [
+        "tech-house"
+      ],
+      "artista": "Green Velvet",
+      "titulo": "Whatever",
+      "fonte": "https://en.wikipedia.org/wiki/Tech_house",
+      "album": "green-velvet-whatever"
+    },
+    {
+      "pos": "tech-house-6",
+      "generos": [
+        "tech-house"
+      ],
+      "artista": "Jamie Jones",
+      "titulo": "Don't You Remember the Future",
+      "fonte": "https://en.wikipedia.org/wiki/Tech_house",
+      "album": "jamie-jones-dont-you-remember-the-future"
+    },
+    {
+      "pos": "tech-house-7",
+      "generos": [
+        "tech-house"
+      ],
+      "artista": "FISHER",
+      "titulo": "Oi Oi",
+      "fonte": "https://en.wikipedia.org/wiki/Tech_house",
+      "album": "fisher-oi-oi"
+    },
+    {
+      "pos": "tech-house-8",
+      "generos": [
+        "tech-house"
+      ],
+      "artista": "Patrick Topping",
+      "titulo": "Be Sharp Say Nowt",
+      "fonte": "https://en.wikipedia.org/wiki/Tech_house",
+      "album": "patrick-topping-be-sharp-say-nowt"
     }
   ]
 }

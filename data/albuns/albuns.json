@@ -6077,10 +6077,10 @@
       "canal": "warped303"
     },
     "estilos": [
-      "house"
+      "tech-house"
     ],
     "estilosFonte": {
-      "house": "musicbrainz"
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -31414,12 +31414,12 @@
     "discogs": "https://www.discogs.com/master/47283",
     "linksVerificados": "2026-10-27",
     "estilos": [
-      "house",
-      "electro"
+      "electro",
+      "tech-house"
     ],
     "estilosFonte": {
-      "house": "wikidata",
-      "electro": "musicbrainz"
+      "electro": "musicbrainz",
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -32398,10 +32398,12 @@
     "destaqueVerificado": "2026-10-27",
     "discogs": "https://www.discogs.com/master/38696",
     "estilos": [
-      "techno"
+      "techno",
+      "tech-house"
     ],
     "estilosFonte": {
-      "techno": "wikidata"
+      "techno": "wikidata",
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -40328,9 +40330,11 @@
       "canal": "Classic DJ Sets"
     },
     "estilos": [
+      "tech-house",
       "techno"
     ],
     "estilosFonte": {
+      "tech-house": "musicbrainz",
       "techno": "musicbrainz"
     }
   },
@@ -43281,10 +43285,12 @@
       "release": "4a3ccf76-2e4c-3ae8-ae1c-07c236943b8e"
     },
     "charts": [
-      "deep-house"
+      "deep-house",
+      "tracklore-selecao"
     ],
     "generos": [
-      "deep-house"
+      "deep-house",
+      "tech-house"
     ],
     "linksVerificados": "2026-10-27",
     "sobreVerificado": "2026-10-27",
@@ -56525,10 +56531,12 @@
     "discogs": "https://www.discogs.com/master/8811",
     "naoOficial": null,
     "estilos": [
-      "deep-house"
+      "deep-house",
+      "tech-house"
     ],
     "estilosFonte": {
-      "deep-house": "musicbrainz"
+      "deep-house": "musicbrainz",
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -78153,11 +78161,11 @@
     "discogs": "https://www.discogs.com/master/71208",
     "estilos": [
       "electro",
-      "house"
+      "tech-house"
     ],
     "estilosFonte": {
       "electro": "musicbrainz",
-      "house": "musicbrainz"
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -82939,11 +82947,13 @@
     "discogs": "https://www.discogs.com/master/76732",
     "estilos": [
       "techno",
-      "electro"
+      "electro",
+      "tech-house"
     ],
     "estilosFonte": {
       "techno": "wikidata",
-      "electro": "musicbrainz"
+      "electro": "musicbrainz",
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -84137,6 +84147,67 @@
     "estilosFonte": {
       "rock": "musicbrainz",
       "soft-rock": "musicbrainz"
+    }
+  },
+  {
+    "id": "fisher-oi-oi",
+    "titulo": "Oi Oi",
+    "artista": "FISHER",
+    "lancamento": "2017-11-10",
+    "tipo": "EP",
+    "gravadora": "DIRTYBIRD",
+    "duracao": "5:50",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Stop It",
+        "duracao": "2:44"
+      },
+      {
+        "n": 2,
+        "titulo": "Ya Didn’t",
+        "duracao": "3:06"
+      }
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/album/3fLyVygsOa9KL5OqdiX8Va",
+      "deezer": "https://www.deezer.com/album/51441182",
+      "appleMusic": "https://music.apple.com/br/album/oi-oi-single/1714356979",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lngxkVC7OjwSygQnCGLsaIeogEcuoftvI"
+    },
+    "capa": "assets/img/capas/fisher-oi-oi.jpg",
+    "musicbrainz": {
+      "releaseGroup": "cf727633-69d9-4985-862a-af9a535e80bb",
+      "release": "0654b34a-ee4d-43dc-906c-75587e44491a"
+    },
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "tech-house"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Stop It",
+      "duracao": "2:44",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=diU6mVGAzxw&list=OLAK5uy_lngxkVC7OjwSygQnCGLsaIeogEcuoftvI",
+        "spotify": "https://open.spotify.com/track/4qetR2UUyBeUrJ9DbYrpVQ",
+        "appleMusic": "https://music.apple.com/br/album/stop-it/1714356979?i=1714356981"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": null,
+    "sobreVerificado": "2026-10-30",
+    "sobre": "Oi Oi é um EP de FISHER, lançado em 2017 pela DIRTYBIRD, com 2 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/cf727633-69d9-4985-862a-af9a535e80bb"
     }
   },
   {
@@ -85585,6 +85656,86 @@
     },
     "sobreVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/master/171023"
+  },
+  {
+    "id": "forgotten-tomb-songs-to-leave",
+    "titulo": "Songs to Leave",
+    "artista": "Forgotten Tomb",
+    "lancamento": "2002-08-04",
+    "tipo": "Album",
+    "gravadora": "Selbstmord Services",
+    "duracao": "47:48",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Entombed by Winter",
+        "duracao": "10:58"
+      },
+      {
+        "n": 2,
+        "titulo": "Solitude Ways",
+        "duracao": "7:44"
+      },
+      {
+        "n": 3,
+        "titulo": "Steal My Corpse",
+        "duracao": "9:33"
+      },
+      {
+        "n": 4,
+        "titulo": "No Way Out",
+        "duracao": "6:48"
+      },
+      {
+        "n": 5,
+        "titulo": "Disheartenment",
+        "duracao": "12:44"
+      }
+    ],
+    "links": {
+      "bandcamp": "https://agoniarecords.bandcamp.com/album/songs-to-leave",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ldfCJvMZ-wDi8Z9MID1_ojb1YlrBdujhw"
+    },
+    "capa": "assets/img/capas/forgotten-tomb-songs-to-leave.jpg",
+    "musicbrainz": {
+      "releaseGroup": "aa720038-ae28-3eeb-9cd3-fd22ca58df0e",
+      "release": "77224afc-9222-4883-aff4-e88a13ee2270"
+    },
+    "charts": [
+      "depressive-black-metal-dsbm"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Disheartenment",
+      "duracao": "12:44",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=FN5aQsVbAhk&list=OLAK5uy_ldfCJvMZ-wDi8Z9MID1_ojb1YlrBdujhw"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/29254",
+    "sobreVerificado": "2026-10-30",
+    "estilos": [
+      "doom-metal",
+      "rock"
+    ],
+    "estilosFonte": {
+      "doom-metal": "musicbrainz",
+      "rock": "musicbrainz"
+    },
+    "sobre": "Songs to Leave é um álbum de Forgotten Tomb, lançado em 2002 pela Selbstmord Services, com 5 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/aa720038-ae28-3eeb-9cd3-fd22ca58df0e"
+    }
   },
   {
     "id": "foul-play-suspected",
@@ -95551,6 +95702,131 @@
     }
   },
   {
+    "id": "green-velvet-whatever",
+    "titulo": "Whatever",
+    "artista": "Green Velvet",
+    "lancamento": "2001-11-06",
+    "tipo": "Album",
+    "gravadora": "Music Man Records",
+    "duracao": "48:38",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "La La Land",
+        "duracao": "5:02"
+      },
+      {
+        "n": 2,
+        "titulo": "Genedefekt",
+        "duracao": "2:38"
+      },
+      {
+        "n": 3,
+        "titulo": "Sleepwalking",
+        "duracao": "4:51"
+      },
+      {
+        "n": 4,
+        "titulo": "Why Try?",
+        "duracao": "4:36"
+      },
+      {
+        "n": 5,
+        "titulo": "Waitin' 4 the Day2end",
+        "duracao": "3:26"
+      },
+      {
+        "n": 6,
+        "titulo": "Stop Lyin'",
+        "duracao": "4:41"
+      },
+      {
+        "n": 7,
+        "titulo": "Gat",
+        "duracao": "3:06"
+      },
+      {
+        "n": 8,
+        "titulo": "Stranj",
+        "duracao": "4:53"
+      },
+      {
+        "n": 9,
+        "titulo": "When?",
+        "duracao": "5:34"
+      },
+      {
+        "n": 10,
+        "titulo": "Minimum Rage",
+        "duracao": "7:06"
+      },
+      {
+        "n": 11,
+        "titulo": "Dank",
+        "duracao": "2:45"
+      }
+    ],
+    "links": {
+      "appleMusic": "https://music.apple.com/br/album/whatever/64919462"
+    },
+    "capa": "assets/img/capas/green-velvet-whatever.jpg",
+    "musicbrainz": {
+      "releaseGroup": "2a1532d0-f2df-37bf-b521-49a5bddf0210",
+      "release": "c80e77d3-cbda-3019-96f0-bd61dd41d9fc"
+    },
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "tech-house"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "La La Land",
+      "duracao": "5:02",
+      "links": {
+        "appleMusic": "https://music.apple.com/br/album/la-la-land/64919462?i=64919292"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/45610",
+    "sobre": "Whatever is the second studio album by Green Velvet. It was originally released on Relief Records in 2001.",
+    "sobreFonte": {
+      "url": "https://en.wikipedia.org/wiki/Whatever_(Green_Velvet_album)",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "reviews": [
+      {
+        "fonte": "Pitchfork",
+        "nota": "7.0/10",
+        "estrelas": 3.5,
+        "url": "https://pitchfork.com/reviews/albums/3571-whatever/",
+        "via": "https://en.wikipedia.org/wiki/Whatever_(Green_Velvet_album)#Critical_reception"
+      },
+      {
+        "fonte": "The New Rolling Stone Album Guide",
+        "nota": "3.5/5",
+        "estrelas": 3.5,
+        "url": null,
+        "via": "https://en.wikipedia.org/wiki/Whatever_(Green_Velvet_album)#Critical_reception"
+      }
+    ],
+    "sobreVerificado": "2026-10-30",
+    "estilos": [
+      "electro",
+      "techno"
+    ],
+    "estilosFonte": {
+      "electro": "musicbrainz",
+      "techno": "musicbrainz"
+    }
+  },
+  {
     "id": "gridlink-amber-gray",
     "titulo": "Amber Gray",
     "artista": "GridLink",
@@ -95938,10 +96214,12 @@
       "release": "2ac4ef33-2961-461e-b4ed-7ef5f5c916a9"
     },
     "charts": [
-      "black-metal"
+      "black-metal",
+      "depressive-black-metal-dsbm"
     ],
     "generos": [
-      "black-metal"
+      "black-metal",
+      "depressive-suicidal-black-metal"
     ],
     "linksVerificados": "2026-10-26",
     "sobreVerificado": "2026-10-27",
@@ -96801,12 +97079,12 @@
     "destaqueVerificado": "2026-10-27",
     "discogs": "https://www.discogs.com/master/35762",
     "estilos": [
-      "house",
-      "idm"
+      "idm",
+      "tech-house"
     ],
     "estilosFonte": {
-      "house": "wikidata",
-      "idm": "musicbrainz"
+      "idm": "musicbrainz",
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -100305,6 +100583,136 @@
     ],
     "estilosFonte": {
       "indie-rock": "musicbrainz"
+    }
+  },
+  {
+    "id": "herbert-around-the-house",
+    "titulo": "Around the House",
+    "artista": "Herbert & Dani Siciliano",
+    "lancamento": "1998-08",
+    "tipo": "Album",
+    "gravadora": "Phonography",
+    "duracao": "73:50",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "[untitled]",
+        "duracao": "0:52"
+      },
+      {
+        "n": 2,
+        "titulo": "So Now...",
+        "duracao": "5:41"
+      },
+      {
+        "n": 3,
+        "titulo": "Around the House",
+        "duracao": "4:35"
+      },
+      {
+        "n": 4,
+        "titulo": "Close to Me",
+        "duracao": "6:37"
+      },
+      {
+        "n": 5,
+        "titulo": "The Last Beat",
+        "duracao": "5:28"
+      },
+      {
+        "n": 6,
+        "titulo": "Going Round",
+        "duracao": "6:56"
+      },
+      {
+        "n": 7,
+        "titulo": "This Time",
+        "duracao": "8:05"
+      },
+      {
+        "n": 8,
+        "titulo": "We Still Have (the Music)",
+        "duracao": "6:29"
+      },
+      {
+        "n": 9,
+        "titulo": "In the Kitchen",
+        "duracao": "12:11"
+      },
+      {
+        "n": 10,
+        "titulo": "Never Give Up",
+        "duracao": "11:42"
+      },
+      {
+        "n": 11,
+        "titulo": "We Go Wrong",
+        "duracao": "5:15"
+      }
+    ],
+    "links": {
+      "deezer": "https://www.deezer.com/album/136275662",
+      "appleMusic": "https://music.apple.com/br/album/around-the-house/552021418"
+    },
+    "capa": "assets/img/capas/herbert-around-the-house.jpg",
+    "musicbrainz": {
+      "releaseGroup": "ed1a717b-2484-3869-a5d0-b47adf5f47dd",
+      "release": "49ded38a-ee02-4786-9b37-c453d1060425"
+    },
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "tech-house"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "The Last Beat",
+      "duracao": "5:27",
+      "links": {
+        "deezer": "https://www.deezer.com/track/903226312",
+        "appleMusic": "https://music.apple.com/br/album/the-last-beat/552021418?i=552021543"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/46928",
+    "sobre": "Around the House is a 1998 studio album by British electronic musician Herbert. It is an electroacoustic album using \"samples of washing machines, toasters and toothbrushes, processed into swinging grooves\".",
+    "sobreFonte": {
+      "url": "https://en.wikipedia.org/wiki/Around_the_House",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "reviews": [
+      {
+        "fonte": "AllMusic",
+        "nota": "4.5/5",
+        "estrelas": 4.5,
+        "url": "https://www.allmusic.com/album/around-the-house-mw0000660053",
+        "via": "https://en.wikipedia.org/wiki/Around_the_House#Critical_reception"
+      },
+      {
+        "fonte": "Pitchfork",
+        "nota": "8.7/10",
+        "estrelas": 4.5,
+        "url": "https://pitchfork.com/reviews/albums/3835-around-the-house/",
+        "via": "https://en.wikipedia.org/wiki/Around_the_House#Critical_reception"
+      }
+    ],
+    "sobreVerificado": "2026-10-30",
+    "estilos": [
+      "minimal-techno",
+      "ambient",
+      "deep-house"
+    ],
+    "estilosFonte": {
+      "minimal-techno": "wikidata",
+      "ambient": "musicbrainz",
+      "deep-house": "musicbrainz"
     }
   },
   {
@@ -109328,6 +109736,159 @@
     }
   },
   {
+    "id": "jamie-jones-dont-you-remember-the-future",
+    "titulo": "Don't You Remember the Future",
+    "artista": "Jamie Jones",
+    "lancamento": "2009-08-31",
+    "tipo": "Album",
+    "gravadora": "Crosstown Rebels",
+    "duracao": "98:42",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Don't You Remember the Future",
+        "duracao": "1:09"
+      },
+      {
+        "n": 2,
+        "titulo": "Mars",
+        "duracao": "4:24"
+      },
+      {
+        "n": 3,
+        "titulo": "Summertime",
+        "duracao": "5:00"
+      },
+      {
+        "n": 4,
+        "titulo": "Deep in the Ghetto",
+        "duracao": "5:57"
+      },
+      {
+        "n": 5,
+        "titulo": "Half Human",
+        "duracao": "4:20"
+      },
+      {
+        "n": 6,
+        "titulo": "This Is How",
+        "duracao": "5:53"
+      },
+      {
+        "n": 7,
+        "titulo": "Sand Dunes",
+        "duracao": "5:15"
+      },
+      {
+        "n": 8,
+        "titulo": "Absolute Zero",
+        "duracao": "5:07"
+      },
+      {
+        "n": 9,
+        "titulo": "Galactic Space Bar",
+        "duracao": "4:35"
+      },
+      {
+        "n": 10,
+        "titulo": "Turning Tables",
+        "duracao": "3:42"
+      },
+      {
+        "n": 11,
+        "titulo": "Belter",
+        "duracao": "6:05"
+      },
+      {
+        "n": 12,
+        "titulo": "Mexico",
+        "duracao": "5:56"
+      },
+      {
+        "n": 13,
+        "titulo": "My Body",
+        "duracao": "5:19"
+      },
+      {
+        "n": 14,
+        "titulo": "Acerola",
+        "duracao": "5:26"
+      },
+      {
+        "n": 15,
+        "titulo": "Im Down With R2D2",
+        "duracao": "7:23"
+      },
+      {
+        "n": 16,
+        "titulo": "House Ain't Back (It Never Went Away)",
+        "duracao": "4:13"
+      },
+      {
+        "n": 17,
+        "titulo": "We Can",
+        "duracao": "5:54"
+      },
+      {
+        "n": 18,
+        "titulo": "Pin the Cushin",
+        "duracao": "6:46"
+      },
+      {
+        "n": 19,
+        "titulo": "I Like It",
+        "duracao": "6:18"
+      }
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/album/14XwY6XkIUzYJ4JQp4BVbK",
+      "deezer": "https://www.deezer.com/album/418962627",
+      "appleMusic": "https://music.apple.com/us/album/1677686388",
+      "tidal": "https://tidal.com/album/282361152",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lbyyiaP9x9qHMNaq3ExrnBE0mt5dPXWJ4"
+    },
+    "capa": "assets/img/capas/jamie-jones-dont-you-remember-the-future.jpg",
+    "musicbrainz": {
+      "releaseGroup": "01308150-0300-4b31-80de-338e5f9889bd",
+      "release": "489a02f1-fbaf-44e7-b822-22480c0ee24c"
+    },
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "tech-house"
+    ],
+    "complementos": {
+      "duracao": "musicbrainz",
+      "faixas": "musicbrainz"
+    },
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Summertime",
+      "duracao": "5:04",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=p7znNUnF_pA&list=OLAK5uy_lbyyiaP9x9qHMNaq3ExrnBE0mt5dPXWJ4",
+        "deezer": "https://www.deezer.com/track/2197206577",
+        "spotify": "https://open.spotify.com/track/5cB41JHJIT5ilVWRamad6k",
+        "appleMusic": "https://music.apple.com/br/album/summertime-feat-ost-kjex/1677686388?i=1677686394"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": null,
+    "sobreVerificado": "2026-10-30",
+    "sobre": "Don't You Remember the Future é um álbum de Jamie Jones, lançado em 2009 pela Crosstown Rebels, com 19 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/01308150-0300-4b31-80de-338e5f9889bd"
+    }
+  },
+  {
     "id": "jamiroquai-high-times-singles-1992-2006",
     "titulo": "High Times: Singles 1992–2006",
     "artista": "Jamiroquai",
@@ -118290,11 +118851,13 @@
     "discogs": null,
     "estilos": [
       "ambient",
-      "synth-pop"
+      "synth-pop",
+      "tech-house"
     ],
     "estilosFonte": {
       "ambient": "musicbrainz",
-      "synth-pop": "musicbrainz"
+      "synth-pop": "musicbrainz",
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -118987,10 +119550,12 @@
     "discogs": "https://www.discogs.com/master/106219",
     "estilos": [
       "deep-house",
+      "tech-house",
       "techno"
     ],
     "estilosFonte": {
       "deep-house": "musicbrainz",
+      "tech-house": "musicbrainz",
       "techno": "musicbrainz"
     }
   },
@@ -129170,10 +129735,12 @@
       "release": "881690ed-1464-4f21-a012-d9187eae38ea"
     },
     "charts": [
-      "house"
+      "house",
+      "tracklore-selecao"
     ],
     "generos": [
-      "house"
+      "house",
+      "tech-house"
     ],
     "linksVerificados": "2026-10-27",
     "sobreVerificado": "2026-10-27",
@@ -129886,10 +130453,12 @@
     "discogs": "https://www.discogs.com/master/324633",
     "naoOficial": null,
     "estilos": [
-      "deep-house"
+      "deep-house",
+      "tech-house"
     ],
     "estilosFonte": {
-      "deep-house": "musicbrainz"
+      "deep-house": "musicbrainz",
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -130880,6 +131449,128 @@
     }
   },
   {
+    "id": "leviathan-the-tenth-sub-level-of-suicide",
+    "titulo": "The Tenth Sub Level of Suicide",
+    "artista": "Leviathan",
+    "lancamento": "2003-09-29",
+    "tipo": "Album",
+    "gravadora": "Moribund Records",
+    "duracao": "71:04",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Introit",
+        "duracao": "1:15"
+      },
+      {
+        "n": 2,
+        "titulo": "Fucking Your Ghost in Chains of Ice",
+        "duracao": "5:40"
+      },
+      {
+        "n": 3,
+        "titulo": "Sardoniscorn",
+        "duracao": "9:55"
+      },
+      {
+        "n": 4,
+        "titulo": "The Bitter Emblem of Dissolve",
+        "duracao": "5:55"
+      },
+      {
+        "n": 5,
+        "titulo": "Scenic Solitude and Leprosy",
+        "duracao": "6:45"
+      },
+      {
+        "n": 6,
+        "titulo": "He Whom Shadows Move Towards",
+        "duracao": "6:38"
+      },
+      {
+        "n": 7,
+        "titulo": "Submersed",
+        "duracao": "3:16"
+      },
+      {
+        "n": 8,
+        "titulo": "Mine Molten Armor",
+        "duracao": "7:04"
+      },
+      {
+        "n": 9,
+        "titulo": "The Idiot Sun",
+        "duracao": "9:34"
+      },
+      {
+        "n": 10,
+        "titulo": "At the Door to the Tenth Sub Level of Suicide",
+        "duracao": "15:03"
+      }
+    ],
+    "links": {
+      "deezer": "https://www.deezer.com/album/149100",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lYLiQGdNXQH7IcOEqE3Rjs9-3sUWQ6Qxo"
+    },
+    "capa": "assets/img/capas/leviathan-the-tenth-sub-level-of-suicide.jpg",
+    "musicbrainz": {
+      "releaseGroup": "c26c71b9-7c0b-3269-83fd-b8166c7f8318",
+      "release": "b7a05971-c17b-46b3-bba9-5da2333b39ca"
+    },
+    "charts": [
+      "depressive-black-metal-dsbm"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "The Idiot Sun",
+      "duracao": "9:33",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=cB2XIfidegg&list=OLAK5uy_lYLiQGdNXQH7IcOEqE3Rjs9-3sUWQ6Qxo",
+        "deezer": "https://www.deezer.com/track/1472436"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/41861",
+    "sobre": "The Tenth Sub Level of Suicide is the debut studio album by American black metal musical act Leviathan. It was recorded entirely on a Tascam four-track tape recorder in mainman Wrest's home, and was released September 29, 2003 by Seattle, Washington-based underground record label Moribund Cult.",
+    "sobreFonte": {
+      "url": "https://en.wikipedia.org/wiki/The_Tenth_Sub_Level_of_Suicide",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.55/5",
+        "estrelas": 5,
+        "url": "https://www.discogs.com/master/41861",
+        "votos": 149
+      },
+      {
+        "fonte": "AllMusic",
+        "nota": "4/5",
+        "estrelas": 4,
+        "url": "http://www.allmusic.com/album/the-tenth-sub-level-of-suicide-mw0000040468",
+        "via": "https://en.wikipedia.org/wiki/The_Tenth_Sub_Level_of_Suicide#Critical_reception"
+      }
+    ],
+    "sobreVerificado": "2026-10-30",
+    "estilos": [
+      "rock"
+    ],
+    "estilosFonte": {
+      "rock": "musicbrainz"
+    }
+  },
+  {
     "id": "levon-vincent-fabric-63",
     "titulo": "Fabric 63: Levon Vincent",
     "artista": "Levon Vincent",
@@ -131742,6 +132433,137 @@
     "estilosFonte": {
       "heavy-metal": "musicbrainz",
       "rock": "musicbrainz"
+    }
+  },
+  {
+    "id": "lifelover-konkurs",
+    "titulo": "Konkurs",
+    "artista": "Lifelover",
+    "lancamento": "2008-10-10",
+    "tipo": "Album",
+    "gravadora": "Avantgarde Music",
+    "duracao": "59:08",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Shallow",
+        "duracao": "6:27"
+      },
+      {
+        "n": 2,
+        "titulo": "Mental Central Dialog",
+        "duracao": "3:59"
+      },
+      {
+        "n": 3,
+        "titulo": "Brand",
+        "duracao": "4:17"
+      },
+      {
+        "n": 4,
+        "titulo": "Cancertid",
+        "duracao": "4:56"
+      },
+      {
+        "n": 5,
+        "titulo": "Konvulsion",
+        "duracao": "3:13"
+      },
+      {
+        "n": 6,
+        "titulo": "Twitch",
+        "duracao": "3:21"
+      },
+      {
+        "n": 7,
+        "titulo": "Narcotic Devotion",
+        "duracao": "4:19"
+      },
+      {
+        "n": 8,
+        "titulo": "Alltid - Aldrig",
+        "duracao": "4:30"
+      },
+      {
+        "n": 9,
+        "titulo": "Stängt p.g.a. semester",
+        "duracao": "5:52"
+      },
+      {
+        "n": 10,
+        "titulo": "Original",
+        "duracao": "3:19"
+      },
+      {
+        "n": 11,
+        "titulo": "Bitter reflektion",
+        "duracao": "5:13"
+      },
+      {
+        "n": 12,
+        "titulo": "Mitt annexia",
+        "duracao": "3:22"
+      },
+      {
+        "n": 13,
+        "titulo": "Spiken i kistan",
+        "duracao": "5:19"
+      },
+      {
+        "n": 14,
+        "titulo": "En tyst minut",
+        "duracao": "1:01"
+      }
+    ],
+    "links": {
+      "bandcamp": "https://lifelover.bandcamp.com/album/konkurs",
+      "deezer": "https://www.deezer.com/album/368544997",
+      "appleMusic": "https://music.apple.com/br/album/konkurs/1556060997",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lI9twd7VinEah0BNKtF4Uf8nYNX0YdAOg"
+    },
+    "capa": "assets/img/capas/lifelover-konkurs.jpg",
+    "musicbrainz": {
+      "releaseGroup": "ac31f923-2f26-3593-b82f-5eeec4494927",
+      "release": "70140bf8-220e-460b-a2a8-a53beae826b9"
+    },
+    "charts": [
+      "depressive-black-metal-dsbm"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Cancertid",
+      "duracao": "4:56",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=8BQObDjqcG8&list=OLAK5uy_lI9twd7VinEah0BNKtF4Uf8nYNX0YdAOg",
+        "deezer": "https://www.deezer.com/track/1977411487",
+        "appleMusic": "https://music.apple.com/br/album/cancertid/1556060997?i=1556061525"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/316024",
+    "sobreVerificado": "2026-10-30",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.38/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/316024",
+        "votos": 94
+      }
+    ],
+    "sobre": "Konkurs é um álbum de Lifelover, lançado em 2008 pela Avantgarde Music, com 14 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/ac31f923-2f26-3593-b82f-5eeec4494927"
     }
   },
   {
@@ -140729,6 +141551,85 @@
     "discogs": null
   },
   {
+    "id": "make-a-change-kill-yourself-make-a-change-kill-yourself",
+    "titulo": "Make a Change... Kill Yourself",
+    "artista": "Make a Change... Kill Yourself",
+    "lancamento": "2005-06-23",
+    "tipo": "Album",
+    "gravadora": "Total Holocaust Records",
+    "duracao": "70:50",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Chapter I",
+        "duracao": "14:08"
+      },
+      {
+        "n": 2,
+        "titulo": "Chapter II",
+        "duracao": "16:08"
+      },
+      {
+        "n": 3,
+        "titulo": "Chapter III",
+        "duracao": "13:28"
+      },
+      {
+        "n": 4,
+        "titulo": "Chapter IV",
+        "duracao": "27:06"
+      }
+    ],
+    "links": {
+      "bandcamp": "https://pestproductions.bandcamp.com/album/make-a-change-kill-yourself",
+      "deezer": "https://www.deezer.com/album/203824922",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l6XtjinsLBZxWcIUFYGdyHxPC1qSlUkZk"
+    },
+    "capa": "assets/img/capas/make-a-change-kill-yourself-make-a-change-kill-yourself.jpg",
+    "musicbrainz": {
+      "releaseGroup": "d9b1edfa-14ee-30c1-885b-a2030b5b9b5c",
+      "release": "cc5efaea-aef2-4aa2-ac7e-b6ea2041e569"
+    },
+    "charts": [
+      "depressive-black-metal-dsbm"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Chapter I",
+      "duracao": "14:08",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=IfIpa5mi_-w&list=OLAK5uy_l6XtjinsLBZxWcIUFYGdyHxPC1qSlUkZk",
+        "deezer": "https://www.deezer.com/track/1226565172"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/41901",
+    "sobreVerificado": "2026-10-30",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.54/5",
+        "estrelas": 5,
+        "url": "https://www.discogs.com/master/41901",
+        "votos": 24
+      }
+    ],
+    "sobre": "Make a Change... Kill Yourself é um álbum de Make a Change... Kill Yourself, lançado em 2005 pela Total Holocaust Records, com 4 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/d9b1edfa-14ee-30c1-885b-a2030b5b9b5c"
+    }
+  },
+  {
     "id": "makoto-matsushita-first-light",
     "titulo": "First Light",
     "artista": "Makoto Matsushita",
@@ -145241,7 +146142,13 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/171c839c-645a-3cce-bd4f-f8090d3e82e6"
     },
-    "discogs": "https://www.discogs.com/master/172132"
+    "discogs": "https://www.discogs.com/master/172132",
+    "estilos": [
+      "tech-house"
+    ],
+    "estilosFonte": {
+      "tech-house": "musicbrainz"
+    }
   },
   {
     "id": "matrix-metals-flamingo-breeze",
@@ -151488,10 +152395,12 @@
     },
     "discogs": "https://www.discogs.com/release/1315841",
     "estilos": [
-      "ambient"
+      "ambient",
+      "tech-house"
     ],
     "estilosFonte": {
-      "ambient": "musicbrainz"
+      "ambient": "musicbrainz",
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -165212,6 +166121,88 @@
     }
   },
   {
+    "id": "nyktalgia-nyktalgia",
+    "titulo": "Nyktalgia",
+    "artista": "Nyktalgia",
+    "lancamento": "2004-09-12",
+    "tipo": "Album",
+    "gravadora": "No Colours Records",
+    "duracao": "40:26",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Misere Nobis",
+        "duracao": "11:06"
+      },
+      {
+        "n": 2,
+        "titulo": "Lamento Larmoyant",
+        "duracao": "9:56"
+      },
+      {
+        "n": 3,
+        "titulo": "Cold Void",
+        "duracao": "7:33"
+      },
+      {
+        "n": 4,
+        "titulo": "Exitus Letalis",
+        "duracao": "11:51"
+      }
+    ],
+    "links": {},
+    "capa": "assets/img/capas/nyktalgia-nyktalgia.jpg",
+    "musicbrainz": {
+      "releaseGroup": "6e22daae-ae25-3c0b-b5f1-d22a7a75a439",
+      "release": "39a643ab-eeec-4559-910d-f0a426b5b6a3"
+    },
+    "charts": [
+      "depressive-black-metal-dsbm"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Misere Nobis",
+      "duracao": "11:06",
+      "links": {},
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/112098",
+    "sobreVerificado": "2026-10-30",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.47/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/112098",
+        "votos": 17
+      }
+    ],
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=_Qp9Jhts0Nk",
+      "tipo": "album",
+      "titulo": "Nyktalgia - Nyktalgia (Full Album)",
+      "canal": "Atmospheric Black Metal Music"
+    },
+    "estilos": [
+      "rock"
+    ],
+    "estilosFonte": {
+      "rock": "musicbrainz"
+    },
+    "sobre": "Nyktalgia é um álbum de Nyktalgia, lançado em 2004 pela No Colours Records, com 4 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/6e22daae-ae25-3c0b-b5f1-d22a7a75a439"
+    }
+  },
+  {
     "id": "oasis-definitely-maybe",
     "titulo": "Definitely Maybe",
     "artista": "Oasis",
@@ -170894,11 +171885,11 @@
     "discogs": "https://www.discogs.com/master/3520",
     "estilos": [
       "electro",
-      "house"
+      "tech-house"
     ],
     "estilosFonte": {
       "electro": "musicbrainz",
-      "house": "musicbrainz"
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -172108,6 +173099,86 @@
     "estilosFonte": {
       "eletronica": "musicbrainz",
       "indie-rock": "musicbrainz"
+    }
+  },
+  {
+    "id": "patrick-topping-be-sharp-say-nowt",
+    "titulo": "Be Sharp Say Nowt",
+    "artista": "Patrick Topping",
+    "lancamento": "2017-11-03",
+    "tipo": "Single",
+    "gravadora": "Hot Creations",
+    "duracao": "21:04",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Be Sharp Say Nowt (original mix)",
+        "duracao": "7:24"
+      },
+      {
+        "n": 2,
+        "titulo": "Track Change (original mix)",
+        "duracao": "5:57"
+      },
+      {
+        "n": 3,
+        "titulo": "Be Sharp Say Nowt",
+        "duracao": "3:49"
+      },
+      {
+        "n": 4,
+        "titulo": "Track Change",
+        "duracao": "3:54"
+      }
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/album/1Wx6VPrYYhN56cBE99izlc",
+      "deezer": "https://www.deezer.com/album/50951222",
+      "appleMusic": "https://music.apple.com/br/album/be-sharp-say-nowt-single/1677879397",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mczrAVuu_WB4uZaE7atZ3O1ZL7IpJSqxI"
+    },
+    "capa": "assets/img/capas/patrick-topping-be-sharp-say-nowt.jpg",
+    "musicbrainz": {
+      "releaseGroup": "512bf380-65e0-43f5-bcb2-d6451142523e",
+      "release": "e475606d-f3af-4b1b-b07d-077e56bb3299"
+    },
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "tech-house"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Be Sharp Say Nowt",
+      "duracao": "3:49",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=dOicDTbrAXI&list=OLAK5uy_mczrAVuu_WB4uZaE7atZ3O1ZL7IpJSqxI",
+        "spotify": "https://open.spotify.com/track/3xN4zbuUZvGev7c9D0BbTM",
+        "appleMusic": "https://music.apple.com/br/album/be-sharp-say-nowt/1677879397?i=1677879400"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/1275421",
+    "sobreVerificado": "2026-10-30",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.7/5",
+        "estrelas": 5,
+        "url": "https://www.discogs.com/master/1275421",
+        "votos": 46
+      }
+    ],
+    "sobre": "Be Sharp Say Nowt é um álbum de Patrick Topping, lançado em 2017 pela Hot Creations, com 4 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/512bf380-65e0-43f5-bcb2-d6451142523e"
     }
   },
   {
@@ -187867,6 +188938,12 @@
       "tipo": "album",
       "titulo": "DT:Recommends | Ricardo Villalobos - Alcachofa (2003) Album",
       "canal": "TheDeathTechno"
+    },
+    "estilos": [
+      "tech-house"
+    ],
+    "estilosFonte": {
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -198475,10 +199552,12 @@
       "release": "594b9669-7b5f-3c62-aa79-e0796039698a"
     },
     "charts": [
-      "black-metal"
+      "black-metal",
+      "depressive-black-metal-dsbm"
     ],
     "generos": [
-      "black-metal"
+      "black-metal",
+      "depressive-suicidal-black-metal"
     ],
     "linksVerificados": "2026-10-26",
     "sobreVerificado": "2026-10-26",
@@ -199508,6 +200587,94 @@
     "estilosFonte": {
       "hard-rock": "musicbrainz"
     }
+  },
+  {
+    "id": "silencer-death-pierce-me",
+    "titulo": "Death - Pierce Me",
+    "artista": "Silencer",
+    "lancamento": "2001-10-30",
+    "tipo": "Album",
+    "gravadora": "Prophecy Productions",
+    "duracao": "49:02",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Death - Pierce Me",
+        "duracao": "10:34"
+      },
+      {
+        "n": 2,
+        "titulo": "Sterile Nails and Thunderbowels",
+        "duracao": "6:20"
+      },
+      {
+        "n": 3,
+        "titulo": "Taklamakan",
+        "duracao": "8:36"
+      },
+      {
+        "n": 4,
+        "titulo": "The Slow Kill in the Cold",
+        "duracao": "11:38"
+      },
+      {
+        "n": 5,
+        "titulo": "I Shall Lead, You Shall Follow",
+        "duracao": "8:51"
+      },
+      {
+        "n": 6,
+        "titulo": "Feeble Are You - Sons of Sion",
+        "duracao": "3:03"
+      }
+    ],
+    "links": {
+      "bandcamp": "https://silencer-swe.bandcamp.com/album/death-pierce-me",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l8SZJ-wSPw5eXIVeMGNvB59B9YWS56744"
+    },
+    "capa": "assets/img/capas/silencer-death-pierce-me.jpg",
+    "musicbrainz": {
+      "releaseGroup": "09d42f9d-e265-3eb8-886a-31be632d659c",
+      "release": "82df85da-ef14-3161-a4e6-624bfb5ded9a"
+    },
+    "charts": [
+      "depressive-black-metal-dsbm"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Sterile Nails and Thunderbowels",
+      "duracao": "6:20",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=if2EN0Zyu84&list=OLAK5uy_l8SZJ-wSPw5eXIVeMGNvB59B9YWS56744"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/57304",
+    "sobre": "Death – Pierce Me is the only studio album by Swedish black metal act Silencer. Considered to be a cult classic, the album is a landmark of the depressive suicidal black metal genre. The album saw a re-release in 2006 by Autopsy Kitchen Records.",
+    "sobreFonte": {
+      "url": "https://en.wikipedia.org/wiki/Death_%E2%80%93_Pierce_Me",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "sobreVerificado": "2026-10-30",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.43/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/57304",
+        "votos": 63
+      }
+    ]
   },
   {
     "id": "silent-killer-and-breaker-amongst-villains",
@@ -208045,12 +209212,12 @@
       "canal": "TheDeathTechno"
     },
     "estilos": [
-      "house",
-      "rock"
+      "rock",
+      "tech-house"
     ],
     "estilosFonte": {
-      "house": "musicbrainz",
-      "rock": "musicbrainz"
+      "rock": "musicbrainz",
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -219322,6 +220489,92 @@
     }
   },
   {
+    "id": "terry-francis-dubtown",
+    "titulo": "Dubtown",
+    "artista": "Terry Francis",
+    "lancamento": "1997",
+    "tipo": "EP",
+    "gravadora": "Pagan",
+    "duracao": "28:21",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Hannah's House",
+        "duracao": "6:47"
+      },
+      {
+        "n": 2,
+        "titulo": "Hannah's Dub",
+        "duracao": "7:31"
+      },
+      {
+        "n": 3,
+        "titulo": "As You Cry",
+        "duracao": "6:49"
+      },
+      {
+        "n": 4,
+        "titulo": "Reggae's House",
+        "duracao": "7:14"
+      }
+    ],
+    "links": {
+      "deezer": "https://www.deezer.com/album/467176025",
+      "appleMusic": "https://music.apple.com/br/album/dubtown-ep/1698714181",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m45Wbr1uePYMDU-WQ4bw3N6FqDKTzSNkI"
+    },
+    "capa": "assets/img/capas/terry-francis-dubtown.jpg",
+    "musicbrainz": {
+      "releaseGroup": "968b23e9-c4e0-3acf-bfbe-b0b3630e14bd",
+      "release": "f95b3561-c99d-45a7-a997-99fd47a88cea"
+    },
+    "charts": [
+      "tracklore-selecao"
+    ],
+    "generos": [
+      "tech-house"
+    ],
+    "complementos": {
+      "duracao": "deezer",
+      "faixas": "deezer",
+      "capa": "deezer"
+    },
+    "capaFonte": "https://cdn-images.dzcdn.net/images/cover/101545e7d8bf98b933bd5c651f73365b/500x500-000000-80-0-0.jpg",
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Hannah's House",
+      "duracao": "6:47",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=g0UL639Qnpg&list=OLAK5uy_m45Wbr1uePYMDU-WQ4bw3N6FqDKTzSNkI",
+        "deezer": "https://www.deezer.com/track/2378007755",
+        "appleMusic": "https://music.apple.com/br/album/hannahs-house/1698714181?i=1698714187"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/91819",
+    "sobreVerificado": "2026-10-30",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.15/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/91819",
+        "votos": 68
+      }
+    ],
+    "sobre": "Dubtown é um EP de Terry Francis, lançado em 1997 pela Pagan, com 4 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/968b23e9-c4e0-3acf-bfbe-b0b3630e14bd"
+    }
+  },
+  {
     "id": "terry-riley-a-rainbow-in-curved-air",
     "titulo": "A Rainbow in Curved Air",
     "artista": "Terry Riley",
@@ -227567,7 +228820,13 @@
       ]
     },
     "destaqueVerificado": "2026-10-27",
-    "discogs": "https://www.discogs.com/master/217165"
+    "discogs": "https://www.discogs.com/master/217165",
+    "estilos": [
+      "tech-house"
+    ],
+    "estilosFonte": {
+      "tech-house": "musicbrainz"
+    }
   },
   {
     "id": "the-field-mice-whered-you-learn-to-kiss-that-way",
@@ -243491,16 +244750,16 @@
         "votos": 22
       }
     ],
+    "sobre": "Suici.De.pression é um álbum de Thy Light, lançado em 2007 pela Ruin Productions, com 5 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/ffe6ba6e-8041-37bb-ad7c-70daa76ba97c"
+    },
     "estilos": [
       "rock"
     ],
     "estilosFonte": {
       "rock": "musicbrainz"
-    },
-    "sobre": "Suici.De.pression é um álbum de Thy Light, lançado em 2007 pela Ruin Productions, com 5 faixas.",
-    "sobreFonte": {
-      "tipo": "dados",
-      "url": "https://musicbrainz.org/release-group/ffe6ba6e-8041-37bb-ad7c-70daa76ba97c"
     }
   },
   {
@@ -246675,6 +247934,102 @@
     }
   },
   {
+    "id": "totalselfhatred-totalselfhatred",
+    "titulo": "Totalselfhatred",
+    "artista": "Totalselfhatred",
+    "lancamento": "2008",
+    "tipo": "Album",
+    "gravadora": "Ordo Decimus Peccatum",
+    "duracao": "45:30",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Enlightment",
+        "duracao": "5:41"
+      },
+      {
+        "n": 2,
+        "titulo": "Ruoska",
+        "duracao": "6:03"
+      },
+      {
+        "n": 3,
+        "titulo": "Sledge-Hammered Heart",
+        "duracao": "6:35"
+      },
+      {
+        "n": 4,
+        "titulo": "Spirituelles Equilibrium",
+        "duracao": "4:38"
+      },
+      {
+        "n": 5,
+        "titulo": "Mighty Black Dimensions",
+        "duracao": "7:27"
+      },
+      {
+        "n": 6,
+        "titulo": "Carving",
+        "duracao": "7:46"
+      },
+      {
+        "n": 7,
+        "titulo": "Total Self-Hatred",
+        "duracao": "7:20"
+      }
+    ],
+    "links": {
+      "bandcamp": "https://osmoseproductions.bandcamp.com/album/totalselfhatred",
+      "deezer": "https://www.deezer.com/album/118378",
+      "appleMusic": "https://music.apple.com/br/album/totalselfhatred/286133227",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mwxb6Fl-PJ9IJONX2OxvO5kCRjazexZTE"
+    },
+    "capa": "assets/img/capas/totalselfhatred-totalselfhatred.jpg",
+    "musicbrainz": {
+      "releaseGroup": "e0dcd5ce-f4bb-4548-9009-706ba6b994ca",
+      "release": "5121cb69-f7c0-4edd-939e-66921dfca745"
+    },
+    "charts": [
+      "depressive-black-metal-dsbm"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Enlightment",
+      "duracao": "5:41",
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/watch?v=klWbkubdoWY&list=OLAK5uy_mwxb6Fl-PJ9IJONX2OxvO5kCRjazexZTE",
+        "deezer": "https://www.deezer.com/track/1097024",
+        "appleMusic": "https://music.apple.com/br/album/enlightment/286133227?i=286133231"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "youtubeMusic",
+        "deezer",
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/250308",
+    "sobreVerificado": "2026-10-30",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.3/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/250308",
+        "votos": 23
+      }
+    ],
+    "sobre": "Totalselfhatred é um álbum de Totalselfhatred, lançado em 2008 pela Ordo Decimus Peccatum, com 7 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/e0dcd5ce-f4bb-4548-9009-706ba6b994ca"
+    }
+  },
+  {
     "id": "toto-toto-iv",
     "titulo": "Toto IV",
     "artista": "Toto",
@@ -247187,11 +248542,13 @@
     "linksVerificados": "2026-10-27",
     "estilos": [
       "idm",
-      "ambient"
+      "ambient",
+      "tech-house"
     ],
     "estilosFonte": {
       "idm": "wikidata",
-      "ambient": "musicbrainz"
+      "ambient": "musicbrainz",
+      "tech-house": "musicbrainz"
     }
   },
   {
@@ -247601,6 +248958,70 @@
     "estilosFonte": {
       "eletronica": "musicbrainz",
       "new-wave": "musicbrainz"
+    }
+  },
+  {
+    "id": "trist-zrcadleni-melancholie",
+    "titulo": "Zrcadlení melancholie",
+    "artista": "Trist",
+    "lancamento": "2007-11-05",
+    "tipo": "Album",
+    "gravadora": "De Tenebrarum Principio",
+    "duracao": "37:28",
+    "faixas": [
+      {
+        "n": 1,
+        "titulo": "Poslední cesta",
+        "duracao": "22:59"
+      },
+      {
+        "n": 2,
+        "titulo": "Trnový labyrint",
+        "duracao": "14:29"
+      }
+    ],
+    "links": {
+      "appleMusic": "https://music.apple.com/br/album/zrcadlen%C3%AD-melancholie/1661439739"
+    },
+    "capa": "assets/img/capas/trist-zrcadleni-melancholie.jpg",
+    "musicbrainz": {
+      "releaseGroup": "6202519f-1341-3c57-80ce-d0f119d7404f",
+      "release": "64cfc457-7a09-4fba-aba6-8db99a607150"
+    },
+    "charts": [
+      "depressive-black-metal-dsbm"
+    ],
+    "generos": [
+      "depressive-suicidal-black-metal"
+    ],
+    "linksVerificados": "2026-10-30",
+    "destaque": {
+      "titulo": "Poslední cesta",
+      "duracao": "22:59",
+      "links": {
+        "appleMusic": "https://music.apple.com/br/album/posledn%C3%AD-cesta/1661439739?i=1661439740"
+      },
+      "criterio": "A faixa mais popular do álbum nos streamings.",
+      "plataformas": [
+        "listenbrainz"
+      ]
+    },
+    "destaqueVerificado": "2026-10-30",
+    "discogs": "https://www.discogs.com/master/415950",
+    "sobreVerificado": "2026-10-30",
+    "reviews": [
+      {
+        "fonte": "Discogs (usuários)",
+        "nota": "4.5/5",
+        "estrelas": 4.5,
+        "url": "https://www.discogs.com/master/415950",
+        "votos": 32
+      }
+    ],
+    "sobre": "Zrcadlení melancholie é um álbum de Trist, lançado em 2007 pela De Tenebrarum Principio, com 2 faixas.",
+    "sobreFonte": {
+      "tipo": "dados",
+      "url": "https://musicbrainz.org/release-group/6202519f-1341-3c57-80ce-d0f119d7404f"
     }
   },
   {
@@ -261544,7 +262965,13 @@
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/9b0842a5-5478-4605-a250-2c39d8a75cd6"
     },
-    "discogs": "https://www.discogs.com/master/681762"
+    "discogs": "https://www.discogs.com/master/681762",
+    "estilos": [
+      "tech-house"
+    ],
+    "estilosFonte": {
+      "tech-house": "musicbrainz"
+    }
   },
   {
     "id": "wolfgang-amadeus-mozart-le-nozze-di-figaro",

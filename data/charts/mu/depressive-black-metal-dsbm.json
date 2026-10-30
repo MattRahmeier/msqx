@@ -1,0 +1,78 @@
+{
+  "id": "depressive-black-metal-dsbm",
+  "titulo": "Essential Depressive Black Metal (DSBM)",
+  "indice": "depressive-black-metal-dsbm",
+  "generos": [
+    "depressive-suicidal-black-metal"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/depressive-black-metal-dsbm.png",
+  "transcricao": {
+    "data": "2026-10-29",
+    "metodo": "seleção de 10 dos 20 discos do chart (lista ao lado das capas), deixando de fora os que já estavam no gênero e priorizando os que também aparecem no chart \"Depressive Suicidal Black Metal – The Ultimate Guide\"; \"pos\" é a ordem na lista",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "1",
+      "artista": "Gris",
+      "titulo": "Il était une forêt...",
+      "album": "gris-il-etait-une-foret"
+    },
+    {
+      "pos": "2",
+      "artista": "Trist",
+      "titulo": "Zrcadlení melancholie",
+      "album": "trist-zrcadleni-melancholie"
+    },
+    {
+      "pos": "3",
+      "artista": "Make a Change... Kill Yourself",
+      "titulo": "Make a Change... Kill Yourself",
+      "album": "make-a-change-kill-yourself-make-a-change-kill-yourself"
+    },
+    {
+      "pos": "4",
+      "artista": "Shining",
+      "titulo": "V – Halmstad",
+      "album": "shining-v-halmstad"
+    },
+    {
+      "pos": "5",
+      "artista": "Silencer",
+      "titulo": "Death – Pierce Me",
+      "album": "silencer-death-pierce-me"
+    },
+    {
+      "pos": "8",
+      "artista": "Leviathan",
+      "titulo": "The Tenth Sub Level of Suicide",
+      "album": "leviathan-the-tenth-sub-level-of-suicide"
+    },
+    {
+      "pos": "9",
+      "artista": "Nyktalgia",
+      "titulo": "Nyktalgia",
+      "album": "nyktalgia-nyktalgia"
+    },
+    {
+      "pos": "10",
+      "artista": "Totalselfhatred",
+      "titulo": "Totalselfhatred",
+      "album": "totalselfhatred-totalselfhatred"
+    },
+    {
+      "pos": "15",
+      "artista": "Forgotten Tomb",
+      "titulo": "Songs to Leave",
+      "album": "forgotten-tomb-songs-to-leave"
+    },
+    {
+      "pos": "18",
+      "artista": "Lifelover",
+      "titulo": "Konkurs",
+      "album": "lifelover-konkurs"
+    }
+  ]
+}
