@@ -16750,7 +16750,8 @@
       }
     ],
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/13608"
+    "discogs": "https://www.discogs.com/master/13608",
+    "capaExplicita": true
   },
   {
     "id": "avantasia-the-metal-opera",
@@ -22183,7 +22184,8 @@
       "idioma": "it",
       "licenca": "CC BY-SA 4.0"
     },
-    "sobreVerificado": "2026-10-30"
+    "sobreVerificado": "2026-10-30",
+    "capaExplicita": true
   },
   {
     "id": "between-and-the-waters-opened",
@@ -25215,7 +25217,8 @@
       }
     ],
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/28654"
+    "discogs": "https://www.discogs.com/master/28654",
+    "capaExplicita": true
   },
   {
     "id": "black-flag-my-war",
@@ -27435,7 +27438,8 @@
     ],
     "estilosFonte": {
       "blues": "musicbrainz"
-    }
+    },
+    "capaExplicita": true
   },
   {
     "id": "blind-guardian-imaginations-from-the-other-side",
@@ -38330,7 +38334,8 @@
       }
     ],
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/4410"
+    "discogs": "https://www.discogs.com/master/4410",
+    "capaExplicita": true
   },
   {
     "id": "cannibal-ox-the-cold-vein",
@@ -39999,7 +40004,8 @@
     ],
     "estilosFonte": {
       "death-metal": "musicbrainz"
-    }
+    },
+    "capaExplicita": true
   },
   {
     "id": "carcass-symphonies-of-sickness",
@@ -41454,7 +41460,8 @@
     "estilosFonte": {
       "hardcore-punk": "musicbrainz",
       "hip-hop": "musicbrainz"
-    }
+    },
+    "capaExplicita": true
   },
   {
     "id": "cathedral-the-ethereal-mirror",
@@ -60588,7 +60595,8 @@
       }
     ],
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/15883"
+    "discogs": "https://www.discogs.com/master/15883",
+    "capaExplicita": true
   },
   {
     "id": "death-symbolic",
@@ -79939,7 +79947,8 @@
     ],
     "estilosFonte": {
       "rock": "musicbrainz"
-    }
+    },
+    "capaExplicita": true
   },
   {
     "id": "eyeliner-high-fashion-mood-music",
@@ -85735,7 +85744,8 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/aa720038-ae28-3eeb-9cd3-fd22ca58df0e"
-    }
+    },
+    "capaExplicita": true
   },
   {
     "id": "foul-play-suspected",
@@ -110359,7 +110369,8 @@
     "estilosFonte": {
       "alternative-metal": "wikidata",
       "hard-rock": "musicbrainz"
-    }
+    },
+    "capaExplicita": true
   },
   {
     "id": "janitor-joe-big-metal-birds",
@@ -126245,7 +126256,8 @@
       }
     ],
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/12527"
+    "discogs": "https://www.discogs.com/master/12527",
+    "capaExplicita": true
   },
   {
     "id": "kreng-lautopsie-phenomenale-de-dieu",
@@ -157023,7 +157035,8 @@
       }
     ],
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/4576"
+    "discogs": "https://www.discogs.com/master/4576",
+    "capaExplicita": true
   },
   {
     "id": "morcheeba-big-calm",
@@ -160798,7 +160811,8 @@
     ],
     "estilosFonte": {
       "thrash-metal": "wikidata"
-    }
+    },
+    "capaExplicita": true
   },
   {
     "id": "naked-city-torture-garden",
@@ -161072,7 +161086,8 @@
     ],
     "estilosFonte": {
       "grindcore": "musicbrainz"
-    }
+    },
+    "capaExplicita": true
   },
   {
     "id": "namie-amuro-past-future",
@@ -165988,7 +166003,8 @@
       }
     ],
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/106186"
+    "discogs": "https://www.discogs.com/master/106186",
+    "capaExplicita": true
   },
   {
     "id": "nwa-straight-outta-compton",
@@ -177287,7 +177303,8 @@
       }
     ],
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/6322"
+    "discogs": "https://www.discogs.com/master/6322",
+    "capaExplicita": true
   },
   {
     "id": "piglet-lava-land",
@@ -188440,7 +188457,8 @@
     "estilosFonte": {
       "death-metal": "wikidata",
       "rock": "musicbrainz"
-    }
+    },
+    "capaExplicita": true
   },
   {
     "id": "resketch-refract-ep",
@@ -202780,7 +202798,8 @@
       }
     ],
     "sobreVerificado": "2026-10-29",
-    "discogs": "https://www.discogs.com/master/7728"
+    "discogs": "https://www.discogs.com/master/7728",
+    "capaExplicita": true
   },
   {
     "id": "sleep-dopesmoker",
@@ -205202,7 +205221,8 @@
     "estilosFonte": {
       "thrash-metal": "wikidata",
       "rock": "musicbrainz"
-    }
+    },
+    "capaExplicita": true
   },
   {
     "id": "soft-cell-non-stop-erotic-cabaret",
@@ -249022,7 +249042,8 @@
     "sobreFonte": {
       "tipo": "dados",
       "url": "https://musicbrainz.org/release-group/6202519f-1341-3c57-80ce-d0f119d7404f"
-    }
+    },
+    "capaExplicita": true
   },
   {
     "id": "tropics-nautical-clamor",

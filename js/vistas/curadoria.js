@@ -62,9 +62,9 @@ const TIPOS = {
 function arquivoHtml(publicadas, atual, porId) {
   const grupo = (tipo) => publicadas.filter((e) => (e.tipo || "editorial") === tipo);
   const item = (e) => {
-    const capa = porId.get(e.faixas?.[0]?.album)?.capa;
+    const ficha = porId.get(e.faixas?.[0]?.album);
     return `<li><a href="#/curadoria/${esc(e.id)}"${e === atual ? ' aria-current="page"' : ""}>
-      ${capa ? `<img src="${esc(capa)}" alt="" loading="lazy">` : `<span class="arquivo-sem-capa"></span>`}
+      ${ficha?.capa ? capaHtml(ficha, { aviso: false }) : `<span class="arquivo-sem-capa"></span>`}
       <span><strong>${esc(e.titulo)}</strong><span>#${e.numero} · ${data(e.publicacao)}</span></span></a></li>`;
   };
   return `
@@ -107,7 +107,7 @@ function playlistHtml(edicao, porId) {
           const f = porId.get(t.album);
           return `${abreGrupo(edicao.faixas, i) ? `<li class="playlist-grupo">${LOURO}${esc(t.grupo)}</li>` : ""}<li><button type="button" data-salto="${i + 1}" aria-label="Ir para ${esc(tituloDe(t))}, de ${esc(t.artista)}">
             <span class="playlist-n">${numeroDe(t, i) || LOURO}</span>
-            <span class="playlist-titulo">${f?.capa ? `<img src="${esc(f.capa)}" alt="" loading="lazy">` : `<span class="playlist-sem-capa"></span>`}<span><strong>${esc(tituloDe(t))}</strong><span>${esc(t.artista)}</span></span></span>
+            <span class="playlist-titulo">${f?.capa ? capaHtml(f, { aviso: false }) : `<span class="playlist-sem-capa"></span>`}<span><strong>${esc(tituloDe(t))}</strong><span>${esc(t.artista)}</span></span></span>
             <span class="playlist-album">${t.faixa ? esc(t.albumTitulo) : esc(f?.lancamento?.slice(0, 4) || "")}</span>
             <span class="playlist-duracao">${esc(duracaoDe(t, f) || "")}</span>
           </button></li>`;

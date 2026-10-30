@@ -1,5 +1,6 @@
 // Roteamento por hash entre as quatro áreas (especificacao.md). Cada área é um módulo em js/vistas/
 // que exporta `render(elemento, parametros)`.
+import { capasReveladas } from "./componentes/card-album.js";
 
 const ROTAS = {
   inicio: () => import("./vistas/inicio.js"),
@@ -40,6 +41,21 @@ async function navegar() {
 document.addEventListener("click", (e) => {
   const a = e.target.closest("a[href]");
   if (a && /^https?:$/.test(a.protocol) && a.origin !== location.origin) { a.target = "_blank"; a.rel = "noopener"; }
+}, true);
+
+// Capa explícita borrada (capaHtml em card-album.js): o primeiro toque só revela — não abre a ficha
+// nem segue o link — e revela as outras cópias da mesma capa na página.
+document.addEventListener("click", (e) => {
+  const capa = e.target.closest("[data-revelar]");
+  if (!capa) return;
+  e.preventDefault();
+  e.stopPropagation();
+  capasReveladas.add(capa.dataset.revelar);
+  for (const c of document.querySelectorAll(`[data-revelar="${CSS.escape(capa.dataset.revelar)}"]`)) {
+    c.querySelector(".capa-aviso")?.remove();
+    c.classList.add("revelada");
+    c.removeAttribute("data-revelar");
+  }
 }, true);
 
 window.addEventListener("hashchange", navegar);

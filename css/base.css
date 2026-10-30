@@ -232,6 +232,16 @@ button.card-capa {
 button.card-capa:hover, button.card-capa:focus-visible { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); }
 button.card-capa:focus-visible { outline: 2px solid var(--texto); outline-offset: 2px; }
 .card-capa img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* Capa explícita: borrada, com o aviso por cima até ser revelada (capaHtml em card-album.js) */
+.capa-explicita { position: relative; display: block; width: 100%; height: 100%; overflow: hidden; cursor: pointer; }
+.capa-explicita img { filter: blur(22px) brightness(0.7); transform: scale(1.15); transition: filter 0.3s ease, transform 0.3s ease; }
+.capa-explicita.revelada { cursor: inherit; }
+.capa-explicita.revelada img { filter: none; transform: none; }
+.capa-aviso { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: var(--esp-3); }
+.capa-aviso span { max-width: 180px; padding: var(--esp-2) var(--esp-3); border: 1px solid rgba(255, 255, 255, 0.55); border-radius: 999px; background: rgba(0, 0, 0, 0.55); color: #fff; font-size: var(--t-xs); font-weight: 600; line-height: 1.3; text-align: center; transition: background var(--transicao); }
+.capa-explicita:hover .capa-aviso span { background: rgba(0, 0, 0, 0.75); }
+.playlist-titulo .capa-explicita, .curadoria-arquivo .capa-explicita { flex: none; width: 40px; height: 40px; border-radius: 4px; }
+.curadoria-arquivo .capa-explicita { width: 44px; height: 44px; }
 .card-sem-capa { width: 100%; height: 100%; display: grid; place-items: center; font-size: 3rem; font-weight: 700; color: var(--texto-fraco); }
 .card-info { min-width: 0; }
 .card-destaque { display: inline-block; margin: 0 0 var(--esp-1); padding: 2px var(--esp-2); border-radius: 999px; background: var(--destaque); color: var(--popup-texto); font-size: var(--t-xs); font-weight: 700; letter-spacing: 0.02em; }

@@ -175,6 +175,7 @@ Um único arquivo com todas as fichas (a Pesquisa precisa de todas de uma vez). 
 - Links e capas que faltam: `node scripts/completar-links.js` procura o álbum no Deezer e no iTunes (mesmo título e artista) e baixa a capa quando falta; depois rode `verificar-links.js` e `buscar-destaques.js` com `--refazer` nos ids que ele imprime.
 - `sobre` também pode vir de Wikipédias em outros idiomas (es, fr, de, it…, via Wikidata), traduzido; o crédito diz o idioma ("Traduzido do espanhol", "Wikipédia em espanhol"). `correcoes.json` aceita `sobreArtigo` (`"en:Dr. Octagonecologyst"`) para fixar o artigo.
 - `capaFonte`: endereço da imagem quando a capa foi trocada à mão (por exemplo, indicada pelo usuário), em vez de vir do Cover Art Archive.
+- `capaExplicita: true`: capa com imagem explícita (violência, gore, automutilação, nudez). O site mostra a capa borrada com o botão "Conteúdo explícito, clique para revelar"; marcada à mão, depois de olhar a capa (primeira leva em 29/10/2026: capas de metal, extremo, industrial, noise, horrorcore e casos conhecidos).
 - `titulo`/`artista` são os do MusicBrainz; se não batem com o chart, a ficha ganha `conferir` com o que foi pedido e o que veio.
 - `lancamento`: primeira data de lançamento do álbum (pode ser só o ano).
 - `gravadora`: a gravadora que mais aparece nas edições oficiais do álbum no MusicBrainz (no empate, a da edição mais antiga; `null` quando não consta). Fichas antigas: `node scripts/buscar-gravadoras.js`.

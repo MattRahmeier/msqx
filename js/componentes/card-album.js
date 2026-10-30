@@ -66,10 +66,17 @@ export function botoesStreaming(ficha, { comNome = false } = {}) {
   }).join("") + naoOficial;
 }
 
-export function capaHtml(ficha, { lazy = true } = {}) {
-  return ficha.capa
-    ? `<img src="${esc(ficha.capa)}" alt="" loading="${lazy ? "lazy" : "eager"}" decoding="async">`
-    : `<span class="card-sem-capa" aria-hidden="true">${esc(ficha.titulo).slice(0, 1)}</span>`;
+// Capas com imagens explícitas (violência, gore, automutilação, nudez: "capaExplicita" na ficha)
+// aparecem borradas, com o aviso por cima; o primeiro toque revela (js/app.js) em vez de abrir a
+// ficha. Revelada uma vez, a capa fica à mostra no resto da visita.
+export const capasReveladas = new Set();
+export const capaBorrada = (ficha) => ficha?.capaExplicita && !capasReveladas.has(ficha.id);
+
+export function capaHtml(ficha, { lazy = true, aviso = true } = {}) {
+  if (!ficha.capa) return `<span class="card-sem-capa" aria-hidden="true">${esc(ficha.titulo).slice(0, 1)}</span>`;
+  const img = `<img src="${esc(ficha.capa)}" alt="" loading="${lazy ? "lazy" : "eager"}" decoding="async">`;
+  if (!capaBorrada(ficha)) return img;
+  return `<span class="capa-explicita" data-revelar="${esc(ficha.id)}">${img}${aviso ? `<span class="capa-aviso"><span>Conteúdo explícito, clique para revelar</span></span>` : ""}</span>`;
 }
 
 // `nota`: frase opcional (ex.: do autor de A Curadoria). `etiquetas`: [{ texto, href }] —
