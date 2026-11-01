@@ -7317,6 +7317,12 @@
       "trilhas sonoras",
       "soundtrack",
       "banda sonora"
+    ],
+    "influencias": [
+      "musica-classica",
+      "eletronica",
+      "rock",
+      "jazz"
     ]
   },
   {
@@ -7346,7 +7352,12 @@
       "film score",
       "música de cinema"
     ],
-    "ligarPeloNome": false
+    "ligarPeloNome": false,
+    "influencias": [
+      "musica-moderna",
+      "jazz-fusion",
+      "psychedelic-rock"
+    ]
   },
   {
     "id": "trilha-series",
@@ -7365,7 +7376,11 @@
     "similares": [
       "trilha-filmes"
     ],
-    "ligarPeloNome": false
+    "ligarPeloNome": false,
+    "influencias": [
+      "ambient",
+      "dream-pop"
+    ]
   },
   {
     "id": "trilha-anime",
@@ -7392,7 +7407,12 @@
       "música de anime",
       "anison"
     ],
-    "ligarPeloNome": false
+    "ligarPeloNome": false,
+    "influencias": [
+      "jazz",
+      "hip-hop",
+      "trip-hop"
+    ]
   },
   {
     "id": "trilha-games",
@@ -7425,6 +7445,10 @@
       "video game music",
       "trilha de games"
     ],
-    "ligarPeloNome": false
+    "ligarPeloNome": false,
+    "influencias": [
+      "ambient",
+      "techno"
+    ]
   }
 ]
