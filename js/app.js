@@ -34,7 +34,18 @@ async function navegar() {
     console.error(e);
   }
   conteudo.focus({ preventScroll: true });
+  // Voltar a uma página já vista (ex.: da página de um gênero para a lista do Guia de Gêneros)
+  // devolve a rolagem de onde a pessoa saiu; pelo menu da barra, a página abre do começo.
+  window.scrollTo(0, viaMenu ? 0 : rolagem.get(location.hash) || 0);
+  viaMenu = false;
 }
+
+// Rolagem de cada endereço no momento em que a pessoa saiu dele. O navegador não guarda isso
+// sozinho porque a página inteira é redesenhada a cada troca de rota.
+history.scrollRestoration = "manual";
+const rolagem = new Map();
+let viaMenu = false;
+document.addEventListener("click", (e) => { if (e.target.closest("[data-rota], .marca, .marca-linha")) viaMenu = true; }, true);
 
 // Regra do site: todo link para fora (streaming, YouTube, Discogs, Wikipédia…) abre em outra aba,
 // mesmo que o HTML que o criou tenha esquecido o target.
@@ -63,5 +74,8 @@ document.addEventListener("click", (e) => {
   for (const d of document.querySelectorAll(".info-dica[open]")) if (!d.contains(e.target)) d.open = false;
 });
 
-window.addEventListener("hashchange", navegar);
+window.addEventListener("hashchange", (e) => {
+  rolagem.set(new URL(e.oldURL).hash, window.scrollY);
+  navegar();
+});
 navegar();
