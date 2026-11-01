@@ -58,5 +58,10 @@ document.addEventListener("click", (e) => {
   }
 }, true);
 
+// Caixas de informação ("i", .info-dica) fecham ao tocar fora delas.
+document.addEventListener("click", (e) => {
+  for (const d of document.querySelectorAll(".info-dica[open]")) if (!d.contains(e.target)) d.open = false;
+});
+
 window.addEventListener("hashchange", navegar);
 navegar();

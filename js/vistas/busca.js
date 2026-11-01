@@ -2,9 +2,10 @@
 // com os resultados mudando a cada tecla. Cada palavra (ou, com vírgulas, cada parte: "banda, álbum,
 // gênero") estreita a busca e pode cair em um campo diferente: "radiohead kid", "slowdive, shoegaze".
 // #/busca/<termo> guarda o termo no endereço (sem recarregar a página a cada tecla).
-// Para os descritores (vindos dos descriptors do RYM) basta juntar mais um campo em `campos()`.
+// Os descritores (clima, som, voz, letra; vocabulário no estilo dos descriptors do RYM) também
+// entram: em português ou no termo em inglês ("melancólico" ou "melancholic").
 import { tituloPagina } from "../componentes/titulo.js";
-import { albuns, albunsPorGenero, generos, citacoesEditoriais } from "../dados.js";
+import { albuns, albunsPorGenero, generos, citacoesEditoriais, descritores } from "../dados.js";
 import { cardAlbum, capaHtml, esc } from "../componentes/card-album.js";
 import { ligarPainel } from "../componentes/painel-album.js";
 
@@ -22,7 +23,13 @@ function casa(texto, palavra) {
 }
 
 export async function render(el, [termoInicial = ""]) {
-  const [{ lista, porId }, gen, porGenero, citados] = await Promise.all([albuns(), generos(), albunsPorGenero(), citacoesEditoriais()]);
+  const [{ lista, porId }, gen, porGenero, citados, desc] = await Promise.all([albuns(), generos(), albunsPorGenero(), citacoesEditoriais(), descritores()]);
+  // Quantos discos têm cada descritor; os sem nenhum disco não aparecem.
+  const qtdDescritor = new Map();
+  for (const f of lista) for (const d of f.descritores || []) qtdDescritor.set(d, (qtdDescritor.get(d) || 0) + 1);
+  const descritoresIndice = desc.lista.filter((d) => qtdDescritor.has(d.id)).map((d) => ({ d, nome: normalizar(d.nome), termo: normalizar(d.id) }));
+  // Tocar num descritor faz dele a busca.
+  const chipsDescritores = (ds) => ds.map((d) => `<li><button type="button" class="chip-descritor" data-descritor="${esc(d.nome)}">${esc(d.nome)} <span class="chip-n">${qtdDescritor.get(d.id)}</span></button></li>`).join("");
 
   // Gêneros de cada disco: os dos charts e os estilos do Wikidata/MusicBrainz (albunsPorGenero).
   const generosDe = new Map();
@@ -34,6 +41,7 @@ export async function render(el, [termoInicial = ""]) {
     { texto: normalizar(f.artista), peso: 3 },
     { texto: normalizar((generosDe.get(f.id) || []).map((g) => gen.porId.get(g)?.nome).join(" ")), peso: 1 },
     { texto: f.lancamento?.slice(0, 4) || "", peso: 1 },
+    { texto: normalizar((f.descritores || []).flatMap((d) => [desc.porId.get(d)?.nome, d]).join(" ")), peso: 1 },
   ];
   const indice = lista.map((f) => ({ f, campos: campos(f) }));
   // Quantos discos cada artista tem no site (o total, não só os que casam com a busca).
@@ -51,7 +59,7 @@ export async function render(el, [termoInicial = ""]) {
       </form>
       <details class="busca-dica">
         <summary aria-label="Como refinar a pesquisa" title="Como refinar a pesquisa"><span aria-hidden="true">i</span></summary>
-        <p class="busca-dica-caixa">Combine palavras com vírgula (,) para refinar sua pesquisa: <em>banda, álbum, gênero</em>.</p>
+        <p class="busca-dica-caixa">Combine palavras com vírgula (,) para refinar sua pesquisa: <em>banda, álbum, gênero, descritor</em>.</p>
       </details>
     </div>
     <p class="busca-contagem" role="status" aria-live="polite"></p>
@@ -81,9 +89,12 @@ export async function render(el, [termoInicial = ""]) {
       achados = [];
       contagem.textContent = "";
       const mestres = gen.lista.filter((g) => g.mestre);
+      const climas = descritoresIndice.filter(({ d }) => d.categoria === "clima").sort((a, b) => qtdDescritor.get(b.d.id) - qtdDescritor.get(a.d.id)).slice(0, 18);
       saida.innerHTML = `
         <h2 class="secao-titulo">Comece por um gênero</h2>
-        <ul class="chips">${mestres.map((g) => `<li><a href="#/recomendados/${g.id}">${esc(g.nome)}</a></li>`).join("")}</ul>`;
+        <ul class="chips">${mestres.map((g) => `<li><a href="#/recomendados/${g.id}">${esc(g.nome)}</a></li>`).join("")}</ul>
+        ${climas.length ? `<h2 class="secao-titulo busca-titulo-clima">Ou por um clima</h2>
+        <ul class="chips">${chipsDescritores(climas.map((x) => x.d))}</ul>` : ""}`;
       return;
     }
 
@@ -110,6 +121,10 @@ export async function render(el, [termoInicial = ""]) {
       .sort((a, b) => Number(b.nome.startsWith(frase)) - Number(a.nome.startsWith(frase)) || a.nome.localeCompare(b.nome))
       .slice(0, 16).map((x) => x.g);
 
+    // Descritores: o nome em português ou o termo em inglês começa por alguma palavra de 3+ letras.
+    const descs = descritoresIndice.filter(({ nome, termo }) => nome.includes(frase) || termo.includes(frase) || palavras.some((p) => p.length >= 3 && (casa(nome, p) === 2 || casa(termo, p) === 2)))
+      .slice(0, 12).map((x) => x.d);
+
     // Artistas: entre os discos achados, os cujo nome casa com alguma das palavras.
     const artistas = new Map();
     for (const f of achados) {
@@ -131,6 +146,9 @@ export async function render(el, [termoInicial = ""]) {
         ${gens.length ? `
           <section class="busca-secao"><h2 class="secao-titulo">Gêneros</h2>
           <ul class="chips">${gens.map((g) => `<li><a href="#/recomendados/${g.id}">${esc(g.nome)}${porGenero.get(g.id)?.length ? ` <span class="chip-n">${porGenero.get(g.id).length}</span>` : ""}</a></li>`).join("")}</ul></section>` : ""}
+        ${descs.length ? `
+          <section class="busca-secao"><h2 class="secao-titulo">Descritores</h2>
+          <ul class="chips">${chipsDescritores(descs)}</ul></section>` : ""}
         ${listaArtistas.length ? `
           <section class="busca-secao"><h2 class="secao-titulo">Artistas</h2>
           <ul class="busca-artistas">${listaArtistas.map((a) => `
@@ -157,6 +175,8 @@ export async function render(el, [termoInicial = ""]) {
     // Artista: a busca passa a ser o nome dele.
     const artista = e.target.closest("[data-artista]");
     if (artista) { campo.value = artista.dataset.artista; buscar(); campo.focus(); return; }
+    const descritor = e.target.closest("[data-descritor]");
+    if (descritor) { campo.value = descritor.dataset.descritor; buscar(); campo.focus(); return; }
     if (e.target.closest(".busca-mais")) {
       const de = mostrando;
       mostrando = Math.min(mostrando + POR_PAGINA, achados.length);

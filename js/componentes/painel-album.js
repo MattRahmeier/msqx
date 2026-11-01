@@ -1,14 +1,29 @@
 // Caixa lateral do álbum (especificacao.md, "Página do chart"): abre ao clicar na capa de um card.
 // Mostra data de lançamento, artista, duração, a faixa destaque, "Sobre este álbum" (Wikipédia),
 // as notas da crítica em estrelas, os links de streaming do álbum e o registro mestre no Discogs. A lista de faixas fica guardada na ficha, mas não aparece por
-// enquanto. Tags entram quando as fichas tiverem esse campo.
+// enquanto. Os descritores do disco (clima, som, voz, letra) aparecem como etiquetas que levam à
+// Pesquisa por aquele descritor.
 // Uso: ligarPainel(elementoComCards, porId) — porId: Map id → ficha (dados.js, albuns()).
 import { esc, botoesStreaming, capaHtml, temOndeOuvir } from "./card-album.js";
 import { creditos } from "./resumo-genero.js";
-import { citacoesEditoriais } from "../dados.js";
+import { citacoesEditoriais, descritores } from "../dados.js";
 
-// Edições de A Curadoria que citam cada disco (carregadas uma vez).
-const citados = await citacoesEditoriais();
+// Edições de A Curadoria que citam cada disco e o vocabulário de descritores (carregados uma vez).
+const [citados, desc] = await Promise.all([citacoesEditoriais(), descritores()]);
+// Ao lado do título, um "i" abre a caixa que explica de onde vêm os descritores.
+function descritoresHtml(f) {
+  const ds = (f.descritores || []).map((d) => desc.porId.get(d)).filter(Boolean);
+  if (!ds.length) return "";
+  return `
+    <div class="painel-secao-linha">
+      <h3 class="painel-secao">Descritores</h3>
+      <details class="info-dica">
+        <summary aria-label="Sobre os descritores" title="Sobre os descritores"><span aria-hidden="true">i</span></summary>
+        <p class="info-dica-caixa">Características apontadas por usuários da internet.</p>
+      </details>
+    </div>
+    <ul class="chips painel-descritores">${ds.map((d) => `<li><a href="#/busca/${encodeURIComponent(d.nome)}">${esc(d.nome)}</a></li>`).join("")}</ul>`;
+}
 
 const MESES = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
@@ -97,6 +112,7 @@ function conteudo(f) {
     <p class="painel-artista">${esc(f.artista)}</p>
     ${dados.length ? `<dl class="painel-dados">${dados.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
     ${f.destaque ? destaque(f.destaque) : ""}
+    ${descritoresHtml(f)}
     ${f.sobre ? `
       <h3 class="painel-secao">Sobre este álbum</h3>
       <p class="painel-sobre">${esc(f.sobre)}</p>

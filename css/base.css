@@ -210,6 +210,19 @@ main { --recuo: calc(var(--largura-barra) - var(--largura-trilho) + var(--esp-6)
 .chips { list-style: none; margin: 0 0 var(--esp-8); padding: 0; display: flex; flex-wrap: wrap; gap: var(--esp-2); }
 .chips a { display: inline-block; padding: var(--esp-1) var(--esp-3); border: 1px solid var(--borda); border-radius: 999px; font-size: var(--t-sm); color: var(--texto-suave); text-decoration: none; }
 .chips a:hover { color: var(--texto); border-color: var(--texto-fraco); }
+/* Descritores (Pesquisa): botões com a mesma cara dos chips de gênero */
+.chips .chip-descritor { display: inline-block; padding: var(--esp-1) var(--esp-3); border: 1px solid var(--borda); border-radius: 999px; background: none; font: inherit; font-size: var(--t-sm); color: var(--texto-suave); cursor: pointer; }
+.chips .chip-descritor:hover, .chips .chip-descritor:focus-visible { color: var(--texto); border-color: var(--texto-fraco); }
+.busca-titulo-clima { margin-top: var(--esp-2); }
+.painel-descritores { margin: 0 0 var(--esp-2); }
+/* "i" de informação ao lado de um título do painel do álbum (ex.: Descritores) */
+.painel-secao-linha { display: flex; align-items: center; gap: var(--esp-2); margin: 0 0 var(--esp-2); }
+.painel-secao-linha .painel-secao { margin: 0; }
+.info-dica { position: relative; }
+.info-dica summary { list-style: none; display: grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; border: 1.5px solid var(--popup-texto-suave); color: var(--popup-texto-suave); font: 700 0.6875rem/1 Georgia, "Times New Roman", serif; cursor: pointer; }
+.info-dica summary::-webkit-details-marker { display: none; }
+.info-dica summary:hover, .info-dica[open] summary { color: var(--popup-texto); border-color: var(--popup-texto); }
+.info-dica-caixa { position: absolute; left: 0; top: calc(100% + var(--esp-2)); z-index: 5; width: max-content; max-width: 240px; margin: 0; padding: var(--esp-2) var(--esp-3); background: var(--popup-texto); color: var(--popup); border-radius: var(--raio); box-shadow: var(--sombra-popup); font-size: var(--t-xs); line-height: 1.4; }
 
 /* Card de álbum (js/componentes/card-album.js) */
 .grade-albuns { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: var(--esp-6) var(--esp-4); }

@@ -19,6 +19,13 @@ export async function generos() {
 
 export const charts = () => carregar("data/charts/mu-essential-charts.json");
 
+// Vocabulário de descritores (data/descritores/descritores.json): id em inglês (o termo do RYM),
+// nome em português e categoria. Os discos guardam os ids em "descritores".
+export async function descritores() {
+  const lista = await carregar("data/descritores/descritores.json");
+  return { lista, porId: new Map(lista.map((d) => [d.id, d])) };
+}
+
 // Charts já transcritos (data/charts/mu/), na ordem de mu-transcritos.json.
 export async function chartsTranscritos() {
   const ids = await carregar("data/charts/mu-transcritos.json");
