@@ -217,9 +217,16 @@ main { --recuo: calc(var(--largura-barra) - var(--largura-trilho) + var(--esp-6)
 .busca-todos-descritores { margin: 0 0 var(--esp-6); padding: 0; border: 0; background: none; font: inherit; font-size: var(--t-sm); color: var(--texto-suave); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
 .busca-todos-descritores:hover, .busca-todos-descritores:focus-visible { color: var(--texto); }
 .busca-climas { margin-bottom: var(--esp-3); }
-.busca-categoria { margin: 0 0 var(--esp-3); font-size: var(--t-sm); font-weight: 600; color: var(--texto-suave); }
+/* Grupos da lista completa de descritores: ~5 mm entre um e outro; a seta abre e fecha o grupo */
+.busca-grupo + .busca-grupo { margin-top: 20px; }
+.busca-categoria { display: inline-flex; align-items: center; gap: var(--esp-2); margin: 0 0 var(--esp-3); font-size: var(--t-sm); font-weight: 600; color: var(--texto-suave); cursor: pointer; list-style: none; }
+.busca-categoria::-webkit-details-marker { display: none; }
+.busca-categoria:hover { color: var(--texto); }
+.seta-grupo { width: 16px; height: 16px; transition: transform var(--transicao); }
+.busca-grupo[open] .seta-grupo { transform: rotate(90deg); }
+.busca-grupo:not([open]) .busca-categoria { margin-bottom: 0; }
 #busca-descritores-todos { margin-top: var(--esp-8); padding-top: var(--esp-6); border-top: 1px solid var(--borda); }
-#busca-descritores-todos .chips { margin-bottom: var(--esp-5); }
+#busca-descritores-todos .chips { margin-bottom: 0; }
 .chips[hidden] { display: none; }
 .painel-descritores { margin: 0 0 var(--esp-2); }
 /* "i" de informação ao lado de um título do painel do álbum (ex.: Descritores) */

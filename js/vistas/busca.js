@@ -33,7 +33,8 @@ export async function render(el, [termoInicial = ""]) {
   const CATEGORIAS = [["clima", "Vibe"], ["som", "Som"], ["voz", "Voz"], ["letra", "Letra"], ["forma", "Forma"]];
   const todosDescritores = () => CATEGORIAS.map(([cat, titulo]) => {
     const ds = descritoresIndice.filter(({ d }) => d.categoria === cat).map((x) => x.d).sort((a, b) => a.nome.localeCompare(b.nome, "pt"));
-    return ds.length ? `<h3 class="busca-categoria">${titulo}</h3><ul class="chips">${chipsDescritores(ds)}</ul>` : "";
+    // Cada grupo abre e fecha na seta ao lado do nome (começa aberto).
+    return ds.length ? `<details class="busca-grupo" open><summary class="busca-categoria"><svg class="icone seta-grupo" aria-hidden="true" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>${titulo} <span class="chip-n">${ds.length}</span></summary><ul class="chips">${chipsDescritores(ds)}</ul></details>` : "";
   }).join("");
   const chipsDescritores = (ds) => ds.map((d) => `<li><button type="button" class="chip-descritor" data-descritor="${esc(d.nome)}">${esc(d.nome)} <span class="chip-n">${qtdDescritor.get(d.id)}</span></button></li>`).join("");
 
