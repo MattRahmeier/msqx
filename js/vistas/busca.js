@@ -2,7 +2,7 @@
 // com os resultados mudando a cada tecla. Cada palavra (ou, com vírgulas, cada parte: "banda, álbum,
 // gênero") estreita a busca e pode cair em um campo diferente: "radiohead kid", "slowdive, shoegaze".
 // #/busca/<termo> guarda o termo no endereço (sem recarregar a página a cada tecla).
-// Os descritores (clima, som, voz, letra; vocabulário no estilo dos descriptors do RYM) também
+// Os descritores (vibe, som, voz, letra; vocabulário no estilo dos descriptors do RYM) também
 // entram: em português ou no termo em inglês ("melancólico" ou "melancholic").
 import { tituloPagina } from "../componentes/titulo.js";
 import { albuns, albunsPorGenero, generos, citacoesEditoriais, descritores } from "../dados.js";
@@ -29,6 +29,12 @@ export async function render(el, [termoInicial = ""]) {
   for (const f of lista) for (const d of f.descritores || []) qtdDescritor.set(d, (qtdDescritor.get(d) || 0) + 1);
   const descritoresIndice = desc.lista.filter((d) => qtdDescritor.has(d.id)).map((d) => ({ d, nome: normalizar(d.nome), termo: normalizar(d.id) }));
   // Tocar num descritor faz dele a busca.
+  // Todos os descritores com discos, separados por categoria, cada uma em ordem alfabética.
+  const CATEGORIAS = [["clima", "Vibe"], ["som", "Som"], ["voz", "Voz"], ["letra", "Letra"], ["forma", "Forma"]];
+  const todosDescritores = () => CATEGORIAS.map(([cat, titulo]) => {
+    const ds = descritoresIndice.filter(({ d }) => d.categoria === cat).map((x) => x.d).sort((a, b) => a.nome.localeCompare(b.nome, "pt"));
+    return ds.length ? `<h3 class="busca-categoria">${titulo}</h3><ul class="chips">${chipsDescritores(ds)}</ul>` : "";
+  }).join("");
   const chipsDescritores = (ds) => ds.map((d) => `<li><button type="button" class="chip-descritor" data-descritor="${esc(d.nome)}">${esc(d.nome)} <span class="chip-n">${qtdDescritor.get(d.id)}</span></button></li>`).join("");
 
   // Gêneros de cada disco: os dos charts e os estilos do Wikidata/MusicBrainz (albunsPorGenero).
@@ -93,8 +99,10 @@ export async function render(el, [termoInicial = ""]) {
       saida.innerHTML = `
         <h2 class="secao-titulo">Comece por um gênero</h2>
         <ul class="chips">${mestres.map((g) => `<li><a href="#/recomendados/${g.id}">${esc(g.nome)}</a></li>`).join("")}</ul>
-        ${climas.length ? `<h2 class="secao-titulo busca-titulo-clima">Ou por um clima</h2>
-        <ul class="chips">${chipsDescritores(climas.map((x) => x.d))}</ul>` : ""}`;
+        ${climas.length ? `<h2 class="secao-titulo busca-titulo-clima">Ou por uma vibe</h2>
+        <ul class="chips busca-climas">${chipsDescritores(climas.map((x) => x.d))}</ul>
+        <button type="button" class="busca-todos-descritores" aria-expanded="false" aria-controls="busca-descritores-todos">Mostrar todos os descritores</button>
+        <div id="busca-descritores-todos" hidden>${todosDescritores()}</div>` : ""}`;
       return;
     }
 
@@ -175,6 +183,16 @@ export async function render(el, [termoInicial = ""]) {
     // Artista: a busca passa a ser o nome dele.
     const artista = e.target.closest("[data-artista]");
     if (artista) { campo.value = artista.dataset.artista; buscar(); campo.focus(); return; }
+    // "Mostrar todos os descritores": abre a lista completa no lugar das vibes mais comuns.
+    const todos = e.target.closest(".busca-todos-descritores");
+    if (todos) {
+      const abrir = todos.getAttribute("aria-expanded") === "false";
+      todos.setAttribute("aria-expanded", String(abrir));
+      todos.textContent = abrir ? "Mostrar só as vibes mais comuns" : "Mostrar todos os descritores";
+      saida.querySelector("#busca-descritores-todos").hidden = !abrir;
+      saida.querySelector(".busca-climas").hidden = abrir;
+      return;
+    }
     const descritor = e.target.closest("[data-descritor]");
     if (descritor) { campo.value = descritor.dataset.descritor; buscar(); campo.focus(); return; }
     if (e.target.closest(".busca-mais")) {

@@ -1,7 +1,7 @@
 // Caixa lateral do álbum (especificacao.md, "Página do chart"): abre ao clicar na capa de um card.
 // Mostra data de lançamento, artista, duração, a faixa destaque, "Sobre este álbum" (Wikipédia),
 // as notas da crítica em estrelas, os links de streaming do álbum e o registro mestre no Discogs. A lista de faixas fica guardada na ficha, mas não aparece por
-// enquanto. Os descritores do disco (clima, som, voz, letra) aparecem como etiquetas que levam à
+// enquanto. Os descritores do disco (vibe, som, voz, letra) aparecem como etiquetas que levam à
 // Pesquisa por aquele descritor.
 // Uso: ligarPainel(elementoComCards, porId) — porId: Map id → ficha (dados.js, albuns()).
 import { esc, botoesStreaming, capaHtml, temOndeOuvir } from "./card-album.js";

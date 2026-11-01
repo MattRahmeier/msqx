@@ -214,6 +214,12 @@ main { --recuo: calc(var(--largura-barra) - var(--largura-trilho) + var(--esp-6)
 .chips .chip-descritor { display: inline-block; padding: var(--esp-1) var(--esp-3); border: 1px solid var(--borda); border-radius: 999px; background: none; font: inherit; font-size: var(--t-sm); color: var(--texto-suave); cursor: pointer; }
 .chips .chip-descritor:hover, .chips .chip-descritor:focus-visible { color: var(--texto); border-color: var(--texto-fraco); }
 .busca-titulo-clima { margin-top: var(--esp-2); }
+.busca-todos-descritores { margin: 0 0 var(--esp-6); padding: 0; border: 0; background: none; font: inherit; font-size: var(--t-sm); color: var(--texto-suave); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.busca-todos-descritores:hover, .busca-todos-descritores:focus-visible { color: var(--texto); }
+.busca-climas { margin-bottom: var(--esp-3); }
+.busca-categoria { margin: 0 0 var(--esp-2); font-size: var(--t-sm); font-weight: 600; color: var(--texto-suave); }
+#busca-descritores-todos .chips { margin-bottom: var(--esp-5); }
+.chips[hidden] { display: none; }
 .painel-descritores { margin: 0 0 var(--esp-2); }
 /* "i" de informação ao lado de um título do painel do álbum (ex.: Descritores) */
 .painel-secao-linha { display: flex; align-items: center; gap: var(--esp-2); margin: 0 0 var(--esp-2); }

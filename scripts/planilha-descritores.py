@@ -91,7 +91,7 @@ for c, (titulo, largura) in enumerate((("Descritor (português)", 26), ("Termo (
     cel.font, cel.fill = f_cabeca, fundo_cabeca
     voc.column_dimensions[cel.column_letter].width = largura
 for i, d in enumerate(sorted(vocab, key=lambda d: (d["categoria"], d["nome"])), 2):
-    for c, v in enumerate((d["nome"], d["id"].replace("-", " "), d["categoria"]), 1):
+    for c, v in enumerate((d["nome"], d["id"].replace("-", " "), "vibe" if d["categoria"] == "clima" else d["categoria"]), 1):
         voc.cell(row=i, column=c, value=v).font = f_normal
 voc.freeze_panes = "A2"
 

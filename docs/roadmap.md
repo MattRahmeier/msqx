@@ -75,7 +75,7 @@
 
 ## Fase 6 — Ache o Seu Som!
 - [x] Índice de busca no cliente: álbum, artista, gênero e ano, com resultados a cada tecla (`js/vistas/busca.js`).
-- [x] Descritores como mais um campo da busca (01/11/2026): vocabulário no estilo dos descriptors do RYM (`data/descritores/`), preenchido pelas tags do MusicBrainz e do Last.fm (`scripts/buscar-descritores.js`); chips "Ou por um clima" na pesquisa vazia e etiquetas no painel do álbum.
+- [x] Descritores como mais um campo da busca (01/11/2026): vocabulário no estilo dos descriptors do RYM (`data/descritores/`), preenchido pelas tags do MusicBrainz e do Last.fm (`scripts/buscar-descritores.js`); chips "Ou por uma vibe" na pesquisa vazia e etiquetas no painel do álbum.
 - [ ] Copiar "Artista – Álbum", seleção múltipla, exportar .txt / clipboard.
 
 ## Fase 7 — Mobile e polimento
