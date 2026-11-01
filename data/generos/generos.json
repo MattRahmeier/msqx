@@ -4910,6 +4910,11 @@
         "genero": "eletronica"
       },
       {
+        "de": 152,
+        "ate": 167,
+        "genero": "trilha-sonora"
+      },
+      {
         "de": 200,
         "ate": 209,
         "genero": "cool-jazz"
@@ -7289,5 +7294,137 @@
       "Música clássica indiana",
       "música hindustani"
     ]
+  },
+  {
+    "id": "trilha-sonora",
+    "nome": "Trilha Sonora",
+    "pai": null,
+    "mestre": true,
+    "origens": [],
+    "resumo": "Uma banda sonora (português europeu) ou trilha sonora (português brasileiro) é, tecnicamente falando, \"todo o conjunto sonoro de um filme, incluindo além da música, os efeitos sonoros e os diálogos.\" Isso também inclui peças de um programa de televisão ou de jogos eletrônicos.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Banda_sonora",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Banda sonora",
+    "somArtigo": false,
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Banda_sonora"
+    ],
+    "similares": [],
+    "nomesAlternativos": [
+      "trilhas sonoras",
+      "soundtrack",
+      "banda sonora"
+    ]
+  },
+  {
+    "id": "trilha-filmes",
+    "nome": "Filmes",
+    "pai": "trilha-sonora",
+    "mestre": false,
+    "decada": 1930,
+    "origens": [
+      "musica-classica"
+    ],
+    "resumo": "Uma trilha de filme (film score) é uma música original escrita especificamente para acompanhar um filme ou um programa de televisão.",
+    "resumoFonte": {
+      "url": "https://en.wikipedia.org/wiki/Film_score",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "resumoArtigo": "en:Film score",
+    "somArtigo": false,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Film_score"
+    ],
+    "similares": [],
+    "nomesAlternativos": [
+      "trilha de filme",
+      "film score",
+      "música de cinema"
+    ],
+    "ligarPeloNome": false
+  },
+  {
+    "id": "trilha-series",
+    "nome": "Séries e TV",
+    "pai": "trilha-sonora",
+    "mestre": false,
+    "decada": 1950,
+    "origens": [],
+    "resumo": "",
+    "resumoPendente": "sem artigo próprio na Wikipédia",
+    "resumoArtigo": false,
+    "somArtigo": false,
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Soundtrack"
+    ],
+    "similares": [
+      "trilha-filmes"
+    ],
+    "ligarPeloNome": false
+  },
+  {
+    "id": "trilha-anime",
+    "nome": "Anime",
+    "pai": "trilha-sonora",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [],
+    "resumo": "A música no anime é geralmente associada a indústria da música japonesa, mas ela por si só é uma importante indústria e um gênero, que muitas vezes é referido como música de anime (em japonês: アニソン; romaniz.: anison), uma aglutinação de \"animation\" (\"animação\") e \"song\" (\"canção\"), ou \"canção de anime\").",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_de_anime",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Música de anime",
+    "somArtigo": false,
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/M%C3%BAsica_de_anime"
+    ],
+    "similares": [
+      "j-pop"
+    ],
+    "nomesAlternativos": [
+      "música de anime",
+      "anison"
+    ],
+    "ligarPeloNome": false
+  },
+  {
+    "id": "trilha-games",
+    "nome": "Games",
+    "pai": "trilha-sonora",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [],
+    "resumo": "A música de jogos eletrônicos (também conhecida como pelo seu termo correspondente em inglês, video game music, ou VGmusic) consiste na música original criada para servir de trilha sonora para videogames, bem como qualquer outra peça musical relativa a essa mídia, e pode ser considerado um estilo musical por si próprio, dada a natureza de seus primeiros exemplos, que usavam recursos ainda inéditos gerados por computadores, que mais tarde viriam a constituir um outro estilo musical, chamado chiptune.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_de_jogos_eletr%C3%B4nicos",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 174,
+        "ate": 187,
+        "genero": "trilha-sonora"
+      }
+    ],
+    "resumoArtigo": "pt:Música de jogos eletrônicos",
+    "somArtigo": false,
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/M%C3%BAsica_de_jogos_eletr%C3%B4nicos"
+    ],
+    "similares": [],
+    "nomesAlternativos": [
+      "música de jogos eletrônicos",
+      "video game music",
+      "trilha de games"
+    ],
+    "ligarPeloNome": false
   }
 ]

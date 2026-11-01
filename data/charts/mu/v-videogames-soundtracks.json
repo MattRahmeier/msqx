@@ -1,0 +1,84 @@
+{
+  "id": "v-videogames-soundtracks",
+  "titulo": "/v/ videogames soundtracks",
+  "indice": "v-videogames-soundtracks",
+  "generos": [
+    "trilha-games"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/v-videogames-soundtracks.jpg",
+  "transcricao": {
+    "data": "2026-11-01",
+    "metodo": "seleção de 11 dos 36 jogos do chart (o chart dá o nome do jogo; o disco é a trilha oficial); \"pos\" é a posição na grade",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "A2",
+      "artista": "Yasunori Mitsuda",
+      "titulo": "Chrono Trigger Original Sound Version",
+      "album": "yasunori-mitsuda-chrono-trigger-original-sound-version"
+    },
+    {
+      "pos": "A3",
+      "artista": "Alexander Brandon",
+      "titulo": "Deus Ex",
+      "album": "alexander-brandon-deus-ex"
+    },
+    {
+      "pos": "B1",
+      "artista": "Eric Brosius",
+      "titulo": "System Shock 2",
+      "album": "eric-brosius-system-shock-2"
+    },
+    {
+      "pos": "C1",
+      "artista": "Various Artists",
+      "titulo": "Hotline Miami",
+      "album": "various-artists-hotline-miami"
+    },
+    {
+      "pos": "F1",
+      "artista": "Michiru Oshima",
+      "titulo": "ICO: Melody in the Mist",
+      "album": "michiru-oshima-ico-melody-in-the-mist"
+    },
+    {
+      "pos": "F3",
+      "artista": "Darren Korb",
+      "titulo": "Bastion Original Soundtrack",
+      "album": "darren-korb-bastion-original-soundtrack"
+    },
+    {
+      "pos": "G4",
+      "artista": "Peter McConnell",
+      "titulo": "Grim Fandango",
+      "album": "peter-mcconnell-grim-fandango"
+    },
+    {
+      "pos": "H1",
+      "artista": "Keiichi Okabe",
+      "titulo": "NieR Gestalt & Replicant Original Soundtrack",
+      "album": "keiichi-okabe-nier-gestalt-and-replicant-original-soundtrack"
+    },
+    {
+      "pos": "I1",
+      "artista": "Hideki Naganuma",
+      "titulo": "Jet Set Radio Future Original Sound Tracks",
+      "album": "hideki-naganuma-jet-set-radio-future-original-sound-tracks"
+    },
+    {
+      "pos": "I3",
+      "artista": "Akira Yamaoka",
+      "titulo": "Silent Hill 2 Original Soundtracks",
+      "album": "akira-yamaoka-silent-hill-2-original-soundtracks"
+    },
+    {
+      "pos": "I4",
+      "artista": "Nobuo Uematsu",
+      "titulo": "Final Fantasy VII Original Soundtrack",
+      "album": "nobuo-uematsu-final-fantasy-vii-original-soundtrack"
+    }
+  ]
+}

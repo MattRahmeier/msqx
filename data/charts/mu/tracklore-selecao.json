@@ -17,12 +17,15 @@
     "musica-arabe",
     "musica-dos-povos-originarios",
     "depressive-suicidal-black-metal",
-    "tech-house"
+    "tech-house",
+    "trilha-sonora",
+    "trilha-filmes",
+    "trilha-series"
   ],
   "fonte": "Tracklore",
   "transcricao": {
     "data": "2026-10-29",
-    "metodo": "curadoria do Tracklore para gêneros sem chart do /mu/: discos de artistas citados no artigo da Wikipédia sobre o gênero (o artigo de cada disco está em \"fonte\"); DSBM: os discos do editorial #2 de A Curadoria (Henrique Cruz)",
+    "metodo": "curadoria do Tracklore para gêneros sem chart do /mu/: discos de artistas citados no artigo da Wikipédia sobre o gênero (o artigo de cada disco está em \"fonte\"); DSBM: os discos do editorial #2 de A Curadoria (Henrique Cruz); Trilha Sonora: discos do acervo marcados como trilha (Soundtrack) no MusicBrainz e duas trilhas de séries com artigo na Wikipédia",
     "status": "revisar"
   },
   "albuns": [
@@ -846,6 +849,86 @@
       "titulo": "Be Sharp Say Nowt",
       "fonte": "https://en.wikipedia.org/wiki/Tech_house",
       "album": "patrick-topping-be-sharp-say-nowt"
+    },
+    {
+      "pos": "trilha-1",
+      "generos": [
+        "trilha-series"
+      ],
+      "artista": "Angelo Badalamenti",
+      "titulo": "Soundtrack from Twin Peaks",
+      "fonte": "https://en.wikipedia.org/wiki/Soundtrack_from_Twin_Peaks",
+      "album": "angelo-badalamenti-soundtrack-from-twin-peaks"
+    },
+    {
+      "pos": "trilha-2",
+      "generos": [
+        "trilha-series"
+      ],
+      "artista": "Kyle Dixon & Michael Stein",
+      "titulo": "Stranger Things, Volume One",
+      "fonte": "https://en.wikipedia.org/wiki/Stranger_Things_(soundtrack)",
+      "album": "kyle-dixon-and-michael-stein-stranger-things-volume-one"
+    },
+    {
+      "pos": "trilha-3",
+      "generos": [
+        "trilha-series"
+      ],
+      "artista": "The Beatles",
+      "titulo": "Magical Mystery Tour",
+      "fonte": "https://en.wikipedia.org/wiki/Magical_Mystery_Tour_(film)",
+      "album": "the-beatles-magical-mystery-tour"
+    },
+    {
+      "pos": "trilha-4",
+      "generos": [
+        "trilha-filmes"
+      ],
+      "artista": "Art Ensemble of Chicago",
+      "titulo": "Les Stances à Sophie",
+      "fonte": "https://en.wikipedia.org/wiki/Les_Stances_%C3%A0_Sophie",
+      "album": "art-ensemble-of-chicago-les-stances-a-sophie"
+    },
+    {
+      "pos": "trilha-5",
+      "generos": [
+        "trilha-filmes"
+      ],
+      "artista": "Eurythmics",
+      "titulo": "1984 (For the Love of Big Brother)",
+      "fonte": "https://en.wikipedia.org/wiki/1984_(For_the_Love_of_Big_Brother)",
+      "album": "eurythmics-1984-for-the-love-of-big-brother"
+    },
+    {
+      "pos": "trilha-6",
+      "generos": [
+        "trilha-filmes"
+      ],
+      "artista": "George Harrison",
+      "titulo": "Wonderwall Music",
+      "fonte": "https://en.wikipedia.org/wiki/Wonderwall_Music",
+      "album": "george-harrison-wonderwall-music"
+    },
+    {
+      "pos": "trilha-7",
+      "generos": [
+        "trilha-sonora"
+      ],
+      "artista": "Fairuz",
+      "titulo": "Jisr el Qamar",
+      "fonte": "https://musicbrainz.org/release-group/6d41fd8a-27ea-44a8-ac6d-54de04a4961b",
+      "album": "fairuz-jisr-el-qamar"
+    },
+    {
+      "pos": "trilha-8",
+      "generos": [
+        "trilha-sonora"
+      ],
+      "artista": "Kiyotaka Sugiyama",
+      "titulo": "Beyond",
+      "fonte": "https://musicbrainz.org/release-group/b0f0043f-326c-3336-8a00-0e75aa5bb04e",
+      "album": "kiyotaka-sugiyama-beyond"
     }
   ]
 }

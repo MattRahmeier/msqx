@@ -23,12 +23,12 @@ function emCadeia(irmaos, indice) {
 
 // Mestres em ordem de linhagem: Música Clássica; Blues → Jazz; Blues → Rock → Metal; Pop; Eletrônica → Hip Hop; World Music.
 // Mestres novos que não estiverem aqui vão para o fim.
-const ORDEM_MESTRES = ["musica-classica", "blues", "jazz", "rock", "metal", "pop", "eletronica", "hip-hop", "world-music"];
+const ORDEM_MESTRES = ["musica-classica", "blues", "jazz", "rock", "metal", "pop", "eletronica", "hip-hop", "world-music", "trilha-sonora"];
 const posMestre = (g) => (ORDEM_MESTRES.includes(g.id) ? ORDEM_MESTRES.indexOf(g.id) : ORDEM_MESTRES.length);
 
 // Guia de Gêneros: Música Clássica e World Music primeiro; o resto pela década de origem (empate na
 // ordem de linhagem acima).
-const PRIMEIROS_NO_GUIA = ["musica-classica", "world-music"];
+const PRIMEIROS_NO_GUIA = ["musica-classica", "world-music", "trilha-sonora"];
 const porOrigem = (a, b) => {
   const pa = PRIMEIROS_NO_GUIA.indexOf(a.id), pb = PRIMEIROS_NO_GUIA.indexOf(b.id);
   if (pa >= 0 || pb >= 0) return (pa < 0 ? 99 : pa) - (pb < 0 ? 99 : pb);

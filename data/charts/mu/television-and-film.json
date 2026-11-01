@@ -1,0 +1,36 @@
+{
+  "id": "television-and-film",
+  "titulo": "/mu/ Television & Film",
+  "indice": "television-and-film",
+  "generos": [
+    "trilha-filmes"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/television-and-film.jpg",
+  "transcricao": {
+    "data": "2026-11-01",
+    "metodo": "o chart lista filmes sobre música, não discos; ficam só os 3 filmes com trilha lançada em disco bem conhecida",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "Saturday Night Fever (1977)",
+      "artista": "Bee Gees",
+      "titulo": "Saturday Night Fever",
+      "album": "bee-gees-saturday-night-fever"
+    },
+    {
+      "pos": "Dancer in the Dark (2003)",
+      "artista": "Björk",
+      "titulo": "Selmasongs",
+      "album": "bjork-selmasongs"
+    },
+    {
+      "pos": "Easy Rider (1969)",
+      "artista": "Various Artists",
+      "titulo": "Easy Rider",
+      "album": "various-artists-easy-rider"
+    }
+  ]
+}

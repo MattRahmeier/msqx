@@ -1,0 +1,138 @@
+{
+  "id": "film-scores",
+  "titulo": "/mu/'s Essential Film Scores",
+  "indice": "film-scores",
+  "generos": [
+    "trilha-filmes"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/film-scores.jpg",
+  "transcricao": {
+    "data": "2026-11-01",
+    "metodo": "seleção de 19 dos 30 discos do chart (lista ao lado das capas); \"pos\" é a posição na grade; Akira vai para Anime e A Charlie Brown Christmas (especial de TV) para Séries e TV",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Wendy Carlos",
+      "titulo": "A Clockwork Orange",
+      "album": "wendy-carlos-a-clockwork-orange"
+    },
+    {
+      "pos": "A2",
+      "artista": "Vangelis",
+      "titulo": "Blade Runner",
+      "album": "vangelis-blade-runner"
+    },
+    {
+      "pos": "A3",
+      "artista": "Jonny Greenwood",
+      "titulo": "There Will Be Blood",
+      "album": "jonny-greenwood-there-will-be-blood"
+    },
+    {
+      "pos": "A4",
+      "artista": "Lalo Schifrin",
+      "titulo": "Enter the Dragon",
+      "album": "lalo-schifrin-enter-the-dragon"
+    },
+    {
+      "pos": "A5",
+      "artista": "Vince Guaraldi Trio",
+      "titulo": "A Charlie Brown Christmas",
+      "generos": [
+        "trilha-series"
+      ],
+      "album": "vince-guaraldi-trio-a-charlie-brown-christmas"
+    },
+    {
+      "pos": "B1",
+      "artista": "Ennio Morricone",
+      "titulo": "Il buono, il brutto, il cattivo",
+      "album": "ennio-morricone-il-buono-il-brutto-il-cattivo"
+    },
+    {
+      "pos": "B3",
+      "artista": "Alain Goraguer",
+      "titulo": "La Planète sauvage",
+      "album": "alain-goraguer-la-planete-sauvage"
+    },
+    {
+      "pos": "B5",
+      "artista": "Yann Tiersen",
+      "titulo": "Le Fabuleux Destin d'Amélie Poulain",
+      "album": "yann-tiersen-le-fabuleux-destin-damelie-poulain"
+    },
+    {
+      "pos": "C2",
+      "artista": "Jon Brion",
+      "titulo": "Eternal Sunshine of the Spotless Mind",
+      "album": "jon-brion-eternal-sunshine-of-the-spotless-mind"
+    },
+    {
+      "pos": "D1",
+      "artista": "Curtis Mayfield",
+      "titulo": "Super Fly",
+      "album": "curtis-mayfield-super-fly"
+    },
+    {
+      "pos": "D2",
+      "artista": "Prince and The Revolution",
+      "titulo": "Purple Rain",
+      "album": "prince-and-the-revolution-purple-rain"
+    },
+    {
+      "pos": "D3",
+      "artista": "Bernard Herrmann",
+      "titulo": "Vertigo",
+      "album": "bernard-herrmann-vertigo"
+    },
+    {
+      "pos": "E1",
+      "artista": "Geinoh Yamashirogumi",
+      "titulo": "Symphonic Suite AKIRA",
+      "generos": [
+        "trilha-anime"
+      ],
+      "album": "geinoh-yamashirogumi-symphonic-suite-akira"
+    },
+    {
+      "pos": "E5",
+      "artista": "Philip Glass",
+      "titulo": "Koyaanisqatsi",
+      "album": "philip-glass-koyaanisqatsi"
+    },
+    {
+      "pos": "F1",
+      "artista": "Nino Rota",
+      "titulo": "The Godfather",
+      "album": "nino-rota-the-godfather"
+    },
+    {
+      "pos": "F2",
+      "artista": "Ryuichi Sakamoto",
+      "titulo": "Merry Christmas Mr. Lawrence",
+      "album": "ryuichi-sakamoto-merry-christmas-mr-lawrence"
+    },
+    {
+      "pos": "F3",
+      "artista": "John Williams",
+      "titulo": "The Empire Strikes Back",
+      "album": "john-williams-the-empire-strikes-back"
+    },
+    {
+      "pos": "F4",
+      "artista": "Trent Reznor and Atticus Ross",
+      "titulo": "The Social Network",
+      "album": "trent-reznor-and-atticus-ross-the-social-network"
+    },
+    {
+      "pos": "F5",
+      "artista": "Goblin",
+      "titulo": "Tenebre",
+      "album": "goblin-tenebre"
+    }
+  ]
+}

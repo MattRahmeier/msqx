@@ -1,0 +1,72 @@
+{
+  "id": "memorable-music-from-anime",
+  "titulo": "Memorable Music From Anime",
+  "indice": "memorable-music-from-anime",
+  "generos": [
+    "trilha-anime"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/memorable-music-from-anime.jpg",
+  "transcricao": {
+    "data": "2026-11-01",
+    "metodo": "seleção de 9 dos 60 animes do chart (o chart só dá o nome do anime; o disco é a trilha mais conhecida de cada um); \"pos\" é o nome no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "Cowboy Bebop",
+      "artista": "Seatbelts",
+      "titulo": "Cowboy Bebop",
+      "album": "seatbelts-cowboy-bebop"
+    },
+    {
+      "pos": "Neon Genesis Evangelion",
+      "artista": "Shiro Sagisu",
+      "titulo": "Neon Genesis Evangelion",
+      "album": "shiro-sagisu-neon-genesis-evangelion"
+    },
+    {
+      "pos": "Ghost in the Shell",
+      "artista": "Yoko Kanno",
+      "titulo": "Ghost in the Shell: Stand Alone Complex O.S.T.",
+      "album": "yoko-kanno-ghost-in-the-shell-stand-alone-complex-ost"
+    },
+    {
+      "pos": "Samurai Champloo",
+      "artista": "Nujabes",
+      "titulo": "Samurai Champloo Music Record: Impression",
+      "album": "nujabes-samurai-champloo-music-record-impression"
+    },
+    {
+      "pos": "FLCL",
+      "artista": "The Pillows",
+      "titulo": "FLCL No.1: Addict",
+      "album": "the-pillows-flcl-no1-addict"
+    },
+    {
+      "pos": "Paprika",
+      "artista": "Susumu Hirasawa",
+      "titulo": "Paprika",
+      "album": "susumu-hirasawa-paprika"
+    },
+    {
+      "pos": "Macross Plus",
+      "artista": "Yoko Kanno",
+      "titulo": "Macross Plus Original Soundtrack",
+      "album": "yoko-kanno-macross-plus-original-soundtrack"
+    },
+    {
+      "pos": "Death Note",
+      "artista": "Yoshihisa Hirano",
+      "titulo": "Death Note Original Soundtrack",
+      "album": "yoshihisa-hirano-death-note-original-soundtrack"
+    },
+    {
+      "pos": "Lupin III",
+      "artista": "Yuji Ohno Trio",
+      "titulo": "Lupin the Third \"Jazz\"",
+      "album": "yuji-ohno-trio-lupin-the-third-jazz"
+    }
+  ]
+}
