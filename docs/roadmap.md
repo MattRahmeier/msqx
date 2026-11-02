@@ -81,3 +81,20 @@
 ## Fase 7 — Mobile e polimento
 - [ ] Swipe esquerda/direita, layout empilhado.
 - [ ] Performance do grafo, acessibilidade, publicação.
+
+## Fase 8 — Contas, coleção e reviews (planejada em 02/11/2026)
+O site é estático (sem servidor); guardar o que o visitante faz exige um backend. Proposta: **Supabase** (login + banco Postgres, usado direto do navegador; regras de segurança no banco garantem que cada pessoa só mexe nos próprios dados; plano grátis basta para começar).
+
+Decisões em aberto (do usuário):
+- [ ] **Onde o site fica público:** GitHub Pages (exige repositório público), Netlify ou Vercel (aceitam repositório privado). O login precisa do endereço final. O Artifact do claude.ai é privado e não serve para contas públicas.
+- [ ] **Backend:** confirmar o Supabase (alternativa: Firebase). O usuário cria a conta e o projeto; o Claude não cria contas.
+- [ ] **Formas de entrar:** e-mail (link mágico ou senha), Google, Discord.
+- [ ] **Termos de uso e política de privacidade:** o site passa a guardar e-mail (dado pessoal, LGPD); a política diz o que é guardado e como apagar a conta; canal de remoção de conteúdo (Marco Civil); de quem são os direitos do texto dos reviews.
+
+Etapas (nesta ordem):
+1. [ ] Publicar o site no endereço escolhido e criar o projeto no Supabase.
+2. [ ] Login e perfil (`perfis`: nome, foto).
+3. [ ] Coleção dentro do Tracklore (`colecao`: usuário, id do disco, status "tenho" / "ouvi" / "quero ouvir"): botões no card e no painel do álbum, página "Minha coleção".
+4. [ ] Reviews (`reviews`: usuário, id do disco, nota, texto, data): seção "Reviews de usuários" no painel, separada da Wikipédia e da crítica; média das notas dos usuários ao lado das notas da crítica.
+5. [ ] Moderação: botão "denunciar", esconder review, limite de reviews por pessoa por dia, painel simples para o dono do site.
+6. [ ] Importar coleção de outros serviços: Discogs e Last.fm pelo nome de usuário (coleção pública, sem login neles); Spotify (álbuns salvos) só com autorização da pessoa no Spotify e limite de 25 usuários até o app ser aprovado. O que vier é cruzado com o acervo do site.
