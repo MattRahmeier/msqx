@@ -101747,10 +101747,10 @@
     },
     "destaqueVerificado": "2026-10-30",
     "sobreVerificado": "2026-10-30",
-    "sobre": "Depressivos Hinos Suicidas é um álbum de Funesto, lançado pela funesto, com 13 faixas.",
+    "sobre": "Depressivos Hinos Suicidas é um álbum de Funesto, lançado em 2015 pela funesto, com 13 faixas.",
     "sobreFonte": {
       "tipo": "dados",
-      "url": null
+      "url": "https://musicbrainz.org/release-group/48173bcb-7814-45a4-8f9c-4079304380c2"
     },
     "descritoresFonte": [
       "lastfm",
@@ -101758,7 +101758,11 @@
     ],
     "descritores": [
       "depressive"
-    ]
+    ],
+    "lancamento": "2015-01-06",
+    "musicbrainz": {
+      "releaseGroup": "48173bcb-7814-45a4-8f9c-4079304380c2"
+    }
   },
   {
     "id": "fuse-fuse",

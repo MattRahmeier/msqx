@@ -108,7 +108,7 @@ function playlistHtml(edicao, porId) {
           return `${abreGrupo(edicao.faixas, i) ? `<li class="playlist-grupo">${LOURO}${esc(t.grupo)}</li>` : ""}<li><button type="button" data-salto="${i + 1}" aria-label="Ir para ${esc(tituloDe(t))}, de ${esc(t.artista)}">
             <span class="playlist-n">${numeroDe(t, i) || LOURO}</span>
             <span class="playlist-titulo">${f?.capa ? capaHtml(f, { aviso: false }) : `<span class="playlist-sem-capa"></span>`}<span><strong>${esc(tituloDe(t))}</strong><span>${esc(t.artista)}</span></span></span>
-            <span class="playlist-album">${t.faixa ? esc(t.albumTitulo) : esc(f?.lancamento?.slice(0, 4) || "")}</span>
+            <span class="playlist-album">${edicao.formato === "albuns" ? esc(f?.lancamento?.slice(0, 4) || "") : esc(t.albumTitulo)}</span>
             <span class="playlist-duracao">${esc(duracaoDe(t, f) || "")}</span>
           </button></li>`;
         }).join("")}
