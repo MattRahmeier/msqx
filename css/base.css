@@ -759,3 +759,27 @@ body.com-painel { overflow: hidden; }
 .busca-dica summary::-webkit-details-marker { display: none; }
 .busca-dica summary:hover, .busca-dica[open] summary { color: var(--texto); border-color: var(--texto); }
 .busca-dica-caixa { position: absolute; right: 0; top: calc(100% + var(--esp-2)); z-index: 20; width: min(280px, calc(100vw - 32px)); margin: 0; padding: var(--esp-3) var(--esp-4); background: var(--popup); color: var(--popup-texto); border-radius: var(--raio); box-shadow: var(--sombra-popup); font-size: var(--t-sm); line-height: 1.45; }
+
+/* Roleta de Gêneros */
+.botao-roleta { display: inline-flex; align-items: center; gap: var(--esp-2); margin-bottom: var(--esp-6); padding: var(--esp-2) var(--esp-4); border: 1px solid var(--borda); border-radius: 999px; background: var(--superficie); color: var(--texto); font-size: var(--t-sm); text-decoration: none; transition: background var(--transicao); }
+.botao-roleta:hover, .botao-roleta:focus-visible { background: var(--superficie-2); }
+.botao-roleta .icone { width: 18px; height: 18px; }
+.roleta { display: flex; flex-direction: column; align-items: center; gap: var(--esp-6); padding-bottom: var(--esp-8); }
+.roleta-caixa { position: relative; width: min(100%, 460px); aspect-ratio: 1; }
+.roleta-roda { display: block; width: 100%; height: 100%; will-change: transform; }
+.roleta-fatia { stroke: var(--fundo); stroke-width: 0.5; }
+.roleta-fatia.tom-0 { fill: var(--cinza-1); }
+.roleta-fatia.tom-1 { fill: var(--cinza-3); }
+.roleta-mestre { font-family: var(--fonte); font-size: 11px; font-weight: 600; pointer-events: none; }
+.roleta-mestre.tom-0 { fill: var(--texto); }
+.roleta-mestre.tom-1 { fill: var(--cinza-0); }
+.roleta-seta { position: absolute; z-index: 1; top: -2px; left: 50%; width: 0; height: 0; transform: translateX(-50%); border-left: 11px solid transparent; border-right: 11px solid transparent; border-top: 20px solid var(--popup); filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.6)); }
+.roleta-girar { position: absolute; top: 50%; left: 50%; width: 25%; aspect-ratio: 1; padding: var(--esp-1); transform: translate(-50%, -50%); border: 3px solid var(--fundo); border-radius: 50%; background: var(--popup); color: var(--popup-texto); font: 600 var(--t-md) var(--fonte); line-height: 1.15; cursor: pointer; transition: opacity var(--transicao); }
+.roleta-girar.de-novo { font-size: var(--t-sm); }
+.roleta-girar:disabled { opacity: 0.55; cursor: default; }
+.roleta-resultado { display: flex; flex-direction: column; align-items: center; gap: var(--esp-2); width: 100%; max-width: 460px; min-height: 124px; text-align: center; }
+.roleta-nome { margin: 0; font-size: var(--t-xl); font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; }
+.roleta-legenda { margin: 0; color: var(--texto-suave); font-size: var(--t-sm); }
+.roleta-ir { margin-top: var(--esp-2); padding: var(--esp-3) var(--esp-6); border-radius: 999px; background: var(--popup); color: var(--popup-texto); font-weight: 600; text-decoration: none; }
+.roleta-ir[hidden] { display: none; }
+.roleta-ir:hover, .roleta-ir:focus-visible { background: var(--destaque); }

@@ -8,6 +8,7 @@ const ROTAS = {
   curadoria: () => import("./vistas/curadoria.js"),
   recomendados: () => import("./vistas/recomendados.js"),
   busca: () => import("./vistas/busca.js"),
+  roleta: () => import("./vistas/roleta.js"),
 };
 const PADRAO = "inicio";
 
