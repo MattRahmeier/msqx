@@ -49,36 +49,11 @@ document.addEventListener("click", (e) => { if (e.target.closest("[data-rota], .
 
 // Regra do site: todo link para fora (streaming, YouTube, Discogs, Wikipédia…) abre em outra aba,
 // mesmo que o HTML que o criou tenha esquecido o target.
-// No Android, os links dos serviços de streaming e do YouTube abrem direto no app instalado (link
-// "intent:" com o pacote do app), sem abrir uma aba do navegador; sem o app, o Android segue para o
-// endereço normal (browser_fallback_url). Só vale com o site na janela principal de um navegador:
-// dentro de um iframe (a cópia publicada como Artifact) ou de um WebView (navegador interno de outro
-// app), o "intent:" não abre nada e cai numa página de erro; ali o link segue normal, em outra aba, e
-// o Android ainda pode levá-lo ao app. No iPhone, o próprio sistema leva ao app quando o serviço tem o
-// app instalado (Universal Links), então o link fica como está.
-const APPS_ANDROID = {
-  "music.youtube.com": "com.google.android.apps.youtube.music",
-  "www.youtube.com": "com.google.android.youtube", "youtube.com": "com.google.android.youtube", "m.youtube.com": "com.google.android.youtube", "youtu.be": "com.google.android.youtube",
-  "open.spotify.com": "com.spotify.music",
-  "www.deezer.com": "deezer.android.app", "deezer.com": "deezer.android.app",
-  "music.apple.com": "com.apple.android.music",
-  "tidal.com": "com.aspiro.tidal", "listen.tidal.com": "com.aspiro.tidal",
-  "open.qobuz.com": "com.qobuz.music", "play.qobuz.com": "com.qobuz.music",
-};
-const android = /Android/i.test(navigator.userAgent) && !/;\s*wv\)/.test(navigator.userAgent) && window.top === window;
-const linkDoApp = (a) => `intent://${a.host}${a.pathname}${a.search}#Intent;scheme=https;package=${APPS_ANDROID[a.hostname]};S.browser_fallback_url=${encodeURIComponent(a.href)};end`;
-
+// Links "intent:" para abrir o app no Android foram testados e removidos: navegadores como o Brave
+// mostram uma página de erro (ERR_UNKNOWN_URL_SCHEME). O sistema ainda pode levar o link normal ao app.
 document.addEventListener("click", (e) => {
   const a = e.target.closest("a[href]");
   if (!a || !/^https?:$/.test(a.protocol) || a.origin === location.origin) return;
-  if (android && APPS_ANDROID[a.hostname]) {
-    // O endereço da web fica guardado; o toque segue para o app, na mesma aba (sem aba nova vazia).
-    a.dataset.web = a.href;
-    a.href = linkDoApp(a);
-    a.removeAttribute("target");
-    setTimeout(() => { a.href = a.dataset.web; });
-    return;
-  }
   a.target = "_blank";
   a.rel = "noopener";
 }, true);
