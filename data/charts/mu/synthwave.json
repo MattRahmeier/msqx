@@ -1,0 +1,78 @@
+{
+  "id": "synthwave",
+  "titulo": "Synthwave Essentials",
+  "indice": "synthwave",
+  "generos": [
+    "synthwave"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/synthwave.jpg",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "C1",
+      "artista": "Kavinsky",
+      "titulo": "OutRun",
+      "album": "kavinsky-outrun"
+    },
+    {
+      "pos": "B3",
+      "artista": "Lazerhawk",
+      "titulo": "Redline",
+      "album": "lazerhawk-redline"
+    },
+    {
+      "pos": "E1",
+      "artista": "Perturbator",
+      "titulo": "Dangerous Days",
+      "album": "perturbator-dangerous-days"
+    },
+    {
+      "pos": "E2",
+      "artista": "Carpenter Brut",
+      "titulo": "Trilogy",
+      "album": "carpenter-brut-trilogy"
+    },
+    {
+      "pos": "A9",
+      "artista": "GUNSHIP",
+      "titulo": "GUNSHIP",
+      "album": "gunship-gunship"
+    },
+    {
+      "pos": "A10",
+      "artista": "The Midnight",
+      "titulo": "Endless Summer",
+      "album": "the-midnight-endless-summer"
+    },
+    {
+      "pos": "E8",
+      "artista": "Com Truise",
+      "titulo": "Galactic Melt",
+      "album": "com-truise-galactic-melt"
+    },
+    {
+      "pos": "E9",
+      "artista": "HOME",
+      "titulo": "Odyssey",
+      "album": "home-odyssey"
+    },
+    {
+      "pos": "E10",
+      "artista": "FM-84",
+      "titulo": "Atlas",
+      "album": "fm-84-atlas"
+    },
+    {
+      "pos": "E11",
+      "artista": "Timecop1983",
+      "titulo": "Journeys",
+      "album": "timecop1983-journeys"
+    }
+  ]
+}

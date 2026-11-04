@@ -1,0 +1,78 @@
+{
+  "id": "ska",
+  "titulo": "/mu/ Essential Ska Albums",
+  "indice": "ska",
+  "generos": [
+    "ska"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/ska.png",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "2",
+      "artista": "The Skatalites",
+      "titulo": "Foundation Ska",
+      "album": "the-skatalites-foundation-ska"
+    },
+    {
+      "pos": "3",
+      "artista": "Desmond Dekker",
+      "titulo": "Rudy Got Soul",
+      "album": "desmond-dekker-rudy-got-soul"
+    },
+    {
+      "pos": "10",
+      "artista": "The Specials",
+      "titulo": "More Specials",
+      "album": "the-specials-more-specials"
+    },
+    {
+      "pos": "11",
+      "artista": "Madness",
+      "titulo": "One Step Beyond...",
+      "album": "madness-one-step-beyond"
+    },
+    {
+      "pos": "12",
+      "artista": "The Beat",
+      "titulo": "I Just Can't Stop It",
+      "album": "the-beat-i-just-cant-stop-it"
+    },
+    {
+      "pos": "13",
+      "artista": "The Selecter",
+      "titulo": "Too Much Pressure",
+      "album": "the-selecter-too-much-pressure"
+    },
+    {
+      "pos": "17",
+      "artista": "Streetlight Manifesto",
+      "titulo": "Somewhere in the Between",
+      "album": "streetlight-manifesto-somewhere-in-the-between"
+    },
+    {
+      "pos": "18",
+      "artista": "Catch 22",
+      "titulo": "Keasbey Nights",
+      "album": "catch-22-keasbey-nights"
+    },
+    {
+      "pos": "31",
+      "artista": "Operation Ivy",
+      "titulo": "Energy",
+      "album": "operation-ivy-energy"
+    },
+    {
+      "pos": "35",
+      "artista": "The Mighty Mighty Bosstones",
+      "titulo": "Devils Night Out",
+      "album": "the-mighty-mighty-bosstones-devils-night-out"
+    }
+  ]
+}

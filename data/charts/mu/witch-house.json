@@ -1,0 +1,72 @@
+{
+  "id": "witch-house",
+  "titulo": "/mu/'s guide to Essential Witch House",
+  "indice": "witch-house",
+  "generos": [
+    "witch-house"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/witch-house.png",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "a2",
+      "artista": "SLEEP ∞ OVER",
+      "titulo": "Casual Diamond",
+      "album": "sleep-over-casual-diamond"
+    },
+    {
+      "pos": "a3",
+      "artista": "Salem",
+      "titulo": "King Night",
+      "album": "salem-king-night"
+    },
+    {
+      "pos": "a4",
+      "artista": "Balam Acab",
+      "titulo": "See Birds",
+      "album": "balam-acab-see-birds"
+    },
+    {
+      "pos": "b1",
+      "artista": "oOoOO",
+      "titulo": "oOoOO",
+      "album": "ooooo-ooooo"
+    },
+    {
+      "pos": "b2",
+      "artista": "White Ring",
+      "titulo": "Black Earth That Made Me",
+      "album": "white-ring-black-earth-that-made-me"
+    },
+    {
+      "pos": "b3",
+      "artista": "LAKE R▲DIO",
+      "titulo": "Planet Earth About to Be Recycled",
+      "album": "lake-radio-planet-earth-about-to-be-recycled"
+    },
+    {
+      "pos": "c1",
+      "artista": "Modern Witch",
+      "titulo": "Disaro",
+      "album": "modern-witch-disaro"
+    },
+    {
+      "pos": "c2",
+      "artista": "Fostercare",
+      "titulo": "Second Thoughts",
+      "album": "fostercare-second-thoughts"
+    },
+    {
+      "pos": "b4",
+      "artista": "Various Artists",
+      "titulo": "Let Me Shine for You",
+      "album": "various-artists-let-me-shine-for-you"
+    }
+  ]
+}

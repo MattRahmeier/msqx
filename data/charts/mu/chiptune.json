@@ -1,0 +1,78 @@
+{
+  "id": "chiptune",
+  "titulo": "essential chiptune",
+  "indice": "chiptune",
+  "generos": [
+    "chiptune"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/chiptune.jpg",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "1",
+      "artista": "Starscream",
+      "titulo": "Future, And It Doesn't Work",
+      "album": "starscream-future-and-it-doesnt-work"
+    },
+    {
+      "pos": "2",
+      "artista": "Henry Homesweet",
+      "titulo": "Pocket Monster",
+      "album": "henry-homesweet-pocket-monster"
+    },
+    {
+      "pos": "3",
+      "artista": "Sabrepulse",
+      "titulo": "Chipbreak Wars",
+      "album": "sabrepulse-chipbreak-wars"
+    },
+    {
+      "pos": "9",
+      "artista": "Anamanaguchi",
+      "titulo": "Power Supply",
+      "album": "anamanaguchi-power-supply"
+    },
+    {
+      "pos": "10",
+      "artista": "Anamanaguchi",
+      "titulo": "Dawn Metropolis",
+      "album": "anamanaguchi-dawn-metropolis"
+    },
+    {
+      "pos": "11",
+      "artista": "Bit Shifter",
+      "titulo": "Information Chase",
+      "album": "bit-shifter-information-chase"
+    },
+    {
+      "pos": "12",
+      "artista": "The Depreciation Guild",
+      "titulo": "In Her Gentle Jaws",
+      "album": "the-depreciation-guild-in-her-gentle-jaws"
+    },
+    {
+      "pos": "17",
+      "artista": "Crying",
+      "titulo": "Get Olde",
+      "album": "crying-get-olde"
+    },
+    {
+      "pos": "21",
+      "artista": "Nullsleep",
+      "titulo": "Electric Heart Strike",
+      "album": "nullsleep-electric-heart-strike"
+    },
+    {
+      "pos": "24",
+      "artista": "Minusbaby",
+      "titulo": "Monkey Patch",
+      "album": "minusbaby-monkey-patch"
+    }
+  ]
+}

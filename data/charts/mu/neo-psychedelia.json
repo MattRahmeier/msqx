@@ -1,0 +1,78 @@
+{
+  "id": "neo-psychedelia",
+  "titulo": "Ladies and Gentlemen We Are Neo-Psychedelia",
+  "indice": "neo-psychedelia",
+  "generos": [
+    "neo-psychedelia"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/neo-psychedelia.jpg",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "1",
+      "artista": "The Flaming Lips",
+      "titulo": "The Soft Bulletin",
+      "album": "the-flaming-lips-the-soft-bulletin"
+    },
+    {
+      "pos": "2",
+      "artista": "Animal Collective",
+      "titulo": "Merriweather Post Pavilion",
+      "album": "animal-collective-merriweather-post-pavilion"
+    },
+    {
+      "pos": "3",
+      "artista": "Tame Impala",
+      "titulo": "Lonerism",
+      "album": "tame-impala-lonerism"
+    },
+    {
+      "pos": "4",
+      "artista": "Panda Bear",
+      "titulo": "Person Pitch",
+      "album": "panda-bear-person-pitch"
+    },
+    {
+      "pos": "6",
+      "artista": "Spiritualized",
+      "titulo": "Ladies and Gentlemen We Are Floating in Space",
+      "album": "spiritualized-ladies-and-gentlemen-we-are-floating-in-space"
+    },
+    {
+      "pos": "7",
+      "artista": "Ween",
+      "titulo": "The Mollusk",
+      "album": "ween-the-mollusk"
+    },
+    {
+      "pos": "8",
+      "artista": "MGMT",
+      "titulo": "Congratulations",
+      "album": "mgmt-congratulations"
+    },
+    {
+      "pos": "9",
+      "artista": "Primal Scream",
+      "titulo": "XTRMNTR",
+      "album": "primal-scream-xtrmntr"
+    },
+    {
+      "pos": "11",
+      "artista": "of Montreal",
+      "titulo": "Hissing Fauna, Are You the Destroyer?",
+      "album": "of-montreal-hissing-fauna-are-you-the-destroyer"
+    },
+    {
+      "pos": "16",
+      "artista": "Grizzly Bear",
+      "titulo": "Veckatimest",
+      "album": "grizzly-bear-veckatimest"
+    }
+  ]
+}

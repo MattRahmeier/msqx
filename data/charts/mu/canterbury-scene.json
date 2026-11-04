@@ -1,0 +1,84 @@
+{
+  "id": "canterbury-scene",
+  "titulo": "Canterbury Scene",
+  "indice": "canterbury-scene",
+  "generos": [
+    "canterbury-scene"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/canterbury-scene.jpg",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "1",
+      "artista": "Caravan",
+      "titulo": "In the Land of Grey and Pink",
+      "album": "caravan-in-the-land-of-grey-and-pink"
+    },
+    {
+      "pos": "2",
+      "artista": "Caravan",
+      "titulo": "If I Could Do It All Over Again, I'd Do It All Over You",
+      "album": "caravan-if-i-could-do-it-all-over-again-id-do-it-all-over-you"
+    },
+    {
+      "pos": "5",
+      "artista": "Hatfield and the North",
+      "titulo": "Hatfield and the North",
+      "album": "hatfield-and-the-north-hatfield-and-the-north"
+    },
+    {
+      "pos": "6",
+      "artista": "Hatfield and the North",
+      "titulo": "The Rotters' Club",
+      "album": "hatfield-and-the-north-the-rotters-club"
+    },
+    {
+      "pos": "7",
+      "artista": "Khan",
+      "titulo": "Space Shanty",
+      "album": "khan-space-shanty"
+    },
+    {
+      "pos": "8",
+      "artista": "Moving Gelatine Plates",
+      "titulo": "The World of Genius Hans",
+      "album": "moving-gelatine-plates-the-world-of-genius-hans"
+    },
+    {
+      "pos": "9",
+      "artista": "The Soft Machine",
+      "titulo": "The Soft Machine",
+      "album": "the-soft-machine-the-soft-machine"
+    },
+    {
+      "pos": "10",
+      "artista": "Soft Machine",
+      "titulo": "Third",
+      "album": "soft-machine-third"
+    },
+    {
+      "pos": "11",
+      "artista": "Robert Wyatt",
+      "titulo": "Rock Bottom",
+      "album": "robert-wyatt-rock-bottom"
+    },
+    {
+      "pos": "12",
+      "artista": "Matching Mole",
+      "titulo": "Matching Mole",
+      "album": "matching-mole-matching-mole"
+    },
+    {
+      "pos": "13",
+      "artista": "Henry Cow",
+      "titulo": "Legend",
+      "album": "henry-cow-legend"
+    }
+  ]
+}

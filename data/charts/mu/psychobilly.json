@@ -1,0 +1,78 @@
+{
+  "id": "psychobilly",
+  "titulo": "/mu/'s essential psychobilly",
+  "indice": "psychobilly",
+  "generos": [
+    "psychobilly"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/psychobilly.jpg",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Demented Are Go",
+      "titulo": "In Sickness & in Health",
+      "album": "demented-are-go-in-sickness-and-in-health"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Tiger Army",
+      "titulo": "Tiger Army",
+      "album": "tiger-army-tiger-army"
+    },
+    {
+      "pos": "1-3",
+      "artista": "The Meteors",
+      "titulo": "Wreckin' Crew",
+      "album": "the-meteors-wreckin-crew"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Nekromantix",
+      "titulo": "Curse of the Coffin",
+      "album": "nekromantix-curse-of-the-coffin"
+    },
+    {
+      "pos": "1-6",
+      "artista": "The Reverend Horton Heat",
+      "titulo": "Smoke 'Em If You Got 'Em",
+      "album": "the-reverend-horton-heat-smoke-em-if-you-got-em"
+    },
+    {
+      "pos": "1-7",
+      "artista": "The Cramps",
+      "titulo": "Psychedelic Jungle",
+      "album": "the-cramps-psychedelic-jungle"
+    },
+    {
+      "pos": "1-8",
+      "artista": "Batmobile",
+      "titulo": "Batmobile",
+      "album": "batmobile-batmobile"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Nekromantix",
+      "titulo": "Return of the Loving Dead",
+      "album": "nekromantix-return-of-the-loving-dead"
+    },
+    {
+      "pos": "2-5",
+      "artista": "The Cramps",
+      "titulo": "Songs the Lord Taught Us",
+      "album": "the-cramps-songs-the-lord-taught-us"
+    },
+    {
+      "pos": "2-7",
+      "artista": "Tiger Army",
+      "titulo": "II: Power of Moonlite",
+      "album": "tiger-army-ii-power-of-moonlite"
+    }
+  ]
+}

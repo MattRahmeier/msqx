@@ -1,0 +1,88 @@
+{
+  "id": "zeuhl",
+  "titulo": "Recommended Zeuhl",
+  "indice": "zeuhl",
+  "generos": [
+    "zeuhl"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/zeuhl.png",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "1",
+      "artista": "Magma",
+      "titulo": "Magma",
+      "ano": 1970,
+      "album": "magma-magma"
+    },
+    {
+      "pos": "2",
+      "artista": "Abus Dangereux",
+      "titulo": "Le quatrième mouvement",
+      "ano": 1970,
+      "album": "abus-dangereux-le-quatrieme-mouvement"
+    },
+    {
+      "pos": "3",
+      "artista": "Dün",
+      "titulo": "Eros",
+      "ano": 1981,
+      "album": "dun-eros"
+    },
+    {
+      "pos": "4",
+      "artista": "Eskaton",
+      "titulo": "4 Visions",
+      "ano": 1981,
+      "album": "eskaton-4-visions"
+    },
+    {
+      "pos": "5",
+      "artista": "Shub-Niggurath",
+      "titulo": "Les morts vont vite",
+      "ano": 1986,
+      "album": "shub-niggurath-les-morts-vont-vite"
+    },
+    {
+      "pos": "6",
+      "artista": "Happy Family",
+      "titulo": "Toscco",
+      "ano": 1997,
+      "album": "happy-family-toscco"
+    },
+    {
+      "pos": "7",
+      "artista": "Ruins",
+      "titulo": "Vrresto",
+      "ano": 1998,
+      "album": "ruins-vrresto"
+    },
+    {
+      "pos": "8",
+      "artista": "Bondage Fruit",
+      "titulo": "IV",
+      "ano": 1999,
+      "album": "bondage-fruit-iv"
+    },
+    {
+      "pos": "9",
+      "artista": "Koenjihyakkei",
+      "titulo": "Angherr Shisspa",
+      "ano": 2005,
+      "album": "koenjihyakkei-angherr-shisspa"
+    },
+    {
+      "pos": "10",
+      "artista": "Guapo",
+      "titulo": "Elixirs",
+      "ano": 2008,
+      "album": "guapo-elixirs"
+    }
+  ]
+}

@@ -545,6 +545,69 @@
     "musicmap": "rnr02"
   },
   {
+    "id": "psychobilly",
+    "nome": "Psychobilly",
+    "pai": "rockabilly",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "rockabilly",
+      "punk-rock"
+    ],
+    "resumo": "Psychobilly é um gênero musical geralmente descrito como uma mistura entre o punk rock do final dos anos 1970, rock and roll e o rockabilly norte-americano dos anos 1950.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Psychobilly",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 77,
+        "ate": 86,
+        "genero": "punk-rock"
+      },
+      {
+        "de": 111,
+        "ate": 124,
+        "genero": "rock-and-roll"
+      },
+      {
+        "de": 129,
+        "ate": 139,
+        "genero": "rockabilly"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Psychobilly"
+    ],
+    "similares": [],
+    "som": "Ryan Downey, redator da Alternative Press, observa que o psychobilly contemporâneo também bebe de outros gêneros e subgêneros do rock: \"Movida pela batida rítmica de um contrabaixo acústico, a música balança com o rosnado do punk rock, às vezes se debatendo ao lado do speed metal ou colidindo de frente com o ícone do country Hank Williams.\" O psychobilly costuma ser tocado numa formação simples de guitarra, baixo, bateria e voz, e muitas bandas têm apenas três integrantes.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Psychobilly#Musical_style",
+      "idioma": "en",
+      "secao": "Musical style",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 129,
+        "ate": 133,
+        "genero": "rock"
+      },
+      {
+        "de": 225,
+        "ate": 234,
+        "genero": "punk-rock"
+      },
+      {
+        "de": 269,
+        "ate": 280,
+        "genero": "speed-metal"
+      }
+    ]
+  },
+  {
     "id": "surf-rock",
     "nome": "Surf Rock",
     "nomesAlternativos": [
@@ -634,6 +697,59 @@
     ]
   },
   {
+    "id": "proto-punk",
+    "nome": "Proto-Punk",
+    "pai": "garage-rock",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "garage-rock"
+    ],
+    "resumo": "Protopunk (ou proto-punk) é um termo usado para descrever, retrospectivamente, uma série de artistas da música que foram importantes precursores do punk rock, do final dos anos 1960 até meados dos anos 1970, e que, mais tarde, seriam citados por músicos de punk como influência.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Protopunk",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 148,
+        "ate": 157,
+        "genero": "punk-rock"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Proto-punk"
+    ],
+    "similares": [
+      "punk-rock"
+    ],
+    "som": "No fim dos anos 1960, as bandas de Detroit Stooges e MC5 haviam tomado a influência dos grupos de garagem para formar um som protótipo do punk, bem definido. Nos anos seguintes, esse som se espalhou dentro e fora do país, junto com o glam rock e o pub rock, por diversas cenas regionais do punk underground inicial em Nova York, Ohio, Austrália e Inglaterra.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Proto-punk",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 138,
+        "ate": 142,
+        "genero": "punk-rock"
+      },
+      {
+        "de": 234,
+        "ate": 243,
+        "genero": "glam-rock"
+      },
+      {
+        "de": 252,
+        "ate": 256,
+        "genero": "rock"
+      }
+    ]
+  },
+  {
     "id": "psychedelic-rock",
     "nome": "Psychedelic Rock",
     "nomesAlternativos": [
@@ -693,6 +809,46 @@
       "british-blues",
       "heavy-metal",
       "gothic-rock"
+    ]
+  },
+  {
+    "id": "neo-psychedelia",
+    "nome": "Neo-Psychedelia",
+    "pai": "psychedelic-rock",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "psychedelic-rock"
+    ],
+    "resumo": "Neo-psicodelia é um gênero diversificado de música psicodélica que se inspira nos sons da psicodelia dos anos 1960, atualizando ou copiando as abordagens daquela época.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Neopsicodelia",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Neo-psychedelia"
+    ],
+    "similares": [],
+    "som": "Quer tocassem um pop psicodélico viajante (à maneira dos Beatles, do início do Pink Floyd e de inúmeros outros), rock de guitarras cintilantes influenciado pelos Byrds, improvisações livres encharcadas de distorção ou experimentos sonoros alucinantes, esses grupos viam a psicodelia como uma fonte de sons evocativos e incomuns, e atualizavam ou copiavam sem disfarce as abordagens dos artistas originais.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Neo-psychedelia#Characteristics",
+      "idioma": "en",
+      "secao": "Characteristics",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 17,
+        "ate": 20,
+        "genero": "pop"
+      },
+      {
+        "de": 113,
+        "ate": 117,
+        "genero": "rock"
+      }
     ]
   },
   {
@@ -967,6 +1123,97 @@
     ]
   },
   {
+    "id": "zeuhl",
+    "nome": "Zeuhl",
+    "pai": "progressive-rock",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "progressive-rock"
+    ],
+    "resumo": "Zeuhl é um gênero musical criado por Christian Vander.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Zeuhl",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Zeuhl"
+    ],
+    "similares": [],
+    "som": "São especialmente importantes as seções rítmicas dominantes, em geral na forma de um baixo pulsante e de baterias às vezes lentas ou de execução flexível. Estruturas lentas e repetitivas, que servem para construir uma atmosfera hipnótica, são tão proeminentes quanto passagens solo de grande requinte técnico.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Zeuhl#Characteristics",
+      "idioma": "en",
+      "secao": "Characteristics",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    }
+  },
+  {
+    "id": "canterbury-scene",
+    "nome": "Canterbury Scene",
+    "pai": "progressive-rock",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "psychedelic-rock"
+    ],
+    "resumo": "Cena de Canterbury (ou Som de Canterbury) é um termo utilizado para descrever um grupo de bandas e músicos que praticam um subgênero do rock que unia rock progressivo, música psicodélica e jazz.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Cena_de_Canterbury",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 136,
+        "ate": 140,
+        "genero": "rock"
+      },
+      {
+        "de": 150,
+        "ate": 166,
+        "genero": "progressive-rock"
+      },
+      {
+        "de": 189,
+        "ate": 193,
+        "genero": "jazz"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Canterbury_scene"
+    ],
+    "similares": [
+      "jazz-fusion"
+    ],
+    "som": "A cena de Canterbury (ou som de Canterbury) é uma cena musical que surgiu na cidade de Canterbury, em Kent, na Inglaterra, no fim dos anos 1960 e início dos anos 1970. Associado ao rock progressivo, o termo descreve um estilo improvisado e vagamente definido, que misturava elementos de jazz, rock e psicodelia.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Canterbury_scene",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 181,
+        "ate": 197,
+        "genero": "progressive-rock"
+      },
+      {
+        "de": 287,
+        "ate": 291,
+        "genero": "jazz"
+      },
+      {
+        "de": 293,
+        "ate": 297,
+        "genero": "rock"
+      }
+    ]
+  },
+  {
     "id": "krautrock",
     "nome": "Krautrock",
     "nomesAlternativos": [
@@ -1101,6 +1348,58 @@
       "grunge",
       "heavy-metal",
       "progressive-rock"
+    ]
+  },
+  {
+    "id": "pop-punk",
+    "nome": "Pop Punk",
+    "pai": "punk-rock",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "punk-rock"
+    ],
+    "resumo": "Pop punk é um gênero de fusão que combina elementos do punk rock com power pop ou música pop.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Pop_punk",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 55,
+        "ate": 64,
+        "genero": "punk-rock"
+      },
+      {
+        "de": 82,
+        "ate": 92,
+        "genero": "pop"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pop-punk"
+    ],
+    "similares": [
+      "emo"
+    ],
+    "som": "A música normalmente combina rápidos tempos do punk, mudanças de acorde e guitarras barulhentas com influencia pop em melodias e temas líricos.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Pop_punk",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "somLinks": [
+      {
+        "de": 47,
+        "ate": 51,
+        "genero": "punk-rock"
+      },
+      {
+        "de": 111,
+        "ate": 114,
+        "genero": "pop"
+      }
     ]
   },
   {
@@ -1306,6 +1605,58 @@
       "licenca": "CC BY-SA 4.0"
     },
     "musicmap": "pwv04"
+  },
+  {
+    "id": "no-wave",
+    "nome": "No Wave",
+    "pai": "post-punk",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "punk-rock"
+    ],
+    "resumo": "No wave foi uma curta, mas influente cena de música underground, filmes, performances artísticas, vídeos, e arte contemporânea que teve seu início durante a metade da década de 1970 em New York City.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/No_wave",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/No_wave"
+    ],
+    "similares": [
+      "noise-rock"
+    ],
+    "som": "O no wave não é um gênero musical claramente definível, com características constantes, mas em geral se caracterizava pela rejeição à reciclagem da estética tradicional do rock, como os estilos de blues rock e os riffs de guitarra de Chuck Berry no punk e na new wave. Havia, porém, alguns elementos comuns à maior parte da música no wave, como sons atonais e abrasivos; ritmos repetitivos e insistentes; e a tendência a enfatizar a textura musical em vez da melodia, típica da música downtown inicial de La Monte Young.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/No_wave#Characteristics",
+      "idioma": "en",
+      "secao": "Characteristics",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 172,
+        "ate": 176,
+        "genero": "rock"
+      },
+      {
+        "de": 197,
+        "ate": 207,
+        "genero": "blues-rock"
+      },
+      {
+        "de": 249,
+        "ate": 253,
+        "genero": "punk-rock"
+      },
+      {
+        "de": 259,
+        "ate": 267,
+        "genero": "new-wave"
+      }
+    ]
   },
   {
     "id": "gothic-rock",
@@ -1522,6 +1873,47 @@
       "grunge",
       "art-pop"
     ]
+  },
+  {
+    "id": "slowcore",
+    "nome": "Slowcore",
+    "pai": "indie-rock",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "indie-rock"
+    ],
+    "resumo": "Slowcore é um subgênero de rock alternativo e indie rock.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Slowcore",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 27,
+        "ate": 43,
+        "genero": "alternative-rock"
+      },
+      {
+        "de": 46,
+        "ate": 56,
+        "genero": "indie-rock"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Slowcore"
+    ],
+    "similares": [
+      "dream-pop"
+    ],
+    "som": "O slowcore se caracteriza por andamentos contidos, instrumentação minimalista e interpretações vocais calmas e sombrias.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Slowcore",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    }
   },
   {
     "id": "grunge",
@@ -3156,6 +3548,11 @@
         "de": 128,
         "ate": 138,
         "genero": "doom-metal"
+      },
+      {
+        "de": 178,
+        "ate": 183,
+        "genero": "drone"
       }
     ],
     "fontes": [
@@ -3823,6 +4220,40 @@
     "musicmap": "met02"
   },
   {
+    "id": "djent",
+    "nome": "Djent",
+    "pai": "progressive-metal",
+    "mestre": false,
+    "decada": 2000,
+    "origens": [
+      "progressive-metal"
+    ],
+    "resumo": "Djent é um recente movimento que se desenvolveu como uma derivação do metal progressivo, tendo como berço, assim como sendo mais evidente, lugares como o norte da Europa, o nordeste dos Estados Unidos e ainda a Austrália.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Djent",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 70,
+        "ate": 87,
+        "genero": "progressive-metal"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Djent"
+    ],
+    "similares": [],
+    "som": "Djent, em seu sentido original, é um acorde pesado, tocado de forma sincopada em um riff de guitarra, fortemente processado ​​digitalmente. O Djent como um gênero musical tem sido descrito e apresentado com acordes de guitarra intensamente abafados e dissonantes, fortemente distorcidos, assim como com solos virtuosos e ambientes dinâmicos.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Djent#Caracter%C3%ADsticas",
+      "idioma": "pt",
+      "secao": "Características",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
     "id": "gothic-metal",
     "nome": "Gothic Metal",
     "nomesAlternativos": [
@@ -3917,6 +4348,63 @@
     "influencias": [
       "death-metal",
       "nu-metal"
+    ]
+  },
+  {
+    "id": "deathcore",
+    "nome": "Deathcore",
+    "pai": "metalcore",
+    "mestre": false,
+    "decada": 2000,
+    "origens": [
+      "metalcore",
+      "death-metal"
+    ],
+    "resumo": "Deathcore é uma fusão de estilos musicais que combina elementos do death metal com elementos do metalcore ou hardcore punk, ou ambos.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Deathcore",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 67,
+        "ate": 78,
+        "genero": "death-metal"
+      },
+      {
+        "de": 96,
+        "ate": 105,
+        "genero": "metalcore"
+      },
+      {
+        "de": 109,
+        "ate": 122,
+        "genero": "hardcore-punk"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Deathcore"
+    ],
+    "similares": [],
+    "som": "Algumas bandas também incorporam solos de guitarra e riffs melódicos semelhantes aos do metalcore. Como em outros gêneros de metal extremo, os guitarristas de deathcore afinam suas guitarras em uma afinação mais baixa e/ou usam guitarras de sete cordas para alcançar um timbre mais pesado.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Deathcore#Caracter%C3%ADsticas",
+      "idioma": "pt",
+      "secao": "Características",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "somLinks": [
+      {
+        "de": 88,
+        "ate": 97,
+        "genero": "metalcore"
+      },
+      {
+        "de": 125,
+        "ate": 130,
+        "genero": "metal"
+      }
     ]
   },
   {
@@ -4138,6 +4626,138 @@
     ]
   },
   {
+    "id": "witch-house",
+    "nome": "Witch House",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 2000,
+    "origens": [
+      "dark-ambient"
+    ],
+    "resumo": "Witch house (também conhecido como Drag, Haunted House, Screwgaze ou Crunk Shoegaze) é um gênero de música eletrônica ambiente de temática e de estética visual que surgiu no final dos anos 2000.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Witch_house",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 49,
+        "ate": 54,
+        "genero": "house"
+      },
+      {
+        "de": 75,
+        "ate": 83,
+        "genero": "shoegaze"
+      },
+      {
+        "de": 100,
+        "ate": 117,
+        "genero": "eletronica"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Witch_house_(music_genre)"
+    ],
+    "similares": [
+      "chillwave"
+    ],
+    "som": "O witch house se caracteriza pelo uso de baterias eletrônicas de hip hop, atmosferas de ruído, samples assustadores, melodias principais sombrias influenciadas pelo synthpop, reverb denso e vocais muito alterados, distorcidos e às vezes com a afinação rebaixada e invertidos, que são cantados ou em rap.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Witch_house#Characteristics",
+      "idioma": "en",
+      "secao": "Characteristics",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 65,
+        "ate": 72,
+        "genero": "hip-hop"
+      },
+      {
+        "de": 165,
+        "ate": 173,
+        "genero": "synth-pop"
+      }
+    ]
+  },
+  {
+    "id": "synthwave",
+    "nome": "Synthwave",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 2000,
+    "origens": [
+      "synth-pop"
+    ],
+    "resumo": "Synthwave (também chamado de outrun, retrowave ou futuresynth) é um microgênero da música eletrônica que se baseia predominantemente na música e estética associada às trilhas sonoras de filmes de ação, policial, ficção científica e terror da década de 1980.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Synthwave",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 83,
+        "ate": 100,
+        "genero": "eletronica"
+      },
+      {
+        "de": 167,
+        "ate": 182,
+        "genero": "trilha-sonora"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Synthwave"
+    ],
+    "similares": [
+      "electro"
+    ],
+    "som": "Os músicos de Synthwave muitas vezes expressam nostalgia pela cultura dos anos 80 e tentam capturar a atmosfera da época e celebrá-la.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Synthwave",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "chiptune",
+    "nome": "Chiptune",
+    "pai": "eletronica",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [],
+    "resumo": "Chiptune, também conhecida como Chipmusic e incorretamente Música de 8 bits (embora nem todo chiptune seja de 8 bits) um é um gênero de música eletrônica e subcultura musical, produzido por chips de som de antigos computadores, consoles de videogame e máquinas de arcade e também com a emulação.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Chiptune",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 136,
+        "ate": 153,
+        "genero": "eletronica"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chiptune"
+    ],
+    "similares": [
+      "trilha-games"
+    ],
+    "som": "Os compositores possuíam grande flexibilidade em sintetizar os som dos instrumentos, mas os chiptunes tinham somente geradores de tons e geradores de ruído, impondo limitações na complexidade e no aspecto das músicas.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Chiptune",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
     "id": "ambient",
     "nome": "Ambient",
     "nomesAlternativos": [
@@ -4175,6 +4795,35 @@
       "trance",
       "house"
     ]
+  },
+  {
+    "id": "drone",
+    "nome": "Drone",
+    "pai": "ambient",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "ambient"
+    ],
+    "resumo": "Música drone ou Drone music é um estilo musical minimalista, que enfatiza o uso de sons sustentados ou repetidos, notas ou clusters de tons - chamados drones, que podem ser caracterizados tanto por pedais quanto por modulação eletrônica.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_drone",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Drone_music"
+    ],
+    "similares": [
+      "drone-metal"
+    ],
+    "som": "Costuma se caracterizar por composições longas, com variações harmônicas relativamente pequenas.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Drone_music",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    }
   },
   {
     "id": "dark-ambient",
@@ -4706,6 +5355,41 @@
     ]
   },
   {
+    "id": "glitch",
+    "nome": "Glitch",
+    "pai": "idm",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "idm"
+    ],
+    "resumo": "Glitch, também denominado clicks and cuts é um gênero de música eletrônica que surgiu no final dos anos 90.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Glitch_(m%C3%BAsica)",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 57,
+        "ate": 74,
+        "genero": "eletronica"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Glitch_(music)"
+    ],
+    "similares": [
+      "minimal-techno"
+    ],
+    "som": "As fontes do material de som do glitch são dispositivos de gravação de áudio com mau funcionamento ou circuitos digitais, tais como skipping de CDs, zumbido elétrico, distorção digital ou analógica, circuitos eletrônicos dobrados, redução de taxa de bits, ruído de hardware, erros de software, falhas ou arranhões e erros do sistema.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Glitch_(m%C3%BAsica)",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
     "id": "jungle",
     "nome": "Jungle",
     "nomesAlternativos": [
@@ -4745,7 +5429,78 @@
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
     },
+    "somLinks": [
+      {
+        "de": 81,
+        "ate": 87,
+        "genero": "reggae"
+      }
+    ],
     "musicmap": "dnb01"
+  },
+  {
+    "id": "breakcore",
+    "nome": "Breakcore",
+    "pai": "jungle",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "jungle"
+    ],
+    "resumo": "Breakcore é um estilo de música eletrônica que surgiu do jungle, hardcore e drum and bass em meados da década de 1990.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Breakcore",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 25,
+        "ate": 42,
+        "genero": "eletronica"
+      },
+      {
+        "de": 57,
+        "ate": 63,
+        "genero": "jungle"
+      },
+      {
+        "de": 65,
+        "ate": 73,
+        "genero": "hardcore-punk"
+      },
+      {
+        "de": 76,
+        "ate": 89,
+        "genero": "drum-and-bass"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Breakcore"
+    ],
+    "similares": [
+      "idm"
+    ],
+    "som": "A característica que mais define o breakcore é o trabalho de bateria, muitas vezes baseado na manipulação do Amen break e de outros breaks clássicos do jungle e do hip hop em BPM alto. As técnicas usadas para isso variam de músico para músico: alguns preferem cortar e reorganizar os breaks, enquanto outros apenas distorcem e repetem os breaks ou aplicam efeitos variados, como delay e chorus, para alterar o timbre do break.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Breakcore#Characteristics",
+      "idioma": "en",
+      "secao": "Characteristics",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 152,
+        "ate": 158,
+        "genero": "jungle"
+      },
+      {
+        "de": 164,
+        "ate": 171,
+        "genero": "hip-hop"
+      }
+    ]
   },
   {
     "id": "drum-and-bass",
@@ -7162,6 +7917,155 @@
     ]
   },
   {
+    "id": "reggae",
+    "nome": "Reggae",
+    "pai": "world-music",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "ska"
+    ],
+    "resumo": "Reggae é um gênero musical criado na Jamaica do fim da década de 1960, a partir dos gêneros ska e rocksteady.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Reggae",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 92,
+        "ate": 95,
+        "genero": "ska"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Reggae"
+    ],
+    "similares": [],
+    "som": "O reggae se distingue por um andamento mais lento que o do ska ou do rocksteady, uma forte ênfase no tempo forte na bateria e no baixo, e acordes curtos e staccato de guitarra ou piano no contratempo. O baixo tem papel central, com um timbre encorpado e pesado e as frequências altas reduzidas para acentuar os graves.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Reggae#Musical_characteristics",
+      "idioma": "en",
+      "secao": "Musical characteristics",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 59,
+        "ate": 62,
+        "genero": "ska"
+      }
+    ]
+  },
+  {
+    "id": "ska",
+    "nome": "Ska",
+    "pai": "world-music",
+    "mestre": false,
+    "decada": 1950,
+    "origens": [],
+    "resumo": "Na música, o ska é um género musical de origem na Jamaica no final da década de 1950, combinando elementos caribenhos como o mento e o calipso e estadunidenses como o jazz, jump blues e rhythm and blues.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Ska",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 167,
+        "ate": 171,
+        "genero": "jazz"
+      },
+      {
+        "de": 173,
+        "ate": 183,
+        "genero": "jump-blues"
+      },
+      {
+        "de": 197,
+        "ate": 202,
+        "genero": "blues"
+      }
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ska"
+    ],
+    "similares": [],
+    "som": "As letras do ska trazem sinais de insatisfação, abordando temas como marginalidade, discriminação, a vida dura da classe trabalhadora, e acima de tudo a diversão em harmonia.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Ska",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "tropicalia",
+    "nome": "Tropicália",
+    "pai": "world-music",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "bossa-nova",
+      "psychedelic-rock"
+    ],
+    "resumo": "Tropicália, tropicalismo ou movimento tropicalista foi um movimento cultural brasileiro da segunda metade da década de 1960.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Tropic%C3%A1lia",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tropic%C3%A1lia"
+    ],
+    "similares": [],
+    "som": "Na atualidade, a tropicália ficou associada principalmente à vertente musical do movimento, que fundiu ritmos brasileiros e africanos com a psicodelia e o pop rock britânicos e americanos.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Tropic%C3%A1lia",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 155,
+        "ate": 158,
+        "genero": "pop"
+      },
+      {
+        "de": 159,
+        "ate": 163,
+        "genero": "rock"
+      }
+    ]
+  },
+  {
+    "id": "bossa-nova",
+    "nome": "Bossa Nova",
+    "pai": "world-music",
+    "mestre": false,
+    "decada": 1950,
+    "origens": [
+      "cool-jazz"
+    ],
+    "resumo": "Bossa nova é o gênero musical resultante de um movimento de transformação do samba irradiado a partir da Zona Sul da cidade do Rio de Janeiro no final da década de 1950 e que, por conseguinte, passou a dar nome ao estilo de interpretação e acompanhamento rítmico dele surgido, que ficou conhecido como “batida diferente”.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Bossa_nova",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bossa_nova"
+    ],
+    "similares": [],
+    "som": "Segundo o jornalista Ruy Castro, a bossa nova era “uma simplificação extrema da batida da escola de samba”, como se dela tivessem sido retirados todos os instrumentos e conservado apenas o tamborim. Segundo o maestro Júlio Medaglia, \"desenvolver-se-ia a prática do canto-falado ou do cantar baixinho, do texto bem pronunciado, do tom coloquial da narrativa musical, do acompanhamento e canto integrando-se mutuamente, em lugar da valorização da 'grande voz'\".",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Bossa_nova",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
     "id": "afrobeat",
     "nome": "Afrobeat",
     "pai": "world-music",
@@ -7432,6 +8336,11 @@
         "de": 174,
         "ate": 187,
         "genero": "trilha-sonora"
+      },
+      {
+        "de": 495,
+        "ate": 503,
+        "genero": "chiptune"
       }
     ],
     "resumoArtigo": "pt:Música de jogos eletrônicos",

@@ -1,0 +1,78 @@
+{
+  "id": "proto-punk",
+  "titulo": "essential /mu/ protopunk",
+  "indice": "proto-punk",
+  "generos": [
+    "proto-punk"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/proto-punk.jpg",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "1-2",
+      "artista": "The Sonics",
+      "titulo": "Here Are the Sonics",
+      "album": "the-sonics-here-are-the-sonics"
+    },
+    {
+      "pos": "1-3",
+      "artista": "MC5",
+      "titulo": "Kick Out the Jams",
+      "album": "mc5-kick-out-the-jams"
+    },
+    {
+      "pos": "2-1",
+      "artista": "The Velvet Underground",
+      "titulo": "White Light/White Heat",
+      "album": "the-velvet-underground-white-light-white-heat"
+    },
+    {
+      "pos": "2-2",
+      "artista": "The Stooges",
+      "titulo": "Raw Power",
+      "album": "the-stooges-raw-power"
+    },
+    {
+      "pos": "3-1",
+      "artista": "The Monks",
+      "titulo": "Black Monk Time",
+      "album": "the-monks-black-monk-time"
+    },
+    {
+      "pos": "4-1",
+      "artista": "The Modern Lovers",
+      "titulo": "The Modern Lovers",
+      "album": "the-modern-lovers-the-modern-lovers"
+    },
+    {
+      "pos": "5-1",
+      "artista": "The Stooges",
+      "titulo": "Fun House",
+      "album": "the-stooges-fun-house"
+    },
+    {
+      "pos": "6-2",
+      "artista": "Death",
+      "titulo": "...For the Whole World to See",
+      "album": "death-for-the-whole-world-to-see"
+    },
+    {
+      "pos": "6-3",
+      "artista": "The Velvet Underground & Nico",
+      "titulo": "The Velvet Underground & Nico",
+      "album": "the-velvet-underground-and-nico-the-velvet-underground-and-nico"
+    },
+    {
+      "pos": "6-4",
+      "artista": "New York Dolls",
+      "titulo": "New York Dolls",
+      "album": "new-york-dolls-new-york-dolls"
+    }
+  ]
+}

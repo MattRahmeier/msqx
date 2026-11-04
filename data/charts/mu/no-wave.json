@@ -1,0 +1,78 @@
+{
+  "id": "no-wave",
+  "titulo": "/mu/ Essential No Wave",
+  "indice": "no-wave",
+  "generos": [
+    "no-wave"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/no-wave.png",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Glenn Branca",
+      "titulo": "The Ascension",
+      "album": "glenn-branca-the-ascension"
+    },
+    {
+      "pos": "A2",
+      "artista": "DNA",
+      "titulo": "DNA on DNA",
+      "album": "dna-dna-on-dna"
+    },
+    {
+      "pos": "A3",
+      "artista": "Sonic Youth",
+      "titulo": "Confusion Is Sex",
+      "album": "sonic-youth-confusion-is-sex"
+    },
+    {
+      "pos": "B1",
+      "artista": "Various Artists",
+      "titulo": "No New York",
+      "album": "various-artists-no-new-york"
+    },
+    {
+      "pos": "B3",
+      "artista": "Theoretical Girls",
+      "titulo": "Theoretical Record",
+      "album": "theoretical-girls-theoretical-record"
+    },
+    {
+      "pos": "C1",
+      "artista": "Mars",
+      "titulo": "The Complete Studio Recordings NYC 1977–1978",
+      "album": "mars-the-complete-studio-recordings-nyc-1977-1978"
+    },
+    {
+      "pos": "C3",
+      "artista": "Swans",
+      "titulo": "Filth",
+      "album": "swans-filth"
+    },
+    {
+      "pos": "D2",
+      "artista": "James Chance & The Contortions",
+      "titulo": "Buy",
+      "album": "james-chance-and-the-contortions-buy"
+    },
+    {
+      "pos": "D3",
+      "artista": "Suicide",
+      "titulo": "Suicide",
+      "album": "suicide-suicide"
+    },
+    {
+      "pos": "E3",
+      "artista": "Teenage Jesus and the Jerks",
+      "titulo": "Pink",
+      "album": "teenage-jesus-and-the-jerks-pink"
+    }
+  ]
+}

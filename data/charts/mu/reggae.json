@@ -1,0 +1,78 @@
+{
+  "id": "reggae",
+  "titulo": "/mu/ Essential Reggae",
+  "indice": "reggae",
+  "generos": [
+    "reggae"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/reggae.png",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "Roots 1",
+      "artista": "Bob Marley & The Wailers",
+      "titulo": "Exodus",
+      "album": "bob-marley-and-the-wailers-exodus"
+    },
+    {
+      "pos": "Roots 2",
+      "artista": "Peter Tosh",
+      "titulo": "Equal Rights",
+      "album": "peter-tosh-equal-rights"
+    },
+    {
+      "pos": "Roots 4",
+      "artista": "Bunny Wailer",
+      "titulo": "Blackheart Man",
+      "album": "bunny-wailer-blackheart-man"
+    },
+    {
+      "pos": "Roots 5",
+      "artista": "The Congos",
+      "titulo": "Heart of the Congos",
+      "album": "the-congos-heart-of-the-congos"
+    },
+    {
+      "pos": "Roots 6",
+      "artista": "Burning Spear",
+      "titulo": "Marcus Garvey",
+      "album": "burning-spear-marcus-garvey"
+    },
+    {
+      "pos": "Roots 7",
+      "artista": "Max Romeo & The Upsetters",
+      "titulo": "War Ina Babylon",
+      "album": "max-romeo-and-the-upsetters-war-ina-babylon"
+    },
+    {
+      "pos": "Roots 8",
+      "artista": "Black Uhuru",
+      "titulo": "Red",
+      "album": "black-uhuru-red"
+    },
+    {
+      "pos": "Dub 1",
+      "artista": "The Upsetters",
+      "titulo": "Super Ape",
+      "album": "the-upsetters-super-ape"
+    },
+    {
+      "pos": "Dub 4",
+      "artista": "Augustus Pablo",
+      "titulo": "East of the River Nile",
+      "album": "augustus-pablo-east-of-the-river-nile"
+    },
+    {
+      "pos": "Misc 2",
+      "artista": "Linton Kwesi Johnson",
+      "titulo": "Bass Culture",
+      "album": "linton-kwesi-johnson-bass-culture"
+    }
+  ]
+}

@@ -68,6 +68,10 @@ const APELIDOS = {
     const todos = [...(f.generos || []), ...Object.keys(fonte)];
     for (const id of todos) for (let p = pai.get(id); p; p = pai.get(p)) delete fonte[p];
     for (const id of f.generos || []) delete fonte[id];
+    // Música Clássica e subgêneros só recebem discos postos à mão nos charts (pedido do usuário em
+    // 04/11/2026): trilhas e discos orquestrados ou "contemporary classical" de outros gêneros ficam
+    // só no próprio catálogo.
+    for (const id of Object.keys(fonte)) if (id === "musica-classica" || pai.get(id) === "musica-classica") delete fonte[id];
     if (!Object.keys(fonte).length) continue;
     f.estilos = Object.keys(fonte);
     f.estilosFonte = fonte;

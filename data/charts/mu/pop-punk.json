@@ -1,0 +1,78 @@
+{
+  "id": "pop-punk",
+  "titulo": "/mu/ Essential Modern Pop Punk",
+  "indice": "pop-punk",
+  "generos": [
+    "pop-punk"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/pop-punk.png",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Brand New",
+      "titulo": "Deja Entendu",
+      "album": "brand-new-deja-entendu"
+    },
+    {
+      "pos": "B1",
+      "artista": "Say Anything",
+      "titulo": "...Is a Real Boy",
+      "album": "say-anything-is-a-real-boy"
+    },
+    {
+      "pos": "C1",
+      "artista": "The Wonder Years",
+      "titulo": "The Upsides",
+      "album": "the-wonder-years-the-upsides"
+    },
+    {
+      "pos": "A2",
+      "artista": "Transit",
+      "titulo": "Stay Home",
+      "album": "transit-stay-home"
+    },
+    {
+      "pos": "B2",
+      "artista": "Polar Bear Club",
+      "titulo": "Sometimes Things Just Disappear",
+      "album": "polar-bear-club-sometimes-things-just-disappear"
+    },
+    {
+      "pos": "C2",
+      "artista": "Four Year Strong",
+      "titulo": "Rise or Die Trying",
+      "album": "four-year-strong-rise-or-die-trying"
+    },
+    {
+      "pos": "D2",
+      "artista": "The Queers",
+      "titulo": "Munki Brain",
+      "album": "the-queers-munki-brain"
+    },
+    {
+      "pos": "B3",
+      "artista": "Bomb the Music Industry!",
+      "titulo": "Scrambles",
+      "album": "bomb-the-music-industry-scrambles"
+    },
+    {
+      "pos": "C3",
+      "artista": "Wavves",
+      "titulo": "King of the Beach",
+      "album": "wavves-king-of-the-beach"
+    },
+    {
+      "pos": "D3",
+      "artista": "Set Your Goals",
+      "titulo": "Mutiny!",
+      "album": "set-your-goals-mutiny"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "breakcore",
+  "titulo": "/mu/ Essential Breakcore",
+  "indice": "breakcore",
+  "generos": [
+    "breakcore"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/breakcore.jpg",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Venetian Snares",
+      "titulo": "Rossz Csillag Alatt Született",
+      "album": "venetian-snares-rossz-csillag-alatt-szuletett"
+    },
+    {
+      "pos": "E1",
+      "artista": "Venetian Snares",
+      "titulo": "Doll Doll Doll",
+      "album": "venetian-snares-doll-doll-doll"
+    },
+    {
+      "pos": "B1",
+      "artista": "Nero's Day at Disneyland",
+      "titulo": "From Rotting Fantasylands",
+      "album": "neros-day-at-disneyland-from-rotting-fantasylands"
+    },
+    {
+      "pos": "C1",
+      "artista": "Duran Duran Duran",
+      "titulo": "Very Pleasure",
+      "album": "duran-duran-duran-very-pleasure"
+    },
+    {
+      "pos": "A2",
+      "artista": "Drumcorps",
+      "titulo": "Grist",
+      "album": "drumcorps-grist"
+    },
+    {
+      "pos": "B2",
+      "artista": "Bong-Ra",
+      "titulo": "Bikini Bandits, Kill! Kill! Kill!",
+      "album": "bong-ra-bikini-bandits-kill-kill-kill"
+    },
+    {
+      "pos": "C2",
+      "artista": "The Teknoist",
+      "titulo": "...Like a Hurricane Made of Zombies",
+      "album": "the-teknoist-like-a-hurricane-made-of-zombies"
+    },
+    {
+      "pos": "E2",
+      "artista": "Shitmat",
+      "titulo": "Grooverider",
+      "album": "shitmat-grooverider"
+    },
+    {
+      "pos": "D3",
+      "artista": "Alec Empire",
+      "titulo": "The Destroyer",
+      "album": "alec-empire-the-destroyer"
+    },
+    {
+      "pos": "C4",
+      "artista": "Shizuo",
+      "titulo": "Shizuo vs. Shizor",
+      "album": "shizuo-shizuo-vs-shizor"
+    }
+  ]
+}

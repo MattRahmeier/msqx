@@ -1,0 +1,78 @@
+{
+  "id": "bossa-nova",
+  "titulo": "Essential Bossa Nova",
+  "indice": "bossa-nova",
+  "generos": [
+    "bossa-nova"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/bossa-nova.jpg",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "1",
+      "artista": "Stan Getz & João Gilberto",
+      "titulo": "Getz/Gilberto",
+      "album": "stan-getz-and-joao-gilberto-getz-gilberto"
+    },
+    {
+      "pos": "2",
+      "artista": "Antônio Carlos Jobim",
+      "titulo": "Wave",
+      "album": "antonio-carlos-jobim-wave"
+    },
+    {
+      "pos": "4",
+      "artista": "Elis Regina & Antônio Carlos Jobim",
+      "titulo": "Elis & Tom",
+      "album": "elis-regina-and-antonio-carlos-jobim-elis-and-tom"
+    },
+    {
+      "pos": "5",
+      "artista": "Nara Leão",
+      "titulo": "Opinião de Nara",
+      "album": "nara-leao-opiniao-de-nara"
+    },
+    {
+      "pos": "6",
+      "artista": "João Gilberto",
+      "titulo": "Chega de Saudade",
+      "album": "joao-gilberto-chega-de-saudade"
+    },
+    {
+      "pos": "7",
+      "artista": "Baden Powell",
+      "titulo": "À vontade",
+      "album": "baden-powell-a-vontade"
+    },
+    {
+      "pos": "8",
+      "artista": "Stan Getz & Charlie Byrd",
+      "titulo": "Jazz Samba",
+      "album": "stan-getz-and-charlie-byrd-jazz-samba"
+    },
+    {
+      "pos": "10",
+      "artista": "Jorge Ben",
+      "titulo": "Samba Esquema Novo",
+      "album": "jorge-ben-samba-esquema-novo"
+    },
+    {
+      "pos": "13",
+      "artista": "Antônio Carlos Jobim",
+      "titulo": "Stone Flower",
+      "album": "antonio-carlos-jobim-stone-flower"
+    },
+    {
+      "pos": "16",
+      "artista": "Marcos Valle",
+      "titulo": "Samba '68",
+      "album": "marcos-valle-samba-68"
+    }
+  ]
+}

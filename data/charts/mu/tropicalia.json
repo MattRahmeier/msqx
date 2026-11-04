@@ -1,0 +1,78 @@
+{
+  "id": "tropicalia",
+  "titulo": "Tropicália",
+  "indice": "tropicalia",
+  "generos": [
+    "tropicalia"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/tropicalia.png",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "1",
+      "artista": "Various Artists",
+      "titulo": "Tropicália ou Panis et Circencis",
+      "album": "various-artists-tropicalia-ou-panis-et-circencis"
+    },
+    {
+      "pos": "2",
+      "artista": "Caetano Veloso",
+      "titulo": "Caetano Veloso",
+      "album": "caetano-veloso-caetano-veloso"
+    },
+    {
+      "pos": "3",
+      "artista": "Os Mutantes",
+      "titulo": "Os Mutantes",
+      "album": "os-mutantes-os-mutantes"
+    },
+    {
+      "pos": "4",
+      "artista": "Os Mutantes",
+      "titulo": "Mutantes",
+      "album": "os-mutantes-mutantes"
+    },
+    {
+      "pos": "5",
+      "artista": "Gilberto Gil",
+      "titulo": "Gilberto Gil",
+      "album": "gilberto-gil-gilberto-gil"
+    },
+    {
+      "pos": "7",
+      "artista": "Tom Zé",
+      "titulo": "Grande Liquidação",
+      "album": "tom-ze-grande-liquidacao"
+    },
+    {
+      "pos": "8",
+      "artista": "Rogério Duprat",
+      "titulo": "A Banda Tropicalista do Duprat",
+      "album": "rogerio-duprat-a-banda-tropicalista-do-duprat"
+    },
+    {
+      "pos": "9",
+      "artista": "Gal Costa",
+      "titulo": "Gal Costa",
+      "album": "gal-costa-gal-costa"
+    },
+    {
+      "pos": "10",
+      "artista": "Gal Costa",
+      "titulo": "Gal",
+      "album": "gal-costa-gal"
+    },
+    {
+      "pos": "12",
+      "artista": "Jorge Ben",
+      "titulo": "Jorge Ben",
+      "album": "jorge-ben-jorge-ben"
+    }
+  ]
+}

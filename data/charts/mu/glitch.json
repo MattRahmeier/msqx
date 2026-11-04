@@ -1,0 +1,78 @@
+{
+  "id": "glitch",
+  "titulo": "Essential Glitch",
+  "indice": "glitch",
+  "generos": [
+    "glitch"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/glitch.png",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "1",
+      "artista": "Oval",
+      "titulo": "94 Diskont",
+      "album": "oval-94diskont"
+    },
+    {
+      "pos": "2",
+      "artista": "Pita",
+      "titulo": "Get Out",
+      "album": "pita-get-out"
+    },
+    {
+      "pos": "3",
+      "artista": "Pole",
+      "titulo": "CD1",
+      "album": "pole-cd1"
+    },
+    {
+      "pos": "4",
+      "artista": "Vladislav Delay",
+      "titulo": "Anima",
+      "album": "vladislav-delay-anima"
+    },
+    {
+      "pos": "5",
+      "artista": "Ryoji Ikeda",
+      "titulo": "Dataplex",
+      "album": "ryoji-ikeda-dataplex"
+    },
+    {
+      "pos": "6",
+      "artista": "Alva Noto",
+      "titulo": "Unitxt",
+      "album": "alva-noto-unitxt"
+    },
+    {
+      "pos": "9",
+      "artista": "Fennesz",
+      "titulo": "Endless Summer",
+      "album": "fennesz-endless-summer"
+    },
+    {
+      "pos": "10",
+      "artista": "Autechre",
+      "titulo": "Confield",
+      "album": "autechre-confield"
+    },
+    {
+      "pos": "12",
+      "artista": "Byetone",
+      "titulo": "Death of a Typographer",
+      "album": "byetone-death-of-a-typographer"
+    },
+    {
+      "pos": "16",
+      "artista": "Murcof",
+      "titulo": "Martes",
+      "album": "murcof-martes"
+    }
+  ]
+}

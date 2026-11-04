@@ -252,5 +252,29 @@
   "the-pillows-flcl-no1-addict": null,
   "yoko-kanno-macross-plus-original-soundtrack": null,
   "yoko-kanno-ghost-in-the-shell-stand-alone-complex-ost": null,
-  "ryuichi-sakamoto-merry-christmas-mr-lawrence": "3870eb3e-3447-384e-8d8a-aeddab4ef00b"
+  "ryuichi-sakamoto-merry-christmas-mr-lawrence": "3870eb3e-3447-384e-8d8a-aeddab4ef00b",
+  "gilberto-gil-gilberto-gil": "f939cc40-22b9-3bcf-89de-8069ef8b94e7",
+  "magma-magma": "8d34e575-a50c-3fa5-8728-36381f3b2ac1",
+  "henry-cow-legend": "64a79334-c531-320b-94e9-3f42a1944fc9",
+  "pole-cd1": "26f5bc04-190e-39f7-95e0-c1263d128ee1",
+  "suicide-suicide": "702d4a53-9f00-3f57-a723-e5e267518454",
+  "tom-ze-grande-liquidacao": {
+    "releaseGroup": "d3c9cb06-901b-3a21-8d05-fd0fc731209b",
+    "titulo": "Grande Liquidação"
+  },
+  "charlemagne-palestine-schlingen-blangen": {
+    "releaseGroup": "ba9601c6-3cca-43c4-9d2d-ec0ec208c15e",
+    "lancamento": "1985"
+  },
+  "teenage-jesus-and-the-jerks-pink": {
+    "releaseGroup": "daee29bf-fd7f-3b34-a513-bd5812c77aea",
+    "titulo": "Pink",
+    "lancamento": "1979",
+    "gravadora": "Lust/Unlust Music"
+  },
+  "yoshihisa-hirano-death-note-original-soundtrack": {
+    "releaseGroup": "e144df36-6a24-4cee-b0e8-33a1c489c285",
+    "titulo": "Death Note Original Soundtrack",
+    "artista": "Yoshihisa Hirano & Hideki Taniuchi"
+  }
 }

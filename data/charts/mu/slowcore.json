@@ -1,0 +1,78 @@
+{
+  "id": "slowcore",
+  "titulo": "/mu/ essential slowcore",
+  "indice": "slowcore",
+  "generos": [
+    "slowcore"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/slowcore.png",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "a1",
+      "artista": "Low",
+      "titulo": "I Could Live in Hope",
+      "album": "low-i-could-live-in-hope"
+    },
+    {
+      "pos": "a2",
+      "artista": "Red House Painters",
+      "titulo": "Down Colorful Hill",
+      "album": "red-house-painters-down-colorful-hill"
+    },
+    {
+      "pos": "a3",
+      "artista": "Galaxie 500",
+      "titulo": "On Fire",
+      "album": "galaxie-500-on-fire"
+    },
+    {
+      "pos": "a4",
+      "artista": "Low",
+      "titulo": "Things We Lost in the Fire",
+      "album": "low-things-we-lost-in-the-fire"
+    },
+    {
+      "pos": "a5",
+      "artista": "Carissa's Wierd",
+      "titulo": "Songs About Leaving",
+      "album": "carissas-wierd-songs-about-leaving"
+    },
+    {
+      "pos": "a6",
+      "artista": "Duster",
+      "titulo": "Stratosphere",
+      "album": "duster-stratosphere"
+    },
+    {
+      "pos": "b2",
+      "artista": "Codeine",
+      "titulo": "The White Birch",
+      "album": "codeine-the-white-birch"
+    },
+    {
+      "pos": "c1",
+      "artista": "Bedhead",
+      "titulo": "Transaction de Novo",
+      "album": "bedhead-transaction-de-novo"
+    },
+    {
+      "pos": "c3",
+      "artista": "Codeine",
+      "titulo": "Frigid Stars LP",
+      "album": "codeine-frigid-stars-lp"
+    },
+    {
+      "pos": "c4",
+      "artista": "Red House Painters",
+      "titulo": "Red House Painters",
+      "album": "red-house-painters-red-house-painters"
+    }
+  ]
+}

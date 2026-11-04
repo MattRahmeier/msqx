@@ -1,0 +1,87 @@
+{
+  "id": "drone",
+  "titulo": "Drone",
+  "indice": "drone",
+  "generos": [
+    "drone"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/drone.jpg",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "1",
+      "artista": "Éliane Radigue",
+      "titulo": "Trilogie de la Mort",
+      "ano": 1998,
+      "album": "eliane-radigue-trilogie-de-la-mort"
+    },
+    {
+      "pos": "2",
+      "artista": "Charlemagne Palestine",
+      "titulo": "Schlingen-Blängen",
+      "ano": 1985,
+      "album": "charlemagne-palestine-schlingen-blangen"
+    },
+    {
+      "pos": "3",
+      "artista": "Time Machines",
+      "titulo": "Time Machines",
+      "ano": 1998,
+      "album": "time-machines-time-machines"
+    },
+    {
+      "pos": "4",
+      "artista": "Eleh",
+      "titulo": "Floating Frequencies / Intuitive Synthesis",
+      "album": "eleh-floating-frequencies-intuitive-synthesis"
+    },
+    {
+      "pos": "5",
+      "artista": "La Monte Young & Marian Zazeela",
+      "titulo": "31 VII 69 10:26 - 10:49 PM / 23 VIII 64 2:50:45 - 3:11 AM The Volga Delta",
+      "ano": 1969,
+      "album": "la-monte-young-and-marian-zazeela-31-vii-69-10-26-10-49-pm-23-viii-64-2-50-45-3-11-am-the-volga-delta"
+    },
+    {
+      "pos": "8",
+      "artista": "Pauline Oliveros",
+      "titulo": "Primordial / Lift",
+      "ano": 1998,
+      "album": "pauline-oliveros-primordial-lift"
+    },
+    {
+      "pos": "11",
+      "artista": "Henry Flynt",
+      "titulo": "You Are My Everlovin' / Celestial Power",
+      "ano": 1986,
+      "album": "henry-flynt-you-are-my-everlovin-celestial-power"
+    },
+    {
+      "pos": "14",
+      "artista": "Tony Conrad",
+      "titulo": "Slapping Pythagoras",
+      "ano": 1995,
+      "album": "tony-conrad-slapping-pythagoras"
+    },
+    {
+      "pos": "20",
+      "artista": "Kevin Drumm",
+      "titulo": "Imperial Distortion",
+      "ano": 2008,
+      "album": "kevin-drumm-imperial-distortion"
+    },
+    {
+      "pos": "23",
+      "artista": "Phill Niblock",
+      "titulo": "Touch Three",
+      "ano": 2006,
+      "album": "phill-niblock-touch-three"
+    }
+  ]
+}

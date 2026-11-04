@@ -1,0 +1,78 @@
+{
+  "id": "deathcore",
+  "titulo": "/mu/ Essential Deathcore",
+  "indice": "deathcore",
+  "generos": [
+    "deathcore"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/deathcore.png",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Veil of Maya",
+      "titulo": "The Common Man's Collapse",
+      "album": "veil-of-maya-the-common-mans-collapse"
+    },
+    {
+      "pos": "1-2",
+      "artista": "All Shall Perish",
+      "titulo": "The Price of Existence",
+      "album": "all-shall-perish-the-price-of-existence"
+    },
+    {
+      "pos": "1-3",
+      "artista": "As Blood Runs Black",
+      "titulo": "Allegiance",
+      "album": "as-blood-runs-black-allegiance"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Whitechapel",
+      "titulo": "This Is Exile",
+      "album": "whitechapel-this-is-exile"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Despised Icon",
+      "titulo": "The Ills of Modern Man",
+      "album": "despised-icon-the-ills-of-modern-man"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Job for a Cowboy",
+      "titulo": "Doom",
+      "album": "job-for-a-cowboy-doom"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Through the Eyes of the Dead",
+      "titulo": "Bloodlust",
+      "album": "through-the-eyes-of-the-dead-bloodlust"
+    },
+    {
+      "pos": "5-1",
+      "artista": "Bring Me the Horizon",
+      "titulo": "Count Your Blessings",
+      "album": "bring-me-the-horizon-count-your-blessings"
+    },
+    {
+      "pos": "5-3",
+      "artista": "Carnifex",
+      "titulo": "The Diseased and the Poisoned",
+      "album": "carnifex-the-diseased-and-the-poisoned"
+    },
+    {
+      "pos": "6-3",
+      "artista": "Impending Doom",
+      "titulo": "Nailed. Dead. Risen.",
+      "album": "impending-doom-nailed-dead-risen"
+    }
+  ]
+}
