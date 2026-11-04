@@ -51,8 +51,11 @@ document.addEventListener("click", (e) => { if (e.target.closest("[data-rota], .
 // mesmo que o HTML que o criou tenha esquecido o target.
 // No Android, os links dos serviços de streaming e do YouTube abrem direto no app instalado (link
 // "intent:" com o pacote do app), sem abrir uma aba do navegador; sem o app, o Android segue para o
-// endereço normal (browser_fallback_url). No iPhone, o próprio sistema leva ao app quando o serviço
-// tem o app instalado (Universal Links), então o link fica como está.
+// endereço normal (browser_fallback_url). Só vale com o site na janela principal de um navegador:
+// dentro de um iframe (a cópia publicada como Artifact) ou de um WebView (navegador interno de outro
+// app), o "intent:" não abre nada e cai numa página de erro; ali o link segue normal, em outra aba, e
+// o Android ainda pode levá-lo ao app. No iPhone, o próprio sistema leva ao app quando o serviço tem o
+// app instalado (Universal Links), então o link fica como está.
 const APPS_ANDROID = {
   "music.youtube.com": "com.google.android.apps.youtube.music",
   "www.youtube.com": "com.google.android.youtube", "youtube.com": "com.google.android.youtube", "m.youtube.com": "com.google.android.youtube", "youtu.be": "com.google.android.youtube",
@@ -62,7 +65,7 @@ const APPS_ANDROID = {
   "tidal.com": "com.aspiro.tidal", "listen.tidal.com": "com.aspiro.tidal",
   "open.qobuz.com": "com.qobuz.music", "play.qobuz.com": "com.qobuz.music",
 };
-const android = /Android/i.test(navigator.userAgent);
+const android = /Android/i.test(navigator.userAgent) && !/;\s*wv\)/.test(navigator.userAgent) && window.top === window;
 const linkDoApp = (a) => `intent://${a.host}${a.pathname}${a.search}#Intent;scheme=https;package=${APPS_ANDROID[a.hostname]};S.browser_fallback_url=${encodeURIComponent(a.href)};end`;
 
 document.addEventListener("click", (e) => {
