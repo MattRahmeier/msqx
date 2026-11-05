@@ -44,13 +44,13 @@ export const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&a
 // Botões de streaming. `comNome`: mostra o nome da plataforma ao lado do ícone (caixa lateral).
 // Fora dos streamings populares (Spotify, YouTube Music, Apple Music, Deezer), o botão não oficial —
 // círculo vermelho com o logo do YouTube — leva ao upload de fã (ficha.naoOficial,
-// scripts/buscar-nao-oficiais.js): o álbum completo ou, sem ele, uma faixa do álbum.
+// scripts/buscar-nao-oficiais.js): o álbum completo, uma faixa do álbum ou, sem vídeo conferido, a busca no YouTube.
 export const temOndeOuvir = (ficha) => Object.keys(ficha.links || {}).length > 0 || Boolean(ficha.naoOficial?.url);
 function botaoNaoOficial(ficha) {
   const n = ficha.naoOficial;
-  const rotulo = n.tipo === "album" ? "Não oficial: álbum completo no YouTube" : "Não oficial: uma faixa do álbum no YouTube";
+  const rotulo = { album: "Não oficial: álbum completo no YouTube", faixa: "Não oficial: uma faixa do álbum no YouTube", busca: "Não oficial: procurar no YouTube" }[n.tipo];
   return `<li><a class="plat nao-oficial" href="${esc(n.url)}" target="_blank" rel="noopener"
-    aria-label="${rotulo}: ${esc(ficha.titulo)}" title="${rotulo} (upload de fã)">
+    aria-label="${rotulo}: ${esc(ficha.titulo)}" title="${rotulo}${n.tipo === "busca" ? "" : " (upload de fã)"}">
     <svg class="icone" aria-hidden="true"><use href="#i-youtube"/></svg></a></li>`;
 }
 const POPULARES = ["spotify", "youtubeMusic", "appleMusic", "deezer"];

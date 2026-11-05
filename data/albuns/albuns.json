@@ -7616,7 +7616,10 @@
     "destaqueVerificado": "2026-11-05",
     "discogs": null,
     "sobreVerificado": "2026-11-05",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=A.%20L.%20Lloyd%20The%20Old%20Bush%20Songs",
+      "tipo": "busca"
+    },
     "sobre": "The Old Bush Songs é uma coletânea de A. L. Lloyd que reúne gravações já lançadas do artista, publicada em 1994 pela Larrikin Records, com 15 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -9232,7 +9235,12 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/master/399004",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=2Ht80tUOEq8",
+      "tipo": "album",
+      "titulo": "Ustad Ali Akbar Khan, Pandit Chatur Lal & Shirish Gor - Music Of India",
+      "canal": "madrotter"
+    },
     "sobre": "Music of India: Morning and Evening Rāgas é um álbum de Ustad Ali Akbar Khan & Pandit Chatur Lal, lançado em 1956 pela His Master’s Voice, com 4 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -14802,7 +14810,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": null,
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Anton%20Bruckner%20Symphony%20No.%207",
+      "tipo": "busca"
+    },
     "sobre": "Symphony No. 7 é um álbum de Anton Bruckner; Rundfunk‐Sinfonie-Orchester Berlin, Heinz Rögner, lançado em 2005 pela Berlin Classics, com 4 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -15237,7 +15248,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/release/9239886",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Vivaldi%20The%20Four%20Seasons",
+      "tipo": "busca"
+    },
     "sobre": "The Four Seasons é um álbum de Vivaldi; Alice Harnoncourt, Concentus Musicus Wien, Nikolaus Harnoncourt, lançado em 1996 pela TELDEC, com 25 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -28227,7 +28241,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/release/6943420",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=B%C3%A9la%20Bart%C3%B3k%20Concerto%20for%20Orchestra%20%2F%20Music%20for%20Strings%2C%20Percussion%20and%20Celesta",
+      "tipo": "busca"
+    },
     "sobre": "Concerto for Orchestra / Music for Strings, Percussion and Celesta é um álbum de Béla Bartók; Ferenc Fricsay, Deutsches Symphonie‐Orchester Berlin, lançado em 1996 pela Deutsche Grammophon, com 9 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -30147,7 +30164,10 @@
     "links": {},
     "linksVerificados": "2026-10-28",
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Big%20Bad%20Voodoo%20Daddy%20Americana%20Deluxe",
+      "tipo": "busca"
+    },
     "sobre": "Americana Deluxe é o segundo álbum de estúdio do Big Bad Voodoo Daddy. O álbum às vezes é chamado de Big Bad Voodoo Daddy, porque a capa mostra com destaque um logotipo estilizado \"Big Bad Voodoo Daddy\" e não traz a expressão \"Americana Deluxe\". O encarte e o site da banda dão o título como Americana Deluxe.",
     "sobreFonte": {
       "url": "https://en.wikipedia.org/wiki/Americana_Deluxe",
@@ -37262,7 +37282,10 @@
       }
     ],
     "discogs": "https://www.discogs.com/release/2669681",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Blind%20Lemon%20Jefferson%20Complete%20Recorded%20Works%20in%20Chronological%20Order%2C%20Volume%201%3A%201925%E2%80%931926",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -47987,7 +48010,10 @@
     "links": {},
     "linksVerificados": "2026-10-28",
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=BSBD%20%26%20Nacho%20Picasso%20Exalted",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Exalted é um álbum de BSBD & Nacho Picasso, lançado.",
     "sobreFonte": {
@@ -49081,7 +49107,12 @@
       ]
     },
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=Ohfe9-p58co",
+      "tipo": "faixa",
+      "titulo": "The Crickets - You've Got Love",
+      "canal": "1001 Albums Journey"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "The “Chirping” Crickets / Buddy Holly é uma coletânea de The Crickets / Buddy Holly que reúne gravações já lançadas do artista, publicada em 2000 pela Beat Goes On Records, com 24 faixas.",
     "sobreFonte": {
@@ -66564,7 +66595,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/release/10138007",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Debussy%20Arrau%20Heritage%3A%20Debussy",
+      "tipo": "busca"
+    },
     "sobre": "Arrau Heritage: Debussy é uma coletânea de Debussy; Claudio Arrau que reúne gravações já lançadas do artista, publicada em 2003 pela Philips, com 40 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -77102,7 +77136,10 @@
       "url": "https://musicbrainz.org/release-group/63f3d464-0216-31cb-a79a-192547849020"
     },
     "discogs": "https://www.discogs.com/master/8811",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Danny%20Howells%20Global%20Underground%20027%3A%20Danny%20Howells%20in%20Miami",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -78684,7 +78721,10 @@
       ]
     },
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Dave%20Burrell%20After%20Love",
+      "tipo": "busca"
+    },
     "sobre": "After Love é um álbum do pianista de jazz Dave Burrell, gravado em 1970 e lançado pelo selo francês America. Foi relançado em CD em 2004 pela Universal France. As duas canções (em três faixas) foram gravadas durante as \"lendárias sessões parisienses de 1969–1970\".",
     "sobreFonte": {
       "url": "https://en.wikipedia.org/wiki/After_Love_(album)",
@@ -89863,7 +89903,10 @@
       "url": "https://musicbrainz.org/release-group/557aa724-7d2f-3a86-bb54-7d7e166a8e65"
     },
     "discogs": "https://www.discogs.com/master/274014",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Pure%20Garage%20II",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -91492,7 +91535,10 @@
     "links": {},
     "linksVerificados": "2026-10-28",
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Django%20Reinhardt%20The%20Gypsy%20Genius",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "The Gypsy Genius é um álbum de Django Reinhardt, lançado.",
     "sobreFonte": {
@@ -93029,7 +93075,10 @@
       "url": "https://musicbrainz.org/release-group/fb853cb0-b413-41dd-a502-99b7037d44aa"
     },
     "discogs": "https://www.discogs.com/master/471553",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Dome%20Dome",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -93388,7 +93437,12 @@
       }
     ],
     "discogs": "https://www.discogs.com/master/40056",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=whBYYWZPyeQ",
+      "tipo": "faixa",
+      "titulo": "Don Cherry - Brilliant Action",
+      "canal": "MoodSwingerz"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -95102,7 +95156,10 @@
       ]
     },
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Dreams%20Forgotten%20Thoughts",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Forgotten Thoughts é um EP de Dreams, lançado em 2010 pela SVN SNS RCRDS, com 9 faixas.",
     "sobreFonte": {
@@ -110909,7 +110966,10 @@
       "url": "https://musicbrainz.org/release-group/75218b40-2b4d-4640-b89b-22ba854f33e6"
     },
     "discogs": "https://www.discogs.com/master/504645",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Ferry%20Corsten%20Ferry%20Corsten%20Presents%20Full%20On%20Ferry%20Ibiza",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -115281,7 +115341,10 @@
     "links": {},
     "linksVerificados": "2026-10-28",
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Frank%20Sinatra%20Sinatra%20'59%3A%20Live%20in%20Australia",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Sinatra '59: Live in Australia é um álbum de Frank Sinatra, lançado.",
     "sobreFonte": {
@@ -116750,7 +116813,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": null,
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Fr%C3%A9d%C3%A9ric%20Chopin%2012%20Etudes%20op.%2025%20%2F%20Piano%20sonata%20no.%202%20%2F%20Berceuse",
+      "tipo": "busca"
+    },
     "sobre": "12 Etudes op. 25 / Piano sonata no. 2 / Berceuse é um álbum de Frédéric Chopin; Maurizio Pollini, lançado em 2001 pela Deutsche Grammophon, com 17 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -119976,7 +120042,10 @@
     "links": {},
     "linksVerificados": "2026-10-28",
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Ganksta%20N-I-P%20The%20South%20Park%20Psycho",
+      "tipo": "busca"
+    },
     "sobre": "The South Park Psycho é o álbum de estúdio de estreia do rapper Ganksta N-I-P. Foi lançado em 25 de fevereiro de 1992 pela Rap-a-Lot Records. O álbum tem produção de Ganksta N-I-P, The Terrorists, John Bido e Doug King. É um dos primeiros exemplos do gênero horrorcore e é considerado um clássico do hip hop sulista.",
     "sobreFonte": {
       "url": "https://en.wikipedia.org/wiki/The_South_Park_Psycho",
@@ -120906,7 +120975,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": null,
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=H%C3%A4ndel%20Dixit%20Dominus",
+      "tipo": "busca"
+    },
     "sobre": "Dixit Dominus é um álbum de Händel; Les Musiciens du Louvre, Marc Minkowski, Annick Massis, Magdalena Kožená, lançado em 1999 pela Archiv Produktion, com 26 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -122920,6 +122992,12 @@
     ],
     "estilosFonte": {
       "mpb": "musicbrainz"
+    },
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=UoaZSPJEWd0",
+      "tipo": "faixa",
+      "titulo": "Procissão",
+      "canal": "Gilberto Gil"
     }
   },
   {
@@ -123632,7 +123710,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/release/16146117",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Verdi%20Otello",
+      "tipo": "busca"
+    },
     "sobre": "Otello é um álbum de Verdi; Placido Domingo, Mirella Freni, Piero Cappuccilli, Luigi Roni, Carlos Kleiber, lançado em 2002 pela Opera d’Oro, com 4 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -144790,7 +144871,10 @@
     "links": {},
     "linksVerificados": "2026-10-28",
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Jam%20Baxter%20Smack%20Out%20Mondays",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Smack Out Mondays é um álbum de Jam Baxter, lançado.",
     "sobreFonte": {
@@ -151249,7 +151333,12 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": null,
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=iZT4JBGGNIQ",
+      "tipo": "album",
+      "titulo": "Masaaki Suzuki conducts Bach's Mass in B minor",
+      "canal": "SlowHappygood"
+    },
     "sobre": "Mass in B minor é um álbum de Johann Sebastian Bach; Bach Collegium Japan, Masaaki Suzuki, lançado em 2007 pela BIS, com 27 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -155772,7 +155861,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/master/1192908",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Joseph%20Haydn%20-%20Amadeus%20Quartet%20String%20Quartets%20Opp.%2076%20%E2%80%A2%2077%20%E2%80%A2%20103",
+      "tipo": "busca"
+    },
     "sobre": "String Quartets Opp. 76 • 77 • 103 é uma coletânea de Joseph Haydn - Amadeus Quartet que reúne gravações já lançadas do artista, publicada em 2002 pela Deutsche Grammophon, com 34 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -156153,7 +156245,12 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/release/8860010",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=ZyH8I25dtKM",
+      "tipo": "faixa",
+      "titulo": "Josquin des Prez: Qui velatus facie fuisti (A Sei Voci)",
+      "canal": "Panagiotis Adám"
+    },
     "sobre": "Missa Pange Lingua / Motets é um álbum de Josquin des Prez; A Sei Voci, Bernard Fabre-Garrus, lançado em 2000 pela naïve, com 13 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -156889,7 +156986,10 @@
       ]
     },
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Juicy%20(Juice%20Manne)%20Jay%20Volume%209MM%20%22It's%20On%22",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Volume 9MM \"It's On\" é um álbum de Juicy (Juice Manne) Jay, lançado em 1994, com 21 faixas.",
     "sobreFonte": {
@@ -163199,7 +163299,10 @@
       }
     ],
     "discogs": "https://www.discogs.com/master/1295327",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Kid%20Koala%20Nufonia%20Must%20Fall",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -165300,7 +165403,10 @@
     ],
     "linksVerificados": "2026-11-01",
     "destaqueVerificado": "2026-11-01",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Kiyotaka%20Sugiyama%20Beyond%20the%20Beyond",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Beyond the Beyond é um álbum de Kiyotaka Sugiyama, lançado em 1995 pela Antinos Records, com 5 faixas.",
     "sobreFonte": {
@@ -165966,7 +166072,12 @@
       }
     ],
     "discogs": "https://www.discogs.com/master/103371",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=TYuaVEE3jto",
+      "tipo": "faixa",
+      "titulo": "Kode 9 & The Spaceape - Curious",
+      "canal": "Recklessness89"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -169608,7 +169719,10 @@
         "votos": 64
       }
     ],
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=La%20Monte%20Young%20%26%20Marian%20Zazeela%2031%20VII%2069%2010%3A26%E2%80%9310%3A49%20PM%20%2F%2023%20VIII%2064%202%3A50%3A45%E2%80%933%3A11%20AM",
+      "tipo": "busca"
+    },
     "descritores": [
       "dark"
     ],
@@ -170475,7 +170589,10 @@
     "destaqueVerificado": "2026-11-04",
     "discogs": null,
     "sobreVerificado": "2026-11-04",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=LAKE%20R%E2%96%B2DIO%20Planet%20Earth%20About%20to%20Be%20Recycled",
+      "tipo": "busca"
+    },
     "sobre": "Planet Earth About to Be Recycled é um álbum de LAKE R▲DIO, lançado em 2010, com 15 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -173171,7 +173288,12 @@
       "url": "https://musicbrainz.org/release-group/3b63649a-e898-3e86-94e3-21d14a8c5c94"
     },
     "discogs": "https://www.discogs.com/master/324633",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=SLzn63Eo2aQ",
+      "tipo": "faixa",
+      "titulo": "Lee Burridge (NuBreed Series)  - When I Fall In Love (Stryke's Acid Dub Techsture)",
+      "canal": "Underworld Underwater"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -176139,7 +176261,10 @@
       "traduzido": true
     },
     "sobreVerificado": "2026-11-05",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Liam%20Clancy%20%26%20Various%20Artists%20The%20Lark%20in%20the%20Morning",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -182214,7 +182339,10 @@
     "links": {},
     "linksVerificados": "2026-10-28",
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Los%20El%C3%A1sticos%20Entre%20demonios%20y%20villanos",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Entre demonios y villanos é um álbum de Los Elásticos, lançado.",
     "sobreFonte": {
@@ -185063,7 +185191,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": null,
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Beethoven%20Beethoven%3A%20The%205%20Piano%20Concertos%20%2F%20Mozart%3A%20Concerto%20No.%2025",
+      "tipo": "busca"
+    },
     "sobre": "Beethoven: The 5 Piano Concertos / Mozart: Concerto No. 25 é uma coletânea de Beethoven, Mozart; The Cleveland Orchestra, George Szell, Leon Fleisher que reúne gravações já lançadas do artista, publicada em 1989 pela Sony Classical, com 18 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -185136,7 +185267,12 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": null,
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=mlJzyhQfcY8",
+      "tipo": "album",
+      "titulo": "Arturo Toscanini Beethoven Symphony no. 9 1936 Pinza Kullman Bampton Tentoni",
+      "canal": "Optical"
+    },
     "sobre": "Symphony no. 9 é um álbum de Beethoven; Arturo Toscanini, lançado em 1987 pela RCA Red Seal, com 4 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -189128,7 +189264,12 @@
       ]
     },
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=4Sc_EvlrGkY",
+      "tipo": "faixa",
+      "titulo": "Ash Ra Tempel, Manuel Göttsching‎ - Pluralis",
+      "canal": "studio. weather"
+    },
     "sobre": "Inventions for Electric Guitar é o álbum de estúdio solo de estreia do guitarrista e compositor Manuel Göttsching. Foi lançado inicialmente com o subtítulo Ash Ra Tempel VI, o que o torna, tecnicamente, o sexto e último álbum com o nome Ash Ra Tempel. O disco marcou uma mudança de direção, inspirada na incursão de Göttsching pelo minimalismo e em experimentos tecnológicos com seu novo equipamento de estúdio.",
     "sobreFonte": {
       "url": "https://en.wikipedia.org/wiki/Inventions_for_Electric_Guitar",
@@ -189984,7 +190125,10 @@
       ]
     },
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Mariya%20Takeuchi%20Love%20Songs",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Love Songs é um álbum de Mariya Takeuchi, lançado em 2005 pela J. Island, com 4 faixas.",
     "sobreFonte": {
@@ -191454,7 +191598,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": null,
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Martha%20Argerich%20Rachmaninov%20Piano%20Concerto%20No.3%2C%20Tchaikovsky%20Piano%20Concerto%20No.1%20%3A%20Argerich(P)Chailly%20%2F%20Kondrashin%20%2F",
+      "tipo": "busca"
+    },
     "sobre": "Rachmaninov Piano Concerto No.3, Tchaikovsky Piano Concerto No.1 : Argerich(P)Chailly / Kondrashin / é um álbum ao vivo de Martha Argerich, lançado em 2016 pela Universal Music, com 6 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -196610,7 +196757,12 @@
         "votos": 82
       }
     ],
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=64RVaCFSN6E",
+      "tipo": "faixa",
+      "titulo": "Melvin Van Peebles - Sweetback's Theme from Sweet Sweetback’s Baadasssss Song",
+      "canal": "Stax Records"
+    },
     "sobre": "Sweet Sweetback's Baadasssss Song é um álbum de Melvin Van Peebles feat. Brer Soul & Earth, Wind & Fire, lançado em 1971 pela Stax, com 10 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -201400,7 +201552,10 @@
     "links": {},
     "linksVerificados": "2026-10-28",
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Millionyoung%20Sundreamm",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Sundreamm é um álbum de Millionyoung, lançado.",
     "sobreFonte": {
@@ -205737,7 +205892,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/release/3097846",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Moussorgsky%20The%20Power%20of%20the%20Orchestra%3A%20A%20Night%20on%20Bald%20Mountain%20%2F%20Pictures%20at%20an%20Exhibition",
+      "tipo": "busca"
+    },
     "sobre": "The Power of the Orchestra: A Night on Bald Mountain / Pictures at an Exhibition é um álbum de Moussorgsky; The Royal Philharmonic Orchestra, Leibowitz, lançado em 1963 pela RCA Victor Red Seal, com 3 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -205898,7 +206056,10 @@
       "gravadora": "discogs",
       "capa": "discogs"
     },
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Mo%C3%ABv%C3%B6t%20%C3%89zl%C3%A9%C3%BDfbdr%C3%A9htr%20V%C3%A9pr%C3%A9%C3%B9b%20Z%C3%B9%C3%A9rfl%20M%C3%A0z%C3%A0gv%C3%A0tre%20%C3%89rbb%C3%A9dr%C3%A9%C3%A0",
+      "tipo": "busca"
+    },
     "capaFonte": "https://i.discogs.com/qCQfQ5oVMidLeZpH43wUI68kAi-oygPM-oEdaf0TX-w/rs:fit/g:sm/q:90/h:600/w:366/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5MDI5/NTItMTY3OTcwMDU0/NS0yNDY3LmpwZWc.jpeg",
     "descritores": [
       "dark"
@@ -206653,7 +206814,10 @@
       ]
     },
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Monsters%20From%20Mars%20Play%20Some%20Originals%20and%20Some%20Surf%20Guitar%20Classics%20and%20Obscurities",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Play Some Originals and Some Surf Guitar Classics and Obscurities é um álbum de Monsters From Mars, lançado em 2002, com 14 faixas.",
     "sobreFonte": {
@@ -206690,7 +206854,10 @@
       "tipo": "dados",
       "url": null
     },
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Moodymann%20Silent%20Introduction",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -218776,7 +218943,10 @@
       ]
     },
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Noriko%20Tujiko%20NORIKO",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "NORIKO é um álbum de Noriko Tujiko, lançado em 1982 pela Casablanca Records, com 9 faixas.",
     "sobreFonte": {
@@ -232237,7 +232407,11 @@
       "lastfm",
       "musicbrainz"
     ],
-    "capa": "assets/img/capas/pena-branca-and-xavantinho-os-gigantes.jpg"
+    "capa": "assets/img/capas/pena-branca-and-xavantinho-os-gigantes.jpg",
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Pena%20Branca%20%26%20Xavantinho%20Os%20Gigantes",
+      "tipo": "busca"
+    }
   },
   {
     "id": "penjaga-insaf-sama-sadja",
@@ -264747,7 +264921,10 @@
       ]
     },
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=S.E.S.%20Friend",
+      "tipo": "busca"
+    },
     "sobre": "Friend é a segunda coletânea coreana (divulgada como álbum \"especial\") do girl group sul-coreano S.E.S., lançada pela SM Entertainment em 21 de novembro de 2002. É o último álbum do S.E.S. lançado na Coreia do Sul antes de o grupo ficar inativo e se separar oficialmente no ano seguinte. O álbum também foi lançado em partes da Ásia, como Filipinas, Hong Kong e Taiwan.",
     "sobreFonte": {
       "url": "https://en.wikipedia.org/wiki/Friend_(album)",
@@ -282524,7 +282701,10 @@
     "linksVerificados": "2026-11-05",
     "destaqueVerificado": "2026-11-05",
     "sobreVerificado": "2026-11-05",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Steve%20Benbow%20Sings%20English%20Folk%20Songs",
+      "tipo": "busca"
+    },
     "sobre": "Sings English Folk Songs é um álbum de Steve Benbow, lançado.",
     "sobreFonte": {
       "tipo": "dados",
@@ -283918,7 +284098,10 @@
       "url": "https://musicbrainz.org/release-group/20edca0f-03f2-4e64-a009-4a74da73963b"
     },
     "discogs": "https://www.discogs.com/master/463270",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Submerse%20%26%20Resketch%20featuring%20Rachel%20Anne%20Coulter%20Distance",
+      "tipo": "busca"
+    },
     "descritores": [
       "futuristic"
     ],
@@ -286576,7 +286759,10 @@
       "url": "https://musicbrainz.org/release-group/36e563da-c976-3164-8f46-4e6daa81b9a3"
     },
     "discogs": "https://www.discogs.com/master/143596",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Sun%20Ra%20Arkestra%20Nuclear%20War",
+      "tipo": "busca"
+    },
     "descritores": [
       "psychedelic"
     ],
@@ -288294,7 +288480,12 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": null,
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=lTKv7nvD8D8",
+      "tipo": "album",
+      "titulo": "Sviatoslav Richter - BEETHOVEN & SCHUBERT & SCHUMANN: Piano Works",
+      "canal": "ChroNotes"
+    },
     "sobre": "Schubert: 'Wanderer' Fantasy / Schumann: Fantasy / Papillons é uma coletânea de Schubert, Schumann; Sviatoslav Richter que reúne gravações já lançadas do artista, publicada em 2004 pela EMI Classics, com 19 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -292302,7 +292493,10 @@
     "links": {},
     "linksVerificados": "2026-10-28",
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Taskforce%20Music%20from%20the%20Corner%2C%20Volume%201",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Music from the Corner, Volume 1 é um álbum de Taskforce, lançado.",
     "sobreFonte": {
@@ -292784,7 +292978,10 @@
       ]
     },
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Tatsuro%20Yamashita%20for%20you",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "For You é o sexto álbum de estúdio do cantor e compositor japonês Tatsuro Yamashita, lançado em janeiro de 1982.",
     "sobreFonte": {
@@ -301589,7 +301786,10 @@
       ]
     },
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=The%20Chocolate%20Watchband%20Get%20Away",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Get Away é um álbum de The Chocolate Watchband, lançado em 2000 pela Orchid, com 11 faixas.",
     "sobreFonte": {
@@ -304893,7 +305093,10 @@
     "links": {},
     "linksVerificados": "2026-10-28",
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=The%20Desert%20Sessions%20Volumes%201%20%26%202",
+      "tipo": "busca"
+    },
     "sobre": "Volumes 1 & 2 é a primeira coletânea do projeto de Josh Homme The Desert Sessions. Volume 1: Instrumental Driving Music for Felons e Volume 2: Status: Ships Commander Butchered saíram separadamente em vinil e depois foram reunidos em CD. Este álbum difere das Desert Sessions colaborativas seguintes porque foi gravado só pela banda de Josh Homme, The Acquitted Felons.",
     "sobreFonte": {
       "url": "https://en.wikipedia.org/wiki/Volumes_1_%26_2_(The_Desert_Sessions_album)",
@@ -320823,7 +321026,10 @@
     ],
     "linksVerificados": "2026-10-28",
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=The%20Skaters%20Physicalities%20of%20the%20Sensibilites%20of%20Ingrediential%20Strairways",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Physicalities of the Sensibilites of Ingrediential Strairways é um álbum de The Skaters, lançado em 2008 pela Eclipse Records, com 5 faixas.",
     "sobreFonte": {
@@ -323546,7 +323752,10 @@
       ]
     },
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=The%20Surf%20Coasters%20Live!%20Live!%20Live!",
+      "tipo": "busca"
+    },
     "sobreVerificado": "2026-10-29",
     "sobre": "Live! Live! Live! é um EP de The Surf Coasters, lançado em 2004 pela Beat Records, com 5 faixas.",
     "sobreFonte": {
@@ -340333,7 +340542,12 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/release/10260202",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=3VRkx8B6IX0",
+      "tipo": "album",
+      "titulo": "Barrelhouse Jazz - Turk Murphy",
+      "canal": "Yong Hun Kim"
+    },
     "sobre": "Barrelhouse Jazz é um álbum de Turk Murphy And His Jazz Band, lançado em 1953 pela Columbia, com 8 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -342420,7 +342634,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/master/358903",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Umm%20Kulthum%20Alf%20Leila%20wa%20Leila",
+      "tipo": "busca"
+    },
     "sobre": "Alf Leila wa Leila é um álbum de Umm Kulthum, lançado em 1969 pela Sono Cairo, com 1 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -345653,7 +345870,12 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": null,
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=Fs6iVRLXJVk",
+      "tipo": "album",
+      "titulo": "Anthology of Central and South American Indian Music",
+      "canal": "World Field Recordings"
+    },
     "sobre": "Anthology of Central and South American Indian Music é uma coletânea de Various Artists que reúne gravações já lançadas do artista, publicada pela Smithsonian Folkways, com 38 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -345894,7 +346116,10 @@
       "url": "https://musicbrainz.org/release-group/7926bfd1-f5c8-3d44-9b61-4f381fddb9e7"
     },
     "discogs": "https://www.discogs.com/release/990377",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Ayia%20Napa%20Discovered",
+      "tipo": "busca"
+    },
     "capaFonte": "https://i.discogs.com/phjivQmUIMmJOydZKAKYkEuaDeqcjjr6CMtDaJZUWMU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5MDM3/Ny0xMjAzMzA1MjA2/LmpwZWc.jpeg",
     "complementos": {
       "capa": "discogs"
@@ -346061,7 +346286,10 @@
       "url": "https://musicbrainz.org/release-group/573aad44-e1d7-4a7d-ada9-202b9f312d16"
     },
     "discogs": null,
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Back%20and%204th",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -346254,7 +346482,10 @@
       }
     ],
     "sobreVerificado": "2026-11-05",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Back%20Roads%20to%20Cold%20Mountain",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -346380,7 +346611,10 @@
         "votos": 33
       }
     ],
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Cold%20Heat%3A%20Heavy%20Funk%20Rarities%2C%201968%E2%80%931974%2C%20Volume%201",
+      "tipo": "busca"
+    },
     "sobre": "Cold Heat: Heavy Funk Rarities, 1968–1974, Volume 1 é uma coletânea de Various Artists que reúne gravações já lançadas do artista, publicada em 2004 pela Now-Again Records, com 15 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -346492,7 +346726,10 @@
       "url": "https://musicbrainz.org/release-group/ba116c71-2b1a-4002-8792-bd6b100024a9"
     },
     "discogs": "https://www.discogs.com/master/1790583",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Deep%20Medi%20Releases%2C%20Volume%201",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -346588,7 +346825,12 @@
     "destaqueVerificado": "2026-11-05",
     "discogs": null,
     "sobreVerificado": "2026-11-05",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=2fAUGBsNiR0",
+      "tipo": "faixa",
+      "titulo": "The diplomats of solid sound feat. The Diplomettes-Trouble Me",
+      "canal": "The Music Show Channel"
+    },
     "sobre": "The Diplomats of Solid Sound é um álbum de The Diplomats of Solid Sound featuring The Diplomettes, lançado em 2008 pela Pravda Records, com 11 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -346828,7 +347070,10 @@
       "url": "https://musicbrainz.org/release-group/f9b743cb-4ac8-335c-8263-973d677df61c"
     },
     "discogs": "https://www.discogs.com/master/17887",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Grime%202",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -347092,7 +347337,12 @@
         "url": "https://pitchfork.com/reviews/albums/14506-let-me-shine-for-you/"
       }
     ],
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/watch?v=e6rm5fE2-kQ",
+      "tipo": "album",
+      "titulo": "Tri Angle Records Presents: “Let Me Shine for You”",
+      "canal": "Dale"
+    },
     "sobre": "Let Me Shine for You é um EP de Various Artists, lançado em 2010 pela Tri Angle, com 6 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -347213,7 +347463,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": null,
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Music%20of%20the%20Sioux%20and%20the%20Navajo",
+      "tipo": "busca"
+    },
     "sobre": "Music of the Sioux and the Navajo é uma coletânea de Various Artists que reúne gravações já lançadas do artista, publicada em 1949 pela Smithsonian Folkways, com 15 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -347244,7 +347497,10 @@
       "tipo": "dados",
       "url": null
     },
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=NA001",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -347365,7 +347621,10 @@
       ]
     },
     "destaqueVerificado": "2026-10-28",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=No%20New%20York",
+      "tipo": "busca"
+    },
     "sobre": "No New York é uma coletânea lançado em 1978 pela Antilles Records sob a curadoria do produtor Brian Eno. Embora ela só contenha músicas de quatro artistas diferentes (The Contortions, Teenage Jesus And The Jerks, Mars, DNA) é considerado por muitos como o álbum definitivo e única documentação (atrasada) do movimento No Wave da década de 1970 em Nova Iorque.",
     "sobreFonte": {
       "url": "https://pt.wikipedia.org/wiki/No_New_York",
@@ -347535,7 +347794,10 @@
       "url": "https://musicbrainz.org/release-group/5675af1b-13c8-487a-8136-e2f0991a0d76"
     },
     "discogs": "https://www.discogs.com/release/1550427",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Psycrowdelica%3A%20Home%20Edition",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -347725,7 +347987,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/master/1138446",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Eligah%20Mangitak%20Songs%20of%20the%20Inuit",
+      "tipo": "busca"
+    },
     "sobre": "Songs of the Inuit é um álbum de Eligah Mangitak, Qaunnaq Mikigak & Qabaroak Qatsiya, lançado em 1994 pela JVC, com 30 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -347887,7 +348152,10 @@
       "url": "https://musicbrainz.org/release-group/be1e28cc-0183-3495-8930-e9ff0820a41b"
     },
     "discogs": "https://www.discogs.com/release/962132",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Soundboy%20Punishments",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -348267,7 +348535,10 @@
       "url": "https://musicbrainz.org/release-group/a2b1690d-9da3-4db9-b274-ab273a0a6aea"
     },
     "discogs": "https://www.discogs.com/master/34511",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Ammunition%20and%20Blackdown%20Present%3A%20The%20Roots%20of%20Dubstep",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -348310,7 +348581,10 @@
       "gravadora": "discogs",
       "capa": "discogs"
     },
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Transmissions%20Vol.%201",
+      "tipo": "busca"
+    },
     "capa": "assets/img/capas/various-artists-transmissions-vol-1.jpg",
     "capaFonte": "https://i.discogs.com/GRyn1wm7U0k73cgA-mZV-lo43HAgVrfQAICheYQ5keY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMzY0/MTEtMTMxMjc0ODk1/MS5qcGVn.jpeg",
     "descritoresFonte": [
@@ -348965,7 +349239,10 @@
       "url": "https://musicbrainz.org/release-group/406e497f-2a13-4fa7-9ad8-12dde845d93f"
     },
     "discogs": null,
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Worth%20the%20Weight%3A%20Bristol%20Dubstep%20Classics",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -355361,7 +355638,10 @@
     },
     "destaqueVerificado": "2026-10-27",
     "discogs": "https://www.discogs.com/master/76226",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Bach%20Switched%E2%80%90On%20Bach",
+      "tipo": "busca"
+    },
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
@@ -358891,7 +359171,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/master/651124",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Mozart%20Le%20nozze%20di%20Figaro",
+      "tipo": "busca"
+    },
     "sobre": "Le nozze di Figaro é um álbum de Mozart; Siepi, Gueden, della Casa, Danco, Poell, Corena, Wiener Philharmoniker, Erich Kleiber, lançado em 1989 pela Decca Classics, com 33 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -358978,7 +359261,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/release/12900464",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Mozart%20Symphonies%20nos.%2040%20%26%2041%20%E2%80%9CJupiter%E2%80%9D",
+      "tipo": "busca"
+    },
     "sobre": "Symphonies nos. 40 & 41 “Jupiter” é um álbum de Mozart; Royal Concertgebouw Orchestra, Nikolaus Harnoncourt, lançado em 1992 pela TELDEC, com 8 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -360276,7 +360562,10 @@
     "destaqueVerificado": "2026-10-29",
     "discogs": "https://www.discogs.com/release/1383499",
     "sobreVerificado": "2026-10-29",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Wu%20Wenguang%20China%20-%20Music%20Of%20The%20Qin",
+      "tipo": "busca"
+    },
     "sobre": "China - Music Of The Qin é um álbum de Wu Wenguang, lançado em 1992 pela JVC, com 6 faixas.",
     "sobreFonte": {
       "tipo": "dados",
@@ -365429,7 +365718,10 @@
     "linksVerificados": "2026-11-05",
     "destaqueVerificado": "2026-11-05",
     "sobreVerificado": "2026-11-05",
-    "naoOficial": null,
+    "naoOficial": {
+      "url": "https://www.youtube.com/results?search_query=Z%C3%A9%20Fortuna%20%26%20Pitangueira%20Onde%20Cantam%20os%20Maracan%C3%A3s",
+      "tipo": "busca"
+    },
     "sobre": "Onde Cantam os Maracanãs é um álbum de Zé Fortuna & Pitangueira, lançado.",
     "sobreFonte": {
       "tipo": "dados",
