@@ -1,0 +1,132 @@
+{
+  "id": "psicodelia-brasileira",
+  "titulo": "Psicodelia Brasileira",
+  "indice": "brazilian-psychedelia",
+  "generos": [
+    "psicodelia-brasileira"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/brazilian-psychedelia.png",
+  "transcricao": {
+    "data": "2026-11-05",
+    "metodo": "seleção do chart, lida na imagem; \"pos\" é a seção ou década do chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "1",
+      "artista": "Ronnie Von",
+      "titulo": "Ronnie Von",
+      "album": "ronnie-von-ronnie-von"
+    },
+    {
+      "pos": "4",
+      "artista": "Ronnie Von",
+      "titulo": "A Máquina Voadora",
+      "album": "ronnie-von-a-maquina-voadora"
+    },
+    {
+      "pos": "11",
+      "artista": "Os Mutantes",
+      "titulo": "Os Mutantes",
+      "album": "os-mutantes-os-mutantes"
+    },
+    {
+      "pos": "13",
+      "artista": "Ave Sangria",
+      "titulo": "Ave Sangria",
+      "album": "ave-sangria-ave-sangria"
+    },
+    {
+      "pos": "14",
+      "artista": "Serguei",
+      "titulo": "Serguei",
+      "album": "serguei-serguei"
+    },
+    {
+      "pos": "15",
+      "artista": "Perfume Azul do Sol",
+      "titulo": "Nascimento",
+      "album": "perfume-azul-do-sol-nascimento"
+    },
+    {
+      "pos": "16",
+      "artista": "Os Brazões",
+      "titulo": "Os Brazões",
+      "album": "os-brazoes-os-brazoes"
+    },
+    {
+      "pos": "17",
+      "artista": "Paulo Bagunça e a Tropa Maldita",
+      "titulo": "Paulo Bagunça e a Tropa Maldita",
+      "album": "paulo-bagunca-e-a-tropa-maldita-paulo-bagunca-e-a-tropa-maldita"
+    },
+    {
+      "pos": "18",
+      "artista": "Sociedade da Grã-Ordem Kavernista",
+      "titulo": "Sociedade da Grã-Ordem Kavernista Apresenta Sessão das 10",
+      "album": "sociedade-da-gra-ordem-kavernista-sociedade-da-gra-ordem-kavernista-apresenta-sessao-das-10"
+    },
+    {
+      "pos": "19",
+      "artista": "Flaviola e o Bando do Sol",
+      "titulo": "Flaviola e o Bando do Sol",
+      "album": "flaviola-e-o-bando-do-sol-flaviola-e-o-bando-do-sol"
+    },
+    {
+      "pos": "21",
+      "artista": "Lula Côrtes & Zé Ramalho",
+      "titulo": "Paêbirú",
+      "album": "lula-cortes-and-ze-ramalho-paebiru"
+    },
+    {
+      "pos": "22",
+      "artista": "Violeta de Outono",
+      "titulo": "Violeta de Outono",
+      "album": "violeta-de-outono-violeta-de-outono"
+    },
+    {
+      "pos": "23",
+      "artista": "Júpiter Maçã",
+      "titulo": "A Sétima Efervescência",
+      "album": "jupiter-maca-a-setima-efervescencia"
+    },
+    {
+      "pos": "25",
+      "artista": "Mopho",
+      "titulo": "Mopho",
+      "album": "mopho-mopho"
+    },
+    {
+      "pos": "26",
+      "artista": "Boogarins",
+      "titulo": "As Plantas Que Curam",
+      "album": "boogarins-as-plantas-que-curam"
+    },
+    {
+      "pos": "27",
+      "artista": "Boogarins",
+      "titulo": "Manual",
+      "album": "boogarins-manual"
+    },
+    {
+      "pos": "28",
+      "artista": "Cérebro Eletrônico",
+      "titulo": "Pareço Moderno",
+      "album": "cerebro-eletronico-pareco-moderno"
+    },
+    {
+      "pos": "29",
+      "artista": "Supercordas",
+      "titulo": "Seres Verdes ao Redor",
+      "album": "supercordas-seres-verdes-ao-redor"
+    },
+    {
+      "pos": "32",
+      "artista": "Bike",
+      "titulo": "1943",
+      "album": "bike-1943"
+    }
+  ]
+}

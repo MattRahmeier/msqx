@@ -1,0 +1,78 @@
+{
+  "id": "rap-brasileiro",
+  "titulo": "Os Álbuns Essenciais BRs",
+  "indice": "brazil-2",
+  "generos": [
+    "rap-brasileiro"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/brazil-2.jpg",
+  "transcricao": {
+    "data": "2026-11-05",
+    "metodo": "seleção do chart, lida na imagem; \"pos\" é a seção ou década do chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "90s",
+      "artista": "Racionais MC's",
+      "titulo": "Sobrevivendo no Inferno",
+      "album": "racionais-mcs-sobrevivendo-no-inferno"
+    },
+    {
+      "pos": "90s",
+      "artista": "Sabotage",
+      "titulo": "Rap É Compromisso",
+      "album": "sabotage-rap-e-compromisso"
+    },
+    {
+      "pos": "90s",
+      "artista": "Planet Hemp",
+      "titulo": "Usuário",
+      "album": "planet-hemp-usuario"
+    },
+    {
+      "pos": "00s",
+      "artista": "Racionais MC's",
+      "titulo": "Nada Como um Dia Após o Outro Dia",
+      "album": "racionais-mcs-nada-como-um-dia-apos-o-outro-dia"
+    },
+    {
+      "pos": "00s",
+      "artista": "Facção Central",
+      "titulo": "Direto do Campo de Extermínio",
+      "album": "faccao-central-direto-do-campo-de-exterminio"
+    },
+    {
+      "pos": "00s",
+      "artista": "Black Alien",
+      "titulo": "Babylon by Gus",
+      "album": "black-alien-babylon-by-gus"
+    },
+    {
+      "pos": "10s",
+      "artista": "Criolo",
+      "titulo": "Nó na Orelha",
+      "album": "criolo-no-na-orelha"
+    },
+    {
+      "pos": "10s",
+      "artista": "Ogi",
+      "titulo": "Crônicas da Cidade Cinza",
+      "album": "ogi-cronicas-da-cidade-cinza"
+    },
+    {
+      "pos": "10s",
+      "artista": "Emicida",
+      "titulo": "O Glorioso Retorno de Quem Nunca Esteve Aqui",
+      "album": "emicida-o-glorioso-retorno-de-quem-nunca-esteve-aqui"
+    },
+    {
+      "pos": "Rap Rock",
+      "artista": "Pavilhão 9",
+      "titulo": "Cadeia Nacional",
+      "album": "pavilhao-9-cadeia-nacional"
+    }
+  ]
+}

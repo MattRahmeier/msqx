@@ -450,6 +450,48 @@
     "musicmap": "rnr"
   },
   {
+    "id": "rock-brasileiro",
+    "nome": "Rock Brasileiro",
+    "pai": "rock",
+    "mestre": false,
+    "decada": 1950,
+    "origens": [
+      "rock-and-roll"
+    ],
+    "resumo": "O rock no Brasil refere-se ao gênero musical rock (ou roque), originado nos Estados Unidos, e que teve início no Brasil no final da década de 1950.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Rock_no_Brasil",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 2,
+        "ate": 6,
+        "genero": "rock"
+      }
+    ],
+    "resumoArtigo": "pt:Rock no Brasil",
+    "nomesAlternativos": [
+      "rock nacional",
+      "brock"
+    ],
+    "tags": [
+      "brasileiro"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Rock_no_Brasil"
+    ],
+    "similares": [],
+    "som": "Nos anos 1960, era conhecido como iê-iê-iê, a transcrição em português do verso “Yeah, yeah, yeah” da canção “She Loves You”, dos Beatles.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Brazilian_rock",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    }
+  },
+  {
     "id": "rock-and-roll",
     "nome": "Rock and Roll",
     "nomesAlternativos": [
@@ -474,6 +516,11 @@
       "licenca": "CC BY-SA 4.0"
     },
     "resumoLinks": [
+      {
+        "de": 235,
+        "ate": 242,
+        "genero": "country"
+      },
       {
         "de": 244,
         "ate": 249,
@@ -604,6 +651,11 @@
         "de": 269,
         "ate": 280,
         "genero": "speed-metal"
+      },
+      {
+        "de": 319,
+        "ate": 326,
+        "genero": "country"
       }
     ]
   },
@@ -812,6 +864,29 @@
     ]
   },
   {
+    "id": "psicodelia-brasileira",
+    "nome": "Psicodelia Brasileira",
+    "pai": "psychedelic-rock",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "psychedelic-rock"
+    ],
+    "resumo": "",
+    "resumoPendente": "sem artigo próprio na Wikipédia",
+    "resumoArtigo": false,
+    "tags": [
+      "brasileiro"
+    ],
+    "somArtigo": false,
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Rock_no_Brasil"
+    ],
+    "similares": [
+      "tropicalia"
+    ]
+  },
+  {
     "id": "neo-psychedelia",
     "nome": "Neo-Psychedelia",
     "pai": "psychedelic-rock",
@@ -867,6 +942,11 @@
       "licenca": "CC BY-SA 4.0"
     },
     "resumoLinks": [
+      {
+        "de": 55,
+        "ate": 59,
+        "genero": "folk"
+      },
       {
         "de": 62,
         "ate": 66,
@@ -1774,6 +1854,11 @@
         "de": 227,
         "ate": 236,
         "genero": "punk-rock"
+      },
+      {
+        "de": 377,
+        "ate": 381,
+        "genero": "funk"
       }
     ],
     "musicmap": "pwv06",
@@ -2662,6 +2747,11 @@
     },
     "somLinks": [
       {
+        "de": 36,
+        "ate": 40,
+        "genero": "soul"
+      },
+      {
         "de": 42,
         "ate": 53,
         "genero": "smooth-jazz"
@@ -3139,6 +3229,11 @@
         "de": 129,
         "ate": 133,
         "genero": "rock"
+      },
+      {
+        "de": 135,
+        "ate": 144,
+        "genero": "americana"
       },
       {
         "de": 146,
@@ -4500,6 +4595,11 @@
         "genero": "metal"
       },
       {
+        "de": 203,
+        "ate": 207,
+        "genero": "funk"
+      },
+      {
         "de": 209,
         "ate": 215,
         "genero": "grunge"
@@ -4942,6 +5042,16 @@
         "de": 74,
         "ate": 91,
         "genero": "eletronica"
+      },
+      {
+        "de": 194,
+        "ate": 198,
+        "genero": "soul"
+      },
+      {
+        "de": 201,
+        "ate": 205,
+        "genero": "funk"
       }
     ],
     "fontes": [
@@ -5025,6 +5135,16 @@
         "de": 157,
         "ate": 161,
         "genero": "jazz"
+      },
+      {
+        "de": 166,
+        "ate": 170,
+        "genero": "funk"
+      },
+      {
+        "de": 187,
+        "ate": 191,
+        "genero": "soul"
       }
     ],
     "fontes": [
@@ -5075,6 +5195,11 @@
         "de": 62,
         "ate": 73,
         "genero": "house"
+      },
+      {
+        "de": 349,
+        "ate": 353,
+        "genero": "funk"
       }
     ],
     "fontes": [
@@ -5169,6 +5294,11 @@
         "de": 141,
         "ate": 147,
         "genero": "techno"
+      },
+      {
+        "de": 512,
+        "ate": 516,
+        "genero": "soul"
       }
     ]
   },
@@ -5670,6 +5800,11 @@
         "genero": "trilha-sonora"
       },
       {
+        "de": 179,
+        "ate": 183,
+        "genero": "funk"
+      },
+      {
         "de": 200,
         "ate": 209,
         "genero": "cool-jazz"
@@ -5792,6 +5927,56 @@
       "licenca": "CC BY-SA 4.0"
     },
     "musicmap": "rap"
+  },
+  {
+    "id": "rap-brasileiro",
+    "nome": "Rap Brasileiro",
+    "pai": "hip-hop",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "old-school-hip-hop",
+      "funk"
+    ],
+    "resumo": "O rap é um estilo de música que faz parte do movimento hip hop.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Rap_no_Brasil",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 55,
+        "ate": 62,
+        "genero": "hip-hop"
+      }
+    ],
+    "resumoArtigo": "pt:Rap no Brasil",
+    "nomesAlternativos": [
+      "rap nacional",
+      "hip hop brasileiro"
+    ],
+    "tags": [
+      "brasileiro"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Rap_no_Brasil"
+    ],
+    "similares": [],
+    "som": "Na adição de elementos sonoros para além do vocal e do instrumental (ou beat), pode-se escolher por elementos \"que fazem atenuar a remissão à fala\"; neste caso, os elementos recebem o nome de \"passionalizantes\". O neologismo passionalizante pode se referir a um acréscimo de elementos que acentuam a remissão das letras do refrão, ou da presença de vocais passionalizantes feitos por vozes femininas, e na própria entoação do rap.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Rap_no_Brasil#Estilo",
+      "idioma": "pt",
+      "secao": "Estilo",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "somLinks": [
+      {
+        "de": 426,
+        "ate": 429,
+        "genero": "hip-hop"
+      }
+    ]
   },
   {
     "id": "old-school-hip-hop",
@@ -6020,6 +6205,11 @@
     },
     "resumoLinks": [
       {
+        "de": 34,
+        "ate": 38,
+        "genero": "funk"
+      },
+      {
         "de": 78,
         "ate": 85,
         "genero": "hip-hop"
@@ -6046,6 +6236,11 @@
       "traduzido": true
     },
     "somLinks": [
+      {
+        "de": 20,
+        "ate": 24,
+        "genero": "funk"
+      },
       {
         "de": 459,
         "ate": 481,
@@ -6089,6 +6284,11 @@
         "de": 50,
         "ate": 57,
         "genero": "hip-hop"
+      },
+      {
+        "de": 150,
+        "ate": 159,
+        "genero": "americana"
       }
     ],
     "fontes": [
@@ -7211,6 +7411,11 @@
         "de": 88,
         "ate": 92,
         "genero": "rock"
+      },
+      {
+        "de": 98,
+        "ate": 102,
+        "genero": "funk"
       }
     ],
     "nomesAlternativos": [
@@ -7252,6 +7457,11 @@
         "de": 30,
         "ate": 34,
         "genero": "jazz"
+      },
+      {
+        "de": 283,
+        "ate": 287,
+        "genero": "funk"
       },
       {
         "de": 293,
@@ -7301,6 +7511,16 @@
         "de": 38,
         "ate": 42,
         "genero": "jazz"
+      },
+      {
+        "de": 89,
+        "ate": 93,
+        "genero": "soul"
+      },
+      {
+        "de": 107,
+        "ate": 111,
+        "genero": "funk"
       }
     ],
     "nomesAlternativos": [
@@ -7349,6 +7569,16 @@
         "de": 138,
         "ate": 143,
         "genero": "house"
+      },
+      {
+        "de": 307,
+        "ate": 311,
+        "genero": "funk"
+      },
+      {
+        "de": 313,
+        "ate": 317,
+        "genero": "soul"
       }
     ],
     "nomesAlternativos": [
@@ -7375,6 +7605,11 @@
         "de": 30,
         "ate": 34,
         "genero": "jazz"
+      },
+      {
+        "de": 60,
+        "ate": 64,
+        "genero": "funk"
       },
       {
         "de": 66,
@@ -7917,6 +8152,42 @@
     ]
   },
   {
+    "id": "mpb",
+    "nome": "MPB",
+    "pai": "world-music",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "bossa-nova"
+    ],
+    "resumo": "MPB, sigla derivada da expressão Música Popular Brasileira, é um gênero musical surgido no Brasil em meados da década de 1960.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/MPB",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:MPB",
+    "nomesAlternativos": [
+      "música popular brasileira"
+    ],
+    "tags": [
+      "brasileiro"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/MPB"
+    ],
+    "similares": [
+      "tropicalia"
+    ],
+    "som": "No plano instrumental, a MPB privilegia o violão como elemento central de acompanhamento em muitas formas, mas também incorpora teclado, piano, baixo, seções de percussão (pandeiro, surdo, tamborim) e, em distintos arranjos, sopros e cordas. A variação instrumental acompanha o recorte estético do intérprete ou do arranjo — com composições acústicas de voz e violão a produções mais orquestrada ou eletrônicas — conferindo amplitude tímbrica ao campo.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/MPB#Caracter%C3%ADsticas",
+      "idioma": "pt",
+      "secao": "Características",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
     "id": "reggae",
     "nome": "Reggae",
     "pai": "world-music",
@@ -8000,6 +8271,61 @@
     }
   },
   {
+    "id": "third-wave-ska",
+    "nome": "Third Wave of Ska",
+    "pai": "ska",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "ska",
+      "punk-rock"
+    ],
+    "resumo": "Ska punk é um gênero musical de fusão que combine o ska com o punk rock, e faz parte da terceira onda ska.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Ska_punk",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 52,
+        "ate": 55,
+        "genero": "ska"
+      },
+      {
+        "de": 62,
+        "ate": 71,
+        "genero": "punk-rock"
+      }
+    ],
+    "resumoArtigo": "pt:Ska punk",
+    "nomesAlternativos": [
+      "ska punk",
+      "ska-punk",
+      "third wave ska",
+      "terceira onda ska"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ska_punk"
+    ],
+    "similares": [],
+    "som": "O ska punk costuma ter instrumentos de sopro, especialmente metais como saxofones, trombones e trompetes, o que distingue o gênero de outras formas de punk rock.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Ska_punk#Characteristics",
+      "idioma": "en",
+      "secao": "Characteristics",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 151,
+        "ate": 160,
+        "genero": "punk-rock"
+      }
+    ]
+  },
+  {
     "id": "tropicalia",
     "nome": "Tropicália",
     "pai": "world-music",
@@ -8037,6 +8363,9 @@
         "ate": 163,
         "genero": "rock"
       }
+    ],
+    "tags": [
+      "brasileiro"
     ]
   },
   {
@@ -8063,7 +8392,10 @@
       "url": "https://pt.wikipedia.org/wiki/Bossa_nova",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "tags": [
+      "brasileiro"
+    ]
   },
   {
     "id": "afrobeat",
@@ -8085,6 +8417,11 @@
         "de": 44,
         "ate": 48,
         "genero": "jazz"
+      },
+      {
+        "de": 60,
+        "ate": 64,
+        "genero": "funk"
       }
     ],
     "resumoArtigo": "pt:Afrobeat",
@@ -8227,6 +8564,582 @@
       "eletronica",
       "rock",
       "jazz"
+    ]
+  },
+  {
+    "id": "soul",
+    "nome": "Soul",
+    "pai": null,
+    "mestre": true,
+    "decada": 1950,
+    "origens": [
+      "rhythm-and-blues",
+      "gospel",
+      "jazz",
+      "blues"
+    ],
+    "resumo": "Soul music ou apenas soul é um gênero musical popular que se originou na comunidade afro-americana dos Estados Unidos nos anos 1950 e no início dos anos 1960.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Soul",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Soul",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Soul"
+    ],
+    "similares": [],
+    "influencias": [
+      "pop"
+    ],
+    "som": "Ritmos cativantes, enfatizados por palmas e movimentos corporais extemporâneos, são uma característica importante da soul music. Outras características são uma chamada e resposta entre o vocalista principal e o refrão e um som vocal especialmente tenso.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Soul",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "soul-brasileiro",
+    "nome": "Soul Brasileiro",
+    "pai": "soul",
+    "mestre": false,
+    "decada": 1970,
+    "origens": [
+      "soul",
+      "funk"
+    ],
+    "resumo": "Black Rio ou Movimento Black Rio é um movimento e contracultura que surgiu nos anos 1970 no Rio de Janeiro.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Black_Rio",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Black Rio",
+    "nomesAlternativos": [
+      "black rio",
+      "brazilian soul"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Black_Rio"
+    ],
+    "similares": [],
+    "som": "Inicialmente inspirado pela revolução do funk norte-americana, o movimento mistura ritmos da chamada black music brasileira, como funk, soul, jazz, samba e forró.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Black_Rio",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "somLinks": [
+      {
+        "de": 41,
+        "ate": 45,
+        "genero": "funk"
+      },
+      {
+        "de": 136,
+        "ate": 140,
+        "genero": "soul"
+      },
+      {
+        "de": 142,
+        "ate": 146,
+        "genero": "jazz"
+      }
+    ],
+    "tags": [
+      "brasileiro"
+    ]
+  },
+  {
+    "id": "funk",
+    "nome": "Funk",
+    "pai": null,
+    "mestre": true,
+    "decada": 1960,
+    "origens": [
+      "soul",
+      "jazz",
+      "rhythm-and-blues"
+    ],
+    "resumo": "O funk (pronúncia: [fânc]) é um gênero musical que se originou em comunidades afro-americanas em meados da década de 1960, quando músicos afro-americanos criaram uma nova forma de música rítmica e dançante através da mistura de soul, jazz e rhythm and blues.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Funk",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 228,
+        "ate": 232,
+        "genero": "soul"
+      },
+      {
+        "de": 234,
+        "ate": 238,
+        "genero": "jazz"
+      },
+      {
+        "de": 252,
+        "ate": 257,
+        "genero": "blues"
+      }
+    ],
+    "resumoArtigo": "pt:Funk",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Funk"
+    ],
+    "similares": [],
+    "influencias": [
+      "eletronica",
+      "jazz"
+    ],
+    "som": "O funk cria um groove intenso através do uso de riffs poderosos e linhas de baixo. Tocando o baixo usando a técnica de slap, tocados com o polegar e outras notas altas tocadas com os outros dedos, permitindo assim que o baixista tenha um papel rítmico semelhante ao da bateria, o que se tornou um elemento central do funk.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Funk#Caracter%C3%ADsticas",
+      "idioma": "pt",
+      "secao": "Características",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "deep-funk",
+    "nome": "Deep Funk",
+    "pai": "funk",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "funk"
+    ],
+    "resumo": "Deep funk é um subgênero do funk que tem um som “duro e enxuto” e dá ênfase ao groove, à improvisação e à musicalidade em vez da composição tradicional de canções.",
+    "resumoFonte": {
+      "url": "https://en.wikipedia.org/wiki/Deep_funk",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "resumoLinks": [
+      {
+        "de": 28,
+        "ate": 32,
+        "genero": "funk"
+      }
+    ],
+    "resumoArtigo": "en:Deep funk",
+    "nomesAlternativos": [
+      "modern funk"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Deep_funk"
+    ],
+    "similares": [],
+    "som": "Deep funk é um subgênero do funk que apresenta um som \"pesado e enxuto\", com ênfase no groove, improvisação e musicalidade, em vez da composição tradicional de músicas. O deep funk mais tarde ganhou popularidade graças a produtores de hip hop que buscavam novo material para samplear, bem como pelas cenas britânicas de rare groove e Northern soul.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Deep_funk",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "somLinks": [
+      {
+        "de": 28,
+        "ate": 32,
+        "genero": "funk"
+      },
+      {
+        "de": 235,
+        "ate": 242,
+        "genero": "hip-hop"
+      },
+      {
+        "de": 343,
+        "ate": 347,
+        "genero": "soul"
+      }
+    ]
+  },
+  {
+    "id": "folk",
+    "nome": "Folk",
+    "pai": null,
+    "mestre": true,
+    "origens": [],
+    "resumo": "O folk contemporâneo (ou simplesmente folk) refere-se a uma grande variedade de gêneros musicais que surgiram em meados do século XX e que estão associados à música tradicional.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Folk_contempor%C3%A2neo",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Folk contemporâneo",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Folk_contempor%C3%A2neo"
+    ],
+    "similares": [],
+    "influencias": [
+      "rock",
+      "world-music"
+    ],
+    "som": "Tipicamente, artistas que empregam formas de música e estilos de performance tradicionais (por exemplo, acompanhamento de guitarra acústica) mas trabalham em uma base profissional e se empenham em repertórios originais, (muitas vezes autoral) são descritos como \"cantores folk\".",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Folk_contempor%C3%A2neo",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "musica-caipira",
+    "nome": "Música Caipira",
+    "pai": "folk",
+    "mestre": false,
+    "origens": [],
+    "resumo": "A música caipira (em dialeto caipira: musga caipira) é um gênero musical brasileiro, originário em São Paulo durante o período colonial.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_caipira",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Música caipira",
+    "nomesAlternativos": [
+      "caipira",
+      "moda de viola"
+    ],
+    "tags": [
+      "brasileiro"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/M%C3%BAsica_caipira"
+    ],
+    "similares": [
+      "country"
+    ],
+    "som": "A temática do estilo caipira é variada, baseada em temas que abordam acontecimentos reais ou ficcionais do mundo rural e urbano, e o som da viola caipira, instrumento difundido inicialmente junto aos indígenas e bandeirantes, é o que predomina.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_caipira",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "folk-punk",
+    "nome": "Folk Punk",
+    "pai": "folk",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "folk",
+      "punk-rock"
+    ],
+    "resumo": "Folk punk é um estilo musical criado na metade dos anos 80 no Reino Unido que combina elementos de folk e punk rock.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Folk-punk",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 99,
+        "ate": 103,
+        "genero": "folk"
+      },
+      {
+        "de": 106,
+        "ate": 115,
+        "genero": "punk-rock"
+      }
+    ],
+    "resumoArtigo": "pt:Folk punk",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Folk-punk"
+    ],
+    "similares": [],
+    "som": "Os músicos de folk punk podem tocar composições próprias no estilo do punk rock, mas usando instrumentos folk adicionais, como bandolins, acordeões, banjos e/ou violinos.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Folk_punk#Characteristics",
+      "idioma": "en",
+      "secao": "Characteristics",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 70,
+        "ate": 79,
+        "genero": "punk-rock"
+      },
+      {
+        "de": 105,
+        "ate": 109,
+        "genero": "folk"
+      }
+    ]
+  },
+  {
+    "id": "neofolk",
+    "nome": "Neofolk",
+    "pai": "folk",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "folk",
+      "post-punk"
+    ],
+    "resumo": "Neofolk é um dos desdobramentos da música folk que surgiu primeiramente na Europa com influencias de músicas pós-industrial.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Neofolk",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 42,
+        "ate": 46,
+        "genero": "folk"
+      }
+    ],
+    "resumoArtigo": "pt:Neofolk",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Neofolk"
+    ],
+    "similares": [],
+    "som": "Os vocais podem ir do canto melódico à palavra falada, com arranjos que enfatizam a atmosfera e o clima em vez das estruturas convencionais de canção.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Neofolk#Characteristics",
+      "idioma": "en",
+      "secao": "Characteristics",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    }
+  },
+  {
+    "id": "freak-folk",
+    "nome": "Freak Folk",
+    "pai": "folk",
+    "mestre": false,
+    "decada": 2000,
+    "origens": [
+      "folk",
+      "psychedelic-rock"
+    ],
+    "resumo": "Freak folk é um subgênero do folk psicodélico associado ao movimento New Weird America dos anos 2000 e usado para descrever o trabalho de artistas como Joanna Newsom, Devendra Banhart, Animal Collective e Adem.",
+    "resumoFonte": {
+      "url": "https://en.wikipedia.org/wiki/Freak_folk",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "resumoLinks": [
+      {
+        "de": 29,
+        "ate": 33,
+        "genero": "folk"
+      }
+    ],
+    "resumoArtigo": "en:Freak folk",
+    "nomesAlternativos": [
+      "new weird america"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Freak_folk"
+    ],
+    "similares": [],
+    "som": "Como o guitarrista Jack Rose, o dedilhado acústico de Chasny olhava para além dos idiomas do folk, em direção a influências como a raga indiana, que ele fundiu com a drone music. Segundo a revista de música American Songwriter, o freak folk “mistura a sensibilidade hippie do folk puro — imagens pastorais, amor livre e instrumentação principalmente acústica — com a psicodelia e a experimentação de seu gênero principal”.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Freak_folk#Characteristics",
+      "idioma": "en",
+      "secao": "Characteristics",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 93,
+        "ate": 97,
+        "genero": "folk"
+      },
+      {
+        "de": 166,
+        "ate": 171,
+        "genero": "drone"
+      }
+    ]
+  },
+  {
+    "id": "country",
+    "nome": "Country",
+    "pai": null,
+    "mestre": true,
+    "decada": 1920,
+    "origens": [
+      "folk",
+      "blues"
+    ],
+    "resumo": "A música country (pronuncia-se [ˈkʌntri]), ou simplesmente country, é um gênero de música popular dos Estados Unidos, originado no sul do País na década de 1920.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_country",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoArtigo": "pt:Música country",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/M%C3%BAsica_country"
+    ],
+    "similares": [],
+    "som": "A música country consiste frequentemente em baladas e melodias de dança, geralmente formas e harmonias simples acompanhadas de instrumentos de corda, tais como banjo, guitarra acústica, dobro e violino, bem como harmônica.",
+    "somFonte": {
+      "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_country",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "americana",
+    "nome": "Americana",
+    "pai": "country",
+    "mestre": false,
+    "decada": 1990,
+    "origens": [
+      "country",
+      "folk"
+    ],
+    "resumo": "Americana é um amálgama de gêneros musicais de raiz formado pela confluência de tradições compartilhadas e variadas que formam o ethos da música estadunidense, especificamente mesclas de sons folk, country, rhythm & blues, rock & roll e outras influências de estilos externos.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Americana_(g%C3%AAnero_musical)",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 192,
+        "ate": 196,
+        "genero": "folk"
+      },
+      {
+        "de": 198,
+        "ate": 205,
+        "genero": "country"
+      },
+      {
+        "de": 216,
+        "ate": 221,
+        "genero": "blues"
+      },
+      {
+        "de": 223,
+        "ate": 234,
+        "genero": "rock-and-roll"
+      }
+    ],
+    "resumoArtigo": "pt:Americana (gênero musical)",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Americana_(g%C3%AAnero_musical)"
+    ],
+    "similares": [],
+    "somPendente": "artigo sem trecho sobre o som"
+  },
+  {
+    "id": "alternative-country",
+    "nome": "Alt-Country",
+    "pai": "country",
+    "mestre": false,
+    "decada": 1980,
+    "origens": [
+      "country",
+      "punk-rock"
+    ],
+    "resumo": "Country alternativo, ou country rock alternativo (às vezes, alt-country, insurgente country, Americana, ou y'allternative), é um subgênero vagamente definido de música country e/ou country rock que inclui bandas que diferem significativamente do estilo da música country mainstream, country rock mainstream e country pop.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Country_alternativo",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 24,
+        "ate": 31,
+        "genero": "country"
+      },
+      {
+        "de": 32,
+        "ate": 48,
+        "genero": "alternative-rock"
+      },
+      {
+        "de": 93,
+        "ate": 102,
+        "genero": "americana"
+      },
+      {
+        "de": 181,
+        "ate": 193,
+        "genero": "country-rock"
+      },
+      {
+        "de": 317,
+        "ate": 320,
+        "genero": "pop"
+      }
+    ],
+    "resumoArtigo": "pt:Country alternativo",
+    "nomesAlternativos": [
+      "country alternativo",
+      "alternative country"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Country_alternativo"
+    ],
+    "similares": [],
+    "somPendente": "artigo sem trecho sobre o som"
+  },
+  {
+    "id": "country-rock",
+    "nome": "Country Rock",
+    "pai": "country",
+    "mestre": false,
+    "decada": 1960,
+    "origens": [
+      "country",
+      "folk-rock"
+    ],
+    "resumo": "Country rock é um sub-gênero da música popular, formado a partir da fusão do rock com a música country.",
+    "resumoFonte": {
+      "url": "https://pt.wikipedia.org/wiki/Country_rock",
+      "idioma": "pt",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "resumoLinks": [
+      {
+        "de": 77,
+        "ate": 81,
+        "genero": "rock"
+      },
+      {
+        "de": 95,
+        "ate": 102,
+        "genero": "country"
+      }
+    ],
+    "resumoArtigo": "pt:Country rock",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Country_rock"
+    ],
+    "similares": [],
+    "som": "Esses músicos gravaram discos que misturavam o rock com temas, estilos vocais e instrumentação adicional do country, mais caracteristicamente as guitarras pedal steel.",
+    "somFonte": {
+      "url": "https://en.wikipedia.org/wiki/Country_rock",
+      "idioma": "en",
+      "licenca": "CC BY-SA 4.0",
+      "traduzido": true
+    },
+    "somLinks": [
+      {
+        "de": 47,
+        "ate": 51,
+        "genero": "rock"
+      },
+      {
+        "de": 108,
+        "ate": 115,
+        "genero": "country"
+      }
     ]
   },
   {

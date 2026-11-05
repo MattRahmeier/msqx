@@ -54,7 +54,7 @@ export async function render(el, [termoInicial = ""]) {
   // Quantos discos cada artista tem no site (o total, não só os que casam com a busca).
   const discosDe = new Map();
   for (const f of lista) discosDe.set(f.artista, (discosDe.get(f.artista) || 0) + 1);
-  const generosIndice = gen.lista.map((g) => ({ g, nome: normalizar(g.nome) }));
+  const generosIndice = gen.lista.map((g) => ({ g, nome: normalizar([g.nome, ...(g.tags || [])].join(" ")) }));
 
   el.innerHTML = `
     ${tituloPagina("Pesquisa")}

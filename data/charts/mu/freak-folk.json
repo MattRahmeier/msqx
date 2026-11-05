@@ -1,0 +1,138 @@
+{
+  "id": "freak-folk",
+  "titulo": "Freak Folk Essentials",
+  "indice": "freak-folk-1",
+  "generos": [
+    "freak-folk"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/freak-folk-1.jpg",
+  "transcricao": {
+    "data": "2026-11-05",
+    "metodo": "seleção dos discos mais centrais do chart, lidos na imagem; \"pos\" é a posição no chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "New Weird America 9",
+      "artista": "Fursaxa",
+      "titulo": "Mycorrhizae Realm",
+      "album": "fursaxa-mycorrhizae-realm"
+    },
+    {
+      "pos": "New Weird America 12",
+      "artista": "The Valerie Project",
+      "titulo": "The Valerie Project",
+      "album": "the-valerie-project-the-valerie-project"
+    },
+    {
+      "pos": "New Weird America 13",
+      "artista": "Kath Bloom",
+      "titulo": "Finally",
+      "album": "kath-bloom-finally"
+    },
+    {
+      "pos": "New Weird America 16",
+      "artista": "Espers",
+      "titulo": "II",
+      "album": "espers-ii"
+    },
+    {
+      "pos": "Old Weird 1",
+      "artista": "Pearls Before Swine",
+      "titulo": "Balaklava",
+      "album": "pearls-before-swine-balaklava"
+    },
+    {
+      "pos": "Old Weird 2",
+      "artista": "Gary Higgins",
+      "titulo": "Red Hash",
+      "album": "gary-higgins-red-hash"
+    },
+    {
+      "pos": "Old Weird 4",
+      "artista": "Simon Finn",
+      "titulo": "Pass the Distance",
+      "album": "simon-finn-pass-the-distance"
+    },
+    {
+      "pos": "Old Weird 5",
+      "artista": "Tim Buckley",
+      "titulo": "Lorca",
+      "album": "tim-buckley-lorca"
+    },
+    {
+      "pos": "Old Weird 6",
+      "artista": "Robbie Basho",
+      "titulo": "Venus in Cancer",
+      "album": "robbie-basho-venus-in-cancer"
+    },
+    {
+      "pos": "Old Weird 7",
+      "artista": "Linda Perhacs",
+      "titulo": "Parallelograms",
+      "album": "linda-perhacs-parallelograms"
+    },
+    {
+      "pos": "Old Weird 11",
+      "artista": "The Incredible String Band",
+      "titulo": "The Hangman's Beautiful Daughter",
+      "album": "the-incredible-string-band-the-hangmans-beautiful-daughter"
+    },
+    {
+      "pos": "Old Weird 12",
+      "artista": "Spirogyra",
+      "titulo": "St. Radigunds",
+      "album": "spirogyra-st-radigunds"
+    },
+    {
+      "pos": "Old Weird 15",
+      "artista": "Comus",
+      "titulo": "First Utterance",
+      "album": "comus-first-utterance"
+    },
+    {
+      "pos": "Old Weird 16",
+      "artista": "Mark Fry",
+      "titulo": "Dreaming With Alice",
+      "album": "mark-fry-dreaming-with-alice"
+    },
+    {
+      "pos": "Free Folk 1",
+      "artista": "Jackie-O Motherfucker",
+      "titulo": "Flags of the Sacred Harp",
+      "album": "jackie-o-motherfucker-flags-of-the-sacred-harp"
+    },
+    {
+      "pos": "Free Folk 3",
+      "artista": "James Blackshaw",
+      "titulo": "The Cloud of Unknowing",
+      "album": "james-blackshaw-the-cloud-of-unknowing"
+    },
+    {
+      "pos": "Free Folk 7",
+      "artista": "Pelt",
+      "titulo": "Ayahuasca",
+      "album": "pelt-ayahuasca"
+    },
+    {
+      "pos": "Free Folk 8",
+      "artista": "Sun City Girls",
+      "titulo": "330,003 Crossdressers From Beyond the Rig Veda",
+      "album": "sun-city-girls-330-003-crossdressers-from-beyond-the-rig-veda"
+    },
+    {
+      "pos": "Free Folk 12",
+      "artista": "Sir Richard Bishop",
+      "titulo": "Salvador Kali",
+      "album": "sir-richard-bishop-salvador-kali"
+    },
+    {
+      "pos": "Free Folk 15",
+      "artista": "Six Organs of Admittance",
+      "titulo": "Dark Noontide",
+      "album": "six-organs-of-admittance-dark-noontide"
+    }
+  ]
+}

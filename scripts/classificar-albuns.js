@@ -37,6 +37,7 @@ const APELIDOS = {
   "glam": "glam-rock", "glam rock": "glam-rock", "glitter rock": "glam-rock", "indie": "indie-rock",
   "electro-pop": "electropop", "jpop": "j-pop", "kpop": "k-pop", "shibuya kei": "shibuya-kei",
   "acid house": "acid-house", "electro swing": "electro-swing", "microhouse": "minimal-techno",
+  "ska punk": "third-wave-ska", "skacore": "third-wave-ska", "ska core": "third-wave-ska",
   "classical": "musica-classica", "western classical": "musica-classica", "art music": "musica-classica",
   "renaissance": "musica-renascentista", "baroque": "musica-barroca", "classical period": "periodo-classico",
   "romantic": "romantismo", "romantic classical": "romantismo", "romanticism": "romantismo", "impressionism": "impressionismo",

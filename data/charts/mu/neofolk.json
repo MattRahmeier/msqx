@@ -1,0 +1,197 @@
+{
+  "id": "neofolk",
+  "titulo": "Neofolk",
+  "indice": "neofolk",
+  "generos": [
+    "neofolk"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/neofolk.jpg",
+  "transcricao": {
+    "data": "2026-11-05",
+    "metodo": "chart inteiro, lido na imagem; \"pos\" é a posição no chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Current 93",
+      "titulo": "Thunder Perfect Mind",
+      "album": "current-93-thunder-perfect-mind"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Death in June",
+      "titulo": "But, What Ends When the Symbols Shatter?",
+      "album": "death-in-june-but-what-ends-when-the-symbols-shatter"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Sol Invictus",
+      "titulo": "In the Rain",
+      "album": "sol-invictus-in-the-rain"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Nature and Organisation",
+      "titulo": "Beauty Reaps the Blood of Solitude",
+      "album": "nature-and-organisation-beauty-reaps-the-blood-of-solitude"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Rome",
+      "titulo": "Flowers From Exile",
+      "album": "rome-flowers-from-exile"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Darkwood",
+      "titulo": "Notwendfeuer",
+      "album": "darkwood-notwendfeuer"
+    },
+    {
+      "pos": "2-2",
+      "artista": ":Of the Wand & the Moon:",
+      "titulo": "Sonnenheim",
+      "album": "of-the-wand-and-the-moon-sonnenheim"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Agalloch",
+      "titulo": "The White EP",
+      "album": "agalloch-the-white-ep"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Ulver",
+      "titulo": "Kveldssanger",
+      "album": "ulver-kveldssanger"
+    },
+    {
+      "pos": "2-5",
+      "artista": "Various Artists",
+      "titulo": "Whom the Moon a Nightsong Sings",
+      "album": "various-artists-whom-the-moon-a-nightsong-sings"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Vàli",
+      "titulo": "Forlatt",
+      "album": "vali-forlatt"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Empyrium",
+      "titulo": "Where at Night the Wood Grouse Plays",
+      "album": "empyrium-where-at-night-the-wood-grouse-plays"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Musk Ox",
+      "titulo": "Musk Ox",
+      "album": "musk-ox-musk-ox"
+    },
+    {
+      "pos": "3-4",
+      "artista": "SIG:AR:TYR",
+      "titulo": "The Stranger",
+      "album": "sig-ar-tyr-the-stranger"
+    },
+    {
+      "pos": "3-5",
+      "artista": "Nebelung",
+      "titulo": "Vigil",
+      "album": "nebelung-vigil"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Tenhi",
+      "titulo": "Maaäet",
+      "album": "tenhi-maaaet"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Wardruna",
+      "titulo": "Runaljod - gap var Ginnunga",
+      "album": "wardruna-runaljod-gap-var-ginnunga"
+    },
+    {
+      "pos": "4-3",
+      "artista": "Forseti",
+      "titulo": "Erde",
+      "album": "forseti-erde"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Weh",
+      "titulo": "Folkloren",
+      "album": "weh-folkloren"
+    },
+    {
+      "pos": "4-5",
+      "artista": "Księżyc",
+      "titulo": "Księżyc",
+      "album": "ksiezyc-ksiezyc"
+    },
+    {
+      "pos": "5-1",
+      "artista": "Wongraven",
+      "titulo": "Fjelltronen",
+      "album": "wongraven-fjelltronen"
+    },
+    {
+      "pos": "5-2",
+      "artista": "The Revolutionary Army of the Infant Jesus",
+      "titulo": "Mirror",
+      "album": "the-revolutionary-army-of-the-infant-jesus-mirror"
+    },
+    {
+      "pos": "5-3",
+      "artista": "The World of Skin",
+      "titulo": "Ten Songs for Another World",
+      "album": "the-world-of-skin-ten-songs-for-another-world"
+    },
+    {
+      "pos": "5-4",
+      "artista": "Opium Dream Estate",
+      "titulo": "Estranged Memories",
+      "album": "opium-dream-estate-estranged-memories"
+    },
+    {
+      "pos": "5-5",
+      "artista": "Sieben",
+      "titulo": "Ogham Inside the Night",
+      "album": "sieben-ogham-inside-the-night"
+    },
+    {
+      "pos": "6-1",
+      "artista": "Swans",
+      "titulo": "The Burning World",
+      "album": "swans-the-burning-world"
+    },
+    {
+      "pos": "6-2",
+      "artista": "Fire + Ice",
+      "titulo": "Birdking",
+      "album": "fire-ice-birdking"
+    },
+    {
+      "pos": "6-3",
+      "artista": "Blood Axis",
+      "titulo": "Blót: Sacrifice in Sweden",
+      "album": "blood-axis-blot-sacrifice-in-sweden"
+    },
+    {
+      "pos": "6-4",
+      "artista": "Nest",
+      "titulo": "Trail of the Unwary",
+      "album": "nest-trail-of-the-unwary"
+    },
+    {
+      "pos": "6-5",
+      "artista": "Nový Svět & Foresta di Ferro",
+      "titulo": "Bulli e pupe",
+      "album": "novy-svet-and-foresta-di-ferro-bulli-e-pupe"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "soul-brasileiro",
+  "titulo": "Brazilian Soul Music",
+  "indice": "brazilain-soul",
+  "generos": [
+    "soul-brasileiro"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/brazilain-soul.png",
+  "transcricao": {
+    "data": "2026-11-05",
+    "metodo": "chart inteiro, lido na imagem; \"pos\" é a posição no chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Tim Maia",
+      "titulo": "Tim Maia Racional",
+      "album": "tim-maia-tim-maia-racional"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Tim Maia",
+      "titulo": "The Existential Soul of Tim Maia",
+      "album": "tim-maia-the-existential-soul-of-tim-maia"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Cassiano",
+      "titulo": "Cuban Soul - 18 Kilates",
+      "album": "cassiano-cuban-soul-18-kilates"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Toni Tornado",
+      "titulo": "Toni Tornado",
+      "album": "toni-tornado-toni-tornado"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Hyldon",
+      "titulo": "Na Rua, Na Chuva, Na Fazenda",
+      "album": "hyldon-na-rua-na-chuva-na-fazenda"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Banda Black Rio",
+      "titulo": "Maria Fumaça",
+      "album": "banda-black-rio-maria-fumaca"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Gerson King Combo",
+      "titulo": "Gerson King Combo",
+      "album": "gerson-king-combo-gerson-king-combo"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Carlos Dafé",
+      "titulo": "Pra Que Vou Recordar",
+      "album": "carlos-dafe-pra-que-vou-recordar"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Ed Motta",
+      "titulo": "Ed Motta e Conexão Japeri",
+      "album": "ed-motta-ed-motta-e-conexao-japeri"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Tony Bizarro",
+      "titulo": "Nesse Inverno",
+      "album": "tony-bizarro-nesse-inverno"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Sandra de Sá",
+      "titulo": "Demônio Colorido",
+      "album": "sandra-de-sa-demonio-colorido"
+    },
+    {
+      "pos": "4-3",
+      "artista": "Brylho",
+      "titulo": "Brylho",
+      "album": "brylho-brylho"
+    }
+  ]
+}

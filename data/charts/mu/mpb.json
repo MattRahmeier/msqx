@@ -1,0 +1,138 @@
+{
+  "id": "mpb",
+  "titulo": "Os Álbuns Essenciais BRs",
+  "indice": "brazil-2",
+  "generos": [
+    "mpb"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/brazil-2.jpg",
+  "transcricao": {
+    "data": "2026-11-05",
+    "metodo": "seleção do chart, lida na imagem; \"pos\" é a seção ou década do chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "60s",
+      "artista": "Dorival Caymmi",
+      "titulo": "Canções Praieiras",
+      "album": "dorival-caymmi-cancoes-praieiras"
+    },
+    {
+      "pos": "60s",
+      "artista": "Baden Powell & Vinicius de Moraes",
+      "titulo": "Os Afro-Sambas",
+      "album": "baden-powell-and-vinicius-de-moraes-os-afro-sambas"
+    },
+    {
+      "pos": "70s",
+      "artista": "Chico Buarque",
+      "titulo": "Construção",
+      "album": "chico-buarque-construcao"
+    },
+    {
+      "pos": "70s",
+      "artista": "Novos Baianos",
+      "titulo": "Acabou Chorare",
+      "album": "novos-baianos-acabou-chorare"
+    },
+    {
+      "pos": "70s",
+      "artista": "Milton Nascimento & Lô Borges",
+      "titulo": "Clube da Esquina",
+      "album": "milton-nascimento-and-lo-borges-clube-da-esquina"
+    },
+    {
+      "pos": "70s",
+      "artista": "Elis Regina & Antônio Carlos Jobim",
+      "titulo": "Elis & Tom",
+      "album": "elis-regina-and-antonio-carlos-jobim-elis-and-tom"
+    },
+    {
+      "pos": "70s",
+      "artista": "Tom Zé",
+      "titulo": "Estudando o Samba",
+      "album": "tom-ze-estudando-o-samba"
+    },
+    {
+      "pos": "70s",
+      "artista": "Belchior",
+      "titulo": "Alucinação",
+      "album": "belchior-alucinacao"
+    },
+    {
+      "pos": "70s",
+      "artista": "Alceu Valença",
+      "titulo": "Espelho Cristalino",
+      "album": "alceu-valenca-espelho-cristalino"
+    },
+    {
+      "pos": "70s",
+      "artista": "Zé Ramalho",
+      "titulo": "Zé Ramalho",
+      "album": "ze-ramalho-ze-ramalho"
+    },
+    {
+      "pos": "70s",
+      "artista": "Beto Guedes",
+      "titulo": "Amor de Índio",
+      "album": "beto-guedes-amor-de-indio"
+    },
+    {
+      "pos": "80s",
+      "artista": "Arrigo Barnabé",
+      "titulo": "Clara Crocodilo",
+      "album": "arrigo-barnabe-clara-crocodilo"
+    },
+    {
+      "pos": "80s",
+      "artista": "Djavan",
+      "titulo": "Luz",
+      "album": "djavan-luz"
+    },
+    {
+      "pos": "80s",
+      "artista": "Marisa Monte",
+      "titulo": "MM",
+      "album": "marisa-monte-mm"
+    },
+    {
+      "pos": "00s",
+      "artista": "Tribalistas",
+      "titulo": "Tribalistas",
+      "album": "tribalistas-tribalistas"
+    },
+    {
+      "pos": "00s",
+      "artista": "Céu",
+      "titulo": "Vagarosa",
+      "album": "ceu-vagarosa"
+    },
+    {
+      "pos": "Brazil",
+      "artista": "Caetano Veloso",
+      "titulo": "Transa",
+      "album": "caetano-veloso-transa"
+    },
+    {
+      "pos": "Brazil",
+      "artista": "Jorge Ben",
+      "titulo": "África Brasil",
+      "album": "jorge-ben-africa-brasil"
+    },
+    {
+      "pos": "Brazil",
+      "artista": "Tim Maia",
+      "titulo": "O Descobridor dos Sete Mares",
+      "album": "tim-maia-o-descobridor-dos-sete-mares"
+    },
+    {
+      "pos": "Brazil",
+      "artista": "Luiz Melodia",
+      "titulo": "Pérola Negra",
+      "album": "luiz-melodia-perola-negra"
+    }
+  ]
+}

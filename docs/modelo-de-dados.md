@@ -36,6 +36,7 @@ Três tipos de ligação, cada um com um estilo de linha próprio no cérebro:
 - `pai` — hierarquia (mestre → subgênero). Abre ao clicar no gênero. Gêneros mestres têm `pai: null`.
 - `origens` — linhagem histórica: de quais gêneros este surgiu. Vale também entre mestres (Blues → Rock → Metal) e desenha uma **linha-guia de conexão** sempre visível. Pode ter mais de uma origem.
 - `similares` — parentesco estético; alimenta o bloco "Gêneros similares" e, opcionalmente, linhas tênues no grafo.
+- `tags` — etiquetas opcionais do gênero (ex.: `["brasileiro"]`). Aparecem no card do Guia e na página do gênero, e entram na Pesquisa: buscar "brasileiro" lista os gêneros com essa tag.
 - `musicmap` e `influencias` — gravados por `node scripts/buscar-musicmap.js` a partir do mapa do [Musicmap](https://musicmap.info): `musicmap` é o código do nó equivalente (ex.: `met06`; três letras = supergênero, nos mestres), escolhido à mão em `data/generos/musicmap-mapa.json`; `influencias` são os gêneros nossos ligados por uma linha do Musicmap que ainda não estão em `pai`/`origens`/`similares`. Quando vários gêneros caem no mesmo nó, só o primeiro do mapa recebe as linhas. Só as ligações são usadas; nenhum texto do Musicmap é copiado. No TrackMap aparecem como linhas tênues de influência e no bloco "Ligado a" do pop-up.
 
 Piloto: mestres `blues`, `rock` (origens incluem `blues`), `pop`, `metal` (origens incluem `rock`), `eletronica`, `hip-hop` e `jazz` (subgêneros e ligações seguem o Musicmap). Origens fora do piloto (ex.: `disco`, `funk`, `soul`, `jazz`, `industrial`) ficam registradas mesmo que o gênero ainda não exista no JSON; o site ignora IDs ausentes e o validador só os lista como aviso.
@@ -142,6 +143,8 @@ Um arquivo por chart; `id` igual ao do índice. Os álbuns são copiados da imag
 - `transcricao.status`: `revisar` até alguém conferir com a imagem; depois `conferido`.
 - Validação: `node scripts/validar-charts.js` (lista também os itens a conferir).
 - `data/charts/mu-transcritos.json` lista os ids dos charts transcritos, na ordem em que o Guia de Gêneros os mostra (o GitHub Pages não lista pastas). Acrescente o id ao transcrever um chart novo.
+- `scripts/criar-fichas.js` lê todos os charts no início e os regrava no fim: não edite um chart enquanto ele roda, porque a edição se perde.
+- Disco sem capa em nenhuma fonte: a capa pode ser recortada da imagem do próprio chart (`fontes/mu-charts/`) e gravada em `assets/img/capas/<id>.jpg`, com `capa` apontando para o arquivo.
 - Cada álbum identificado aponta para sua ficha pelo campo `album` (gravado por `scripts/criar-fichas.js`).
 
 ## `data/albuns/albuns.json` (fichas de álbum)

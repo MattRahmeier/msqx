@@ -1,0 +1,167 @@
+{
+  "id": "americana",
+  "titulo": "Americana",
+  "indice": "americana",
+  "generos": [
+    "americana"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/americana.jpg",
+  "transcricao": {
+    "data": "2026-11-05",
+    "metodo": "chart inteiro, lido na imagem; \"pos\" é a posição no chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "Son Volt",
+      "titulo": "Trace",
+      "album": "son-volt-trace"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Townes Van Zandt",
+      "titulo": "Townes Van Zandt",
+      "album": "townes-van-zandt-townes-van-zandt"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Bruce Springsteen",
+      "titulo": "Nebraska",
+      "album": "bruce-springsteen-nebraska"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Blaze Foley",
+      "titulo": "Live at the Austin Outhouse",
+      "album": "blaze-foley-live-at-the-austin-outhouse"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Johnny Cash",
+      "titulo": "At Folsom Prison",
+      "album": "johnny-cash-at-folsom-prison"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Lift to Experience",
+      "titulo": "The Texas-Jerusalem Crossroads",
+      "album": "lift-to-experience-the-texas-jerusalem-crossroads"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Bonnie \"Prince\" Billy",
+      "titulo": "I See a Darkness",
+      "album": "bonnie-prince-billy-i-see-a-darkness"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Red House Painters",
+      "titulo": "Old Ramon",
+      "album": "red-house-painters-old-ramon"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Bill Callahan",
+      "titulo": "Dream River",
+      "album": "bill-callahan-dream-river"
+    },
+    {
+      "pos": "2-5",
+      "artista": "Bob Dylan",
+      "titulo": "Blood on the Tracks",
+      "album": "bob-dylan-blood-on-the-tracks"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Neil Young",
+      "titulo": "Harvest",
+      "album": "neil-young-harvest"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Titus Andronicus",
+      "titulo": "The Monitor",
+      "album": "titus-andronicus-the-monitor"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Wilco",
+      "titulo": "Yankee Hotel Foxtrot",
+      "album": "wilco-yankee-hotel-foxtrot"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Bon Iver",
+      "titulo": "For Emma, Forever Ago",
+      "album": "bon-iver-for-emma-forever-ago"
+    },
+    {
+      "pos": "3-5",
+      "artista": "Bill Frisell",
+      "titulo": "Disfarmer",
+      "album": "bill-frisell-disfarmer"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Red House Painters",
+      "titulo": "Down Colorful Hill",
+      "album": "red-house-painters-down-colorful-hill"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Elliott Smith",
+      "titulo": "Elliott Smith",
+      "album": "elliott-smith-elliott-smith"
+    },
+    {
+      "pos": "4-3",
+      "artista": "John Fahey",
+      "titulo": "America",
+      "album": "john-fahey-america"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Sufjan Stevens",
+      "titulo": "Illinois",
+      "album": "sufjan-stevens-illinois"
+    },
+    {
+      "pos": "4-5",
+      "artista": "Tim Buckley",
+      "titulo": "Starsailor",
+      "album": "tim-buckley-starsailor"
+    },
+    {
+      "pos": "5-1",
+      "artista": "Sun Kil Moon",
+      "titulo": "Benji",
+      "album": "sun-kil-moon-benji"
+    },
+    {
+      "pos": "5-2",
+      "artista": "Okkervil River",
+      "titulo": "Black Sheep Boy",
+      "album": "okkervil-river-black-sheep-boy"
+    },
+    {
+      "pos": "5-3",
+      "artista": "Neutral Milk Hotel",
+      "titulo": "In the Aeroplane Over the Sea",
+      "album": "neutral-milk-hotel-in-the-aeroplane-over-the-sea"
+    },
+    {
+      "pos": "5-4",
+      "artista": "The Handsome Family",
+      "titulo": "Through the Trees",
+      "album": "the-handsome-family-through-the-trees"
+    },
+    {
+      "pos": "5-5",
+      "artista": "Daniel Johnston",
+      "titulo": "1990",
+      "album": "daniel-johnston-1990"
+    }
+  ]
+}

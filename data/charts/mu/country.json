@@ -1,0 +1,227 @@
+{
+  "id": "country",
+  "titulo": "Country",
+  "indice": "country",
+  "generos": [
+    "country"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/country.jpg",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "chart inteiro, lido na imagem; \"pos\" é a posição no chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "Traditional 1",
+      "artista": "Johnny Cash",
+      "titulo": "At Folsom Prison",
+      "album": "johnny-cash-at-folsom-prison"
+    },
+    {
+      "pos": "Traditional 2",
+      "artista": "Hank Williams",
+      "titulo": "40 Greatest Hits",
+      "album": "hank-williams-40-greatest-hits"
+    },
+    {
+      "pos": "Traditional 3",
+      "artista": "Willie Nelson",
+      "titulo": "Red Headed Stranger",
+      "album": "willie-nelson-red-headed-stranger"
+    },
+    {
+      "pos": "Traditional 4",
+      "artista": "The Carter Family",
+      "titulo": "Can the Circle Be Unbroken",
+      "album": "the-carter-family-can-the-circle-be-unbroken"
+    },
+    {
+      "pos": "Traditional 5",
+      "artista": "Loretta Lynn",
+      "titulo": "Van Lear Rose",
+      "album": "loretta-lynn-van-lear-rose"
+    },
+    {
+      "pos": "Traditional 6",
+      "artista": "Bob Dylan",
+      "titulo": "Nashville Skyline",
+      "album": "bob-dylan-nashville-skyline"
+    },
+    {
+      "pos": "Traditional 7",
+      "artista": "Dolly Parton",
+      "titulo": "Coat of Many Colors",
+      "album": "dolly-parton-coat-of-many-colors"
+    },
+    {
+      "pos": "Traditional 8",
+      "artista": "Merle Haggard",
+      "titulo": "Swinging Doors",
+      "album": "merle-haggard-swinging-doors"
+    },
+    {
+      "pos": "Traditional 9",
+      "artista": "George Jones",
+      "titulo": "I Am What I Am",
+      "album": "george-jones-i-am-what-i-am"
+    },
+    {
+      "pos": "Traditional 10",
+      "artista": "Roger Miller",
+      "titulo": "The Return of Roger Miller",
+      "album": "roger-miller-the-return-of-roger-miller"
+    },
+    {
+      "pos": "Traditional 11",
+      "artista": "Patsy Cline",
+      "titulo": "Sentimentally Yours",
+      "album": "patsy-cline-sentimentally-yours"
+    },
+    {
+      "pos": "Traditional 12",
+      "artista": "Jimmie Rodgers",
+      "titulo": "The Essential Jimmie Rodgers",
+      "album": "jimmie-rodgers-the-essential-jimmie-rodgers"
+    },
+    {
+      "pos": "Traditional 13",
+      "artista": "Ray Charles",
+      "titulo": "Modern Sounds in Country and Western Music",
+      "album": "ray-charles-modern-sounds-in-country-and-western-music"
+    },
+    {
+      "pos": "Traditional 14",
+      "artista": "Elvis Presley",
+      "titulo": "Elvis Presley",
+      "album": "elvis-presley-elvis-presley"
+    },
+    {
+      "pos": "Country Rock 1",
+      "artista": "The Flying Burrito Brothers",
+      "titulo": "The Gilded Palace of Sin",
+      "album": "the-flying-burrito-brothers-the-gilded-palace-of-sin",
+      "generos": [
+        "country-rock"
+      ]
+    },
+    {
+      "pos": "Country Rock 2",
+      "artista": "Neil Young",
+      "titulo": "Harvest",
+      "album": "neil-young-harvest",
+      "generos": [
+        "country-rock"
+      ]
+    },
+    {
+      "pos": "Country Rock 3",
+      "artista": "Emmylou Harris",
+      "titulo": "Pieces of the Sky",
+      "album": "emmylou-harris-pieces-of-the-sky",
+      "generos": [
+        "country-rock"
+      ]
+    },
+    {
+      "pos": "Country Rock 4",
+      "artista": "The Byrds",
+      "titulo": "Turn! Turn! Turn!",
+      "album": "the-byrds-turn-turn-turn",
+      "generos": [
+        "country-rock"
+      ]
+    },
+    {
+      "pos": "Country Rock 5",
+      "artista": "The Band",
+      "titulo": "Music From Big Pink",
+      "album": "the-band-music-from-big-pink",
+      "generos": [
+        "country-rock"
+      ]
+    },
+    {
+      "pos": "Country Rock 6",
+      "artista": "Dwight Yoakam",
+      "titulo": "Guitars, Cadillacs, Etc., Etc.",
+      "album": "dwight-yoakam-guitars-cadillacs-etc-etc",
+      "generos": [
+        "country-rock"
+      ]
+    },
+    {
+      "pos": "Country Rock 7",
+      "artista": "The Grateful Dead",
+      "titulo": "American Beauty",
+      "album": "the-grateful-dead-american-beauty",
+      "generos": [
+        "country-rock"
+      ]
+    },
+    {
+      "pos": "Alt-Country 1",
+      "artista": "Uncle Tupelo",
+      "titulo": "No Depression",
+      "album": "uncle-tupelo-no-depression",
+      "generos": [
+        "alternative-country"
+      ]
+    },
+    {
+      "pos": "Alt-Country 2",
+      "artista": "Lucinda Williams",
+      "titulo": "Car Wheels on a Gravel Road",
+      "album": "lucinda-williams-car-wheels-on-a-gravel-road",
+      "generos": [
+        "alternative-country"
+      ]
+    },
+    {
+      "pos": "Alt-Country 3",
+      "artista": "Whiskeytown",
+      "titulo": "Faithless Street",
+      "album": "whiskeytown-faithless-street",
+      "generos": [
+        "alternative-country"
+      ]
+    },
+    {
+      "pos": "Alt-Country 4",
+      "artista": "The Mekons",
+      "titulo": "Fear and Whiskey",
+      "album": "the-mekons-fear-and-whiskey",
+      "generos": [
+        "alternative-country"
+      ]
+    },
+    {
+      "pos": "Alt-Country 5",
+      "artista": "Billy Bragg & Wilco",
+      "titulo": "Mermaid Avenue",
+      "album": "billy-bragg-and-wilco-mermaid-avenue",
+      "generos": [
+        "alternative-country"
+      ]
+    },
+    {
+      "pos": "Alt-Country 6",
+      "artista": "The Jayhawks",
+      "titulo": "Tomorrow the Green Grass",
+      "album": "the-jayhawks-tomorrow-the-green-grass",
+      "generos": [
+        "alternative-country"
+      ]
+    },
+    {
+      "pos": "Alt-Country 7",
+      "artista": "Blitzen Trapper",
+      "titulo": "Wild Mountain Nation",
+      "album": "blitzen-trapper-wild-mountain-nation",
+      "generos": [
+        "alternative-country"
+      ]
+    }
+  ]
+}

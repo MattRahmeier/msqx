@@ -11,6 +11,7 @@ Organizado a partir da página "Musique Scout" do Notion (26/10/2026).
   2. **TrackMap** (área 1, Visão de Cérebro)
   3. **Guia de Gêneros** (área 3, Recomendados pela Internet)
   4. **Pesquisa** (área 4, Ache o Seu Som!)
+- **Gire a roleta** (`#/roleta`, botão no topo do Guia de Gêneros): roda com uma fatia para cada gênero que tem álbuns; sorteia um e leva à página dele.
 - No celular, a navegação fica numa faixa fixa na parte de baixo, sempre visível, com o ícone acima do nome; a marca fica no topo.
 - Navegação rápida: ir de um lugar a outro e destrinchar um gênero em poucos cliques.
 

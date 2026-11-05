@@ -1,0 +1,90 @@
+{
+  "id": "musica-caipira",
+  "titulo": "/caipira/",
+  "indice": "brazilian-caipira",
+  "generos": [
+    "musica-caipira"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/brazilian-caipira.jpg",
+  "transcricao": {
+    "data": "2026-11-05",
+    "metodo": "seleção do chart, lida na imagem; \"pos\" é a seção ou década do chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "5",
+      "artista": "Tião Carreiro & Pardinho",
+      "titulo": "Repertório de Ouro",
+      "album": "tiao-carreiro-and-pardinho-repertorio-de-ouro"
+    },
+    {
+      "pos": "6",
+      "artista": "Tião Carreiro & Pardinho",
+      "titulo": "Golpe de Mestre",
+      "album": "tiao-carreiro-and-pardinho-golpe-de-mestre"
+    },
+    {
+      "pos": "7",
+      "artista": "Tião Carreiro & Pardinho",
+      "titulo": "Terra Roxa",
+      "album": "tiao-carreiro-and-pardinho-terra-roxa"
+    },
+    {
+      "pos": "8",
+      "artista": "Zé Fortuna & Pitangueira",
+      "titulo": "Onde Cantam os Maracanãs",
+      "album": "ze-fortuna-and-pitangueira-onde-cantam-os-maracanas"
+    },
+    {
+      "pos": "9",
+      "artista": "Inezita Barroso",
+      "titulo": "Inezita Barroso",
+      "album": "inezita-barroso-inezita-barroso"
+    },
+    {
+      "pos": "10",
+      "artista": "Cascatinha & Inhana",
+      "titulo": "Índia",
+      "album": "cascatinha-and-inhana-india"
+    },
+    {
+      "pos": "13",
+      "artista": "Tonico & Tinoco",
+      "titulo": "Suas Modas Sertanejas",
+      "album": "tonico-and-tinoco-suas-modas-sertanejas"
+    },
+    {
+      "pos": "15",
+      "artista": "Pena Branca & Xavantinho",
+      "titulo": "Os Gigantes",
+      "album": "pena-branca-and-xavantinho-os-gigantes"
+    },
+    {
+      "pos": "17",
+      "artista": "Trio Parada Dura",
+      "titulo": "Alto Astral",
+      "album": "trio-parada-dura-alto-astral"
+    },
+    {
+      "pos": "20",
+      "artista": "Milionário & José Rico",
+      "titulo": "Estrada da Vida",
+      "album": "milionario-and-jose-rico-estrada-da-vida"
+    },
+    {
+      "pos": "22",
+      "artista": "Sérgio Reis",
+      "titulo": "Sérgio Reis",
+      "album": "sergio-reis-sergio-reis"
+    },
+    {
+      "pos": "23",
+      "artista": "Chitãozinho & Xororó",
+      "titulo": "60 Dias Apaixonado",
+      "album": "chitaozinho-and-xororo-60-dias-apaixonado"
+    }
+  ]
+}

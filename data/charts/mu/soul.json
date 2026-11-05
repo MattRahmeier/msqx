@@ -1,0 +1,257 @@
+{
+  "id": "soul",
+  "titulo": "Essential Soul",
+  "indice": "soul",
+  "generos": [
+    "soul"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/soul.png",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "chart inteiro, lido na imagem; \"pos\" é a posição no chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "The Temptations",
+      "titulo": "Cloud Nine",
+      "album": "the-temptations-cloud-nine"
+    },
+    {
+      "pos": "1-2",
+      "artista": "James Brown",
+      "titulo": "Live at the Apollo",
+      "album": "james-brown-live-at-the-apollo"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Al Green",
+      "titulo": "Let's Stay Together",
+      "album": "al-green-lets-stay-together"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Four Tops",
+      "titulo": "Reach Out",
+      "album": "four-tops-reach-out"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Syl Johnson",
+      "titulo": "Is It Because I'm Black",
+      "album": "syl-johnson-is-it-because-im-black"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Marvin Gaye",
+      "titulo": "What's Going On",
+      "album": "marvin-gaye-whats-going-on"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Harold Melvin & The Blue Notes",
+      "titulo": "Wake Up Everybody",
+      "album": "harold-melvin-and-the-blue-notes-wake-up-everybody"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Aretha Franklin",
+      "titulo": "I Never Loved a Man the Way I Love You",
+      "album": "aretha-franklin-i-never-loved-a-man-the-way-i-love-you"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Michael Jackson",
+      "titulo": "Off the Wall",
+      "album": "michael-jackson-off-the-wall"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Solomon Burke",
+      "titulo": "Rock 'n Soul",
+      "album": "solomon-burke-rock-n-soul"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Sly and the Family Stone",
+      "titulo": "Stand!",
+      "album": "sly-and-the-family-stone-stand"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Smokey Robinson and the Miracles",
+      "titulo": "Going to a Go-Go",
+      "album": "smokey-robinson-and-the-miracles-going-to-a-go-go"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Stevie Wonder",
+      "titulo": "Innervisions",
+      "album": "stevie-wonder-innervisions"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Dusty Springfield",
+      "titulo": "Dusty in Memphis",
+      "album": "dusty-springfield-dusty-in-memphis"
+    },
+    {
+      "pos": "4-3",
+      "artista": "The Staple Singers",
+      "titulo": "Be Altitude: Respect Yourself",
+      "album": "the-staple-singers-be-altitude-respect-yourself"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Luther Vandross",
+      "titulo": "The Night I Fell in Love",
+      "album": "luther-vandross-the-night-i-fell-in-love"
+    },
+    {
+      "pos": "5-1",
+      "artista": "Curtis Mayfield",
+      "titulo": "Superfly",
+      "album": "curtis-mayfield-super-fly"
+    },
+    {
+      "pos": "5-2",
+      "artista": "The Temptations",
+      "titulo": "All Directions",
+      "album": "the-temptations-all-directions"
+    },
+    {
+      "pos": "5-3",
+      "artista": "Teddy Pendergrass",
+      "titulo": "TP",
+      "album": "teddy-pendergrass-tp"
+    },
+    {
+      "pos": "5-4",
+      "artista": "Isaac Hayes",
+      "titulo": "Shaft",
+      "album": "isaac-hayes-shaft"
+    },
+    {
+      "pos": "6-1",
+      "artista": "O.V. Wright",
+      "titulo": "Memphis Unlimited",
+      "album": "ov-wright-memphis-unlimited"
+    },
+    {
+      "pos": "6-2",
+      "artista": "Etta James",
+      "titulo": "Tell Mama",
+      "album": "etta-james-tell-mama"
+    },
+    {
+      "pos": "6-3",
+      "artista": "Ann Peebles",
+      "titulo": "Straight From the Heart",
+      "album": "ann-peebles-straight-from-the-heart"
+    },
+    {
+      "pos": "6-4",
+      "artista": "Martha Reeves & the Vandellas",
+      "titulo": "Dance Party",
+      "album": "martha-reeves-and-the-vandellas-dance-party"
+    },
+    {
+      "pos": "7-1",
+      "artista": "Lee Dorsey",
+      "titulo": "Yes We Can",
+      "album": "lee-dorsey-yes-we-can"
+    },
+    {
+      "pos": "7-2",
+      "artista": "James Carr",
+      "titulo": "You Got My Mind Messed Up",
+      "album": "james-carr-you-got-my-mind-messed-up"
+    },
+    {
+      "pos": "7-3",
+      "artista": "Bill Withers",
+      "titulo": "Still Bill",
+      "album": "bill-withers-still-bill"
+    },
+    {
+      "pos": "7-4",
+      "artista": "Donny Hathaway",
+      "titulo": "Everything Is Everything",
+      "album": "donny-hathaway-everything-is-everything"
+    },
+    {
+      "pos": "8-1",
+      "artista": "The Ronettes",
+      "titulo": "The Best of the Ronettes",
+      "album": "the-ronettes-the-best-of-the-ronettes"
+    },
+    {
+      "pos": "8-2",
+      "artista": "War",
+      "titulo": "The World Is a Ghetto",
+      "album": "war-the-world-is-a-ghetto"
+    },
+    {
+      "pos": "8-3",
+      "artista": "Curtis Mayfield",
+      "titulo": "Curtis",
+      "album": "curtis-mayfield-curtis"
+    },
+    {
+      "pos": "8-4",
+      "artista": "Otis Redding",
+      "titulo": "Otis Blue",
+      "album": "otis-redding-otis-blue"
+    },
+    {
+      "pos": "9-1",
+      "artista": "Sam & Dave",
+      "titulo": "Double Dynamite",
+      "album": "sam-and-dave-double-dynamite"
+    },
+    {
+      "pos": "9-2",
+      "artista": "The Impressions",
+      "titulo": "The Young Mods' Forgotten Story",
+      "album": "the-impressions-the-young-mods-forgotten-story"
+    },
+    {
+      "pos": "9-3",
+      "artista": "Diana Ross & The Supremes",
+      "titulo": "Anthology",
+      "album": "diana-ross-and-the-supremes-anthology"
+    },
+    {
+      "pos": "9-4",
+      "artista": "The Isley Brothers",
+      "titulo": "The Essential Isley Brothers",
+      "album": "the-isley-brothers-the-essential-isley-brothers"
+    },
+    {
+      "pos": "10-1",
+      "artista": "Wilson Pickett",
+      "titulo": "The Exciting Wilson Pickett",
+      "album": "wilson-pickett-the-exciting-wilson-pickett"
+    },
+    {
+      "pos": "10-2",
+      "artista": "Booker T. & the M.G.'s",
+      "titulo": "Green Onions",
+      "album": "booker-t-and-the-mgs-green-onions"
+    },
+    {
+      "pos": "10-3",
+      "artista": "Sam Cooke",
+      "titulo": "Night Beat",
+      "album": "sam-cooke-night-beat"
+    },
+    {
+      "pos": "10-4",
+      "artista": "Jackie Wilson",
+      "titulo": "The Very Best of Jackie Wilson",
+      "album": "jackie-wilson-the-very-best-of-jackie-wilson"
+    }
+  ]
+}

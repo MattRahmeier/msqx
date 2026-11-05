@@ -1,0 +1,629 @@
+{
+  "id": "folk",
+  "titulo": "Essential Folk",
+  "indice": "folk",
+  "generos": [
+    "folk"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/folk.jpg",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "chart inteiro, lido na imagem; \"pos\" é a posição no chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "A1",
+      "artista": "Woody Guthrie",
+      "titulo": "Dust Bowl Ballads",
+      "album": "woody-guthrie-dust-bowl-ballads"
+    },
+    {
+      "pos": "A2",
+      "artista": "Odetta",
+      "titulo": "Odetta Sings Ballads and Blues",
+      "album": "odetta-odetta-sings-ballads-and-blues"
+    },
+    {
+      "pos": "A3",
+      "artista": "Various Artists",
+      "titulo": "Back Roads to Cold Mountain",
+      "album": "various-artists-back-roads-to-cold-mountain"
+    },
+    {
+      "pos": "A4",
+      "artista": "The Kingston Trio",
+      "titulo": "Here We Go Again",
+      "album": "the-kingston-trio-here-we-go-again"
+    },
+    {
+      "pos": "A5",
+      "artista": "Lonnie Donegan",
+      "titulo": "Lonnie Donegan Showcase",
+      "album": "lonnie-donegan-lonnie-donegan-showcase"
+    },
+    {
+      "pos": "A6",
+      "artista": "Pete Seeger",
+      "titulo": "With Voices Together We Sing",
+      "album": "pete-seeger-with-voices-together-we-sing"
+    },
+    {
+      "pos": "B1",
+      "artista": "Shirley Collins",
+      "titulo": "Sweet England",
+      "album": "shirley-collins-sweet-england"
+    },
+    {
+      "pos": "B2",
+      "artista": "Steve Benbow",
+      "titulo": "Sings English Folk Songs",
+      "album": "steve-benbow-sings-english-folk-songs"
+    },
+    {
+      "pos": "B3",
+      "artista": "The Weavers",
+      "titulo": "Travelling On",
+      "album": "the-weavers-travelling-on"
+    },
+    {
+      "pos": "B4",
+      "artista": "Harry Belafonte",
+      "titulo": "Calypso",
+      "album": "harry-belafonte-calypso"
+    },
+    {
+      "pos": "B5",
+      "artista": "Burl Ives",
+      "titulo": "The Return of the Wayfaring Stranger",
+      "album": "burl-ives-the-return-of-the-wayfaring-stranger"
+    },
+    {
+      "pos": "B6",
+      "artista": "The Almanac Singers",
+      "titulo": "Songs for John Doe",
+      "album": "the-almanac-singers-songs-for-john-doe"
+    },
+    {
+      "pos": "C1",
+      "artista": "Carolyn Hester",
+      "titulo": "Scarlet Ribbons",
+      "album": "carolyn-hester-scarlet-ribbons"
+    },
+    {
+      "pos": "C2",
+      "artista": "Liam Clancy",
+      "titulo": "The Lark in the Morning",
+      "album": "liam-clancy-the-lark-in-the-morning"
+    },
+    {
+      "pos": "C3",
+      "artista": "Leadbelly",
+      "titulo": "Leadbelly Sings Folk Songs",
+      "album": "leadbelly-leadbelly-sings-folk-songs"
+    },
+    {
+      "pos": "C4",
+      "artista": "A.L. Lloyd",
+      "titulo": "The Old Bush Songs",
+      "album": "al-lloyd-the-old-bush-songs"
+    },
+    {
+      "pos": "C5",
+      "artista": "Ramblin' Jack Elliott",
+      "titulo": "Ramblin' Jack Elliott in London",
+      "album": "ramblin-jack-elliott-ramblin-jack-elliott-in-london"
+    },
+    {
+      "pos": "C6",
+      "artista": "Pete Seeger",
+      "titulo": "The Pete Seeger Sampler",
+      "album": "pete-seeger-the-pete-seeger-sampler"
+    },
+    {
+      "pos": "D1",
+      "artista": "Fred Neil",
+      "titulo": "Bleecker & MacDougal",
+      "album": "fred-neil-bleecker-and-macdougal"
+    },
+    {
+      "pos": "D2",
+      "artista": "Tim Buckley",
+      "titulo": "Goodbye and Hello",
+      "album": "tim-buckley-goodbye-and-hello"
+    },
+    {
+      "pos": "D3",
+      "artista": "Phil Ochs",
+      "titulo": "Pleasures of the Harbor",
+      "album": "phil-ochs-pleasures-of-the-harbor"
+    },
+    {
+      "pos": "D4",
+      "artista": "Tim Hardin",
+      "titulo": "Tim Hardin 2",
+      "album": "tim-hardin-tim-hardin-2"
+    },
+    {
+      "pos": "D5",
+      "artista": "Jackson C. Frank",
+      "titulo": "Jackson C. Frank",
+      "album": "jackson-c-frank-jackson-c-frank"
+    },
+    {
+      "pos": "D6",
+      "artista": "Buffalo Springfield",
+      "titulo": "Buffalo Springfield Again",
+      "album": "buffalo-springfield-buffalo-springfield-again"
+    },
+    {
+      "pos": "E1",
+      "artista": "Bob Dylan",
+      "titulo": "The Freewheelin' Bob Dylan",
+      "album": "bob-dylan-the-freewheelin-bob-dylan"
+    },
+    {
+      "pos": "E2",
+      "artista": "Van Morrison",
+      "titulo": "Astral Weeks",
+      "album": "van-morrison-astral-weeks"
+    },
+    {
+      "pos": "E3",
+      "artista": "Joni Mitchell",
+      "titulo": "Clouds",
+      "album": "joni-mitchell-clouds"
+    },
+    {
+      "pos": "E4",
+      "artista": "Leonard Cohen",
+      "titulo": "Songs of Leonard Cohen",
+      "album": "leonard-cohen-songs-of-leonard-cohen"
+    },
+    {
+      "pos": "E5",
+      "artista": "Karen Dalton",
+      "titulo": "It's So Hard to Tell Who's Going to Love You the Best",
+      "album": "karen-dalton-its-so-hard-to-tell-whos-going-to-love-you-the-best"
+    },
+    {
+      "pos": "E6",
+      "artista": "Bob Dylan",
+      "titulo": "Blonde on Blonde",
+      "album": "bob-dylan-blonde-on-blonde"
+    },
+    {
+      "pos": "F1",
+      "artista": "Fairport Convention",
+      "titulo": "Liege & Lief",
+      "album": "fairport-convention-liege-and-lief"
+    },
+    {
+      "pos": "F2",
+      "artista": "Bert Jansch",
+      "titulo": "Bert Jansch",
+      "album": "bert-jansch-bert-jansch"
+    },
+    {
+      "pos": "F3",
+      "artista": "Skip Spence",
+      "titulo": "Oar",
+      "album": "skip-spence-oar"
+    },
+    {
+      "pos": "F4",
+      "artista": "The Band",
+      "titulo": "Music From Big Pink",
+      "album": "the-band-music-from-big-pink"
+    },
+    {
+      "pos": "F5",
+      "artista": "Pentangle",
+      "titulo": "Basket of Light",
+      "album": "pentangle-basket-of-light"
+    },
+    {
+      "pos": "F6",
+      "artista": "The Incredible String Band",
+      "titulo": "The Hangman's Beautiful Daughter",
+      "album": "the-incredible-string-band-the-hangmans-beautiful-daughter"
+    },
+    {
+      "pos": "G1",
+      "artista": "Donovan",
+      "titulo": "Sunshine Superman",
+      "album": "donovan-sunshine-superman"
+    },
+    {
+      "pos": "G2",
+      "artista": "Ralph McTell",
+      "titulo": "Eight Frames a Second",
+      "album": "ralph-mctell-eight-frames-a-second"
+    },
+    {
+      "pos": "G3",
+      "artista": "Doc Watson",
+      "titulo": "Doc Watson",
+      "album": "doc-watson-doc-watson"
+    },
+    {
+      "pos": "G4",
+      "artista": "Nick Drake",
+      "titulo": "Five Leaves Left",
+      "album": "nick-drake-five-leaves-left"
+    },
+    {
+      "pos": "G5",
+      "artista": "Bob Dylan",
+      "titulo": "Bringing It All Back Home",
+      "album": "bob-dylan-bringing-it-all-back-home"
+    },
+    {
+      "pos": "G6",
+      "artista": "Shirley Collins",
+      "titulo": "Anthems in Eden",
+      "album": "shirley-collins-anthems-in-eden"
+    },
+    {
+      "pos": "H1",
+      "artista": "John Fahey",
+      "titulo": "The Transfiguration of Blind Joe Death",
+      "album": "john-fahey-the-transfiguration-of-blind-joe-death"
+    },
+    {
+      "pos": "H2",
+      "artista": "Odetta",
+      "titulo": "Odetta Sings Dylan",
+      "album": "odetta-odetta-sings-dylan"
+    },
+    {
+      "pos": "H3",
+      "artista": "Davy Graham",
+      "titulo": "Folk, Blues & Beyond",
+      "album": "davy-graham-folk-blues-and-beyond"
+    },
+    {
+      "pos": "H4",
+      "artista": "Joan Baez",
+      "titulo": "Joan Baez",
+      "album": "joan-baez-joan-baez"
+    },
+    {
+      "pos": "H5",
+      "artista": "Marianne Faithfull",
+      "titulo": "North Country Maid",
+      "album": "marianne-faithfull-north-country-maid"
+    },
+    {
+      "pos": "H6",
+      "artista": "Nico",
+      "titulo": "Chelsea Girl",
+      "album": "nico-chelsea-girl"
+    },
+    {
+      "pos": "I1",
+      "artista": "Martin Carthy",
+      "titulo": "Martin Carthy",
+      "album": "martin-carthy-martin-carthy"
+    },
+    {
+      "pos": "I2",
+      "artista": "Simon & Garfunkel",
+      "titulo": "Bookends",
+      "album": "simon-and-garfunkel-bookends"
+    },
+    {
+      "pos": "I3",
+      "artista": "Fapardokly",
+      "titulo": "Fapardokly",
+      "album": "fapardokly-fapardokly"
+    },
+    {
+      "pos": "I4",
+      "artista": "Bridget St John",
+      "titulo": "Ask Me No Questions",
+      "album": "bridget-st-john-ask-me-no-questions"
+    },
+    {
+      "pos": "I5",
+      "artista": "Leonard Cohen",
+      "titulo": "Songs From a Room",
+      "album": "leonard-cohen-songs-from-a-room"
+    },
+    {
+      "pos": "I6",
+      "artista": "Fairport Convention",
+      "titulo": "Unhalfbricking",
+      "album": "fairport-convention-unhalfbricking"
+    },
+    {
+      "pos": "J1",
+      "artista": "Jackson Browne",
+      "titulo": "Late for the Sky",
+      "album": "jackson-browne-late-for-the-sky"
+    },
+    {
+      "pos": "J2",
+      "artista": "Sibylle Baier",
+      "titulo": "Colour Green",
+      "album": "sibylle-baier-colour-green"
+    },
+    {
+      "pos": "J3",
+      "artista": "C.O.B.",
+      "titulo": "Spirit of Love",
+      "album": "cob-spirit-of-love"
+    },
+    {
+      "pos": "J4",
+      "artista": "Cat Stevens",
+      "titulo": "Tea for the Tillerman",
+      "album": "cat-stevens-tea-for-the-tillerman"
+    },
+    {
+      "pos": "J5",
+      "artista": "Bob Dylan",
+      "titulo": "Blood on the Tracks",
+      "album": "bob-dylan-blood-on-the-tracks"
+    },
+    {
+      "pos": "J6",
+      "artista": "Roy Harper",
+      "titulo": "Stormcock",
+      "album": "roy-harper-stormcock"
+    },
+    {
+      "pos": "K1",
+      "artista": "Cat Stevens",
+      "titulo": "Teaser and the Firecat",
+      "album": "cat-stevens-teaser-and-the-firecat"
+    },
+    {
+      "pos": "K2",
+      "artista": "Leonard Cohen",
+      "titulo": "Songs of Love and Hate",
+      "album": "leonard-cohen-songs-of-love-and-hate"
+    },
+    {
+      "pos": "K3",
+      "artista": "Nick Drake",
+      "titulo": "Pink Moon",
+      "album": "nick-drake-pink-moon"
+    },
+    {
+      "pos": "K4",
+      "artista": "Neil Young",
+      "titulo": "Harvest",
+      "album": "neil-young-harvest"
+    },
+    {
+      "pos": "K5",
+      "artista": "Joni Mitchell",
+      "titulo": "Blue",
+      "album": "joni-mitchell-blue"
+    },
+    {
+      "pos": "K6",
+      "artista": "Trees",
+      "titulo": "On the Shore",
+      "album": "trees-on-the-shore"
+    },
+    {
+      "pos": "L1",
+      "artista": "Tom Waits",
+      "titulo": "Closing Time",
+      "album": "tom-waits-closing-time"
+    },
+    {
+      "pos": "L2",
+      "artista": "Simon & Garfunkel",
+      "titulo": "Bridge Over Troubled Water",
+      "album": "simon-and-garfunkel-bridge-over-troubled-water"
+    },
+    {
+      "pos": "L3",
+      "artista": "Vashti Bunyan",
+      "titulo": "Just Another Diamond Day",
+      "album": "vashti-bunyan-just-another-diamond-day"
+    },
+    {
+      "pos": "L4",
+      "artista": "Anne Briggs",
+      "titulo": "The Time Has Come",
+      "album": "anne-briggs-the-time-has-come"
+    },
+    {
+      "pos": "L5",
+      "artista": "Judee Sill",
+      "titulo": "Judee Sill",
+      "album": "judee-sill-judee-sill"
+    },
+    {
+      "pos": "L6",
+      "artista": "Richard and Linda Thompson",
+      "titulo": "I Want to See the Bright Lights Tonight",
+      "album": "richard-and-linda-thompson-i-want-to-see-the-bright-lights-tonight"
+    },
+    {
+      "pos": "M1",
+      "artista": "Crosby, Stills, Nash & Young",
+      "titulo": "Déjà Vu",
+      "album": "crosby-stills-nash-and-young-deja-vu"
+    },
+    {
+      "pos": "M2",
+      "artista": "John Martyn",
+      "titulo": "Bless the Weather",
+      "album": "john-martyn-bless-the-weather"
+    },
+    {
+      "pos": "M3",
+      "artista": "Sandy Denny",
+      "titulo": "Sandy",
+      "album": "sandy-denny-sandy"
+    },
+    {
+      "pos": "M4",
+      "artista": "Steeleye Span",
+      "titulo": "Parcel of Rogues",
+      "album": "steeleye-span-parcel-of-rogues"
+    },
+    {
+      "pos": "M5",
+      "artista": "James Taylor",
+      "titulo": "Sweet Baby James",
+      "album": "james-taylor-sweet-baby-james"
+    },
+    {
+      "pos": "M6",
+      "artista": "Linda Perhacs",
+      "titulo": "Parallelograms",
+      "album": "linda-perhacs-parallelograms"
+    },
+    {
+      "pos": "N1",
+      "artista": "Badly Drawn Boy",
+      "titulo": "The Hour of Bewilderbeast",
+      "album": "badly-drawn-boy-the-hour-of-bewilderbeast"
+    },
+    {
+      "pos": "N2",
+      "artista": "The Burns Unit",
+      "titulo": "Side Show",
+      "album": "the-burns-unit-side-show"
+    },
+    {
+      "pos": "N3",
+      "artista": "Fleet Foxes",
+      "titulo": "Fleet Foxes",
+      "album": "fleet-foxes-fleet-foxes"
+    },
+    {
+      "pos": "N4",
+      "artista": "David Francey",
+      "titulo": "Torn Screen Door",
+      "album": "david-francey-torn-screen-door"
+    },
+    {
+      "pos": "N5",
+      "artista": "Cat Power",
+      "titulo": "Moon Pix",
+      "album": "cat-power-moon-pix"
+    },
+    {
+      "pos": "N6",
+      "artista": "Chumbawamba",
+      "titulo": "The Boy Bands Have Won",
+      "album": "chumbawamba-the-boy-bands-have-won"
+    },
+    {
+      "pos": "O1",
+      "artista": "Vashti Bunyan",
+      "titulo": "Lookaftering",
+      "album": "vashti-bunyan-lookaftering"
+    },
+    {
+      "pos": "O2",
+      "artista": "Bob Dylan",
+      "titulo": "Modern Times",
+      "album": "bob-dylan-modern-times"
+    },
+    {
+      "pos": "O3",
+      "artista": "John Fahey",
+      "titulo": "Red Cross",
+      "album": "john-fahey-red-cross"
+    },
+    {
+      "pos": "O4",
+      "artista": "Kate Rusby",
+      "titulo": "Sleepless",
+      "album": "kate-rusby-sleepless"
+    },
+    {
+      "pos": "O5",
+      "artista": "Bon Iver",
+      "titulo": "For Emma, Forever Ago",
+      "album": "bon-iver-for-emma-forever-ago"
+    },
+    {
+      "pos": "O6",
+      "artista": "José González",
+      "titulo": "Veneer",
+      "album": "jose-gonzalez-veneer"
+    },
+    {
+      "pos": "P1",
+      "artista": "Seth Lakeman",
+      "titulo": "Freedom Fields",
+      "album": "seth-lakeman-freedom-fields"
+    },
+    {
+      "pos": "P2",
+      "artista": "Lucinda Williams",
+      "titulo": "Car Wheels on a Gravel Road",
+      "album": "lucinda-williams-car-wheels-on-a-gravel-road"
+    },
+    {
+      "pos": "P3",
+      "artista": "Robert Plant & Alison Krauss",
+      "titulo": "Raising Sand",
+      "album": "robert-plant-and-alison-krauss-raising-sand"
+    },
+    {
+      "pos": "P4",
+      "artista": "Ani DiFranco",
+      "titulo": "Not a Pretty Girl",
+      "album": "ani-difranco-not-a-pretty-girl"
+    },
+    {
+      "pos": "P5",
+      "artista": "Greg Brown",
+      "titulo": "Further In",
+      "album": "greg-brown-further-in"
+    },
+    {
+      "pos": "P6",
+      "artista": "Richard Shindell",
+      "titulo": "Vuelta",
+      "album": "richard-shindell-vuelta"
+    },
+    {
+      "pos": "Q1",
+      "artista": "Joanna Newsom",
+      "titulo": "Ys",
+      "album": "joanna-newsom-ys"
+    },
+    {
+      "pos": "Q2",
+      "artista": "Dave Carter & Tracy Grammer",
+      "titulo": "Drum Hat Buddha",
+      "album": "dave-carter-and-tracy-grammer-drum-hat-buddha"
+    },
+    {
+      "pos": "Q3",
+      "artista": "Indigo Girls",
+      "titulo": "Nomads Indians Saints",
+      "album": "indigo-girls-nomads-indians-saints"
+    },
+    {
+      "pos": "Q4",
+      "artista": "Iva Bittová",
+      "titulo": "Bílé inferno",
+      "album": "iva-bittova-bile-inferno"
+    },
+    {
+      "pos": "Q5",
+      "artista": "Vetiver",
+      "titulo": "Vetiver",
+      "album": "vetiver-vetiver"
+    },
+    {
+      "pos": "Q6",
+      "artista": "Josephine Foster",
+      "titulo": "Hazel Eyes, I Will Lead You",
+      "album": "josephine-foster-hazel-eyes-i-will-lead-you"
+    }
+  ]
+}

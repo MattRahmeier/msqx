@@ -1,0 +1,155 @@
+{
+  "id": "third-wave-ska",
+  "titulo": "/mu/ Essential Ska Albums (Third-Wave e Ska-core)",
+  "indice": "ska",
+  "generos": [
+    "third-wave-ska"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/ska.png",
+  "transcricao": {
+    "data": "2026-11-05",
+    "metodo": "seções Third-Wave e Ska-core do chart de Ska, lidas na imagem; \"pos\" é a posição no chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "15",
+      "artista": "The Aggrolites",
+      "titulo": "The Aggrolites",
+      "album": "the-aggrolites-the-aggrolites"
+    },
+    {
+      "pos": "16",
+      "artista": "The Slackers",
+      "titulo": "Self Medication",
+      "album": "the-slackers-self-medication"
+    },
+    {
+      "pos": "17",
+      "artista": "Streetlight Manifesto",
+      "titulo": "Somewhere in the Between",
+      "album": "streetlight-manifesto-somewhere-in-the-between"
+    },
+    {
+      "pos": "18",
+      "artista": "Catch 22",
+      "titulo": "Keasbey Nights",
+      "album": "catch-22-keasbey-nights"
+    },
+    {
+      "pos": "19",
+      "artista": "Mustard Plug",
+      "titulo": "Evildoers Beware!",
+      "album": "mustard-plug-evildoers-beware"
+    },
+    {
+      "pos": "20",
+      "artista": "Mad Caddies",
+      "titulo": "Duck and Cover",
+      "album": "mad-caddies-duck-and-cover"
+    },
+    {
+      "pos": "21",
+      "artista": "The Aquabats",
+      "titulo": "The Fury of the Aquabats!",
+      "album": "the-aquabats-the-fury-of-the-aquabats"
+    },
+    {
+      "pos": "22",
+      "artista": "The Arrogant Sons of Bitches",
+      "titulo": "Three Cheers for Disappointment",
+      "album": "the-arrogant-sons-of-bitches-three-cheers-for-disappointment"
+    },
+    {
+      "pos": "23",
+      "artista": "Big D and the Kids Table",
+      "titulo": "Strictly Rude",
+      "album": "big-d-and-the-kids-table-strictly-rude"
+    },
+    {
+      "pos": "24",
+      "artista": "Bomb the Music Industry!",
+      "titulo": "Goodbye Cool World!",
+      "album": "bomb-the-music-industry-goodbye-cool-world"
+    },
+    {
+      "pos": "25",
+      "artista": "Less Than Jake",
+      "titulo": "Losing Streak",
+      "album": "less-than-jake-losing-streak"
+    },
+    {
+      "pos": "26",
+      "artista": "Fishbone",
+      "titulo": "Truth and Soul",
+      "album": "fishbone-truth-and-soul"
+    },
+    {
+      "pos": "27",
+      "artista": "Sublime",
+      "titulo": "40oz. to Freedom",
+      "album": "sublime-40oz-to-freedom"
+    },
+    {
+      "pos": "28",
+      "artista": "Voodoo Glow Skulls",
+      "titulo": "Band Geek Mafia",
+      "album": "voodoo-glow-skulls-band-geek-mafia"
+    },
+    {
+      "pos": "29",
+      "artista": "Buck-O-Nine",
+      "titulo": "Twenty-Eight Teeth",
+      "album": "buck-o-nine-twenty-eight-teeth"
+    },
+    {
+      "pos": "30",
+      "artista": "Choking Victim",
+      "titulo": "No Gods, No Managers",
+      "album": "choking-victim-no-gods-no-managers"
+    },
+    {
+      "pos": "31",
+      "artista": "Operation Ivy",
+      "titulo": "Energy",
+      "album": "operation-ivy-energy"
+    },
+    {
+      "pos": "32",
+      "artista": "Leftöver Crack",
+      "titulo": "Fuck World Trade",
+      "album": "leftover-crack-fuck-world-trade"
+    },
+    {
+      "pos": "33",
+      "artista": "Citizen Fish",
+      "titulo": "Active Ingredients",
+      "album": "citizen-fish-active-ingredients"
+    },
+    {
+      "pos": "34",
+      "artista": "The Suicide Machines",
+      "titulo": "Destruction by Definition",
+      "album": "the-suicide-machines-destruction-by-definition"
+    },
+    {
+      "pos": "35",
+      "artista": "The Mighty Mighty Bosstones",
+      "titulo": "Devils Night Out",
+      "album": "the-mighty-mighty-bosstones-devils-night-out"
+    },
+    {
+      "pos": "36",
+      "artista": "No Cash",
+      "titulo": "Run Your Pockets",
+      "album": "no-cash-run-your-pockets"
+    },
+    {
+      "pos": "37",
+      "artista": "Against All Authority",
+      "titulo": "Destroy What Destroys You",
+      "album": "against-all-authority-destroy-what-destroys-you"
+    }
+  ]
+}

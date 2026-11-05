@@ -1,0 +1,113 @@
+{
+  "id": "folk-punk",
+  "titulo": "/mu/ Essential Folk-Punk",
+  "indice": "folk-punk",
+  "generos": [
+    "folk-punk"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/folk-punk.jpg",
+  "transcricao": {
+    "data": "2026-11-05",
+    "metodo": "chart inteiro, lido na imagem; \"pos\" é a posição no chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1",
+      "artista": "Andrew Jackson Jihad",
+      "titulo": "Can't Maintain",
+      "album": "andrew-jackson-jihad-cant-maintain"
+    },
+    {
+      "pos": "2",
+      "artista": "Andrew Jackson Jihad",
+      "titulo": "People That Can Eat People Are the Luckiest People in the World",
+      "album": "andrew-jackson-jihad-people-that-can-eat-people-are-the-luckiest-people-in-the-world"
+    },
+    {
+      "pos": "3",
+      "artista": "Defiance, Ohio",
+      "titulo": "Share What Ya Got",
+      "album": "defiance-ohio-share-what-ya-got"
+    },
+    {
+      "pos": "4",
+      "artista": "Wingnut Dishwashers Union",
+      "titulo": "Burn the Earth, Leave It Behind",
+      "album": "wingnut-dishwashers-union-burn-the-earth-leave-it-behind"
+    },
+    {
+      "pos": "5",
+      "artista": "Blackbird Raum",
+      "titulo": "Swidden",
+      "album": "blackbird-raum-swidden"
+    },
+    {
+      "pos": "6",
+      "artista": "This Bike Is a Pipe Bomb",
+      "titulo": "Front Seat Solidarity",
+      "album": "this-bike-is-a-pipe-bomb-front-seat-solidarity"
+    },
+    {
+      "pos": "7",
+      "artista": "Imadethismistake",
+      "titulo": "It's Okay",
+      "album": "imadethismistake-its-okay"
+    },
+    {
+      "pos": "8",
+      "artista": "Billy Bragg",
+      "titulo": "Life's a Riot With Spy vs Spy",
+      "album": "billy-bragg-lifes-a-riot-with-spy-vs-spy"
+    },
+    {
+      "pos": "9",
+      "artista": "Violent Femmes",
+      "titulo": "Violent Femmes",
+      "album": "violent-femmes-violent-femmes"
+    },
+    {
+      "pos": "10",
+      "artista": "Against Me!",
+      "titulo": "The Eternal Cowboy",
+      "album": "against-me-the-eternal-cowboy"
+    },
+    {
+      "pos": "11",
+      "artista": "Against Me!",
+      "titulo": "Reinventing Axl Rose",
+      "album": "against-me-reinventing-axl-rose"
+    },
+    {
+      "pos": "12",
+      "artista": "Mischief Brew",
+      "titulo": "Songs From Under the Sink",
+      "album": "mischief-brew-songs-from-under-the-sink"
+    },
+    {
+      "pos": "13",
+      "artista": "Ghost Mice",
+      "titulo": "The Debt of the Dead",
+      "album": "ghost-mice-the-debt-of-the-dead"
+    },
+    {
+      "pos": "14",
+      "artista": "The Taxpayers",
+      "titulo": "A Rhythm in the Cages",
+      "album": "the-taxpayers-a-rhythm-in-the-cages"
+    },
+    {
+      "pos": "15",
+      "artista": "Spoonboy",
+      "titulo": "I Love You, This Is a Robbery",
+      "album": "spoonboy-i-love-you-this-is-a-robbery"
+    },
+    {
+      "pos": "16",
+      "artista": "Nana Grizol",
+      "titulo": "Love It! Love It!",
+      "album": "nana-grizol-love-it-love-it"
+    }
+  ]
+}

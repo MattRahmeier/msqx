@@ -1,0 +1,167 @@
+{
+  "id": "deep-funk",
+  "titulo": "Introduction to Modern and Deep Funk",
+  "indice": "modern-funk",
+  "generos": [
+    "deep-funk"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/modern-funk.jpg",
+  "transcricao": {
+    "data": "2026-11-05",
+    "metodo": "chart inteiro, lido na imagem; \"pos\" é a posição no chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "The New Mastersounds",
+      "titulo": "Breaks From the Border",
+      "album": "the-new-mastersounds-breaks-from-the-border"
+    },
+    {
+      "pos": "1-2",
+      "artista": "6ix Toys",
+      "titulo": "6ix Toys",
+      "album": "6ix-toys-6ix-toys"
+    },
+    {
+      "pos": "1-3",
+      "artista": "The Sound Stylistics",
+      "titulo": "Play Deep Funk",
+      "album": "the-sound-stylistics-play-deep-funk"
+    },
+    {
+      "pos": "1-4",
+      "artista": "The Bamboos",
+      "titulo": "Rawville",
+      "album": "the-bamboos-rawville"
+    },
+    {
+      "pos": "1-5",
+      "artista": "Flow Dynamics",
+      "titulo": "Flow Dynamics",
+      "album": "flow-dynamics-flow-dynamics"
+    },
+    {
+      "pos": "2-1",
+      "artista": "The Sweet Vandals",
+      "titulo": "So Clear",
+      "album": "the-sweet-vandals-so-clear"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Trio Valore",
+      "titulo": "Return of the Iron Monkeys",
+      "album": "trio-valore-return-of-the-iron-monkeys"
+    },
+    {
+      "pos": "2-3",
+      "artista": "Speedometer",
+      "titulo": "Four Flights Up",
+      "album": "speedometer-four-flights-up"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Breakestra",
+      "titulo": "Hit the Floor",
+      "album": "breakestra-hit-the-floor"
+    },
+    {
+      "pos": "2-5",
+      "artista": "Various Artists",
+      "titulo": "Diplomats of Solid Sound",
+      "album": "various-artists-diplomats-of-solid-sound"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Brownout",
+      "titulo": "Homenaje",
+      "album": "brownout-homenaje"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Tm Juke and The Jack Baker Trio",
+      "titulo": "Boto and the Second Liners",
+      "album": "tm-juke-and-the-jack-baker-trio-boto-and-the-second-liners"
+    },
+    {
+      "pos": "3-3",
+      "artista": "Zero dB",
+      "titulo": "Bongos, Bleeps & Basslines",
+      "album": "zero-db-bongos-bleeps-and-basslines"
+    },
+    {
+      "pos": "3-4",
+      "artista": "The Haggis Horns",
+      "titulo": "Hot Damn!",
+      "album": "the-haggis-horns-hot-damn"
+    },
+    {
+      "pos": "3-5",
+      "artista": "The Budos Band",
+      "titulo": "The Budos Band II",
+      "album": "the-budos-band-the-budos-band-ii"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Smoove & Turrell",
+      "titulo": "Eccentric Audio",
+      "album": "smoove-and-turrell-eccentric-audio"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Cookin' on 3 Burners",
+      "titulo": "Baked, Broiled & Fried",
+      "album": "cookin-on-3-burners-baked-broiled-and-fried"
+    },
+    {
+      "pos": "4-3",
+      "artista": "All Good Funk Alliance",
+      "titulo": "On the One",
+      "album": "all-good-funk-alliance-on-the-one"
+    },
+    {
+      "pos": "4-4",
+      "artista": "The Quantic Soul Orchestra",
+      "titulo": "Tropidelico",
+      "album": "the-quantic-soul-orchestra-tropidelico"
+    },
+    {
+      "pos": "4-5",
+      "artista": "The Greyboy Allstars",
+      "titulo": "A Town Called Earth",
+      "album": "the-greyboy-allstars-a-town-called-earth"
+    },
+    {
+      "pos": "5-1",
+      "artista": "Lack of Afro",
+      "titulo": "Press On",
+      "album": "lack-of-afro-press-on"
+    },
+    {
+      "pos": "5-2",
+      "artista": "Soopasoul",
+      "titulo": "Twin Stix",
+      "album": "soopasoul-twin-stix"
+    },
+    {
+      "pos": "5-3",
+      "artista": "Natural Self",
+      "titulo": "My Heart Beats Like a Drum",
+      "album": "natural-self-my-heart-beats-like-a-drum"
+    },
+    {
+      "pos": "5-4",
+      "artista": "The Mighty Imperials",
+      "titulo": "Thunder Chicken",
+      "album": "the-mighty-imperials-thunder-chicken"
+    },
+    {
+      "pos": "5-5",
+      "artista": "The Apples",
+      "titulo": "Kings",
+      "album": "the-apples-kings"
+    }
+  ]
+}

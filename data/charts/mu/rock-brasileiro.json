@@ -1,0 +1,210 @@
+{
+  "id": "rock-brasileiro",
+  "titulo": "Great Brazilian Music: Rock Edition",
+  "indice": "brazilian-rock",
+  "generos": [
+    "rock-brasileiro"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/brazilian-rock.png",
+  "transcricao": {
+    "data": "2026-11-05",
+    "metodo": "seleção do chart, lida na imagem; \"pos\" é a seção ou década do chart",
+    "status": "revisar",
+    "parcial": true
+  },
+  "albuns": [
+    {
+      "pos": "Iê-iê-iê",
+      "artista": "Roberto Carlos",
+      "titulo": "Em Ritmo de Aventura",
+      "album": "roberto-carlos-em-ritmo-de-aventura"
+    },
+    {
+      "pos": "Iê-iê-iê",
+      "artista": "Erasmo Carlos",
+      "titulo": "A Pescaria",
+      "album": "erasmo-carlos-a-pescaria"
+    },
+    {
+      "pos": "Rock 'n' Roll",
+      "artista": "Raul Seixas",
+      "titulo": "Krig-ha, Bandolo!",
+      "album": "raul-seixas-krig-ha-bandolo"
+    },
+    {
+      "pos": "Rock 'n' Roll",
+      "artista": "Rita Lee & Tutti Frutti",
+      "titulo": "Fruto Proibido",
+      "album": "rita-lee-and-tutti-frutti-fruto-proibido"
+    },
+    {
+      "pos": "Rock 'n' Roll",
+      "artista": "Sá, Rodrix & Guarabyra",
+      "titulo": "Terra",
+      "album": "sa-rodrix-and-guarabyra-terra"
+    },
+    {
+      "pos": "Prog",
+      "artista": "Bacamarte",
+      "titulo": "Depois do Fim",
+      "album": "bacamarte-depois-do-fim"
+    },
+    {
+      "pos": "Prog",
+      "artista": "Som Imaginário",
+      "titulo": "Matança do Porco",
+      "album": "som-imaginario-matanca-do-porco"
+    },
+    {
+      "pos": "Prog",
+      "artista": "Secos & Molhados",
+      "titulo": "Secos & Molhados",
+      "album": "secos-and-molhados-secos-and-molhados"
+    },
+    {
+      "pos": "Prog",
+      "artista": "Som Nosso de Cada Dia",
+      "titulo": "Snegs",
+      "album": "som-nosso-de-cada-dia-snegs"
+    },
+    {
+      "pos": "Prog",
+      "artista": "O Terço",
+      "titulo": "Criaturas da Noite",
+      "album": "o-terco-criaturas-da-noite"
+    },
+    {
+      "pos": "Punk",
+      "artista": "Titãs",
+      "titulo": "Cabeça Dinossauro",
+      "album": "titas-cabeca-dinossauro"
+    },
+    {
+      "pos": "Punk",
+      "artista": "Ultraje a Rigor",
+      "titulo": "Nós Vamos Invadir Sua Praia",
+      "album": "ultraje-a-rigor-nos-vamos-invadir-sua-praia"
+    },
+    {
+      "pos": "Punk",
+      "artista": "Cólera",
+      "titulo": "Pela Paz em Todo Mundo",
+      "album": "colera-pela-paz-em-todo-mundo"
+    },
+    {
+      "pos": "Punk",
+      "artista": "Ratos de Porão",
+      "titulo": "Crucificados pelo Sistema",
+      "album": "ratos-de-porao-crucificados-pelo-sistema"
+    },
+    {
+      "pos": "Punk",
+      "artista": "Raimundos",
+      "titulo": "Raimundos",
+      "album": "raimundos-raimundos"
+    },
+    {
+      "pos": "Pós-punk e New Wave",
+      "artista": "Patife Band",
+      "titulo": "Corredor Polonês",
+      "album": "patife-band-corredor-polones"
+    },
+    {
+      "pos": "Pós-punk e New Wave",
+      "artista": "Legião Urbana",
+      "titulo": "Dois",
+      "album": "legiao-urbana-dois"
+    },
+    {
+      "pos": "Pós-punk e New Wave",
+      "artista": "Os Paralamas do Sucesso",
+      "titulo": "Selvagem?",
+      "album": "os-paralamas-do-sucesso-selvagem"
+    },
+    {
+      "pos": "Pós-punk e New Wave",
+      "artista": "Ira!",
+      "titulo": "Vivendo e Não Aprendendo",
+      "album": "ira-vivendo-e-nao-aprendendo"
+    },
+    {
+      "pos": "Pós-punk e New Wave",
+      "artista": "RPM",
+      "titulo": "Revoluções por Minuto",
+      "album": "rpm-revolucoes-por-minuto"
+    },
+    {
+      "pos": "Rap Rock",
+      "artista": "Chico Science & Nação Zumbi",
+      "titulo": "Da Lama ao Caos",
+      "album": "chico-science-and-nacao-zumbi-da-lama-ao-caos"
+    },
+    {
+      "pos": "Rap Rock",
+      "artista": "O Rappa",
+      "titulo": "Lado B Lado A",
+      "album": "o-rappa-lado-b-lado-a"
+    },
+    {
+      "pos": "Rap Rock",
+      "artista": "Charlie Brown Jr.",
+      "titulo": "Transpiração Contínua Prolongada",
+      "album": "charlie-brown-jr-transpiracao-continua-prolongada"
+    },
+    {
+      "pos": "Metal",
+      "artista": "Sepultura",
+      "titulo": "Arise",
+      "album": "sepultura-arise"
+    },
+    {
+      "pos": "Metal",
+      "artista": "Sarcófago",
+      "titulo": "I.N.R.I.",
+      "album": "sarcofago-inri"
+    },
+    {
+      "pos": "Metal",
+      "artista": "Angra",
+      "titulo": "Temple of Shadows",
+      "album": "angra-temple-of-shadows"
+    },
+    {
+      "pos": "Alternativo",
+      "artista": "Los Hermanos",
+      "titulo": "Ventura",
+      "album": "los-hermanos-ventura"
+    },
+    {
+      "pos": "Alternativo",
+      "artista": "Pullovers",
+      "titulo": "Tudo Que Eu Sempre Sonhei",
+      "album": "pullovers-tudo-que-eu-sempre-sonhei"
+    },
+    {
+      "pos": "Alternativo",
+      "artista": "Baleia",
+      "titulo": "Quebra Azul",
+      "album": "baleia-quebra-azul"
+    },
+    {
+      "pos": "Experimental",
+      "artista": "Walter Franco",
+      "titulo": "Revolver",
+      "album": "walter-franco-revolver"
+    },
+    {
+      "pos": "Post Rock",
+      "artista": "Macaco Bong",
+      "titulo": "Artista Igual Pedreiro",
+      "album": "macaco-bong-artista-igual-pedreiro"
+    },
+    {
+      "pos": "Post Rock",
+      "artista": "Hurtmold",
+      "titulo": "Cozido",
+      "album": "hurtmold-cozido"
+    }
+  ]
+}

@@ -13,6 +13,8 @@ import { arvoreOrdenada, descendentes } from "../arvore.js";
 
 const coroa = `<svg class="icone coroa" aria-hidden="true"><use href="#i-coroa"/></svg>`;
 const decada = (g) => (g.decada ? `anos ${g.decada}` : "");
+// Tags do gênero (data/generos/generos.json), ex.: "brasileiro".
+const tagsHtml = (g) => (g.tags || []).map((t) => `<span class="genero-tag">${esc(t)}</span>`).join("");
 
 // Um card por gênero, sem sublistas. Na ordem da árvore cada subgênero vem logo depois do
 // gênero de onde saiu. O card mostra só a década e quantos álbuns tem.
@@ -23,6 +25,7 @@ function cardGenero(no, porGenero) {
     <li><a class="genero-card${n ? " com-lista" : ""}" href="#/recomendados/${no.id}">
       <span class="genero-nome">${esc(no.nome)}</span>
       <span class="genero-meta">${meta}</span>
+      ${tagsHtml(no)}
     </a></li>`;
 }
 
@@ -69,6 +72,7 @@ export async function render(el, [generoId]) {
     ${tituloPagina(`${genero.mestre ? coroa : ""}${esc(genero.nome)}`, genero.mestre ? "recomendados" : `recomendados/${caminho[0].id}`, genero.mestre
       ? { rotuloVoltar: "Voltar ao Guia de Gêneros" }
       : { subir: `recomendados/${genero.pai}`, rotuloVoltar: `Voltar para ${esc(caminho[0].nome)}`, rotuloSubir: `Subir para ${esc(gen.porId.get(genero.pai).nome)}` })}
+    ${tagsHtml(genero)}
     <div class="vista-resumo">${resumoGenero(genero, { rota: "recomendados" }) || (genero.resumoPendente ? `<p class="resumo-genero">Resumo em preparação.</p>` : "")}</div>
     ${descendentes(no).length ? `
       <h2 class="secao-titulo">Subgêneros</h2>

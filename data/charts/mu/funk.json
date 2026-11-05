@@ -1,0 +1,161 @@
+{
+  "id": "funk",
+  "titulo": "Essential Funk",
+  "indice": "funk",
+  "generos": [
+    "funk"
+  ],
+  "fonte": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+  "imagem": "fontes/mu-charts/funk.jpg",
+  "transcricao": {
+    "data": "2026-11-04",
+    "metodo": "chart inteiro, lido na imagem; \"pos\" é a posição no chart",
+    "status": "revisar"
+  },
+  "albuns": [
+    {
+      "pos": "1-1",
+      "artista": "War",
+      "titulo": "The World Is a Ghetto",
+      "album": "war-the-world-is-a-ghetto"
+    },
+    {
+      "pos": "1-2",
+      "artista": "Various Artists",
+      "titulo": "Cold Heat: Heavy Funk Rarities",
+      "album": "various-artists-cold-heat-heavy-funk-rarities"
+    },
+    {
+      "pos": "1-3",
+      "artista": "Various Artists",
+      "titulo": "The Funky 16 Corners",
+      "album": "various-artists-the-funky-16-corners"
+    },
+    {
+      "pos": "1-4",
+      "artista": "Melvin Van Peebles",
+      "titulo": "Sweet Sweetback's Baadasssss Song",
+      "album": "melvin-van-peebles-sweet-sweetbacks-baadasssss-song"
+    },
+    {
+      "pos": "2-1",
+      "artista": "Betty Davis",
+      "titulo": "Betty Davis",
+      "album": "betty-davis-betty-davis"
+    },
+    {
+      "pos": "2-2",
+      "artista": "Sly and the Family Stone",
+      "titulo": "Stand!",
+      "album": "sly-and-the-family-stone-stand"
+    },
+    {
+      "pos": "2-3",
+      "artista": "The Meters",
+      "titulo": "The Meters",
+      "album": "the-meters-the-meters"
+    },
+    {
+      "pos": "2-4",
+      "artista": "Rick James",
+      "titulo": "Street Songs",
+      "album": "rick-james-street-songs"
+    },
+    {
+      "pos": "3-1",
+      "artista": "Parliament",
+      "titulo": "Mothership Connection",
+      "album": "parliament-mothership-connection"
+    },
+    {
+      "pos": "3-2",
+      "artista": "Funkadelic",
+      "titulo": "One Nation Under a Groove",
+      "album": "funkadelic-one-nation-under-a-groove"
+    },
+    {
+      "pos": "3-3",
+      "artista": "James Brown",
+      "titulo": "The Payback",
+      "album": "james-brown-the-payback"
+    },
+    {
+      "pos": "3-4",
+      "artista": "Kool & the Gang",
+      "titulo": "Wild and Peaceful",
+      "album": "kool-and-the-gang-wild-and-peaceful"
+    },
+    {
+      "pos": "4-1",
+      "artista": "Fela Kuti",
+      "titulo": "Zombie",
+      "album": "fela-kuti-zombie"
+    },
+    {
+      "pos": "4-2",
+      "artista": "Cymande",
+      "titulo": "Cymande",
+      "album": "cymande-cymande"
+    },
+    {
+      "pos": "4-3",
+      "artista": "KC and the Sunshine Band",
+      "titulo": "KC and the Sunshine Band",
+      "album": "kc-and-the-sunshine-band-kc-and-the-sunshine-band"
+    },
+    {
+      "pos": "4-4",
+      "artista": "Ohio Players",
+      "titulo": "Honey",
+      "album": "ohio-players-honey"
+    },
+    {
+      "pos": "5-1",
+      "artista": "Commodores",
+      "titulo": "Caught in the Act",
+      "album": "commodores-caught-in-the-act"
+    },
+    {
+      "pos": "5-2",
+      "artista": "The Isley Brothers",
+      "titulo": "3+3",
+      "album": "the-isley-brothers-3-3"
+    },
+    {
+      "pos": "5-3",
+      "artista": "The Brothers Johnson",
+      "titulo": "Right on Time",
+      "album": "the-brothers-johnson-right-on-time"
+    },
+    {
+      "pos": "5-4",
+      "artista": "Mandrill",
+      "titulo": "Mandrill",
+      "album": "mandrill-mandrill"
+    },
+    {
+      "pos": "6-1",
+      "artista": "Zapp",
+      "titulo": "Zapp II",
+      "album": "zapp-zapp-ii"
+    },
+    {
+      "pos": "6-2",
+      "artista": "The Bar-Kays",
+      "titulo": "Soul Finger",
+      "album": "the-bar-kays-soul-finger"
+    },
+    {
+      "pos": "6-3",
+      "artista": "The Headhunters",
+      "titulo": "Survival of the Fittest",
+      "album": "the-headhunters-survival-of-the-fittest"
+    },
+    {
+      "pos": "6-4",
+      "artista": "Tower of Power",
+      "titulo": "Back to Oakland",
+      "album": "tower-of-power-back-to-oakland"
+    }
+  ]
+}
