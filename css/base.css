@@ -271,8 +271,6 @@ button.card-capa:focus-visible { outline: 2px solid var(--texto); outline-offset
 .curadoria-arquivo .capa-explicita { width: 44px; height: 44px; }
 .card-sem-capa { width: 100%; height: 100%; display: grid; place-items: center; font-size: 3rem; font-weight: 700; color: var(--texto-fraco); }
 .card-info { min-width: 0; }
-.card-destaque { display: inline-block; margin: 0 0 var(--esp-1); padding: 2px var(--esp-2); border-radius: 999px; background: var(--destaque); color: var(--popup-texto); font-size: var(--t-xs); font-weight: 700; letter-spacing: 0.02em; }
-.em-destaque .card-capa img { box-shadow: 0 0 0 2px var(--destaque); }
 .card-titulo { margin: 0; font-size: var(--t-sm); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card-artista { margin: 0; font-size: var(--t-sm); color: var(--texto-suave); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card-artista span { color: var(--texto-fraco); }
@@ -280,6 +278,13 @@ button.card-capa:focus-visible { outline: 2px solid var(--texto); outline-offset
 .card-capa-area { position: relative; }
 .selo-editorial { position: absolute; top: var(--esp-2); left: var(--esp-2); z-index: 1; display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--editorial); color: var(--editorial-texto); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45); pointer-events: auto; }
 .selo-editorial .icone { width: 16px; height: 16px; stroke-width: 2.2; }
+/* Selo (!) "Álbum Essencial!": círculo no canto da capa que abre uma etiqueta ao ser tocado */
+.selo-essencial { position: absolute; top: var(--esp-2); left: var(--esp-2); z-index: 2; display: inline-flex; align-items: center; min-width: 28px; height: 28px; padding: 0 5px; border: none; border-radius: 14px; background: var(--destaque); color: var(--popup-texto); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45); font: inherit; cursor: pointer; }
+.selo-essencial .icone { width: 18px; height: 18px; stroke-width: 3; flex: none; }
+.selo-essencial-texto { display: none; padding: 0 var(--esp-1) 0 2px; font-size: var(--t-xs); font-weight: 700; white-space: nowrap; }
+.selo-essencial.aberto .selo-essencial-texto { display: inline; }
+@media (hover: hover) { .selo-essencial:hover .selo-essencial-texto { display: inline; } }
+.selo-essencial ~ .selo-editorial { top: calc(var(--esp-2) + 28px + var(--esp-1)); }
 .painel-editoriais { list-style: none; margin: 0 0 var(--esp-6); padding: 0; display: grid; gap: var(--esp-2); }
 .painel-editoriais a { display: grid; grid-template-columns: auto 1fr; column-gap: var(--esp-3); align-items: center; padding: var(--esp-3); border-radius: var(--raio); background: rgba(255, 122, 26, 0.12); color: var(--popup-texto); text-decoration: none; }
 .painel-editoriais a:hover, .painel-editoriais a:focus-visible { background: rgba(255, 122, 26, 0.22); }

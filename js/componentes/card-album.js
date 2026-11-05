@@ -39,6 +39,18 @@ if (typeof document !== "undefined") {
   });
 }
 
+// Selo (!) sobre a capa: tocar revela "Álbum Essencial!"; tocar de novo ou fora dele esconde.
+if (typeof document !== "undefined") {
+  document.addEventListener("click", (e) => {
+    const selo = e.target.closest("[data-essencial]");
+    for (const s of document.querySelectorAll("[data-essencial].aberto")) if (s !== selo) { s.classList.remove("aberto"); s.setAttribute("aria-expanded", "false"); }
+    if (!selo) return;
+    e.preventDefault();
+    e.stopPropagation();
+    selo.setAttribute("aria-expanded", String(selo.classList.toggle("aberto")));
+  });
+}
+
 export const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
 // Botões de streaming. `comNome`: mostra o nome da plataforma ao lado do ícone (caixa lateral).
@@ -94,27 +106,30 @@ export function capaHtml(ficha, { lazy = true, aviso = true } = {}) {
   return `<span class="capa-explicita" data-revelar="${esc(ficha.id)}">${img}${aviso ? `<span class="capa-aviso"><span>Conteúdo explícito, clique para revelar</span></span>` : ""}</span>`;
 }
 
+// Selo dos discos marcados com "essencial" no chart (gravado na ficha por criar-fichas.js).
+export const seloEssencial = (ficha) => (ficha?.essencial
+  ? `<button type="button" class="selo-essencial" data-essencial aria-expanded="false" aria-label="Álbum Essencial!"><svg class="icone" aria-hidden="true"><use href="#i-essencial"/></svg><span class="selo-essencial-texto">Álbum Essencial!</span></button>` : "");
+
 // `nota`: frase opcional (ex.: do autor de A Curadoria). `etiquetas`: [{ texto, href }] —
 // botões pequenos embaixo do card (os outros gêneros em que o disco está).
 // `editoriais`: edições de A Curadoria que citam o disco → marca laranja no canto da capa.
-// `destaque`: disco em destaque no gênero (emDestaque no chart) → etiqueta "Em destaque" sobre o título.
-export function cardAlbum(ficha, { nota, etiquetas = [], editoriais = [], destaque = false } = {}) {
+export function cardAlbum(ficha, { nota, etiquetas = [], editoriais = [] } = {}) {
   const ano = ficha.lancamento?.slice(0, 4);
   const capa = ficha.id
     ? `<button type="button" class="card-capa" data-album="${esc(ficha.id)}" aria-label="Detalhes de ${esc(ficha.titulo)}" aria-haspopup="dialog">${capaHtml(ficha)}</button>`
     : `<div class="card-capa">${capaHtml(ficha)}</div>`;
   const nome = `${ficha.artista} - ${ficha.titulo}`;
   return `
-    <article class="card-album${destaque ? " em-destaque" : ""}">
+    <article class="card-album">
       <div class="card-capa-area">
         ${capa}
+        ${seloEssencial(ficha)}
         ${editoriais.length ? `<span class="selo-editorial" role="img" aria-label="Citado no nosso editorial: ${esc(editoriais.map((e) => e.titulo).join("; "))}" title="Citado no nosso editorial: ${esc(editoriais.map((e) => e.titulo).join("; "))}"><svg class="icone" aria-hidden="true"><use href="#i-editorial"/></svg></span>` : ""}
         <button type="button" class="copiar-nome" data-copiar="${esc(nome)}" aria-label="Copiar ${esc(nome)}" title="Copiar “${esc(nome)}”">
           <svg class="icone" aria-hidden="true"><use href="#i-copiar"/></svg>
         </button>
       </div>
       <div class="card-info">
-        ${destaque ? `<p class="card-destaque">Em destaque</p>` : ""}
         <h3 class="card-titulo" title="${esc(ficha.titulo)}">${esc(ficha.titulo)}</h3>
         <p class="card-artista">${esc(ficha.artista)}${ano ? ` <span>· ${ano}</span>` : ""}</p>
       </div>

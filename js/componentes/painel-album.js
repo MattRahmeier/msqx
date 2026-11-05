@@ -4,7 +4,7 @@
 // enquanto. Os descritores do disco (vibe, som, voz, letra) aparecem como etiquetas que levam à
 // Pesquisa por aquele descritor.
 // Uso: ligarPainel(elementoComCards, porId) — porId: Map id → ficha (dados.js, albuns()).
-import { esc, botoesStreaming, capaHtml, temOndeOuvir } from "./card-album.js";
+import { esc, botoesStreaming, capaHtml, temOndeOuvir, seloEssencial } from "./card-album.js";
 import { creditos } from "./resumo-genero.js";
 import { citacoesEditoriais, descritores } from "../dados.js";
 
@@ -106,7 +106,7 @@ function conteudo(f) {
   ].filter(([, v]) => v);
   return `
     <button type="button" class="painel-fechar" data-fechar aria-label="Fechar">×</button>
-    <div class="painel-capa card-capa-area">${capaHtml(f, { lazy: false })}
+    <div class="painel-capa card-capa-area">${capaHtml(f, { lazy: false })}${seloEssencial(f)}
       <button type="button" class="copiar-nome" data-copiar="${esc(`${f.artista} - ${f.titulo}`)}" aria-label="Copiar ${esc(`${f.artista} - ${f.titulo}`)}" title="Copiar nome do disco"><svg class="icone" aria-hidden="true"><use href="#i-copiar"/></svg></button></div>
     <h2 id="painel-titulo" class="painel-titulo">${esc(f.titulo)}</h2>
     <p class="painel-artista">${esc(f.artista)}</p>

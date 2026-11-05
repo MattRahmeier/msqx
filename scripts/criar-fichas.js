@@ -221,6 +221,7 @@ async function criarFicha(id, artista, titulo) {
       p.charts.add(dados.id);
       // Charts com listas por gênero (ex.: metal-subgenres) dão "generos" em cada álbum.
       (a.generos || dados.generos).forEach((x) => p.generos.add(x));
+      if (a.essencial) p.essencial = true;
       pedidos.set(id, p);
     }
   }
@@ -255,7 +256,7 @@ async function criarFicha(id, artista, titulo) {
   // Charts e gêneros de cada ficha (recalculados sempre, a partir dos charts).
   for (const p of pedidos.values()) {
     const f = fichas.get(p.id);
-    if (f) { f.charts = [...p.charts]; f.generos = [...p.generos]; }
+    if (f) { f.charts = [...p.charts]; f.generos = [...p.generos]; if (p.essencial) f.essencial = true; else delete f.essencial; }
   }
   salvar();
   for (const { arquivo, dados } of charts) fs.writeFileSync(arquivo, JSON.stringify(dados, null, 2) + "\n");

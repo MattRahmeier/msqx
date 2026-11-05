@@ -137,7 +137,7 @@ Um arquivo por chart; `id` igual ao do índice. Os álbuns são copiados da imag
 - `conferir` marca o que não deu para confirmar pela imagem; `titulo: null` quando o álbum não foi identificado. Nada é inventado.
 - Campos extras usados quando o chart traz a informação: `ano`, `subestilos` (ex.: cor da borda no chart de IDM), `inicio` (álbum de entrada recomendado).
 - `generos` em cada álbum (opcional): charts com listas por gênero (ex.: `metal-subgenres`, `post-punk-by-subgenre`) dizem o gênero de cada disco; sem o campo, vale o `generos` do chart.
-- `emDestaque: true` num álbum: disco em destaque no gênero; a página do gênero o mostra primeiro, com a etiqueta "Em destaque".
+- `essencial: true` num álbum: a página do gênero o mostra primeiro, e a capa ganha, em todo o site, o selo (!) que ao ser tocado revela "Álbum Essencial!". `criar-fichas.js` copia o campo para a ficha.
 - `data/charts/mu/tracklore-selecao.json` reúne as listas de gêneros sem chart do /mu/: `"indice": null`, curadoria do Tracklore, e cada disco tem `fonte` (o artigo da Wikipédia sobre o gênero que cita o artista).
 - `transcricao.parcial: true`: seleção de parte do chart (curadoria do TrackMap, 10 a 16 discos por gênero), não a transcrição completa; o `metodo` diz como foi escolhida.
 - `transcricao.status`: `revisar` até alguém conferir com a imagem; depois `conferido`.
