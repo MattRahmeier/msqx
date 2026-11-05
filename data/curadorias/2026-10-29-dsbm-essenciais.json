@@ -6,7 +6,9 @@
   "titulo": "5 álbuns de DSBM essenciais",
   "formato": "albuns",
   "autor": {
-    "nome": "Henrique Cruz"
+    "nome": "Henrique Cruz",
+    "foto": "assets/img/autores/henrique-cruz.jpg",
+    "bio": "Henrique Cruz é músico, baterista e DJ brasileiro. Criador do projeto autoral Sørgmodig e baterista da banda Nine Lives Left, desenvolve também uma pesquisa voltada ao High BPM Psytrance, transitando entre Darkpsy, Forest, Hitech e Psycore. Seus sets combinam velocidade, atmosferas sombrias, psicodelia e elementos místicos em uma abordagem universalista, transformando o dancefloor em uma experiência sonora imersiva e transcendental."
   },
   "introducao": [
     "O DSBM (Depressive Suicidal Black Metal) é um subgênero do [Black Metal](g:black-metal) que teve início em meados dos anos 90 em regiões da Europa, como a Alemanha e a Suécia.",
