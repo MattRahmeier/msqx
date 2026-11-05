@@ -280,7 +280,7 @@ button.card-capa:focus-visible { outline: 2px solid var(--texto); outline-offset
 .selo-editorial .icone { width: 16px; height: 16px; stroke-width: 2.2; }
 /* Selo (!) "Álbum Essencial!": círculo no canto da capa que abre uma etiqueta ao ser tocado */
 .selo-essencial { position: absolute; top: var(--esp-2); left: var(--esp-2); z-index: 2; display: inline-flex; align-items: center; min-width: 28px; height: 28px; padding: 0 5px; border: none; border-radius: 14px; background: var(--destaque); color: var(--popup-texto); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45); font: inherit; cursor: pointer; }
-.selo-essencial .icone { width: 18px; height: 18px; stroke-width: 3; flex: none; }
+.selo-essencial .icone { width: 18px; height: 18px; flex: none; }
 .selo-essencial-texto { display: none; padding: 0 var(--esp-1) 0 2px; font-size: var(--t-xs); font-weight: 700; white-space: nowrap; }
 .selo-essencial.aberto .selo-essencial-texto { display: inline; }
 @media (hover: hover) { .selo-essencial:hover .selo-essencial-texto { display: inline; } }
