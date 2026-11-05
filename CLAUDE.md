@@ -20,5 +20,5 @@ Convenções:
 - Arquivos e IDs em `kebab-case`.
 - Tema escuro: fundo preto-concreto, texto branco, pop-ups off-white. Minimalista, estilo Spotify/Qobuz.
 - Ícones sempre que houver escolha de plataforma (Spotify, YouTube, Qobuz).
-- Disco sem link nos streamings comuns recebe sempre um link não oficial do YouTube (`naoOficial`, `scripts/buscar-nao-oficiais.js`): o álbum, uma faixa dele ou o que houver do artista. Sempre o vídeo direto, nunca a página de busca.
+- Disco sem link nos streamings comuns recebe sempre um link não oficial do YouTube (`naoOficial`, `scripts/buscar-nao-oficiais.js`): o álbum, uma faixa dele ou o que houver do artista. Sempre o vídeo direto, nunca a página de busca; a busca só aparece no botão "Pesquisar Artista", que todo disco com artista tem.
 - Links para fora do site (serviços de streaming, YouTube, Discogs, Wikipédia…) sempre abrem em outra aba: `target="_blank" rel="noopener"` no HTML, e `js/app.js` garante isso para qualquer link externo. Não usar links `intent:` para forçar a abertura de apps no Android: em navegadores como o Brave eles dão página de erro.

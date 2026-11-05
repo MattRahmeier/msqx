@@ -45,7 +45,22 @@ export const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&a
 // Fora dos streamings populares (Spotify, YouTube Music, Apple Music, Deezer), o botão não oficial —
 // círculo vermelho com o logo do YouTube — leva ao upload de fã (ficha.naoOficial,
 // scripts/buscar-nao-oficiais.js): o álbum completo, uma faixa, outra gravação da obra ou outro vídeo do artista.
-export const temOndeOuvir = (ficha) => Object.keys(ficha.links || {}).length > 0 || Boolean(ficha.naoOficial?.url);
+// Botão "Pesquisar Artista": abre a busca do artista no YouTube, em todo disco com artista conhecido.
+// Em música clássica o crédito é "Compositor; Intérprete, ...": pesquisa o primeiro intérprete.
+function artistaParaPesquisa(ficha) {
+  const credito = ficha.artista;
+  if (!credito || /^various artists$/i.test(credito)) return "";
+  const nome = credito.includes(";") ? credito.split(";")[1].split(",")[0] : credito;
+  return nome.split(/\s+(?:feat\.?|featuring)\s+/i)[0].trim();
+}
+function botaoPesquisarArtista(ficha, comNome) {
+  const nome = artistaParaPesquisa(ficha);
+  if (!nome) return "";
+  return `<li><a class="plat pesquisar-artista${comNome ? " plat-nome" : ""}" href="https://www.youtube.com/results?search_query=${encodeURIComponent(nome)}" target="_blank" rel="noopener"
+    aria-label="Pesquisar Artista no YouTube: ${esc(nome)}" title="Pesquisar Artista no YouTube: ${esc(nome)}">
+    <svg class="icone" aria-hidden="true"><use href="#i-pesquisa-musical"/></svg>${comNome ? `<span>Pesquisar Artista</span>` : ""}</a></li>`;
+}
+export const temOndeOuvir = (ficha) => Object.keys(ficha.links || {}).length > 0 || Boolean(ficha.naoOficial?.url) || Boolean(artistaParaPesquisa(ficha));
 function botaoNaoOficial(ficha) {
   const n = ficha.naoOficial;
   const rotulo = { album: "Não oficial: álbum completo no YouTube", faixa: "Não oficial: uma faixa do álbum no YouTube", obra: "Não oficial: outra gravação desta obra no YouTube", artista: "Não oficial: outro vídeo do artista no YouTube" }[n.tipo] || "Não oficial: no YouTube";
@@ -63,7 +78,7 @@ export function botoesStreaming(ficha, { comNome = false } = {}) {
     return `<li><a class="plat${comNome ? " plat-nome" : ""}" href="${esc(links[p.id])}" target="_blank" rel="noopener"
       aria-label="${rotulo}: ${esc(ficha.titulo)}" title="${rotulo}">
       <svg class="icone" aria-hidden="true"><use href="#i-${p.icone || p.id}"/></svg>${comNome ? `<span>${p.nome}</span>` : ""}</a></li>`;
-  }).join("") + naoOficial;
+  }).join("") + naoOficial + botaoPesquisarArtista(ficha, comNome);
 }
 
 // Capas com imagens explícitas (violência, gore, automutilação, nudez: "capaExplicita" na ficha)

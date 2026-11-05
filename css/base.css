@@ -399,6 +399,11 @@ body.com-painel { overflow: hidden; }
 .plat.nao-oficial, .painel .plat.nao-oficial { background: #ff0000; color: #fff; border: none; }
 .plat.nao-oficial:hover, .plat.nao-oficial:focus-visible, .painel .plat.nao-oficial:hover, .painel .plat.nao-oficial:focus-visible { background: #cc0000; color: #fff; }
 .plat.nao-oficial .icone { width: 20px; height: 20px; }
+/* Pesquisar Artista: busca no YouTube, em vermelho vazado para não parecer um link de ouvir o disco */
+.plat.pesquisar-artista, .painel .plat.pesquisar-artista { background: transparent; color: #ff4d4d; border: 1px solid #ff4d4d; }
+.painel .plat.pesquisar-artista { color: #c40000; border-color: #c40000; }
+.plat.pesquisar-artista:hover, .plat.pesquisar-artista:focus-visible, .painel .plat.pesquisar-artista:hover, .painel .plat.pesquisar-artista:focus-visible { background: #cc0000; color: #fff; border-color: #cc0000; }
+.plat.pesquisar-artista .icone { width: 20px; height: 20px; }
 .plat-nome { width: auto; height: 36px; padding: 0 var(--esp-3) 0 var(--esp-2); border-radius: 18px; gap: var(--esp-2); display: inline-flex; font-size: var(--t-sm); font-weight: 500; text-decoration: none; }
 .painel .plat { background: var(--popup-texto); color: var(--popup); }
 .painel .plat:hover, .painel .plat:focus-visible { background: #000; color: var(--popup); border-color: #000; }
