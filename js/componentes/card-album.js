@@ -44,7 +44,7 @@ export const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&a
 // Botões de streaming. `comNome`: mostra o nome da plataforma ao lado do ícone (caixa lateral).
 // Fora dos streamings populares (Spotify, YouTube Music, Apple Music, Deezer), o botão não oficial —
 // círculo vermelho com o logo do YouTube — leva ao upload de fã (ficha.naoOficial,
-// scripts/buscar-nao-oficiais.js): o álbum completo, uma faixa, outra gravação da obra ou outro vídeo do artista.
+// scripts/buscar-nao-oficiais.js): o álbum completo, uma faixa ou outra gravação da obra.
 // Botão "Pesquisar Artista": abre a busca do artista no YouTube, em todo disco com artista conhecido.
 // Em música clássica o crédito é "Compositor; Intérprete, ...": pesquisa o primeiro intérprete.
 function artistaParaPesquisa(ficha) {
@@ -63,7 +63,7 @@ function botaoPesquisarArtista(ficha, comNome) {
 export const temOndeOuvir = (ficha) => Object.keys(ficha.links || {}).length > 0 || Boolean(ficha.naoOficial?.url) || Boolean(artistaParaPesquisa(ficha));
 function botaoNaoOficial(ficha) {
   const n = ficha.naoOficial;
-  const rotulo = { album: "Não oficial: álbum completo no YouTube", faixa: "Não oficial: uma faixa do álbum no YouTube", obra: "Não oficial: outra gravação desta obra no YouTube", artista: "Não oficial: outro vídeo do artista no YouTube" }[n.tipo] || "Não oficial: no YouTube";
+  const rotulo = { album: "Não oficial: álbum completo no YouTube", faixa: "Não oficial: uma faixa do álbum no YouTube", obra: "Não oficial: outra gravação desta obra no YouTube" }[n.tipo] || "Não oficial: no YouTube";
   return `<li><a class="plat nao-oficial" href="${esc(n.url)}" target="_blank" rel="noopener"
     aria-label="${rotulo}: ${esc(ficha.titulo)}" title="${rotulo} (upload de fã)">
     <svg class="icone" aria-hidden="true"><use href="#i-youtube"/></svg></a></li>`;

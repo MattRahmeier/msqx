@@ -7,11 +7,11 @@
 //      do álbum;
 //   2. sem ele, uma faixa do álbum: título do vídeo com o artista e o nome de uma faixa da ficha (o
 //      vídeo mais visto);
-//   3. em música clássica, sem a gravação do disco, outra gravação da mesma obra;
-//   4. por fim, outro vídeo do artista, com esse rótulo no botão.
-// Sempre o vídeo direto, nunca a página de busca (pedido do usuário em 05/11/2026). Sem nada disso, null.
+//   3. em música clássica, sem a gravação do disco, outra gravação da mesma obra.
+// Sempre o vídeo direto, nunca a página de busca nem outro disco do artista (pedido do usuário em
+// 05/11/2026). Sem nada disso, null: a ficha fica só com o botão "Pesquisar Artista" (card-album.js).
 // Versões ao vivo, covers e remixes ficam de fora (salvo em álbum ao vivo).
-// Grava ficha.naoOficial = { url, tipo: "album" | "faixa" | "obra" | "artista", titulo, canal }. O site mostra o
+// Grava ficha.naoOficial = { url, tipo: "album" | "faixa" | "obra", titulo, canal }. O site mostra o
 // botão não oficial (círculo vermelho do YouTube) só quando a ficha não está em nenhum streaming popular.
 // Fichas sem vídeo são tentadas de novo a cada execução.
 // Uso: node scripts/buscar-nao-oficiais.js [--ids id1,id2] [--refazer]
@@ -104,11 +104,8 @@ const tituloCurto = (t) => t.split(/\s*[:(\/]\s*/)[0];
     }
     // Clássica: a mesma obra, com o compositor, em outra gravação.
     const obra = !completo && !faixa && quemToca.length && maisVisto(certos.filter((v) => temNome(v) && comTitulo(v) && v.duracao >= 600));
-    // Por fim, qualquer vídeo do artista (nome inteiro no título ou no canal).
-    const nomeInteiro = norm(f.artista.split(";").pop().split(",")[0]);
-    const doArtista = !completo && !faixa && !obra && nomes.length && nomeInteiro.length >= 6 && maisVisto(certos.filter((v) => norm(v.titulo + v.canal).includes(nomeInteiro)));
-    const v = completo || faixa || obra || doArtista || null;
-    f.naoOficial = v ? { url: `https://www.youtube.com/watch?v=${v.id}`, tipo: completo ? "album" : faixa ? "faixa" : obra ? "obra" : "artista", titulo: v.titulo, canal: v.canal } : null;
+    const v = completo || faixa || obra || null;
+    f.naoOficial = v ? { url: `https://www.youtube.com/watch?v=${v.id}`, tipo: completo ? "album" : faixa ? "faixa" : "obra", titulo: v.titulo, canal: v.canal } : null;
     console.log(`${v ? "✓" : "–"} ${f.id}${v ? ` [${f.naoOficial.tipo}] ${v.titulo} (${v.canal}) ${v.duracao}s de ${duracao}s` : ""}`);
     if (++feitos % 20 === 0) fs.writeFileSync(ARQ, JSON.stringify(fichas, null, 2) + "\n");
   }
