@@ -806,5 +806,4 @@ body.com-painel { overflow: hidden; }
 }
 
 /* Tag de gênero (ex.: "brasileiro") */
-.genero-tag { display: inline-block; width: fit-content; padding: 1px var(--esp-2); border: 1px solid var(--borda); border-radius: 4px; color: var(--texto-suave); font-size: var(--t-xs); }
-.vista-titulo + .genero-tag { margin-bottom: var(--esp-4); }
+.bandeira { display: inline-block; width: 1.35em; height: 0.9em; margin-left: 0.4em; vertical-align: -0.05em; border-radius: 2px; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18); }

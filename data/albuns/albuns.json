@@ -12078,12 +12078,10 @@
       "musicbrainz"
     ],
     "estilos": [
-      "indie-rock",
-      "neofolk"
+      "indie-rock"
     ],
     "estilosFonte": {
-      "indie-rock": "musicbrainz",
-      "neofolk": "musicbrainz"
+      "indie-rock": "musicbrainz"
     }
   },
   {
@@ -12466,12 +12464,10 @@
       "musicbrainz"
     ],
     "estilos": [
-      "americana",
       "emo",
       "indie-rock"
     ],
     "estilosFonte": {
-      "americana": "musicbrainz",
       "emo": "musicbrainz",
       "indie-rock": "musicbrainz"
     }
@@ -36222,11 +36218,9 @@
       "musicbrainz"
     ],
     "estilos": [
-      "neofolk",
       "rock"
     ],
     "estilosFonte": {
-      "neofolk": "musicbrainz",
       "rock": "musicbrainz"
     }
   },
@@ -37301,11 +37295,9 @@
       "acoustic"
     ],
     "estilos": [
-      "folk",
       "texas-blues"
     ],
     "estilosFonte": {
-      "folk": "musicbrainz",
       "texas-blues": "musicbrainz"
     }
   },
@@ -41708,14 +41700,12 @@
     ],
     "estilos": [
       "emo",
-      "folk-punk",
       "folk-rock",
       "indie-rock",
       "pop-punk"
     ],
     "estilosFonte": {
       "emo": "musicbrainz",
-      "folk-punk": "musicbrainz",
       "folk-rock": "musicbrainz",
       "indie-rock": "musicbrainz",
       "pop-punk": "musicbrainz"
@@ -47611,11 +47601,9 @@
       "musicbrainz"
     ],
     "estilos": [
-      "country-rock",
       "folk-rock"
     ],
     "estilosFonte": {
-      "country-rock": "wikidata",
       "folk-rock": "musicbrainz"
     }
   },
@@ -50226,13 +50214,7 @@
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
-    ],
-    "estilos": [
-      "country"
-    ],
-    "estilosFonte": {
-      "country": "musicbrainz"
-    }
+    ]
   },
   {
     "id": "burning-spear-marcus-garvey",
@@ -57162,12 +57144,10 @@
     ],
     "estilos": [
       "alternative-rock",
-      "country-rock",
       "folk-rock"
     ],
     "estilosFonte": {
       "alternative-rock": "wikidata",
-      "country-rock": "musicbrainz",
       "folk-rock": "musicbrainz"
     }
   },
@@ -62291,12 +62271,10 @@
       "psychedelic"
     ],
     "estilos": [
-      "gothic-rock",
-      "folk"
+      "gothic-rock"
     ],
     "estilosFonte": {
-      "gothic-rock": "wikidata",
-      "folk": "musicbrainz"
+      "gothic-rock": "wikidata"
     }
   },
   {
@@ -122990,17 +122968,17 @@
       "lastfm",
       "musicbrainz"
     ],
-    "estilos": [
-      "mpb"
-    ],
-    "estilosFonte": {
-      "mpb": "musicbrainz"
-    },
     "naoOficial": {
       "url": "https://www.youtube.com/watch?v=UoaZSPJEWd0",
       "tipo": "faixa",
       "titulo": "Procissão",
       "canal": "Gilberto Gil"
+    },
+    "estilos": [
+      "mpb"
+    ],
+    "estilosFonte": {
+      "mpb": "musicbrainz"
     }
   },
   {
@@ -135034,12 +135012,10 @@
     ],
     "estilos": [
       "progressive-rock",
-      "folk",
       "hard-rock"
     ],
     "estilosFonte": {
       "progressive-rock": "wikidata",
-      "folk": "musicbrainz",
       "hard-rock": "musicbrainz"
     }
   },
@@ -140910,11 +140886,9 @@
       "dreamy"
     ],
     "estilos": [
-      "folk",
       "indie-pop"
     ],
     "estilosFonte": {
-      "folk": "musicbrainz",
       "indie-pop": "musicbrainz"
     }
   },
@@ -144989,13 +144963,7 @@
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
-    ],
-    "estilos": [
-      "country"
-    ],
-    "estilosFonte": {
-      "country": "musicbrainz"
-    }
+    ]
   },
   {
     "id": "james-blake-cmyk",
@@ -176802,14 +176770,12 @@
     "estilos": [
       "indie-rock",
       "shoegaze",
-      "post-rock",
-      "alternative-country"
+      "post-rock"
     ],
     "estilosFonte": {
       "indie-rock": "wikidata",
       "shoegaze": "wikidata",
-      "post-rock": "wikidata",
-      "alternative-country": "musicbrainz"
+      "post-rock": "wikidata"
     }
   },
   {
@@ -218943,11 +218909,9 @@
       "musicbrainz"
     ],
     "estilos": [
-      "funk",
       "jazz"
     ],
     "estilosFonte": {
-      "funk": "musicbrainz",
       "jazz": "musicbrainz"
     }
   },
@@ -239614,14 +239578,12 @@
       "musicbrainz"
     ],
     "estilos": [
-      "country",
       "eletronica",
       "folk",
       "reggae",
       "rock"
     ],
     "estilosFonte": {
-      "country": "musicbrainz",
       "eletronica": "musicbrainz",
       "folk": "musicbrainz",
       "reggae": "musicbrainz",
@@ -248908,13 +248870,11 @@
     ],
     "estilos": [
       "rockabilly",
-      "country-rock",
       "folk-rock",
       "mpb"
     ],
     "estilosFonte": {
       "rockabilly": "wikidata",
-      "country-rock": "wikidata",
       "folk-rock": "wikidata",
       "mpb": "musicbrainz"
     }
@@ -249157,14 +249117,6 @@
       "lastfm",
       "musicbrainz"
     ],
-    "estilos": [
-      "country",
-      "folk"
-    ],
-    "estilosFonte": {
-      "country": "musicbrainz",
-      "folk": "musicbrainz"
-    },
     "essencial": true
   },
   {
@@ -253391,13 +253343,13 @@
       "lastfm",
       "musicbrainz"
     ],
+    "capaExplicita": true,
     "estilos": [
       "rock"
     ],
     "estilosFonte": {
       "rock": "musicbrainz"
-    },
-    "capaExplicita": true
+    }
   },
   {
     "id": "robert-hood-minimal-nation",
@@ -256118,12 +256070,10 @@
       "musicbrainz"
     ],
     "estilos": [
-      "country",
       "blues-rock",
       "electric-blues"
     ],
     "estilosFonte": {
-      "country": "wikidata",
       "blues-rock": "musicbrainz",
       "electric-blues": "musicbrainz"
     }
@@ -268100,12 +268050,10 @@
     ],
     "estilos": [
       "indie-pop",
-      "folk",
       "indie-rock"
     ],
     "estilosFonte": {
       "indie-pop": "wikidata",
-      "folk": "musicbrainz",
       "indie-rock": "musicbrainz"
     }
   },
@@ -276588,13 +276536,7 @@
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
-    ],
-    "estilos": [
-      "country"
-    ],
-    "estilosFonte": {
-      "country": "wikidata"
-    }
+    ]
   },
   {
     "id": "som-imaginario-matanca-do-porco",
@@ -277070,15 +277012,11 @@
     ],
     "estilos": [
       "alternative-country",
-      "alternative-rock",
-      "country-rock",
-      "folk"
+      "alternative-rock"
     ],
     "estilosFonte": {
       "alternative-country": "wikidata",
-      "alternative-rock": "musicbrainz",
-      "country-rock": "musicbrainz",
-      "folk": "musicbrainz"
+      "alternative-rock": "musicbrainz"
     }
   },
   {
@@ -288950,12 +288888,10 @@
       "musicbrainz"
     ],
     "estilos": [
-      "alternative-country",
       "folk-rock",
       "gothic-rock"
     ],
     "estilosFonte": {
-      "alternative-country": "musicbrainz",
       "folk-rock": "musicbrainz",
       "gothic-rock": "musicbrainz"
     }
@@ -296950,13 +296886,7 @@
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
-    ],
-    "estilos": [
-      "country"
-    ],
-    "estilosFonte": {
-      "country": "musicbrainz"
-    }
+    ]
   },
   {
     "id": "the-apples-kings",
@@ -310574,13 +310504,11 @@
     ],
     "estilos": [
       "alternative-country",
-      "alternative-rock",
-      "country-rock"
+      "alternative-rock"
     ],
     "estilosFonte": {
       "alternative-country": "wikidata",
-      "alternative-rock": "musicbrainz",
-      "country-rock": "musicbrainz"
+      "alternative-rock": "musicbrainz"
     }
   },
   {
@@ -347982,13 +347910,7 @@
     "descritoresFonte": [
       "lastfm",
       "musicbrainz"
-    ],
-    "estilos": [
-      "folk"
-    ],
-    "estilosFonte": {
-      "folk": "musicbrainz"
-    }
+    ]
   },
   {
     "id": "various-artists-soundboy-punishments",
@@ -356296,11 +356218,9 @@
       "musicbrainz"
     ],
     "estilos": [
-      "country-rock",
       "rock"
     ],
     "estilosFonte": {
-      "country-rock": "musicbrainz",
       "rock": "musicbrainz"
     }
   },
@@ -356771,13 +356691,11 @@
     "estilos": [
       "indie-pop",
       "eletronica",
-      "folk",
       "rock"
     ],
     "estilosFonte": {
       "indie-pop": "wikidata",
       "eletronica": "musicbrainz",
-      "folk": "musicbrainz",
       "rock": "musicbrainz"
     }
   },

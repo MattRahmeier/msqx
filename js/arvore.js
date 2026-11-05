@@ -41,7 +41,8 @@ const porOrigem = (a, b) => {
 export function arvoreOrdenada(lista, { guia = false } = {}) {
   const indice = new Map(lista.map((g, i) => [g.id, i]));
   const filhosDe = new Map();
-  for (const g of lista) if (g.pai) (filhosDe.get(g.pai) || filhosDe.set(g.pai, []).get(g.pai)).push(g);
+  // No Guia, um gênero de fusão aparece também sob os "outrosPais"; no TrackMap fica só sob o "pai".
+  for (const g of lista) for (const p of [g.pai, ...(guia ? g.outrosPais || [] : [])]) if (p) (filhosDe.get(p) || filhosDe.set(p, []).get(p)).push(g);
   const montar = (g, nivel) => ({ ...g, nivel, filhos: emCadeia(filhosDe.get(g.id) || [], indice).map((f) => montar(f, nivel + 1)) });
   const ordem = guia ? porOrigem : (a, b) => posMestre(a) - posMestre(b) || indice.get(a.id) - indice.get(b.id);
   return lista.filter((g) => g.mestre).sort(ordem).map((m) => montar(m, 0));

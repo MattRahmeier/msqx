@@ -78,7 +78,8 @@
     "influencias": [
       "boogie-woogie",
       "new-orleans-jazz"
-    ]
+    ],
+    "pais": "US"
   },
   {
     "id": "piedmont-blues",
@@ -114,7 +115,8 @@
         "genero": "blues"
       }
     ],
-    "musicmap": "blu01"
+    "musicmap": "blu01",
+    "pais": "US"
   },
   {
     "id": "texas-blues",
@@ -153,7 +155,8 @@
       "electric-blues"
     ],
     "musicmap": "blu04",
-    "somPendente": "artigo sem trecho sobre o som"
+    "somPendente": "artigo sem trecho sobre o som",
+    "pais": "US"
   },
   {
     "id": "boogie-woogie",
@@ -346,7 +349,8 @@
         "genero": "delta-blues"
       }
     ],
-    "musicmap": "blu06"
+    "musicmap": "blu06",
+    "pais": "US"
   },
   {
     "id": "british-blues",
@@ -401,7 +405,8 @@
       "hard-rock",
       "heavy-metal",
       "rock-and-roll"
-    ]
+    ],
+    "pais": "GB"
   },
   {
     "id": "rock",
@@ -476,9 +481,6 @@
       "rock nacional",
       "brock"
     ],
-    "tags": [
-      "brasileiro"
-    ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Rock_no_Brasil"
     ],
@@ -489,7 +491,8 @@
       "idioma": "en",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "pais": "BR"
   },
   {
     "id": "rock-and-roll",
@@ -875,16 +878,14 @@
     "resumo": "",
     "resumoPendente": "sem artigo próprio na Wikipédia",
     "resumoArtigo": false,
-    "tags": [
-      "brasileiro"
-    ],
     "somArtigo": false,
     "fontes": [
       "https://pt.wikipedia.org/wiki/Rock_no_Brasil"
     ],
     "similares": [
       "tropicalia"
-    ]
+    ],
+    "pais": "BR"
   },
   {
     "id": "neo-psychedelia",
@@ -1228,7 +1229,8 @@
       "secao": "Characteristics",
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
-    }
+    },
+    "pais": "FR"
   },
   {
     "id": "canterbury-scene",
@@ -1291,7 +1293,8 @@
         "ate": 297,
         "genero": "rock"
       }
-    ]
+    ],
+    "pais": "GB"
   },
   {
     "id": "krautrock",
@@ -1337,7 +1340,8 @@
     "musicmap": "inl01",
     "influencias": [
       "glam-rock"
-    ]
+    ],
+    "pais": "DE"
   },
   {
     "id": "stoner-rock",
@@ -2142,7 +2146,8 @@
     "influencias": [
       "dream-pop",
       "grunge"
-    ]
+    ],
+    "pais": "GB"
   },
   {
     "id": "dream-pop",
@@ -2950,7 +2955,8 @@
     ],
     "somArtigo": false,
     "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
-    "musicmap": "pop09"
+    "musicmap": "pop09",
+    "pais": "JP"
   },
   {
     "id": "j-pop",
@@ -2981,7 +2987,8 @@
     ],
     "somArtigo": false,
     "somPendente": "o trecho encontrado na Wikipédia não descreve o som; falta indicar outra fonte",
-    "musicmap": "pop09"
+    "musicmap": "pop09",
+    "pais": "JP"
   },
   {
     "id": "shibuya-kei",
@@ -3020,7 +3027,8 @@
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
     },
-    "musicmap": "pop09"
+    "musicmap": "pop09",
+    "pais": "JP"
   },
   {
     "id": "k-pop",
@@ -3057,7 +3065,8 @@
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
     },
-    "musicmap": "pop09"
+    "musicmap": "pop09",
+    "pais": "KR"
   },
   {
     "id": "electropop",
@@ -3440,7 +3449,8 @@
     "musicmap": "met05",
     "influencias": [
       "power-metal"
-    ]
+    ],
+    "pais": "GB"
   },
   {
     "id": "doom-metal",
@@ -5726,7 +5736,8 @@
         "genero": "house"
       }
     ],
-    "musicmap": "brb06"
+    "musicmap": "brb06",
+    "pais": "GB"
   },
   {
     "id": "dubstep",
@@ -5956,9 +5967,6 @@
       "rap nacional",
       "hip hop brasileiro"
     ],
-    "tags": [
-      "brasileiro"
-    ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Rap_no_Brasil"
     ],
@@ -5976,7 +5984,8 @@
         "ate": 429,
         "genero": "hip-hop"
       }
-    ]
+    ],
+    "pais": "BR"
   },
   {
     "id": "old-school-hip-hop",
@@ -6063,7 +6072,8 @@
       "jazz-rap",
       "alternative-metal",
       "acid-jazz"
-    ]
+    ],
+    "pais": "US"
   },
   {
     "id": "boom-bap",
@@ -6148,7 +6158,8 @@
       "conscious-hip-hop",
       "jazz-rap"
     ],
-    "somPendente": "artigo sem trecho sobre o som"
+    "somPendente": "artigo sem trecho sobre o som",
+    "pais": "US"
   },
   {
     "id": "gangsta-rap",
@@ -6309,7 +6320,8 @@
     "influencias": [
       "experimental-hip-hop",
       "west-coast-hip-hop"
-    ]
+    ],
+    "pais": "US"
   },
   {
     "id": "memphis-rap",
@@ -6351,7 +6363,8 @@
       "licenca": "CC BY-SA 4.0",
       "traduzido": true
     },
-    "musicmap": "rap07"
+    "musicmap": "rap07",
+    "pais": "US"
   },
   {
     "id": "phonk",
@@ -6552,7 +6565,8 @@
         "genero": "drill"
       }
     ],
-    "musicmap": "rap09"
+    "musicmap": "rap09",
+    "pais": "GB"
   },
   {
     "id": "grime",
@@ -6596,7 +6610,8 @@
     "musicmap": "brb09",
     "influencias": [
       "dubstep"
-    ]
+    ],
+    "pais": "GB"
   },
   {
     "id": "conscious-hip-hop",
@@ -6910,7 +6925,8 @@
     "influencias": [
       "delta-blues"
     ],
-    "somPendente": "artigo sem trecho sobre o som"
+    "somPendente": "artigo sem trecho sobre o som",
+    "pais": "US"
   },
   {
     "id": "chicago-jazz",
@@ -6935,7 +6951,8 @@
     "influencias": [
       "electric-blues"
     ],
-    "somPendente": "artigo sem trecho sobre o som"
+    "somPendente": "artigo sem trecho sobre o som",
+    "pais": "US"
   },
   {
     "id": "swing",
@@ -8170,9 +8187,6 @@
     "nomesAlternativos": [
       "música popular brasileira"
     ],
-    "tags": [
-      "brasileiro"
-    ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/MPB"
     ],
@@ -8185,7 +8199,8 @@
       "idioma": "pt",
       "secao": "Características",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "pais": "BR"
   },
   {
     "id": "reggae",
@@ -8235,7 +8250,9 @@
     "pai": "world-music",
     "mestre": false,
     "decada": 1950,
-    "origens": [],
+    "origens": [
+      "jazz"
+    ],
     "resumo": "Na música, o ska é um género musical de origem na Jamaica no final da década de 1950, combinando elementos caribenhos como o mento e o calipso e estadunidenses como o jazz, jump blues e rhythm and blues.",
     "resumoFonte": {
       "url": "https://pt.wikipedia.org/wiki/Ska",
@@ -8323,6 +8340,9 @@
         "ate": 160,
         "genero": "punk-rock"
       }
+    ],
+    "outrosPais": [
+      "punk-rock"
     ]
   },
   {
@@ -8364,9 +8384,7 @@
         "genero": "rock"
       }
     ],
-    "tags": [
-      "brasileiro"
-    ]
+    "pais": "BR"
   },
   {
     "id": "bossa-nova",
@@ -8393,9 +8411,7 @@
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
     },
-    "tags": [
-      "brasileiro"
-    ]
+    "pais": "BR"
   },
   {
     "id": "afrobeat",
@@ -8460,7 +8476,8 @@
       "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_da_China",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "pais": "CN"
   },
   {
     "id": "musica-dos-povos-originarios",
@@ -8534,7 +8551,8 @@
     "nomesAlternativos": [
       "Música clássica indiana",
       "música hindustani"
-    ]
+    ],
+    "pais": "IN"
   },
   {
     "id": "trilha-sonora",
@@ -8647,9 +8665,7 @@
         "genero": "jazz"
       }
     ],
-    "tags": [
-      "brasileiro"
-    ]
+    "pais": "BR"
   },
   {
     "id": "funk",
@@ -8802,9 +8818,6 @@
       "caipira",
       "moda de viola"
     ],
-    "tags": [
-      "brasileiro"
-    ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/M%C3%BAsica_caipira"
     ],
@@ -8816,7 +8829,8 @@
       "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_caipira",
       "idioma": "pt",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "pais": "BR"
   },
   {
     "id": "folk-punk",
@@ -9229,7 +9243,8 @@
       "jazz",
       "hip-hop",
       "trip-hop"
-    ]
+    ],
+    "pais": "JP"
   },
   {
     "id": "trilha-games",

@@ -45,6 +45,26 @@ const APELIDOS = {
   "choral": "musica-coral", "choir": "musica-coral", "chamber": "musica-de-camara", "symphony": "sinfonia", "concerto": "concerto",
 };
 
+// Country, Folk e subgêneros: as etiquetas do MusicBrainz têm muito ruído (Ravi Shankar em Country com
+// um voto), então só contam com pelo menos 2 votos (pedido do usuário em 05/11/2026).
+const POUCO_CONFIAVEIS = new Set(["country", "country-rock", "alternative-country", "americana", "folk", "freak-folk", "neofolk", "folk-punk"]);
+// Conferidos à mão: etiquetas certas apesar de um só voto, e erradas apesar de virem do Wikidata ou de
+// terem votos suficientes.
+const CONFIRMADOS = {
+  "the-incredible-string-band-the-5000-spirits-or-the-layers-of-the-onion": ["folk"],
+  "blaze-foley-live-at-the-austin-outhouse": ["folk"],
+  "flaviola-e-o-bando-do-sol-flaviola-e-o-bando-do-sol": ["folk"],
+};
+const RECUSADOS = {
+  "roy-buchanan-roy-buchanan": ["country"],
+  "solomon-burke-rock-n-soul": ["country"],
+  "chelsea-wolfe-pain-is-beauty": ["folk"],
+  "cat-power-moon-pix": ["country-rock"],
+  "raul-seixas-krig-ha-bandolo": ["country-rock"],
+  "bruce-springsteen-nebraska": ["country-rock"],
+  "noriko-tujiko-from-tokyo-to-naiagara": ["funk"],
+};
+
 (async () => {
   const generos = JSON.parse(fs.readFileSync(path.join(RAIZ, "data", "generos", "generos.json"), "utf8"));
   const indice = new Map();
@@ -63,7 +83,13 @@ const APELIDOS = {
     const fonte = {};
     for (const nome of c.wikidataGeneros || []) { const id = achar(nome); if (id) fonte[id] ??= "wikidata"; }
     const topo = Math.max(0, ...(c.musicbrainz || []).map((g) => g.votos));
-    for (const g of c.musicbrainz || []) { const id = achar(g.nome); if (id && g.votos * 2 >= topo) fonte[id] ??= "musicbrainz"; }
+    for (const g of c.musicbrainz || []) {
+      const id = achar(g.nome);
+      if (!id || g.votos * 2 < topo) continue;
+      if (POUCO_CONFIAVEIS.has(id) && g.votos < 2 && !CONFIRMADOS[f.id]?.includes(id)) continue;
+      fonte[id] ??= "musicbrainz";
+    }
+    for (const id of RECUSADOS[f.id] || []) delete fonte[id];
     // Fora: o que já vem dos charts e os ancestrais de qualquer gênero do álbum (o mestre já mostra
     // os álbuns dos subgêneros; "Eletrônica" num disco de techno não acrescenta nada).
     const todos = [...(f.generos || []), ...Object.keys(fonte)];

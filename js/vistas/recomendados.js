@@ -10,11 +10,10 @@ import { cardAlbum, esc } from "../componentes/card-album.js";
 import { ligarPainel } from "../componentes/painel-album.js";
 import { resumoGenero } from "../componentes/resumo-genero.js";
 import { arvoreOrdenada, descendentes } from "../arvore.js";
+import { bandeira } from "../componentes/bandeira.js";
 
 const coroa = `<svg class="icone coroa" aria-hidden="true"><use href="#i-coroa"/></svg>`;
 const decada = (g) => (g.decada ? `anos ${g.decada}` : "");
-// Tags do gênero (data/generos/generos.json), ex.: "brasileiro".
-const tagsHtml = (g) => (g.tags || []).map((t) => `<span class="genero-tag">${esc(t)}</span>`).join("");
 
 // Um card por gênero, sem sublistas. Na ordem da árvore cada subgênero vem logo depois do
 // gênero de onde saiu. O card mostra só a década e quantos álbuns tem.
@@ -23,9 +22,8 @@ function cardGenero(no, porGenero) {
   const meta = [decada(no), n ? `${n} álbuns` : ""].filter(Boolean).join(" · ");
   return `
     <li><a class="genero-card${n ? " com-lista" : ""}" href="#/recomendados/${no.id}">
-      <span class="genero-nome">${esc(no.nome)}</span>
+      <span class="genero-nome">${esc(no.nome)}${bandeira(no.pais)}</span>
       <span class="genero-meta">${meta}</span>
-      ${tagsHtml(no)}
     </a></li>`;
 }
 
@@ -68,11 +66,10 @@ export async function render(el, [generoId]) {
   const fichas = ids.map((id) => porId.get(id)).filter(Boolean).map((ficha) => ({ ficha, etiquetas: etiquetas(ficha), editoriais: citados.get(ficha.id) || [] }));
 
   el.innerHTML = `
-    <nav class="voltar" aria-label="Caminho"><a href="#/recomendados">Guia de Gêneros</a>${caminho.slice(0, -1).map((g) => ` › <a href="#/recomendados/${g.id}">${esc(g.nome)}</a>`).join("")}</nav>
-    ${tituloPagina(`${genero.mestre ? coroa : ""}${esc(genero.nome)}`, genero.mestre ? "recomendados" : `recomendados/${caminho[0].id}`, genero.mestre
+    <nav class="voltar" aria-label="Caminho"><a href="#/recomendados">Guia de Gêneros</a>${caminho.slice(0, -1).map((g) => ` › <a href="#/recomendados/${g.id}">${esc(g.nome)}</a>`).join("")}${(genero.outrosPais || []).map((id) => gen.porId.get(id)).filter(Boolean).map((g) => ` · também em <a href="#/recomendados/${g.id}">${esc(g.nome)}</a>`).join("")}</nav>
+    ${tituloPagina(`${genero.mestre ? coroa : ""}${esc(genero.nome)}${bandeira(genero.pais)}`, genero.mestre ? "recomendados" : `recomendados/${caminho[0].id}`, genero.mestre
       ? { rotuloVoltar: "Voltar ao Guia de Gêneros" }
       : { subir: `recomendados/${genero.pai}`, rotuloVoltar: `Voltar para ${esc(caminho[0].nome)}`, rotuloSubir: `Subir para ${esc(gen.porId.get(genero.pai).nome)}` })}
-    ${tagsHtml(genero)}
     <div class="vista-resumo">${resumoGenero(genero, { rota: "recomendados" }) || (genero.resumoPendente ? `<p class="resumo-genero">Resumo em preparação.</p>` : "")}</div>
     ${descendentes(no).length ? `
       <h2 class="secao-titulo">Subgêneros</h2>

@@ -34,9 +34,10 @@ Arquivos JSON estáticos em `data/`, lidos pelo site no navegador. Os IDs são `
 Três tipos de ligação, cada um com um estilo de linha próprio no cérebro:
 
 - `pai` — hierarquia (mestre → subgênero). Abre ao clicar no gênero. Gêneros mestres têm `pai: null`.
+- `outrosPais` — para gêneros de fusão: no Guia, o gênero aparece também sob esses gêneros (Third Wave of Ska: `pai` Ska, `outrosPais` Punk Rock). O TrackMap e a roleta usam só o `pai`.
 - `origens` — linhagem histórica: de quais gêneros este surgiu. Vale também entre mestres (Blues → Rock → Metal) e desenha uma **linha-guia de conexão** sempre visível. Pode ter mais de uma origem.
 - `similares` — parentesco estético; alimenta o bloco "Gêneros similares" e, opcionalmente, linhas tênues no grafo.
-- `tags` — etiquetas opcionais do gênero (ex.: `["brasileiro"]`). Aparecem no card do Guia e na página do gênero, e entram na Pesquisa: buscar "brasileiro" lista os gêneros com essa tag.
+- `pais` — código ISO (`BR`, `JP`, `KR`, `GB`, `DE`, `FR`, `CN`, `IN`, `US`) dos gêneros ligados a um só país. Vira a bandeira ao lado do nome, no Guia e na página do gênero (`js/componentes/bandeira.js`), e na Pesquisa o adjetivo ("brasileiro", "japonês") também encontra o gênero. Música de regiões dos EUA (Delta Blues, Memphis Rap) conta; gênero que nasceu num país e se espalhou (Reggae, Afrobeat) não.
 - `musicmap` e `influencias` — gravados por `node scripts/buscar-musicmap.js` a partir do mapa do [Musicmap](https://musicmap.info): `musicmap` é o código do nó equivalente (ex.: `met06`; três letras = supergênero, nos mestres), escolhido à mão em `data/generos/musicmap-mapa.json`; `influencias` são os gêneros nossos ligados por uma linha do Musicmap que ainda não estão em `pai`/`origens`/`similares`. Quando vários gêneros caem no mesmo nó, só o primeiro do mapa recebe as linhas. Só as ligações são usadas; nenhum texto do Musicmap é copiado. No TrackMap aparecem como linhas tênues de influência e no bloco "Ligado a" do pop-up.
 
 Piloto: mestres `blues`, `rock` (origens incluem `blues`), `pop`, `metal` (origens incluem `rock`), `eletronica`, `hip-hop` e `jazz` (subgêneros e ligações seguem o Musicmap). Origens fora do piloto (ex.: `disco`, `funk`, `soul`, `jazz`, `industrial`) ficam registradas mesmo que o gênero ainda não exista no JSON; o site ignora IDs ausentes e o validador só os lista como aviso.

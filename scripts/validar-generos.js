@@ -25,6 +25,7 @@ for (const g of generos) {
 
 for (const g of generos) {
   if (g.pai !== null && !porId.has(g.pai)) erros.push(`${g.id}: pai "${g.pai}" não existe`);
+  for (const p of g.outrosPais || []) if (!porId.has(p)) erros.push(`${g.id}: outrosPais "${p}" não existe`);
   for (const s of g.similares || []) {
     if (!porId.has(s)) erros.push(`${g.id}: similar "${s}" não existe`);
     if (s === g.id) erros.push(`${g.id}: similar a si mesmo`);
