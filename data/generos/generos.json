@@ -162,7 +162,7 @@
     "mestre": false,
     "decada": 1920,
     "origens": [],
-    "resumo": "O boogie-woogie (pronuncia-se [ˈbuɡiˈwuɡi]), ou apenas boogie, é um subgênero do blues que se popularizou no final da década de 1920, embora já estivesse em desenvolvimento nas comunidades afro-americanas desde a década de 1870.",
+    "resumo": "O boogie-woogie, ou apenas boogie, é um subgênero do blues que se popularizou no final da década de 1920, embora já estivesse em desenvolvimento nas comunidades afro-americanas desde a década de 1870.",
     "resumoFonte": {
       "url": "https://pt.wikipedia.org/wiki/Boogie-woogie",
       "idioma": "pt",
@@ -170,8 +170,8 @@
     },
     "resumoLinks": [
       {
-        "de": 81,
-        "ate": 86,
+        "de": 53,
+        "ate": 58,
         "genero": "blues"
       }
     ],
@@ -1597,7 +1597,7 @@
     "origens": [
       "post-hardcore"
     ],
-    "resumo": "Emo (inglês: [iːmoʊˈkɔr]) é um subgênero de rock que combina características musicais do hardcore punk com letras emocionais, muitas vezes confessionais.",
+    "resumo": "Emo é um subgênero de rock que combina características musicais do hardcore punk com letras emocionais, muitas vezes confessionais.",
     "resumoFonte": {
       "url": "https://pt.wikipedia.org/wiki/Emo",
       "idioma": "pt",
@@ -1605,13 +1605,13 @@
     },
     "resumoLinks": [
       {
-        "de": 44,
-        "ate": 48,
+        "de": 22,
+        "ate": 26,
         "genero": "rock"
       },
       {
-        "de": 89,
-        "ate": 102,
+        "de": 67,
+        "ate": 80,
         "genero": "hardcore-punk"
       }
     ],
@@ -3037,7 +3037,7 @@
       "dance-pop",
       "hip-hop"
     ],
-    "resumo": "K-pop (abreviação de korean pop [música pop coreana ou música popular coreana] coreano: 케이팝; RR: ke-i-pap, pronúncia em português: [kɐi pɔp]) é uma forma de música popular originária da Coreia do Sul.",
+    "resumo": "K-pop (abreviação de korean pop [música pop coreana ou música popular coreana] coreano: 케이팝; RR: ke-i-pap) é uma forma de música popular originária da Coreia do Sul.",
     "resumoFonte": {
       "url": "https://pt.wikipedia.org/wiki/K-pop",
       "idioma": "pt",
@@ -6842,7 +6842,7 @@
       "ragtime",
       "spirituals"
     ],
-    "resumo": "O jazz (pronuncia-se [ʤæz]) é uma manifestação artístico-musical originária de comunidades de Nova Orleans, nos Estados Unidos. Tal manifestação teria surgido por volta do final do século XIX, tendo origem na cultura popular e na criatividade das comunidades negras que ali viviam, um de seus espaços de desenvolvimento mais importantes.",
+    "resumo": "O jazz é uma manifestação artístico-musical originária de comunidades de Nova Orleans, nos Estados Unidos. Tal manifestação teria surgido por volta do final do século XIX, tendo origem na cultura popular e na criatividade das comunidades negras que ali viviam, um de seus espaços de desenvolvimento mais importantes.",
     "resumoFonte": {
       "url": "https://pt.wikipedia.org/wiki/Jazz",
       "idioma": "pt",
@@ -8662,7 +8662,7 @@
       "jazz",
       "rhythm-and-blues"
     ],
-    "resumo": "O funk (pronúncia: [fânc]) é um gênero musical que se originou em comunidades afro-americanas em meados da década de 1960, quando músicos afro-americanos criaram uma nova forma de música rítmica e dançante através da mistura de soul, jazz e rhythm and blues.",
+    "resumo": "O funk é um gênero musical que se originou em comunidades afro-americanas em meados da década de 1960, quando músicos afro-americanos criaram uma nova forma de música rítmica e dançante através da mistura de soul, jazz e rhythm and blues.",
     "resumoFonte": {
       "url": "https://pt.wikipedia.org/wiki/Funk",
       "idioma": "pt",
@@ -8670,18 +8670,18 @@
     },
     "resumoLinks": [
       {
-        "de": 228,
-        "ate": 232,
+        "de": 208,
+        "ate": 212,
         "genero": "soul"
       },
       {
-        "de": 234,
-        "ate": 238,
+        "de": 214,
+        "ate": 218,
         "genero": "jazz"
       },
       {
-        "de": 252,
-        "ate": 257,
+        "de": 232,
+        "ate": 237,
         "genero": "blues"
       }
     ],
@@ -8972,7 +8972,7 @@
       "folk",
       "blues"
     ],
-    "resumo": "A música country (pronuncia-se [ˈkʌntri]), ou simplesmente country, é um gênero de música popular dos Estados Unidos, originado no sul do País na década de 1920.",
+    "resumo": "A música country, ou simplesmente country, é um gênero de música popular dos Estados Unidos, originado no sul do País na década de 1920.",
     "resumoFonte": {
       "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica_country",
       "idioma": "pt",

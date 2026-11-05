@@ -7,12 +7,13 @@
 //      do álbum;
 //   2. sem ele, uma faixa do álbum: título do vídeo com o artista e o nome de uma faixa da ficha (o
 //      vídeo mais visto);
-//   3. sem nenhum vídeo que dê para conferir, a página de busca do YouTube para o disco. Pedido do
-//      usuário (05/11/2026): "se não achar links nos lugares comuns, sempre coloque links não oficiais".
+//   3. em música clássica, sem a gravação do disco, outra gravação da mesma obra;
+//   4. por fim, outro vídeo do artista, com esse rótulo no botão.
+// Sempre o vídeo direto, nunca a página de busca (pedido do usuário em 05/11/2026). Sem nada disso, null.
 // Versões ao vivo, covers e remixes ficam de fora (salvo em álbum ao vivo).
-// Grava ficha.naoOficial = { url, tipo: "album" | "faixa" | "busca", titulo, canal }. O site mostra o
+// Grava ficha.naoOficial = { url, tipo: "album" | "faixa" | "obra" | "artista", titulo, canal }. O site mostra o
 // botão não oficial (círculo vermelho do YouTube) só quando a ficha não está em nenhum streaming popular.
-// Fichas só com a busca (tipo "busca") são tentadas de novo a cada execução.
+// Fichas sem vídeo são tentadas de novo a cada execução.
 // Uso: node scripts/buscar-nao-oficiais.js [--ids id1,id2] [--refazer]
 
 const fs = require("fs");
@@ -60,13 +61,13 @@ function nomesArtista(artista) {
 // Clássica: o disco é uma gravação específica, então o intérprete (depois do ";") também precisa aparecer.
 const interpretes = (artista) => (artista.includes(";") ? artista.split(";")[1].split(/,|&/).map((x) => norm(x)).filter((n) => n.length >= 4) : []);
 // Vídeos conferidos à mão e recusados: acharam o nome, mas são outro disco.
-const REJEITADOS = new Set(["7zs-O7tSk5M","5jVcJGdMgsc","qTb12BI2XLE","-kmhffp6Jig","NVrdBz7aDkM","NQnfD-1xZNI"]);
+const REJEITADOS = new Set(["EERLohy--f4","f42tMGPEkCE","Iui_EaHo1r0","dkifyheeyFI","_bfPpb9Fakc","7zs-O7tSk5M","5jVcJGdMgsc","qTb12BI2XLE","-kmhffp6Jig","NVrdBz7aDkM","NQnfD-1xZNI"]);
 // Título sem subtítulo: "Cold Heat: Heavy Funk Rarities, Volume 1" → "Cold Heat"; "Mu (First Part)" → "Mu".
 const tituloCurto = (t) => t.split(/\s*[:(\/]\s*/)[0];
 
 (async () => {
   const fichas = JSON.parse(fs.readFileSync(ARQ, "utf8"));
-  const alvo = fichas.filter((f) => f.titulo && f.artista && foraDosPopulares(f) && (refazer || !f.naoOficial?.url || f.naoOficial.tipo === "busca") && (!ids || ids.has(f.id)));
+  const alvo = fichas.filter((f) => f.titulo && f.artista && foraDosPopulares(f) && (refazer || !f.naoOficial?.url) && (!ids || ids.has(f.id)));
   console.log(`${alvo.length} fichas fora dos streamings populares`);
   let feitos = 0;
   for (const f of alvo) {
@@ -83,17 +84,31 @@ const tituloCurto = (t) => t.split(/\s*[:(\/]\s*/)[0];
     const aoVivo = /live/i.test(f.tipo || "");
     const certos = achados.filter((v) => !REJEITADOS.has(v.id) && (aoVivo || !outraVersao.test(v.titulo)));
     const quemToca = interpretes(f.artista);
-    const comArtista = certos.filter((v) => nomes.some((n) => norm(v.titulo + v.canal).includes(n)) && (!quemToca.length || quemToca.some((n) => norm(v.titulo + v.canal).includes(n))));
-    // Coletânea ("Various Artists") não tem artista para conferir: só vale o título inteiro, com duração.
-    const candidatos = nomes.length ? comArtista.filter((v) => norm(v.titulo).includes(curto.length >= 4 ? curto : album))
-      : certos.filter((v) => album.length >= 8 && norm(v.titulo).includes(album) && duracao);
+    const temNome = (v) => nomes.some((n) => norm(v.titulo + v.canal).includes(n));
+    const comArtista = certos.filter((v) => temNome(v) && (!quemToca.length || quemToca.some((n) => norm(v.titulo + v.canal).includes(n))));
+    // Coletânea ("Various Artists") não tem artista para conferir: só vale o título do disco.
+    const comTitulo = (v) => norm(v.titulo).includes(curto.length >= 4 ? curto : album);
+    const candidatos = nomes.length ? comArtista.filter(comTitulo) : certos.filter((v) => album.length >= 8 && norm(v.titulo).includes(album));
     // Com a duração do disco: de 60% a 160% dela. Sem ela, pelo menos 15 minutos (menos que isso é uma faixa).
     const completo = candidatos.filter((v) => (duracao ? v.duracao >= duracao * 0.6 && v.duracao <= duracao * 1.6 : v.duracao >= 900)).sort((a, b) => b.visto - a.visto)[0];
-    const faixas = (f.faixas || []).map((t) => norm(t.titulo)).filter((t) => t.length >= 5);
-    const faixa = !completo && comArtista.filter((v) => faixas.some((t) => norm(v.titulo).includes(t))).sort((a, b) => b.visto - a.visto)[0];
-    const v = completo || faixa;
-    f.naoOficial = v ? { url: `https://www.youtube.com/watch?v=${v.id}`, tipo: completo ? "album" : "faixa", titulo: v.titulo, canal: v.canal }
-      : { url: `https://www.youtube.com/results?search_query=${encodeURIComponent(`${quem} ${f.titulo}`.trim())}`, tipo: "busca" };
+    const maisVisto = (l) => [...l].sort((a, b) => b.visto - a.visto)[0];
+    const faixas = (f.faixas || []).map((t) => ({ titulo: t.titulo, n: norm(t.titulo) })).filter((t) => t.n.length >= 5);
+    const ehFaixa = (v) => faixas.some((t) => norm(v.titulo).includes(t.n));
+    let faixa = !completo && maisVisto([...comArtista.filter(ehFaixa), ...candidatos]);
+    // Procura as próprias faixas, uma a uma, antes de desistir.
+    if (!completo && !faixa && nomes.length) {
+      for (const t of faixas.slice(0, 5)) {
+        const achou = maisVisto((await videos(`${quem} ${t.titulo}`)).filter((v) => !REJEITADOS.has(v.id) && (aoVivo || !outraVersao.test(v.titulo)) && temNome(v) && norm(v.titulo).includes(t.n)));
+        if (achou) { faixa = achou; break; }
+      }
+    }
+    // Clássica: a mesma obra, com o compositor, em outra gravação.
+    const obra = !completo && !faixa && quemToca.length && maisVisto(certos.filter((v) => temNome(v) && comTitulo(v) && v.duracao >= 600));
+    // Por fim, qualquer vídeo do artista (nome inteiro no título ou no canal).
+    const nomeInteiro = norm(f.artista.split(";").pop().split(",")[0]);
+    const doArtista = !completo && !faixa && !obra && nomes.length && nomeInteiro.length >= 6 && maisVisto(certos.filter((v) => norm(v.titulo + v.canal).includes(nomeInteiro)));
+    const v = completo || faixa || obra || doArtista || null;
+    f.naoOficial = v ? { url: `https://www.youtube.com/watch?v=${v.id}`, tipo: completo ? "album" : faixa ? "faixa" : obra ? "obra" : "artista", titulo: v.titulo, canal: v.canal } : null;
     console.log(`${v ? "✓" : "–"} ${f.id}${v ? ` [${f.naoOficial.tipo}] ${v.titulo} (${v.canal}) ${v.duracao}s de ${duracao}s` : ""}`);
     if (++feitos % 20 === 0) fs.writeFileSync(ARQ, JSON.stringify(fichas, null, 2) + "\n");
   }

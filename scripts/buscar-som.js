@@ -14,6 +14,7 @@
 // Depois rode scripts/ligar-resumos.js para criar os links do texto.
 
 const fs = require("fs");
+const { semPronuncia } = require("./limpar-pronuncia.js");
 const path = require("path");
 
 const arquivo = path.join(__dirname, "..", "data", "generos", "generos.json");
@@ -75,7 +76,7 @@ function secoes(texto) {
 }
 
 function limpar(s) {
-  return s.replace(/\s*\([^()]*\/[^()]*\/[^()]*\)/g, "").replace(/\(\s*[;,]?\s*\)/g, "")
+  return semPronuncia(s).replace(/\s*\([^()]*\/[^()]*\/[^()]*\)/g, "").replace(/\(\s*[;,]?\s*\)/g, "")
     .replace(/\s+/g, " ").replace(/\s+([,.;])/g, "$1").trim();
 }
 

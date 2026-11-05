@@ -13,6 +13,7 @@
 //   fichas já processadas (campo "sobreVerificado") são puladas.
 
 const fs = require("fs");
+const { semPronuncia } = require("./limpar-pronuncia.js");
 const path = require("path");
 
 const ARQ = path.join(__dirname, "..", "data", "albuns", "albuns.json");
@@ -93,7 +94,7 @@ async function introducao(lang, titulo, album) {
   const r = await wiki(lang, { action: "query", prop: "extracts", exintro: "1", explaintext: "1", titles: titulo });
   const p = r?.query?.pages?.[0];
   if (!p?.extract) return null;
-  const frases = p.extract.replace(/\s*\([^()]*\/[^()]*\)/g, "").replace(/\s+/g, " ").trim()
+  const frases = semPronuncia(p.extract).replace(/\s*\([^()]*\/[^()]*\)/g, "").replace(/\s+/g, " ").trim()
     .split(/(?<!\b(?:Dr|Mr|Mrs|St|Jr|Sr|vs|Vol|Vols|vol|No|[A-Z])\.)(?<=[.!?]["”]?)\s+(?=["“(]?[A-ZÀ-Ý0-9])/);
   let texto = frases[0] || "";
   for (let i = 1; i < 3 && i < frases.length && (texto + " " + frases[i]).length <= MAX_SOBRE; i++) texto += " " + frases[i];
