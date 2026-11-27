@@ -1,4 +1,4 @@
-# Tracklore — guia para sessões
+# MsqX (MusiqueExplore) — guia para sessões
 
 Site de curadoria musical ("segundo cérebro" de gêneros). Leia antes de trabalhar:
 

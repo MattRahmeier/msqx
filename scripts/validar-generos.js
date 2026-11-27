@@ -70,7 +70,7 @@ async function conferirWiki() {
   for (let i = 0; i < titulos.length; i += 50) {
     const lote = titulos.slice(i, i + 50);
     const api = `https://en.wikipedia.org/w/api.php?action=query&format=json&redirects=1&titles=${encodeURIComponent(lote.join("|"))}`;
-    const resp = await fetch(api, { headers: { "User-Agent": "Tracklore-validador/0.1" } });
+    const resp = await fetch(api, { headers: { "User-Agent": "MsqX-validador/0.1" } });
     if (!resp.ok) { avisos.push(`Wikipédia respondeu ${resp.status}; links não conferidos — tente de novo mais tarde`); return; }
     const r = await resp.json();
     for (const p of Object.values(r.query.pages)) if (p.missing !== undefined) erros.push(`link quebrado: ${p.title}`);

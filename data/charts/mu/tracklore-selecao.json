@@ -1,6 +1,6 @@
 {
   "id": "tracklore-selecao",
-  "titulo": "Seleção do Tracklore",
+  "titulo": "Seleção do MsqX",
   "indice": null,
   "generos": [
     "bebop",
@@ -22,10 +22,10 @@
     "trilha-filmes",
     "trilha-series"
   ],
-  "fonte": "Tracklore",
+  "fonte": "MsqX",
   "transcricao": {
     "data": "2026-10-29",
-    "metodo": "curadoria do Tracklore para gêneros sem chart do /mu/: discos de artistas citados no artigo da Wikipédia sobre o gênero (o artigo de cada disco está em \"fonte\"); DSBM: os discos do editorial #2 de A Curadoria (Henrique Cruz); Trilha Sonora: discos do acervo marcados como trilha (Soundtrack) no MusicBrainz e duas trilhas de séries com artigo na Wikipédia",
+    "metodo": "curadoria do MsqX para gêneros sem chart do /mu/: discos de artistas citados no artigo da Wikipédia sobre o gênero (o artigo de cada disco está em \"fonte\"); DSBM: os discos do editorial #2 de A Curadoria (Henrique Cruz); Trilha Sonora: discos do acervo marcados como trilha (Soundtrack) no MusicBrainz e duas trilhas de séries com artigo na Wikipédia",
     "status": "revisar"
   },
   "albuns": [

@@ -19,7 +19,7 @@ let token = process.env.DISCOGS_TOKEN;
 if (!token && process.platform === "win32") {
   try { token = execSync('powershell -NoProfile -Command "[Environment]::GetEnvironmentVariable(\'DISCOGS_TOKEN\',\'User\')"').toString().trim(); } catch { /* sem token */ }
 }
-const UA = { "User-Agent": "Tracklore/0.1 (https://github.com/MattRahmeier/tracklore)" };
+const UA = { "User-Agent": "MsqX/0.1 (https://github.com/MattRahmeier/msqx)" };
 const UA_DISCOGS = { ...UA, ...(token && { Authorization: `Discogs token=${token}` }) };
 const dorme = (ms) => new Promise((r) => setTimeout(r, ms));
 const norm = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "");

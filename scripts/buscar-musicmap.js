@@ -16,7 +16,7 @@ const ARQ = path.join(__dirname, "..", "data", "generos", "generos.json");
 const MAPA = require(path.join(__dirname, "..", "data", "generos", "musicmap-mapa.json"));
 
 (async () => {
-  const html = await (await fetch("https://musicmap.info/", { headers: { "User-Agent": "Mozilla/5.0 (Tracklore; https://github.com/MattRahmeier/tracklore)" } })).text();
+  const html = await (await fetch("https://musicmap.info/", { headers: { "User-Agent": "Mozilla/5.0 (MsqX; https://github.com/MattRahmeier/msqx)" } })).text();
   const vizinhos = new Map();
   const ligar = (a, b) => (vizinhos.get(a) ?? vizinhos.set(a, new Set()).get(a)).add(b);
   for (const m of html.matchAll(/class="([a-z]{3}\d{2}(?: [a-z]{3}\d{2})+)"/g)) {

@@ -12,7 +12,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ARQ = path.join(__dirname, "..", "data", "albuns", "albuns.json");
-const UA = { "User-Agent": "Tracklore/0.1 (https://github.com/MattRahmeier/tracklore)", Accept: "application/json" };
+const UA = { "User-Agent": "MsqX/0.1 (https://github.com/MattRahmeier/msqx)", Accept: "application/json" };
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 const norm = (s) => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/&/g, "and").replace(/^the\s+/, "").replace(/[^a-z0-9]+/g, "");
 const semEdicao = (s) => (s || "").replace(/\s*[([][^)\]]*[)\]]/g, "").replace(/\s+-\s+.*$/, "").trim();

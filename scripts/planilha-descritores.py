@@ -45,8 +45,8 @@ for c, (titulo, largura) in enumerate(colunas, 1):
     ws.column_dimensions[cel.column_letter].width = largura
 ws.row_dimensions[1].height = 30
 ws.freeze_panes = "C2"
-ws["G1"].comment = Comment("Preencha com termos da aba Vocabulário (em português ou o termo em inglês), separados por vírgula.", "Tracklore")
-ws["H1"].comment = Comment("Site onde achou os descritores (ex.: RateYourMusic, Last.fm, AllMusic).", "Tracklore")
+ws["G1"].comment = Comment("Preencha com termos da aba Vocabulário (em português ou o termo em inglês), separados por vírgula.", "MsqX")
+ws["H1"].comment = Comment("Site onde achou os descritores (ex.: RateYourMusic, Last.fm, AllMusic).", "MsqX")
 
 
 def links(f, linha):

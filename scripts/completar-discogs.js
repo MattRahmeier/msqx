@@ -29,7 +29,7 @@ let token = process.env.DISCOGS_TOKEN;
 if (!token && process.platform === "win32") {
   try { token = execSync('powershell -NoProfile -Command "[Environment]::GetEnvironmentVariable(\'DISCOGS_TOKEN\',\'User\')"').toString().trim(); } catch { /* sem token */ }
 }
-const UA = { "User-Agent": "Tracklore/0.1 (https://github.com/MattRahmeier/tracklore)", ...(token && { Authorization: `Discogs token=${token}` }) };
+const UA = { "User-Agent": "MsqX/0.1 (https://github.com/MattRahmeier/msqx)", ...(token && { Authorization: `Discogs token=${token}` }) };
 
 let ultimo = 0;
 async function discogs(caminho) {

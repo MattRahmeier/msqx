@@ -1,4 +1,4 @@
-# Tracklore
+# MsqX (MusiqueExplore)
 
 **Curadoria Humana Organizada por IA.**
 

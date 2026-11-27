@@ -17,7 +17,7 @@ const { semPronuncia } = require("./limpar-pronuncia.js");
 const path = require("path");
 
 const ARQ = path.join(__dirname, "..", "data", "albuns", "albuns.json");
-const UA = { "User-Agent": "Tracklore/0.1 (https://github.com/MattRahmeier/tracklore)" };
+const UA = { "User-Agent": "MsqX/0.1 (https://github.com/MattRahmeier/msqx)" };
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 const arg = (nome) => { const i = process.argv.indexOf(nome); return i > -1 ? process.argv[i + 1] : null; };
 const limite = Number(arg("--limite")) || Infinity;

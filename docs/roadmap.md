@@ -2,7 +2,7 @@
 
 ## Fase 0 — Decisões (fechadas em 26/10/2026)
 - [x] **Stack:** site estático (HTML/CSS/JS puro, sem build) + **D3** para o grafo da Visão de Cérebro.
-- [x] **Hospedagem:** GitHub Pages, repositório [`MattRahmeier/tracklore`](https://github.com/MattRahmeier/tracklore) — **privado por enquanto**; tornar público antes de ativar o Pages (plano gratuito exige).
+- [x] **Hospedagem:** GitHub Pages, repositório [`MattRahmeier/msqx`](https://github.com/MattRahmeier/msqx) — **privado por enquanto**; tornar público antes de ativar o Pages (plano gratuito exige).
 - [x] **Streaming:** só links diretos do álbum (`links`), conferidos por `scripts/verificar-links.js`; sem link, sem botão. YouTube Music sempre pela playlist oficial do álbum. Botões em ordem de popularidade do serviço: Spotify, YouTube Music, Apple Music, Deezer, Tidal, Qobuz, Bandcamp (MIDiA 2025 e dados do Brasil; `js/componentes/card-album.js`). *(Revisto em 26/10/2026: antes era híbrido, com link de busca.)*
 - [x] **Escopo do piloto:** gêneros mestres **Blues, Rock, Pop, Metal, Eletrônica, Hip Hop e Jazz**, com subgêneros e ~5 charts completos.
   - Gêneros mestres também têm linhagem entre si: **Blues → Rock → Metal**. Essas origens aparecem no cérebro como uma **linha-guia de conexão** (ver `modelo-de-dados.md`, campo `origens`).
@@ -28,7 +28,7 @@
 - [ ] Scripts de coleta/validação em `scripts/`.
 
 ## Fase 2 — Base do site
-- [x] Nome do site: **Tracklore**; área do grafo: **TrackMap** (renomeados em 26/10/2026).
+- [x] Nome do site: **MsqX** (MusiqueExplore; antes Tracklore, renomeado em 27/11/2026); área do grafo: **TrackMap** (renomeado em 26/10/2026).
 - [x] Seta de voltar à esquerda do título de cada página (`js/componentes/titulo.js`). Nas páginas de gênero do Guia: ← volta ao gênero mestre e ↑ sobe para o gênero logo acima.
 - [x] Esqueleto: `index.html`, barra lateral (vira navegação inferior no celular), tokens em `css/tokens.css`, rotas por hash em `js/app.js` (`#/trackmap`, `#/curadoria`, `#/recomendados`, `#/busca`; parâmetros extras, ex. `#/trackmap/heavy-metal`), carregamento de dados em `js/dados.js`, uma vista por área em `js/vistas/`.
 - [ ] Layout final com tema escuro refinado.
@@ -94,7 +94,7 @@ Decisões em aberto (do usuário):
 Etapas (nesta ordem):
 1. [ ] Publicar o site no endereço escolhido e criar o projeto no Supabase.
 2. [ ] Login e perfil (`perfis`: nome, foto).
-3. [ ] Coleção dentro do Tracklore (`colecao`: usuário, id do disco, status "tenho" / "ouvi" / "quero ouvir"): botões no card e no painel do álbum, página "Minha coleção".
+3. [ ] Coleção dentro do MsqX (`colecao`: usuário, id do disco, status "tenho" / "ouvi" / "quero ouvir"): botões no card e no painel do álbum, página "Minha coleção".
 4. [ ] Reviews (`reviews`: usuário, id do disco, nota, texto, data): seção "Reviews de usuários" no painel, separada da Wikipédia e da crítica; média das notas dos usuários ao lado das notas da crítica.
 5. [ ] Moderação: botão "denunciar", esconder review, limite de reviews por pessoa por dia, painel simples para o dono do site.
 6. [ ] Importar coleção de outros serviços: Discogs e Last.fm pelo nome de usuário (coleção pública, sem login neles); Spotify (álbuns salvos) só com autorização da pessoa no Spotify e limite de 25 usuários até o app ser aprovado. O que vier é cruzado com o acervo do site.

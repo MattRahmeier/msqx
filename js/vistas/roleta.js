@@ -69,7 +69,7 @@ export async function render(el) {
   // O resultado fica acima da roda: a roda é grande e, embaixo, ele poderia ficar fora da tela.
   el.innerHTML = `
     ${tituloPagina("Gire a roleta", "recomendados", { rotuloVoltar: "Voltar ao Guia de Gêneros" })}
-    <p class="vista-sub">Gire e descubra um dos ${fatias.length} gêneros do Tracklore.</p>
+    <p class="vista-sub">Gire e descubra um dos ${fatias.length} gêneros do MsqX.</p>
     <section class="roleta" aria-label="Gire a roleta">
       <div class="roleta-resultado">
         <p class="roleta-nome" aria-hidden="true">&nbsp;</p>

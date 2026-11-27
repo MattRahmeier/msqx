@@ -16,7 +16,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ARQ = path.join(__dirname, "..", "data", "albuns", "albuns.json");
-const UA = { "User-Agent": "Mozilla/5.0 (Tracklore; https://github.com/MattRahmeier/tracklore)" };
+const UA = { "User-Agent": "Mozilla/5.0 (MsqX; https://github.com/MattRahmeier/msqx)" };
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 const norm = (s) => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/&/g, "and").replace(/^the\s+/, "").replace(/[^a-z0-9]+/g, "");
 const semEdicao = (s) => (s || "").replace(/\s*[([][^)\]]*[)\]]/g, "").replace(/\s+-\s+.*$/, "").trim();

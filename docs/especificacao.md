@@ -1,10 +1,10 @@
-# Especificação — Tracklore
+# Especificação — MsqX (MusiqueExplore)
 
 Organizado a partir da página "Musique Scout" do Notion (26/10/2026).
 
 ## Navegação geral
 
-- O nome do site é **Tracklore** (antes "Musique Scout"; renomeado em 26/10/2026).
+- O nome do site é **MsqX** (MusiqueExplore); antes "Musique Scout" e depois "Tracklore" (renomeado em 26/10/2026 e em 27/11/2026).
 - O site abre numa **página inicial** (`#/inicio`) com a marca, o subtítulo e as quatro áreas como opções (ícone, nome e uma linha de descrição). Clicar na marca volta para ela. (Decisão do usuário; o Notion previa abrir na Visão de Cérebro.)
 - Barra de navegação lateral **recolhida, mostrando só os ícones**; ao passar o mouse ou receber foco pelo teclado, ela abre por cima do conteúdo e mostra os nomes. Cada item tem **sempre um ícone e um nome curto**, nesta ordem:
   1. **A Curadoria** (antes "Curadoria da Semana") (área 2 abaixo)

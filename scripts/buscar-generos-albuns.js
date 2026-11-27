@@ -14,7 +14,7 @@ const path = require("path");
 const RAIZ = path.join(__dirname, "..");
 const ARQ = path.join(RAIZ, "data", "albuns", "albuns.json");
 const CACHE = path.join(RAIZ, "fontes", "generos-albuns.json");
-const UA = { "User-Agent": "Tracklore/0.1 (https://github.com/MattRahmeier/tracklore)", Accept: "application/json" };
+const UA = { "User-Agent": "MsqX/0.1 (https://github.com/MattRahmeier/msqx)", Accept: "application/json" };
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 const todos = process.argv.includes("--todos");
 const semMb = process.argv.includes("--sem-mb");

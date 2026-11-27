@@ -18,7 +18,7 @@ const path = require("path");
 const RAIZ = path.join(__dirname, "..");
 const ARQ_FICHAS = path.join(RAIZ, "data", "albuns", "albuns.json");
 const PASTA_CHARTS = path.join(RAIZ, "data", "charts", "mu");
-const UA = { "User-Agent": "Mozilla/5.0 (Tracklore link check; https://github.com/MattRahmeier/tracklore)" };
+const UA = { "User-Agent": "Mozilla/5.0 (MsqX link check; https://github.com/MattRahmeier/msqx)" };
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const arg = (nome) => { const i = process.argv.indexOf(nome); return i > -1 ? process.argv[i + 1] : null; };

@@ -12,7 +12,7 @@ const PASTA_CHARTS = path.join(RAIZ, "data", "charts", "mu");
 const ARQ_FICHAS = path.join(RAIZ, "data", "albuns", "albuns.json");
 const PASTA_CAPAS = path.join(RAIZ, "assets", "img", "capas");
 const MB = "https://musicbrainz.org/ws/2";
-const UA = { "User-Agent": "Tracklore/0.1 ( https://github.com/MattRahmeier/tracklore )", Accept: "application/json" };
+const UA = { "User-Agent": "MsqX/0.1 ( https://github.com/MattRahmeier/msqx )", Accept: "application/json" };
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const arg = (nome) => { const i = process.argv.indexOf(nome); return i > -1 ? process.argv[i + 1] : null; };

@@ -11,7 +11,7 @@ export async function render(el) {
   el.innerHTML = `
     <section class="inicio">
       <header>
-        <h1 class="inicio-marca">Track<span>lore</span></h1>
+        <h1 class="inicio-marca">Msq<span>X</span></h1>
         <p class="inicio-sub">Curadoria Humana Organizada por IA.</p>
       </header>
       <nav class="opcoes" aria-label="Áreas do site">

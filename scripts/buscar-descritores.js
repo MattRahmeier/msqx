@@ -39,7 +39,7 @@ let chave = process.env.LASTFM_API_KEY;
 if (!chave && process.platform === "win32") {
   try { chave = execSync('powershell -NoProfile -Command "[Environment]::GetEnvironmentVariable(\'LASTFM_API_KEY\',\'User\')"').toString().trim(); } catch { /* sem chave */ }
 }
-const UA = { "User-Agent": "Tracklore/0.1 (https://github.com/MattRahmeier/tracklore)" };
+const UA = { "User-Agent": "MsqX/0.1 (https://github.com/MattRahmeier/msqx)" };
 const dorme = (ms) => new Promise((r) => setTimeout(r, ms));
 const norm = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 

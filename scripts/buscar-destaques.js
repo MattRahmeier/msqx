@@ -96,7 +96,7 @@ async function listenbrainz(f) {
   const release = f.musicbrainz?.release;
   if (!release) return null;
   const r = await pedir("musicbrainz", `https://musicbrainz.org/ws/2/release/${release}?fmt=json&inc=recordings`,
-    { headers: { "User-Agent": "Tracklore/0.1 (https://github.com/MattRahmeier/tracklore)" } }, 1100);
+    { headers: { "User-Agent": "MsqX/0.1 (https://github.com/MattRahmeier/msqx)" } }, 1100);
   const gravacoes = (r?.media || []).flatMap((m) => (m.tracks || []).map((t) => ({ id: t.recording?.id, titulo: t.title }))).filter((g) => g.id);
   if (!gravacoes.length) return null;
   const p = await pedir("listenbrainz", "https://api.listenbrainz.org/1/popularity/recording",
@@ -108,7 +108,7 @@ async function listenbrainz(f) {
 const PLATAFORMAS = { youtubeMusic: youtube, deezer, listenbrainz };
 
 // --- links da faixa nos outros serviços ---
-const UA_WEB = { "User-Agent": "Mozilla/5.0 (Tracklore; https://github.com/MattRahmeier/tracklore)" };
+const UA_WEB = { "User-Agent": "Mozilla/5.0 (MsqX; https://github.com/MattRahmeier/msqx)" };
 const texto = async (servico, url) => {
   const espere = 500 - (Date.now() - (ultimo[servico] || 0));
   if (espere > 0) await espera(espere);
