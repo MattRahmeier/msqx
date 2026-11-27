@@ -2,7 +2,7 @@
 
 ## Fase 0 — Decisões (fechadas em 26/10/2026)
 - [x] **Stack:** site estático (HTML/CSS/JS puro, sem build) + **D3** para o grafo da Visão de Cérebro.
-- [x] **Hospedagem:** GitHub Pages, repositório [`MattRahmeier/msqx`](https://github.com/MattRahmeier/msqx) — **privado por enquanto**; tornar público antes de ativar o Pages (plano gratuito exige).
+- [x] **Hospedagem:** GitHub Pages, repositório [`MattRahmeier/msqx`](https://github.com/MattRahmeier/msqx) — público desde 27/11/2026; site no ar em https://mattrahmeier.github.io/msqx/ (Pages, branch `main`, raiz, com `.nojekyll`).
 - [x] **Streaming:** só links diretos do álbum (`links`), conferidos por `scripts/verificar-links.js`; sem link, sem botão. YouTube Music sempre pela playlist oficial do álbum. Botões em ordem de popularidade do serviço: Spotify, YouTube Music, Apple Music, Deezer, Tidal, Qobuz, Bandcamp (MIDiA 2025 e dados do Brasil; `js/componentes/card-album.js`). *(Revisto em 26/10/2026: antes era híbrido, com link de busca.)*
 - [x] **Escopo do piloto:** gêneros mestres **Blues, Rock, Pop, Metal, Eletrônica, Hip Hop e Jazz**, com subgêneros e ~5 charts completos.
   - Gêneros mestres também têm linhagem entre si: **Blues → Rock → Metal**. Essas origens aparecem no cérebro como uma **linha-guia de conexão** (ver `modelo-de-dados.md`, campo `origens`).
